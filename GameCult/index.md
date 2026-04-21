@@ -91,37 +91,3 @@ The homepage pitch and the studio pitch were always the same argument in two dif
     <p>Apparently the studio's patron saint is a hooded little finance goblin. Disturbing, yes. Inaccurate, no.</p>
   </figure>
 </div>
-
-### Current Projects
-
-<div class="gamecult-link-grid">
-  <a class="gamecult-link-card" href="./Aetheria/">
-    <strong>Aetheria</strong>
-    <span>The long-horizon worldbuilding project: frontier survival, cold war economics, ship customization, and player-made history.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Projects/CultPong">
-    <strong>CultPong</strong>
-    <span>An arcade riff that looks at Pong, asks what if this were less respectable, and then keeps making worse decisions from there.</span>
-  </a>
-</div>
-
-### Writing Worth Reading
-
-<div class="gamecult-link-grid">
-  <a class="gamecult-link-card" href="./Blog/hello-world">
-    <strong>Hello, World!</strong>
-    <span>The first proper public note, which is exactly as ceremonial as a project like this deserves.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Blog/rain">
-    <strong>Rain</strong>
-    <span>Aetheria fiction, because no setting earns its keep if it only exists as a design doc and a dream.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Blog/when-we-get-home">
-    <strong>When We Get Home</strong>
-    <span>More Aetheria fiction, this time with the emotional wear and tear that space travel so generously provides.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Blog/cat-and-the-chocolate-factory/">
-    <strong>Cat Applet</strong>
-    <span>An interactive artifact from the archive, because not every strange corner of the site needs to justify itself to management.</span>
-  </a>
-</div>

@@ -600,15 +600,15 @@ a:hover,
 
 .gamecult-composite-shell.has-media {
   grid-template-columns: minmax(280px, 0.88fr) minmax(0, 1.12fr);
-  align-items: stretch;
+  align-items: start;
 }
 
 .gamecult-composite-media {
   min-width: 0;
+  align-self: start;
 }
 
 .gamecult-composite-media > figure {
-  height: 100%;
   margin: 0;
 }
 

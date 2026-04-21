@@ -12,7 +12,15 @@ const routes: Route[] = [
   {
     label: "Studio",
     slug: "index" as FullSlug,
-    matches: ["index", "Studio"],
+    matches: [
+      "index",
+      "Open-Source-Model",
+      "Contributing",
+      "democratizing-gamedev",
+      "a-place-for-everyone",
+      "games-as-a-service",
+      "the-new-hotness",
+    ],
   },
   {
     label: "Projects",

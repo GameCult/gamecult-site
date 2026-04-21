@@ -5,7 +5,7 @@ title: Democratizing Gamedev
 # Democratizing Gamedev
 
 <figure class="gamecult-media-card">
-  <img src="../media/studio/bounty.jpg" alt="A bounty board style image." />
+  <img src="./media/studio/bounty.jpg" alt="A bounty board style image." />
   <p>If a task exists, people should be able to see it, volunteer for it, and be rewarded for completing it.</p>
 </figure>
 

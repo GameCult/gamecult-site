@@ -16,6 +16,6 @@ This section gathers GameCult's active projects and near-term experiments. Aethe
 
 ## Studio Context
 
-- [Open Source Model](/Studio/Open-Source-Model)
-- [A Place for Everyone](/Studio/a-place-for-everyone)
-- [Games as a Service](/Studio/games-as-a-service)
+- [Open Source Model](/Open-Source-Model)
+- [A Place for Everyone](/a-place-for-everyone)
+- [Games as a Service](/games-as-a-service)

@@ -4,12 +4,12 @@ enableToc: false
 cssclasses:
   - gamecult-composite-overview
 compositeSections:
-  - Studio/Open-Source-Model
-  - Studio/Contributing
-  - Studio/democratizing-gamedev
-  - Studio/a-place-for-everyone
-  - Studio/games-as-a-service
-  - Studio/the-new-hotness
+  - Open-Source-Model
+  - Contributing
+  - democratizing-gamedev
+  - a-place-for-everyone
+  - games-as-a-service
+  - the-new-hotness
 ---
 
 # GameCult
@@ -92,12 +92,12 @@ Below is the studio argument in full: how GameCult works, who it is for, and wha
 
 ## Studio
 
-- [Open Source Model](/Studio/Open-Source-Model)
-- [Contributing](/Studio/Contributing)
-- [Democratizing Gamedev](/Studio/democratizing-gamedev)
-- [A Place for Everyone](/Studio/a-place-for-everyone)
-- [Games as a Service](/Studio/games-as-a-service)
-- [The New Hotness](/Studio/the-new-hotness)
+- [Open Source Model](/Open-Source-Model)
+- [Contributing](/Contributing)
+- [Democratizing Gamedev](/democratizing-gamedev)
+- [A Place for Everyone](/a-place-for-everyone)
+- [Games as a Service](/games-as-a-service)
+- [The New Hotness](/the-new-hotness)
 - [Labor Platform](/Docs/labor-platform)
 
 ## Projects

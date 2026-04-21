@@ -24,6 +24,6 @@ The blog is where shorter GameCult writing lives: announcements, notes, fiction,
 
 ## Related Sections
 
-- [Studio](/Studio/)
+- [GameCult](/)
 - [Projects](/Projects/)
 - [Aetheria](/Aetheria/)

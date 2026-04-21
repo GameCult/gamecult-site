@@ -19,6 +19,6 @@ This section holds the operational side of GameCult: how publishing works, how t
 
 ## Studio Context
 
-- [Contributing](/Studio/Contributing)
-- [Open Source Model](/Studio/Open-Source-Model)
+- [Contributing](/Contributing)
+- [Open Source Model](/Open-Source-Model)
 - [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)

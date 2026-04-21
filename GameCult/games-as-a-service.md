@@ -5,7 +5,7 @@ title: Games as a Service
 # Games as a Service
 
 <figure class="gamecult-media-card">
-  <img src="../media/studio/stonks.jpg" alt="The GameCult mascot standing in front of a rising chart." />
+  <img src="./media/studio/stonks.jpg" alt="The GameCult mascot standing in front of a rising chart." />
   <p>The business argument can wear a meme face and still be serious.</p>
 </figure>
 

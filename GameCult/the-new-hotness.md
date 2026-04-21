@@ -5,7 +5,7 @@ title: The New Hotness
 # The New Hotness
 
 <figure class="gamecult-media-card">
-  <img src="../media/studio/debris.jpg" alt="Abstract debris artwork." />
+  <img src="./media/studio/debris.jpg" alt="Abstract debris artwork." />
   <p>The studio pitch was never about chasing the familiar safest idea. It was about trying to make something worth remembering.</p>
 </figure>
 

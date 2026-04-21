@@ -7,7 +7,7 @@ import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [GameCultThemeLock(), GameCultMasthead(), Component.Search()],
+  header: [GameCultThemeLock(), GameCultMasthead()],
   afterBody: [],
   footer: Component.Footer({
     links: {

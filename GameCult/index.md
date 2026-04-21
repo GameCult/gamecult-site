@@ -2,6 +2,47 @@
 title: GameCult
 enableToc: false
 showCompositeJump: false
+sidebarGroups:
+  - title: Studio
+    links:
+      - label: Open Source Model
+        slug: Open-Source-Model
+      - label: Contributing
+        slug: Contributing
+      - label: Democratizing Gamedev
+        slug: democratizing-gamedev
+      - label: A Place for Everyone
+        slug: a-place-for-everyone
+      - label: Games as a Service
+        slug: games-as-a-service
+      - label: The New Hotness
+        slug: the-new-hotness
+      - label: Labor Platform
+        slug: Docs/labor-platform
+  - title: Projects
+    links:
+      - label: Aetheria
+        slug: Aetheria/
+      - label: CultPong
+        slug: Projects/CultPong
+  - title: Writing
+    links:
+      - label: Hello, World!
+        slug: Blog/hello-world
+      - label: Rain
+        slug: Blog/rain
+      - label: When We Get Home
+        slug: Blog/when-we-get-home
+      - label: Cat and the Chocolate Factory
+        slug: Blog/cat-and-the-chocolate-factory/
+  - title: Docs
+    links:
+      - label: Publishing Workflow
+        slug: Docs/Publishing-Workflow
+      - label: Site Architecture
+        slug: Docs/Site-Architecture
+      - label: Labor Platform
+        slug: Docs/labor-platform
 cssclasses:
   - gamecult-composite-overview
 compositeSections:
@@ -86,31 +127,3 @@ The homepage pitch and the studio pitch were always the same argument in two dif
 </div>
 
 Below is the studio argument in full: how GameCult works, who it is for, and what sort of institution it is trying to become without immediately getting ruined by its own ambitions.
-
-## Studio
-
-- [Open Source Model](/Open-Source-Model)
-- [Contributing](/Contributing)
-- [Democratizing Gamedev](/democratizing-gamedev)
-- [A Place for Everyone](/a-place-for-everyone)
-- [Games as a Service](/games-as-a-service)
-- [The New Hotness](/the-new-hotness)
-- [Labor Platform](/Docs/labor-platform)
-
-## Projects
-
-- [Aetheria](/Aetheria/)
-- [CultPong](/Projects/CultPong)
-
-## Writing
-
-- [Hello, World!](/Blog/hello-world)
-- [Rain](/Blog/rain)
-- [When We Get Home](/Blog/when-we-get-home)
-- [Cat and the Chocolate Factory](/Blog/cat-and-the-chocolate-factory/)
-
-## Docs
-
-- [Publishing Workflow](/Docs/Publishing-Workflow)
-- [Site Architecture](/Docs/Site-Architecture)
-- [Labor Platform](/Docs/labor-platform)

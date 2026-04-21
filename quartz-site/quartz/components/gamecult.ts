@@ -27,6 +27,16 @@ export type GameCultPageContext = {
   sidebar?: GameCultSidebarData
 }
 
+type FrontmatterSidebarLink = {
+  label?: unknown
+  slug?: unknown
+}
+
+type FrontmatterSidebarGroup = {
+  title?: unknown
+  links?: unknown
+}
+
 type ExtractedTagline = {
   text: string
   nodeIndex: number
@@ -308,6 +318,59 @@ function extractOverviewGroups(root: Root, sourceSlug: FullSlug): GameCultSideba
   return groups
 }
 
+function extractFrontmatterOverviewGroups(file: QuartzPluginData): GameCultSidebarGroup[] | undefined {
+  if (!file.slug || !Array.isArray(file.frontmatter?.sidebarGroups)) {
+    return undefined
+  }
+
+  const groups = (file.frontmatter.sidebarGroups as FrontmatterSidebarGroup[])
+    .map((rawGroup) => {
+      if (
+        typeof rawGroup !== "object" ||
+        rawGroup === null ||
+        typeof rawGroup.title !== "string" ||
+        !Array.isArray(rawGroup.links)
+      ) {
+        return undefined
+      }
+
+      const links = (rawGroup.links as FrontmatterSidebarLink[])
+        .map((rawLink) => {
+          if (
+            typeof rawLink !== "object" ||
+            rawLink === null ||
+            typeof rawLink.label !== "string" ||
+            typeof rawLink.slug !== "string"
+          ) {
+            return undefined
+          }
+
+          const slug = resolveGameCultReferenceSlug(file.slug as FullSlug, rawLink.slug)
+          if (!slug) {
+            return undefined
+          }
+
+          return {
+            label: rawLink.label,
+            slug,
+          }
+        })
+        .filter((link): link is GameCultSidebarLink => link !== undefined)
+
+      if (links.length === 0) {
+        return undefined
+      }
+
+      return {
+        title: rawGroup.title,
+        links,
+      }
+    })
+    .filter((group): group is GameCultSidebarGroup => group !== undefined)
+
+  return groups.length > 0 ? groups : undefined
+}
+
 function overviewCandidates(currentSlug: FullSlug, includeCurrent = true) {
   if (currentSlug === "index") {
     return includeCurrent ? (["index"] as FullSlug[]) : []
@@ -354,13 +417,14 @@ function extractOverviewData(file: QuartzPluginData): GameCultSidebarData | unde
   }
 
   const tagline = extractTopTagline(file.htmlAst)
+  const frontmatterGroups = extractFrontmatterOverviewGroups(file)
 
   return {
     title: file.frontmatter?.title ?? "GameCult",
     slug: file.slug,
     tagline: tagline?.text,
     summary: extractOverviewSummary(file.htmlAst, tagline),
-    groups: extractOverviewGroups(file.htmlAst, file.slug),
+    groups: frontmatterGroups ?? extractOverviewGroups(file.htmlAst, file.slug),
   }
 }
 

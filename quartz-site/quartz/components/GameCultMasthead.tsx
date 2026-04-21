@@ -8,6 +8,11 @@ type Route = {
   matches: string[]
 }
 
+type ExternalLink = {
+  label: string
+  href: string
+}
+
 const routes: Route[] = [
   {
     label: "Studio",
@@ -41,6 +46,17 @@ const routes: Route[] = [
     label: "Aetheria",
     slug: "Aetheria/index" as FullSlug,
     matches: ["Aetheria"],
+  },
+]
+
+const externalLinks: ExternalLink[] = [
+  {
+    label: "GitHub",
+    href: "https://github.com/GameCult",
+  },
+  {
+    label: "Discord",
+    href: "https://discord.gg/SwaNeVJRSq",
   },
 ]
 
@@ -78,7 +94,7 @@ export default (() => {
           </p>
           {tagline && <p class="gamecult-titlebar-tagline">{tagline}</p>}
         </div>
-        <nav class="gamecult-titlebar-nav" aria-label="GameCult sections">
+        <nav class="gamecult-titlebar-nav" aria-label="GameCult navigation">
           {routes.map((route) => {
             const active = activeRoute?.slug === route.slug
             return (
@@ -90,6 +106,16 @@ export default (() => {
               </a>
             )
           })}
+          {externalLinks.map((link) => (
+            <a
+              href={link.href}
+              class="gamecult-nav-chip"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
       </section>
     )

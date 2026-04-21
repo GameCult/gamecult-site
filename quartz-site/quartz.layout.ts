@@ -36,7 +36,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   left: [GameCultOverviewSidebar()],
-  right: [Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

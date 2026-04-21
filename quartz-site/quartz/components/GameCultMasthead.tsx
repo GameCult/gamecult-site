@@ -10,14 +10,9 @@ type Route = {
 
 const routes: Route[] = [
   {
-    label: "Home",
-    slug: "index" as FullSlug,
-    matches: ["index"],
-  },
-  {
     label: "Studio",
-    slug: "Studio/index" as FullSlug,
-    matches: ["Studio"],
+    slug: "index" as FullSlug,
+    matches: ["index", "Studio"],
   },
   {
     label: "Projects",

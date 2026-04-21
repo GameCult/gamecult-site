@@ -2,6 +2,7 @@ import { Element, ElementContent, Root } from "hast"
 import { toString } from "hast-util-to-string"
 import { QuartzPluginData } from "../plugins/vfile"
 import { FullSlug, simplifySlug, splitAnchor, stripSlashes } from "../util/path"
+import { clone } from "../util/clone"
 
 export type GameCultSidebarLink = {
   label: string
@@ -87,6 +88,50 @@ export function normalizeGameCultSlug(slug: string) {
   return slug.replace(/\/index$/, "")
 }
 
+export function resolveGameCultReferenceSlug(currentSlug: FullSlug, value: string) {
+  const normalized = value.trim().replace(/\.md$/i, "")
+  if (normalized.length === 0) {
+    return undefined
+  }
+
+  const sourceDir = stripSlashes(simplifySlug(currentSlug), true)
+  const url = new URL(normalized, `https://base.com/${sourceDir}`)
+  let [targetPath] = splitAnchor(decodeURIComponent(url.pathname))
+  if (targetPath.endsWith("/")) {
+    targetPath += "index"
+  }
+
+  const full = stripSlashes(targetPath, true)
+  return (full.length > 0 ? full : "index") as FullSlug
+}
+
+function fileBySlug(allFiles: QuartzPluginData[]) {
+  return new Map(
+    allFiles
+      .filter((file) => typeof file.slug === "string")
+      .map((file) => [file.slug as FullSlug, file]),
+  )
+}
+
+export function resolveGameCultSourceFile(
+  currentFile: QuartzPluginData,
+  allFiles: QuartzPluginData[],
+  field: "contentSource" | "sidebarSource" = "contentSource",
+) {
+  const currentSlug = currentFile.slug as FullSlug | undefined
+  const rawValue = currentFile.frontmatter?.[field]
+  if (!currentSlug || typeof rawValue !== "string") {
+    return undefined
+  }
+
+  const resolvedSlug = resolveGameCultReferenceSlug(currentSlug, rawValue)
+  if (!resolvedSlug) {
+    return undefined
+  }
+
+  return fileBySlug(allFiles).get(resolvedSlug)
+}
+
 function isOverviewSlug(slug: string) {
   return slug === "index" || slug.endsWith("/index")
 }
@@ -137,6 +182,15 @@ export function extractTopTagline(root?: Root): ExtractedTagline | undefined {
   }
 
   return undefined
+}
+
+export function stripTopTagline(root?: Root) {
+  const tagline = extractTopTagline(root)
+  if (tagline && root) {
+    root.children.splice(tagline.nodeIndex, 1)
+  }
+
+  return tagline?.text
 }
 
 function resolveLinkTarget(sourceSlug: FullSlug, node: Element) {
@@ -279,17 +333,15 @@ function overviewCandidates(currentSlug: FullSlug, includeCurrent = true) {
 }
 
 export function findSidebarOverviewNote(currentSlug: FullSlug, allFiles: QuartzPluginData[]) {
-  const filesBySlug = new Map(
-    allFiles
-      .filter((file) => typeof file.slug === "string")
-      .map((file) => [file.slug as FullSlug, file]),
-  )
+  const filesBySlug = fileBySlug(allFiles)
 
   const includeCurrent = isOverviewSlug(currentSlug) && currentSlug !== "index"
   for (const candidate of overviewCandidates(currentSlug, includeCurrent)) {
     const match = filesBySlug.get(candidate)
     if (match?.htmlAst) {
-      return match
+      return resolveGameCultSourceFile(match, allFiles, "sidebarSource") ??
+        resolveGameCultSourceFile(match, allFiles, "contentSource") ??
+        match
     }
   }
 
@@ -321,16 +373,21 @@ export function buildGameCultPageContext(
     return {}
   }
 
-  const currentTagline = extractTopTagline(currentRoot)
-  if (currentTagline) {
-    currentRoot.children.splice(currentTagline.nodeIndex, 1)
+  const sourceFile = resolveGameCultSourceFile(currentFile, allFiles)
+  const sourceRoot =
+    sourceFile?.htmlAst && sourceFile.slug !== currentFile.slug
+      ? (clone(sourceFile.htmlAst) as Root)
+      : currentRoot
+  const currentTaglineText = stripTopTagline(sourceRoot)
+  if (sourceRoot !== currentRoot) {
+    stripTopTagline(currentRoot)
   }
 
   const overviewNote = findSidebarOverviewNote(currentFile.slug, allFiles)
   const sidebar = overviewNote ? extractOverviewData(overviewNote) : undefined
 
   return {
-    headerTagline: currentTagline?.text ?? sidebar?.tagline,
+    headerTagline: currentTaglineText ?? sidebar?.tagline,
     sidebar,
   }
 }

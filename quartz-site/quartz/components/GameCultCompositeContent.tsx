@@ -3,9 +3,17 @@ import { Element, ElementContent, Root } from "hast"
 import { htmlToJsx } from "../util/jsx"
 import { QuartzPluginData } from "../plugins/vfile"
 import { clone } from "../util/clone"
-import { normalizeHastElement, resolveRelative, type FullSlug } from "../util/path"
+import {
+  isRelativeURL,
+  normalizeHastElement,
+  resolveRelative,
+  simplifySlug,
+  stripSlashes,
+  type FullSlug,
+} from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import FolderContent from "./pages/FolderContent"
+import { resolveGameCultReferenceSlug, resolveGameCultSourceFile, stripTopTagline } from "./gamecult"
 
 interface Options {
   fallback: "content" | "folder"
@@ -27,27 +35,37 @@ function isElement(node: ElementContent): node is Element {
   return node.type === "element"
 }
 
-function folderSlug(slug: FullSlug) {
-  return slug === "index" ? "" : slug.replace(/\/index$/, "")
-}
+function rebaseSharedSourceElement(
+  rawEl: Element,
+  renderSlug: FullSlug,
+  sourceSlug: FullSlug,
+): Element {
+  const el = clone(rawEl)
+  const sourceBase = `https://base.com/${stripSlashes(simplifySlug(sourceSlug), true)}`
 
-function resolveCompositeSlug(currentSlug: FullSlug, value: string) {
-  const normalized = value
-    .trim()
-    .replace(/^\//, "")
-    .replace(/\.md$/i, "")
-    .replace(/\/$/, "")
+  for (const attr of ["href", "src"] as const) {
+    const rawValue = el.properties?.[attr]
+    if (typeof rawValue !== "string" || !isRelativeURL(rawValue)) {
+      continue
+    }
 
-  if (normalized.length === 0) {
-    return undefined
+    if (attr === "href" && typeof el.properties?.["data-slug"] === "string") {
+      el.properties[attr] = resolveRelative(renderSlug, el.properties["data-slug"] as FullSlug)
+      continue
+    }
+
+    const resolved = new URL(rawValue, sourceBase)
+    const targetPath = stripSlashes(decodeURIComponent(resolved.pathname), true) as FullSlug
+    el.properties[attr] = `${resolveRelative(renderSlug, targetPath)}${resolved.hash}`
   }
 
-  if (normalized.includes("/")) {
-    return normalized as FullSlug
+  if (el.children) {
+    el.children = el.children.map((child) =>
+      isElement(child) ? rebaseSharedSourceElement(child, renderSlug, sourceSlug) : child,
+    )
   }
 
-  const folder = folderSlug(currentSlug)
-  return (folder.length > 0 ? `${folder}/${normalized}` : normalized) as FullSlug
+  return el
 }
 
 function buildSectionContent(parentSlug: FullSlug, file: QuartzPluginData): CompositeSection | undefined {
@@ -120,13 +138,14 @@ function buildSectionContent(parentSlug: FullSlug, file: QuartzPluginData): Comp
 }
 
 function getCompositeSections(
-  fileData: QuartzPluginData,
+  renderSlug: FullSlug,
+  sourceFile: QuartzPluginData,
   allFiles: QuartzPluginData[],
 ): CompositeSection[] {
-  const currentSlug = fileData.slug as FullSlug | undefined
-  const configured = fileData.frontmatter?.compositeSections
+  const sourceSlug = sourceFile.slug as FullSlug | undefined
+  const configured = sourceFile.frontmatter?.compositeSections
 
-  if (!currentSlug || !Array.isArray(configured) || configured.length === 0) {
+  if (!renderSlug || !sourceSlug || !Array.isArray(configured) || configured.length === 0) {
     return []
   }
 
@@ -137,11 +156,13 @@ function getCompositeSections(
   )
 
   return configured
-    .map((entry) => (typeof entry === "string" ? resolveCompositeSlug(currentSlug, entry) : undefined))
+    .map((entry) =>
+      typeof entry === "string" ? resolveGameCultReferenceSlug(sourceSlug, entry) : undefined,
+    )
     .filter((entry): entry is FullSlug => entry !== undefined)
     .map((slug) => bySlug.get(slug))
     .filter((file): file is QuartzPluginData => file !== undefined)
-    .map((file) => buildSectionContent(currentSlug, file))
+    .map((file) => buildSectionContent(renderSlug, file))
     .filter((section): section is CompositeSection => section !== undefined)
 }
 
@@ -150,60 +171,78 @@ export default ((opts?: Partial<Options>) => {
   const DefaultFolderContent = FolderContent()
 
   const GameCultCompositeContent: QuartzComponent = (props: QuartzComponentProps) => {
-  const { fileData, tree, allFiles } = props
-  const baseContent = htmlToJsx(fileData.filePath!, tree) as ComponentChildren
-  const classes: string[] = fileData.frontmatter?.cssclasses ?? []
-  const articleClass = ["popover-hint", ...classes].join(" ")
-  const sections = getCompositeSections(fileData, allFiles)
+    const { fileData, tree, allFiles } = props
+    const renderSlug = fileData.slug as FullSlug | undefined
+    const sourceFile = resolveGameCultSourceFile(fileData, allFiles) ?? fileData
+    const articleRoot =
+      sourceFile.slug && renderSlug && sourceFile.slug !== renderSlug && sourceFile.htmlAst
+        ? (clone(sourceFile.htmlAst) as Root)
+        : (clone(tree as Root) as Root)
+    if (sourceFile.slug && renderSlug && sourceFile.slug !== renderSlug) {
+      articleRoot.children = articleRoot.children.map((child) =>
+        isElement(child)
+          ? rebaseSharedSourceElement(child, renderSlug, sourceFile.slug as FullSlug)
+          : child,
+      ) as ElementContent[]
+    }
+    stripTopTagline(articleRoot)
 
-  if (sections.length === 0) {
-    if (options.fallback === "folder") {
-      return <DefaultFolderContent {...props} />
+    const baseContent = htmlToJsx(
+      sourceFile.filePath ?? fileData.filePath!,
+      articleRoot,
+    ) as ComponentChildren
+    const classes: string[] =
+      sourceFile.frontmatter?.cssclasses ?? fileData.frontmatter?.cssclasses ?? []
+    const articleClass = ["popover-hint", ...classes].join(" ")
+    const sections = renderSlug ? getCompositeSections(renderSlug, sourceFile, allFiles) : []
+
+    if (sections.length === 0) {
+      if (options.fallback === "folder") {
+        return <DefaultFolderContent {...props} />
+      }
+
+      return <article class={articleClass}>{baseContent}</article>
     }
 
-    return <article class={articleClass}>{baseContent}</article>
-  }
-
-  return (
-    <div class="popover-hint gamecult-composite-page">
-      <article class={articleClass}>{baseContent}</article>
-      <nav class="gamecult-composite-jump" aria-label={`${fileData.frontmatter?.title ?? "Page"} sections`}>
-        {sections.map((section) => (
-          <a href={`#${section.sectionId}`} class="gamecult-nav-chip">
-            {section.title}
-          </a>
-        ))}
-      </nav>
-      <div class="gamecult-composite-sections">
-        {sections.map((section) => (
-          <section id={section.sectionId} class="gamecult-composite-section">
-            <div class="gamecult-composite-divider" aria-hidden="true" />
-            <div
-              class={`gamecult-composite-shell${section.leadFigure ? " has-media" : ""}`}
-              data-section-slug={section.slug}
-            >
-              {section.leadFigure && (
-                <div class="gamecult-composite-media">
-                  {section.leadFigure}
-                </div>
-              )}
-              <article class="gamecult-composite-copy">
-                <header class="gamecult-composite-header">
-                  <h2>{section.title}</h2>
-                  <p class="gamecult-composite-standalone">
-                    <a href={resolveRelative(fileData.slug as FullSlug, section.slug)}>
-                      Open standalone note
-                    </a>
-                  </p>
-                </header>
-                <div class="gamecult-composite-body">{section.content}</div>
-              </article>
-            </div>
-          </section>
-        ))}
+    return (
+      <div class="popover-hint gamecult-composite-page">
+        <article class={articleClass}>{baseContent}</article>
+        <nav
+          class="gamecult-composite-jump"
+          aria-label={`${fileData.frontmatter?.title ?? "Page"} sections`}
+        >
+          {sections.map((section) => (
+            <a href={`#${section.sectionId}`} class="gamecult-nav-chip">
+              {section.title}
+            </a>
+          ))}
+        </nav>
+        <div class="gamecult-composite-sections">
+          {sections.map((section) => (
+            <section id={section.sectionId} class="gamecult-composite-section">
+              <div class="gamecult-composite-divider" aria-hidden="true" />
+              <div
+                class={`gamecult-composite-shell${section.leadFigure ? " has-media" : ""}`}
+                data-section-slug={section.slug}
+              >
+                {section.leadFigure && <div class="gamecult-composite-media">{section.leadFigure}</div>}
+                <article class="gamecult-composite-copy">
+                  <header class="gamecult-composite-header">
+                    <h2>{section.title}</h2>
+                    <p class="gamecult-composite-standalone">
+                      <a href={resolveRelative(fileData.slug as FullSlug, section.slug)}>
+                        Open standalone note
+                      </a>
+                    </p>
+                  </header>
+                  <div class="gamecult-composite-body">{section.content}</div>
+                </article>
+              </div>
+            </section>
+          ))}
+        </div>
       </div>
-    </div>
-  )
+    )
   }
 
   return GameCultCompositeContent

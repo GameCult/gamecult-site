@@ -16,7 +16,7 @@ compositeSections:
 
 *"A distributed studio needs clear process more than ceremony."*
 
-The studio section is where the older GameCult pitch turns into a durable shape: why the work is open, how people are meant to participate, what kind of projects fit here, and what the organization has historically promised to build around labor and governance.
+The studio section lays out how GameCult works, who it is for, and what kind of organization it is trying to become.
 
 The stitched studio narrative continues below. The standalone notes are still available from their own routes and in the sidebar.
 
@@ -33,7 +33,7 @@ The stitched studio narrative continues below. The standalone notes are still av
 - [Games as a Service](/Studio/games-as-a-service)
 - [The New Hotness](/Studio/the-new-hotness)
 
-## Publishing Context
+## Studio Infrastructure
 
 - [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)
 - [Site Architecture](/Docs/Site-Architecture)

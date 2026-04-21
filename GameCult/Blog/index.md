@@ -4,15 +4,15 @@ title: Blog
 
 # Blog
 
-*"Shorter updates deserve a workflow that feels lighter than a CMS."*
+*"Shorter writing belongs in public too."*
 
-The blog keeps both kinds of GameCult writing in one place: new transition notes about the site itself, and legacy posts from the Grav era that are still worth reading instead of quietly rotting behind old infrastructure.
+The blog is where shorter GameCult writing lives: announcements, notes, fiction, experiments, and older posts that still deserve to be readable.
 
-## Transition Notes
+## Notes
 
 - [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)
 
-## Legacy Archive
+## Archive
 
 - [Hello, World!](/Blog/hello-world)
 - [Cat and the Chocolate Factory](/Blog/cat-and-the-chocolate-factory/)

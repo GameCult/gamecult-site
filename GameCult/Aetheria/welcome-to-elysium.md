@@ -10,4 +10,4 @@ title: Welcome to Elysium
 
 Humanity has recently arrived in a new galaxy and is ready to explore its wonders, exploit its resources, and build a fresh frontier.
 
-In the older Aetheria pitch, the twelve megacorporations that funded the journey had each established their own colonies, turning the business of empire-building into a literal interstellar contest. Elysium was not just a backdrop. It was a whole new field of economic and political struggle.
+The twelve megacorporations that funded the journey have each established their own colonies, turning the business of empire-building into a literal interstellar contest. Elysium is not just a backdrop. It is a whole new field of economic and political struggle.

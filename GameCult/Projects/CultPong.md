@@ -17,6 +17,6 @@ CultPong is a fast, competitive reinterpretation of the classic formula: 1v1 and
   ></iframe>
 </div>
 
-Instead of treating pong as a joke premise, the older GameCult pitch framed CultPong as a real versus game. Distinct paddle silhouettes let players redirect the ball at unusual angles, while timed thrusts into the ball add a vicious burst of force if the read is correct. The result is less "retro novelty" and more "panic duel with geometry."
+Another new take on a classic formula, CultPong is a fast-paced, competitive 1v1 and 2v2 pong game with a twist. Instead of the straight paddles found in the classic, it features a selection of uniquely shaped unlockable paddles that let players bounce the ball in any direction if their placement is precise enough. On top of that, a bash mechanic lets players thrust toward the ball and impart a vicious amount of momentum if the timing is right. The result is a nail-biting shootout where you have to get inside your opponent's head to survive.
 
-The old site also positioned CultPong as a strong candidate for ranked matchmaking, tournaments, cosmetics, and even mobile play if the latency-handling tech could hold up. That still feels like the right high-level summary for the project here.
+As an online multiplayer game, CultPong is a natural fit for ranked matchmaking, regular tournaments, and enough skins and cosmetics to let players show off a little. Because the matches work so well in short sessions and suit touch input, it is also a strong candidate for mobile play if the latency-handling tech can hold up.

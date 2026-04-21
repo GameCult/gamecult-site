@@ -6,11 +6,11 @@ aliases:
 
 # Labor Platform
 
-The Labor Platform was one of the more concrete systems proposed on the legacy site: a web application that would connect GameCult's public projects, contributor workflow, patron history, and internal governance instead of leaving all of that scattered across private memory and third-party tools.
+The Labor Platform is GameCult's proposed web application for connecting public projects, contributor workflow, patron history, and internal governance instead of leaving all of that scattered across private memory and third-party tools.
 
 ## Architecture
 
-The original concept was a website-integrated app. Users would sign in with GitHub or a GameCult account, interact with pages on the public site, and trigger actions backed by an application and database layer on the server. That backend would talk to GitHub for issue creation, task assignment, and related contribution data.
+The platform is conceived as a website-integrated app. Users would sign in with GitHub or a GameCult account, interact with pages on the public site, and trigger actions backed by an application and database layer on the server. That backend would talk to GitHub for issue creation, task assignment, and related contribution data.
 
 ## Core Areas
 
@@ -18,7 +18,7 @@ The original concept was a website-integrated app. Users would sign in with GitH
 
 Members were meant to be able to browse outstanding issues, volunteer for tasks, and understand the status of the work without spelunking through multiple systems.
 
-The old platform description expected each task entry to expose:
+Each task entry should expose:
 
 - project
 - task name
@@ -48,7 +48,7 @@ Profiles were meant to capture the context that makes task assignment and compen
 
 ## Motions
 
-The legacy platform split motions into two broad classes.
+Motions split into two broad classes.
 
 ### Management
 
@@ -56,7 +56,7 @@ Management motions would affect the organization itself, including thresholds, r
 
 ### Projects
 
-Project motions would result in new issues or bounties. These were the route for bug reports, feature requests, balance ideas, and new content proposals. The original concept used positive-vote thresholds by category:
+Project motions would result in new issues or bounties. These are the route for bug reports, feature requests, balance ideas, and new content proposals. Positive-vote thresholds vary by category:
 
 - bugs: 15%
 - cosmetics: 30%
@@ -71,7 +71,7 @@ The platform described two overlapping point systems: patrons and contributors. 
 
 ### Decay
 
-To avoid permanent historical lock-in, old point balances were meant to decay over time. The original rule was 1% weekly decay on historical balances, rounded down. Project-specific contribution points would not decay.
+To avoid permanent historical lock-in, old point balances are meant to decay over time. The rule is 1% weekly decay on historical balances, rounded down. Project-specific contribution points do not decay.
 
 ### Patrons
 
@@ -101,7 +101,7 @@ Those tiers were also meant to gate things like revenue sharing eligibility and 
 
 ## Revenue Sharing
 
-The legacy proposal divided revenue into three equal portions:
+Revenue is divided into three equal portions:
 
 - one distributed by total contribution points
 - one distributed by contribution points specific to the project that earned the revenue
@@ -120,7 +120,7 @@ The key idea was that some forms of labor are continuous care work, not discrete
 
 ## Workflow
 
-The old workflow was straightforward on paper:
+The workflow is straightforward on paper:
 
 1. a proposal becomes an issue
 2. members volunteer
@@ -129,4 +129,4 @@ The old workflow was straightforward on paper:
 5. a maintainer reviews the work
 6. points and payout are awarded on successful completion
 
-This page is here as a preserved concept document, not as proof that the system already exists in production. But it remains a useful reference for the kind of contributor platform the studio once intended to build.
+This remains a concept document rather than a deployed production system, but it shows the shape of the contributor platform GameCult wants to build.

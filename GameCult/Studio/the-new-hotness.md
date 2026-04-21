@@ -5,10 +5,10 @@ title: The New Hotness
 # The New Hotness
 
 <figure class="gamecult-media-card">
-  <img src="../media/studio/debris.jpg" alt="Legacy debris artwork from the old GameCult site." />
+  <img src="../media/studio/debris.jpg" alt="Abstract debris artwork." />
   <p>The studio pitch was never about chasing the familiar safest idea. It was about trying to make something worth remembering.</p>
 </figure>
 
-Gamers can spot a copycat. If a new project runs on the exact same rails as the current favorite, there is not much reason to jump ship no matter how polished the imitation might be.
+Gamers can spot a copycat no matter how many new spots it has. There is no reason to take a risk on a new game if the current favorite already runs on the same lines.
 
-The older GameCult copy leaned hard into originality, risk, and the cliff-edge feeling of trying to build something new in a crowded space. That language was dramatic, but the instinct behind it still holds up. The studio should not exist just to reproduce what already wins by default. It should exist to take weird swings and make them legible enough that other people can join in.
+So, in pursuit of originality, art, and the sheer cliff-edge adrenaline of hurling ourselves into the void and making something new out of what we find there, the studio should take weird swings instead of polishing safer imitations.

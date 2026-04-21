@@ -6,11 +6,11 @@ title: Games as a Service
 
 <figure class="gamecult-media-card">
   <img src="../media/studio/stonks.jpg" alt="The GameCult mascot standing in front of a rising chart." />
-  <p>The old site made the business argument with a meme on purpose.</p>
+  <p>The business argument can wear a meme face and still be serious.</p>
 </figure>
 
-"Give away the razor, sell the blades" was the older shorthand. The point was not cynicism for its own sake. The point was that networked games and live service infrastructure can create durable value in ways that are harder to clone than a static single-player release.
+"Give away the razor, sell the blades." Games as a Service is big business, and while many software companies have embraced open source, conventional game studios still treat it like a threat. GameCult is taking that leap with flagship multiplayer experiences that are hard to duplicate because of server infrastructure and network effects and easier to monetize without walling off the whole experience.
 
-GameCult's wager was that those multiplayer and service-driven projects could fund the more experimental or narrative-heavy work around them. Revenue from the harder-to-duplicate online experiences could subsidize smaller passion projects that deserved to exist even if their pricing stayed light.
+Revenue from those harder-to-duplicate online experiences can fund more experimental or narrative-heavy work around them. Single-player passion projects only need a nominal install price and a sustainable ecosystem behind them, not a toll booth on the front door.
 
-That idea still belongs in the studio story, especially now that StreamPixels is becoming the primary server workload. The public site can afford to be static precisely because the server is being reserved for the parts of the business that actually need to stay alive and interactive.
+The goal is to make games for everyone and build a business sturdy enough to support them without turning every project into the same bland product.

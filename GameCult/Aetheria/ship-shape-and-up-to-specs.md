@@ -8,6 +8,6 @@ title: Ship-shape and Up to Specs
   <img src="../media/aetheria/longinus.png" alt="Aetheria ship customization artwork." />
 </figure>
 
-You do not have to be an engineer to design a spaceship, but the older GameCult copy made it very clear that it helps.
+You do not have to be an engineer to design a spaceship, but it sure helps with the wrongful death suits.
 
-Aetheria's ship customization pitch was about personality as much as loadout math. Components would have distinct qualities, megacorporations would maintain their own catalogs of parts, and players would be able to tune both performance and presentation. It was a buildcraft fantasy with a sense of humor rather than a dry spreadsheet alone.
+Engage with deep ship customization mechanics where every component has its own personality and every megacorporation has its own catalog of parts for sale, and not for sale. Upgrade your ship, arrange your armaments and accoutrements for maximum efficacy, and fancy up the exterior to suit your tastes. We promise not to judge.

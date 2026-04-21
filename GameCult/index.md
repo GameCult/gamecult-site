@@ -4,30 +4,31 @@ title: GameCult
 
 # GameCult
 
-*"The old CMS is dead. The studio, the stories, and the strange little mascot still have work to do."*
+*"Open source game development, cooperative by instinct, strange by design."*
 
-GameCult is the public front door for the studio: the high-level pitch, the project map, the archive of legacy writing worth keeping, and the bridge out toward deeper publishing surfaces like Aetheria. The goal is not to recreate Grav feature for feature. The goal is to keep the material alive in a workflow that is easier to edit, host, and carry forward.
+GameCult is a distributed game studio building open worlds, competitive experiments, fiction, and the systems that let players and contributors matter. The work spans flagship settings like Aetheria, sharper standalone ideas like CultPong and Metamorphosis, and the operational thinking required to make a studio like this actually function.
 
 <div class="gamecult-home-hero">
   <section class="gamecult-hero-panel">
-    <p class="gamecult-kicker">Quartz on Pages. StreamPixels on the host.</p>
-    <p>The apex site is becoming a static publishing surface again so the server can stop wasting itself on PHP and start doing the job StreamPixels actually needs from it. What stays here is the durable studio story: who we are, what we build, and the older posts and pitches that still matter.</p>
+    <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
+    <p>We believe information wants to be free, contributors deserve visibility, and artistic integrity matters more than sanding every project into something market-safe and forgettable.</p>
+    <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate.</p>
     <div class="gamecult-feature-grid">
       <div class="gamecult-feature-card">
         <h3>Open by default</h3>
         <p>Source, docs, and public writing should be inspectable, linkable, and easy to revise in Git.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>People before polish</h3>
-        <p>The work is meant to welcome programmers, writers, artists, musicians, designers, and the gloriously non-corporate.</p>
+        <h3>Transparent work</h3>
+        <p>Contributors should be able to see what matters, what needs doing, and where the effort goes.</p>
       </div>
       <div class="gamecult-feature-card">
         <h3>Flagships and experiments</h3>
-        <p>Aetheria is still the flagship world, but CultPong, Metamorphosis, and newer experiments belong under the same roof.</p>
+        <p>Aetheria is the flagship world, but CultPong, Metamorphosis, and stranger experiments belong under the same roof.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>Legacy preserved</h3>
-        <p>The old Grav essays and fiction are not being buried with the CMS. They are getting a cleaner second life.</p>
+        <h3>Cooperative instincts</h3>
+        <p>The studio should answer to the people building and supporting the work, not only to executives and middlemen.</p>
       </div>
     </div>
   </section>
@@ -60,10 +61,9 @@ GameCult is the public front door for the studio: the high-level pitch, the proj
 - [CultPong](/Projects/CultPong)
 - [Metamorphosis](/Projects/Metamorphosis)
 
-## Legacy Posts
+## Writing
 
 - [Hello, World!](/Blog/hello-world)
 - [Rain](/Blog/rain)
 - [When We Get Home](/Blog/when-we-get-home)
 - [Cat and the Chocolate Factory](/Blog/cat-and-the-chocolate-factory/)
-- [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)

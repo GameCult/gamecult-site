@@ -4,16 +4,16 @@ title: Docs
 
 # Docs
 
-*"Durable process belongs in files, not in somebody's memory of how the old site used to work."*
+*"Durable process belongs in files, not in private memory."*
 
-This section is for contributor-facing and operational information about the public site and the studio systems around it: how publishing works, how the root site is structured, and how older product ideas like the labor platform were framed.
+This section holds contributor-facing and operational information about GameCult's publishing surface and studio systems: how publishing works, how the root site is structured, and how the labor platform is supposed to function.
 
 ## Site Docs
 
 - [Publishing Workflow](/Docs/Publishing-Workflow)
 - [Site Architecture](/Docs/Site-Architecture)
 
-## Legacy Product Docs
+## Platform Docs
 
 - [Labor Platform](/Docs/labor-platform)
 

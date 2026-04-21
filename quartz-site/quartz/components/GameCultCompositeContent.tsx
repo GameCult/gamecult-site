@@ -229,11 +229,6 @@ export default ((opts?: Partial<Options>) => {
                 <article class="gamecult-composite-copy">
                   <header class="gamecult-composite-header">
                     <h2>{section.title}</h2>
-                    <p class="gamecult-composite-standalone">
-                      <a href={resolveRelative(fileData.slug as FullSlug, section.slug)}>
-                        Open standalone note
-                      </a>
-                    </p>
                   </header>
                   <div class="gamecult-composite-body">{section.content}</div>
                 </article>

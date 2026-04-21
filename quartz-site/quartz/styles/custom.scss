@@ -627,10 +627,7 @@ a:hover,
 }
 
 .gamecult-composite-header {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.7rem 1rem;
-  align-items: start;
+  display: block;
   margin: 0;
   padding: 0.8rem 0.95rem 0.85rem;
   border: 1px solid rgba(89, 183, 255, 0.1);
@@ -650,19 +647,6 @@ a:hover,
   font-weight: 200;
   line-height: 0.92;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.gamecult-composite-standalone {
-  margin: 0;
-  align-self: center;
-  justify-self: end;
-  font-family: var(--titleFont);
-  font-size: 0.76rem;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  line-height: 1.2;
-  text-align: right;
   text-transform: uppercase;
 }
 
@@ -692,16 +676,6 @@ a:hover,
 
   .gamecult-composite-media > figure {
     max-width: 32rem;
-  }
-
-  .gamecult-composite-header {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .gamecult-composite-standalone {
-    align-self: start;
-    justify-self: start;
-    text-align: left;
   }
 }
 
@@ -821,14 +795,7 @@ a:hover,
 
 @media all and ($mobile) {
   .gamecult-composite-header {
-    grid-template-columns: minmax(0, 1fr);
     padding: 0.75rem 0.8rem 0.8rem;
-  }
-
-  .gamecult-composite-standalone {
-    align-self: start;
-    justify-self: start;
-    text-align: left;
   }
 
   .gamecult-composite-body {

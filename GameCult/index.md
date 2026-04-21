@@ -50,31 +50,6 @@ The homepage pitch and the studio pitch were always the same argument in two dif
   </figure>
 </div>
 
-### Navigate the Situation
-
-<div class="gamecult-link-grid">
-  <a class="gamecult-link-card" href="./Studio/Open-Source-Model">
-    <strong>Studio Principles</strong>
-    <span>The operating model, the contributor logic, and the reasons this studio keeps arguing with normal industry assumptions.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Projects/">
-    <strong>Projects</strong>
-    <span>Aetheria, CultPong, Metamorphosis, and the broader category of experiments that somehow became obligations.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Aetheria/">
-    <strong>Aetheria</strong>
-    <span>The flagship universe: megacorporate frontier myth, ship culture, and a galaxy weird enough to justify years of writing.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Blog/">
-    <strong>Writing</strong>
-    <span>Announcements, fiction, notes, and smaller posts that would be wasted if they only existed in chat logs and memory.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Docs/">
-    <strong>Docs</strong>
-    <span>Publishing workflow, site structure, and the labor-platform thinking behind the broader studio model.</span>
-  </a>
-</div>
-
 ### Current Projects
 
 <div class="gamecult-link-grid">

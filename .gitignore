@@ -1,0 +1,28 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Obsidian system and temporary files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache/
+.trash/
+
+# Plugin-specific data (optional but recommended)
+.obsidian-git-data
+.smart-connections/
+.obsidian/copilot-index-*.json
+/.obsidian/plugins/copilot
+/copilot-conversations
+/copilot-custom-prompts
+/.rag/
+/GameCult/Inspiration
+
+# Local tooling and build outputs
+/.tools/
+/.npm-cache/
+/quartz-site/node_modules/
+/quartz-site/public/
+/quartz-site/.quartz-cache/
+/quartz-site/tsconfig.tsbuildinfo

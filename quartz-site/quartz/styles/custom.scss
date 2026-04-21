@@ -569,11 +569,16 @@ a:hover,
 
 .gamecult-composite-section {
   position: relative;
+  padding-top: 0.8rem;
 }
 
-.gamecult-composite-divider {
-  height: 1.35rem;
-  margin: 0 1.2rem -0.25rem;
+.gamecult-composite-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 1.2rem;
+  right: 1.2rem;
+  height: 1.05rem;
   background: linear-gradient(
     90deg,
     rgba(89, 183, 255, 0.1),
@@ -582,6 +587,11 @@ a:hover,
   );
   clip-path: polygon(0 24%, 100% 0, 100% 74%, 70% 100%, 0 82%);
   opacity: 0.75;
+  pointer-events: none;
+}
+
+.gamecult-composite-divider {
+  display: none;
 }
 
 .gamecult-composite-shell {
@@ -592,6 +602,7 @@ a:hover,
   border-radius: 24px;
   border: 1px solid rgba(89, 183, 255, 0.14);
   background: linear-gradient(180deg, rgba(8, 13, 21, 0.8), rgba(8, 13, 21, 0.72));
+  overflow: hidden;
   box-shadow:
     0 22px 44px rgba(0, 0, 0, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.03);
@@ -599,20 +610,25 @@ a:hover,
 }
 
 .gamecult-composite-shell.has-media {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(17rem, 26rem) minmax(0, 1fr);
+  gap: 1.25rem;
   align-items: start;
 }
 
 .gamecult-composite-media {
   min-width: 0;
   align-self: start;
-  flex: 0 0 clamp(18rem, 38%, 28rem);
-  max-width: clamp(18rem, 38%, 28rem);
+  max-width: 100%;
 }
 
 .gamecult-composite-media > figure {
   margin: 0;
   width: 100%;
+}
+
+.gamecult-composite-media > figure.gamecult-media-card {
+  display: block;
 }
 
 .gamecult-composite-media > figure img {
@@ -623,7 +639,6 @@ a:hover,
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
-  flex: 1 1 20rem;
   min-width: 0;
   padding: 0.15rem 0.1rem 0.2rem;
 }
@@ -641,6 +656,7 @@ a:hover,
   box-shadow:
     0 14px 28px rgba(0, 0, 0, 0.16),
     inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  min-width: 0;
 }
 
 .gamecult-composite-header h2 {
@@ -665,6 +681,12 @@ a:hover,
   line-height: 1.2;
   text-align: right;
   text-transform: uppercase;
+}
+
+.gamecult-composite-header > *,
+.gamecult-composite-body,
+.gamecult-composite-copy {
+  min-width: 0;
 }
 
 .gamecult-composite-body > :first-child {
@@ -795,13 +817,7 @@ a:hover,
 
 @media all and (max-width: 1200px) {
   .gamecult-composite-shell.has-media {
-    display: grid;
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .gamecult-composite-media {
-    flex: none;
-    max-width: 32rem;
   }
 
   .gamecult-composite-media > figure {
@@ -832,7 +848,7 @@ a:hover,
   }
 
   .gamecult-composite-divider {
-    margin: 0 0.7rem -0.2rem;
+    display: none;
   }
 
   .gamecult-composite-header {

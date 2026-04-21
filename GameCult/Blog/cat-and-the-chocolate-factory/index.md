@@ -9,10 +9,10 @@ A text-based adventure in the world of Aetheria: Terminus. Play as Cat and navig
 
 <div class="gamecult-embed-frame">
   <iframe
-    src="/Blog/cat-and-the-chocolate-factory/play/"
+    src="/static/applets/cat-and-the-chocolate-factory/index.html"
     title="Cat and the Chocolate Factory interactive fiction"
     loading="lazy"
   ></iframe>
 </div>
 
-If the embedded version gives you trouble, [open the adventure directly](/Blog/cat-and-the-chocolate-factory/play/).
+If the embedded version gives you trouble, <a href="/static/applets/cat-and-the-chocolate-factory/index.html" data-router-ignore>open the adventure directly</a>.

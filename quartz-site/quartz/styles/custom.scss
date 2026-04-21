@@ -599,17 +599,20 @@ a:hover,
 }
 
 .gamecult-composite-shell.has-media {
-  grid-template-columns: minmax(280px, 0.88fr) minmax(0, 1.12fr);
+  display: flex;
   align-items: start;
 }
 
 .gamecult-composite-media {
   min-width: 0;
   align-self: start;
+  flex: 0 0 clamp(18rem, 38%, 28rem);
+  max-width: clamp(18rem, 38%, 28rem);
 }
 
 .gamecult-composite-media > figure {
   margin: 0;
+  width: 100%;
 }
 
 .gamecult-composite-media > figure img {
@@ -620,6 +623,7 @@ a:hover,
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+  flex: 1 1 20rem;
   min-width: 0;
   padding: 0.15rem 0.1rem 0.2rem;
 }
@@ -791,7 +795,13 @@ a:hover,
 
 @media all and (max-width: 1200px) {
   .gamecult-composite-shell.has-media {
+    display: grid;
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gamecult-composite-media {
+    flex: none;
+    max-width: 32rem;
   }
 
   .gamecult-composite-media > figure {

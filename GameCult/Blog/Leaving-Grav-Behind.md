@@ -1,7 +1,5 @@
 ---
 title: Leaving Grav Behind
-aliases:
-  - blog/leaving-grav-behind
 ---
 
 # Leaving Grav Behind

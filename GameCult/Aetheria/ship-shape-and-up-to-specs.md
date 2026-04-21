@@ -1,7 +1,5 @@
 ---
 title: Ship-shape and Up to Specs
-aliases:
-  - aetheria/ship-shape-and-up-to-specs
 ---
 
 # Ship-shape and Up to Specs

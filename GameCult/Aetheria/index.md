@@ -1,7 +1,5 @@
 ---
 title: Aetheria
-aliases:
-  - aetheria
 ---
 
 # Aetheria

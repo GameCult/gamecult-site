@@ -1,7 +1,5 @@
 ---
 title: Democratizing Gamedev
-aliases:
-  - studio/democratizing-gamedev
 ---
 
 # Democratizing Gamedev

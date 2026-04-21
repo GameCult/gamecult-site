@@ -1,7 +1,5 @@
 ---
 title: A Different Sort of Space
-aliases:
-  - aetheria/a-different-sort-of-space
 ---
 
 # A Different Sort of Space

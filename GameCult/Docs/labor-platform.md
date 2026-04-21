@@ -2,7 +2,6 @@
 title: Labor Platform
 aliases:
   - labor-platform
-  - docs/labor-platform
 ---
 
 # Labor Platform

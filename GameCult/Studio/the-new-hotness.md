@@ -1,7 +1,5 @@
 ---
 title: The New Hotness
-aliases:
-  - studio/the-new-hotness
 ---
 
 # The New Hotness

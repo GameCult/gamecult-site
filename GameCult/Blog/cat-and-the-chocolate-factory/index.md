@@ -1,8 +1,6 @@
 ---
 title: Cat and the Chocolate Factory
 date: 2022-07-01
-aliases:
-  - blog/cat-and-the-chocolate-factory
 ---
 
 # Cat and the Chocolate Factory

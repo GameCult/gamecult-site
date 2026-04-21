@@ -1,8 +1,6 @@
 ---
 title: When We Get Home
 date: 2020-12-14
-aliases:
-  - blog/when-we-get-home
 tags:
   - aetheria
   - fiction

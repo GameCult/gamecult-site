@@ -1,7 +1,5 @@
 ---
 title: CultPong
-aliases:
-  - projects/cultpong
 ---
 
 # CultPong

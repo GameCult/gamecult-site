@@ -1,7 +1,5 @@
 ---
 title: Games as a Service
-aliases:
-  - studio/games-as-a-service
 ---
 
 # Games as a Service

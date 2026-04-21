@@ -1,7 +1,5 @@
 ---
 title: Hello, World!
-aliases:
-  - blog/hello-world
 ---
 
 # Welcome, GameCult Initiates

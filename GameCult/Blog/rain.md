@@ -1,8 +1,6 @@
 ---
 title: Rain
 date: 2020-12-14
-aliases:
-  - blog/rain
 tags:
   - aetheria
   - fiction

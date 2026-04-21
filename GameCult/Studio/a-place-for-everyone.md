@@ -1,7 +1,5 @@
 ---
 title: A Place for Everyone
-aliases:
-  - studio/a-place-for-everyone
 ---
 
 # A Place for Everyone

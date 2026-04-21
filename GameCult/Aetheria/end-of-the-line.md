@@ -1,7 +1,5 @@
 ---
 title: End of the Line
-aliases:
-  - aetheria/end-of-the-line
 ---
 
 # End of the Line

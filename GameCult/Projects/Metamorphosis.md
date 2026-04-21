@@ -1,7 +1,5 @@
 ---
 title: Metamorphosis
-aliases:
-  - projects/metamorphosis
 ---
 
 # Metamorphosis

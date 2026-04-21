@@ -1,7 +1,5 @@
 ---
 title: Blog
-aliases:
-  - blog
 ---
 
 # Blog

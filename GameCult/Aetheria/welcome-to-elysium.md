@@ -1,7 +1,5 @@
 ---
 title: Welcome to Elysium
-aliases:
-  - aetheria/welcome-to-elysium
 ---
 
 # Welcome to Elysium

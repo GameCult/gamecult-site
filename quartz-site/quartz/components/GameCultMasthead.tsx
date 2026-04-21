@@ -107,17 +107,19 @@ export default (() => {
           {tagline && <p class="gamecult-titlebar-tagline">{tagline}</p>}
         </div>
         <nav class="gamecult-titlebar-nav" aria-label="GameCult navigation">
-          {routes.map((route) => {
-            const active = activeRoute?.slug === route.slug
-            return (
-              <a
-                href={resolveRelative(currentSlug, route.slug)}
-                class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
-              >
-                {route.label}
-              </a>
-            )
-          })}
+          <div class="gamecult-titlebar-links">
+            {routes.map((route) => {
+              const active = activeRoute?.slug === route.slug
+              return (
+                <a
+                  href={resolveRelative(currentSlug, route.slug)}
+                  class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
+                >
+                  {route.label}
+                </a>
+              )
+            })}
+          </div>
           <div class="gamecult-titlebar-community" aria-label="GameCult community links">
             {externalLinks.map((link) => (
               <a

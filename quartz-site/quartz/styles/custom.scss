@@ -154,9 +154,16 @@ body {
 
 .gamecult-titlebar-nav {
   display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.gamecult-titlebar-links {
+  display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  align-items: center;
+  min-width: 0;
 }
 
 .gamecult-nav-chip {
@@ -184,27 +191,35 @@ body {
 .gamecult-titlebar-community {
   display: flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.55rem;
   margin-left: auto;
+  flex: 0 0 auto;
 }
 
 .gamecult-nav-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
-  color: rgba(220, 231, 246, 0.88);
+  padding: 0.1rem;
+  line-height: 0;
+  color: rgba(236, 242, 250, 0.96);
 }
 
 .gamecult-nav-icon svg {
-  width: 1.08rem;
-  height: 1.08rem;
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
   fill: currentColor;
+  filter: drop-shadow(0 0 0.3rem rgba(89, 183, 255, 0.18));
 }
 
 .gamecult-nav-icon:hover {
   color: #fff3e8;
+}
+
+.gamecult-nav-icon:hover svg,
+.gamecult-nav-icon:focus-visible svg {
+  filter: drop-shadow(0 0 0.35rem rgba(255, 138, 42, 0.28));
 }
 
 .page > #quartz-body .center > .popover-hint {
@@ -521,6 +536,16 @@ a:hover,
   .gamecult-titlebar-title,
   .gamecult-titlebar-title a {
     font-size: 1.9rem;
+  }
+
+  .gamecult-titlebar-nav {
+    gap: 0.75rem;
+  }
+
+  .gamecult-titlebar-community {
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
   }
 
   .page > #quartz-body .center > article {

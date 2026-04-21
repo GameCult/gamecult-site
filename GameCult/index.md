@@ -125,5 +125,3 @@ The homepage pitch and the studio pitch were always the same argument in two dif
     <span>An interactive artifact from the archive, because not every strange corner of the site needs to justify itself to management.</span>
   </a>
 </div>
-
-Below is the studio argument in full: how GameCult works, who it is for, and what sort of institution it is trying to become without immediately getting ruined by its own ambitions.

@@ -125,12 +125,13 @@ export default (() => {
               <a
                 href={link.href}
                 class="gamecult-nav-icon"
+                style={{ width: "5rem", height: "5rem" }}
                 target="_blank"
                 rel="noreferrer noopener"
                 aria-label={link.label}
                 title={link.label}
               >
-                <svg viewBox={link.icon.viewBox} aria-hidden="true">
+                <svg viewBox={link.icon.viewBox} width="64" height="64" aria-hidden="true">
                   <path d={link.icon.path} />
                 </svg>
               </a>

@@ -187,29 +187,30 @@ body {
   display: flex;
   align-items: flex-start;
   align-self: flex-start;
-  gap: 1.15rem;
+  gap: 1.25rem;
   margin-left: auto;
   flex: 0 0 auto;
-  padding-top: 0.15rem;
+  padding-top: 0;
 }
 
 .gamecult-nav-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 4.35rem;
-  height: 4.35rem;
+  width: 5rem;
+  height: 5rem;
   padding: 0;
   line-height: 0;
   color: rgba(236, 242, 250, 0.96);
+  flex: 0 0 auto;
 }
 
 .gamecult-nav-icon svg {
   display: block;
-  width: 3.4rem;
-  height: 3.4rem;
+  width: 4rem;
+  height: 4rem;
   fill: currentColor;
-  filter: drop-shadow(0 0 0.55rem rgba(89, 183, 255, 0.28));
+  filter: drop-shadow(0 0 0.7rem rgba(89, 183, 255, 0.32));
 }
 
 .gamecult-nav-icon:hover {
@@ -555,6 +556,12 @@ a:hover,
   color: rgba(183, 199, 217, 0.86);
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+body[data-slug="index"] .gamecult-composite-overview > h2:has(+ .gamecult-link-grid),
+body[data-slug="index"] .gamecult-composite-overview > h3:has(+ .gamecult-link-grid),
+body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
+  display: none !important;
 }
 
 .gamecult-composite-page {

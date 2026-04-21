@@ -8,6 +8,6 @@ title: Welcome to Elysium
   <img src="../media/aetheria/elysium.png" alt="Aetheria concept art showing Elysium." />
 </figure>
 
-Humanity has recently arrived in a new galaxy and is ready to explore its wonders, exploit its resources, and build a fresh frontier.
+Humanity has arrived in a new galaxy already partitioned by the twelve megacorporations that financed the journey. Each has planted its own colony, raised its own banner, and started treating frontier settlement like a market war with planets attached, because apparently we can cross intergalactic space without outgrowing that habit.
 
-The twelve megacorporations that funded the journey have each established their own colonies, turning the business of empire-building into a literal interstellar contest. Elysium is not just a backdrop. It is a whole new field of economic and political struggle.
+Elysium is not just a backdrop. It is a contested frontier where exploration, extraction, expansion, and empire-building all happen at once.

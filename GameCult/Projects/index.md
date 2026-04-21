@@ -4,9 +4,9 @@ title: Projects
 
 # Projects
 
-*"Different projects need different publishing surfaces, but they should still feel like one studio."*
+*"A studio should be able to house a flagship universe and a dangerous side project without pretending they are the same thing."*
 
-This section gathers GameCult's active projects and near-term experiments. Aetheria carries the broadest world and the deepest publishing surface; CultPong and Metamorphosis are tighter pitches with sharper edges. They still belong to the same studio and the same worldview.
+This section gathers GameCult's active projects and near-term experiments. Aetheria is the long-horizon worldbuilding project. CultPong is what happens when someone looks at Pong and decides the paddles are not nearly irresponsible enough. Metamorphosis turns creature collection into something that can live in a chat window without dying of embarrassment. Different scales, same studio instincts.
 
 ## Current Projects
 

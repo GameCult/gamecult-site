@@ -8,6 +8,6 @@ title: A Different Sort of Space
   <img src="../media/aetheria/aetheria-space.png" alt="A stylized Aetheria space scene." />
 </figure>
 
-The great void beyond has never looked so welcoming. Aetheria makes no attempt at realism, instead presenting a stylized vision of space where gravity wells can become literal wells and scale can bend when it serves the experience.
+Aetheria does not chase hard realism. It treats space as a place of awe, menace, and expressive scale, where gravity can become architecture and the void can feel almost inviting. Realism has enough lobbyists already.
 
-The point is atmosphere and wonder, not realism for its own sake.
+That choice is deliberate. The setting wants wonder first: a galaxy that looks dreamlike enough to be memorable and physical enough to feel dangerous.

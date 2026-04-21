@@ -11,6 +11,6 @@ title: Games as a Service
 
 "Give away the razor, sell the blades." Games as a Service is big business, and while many software companies have embraced open source, conventional game studios still treat it like a threat. GameCult is taking that leap with flagship multiplayer experiences that are hard to duplicate because of server infrastructure and network effects and easier to monetize without walling off the whole experience.
 
-Revenue from those harder-to-duplicate online experiences can fund more experimental or narrative-heavy work around them. Single-player passion projects only need a nominal install price and a sustainable ecosystem behind them, not a toll booth on the front door.
+That kind of flagship can fund stranger, smaller, or more narrative work around it. Single-player passion projects need a sustainable ecosystem behind them, not a toll booth on the front door.
 
-The goal is to make games for everyone and build a business sturdy enough to support them without turning every project into the same bland product.
+The point is not to mimic the worst habits of live-service games. It is to use recurring revenue where it makes sense so the rest of the catalog gets to stay adventurous.

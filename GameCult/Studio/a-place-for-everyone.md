@@ -9,8 +9,8 @@ title: A Place for Everyone
   <p>Game development is not just code. It is art, writing, music, design, worldbuilding, ops, and all the connective tissue in between.</p>
 </figure>
 
-There are many talented people out there who are not cut out for 9-to-5 life or the corporate version of "professional." We welcome those people. We are those people. GameCult values the unusual.
+There are many talented people out there who are not cut out for 9-to-5 life, office theater, or the corporate version of "professional." We welcome those people. We are those people. GameCult values the unusual and has no interest in sanding it flat.
 
-The magic of game development is that it incorporates nearly every creative pursuit ever invented: storytelling, drawing, music, design, architecture, community care, production, and the connective tissue between them. Writing good code has never been enough.
+Game development is one of the few art forms big enough to use almost everything: storytelling, drawing, music, design, architecture, community care, production, research, and all the connective tissue between them. Writing good code has never been enough.
 
-So the promise of the studio is not just "open source games." It is a creative space where unusual people and unusual combinations of skills can actually count.
+That breadth is the point. A studio like this should have room for hybrid talents, difficult weirdos, and people whose best work happens outside conventional boxes.

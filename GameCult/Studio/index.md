@@ -14,11 +14,11 @@ compositeSections:
 
 # Studio
 
-*"A distributed studio needs clear process more than ceremony."*
+*"A distributed studio needs a clear model, not corporate theater and a Slack emoji pack."*
 
-The studio section lays out how GameCult works, who it is for, and what kind of organization it is trying to become.
+The studio section lays out how GameCult works, who it is for, and what kind of organization it intends to be. Open process, contributor-visible work, and real community stake are not side ideas here. They are the point.
 
-The stitched studio narrative continues below. The standalone notes are still available from their own routes and in the sidebar.
+The sections below read as one argument and can also be opened on their own.
 
 ## How We Work
 

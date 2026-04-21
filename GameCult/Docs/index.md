@@ -4,9 +4,9 @@ title: Docs
 
 # Docs
 
-*"Durable process belongs in files, not in private memory."*
+*"Process should survive memory, turnover, and sleep deprivation."*
 
-This section holds contributor-facing and operational information about GameCult's publishing surface and studio systems: how publishing works, how the root site is structured, and how the labor platform is supposed to function.
+This section holds the operational side of GameCult: how publishing works, how the root site is structured, and how the labor platform is designed.
 
 ## Site Docs
 

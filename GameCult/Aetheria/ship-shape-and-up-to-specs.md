@@ -8,6 +8,6 @@ title: Ship-shape and Up to Specs
   <img src="../media/aetheria/longinus.png" alt="Aetheria ship customization artwork." />
 </figure>
 
-You do not have to be an engineer to design a spaceship, but it sure helps with the wrongful death suits.
+Ships in Aetheria are tools, homes, status symbols, and bad ideas waiting to happen. You do not have to be an engineer to design one, but it sure helps with the wrongful death suits.
 
-Engage with deep ship customization mechanics where every component has its own personality and every megacorporation has its own catalog of parts for sale, and not for sale. Upgrade your ship, arrange your armaments and accoutrements for maximum efficacy, and fancy up the exterior to suit your tastes. We promise not to judge.
+Customization goes deep: components with distinct behavior, megacorporate manufacturers with their own tastes and specialties, and plenty of room to tune a vessel for violence, trade, survival, or style. Build for efficiency if you must. Build for personality if you have any self-respect.

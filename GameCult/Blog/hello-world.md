@@ -4,48 +4,44 @@ title: Hello, World!
 
 # Welcome, GameCult Initiates
 
-You have arrived at the hallowed sanctum of GameCult, home of the GameDev Gods, the great creative beings that hail from all over this world. Here, we are benevolent overlords to our players, and in this first act of outreach, we will share with you our knowledge.
+GameCult is a distributed studio built by programmers, writers, artists, composers, designers, and other useful weirdos. The world is our office, partly because the internet is where the work happens and partly because trying to keep everyone in one building would probably be a mistake.
 
-Now that we got all the cheese out of the way, let's get to business.
+We care about open development, stranger ideas than the market usually rewards, and a studio structure that gives players and contributors more influence than a comment box nobody reads. Ambitious? Absolutely. Slightly inadvisable? Probably. Still worth doing? Also yes.
 
-GameCult consists of a highly diverse team of creatives with an arsenal of skills such as game design, programming, writing, composing, and anything else you can think of. The world is our office, thanks to our flat, distributed structure and the fact that all of our collaborative work is done online through Discord and GitHub.
-
-We at GameCult believe in open source. We go as far as to stake our business on it. And... it works. We are not the only company to use this model and make money. But, as of yet, no game studios have adopted it. That is where we come in. GameCult as the first entirely open source game studio.
+We believe in open source strongly enough to stake the business on it. That does not mean every draft is public or every asset is free of constraints. It means the default direction is toward legibility, participation, and a development model that does not hide the whole machine behind a locked door.
 
 Now, what does that look like exactly?
 
 ## The Model
 
-Our open source model allows players to have a voice in the way our games are developed. Have a cool idea for a mod? Written a killer storyline? Have suggestions for in-game items and loot? All it takes is having, or knowing someone with, the skills to create the additional content and adding it to the game.
+Our model lets players and contributors do more than clap from the sidelines. Have a strong idea for a mod, storyline, item set, balance change, or feature? The goal is to make those ideas legible, actionable, and attachable to real work instead of leaving them to die in chat.
 
-I can see what you are thinking. Mind powers are only one of the benefits of becoming an adept. You are thinking, "if your games are open source, aren't people just going to steal all your work and sell their own version?" This might be true for regular mortals, but our flagship games rely heavily on networked player interactions. Selling your own version is a silly idea for the same reason you cannot just go and make a better Twitter: the existing one has all the users. Nobody is going to want to tweet into a void no matter how much better the platform might be. Single-player games are a little different. For those, we would have to use a less permissive license on some assets. That will not stop piracy, but then again nothing can.
+The obvious response is, "won't someone just steal all your work?" For heavily networked games, not really. You can fork code. Forking infrastructure, community momentum, and the fact that the players are already somewhere else is harder. Single-player projects are a different problem, and some assets may need stricter licensing, but hiding the whole studio is not a serious answer.
 
-Now, of course, as a fledgling company we are not able to put all you interested folks on the payroll just yet. We planned to incorporate a bounty system into the GameCult Labor Platform to assign tasks and track who added what, and that system would open up once we had some cash to share. Still, in the meantime, you could join our Discord or send us an email if you were interested in helping out. Once we are able to bring the bounty system online, we will make sure everyone gets updated. Watch this blog for more info.
+The long-term plan is a labor platform that turns proposals into issues, issues into assignments, and contributions into real credit, compensation, and governance weight. In other words, the dream is to replace vague appreciation with actual structure.
 
-Well, that was a lot of talk about money. Let's get to the fun part. After all, what is a game company without games? We currently have three games plus a prequel in the works: Aetheria and its prequel, Metamorphosis, and CultPong.
+Of course, a studio model only matters if the games are worth caring about. GameCult's projects stretch from a flagship science-fantasy universe to smaller, sharper experiments that can get into players' hands sooner and stress-test the parts of our ambition that deserve to survive.
 
 ## Aetheria
 
-Our first game, Aetheria, is the largest of the three projects. Our goal with Aetheria is to revolutionize how people see MMOs by having the player be able to directly influence the in-game world. Player actions can create meaningful and persistent changes to the in-game history and path to the future.
+Our first major project, Aetheria, is the largest of the lot: part frontier survival story, part megacorporate cold war, part action-RPG sandbox, part excuse to spend years making a galaxy weird enough to deserve all the writing.
 
-Our goal is for Aetheria to support two different game modes in the same game world. The first is a large-scale multiplayer real-time strategy game in which player corporations compete with each other for economic dominance, while the second game mode is more akin to the traditional action role-playing game. This second game mode allows players to explore the galaxy, a galaxy made all the more vibrant by the clashes of player corporations, while also engaging in combat, trade, and quests. Ambitious, no?
+At full scale, Aetheria supports two modes in the same setting: a large-scale multiplayer strategy game driven by competing corporations, and an action-RPG layer where players explore that same galaxy through combat, trade, quests, and frontier survival. Ambitious, yes. We noticed.
 
-Because of that ambition, and because we want to make sure we can develop a polished game we are proud of, we have other shorter-term projects that we can release in the meantime. Our first shorter-term project would be a prequel to Aetheria that involves players in the events that precipitated the social and economic environment the main game takes place in.
+Because that vision is enormous, we also pursue shorter-term projects that sharpen the studio's skills and get distinctive work out sooner. The first of those is an Aetheria prequel that explores the social and economic conditions shaping the wider setting without making the first release carry the full weight of our galactic ambition problem.
 
 ### Aetheria: L'appel du Vide
 
-_L'appel du Vide_ is a single-player experience where you play as a private investigator who gets involved in events spanning the entire colonization fleet. This game introduces the ARPG formula that will be used in one of the MMO's gameplay modes, but without the immense overhead such a project involves. It is a story-driven experience that lets the player dive into the world of Aetheria while also remaining heavily engaging. _L'appel du Vide_ is an hors d'oeuvre, intended to hone our skills and whet the appetites of gamers for what is to come.
+_L'appel du Vide_ is a single-player experience about a private investigator drawn into events spanning the entire colonization fleet. It introduces the ARPG formula that later lives inside the wider universe, but without requiring the first release to shoulder the sort of overhead that eats budgets and souls. It works as an hors d'oeuvre: a sharp, story-driven entry point that hones our skills and whets appetites for what is coming.
 
 ## Metamorphosis
 
-The second of our shorter-term projects is the Twitch extension game, Metamorphosis. Much like the classic game of most of our childhoods, Metamorphosis allows stream viewers to capture and train a host of adorable creatures to battle on-stream against other equally adorable creatures. This would be a revolution in stream extensions, as it would be heavily interactive, beautifully rendered, and feature rich.
+Metamorphosis is the Twitch extension project. It lets stream viewers capture and train adorable creatures, then battle on stream against other equally adorable creatures. The goal is a stream extension that is not just present, but genuinely interactive, beautifully rendered, and capable of surviving prolonged exposure to creator culture.
 
-Thanks to Metamorphosis' relatively simple and fun-to-play mechanics, streamers who have the extension installed could see higher rates of viewer retention as viewers stay longer to fight more battles or catch more monsters. Another benefit to Metamorphosis is that streamers are entitled to 80% of the income from in-game purchases, thus enabling you to help support your favorite streamers while also playing with your friends online.
+Because the mechanics are simple, social, and fun to grasp, it gives viewers a reason to stay longer, battle more, and keep coming back. It aims to be a better kind of retention tool: one that earns attention by being playful rather than manipulative.
 
 ## CultPong
 
-Another new take on a classic formula, CultPong is a fast-paced, competitive 1v1 and 2v2 pong game, with a twist. Instead of the straight paddles found in the classic, this game features a selection of uniquely shaped unlockable paddles, which allow you to bounce the ball in any direction if your placement is precise enough. In addition, there is a bash mechanic, allowing you to press a button to thrust toward the ball, imparting a vicious amount of momentum to it if your timing is right. This turns the game into a nail-biting shootout, where you need to get into your opponent's head to survive, as you will not have the time to get into position if they land their bash move.
+CultPong is a fast, competitive 1v1 and 2v2 pong game with a twist sharp enough to draw blood. Instead of straight paddles, it uses uniquely shaped unlockables that let players redirect the ball in almost any direction if their placement is precise enough. Add a bash move that lets you lunge into the ball and send it screaming back, and the whole match becomes a prediction game as much as a reflex test.
 
-As an online multiplayer game, this is a prime opportunity to implement a ranked matchmaking system, as well as regular tournaments, where you can win prizes to show off your skills. There is also a wide variety of skins and other cosmetics allowing you to deck out your paddle in extravagant finery.
-
-Considering how convenient the gameplay is for short sessions and touch input, this one is also a prime candidate for mobile platforms. We even had an innovative time dilation algorithm in the works that was meant to allow for seamless play regardless of latency, important for guaranteeing a good experience on mobile networks.
+As an online multiplayer game, it is a natural fit for ranked matchmaking, regular tournaments, and enough cosmetics to let players show off a little. Because the sessions are short and the controls suit touch input, it is also a strong candidate for mobile if the latency-handling tech can make good on the promise.

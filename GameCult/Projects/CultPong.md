@@ -4,7 +4,7 @@ title: CultPong
 
 # CultPong
 
-CultPong is a fast, competitive reinterpretation of the classic formula: 1v1 and 2v2 pong with expressive paddle shapes, violent momentum shifts, and a bash mechanic that turns rallies into split-second shootouts.
+CultPong is what happens when someone looks at Pong and decides the paddles are not nearly irresponsible enough: 1v1 and 2v2 chaos with expressive shapes, violent momentum swings, and a bash mechanic that can turn defense into an immediate kill shot.
 
 <div class="gamecult-embed-frame">
   <iframe
@@ -17,6 +17,8 @@ CultPong is a fast, competitive reinterpretation of the classic formula: 1v1 and
   ></iframe>
 </div>
 
-Another new take on a classic formula, CultPong is a fast-paced, competitive 1v1 and 2v2 pong game with a twist. Instead of the straight paddles found in the classic, it features a selection of uniquely shaped unlockable paddles that let players bounce the ball in any direction if their placement is precise enough. On top of that, a bash mechanic lets players thrust toward the ball and impart a vicious amount of momentum if the timing is right. The result is a nail-biting shootout where you have to get inside your opponent's head to survive.
+Every unlockable paddle changes the geometry of a match. Different shapes create different angles, different blind spots, and different opportunities to lie with your positioning like a terrible little goblin. If your placement is precise enough, you can send the ball almost anywhere.
 
-As an online multiplayer game, CultPong is a natural fit for ranked matchmaking, regular tournaments, and enough skins and cosmetics to let players show off a little. Because the matches work so well in short sessions and suit touch input, it is also a strong candidate for mobile play if the latency-handling tech can hold up.
+The bash mechanic is what makes the whole thing dangerous. Players can lunge into the ball and spike its momentum hard enough to turn a rally into a split-second shootout. Winning is not just about reflexes. It is about prediction, bait, and the kind of mind games that ruin friendships in exactly the right way.
+
+Because matches are short, readable, and easy to return to, CultPong makes sense as an online game with ranked play, tournaments, cosmetics, and maybe a mobile future if the latency tech earns it.

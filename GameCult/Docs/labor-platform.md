@@ -6,17 +6,17 @@ aliases:
 
 # Labor Platform
 
-The Labor Platform is GameCult's proposed web application for connecting public projects, contributor workflow, patron history, and internal governance instead of leaving all of that scattered across private memory and third-party tools.
+The Labor Platform is the application layer of the GameCult model: the place where public projects, contributor history, patronage, and governance stop living in private memory, heroic effort, and random third-party tools.
 
 ## Architecture
 
-The platform is conceived as a website-integrated app. Users would sign in with GitHub or a GameCult account, interact with pages on the public site, and trigger actions backed by an application and database layer on the server. That backend would talk to GitHub for issue creation, task assignment, and related contribution data.
+The platform is conceived as a website-integrated app. Users sign in with GitHub or a GameCult account, interact with pages on the public site, and trigger actions backed by an application and database layer on the server. That backend talks to GitHub for issue creation, task assignment, and related contribution data.
 
 ## Core Areas
 
 ### Contribute
 
-Members were meant to be able to browse outstanding issues, volunteer for tasks, and understand the status of the work without spelunking through multiple systems.
+Members browse outstanding issues, volunteer for tasks, and understand the status of the work without spelunking through five systems and three half-remembered conversations.
 
 Each task entry should expose:
 
@@ -31,11 +31,11 @@ Each task entry should expose:
 
 ### Vote
 
-Members were also supposed to be able to help determine the future direction of GameCult by creating motions and voting on them.
+Members help determine the future direction of GameCult by creating motions and voting on them instead of leaving direction to whoever happened to be awake in chat.
 
 ### Profile
 
-Profiles were meant to capture the context that makes task assignment and compensation legible:
+Profiles capture the context that makes task assignment and compensation legible instead of a vibes-based art:
 
 - nickname
 - member tier
@@ -52,11 +52,11 @@ Motions split into two broad classes.
 
 ### Management
 
-Management motions would affect the organization itself, including thresholds, roles, and internal policy. They were time-limited and would pass or fail based on vote distribution when the clock expired.
+Management motions affect the organization itself, including thresholds, roles, and internal policy. They are time-limited and pass or fail based on vote distribution when the clock expires.
 
 ### Projects
 
-Project motions would result in new issues or bounties. These are the route for bug reports, feature requests, balance ideas, and new content proposals. Positive-vote thresholds vary by category:
+Project motions result in new issues or bounties. These are the route for bug reports, feature requests, balance ideas, and new content proposals. Positive-vote thresholds vary by category:
 
 - bugs: 15%
 - cosmetics: 30%
@@ -67,17 +67,17 @@ Project motions would result in new issues or bounties. These are the route for 
 
 ## Tiers
 
-The platform described two overlapping point systems: patrons and contributors. Both affected a member's tier and therefore the weight of their vote.
+The platform uses two overlapping point systems: patrons and contributors. Both affect a member's tier and therefore the weight of their vote.
 
 ### Decay
 
-To avoid permanent historical lock-in, old point balances are meant to decay over time. The rule is 1% weekly decay on historical balances, rounded down. Project-specific contribution points do not decay.
+To avoid permanent historical lock-in, old point balances decay over time. The rule is 1% weekly decay on historical balances, rounded down. Project-specific contribution points do not decay.
 
 ### Patrons
 
-Patron tier combined current recurring support with historical donations. Historical donations would be halved after a month and then subject to decay.
+Patron tier combines current recurring support with historical donations. Historical donations are halved after a month and then subject to decay.
 
-The original patron ladder was:
+The patron ladder is:
 
 - Bronze: 10 points
 - Silver: 100 points
@@ -87,9 +87,9 @@ The original patron ladder was:
 
 ### Contributors
 
-Contributor points were supposed to come from completed work, scaled by things like estimated labor and skill level. New contributors would start with a small automatic allotment.
+Contributor points come from completed work, scaled by things like estimated labor and skill level. New contributors start with a small automatic allotment.
 
-The original contributor ladder was:
+The contributor ladder is:
 
 - Postulate: 10 points
 - Initiate: 100 points
@@ -97,7 +97,7 @@ The original contributor ladder was:
 - Adept: 10,000 points
 - Master: 100,000 points
 
-Those tiers were also meant to gate things like revenue sharing eligibility and applications for maintainer or producer roles.
+Those tiers also gate things like revenue sharing eligibility and applications for maintainer or producer roles.
 
 ## Revenue Sharing
 
@@ -109,14 +109,14 @@ Revenue is divided into three equal portions:
 
 ## Roles
 
-The site also identified some ongoing roles that did not fit neatly into one-off task bounties:
+Some ongoing roles do not fit neatly into one-off task bounties, because human work stubbornly refuses to become tickets on command:
 
 - social media
 - community manager
 - maintainer
 - producer
 
-The key idea was that some forms of labor are continuous care work, not discrete issue tickets, and the platform should account for that instead of pretending only ticket-shaped work matters.
+The key idea is that some forms of labor are continuous care work, not discrete issue tickets, and the platform should account for that instead of pretending only ticket-shaped work matters.
 
 ## Workflow
 

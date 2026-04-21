@@ -11,8 +11,8 @@ title: Democratizing Gamedev
 
 Getting paid to work on open source games? You better believe it.
 
-With bounty-driven development, passionate members of the community can get involved with GameCult projects and get paid for their work. When something needs to get done, it should become a visible issue with a visible reward. Contributors can step in, do the work, and have that work recognized both financially and organizationally instead of being treated like free invisible labor.
+Bounty-driven development turns needed work into visible opportunity. If a task matters, it should exist as a public issue with scope, reward, and a path to completion. Contributors do the work, get credited for it, and build real standing inside the studio instead of donating invisible labor into the void and being thanked with vibes.
 
-As a multi-stakeholder cooperative, dedicated members of the community should also be able to become voting stakeholders through recurring support and sustained contribution. That gives them a real say in business, game design, development, and work prioritization.
+As a multi-stakeholder cooperative, GameCult also treats recurring supporters as more than customers. People who support the work and people who build the work should both be able to influence priorities, policy, and direction.
 
-Got a bug that is driving you mad? Want a feature badly enough to rally support around it? Vote for it. The point is to build a more equitable and sustainable relationship with the community and make the games answer to the people they are supposed to serve.
+If a bug is driving you insane, rally support and push it up the queue. If a feature deserves to exist, make the case and help make it real. The goal is a studio where the community is structurally involved, not periodically marketed at whenever a roadmap needs enthusiasm.

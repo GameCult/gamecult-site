@@ -100,11 +100,29 @@ export default (() => {
 
     return (
       <section class="gamecult-titlebar">
-        <div class="gamecult-titlebar-copy">
-          <p class="gamecult-titlebar-title">
-            <a href={resolveRelative(currentSlug, "index" as FullSlug)}>GameCult</a>
-          </p>
-          {tagline && <p class="gamecult-titlebar-tagline">{tagline}</p>}
+        <div class="gamecult-titlebar-top">
+          <div class="gamecult-titlebar-copy">
+            <p class="gamecult-titlebar-title">
+              <a href={resolveRelative(currentSlug, "index" as FullSlug)}>GameCult</a>
+            </p>
+            {tagline && <p class="gamecult-titlebar-tagline">{tagline}</p>}
+          </div>
+          <div class="gamecult-titlebar-community" aria-label="GameCult community links">
+            {externalLinks.map((link) => (
+              <a
+                href={link.href}
+                class="gamecult-nav-icon"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label={link.label}
+                title={link.label}
+              >
+                <svg viewBox={link.icon.viewBox} aria-hidden="true">
+                  <path d={link.icon.path} />
+                </svg>
+              </a>
+            ))}
+          </div>
         </div>
         <nav class="gamecult-titlebar-nav" aria-label="GameCult navigation">
           <div class="gamecult-titlebar-links">
@@ -119,23 +137,6 @@ export default (() => {
                 </a>
               )
             })}
-          </div>
-          <div class="gamecult-titlebar-community" aria-label="GameCult community links">
-            {externalLinks.map((link) => (
-              <a
-                href={link.href}
-                class="gamecult-nav-icon"
-                style={{ width: "5rem", height: "5rem" }}
-                target="_blank"
-                rel="noreferrer noopener"
-                aria-label={link.label}
-                title={link.label}
-              >
-                <svg viewBox={link.icon.viewBox} width="64" height="64" aria-hidden="true">
-                  <path d={link.icon.path} />
-                </svg>
-              </a>
-            ))}
           </div>
         </nav>
       </section>

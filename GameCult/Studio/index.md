@@ -1,5 +1,15 @@
 ---
 title: Studio
+enableToc: false
+cssclasses:
+  - gamecult-composite-overview
+compositeSections:
+  - Open-Source-Model
+  - Contributing
+  - democratizing-gamedev
+  - a-place-for-everyone
+  - games-as-a-service
+  - the-new-hotness
 ---
 
 # Studio
@@ -7,6 +17,8 @@ title: Studio
 *"A distributed studio needs clear process more than ceremony."*
 
 The studio section is where the older GameCult pitch turns into a durable shape: why the work is open, how people are meant to participate, what kind of projects fit here, and what the organization has historically promised to build around labor and governance.
+
+The stitched studio narrative continues below. The standalone notes are still available from their own routes and in the sidebar.
 
 ## How We Work
 

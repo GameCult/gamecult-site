@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components"
 
 /**
  * Quartz 4 Configuration
@@ -86,8 +87,12 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.ContentPage({
+        pageBody: Component.GameCultCompositeContent({ fallback: "content" }),
+      }),
+      Plugin.FolderPage({
+        pageBody: Component.GameCultCompositeContent({ fallback: "folder" }),
+      }),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

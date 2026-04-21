@@ -1,6 +1,7 @@
 ---
 title: GameCult
 enableToc: false
+showCompositeJump: false
 cssclasses:
   - gamecult-composite-overview
 compositeSections:
@@ -36,7 +37,7 @@ The homepage pitch and the studio pitch were always the same argument in two dif
       </div>
       <div class="gamecult-feature-card">
         <h3>Flagships and experiments</h3>
-        <p>Aetheria is the flagship universe, but CultPong, Metamorphosis, and any other bad idea with enough conviction to survive contact with reality belong under the same roof.</p>
+        <p>Aetheria is the flagship universe, but CultPong and any other bad idea with enough conviction to survive contact with reality belong under the same roof.</p>
       </div>
       <div class="gamecult-feature-card">
         <h3>Cooperative instincts</h3>
@@ -60,10 +61,6 @@ The homepage pitch and the studio pitch were always the same argument in two dif
   <a class="gamecult-link-card" href="./Projects/CultPong">
     <strong>CultPong</strong>
     <span>An arcade riff that looks at Pong, asks what if this were less respectable, and then keeps making worse decisions from there.</span>
-  </a>
-  <a class="gamecult-link-card" href="./Projects/Metamorphosis">
-    <strong>Metamorphosis</strong>
-    <span>A chat-native creature project built around transformation, collection, and the refusal to make small ideas sound smaller than they are.</span>
   </a>
 </div>
 
@@ -104,7 +101,6 @@ Below is the studio argument in full: how GameCult works, who it is for, and wha
 
 - [Aetheria](/Aetheria/)
 - [CultPong](/Projects/CultPong)
-- [Metamorphosis](/Projects/Metamorphosis)
 
 ## Writing
 

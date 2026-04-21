@@ -34,12 +34,6 @@ Because that vision is enormous, we also pursue shorter-term projects that sharp
 
 _L'appel du Vide_ is a single-player experience about a private investigator drawn into events spanning the entire colonization fleet. It introduces the ARPG formula that later lives inside the wider universe, but without requiring the first release to shoulder the sort of overhead that eats budgets and souls. It works as an hors d'oeuvre: a sharp, story-driven entry point that hones our skills and whets appetites for what is coming.
 
-## Metamorphosis
-
-Metamorphosis is the Twitch extension project. It lets stream viewers capture and train adorable creatures, then battle on stream against other equally adorable creatures. The goal is a stream extension that is not just present, but genuinely interactive, beautifully rendered, and capable of surviving prolonged exposure to creator culture.
-
-Because the mechanics are simple, social, and fun to grasp, it gives viewers a reason to stay longer, battle more, and keep coming back. It aims to be a better kind of retention tool: one that earns attention by being playful rather than manipulative.
-
 ## CultPong
 
 CultPong is a fast, competitive 1v1 and 2v2 pong game with a twist sharp enough to draw blood. Instead of straight paddles, it uses uniquely shaped unlockables that let players redirect the ball in almost any direction if their placement is precise enough. Add a bash move that lets you lunge into the ball and send it screaming back, and the whole match becomes a prediction game as much as a reflex test.

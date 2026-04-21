@@ -93,6 +93,18 @@ export default (() => {
             <a href={resolveRelative(currentSlug, "index" as FullSlug)}>GameCult</a>
           </p>
           {tagline && <p class="gamecult-titlebar-tagline">{tagline}</p>}
+          <nav class="gamecult-titlebar-social" aria-label="GameCult community links">
+            {externalLinks.map((link) => (
+              <a
+                href={link.href}
+                class="gamecult-nav-chip"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
         </div>
         <nav class="gamecult-titlebar-nav" aria-label="GameCult navigation">
           {routes.map((route) => {
@@ -106,16 +118,6 @@ export default (() => {
               </a>
             )
           })}
-          {externalLinks.map((link) => (
-            <a
-              href={link.href}
-              class="gamecult-nav-chip"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {link.label}
-            </a>
-          ))}
         </nav>
       </section>
     )

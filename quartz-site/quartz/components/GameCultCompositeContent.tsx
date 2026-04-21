@@ -195,6 +195,7 @@ export default ((opts?: Partial<Options>) => {
       sourceFile.frontmatter?.cssclasses ?? fileData.frontmatter?.cssclasses ?? []
     const articleClass = ["popover-hint", ...classes].join(" ")
     const sections = renderSlug ? getCompositeSections(renderSlug, sourceFile, allFiles) : []
+    const showCompositeJump = sourceFile.frontmatter?.showCompositeJump !== false
 
     if (sections.length === 0) {
       if (options.fallback === "folder") {
@@ -207,16 +208,18 @@ export default ((opts?: Partial<Options>) => {
     return (
       <div class="popover-hint gamecult-composite-page">
         <article class={articleClass}>{baseContent}</article>
-        <nav
-          class="gamecult-composite-jump"
-          aria-label={`${fileData.frontmatter?.title ?? "Page"} sections`}
-        >
-          {sections.map((section) => (
-            <a href={`#${section.sectionId}`} class="gamecult-nav-chip">
-              {section.title}
-            </a>
-          ))}
-        </nav>
+        {showCompositeJump && (
+          <nav
+            class="gamecult-composite-jump"
+            aria-label={`${fileData.frontmatter?.title ?? "Page"} sections`}
+          >
+            {sections.map((section) => (
+              <a href={`#${section.sectionId}`} class="gamecult-nav-chip">
+                {section.title}
+              </a>
+            ))}
+          </nav>
+        )}
         <div class="gamecult-composite-sections">
           {sections.map((section) => (
             <section id={section.sectionId} class="gamecult-composite-section">

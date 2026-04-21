@@ -4,6 +4,8 @@ title: CultPong
 
 # CultPong
 
+*"An arcade riff that looks at Pong, asks what if this were less respectable, and then keeps making worse decisions from there."*
+
 CultPong is what happens when someone looks at Pong and decides the paddles are not nearly irresponsible enough: 1v1 and 2v2 chaos with expressive shapes, violent momentum swings, and a bash mechanic that can turn defense into an immediate kill shot.
 
 <div class="gamecult-embed-frame">

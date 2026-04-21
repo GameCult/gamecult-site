@@ -1,5 +1,13 @@
 ---
 title: Aetheria
+enableToc: false
+cssclasses:
+  - gamecult-composite-overview
+compositeSections:
+  - end-of-the-line
+  - welcome-to-elysium
+  - a-different-sort-of-space
+  - ship-shape-and-up-to-specs
 ---
 
 # Aetheria
@@ -19,6 +27,19 @@ Aetheria is GameCult's flagship world and most ambitious project: a science-fant
     <p>This is the overview surface. The dedicated Aetheria site is where the setting gets to sprawl.</p>
   </figure>
 </div>
+
+<div class="gamecult-embed-frame">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/6hg1w2vcwDc?list=PL9lCxnhL4NfPDNsnS0ygGiJOiYMmdSFcK"
+    title="Aetheria playlist starting with the Gameplay Preview Trailer"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>
+</div>
+
+The stitched Aetheria overview continues below. The standalone pages are still available from their own routes if you want to jump straight to one thread of the pitch.
 
 ## Core Pages
 

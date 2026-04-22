@@ -203,6 +203,24 @@ export function stripTopTagline(root?: Root) {
   return tagline?.text
 }
 
+export function stripTopHeading(root?: Root) {
+  if (!root) {
+    return undefined
+  }
+
+  const firstHeadingIndex = root.children.findIndex(
+    (node): node is Element => node.type === "element" && node.tagName === "h1",
+  )
+
+  if (firstHeadingIndex >= 0) {
+    const heading = root.children[firstHeadingIndex]
+    root.children.splice(firstHeadingIndex, 1)
+    return normalizeText(toString(heading))
+  }
+
+  return undefined
+}
+
 function resolveLinkTarget(sourceSlug: FullSlug, node: Element) {
   const href = node.properties?.href
   if (typeof href === "string" && !href.startsWith("#") && !href.startsWith("http")) {
@@ -445,6 +463,13 @@ export function buildGameCultPageContext(
   const currentTaglineText = stripTopTagline(sourceRoot)
   if (sourceRoot !== currentRoot) {
     stripTopTagline(currentRoot)
+  }
+
+  if (currentFile.slug !== "index") {
+    stripTopHeading(sourceRoot)
+    if (sourceRoot !== currentRoot) {
+      stripTopHeading(currentRoot)
+    }
   }
 
   const overviewNote = findSidebarOverviewNote(currentFile.slug, allFiles)

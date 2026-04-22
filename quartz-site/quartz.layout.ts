@@ -21,18 +21,16 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs({ rootName: "GameCult" }),
+      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ConditionalRender({
       component: Component.ArticleTitle(),
-      condition: (page) =>
-        !page.fileData.slug?.endsWith("/index") && page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) =>
-        !page.fileData.slug?.endsWith("/index") && page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index",
     }),
   ],
   left: [GameCultOverviewSidebar()],
@@ -47,7 +45,20 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs({ rootName: "GameCult" })],
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false }),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+  ],
   left: [GameCultOverviewSidebar()],
   right: [],
 }

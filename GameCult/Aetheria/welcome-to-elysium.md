@@ -8,6 +8,8 @@ title: Welcome to Elysium
   <img src="../media/aetheria/elysium.png" alt="Aetheria concept art showing Elysium." />
 </figure>
 
-Humanity has arrived in a new galaxy already partitioned by the twelve megacorporations that financed the journey. Each has planted its own colony, raised its own banner, and started treating frontier settlement like a market war with planets attached, because apparently we can cross intergalactic space without outgrowing that habit.
+Elysium is not a clean new frontier humanity discovered with admirable courage and a reasonable plan. It is the sealed domain late Sol got thrown into when its first real FTL breakthrough touched something older, meaner, and far less interested in sharing the universe than the test brief implied.
 
-Elysium is not just a backdrop. It is a contested frontier where exploration, extraction, expansion, and empire-building all happen at once.
+The displacement was not selective. Humanity did not arrive as a purified species of brave colonists ready to start over. Fleets, institutions, corporate blocs, uploaded minds, labor systems, grudges, and every other unresolved compromise of solar civilization came through together because they were already materially bound together back home.
+
+That is what makes Elysium interesting. It is not just a backdrop for exploration and extraction. It is a hostile garden-prison where an entire civilization tries to survive the rupture without giving up any of its worst habits, even while reality itself keeps refusing to cooperate.

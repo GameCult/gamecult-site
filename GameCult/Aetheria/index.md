@@ -14,19 +14,20 @@ compositeSections:
 
 *"A galaxy of megacorporate frontier myth, ship customization, and player-made history."*
 
-Aetheria is GameCult's flagship universe: part frontier survival story, part megacorporate cold war, part action-RPG sandbox, part excuse to spend an unreasonable amount of time inventing ships, factions, and economic problems in space.
+Aetheria is GameCult's flagship universe: part post-collapse corporate diaspora, part megacorporate cold war, part action-RPG sandbox, part excuse to spend an unreasonable amount of time inventing ships, factions, and economic problems in space.
 
 The deeper lore, essays, and fiction continue at `aetheria.gamecult.org`. This page is the fast tour for people who want the pitch before the spiral.
 
 <div class="gamecult-home-hero">
   <section class="gamecult-hero-panel">
     <p class="gamecult-kicker">Flagship world. Long horizon.</p>
-    <p>At full scale, Aetheria is a multiplayer galaxy shaped by economic rivalry, political maneuvering, exploration, and combat.</p>
+    <p>Aetheria begins with a civilizational shunt, not a clean heroic voyage. Late Sol's first real FTL gamble trips a quarantine response and dumps humanity into the sealed domain called Elysium along with the fleets, institutions, uploads, and ideological damage it was already carrying.</p>
+    <p>At full scale, the setting is about what happens when an entire broken order survives the rupture and keeps trying to run markets, wars, labor systems, and grand political projects inside a reality that has become much stranger than the sales pitch.</p>
     <p>The near-term path starts smaller: focused slices of the setting that prove the mood, mechanics, and stakes before we ask the first release to carry the full weight of our galactic ambitions and associated bad habits.</p>
   </section>
   <figure class="gamecult-media-card">
     <img src="../media/aetheria/elysium.png" alt="Aetheria concept art showing a settlement scene." />
-    <p>Aetheria should feel lived in, contested, and just a little impossible, like every good frontier myth and every bad corporate plan.</p>
+    <p>Aetheria should feel lived in, contested, and just a little impossible: less pristine new frontier, more old civilization hauled intact into a place it was never meant to inhabit.</p>
   </figure>
 </div>
 
@@ -41,7 +42,7 @@ The deeper lore, essays, and fiction continue at `aetheria.gamecult.org`. This p
   ></iframe>
 </div>
 
-Below is the short tour: premise, frontier, visual language, and ship culture. If you want the longer version, there is a whole other site for that because apparently one galaxy was not enough trouble.
+Below is the short tour: the rupture, the conditions inside Elysium, the stranger physical rules, and the ship culture that helps everyone make their problems mobile. If you want the longer version, there is a whole other site for that because apparently one galaxy was not enough trouble.
 
 ## Core Pages
 

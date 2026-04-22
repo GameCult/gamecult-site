@@ -5,8 +5,6 @@ aliases:
   - gclp
 ---
 
-# GameCult Labor Platform
-
 *"Game development is hard enough without running the studio on folklore, spreadsheets, and whoever still remembers what happened in Discord."*
 
 The GameCult Labor Platform, or `GCLP` if we are pretending to be concise, is the internal operating layer for the studio. It is where work, governance, patronage, contributor history, and payout logic stop living in private memory and start becoming legible enough to inspect, argue with, and improve.

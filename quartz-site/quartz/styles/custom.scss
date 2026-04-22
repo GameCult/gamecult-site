@@ -234,20 +234,18 @@ body {
   margin-bottom: 1rem;
 }
 
-.page > #quartz-body .center > .page-header > .popover-hint:has(.breadcrumb-container) {
+.page > #quartz-body .center > .page-header > .popover-hint > .breadcrumb-container {
+  margin: 0 0 0.4rem;
+}
+
+.page > #quartz-body .center > .page-header > .popover-hint > .breadcrumb-container + .article-title {
   display: block;
+  margin: 0;
+  line-height: 1.04;
 }
 
-.page > #quartz-body .center > .page-header > .popover-hint:has(.breadcrumb-container) .breadcrumb-container {
-  margin: 0 0 0.18rem;
-}
-
-.page > #quartz-body .center > .page-header > .popover-hint:has(.breadcrumb-container) .article-title {
-  margin-top: 0;
-}
-
-.page > #quartz-body .center > .page-header > .popover-hint:has(.breadcrumb-container) .content-meta {
-  margin-top: 0.08rem;
+.page > #quartz-body .center > .page-header > .popover-hint > .article-title + .content-meta {
+  margin-top: 0.22rem;
 }
 
 .breadcrumbs {
@@ -547,8 +545,8 @@ a:hover,
     border-radius: 20px;
   }
 
-  .page > #quartz-body .center > .page-header > .popover-hint:has(.breadcrumb-container) .breadcrumb-container {
-    margin-bottom: 0.12rem;
+  .page > #quartz-body .center > .page-header > .popover-hint > .breadcrumb-container {
+    margin-bottom: 0.28rem;
   }
 
   .gamecult-overview-sidebar-inner {

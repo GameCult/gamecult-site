@@ -26,6 +26,10 @@ interface BreadcrumbOptions {
    * Whether to display the current page in the breadcrumbs.
    */
   showCurrentPage: boolean
+  /**
+   * Whether to display the root crumb.
+   */
+  showRoot: boolean
 }
 
 const defaultOptions: BreadcrumbOptions = {
@@ -33,6 +37,7 @@ const defaultOptions: BreadcrumbOptions = {
   rootName: "Home",
   resolveFrontmatterTitle: true,
   showCurrentPage: true,
+  showRoot: true,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
@@ -76,12 +81,22 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       crumbs.pop()
     }
 
+    if (!options.showRoot) {
+      crumbs.shift()
+    }
+
+    if (crumbs.length === 0) {
+      return null
+    }
+
     return (
       <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
         {crumbs.map((crumb, index) => (
           <div class="breadcrumb-element">
             <a href={crumb.path}>{crumb.displayName}</a>
-            {index !== crumbs.length - 1 && <p>{` ${options.spacerSymbol} `}</p>}
+            <span class="breadcrumb-separator" aria-hidden="true">
+              {options.spacerSymbol}
+            </span>
           </div>
         ))}
       </nav>

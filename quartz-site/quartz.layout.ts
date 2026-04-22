@@ -21,7 +21,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false }),
+      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false, showRoot: false }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ConditionalRender({
@@ -47,7 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false }),
+      component: Component.Breadcrumbs({ rootName: "GameCult", showCurrentPage: false, showRoot: false }),
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ConditionalRender({

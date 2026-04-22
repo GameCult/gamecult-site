@@ -9,14 +9,14 @@
 }
 
 .breadcrumb-element {
-  p {
-    margin: 0;
-    margin-left: 0.5rem;
-    padding: 0;
-    line-height: normal;
-  }
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  .breadcrumb-separator {
+    margin: 0 0 0 0.4rem;
+    padding: 0;
+    line-height: 1;
+  }
 }

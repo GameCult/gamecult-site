@@ -32,9 +32,9 @@ const routes: Route[] = [
     ],
   },
   {
-    label: "GCLP",
-    slug: "Docs/labor-platform" as FullSlug,
-    matches: ["Docs/labor-platform"],
+    label: "Bifrost",
+    slug: "Docs/Bifrost" as FullSlug,
+    matches: ["Docs/Bifrost"],
   },
   {
     label: "Projects",

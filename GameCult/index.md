@@ -17,8 +17,8 @@ sidebarGroups:
         slug: games-as-a-service
       - label: The New Hotness
         slug: the-new-hotness
-      - label: Labor Platform
-        slug: Docs/labor-platform
+      - label: Bifrost
+        slug: Docs/Bifrost
   - title: Projects
     links:
       - label: Aetheria
@@ -41,8 +41,8 @@ sidebarGroups:
         slug: Docs/Publishing-Workflow
       - label: Site Architecture
         slug: Docs/Site-Architecture
-      - label: Labor Platform
-        slug: Docs/labor-platform
+      - label: Bifrost
+        slug: Docs/Bifrost
 cssclasses:
   - gamecult-composite-overview
 compositeSections:

@@ -18,7 +18,7 @@ Our model lets players and contributors do more than clap from the sidelines. Ha
 
 The obvious response is, "won't someone just steal all your work?" For heavily networked games, not really. You can fork code. Forking infrastructure, community momentum, and the fact that the players are already somewhere else is harder. Single-player projects are a different problem, and some assets may need stricter licensing, but hiding the whole studio is not a serious answer.
 
-The long-term plan is a labor platform that turns proposals into issues, issues into assignments, and contributions into real credit, compensation, and governance weight. In other words, the dream is to replace vague appreciation with actual structure.
+The long-term plan is Bifrost: a labor platform that turns proposals into issues, issues into assignments, and contributions into real credit, compensation, and governance weight. In other words, the dream is to replace vague appreciation with actual structure.
 
 Of course, a studio model only matters if the games are worth caring about. GameCult's projects stretch from a flagship science-fantasy universe to smaller, sharper experiments that can get into players' hands sooner and stress-test the parts of our ambition that deserve to survive.
 

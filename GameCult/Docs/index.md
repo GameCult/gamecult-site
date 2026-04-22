@@ -6,7 +6,7 @@ title: Docs
 
 *"Process should survive memory, turnover, and sleep deprivation."*
 
-This section holds the operational side of GameCult: how publishing works, how the root site is structured, and how the labor platform is designed.
+This section holds the operational side of GameCult: how publishing works, how the root site is structured, and how Bifrost is being built without turning studio governance into an occult spreadsheet ritual.
 
 ## Site Docs
 
@@ -15,7 +15,7 @@ This section holds the operational side of GameCult: how publishing works, how t
 
 ## Platform Docs
 
-- [GameCult Labor Platform (GCLP)](/Docs/labor-platform)
+- [Bifrost](/Docs/Bifrost)
 
 ## Studio Context
 

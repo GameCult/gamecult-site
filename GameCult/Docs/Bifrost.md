@@ -1,15 +1,10 @@
----
-title: GameCult Labor Platform
-aliases:
-  - labor-platform
-  - gclp
----
+# Bifrost
 
 *"Game development is hard enough without running the studio on folklore, spreadsheets, and whoever still remembers what happened in Discord."*
 
-The GameCult Labor Platform, or `GCLP` if we are pretending to be concise, is the internal operating layer for the studio. It is where work, governance, patronage, contributor history, and payout logic stop living in private memory and start becoming legible enough to inspect, argue with, and improve.
+Bifrost is the GameCult labor platform with a better name and, ideally, less spreadsheet residue. It is the member-facing application where work, governance, patronage, contributor history, and payout logic stop living in private memory and start becoming legible enough to inspect, argue with, and improve.
 
-The concrete buildout for that system is now called **Bifrost**. That part matters, because this page is no longer describing a cool idea we keep menacing the future with. There is a neighboring application repo, a real stack choice, a real deployment target, and the first implementation slice already standing there looking nervous.
+More importantly, Bifrost is no longer just the platform concept glaring at us from a doc page. There is a real application repo, a real stack, a real deployment target, and enough implemented machinery now that the thing has advanced from manifesto to software with a pulse.
 
 ## What Bifrost Is
 
@@ -28,18 +23,22 @@ No Ethereum. No wallets. No DAO cologne. No attempt to make accounting feel like
 
 ## What Exists Already
 
-The Bifrost repo is past napkin stage and into first-slice territory.
+Bifrost is now a viable alpha-foundation slice, not just a scaffold with delusions of grandeur.
 
 Right now it already has:
 
-- an ASP.NET Core web app scaffold
-- a PostgreSQL-backed EF Core domain model
-- GitHub sign-in wiring
-- invite and approval-based membership gating
-- UI for members, projects, work items, motions, and ledgers
-- integration tests
+- a Razor Pages app under `src/Bifrost.Web`
+- a PostgreSQL-backed EF Core domain model with an initial migration
+- GitHub OAuth sign-in plus invite and approval-based membership gating
+- explicit member roles plus admin-managed patron and contributor tier snapshots
+- a shared work board with estimates, time logs, review flow, and GitHub issue or PR links
+- member-facing motions with category thresholds aligned to the studio model
+- health and readiness endpoints, request logging, and startup config validation
+- GitHub App webhook ingestion for issue, pull request, and review sync
+- xUnit integration tests
+- matching deploy artifacts and runbooks in `gamecult-ops`
 
-That is not the same thing as "ready to inflict on the public internet," but it does mean the platform has graduated from pure manifesto into software with opinions.
+That is still not the same thing as "ready to inflict on the public internet," but it does mean Bifrost has graduated from pure manifesto into software with opinions and a plausible private deploy path.
 
 ## What The Platform Actually Does
 
@@ -61,7 +60,7 @@ Profiles should make contribution context visible instead of turning assignment 
 
 The platform should hold both GitHub-backed work items and internal tasks in one place, because not every useful thing in a studio becomes an issue by divine revelation.
 
-Each work item needs enough context to be assigned and reviewed without séance work:
+Each work item needs enough context to be assigned and reviewed without seance work:
 
 - project
 - category
@@ -95,7 +94,9 @@ The important part is not that these numbers are holy. It is that the decision p
 
 ### Ledgers, Tiers, And Revenue Share
 
-The platform uses two overlapping point systems: patrons and contributors. Both matter. Both affect tiering. Both eventually affect governance weight and payout eligibility.
+The model still uses two overlapping point systems: patrons and contributors. Both matter. Both affect tiering. Both eventually affect governance weight and payout eligibility.
+
+Bifrost can already hold tier state, member roles, and ledger-shaped records. The full rules engine for support events, contribution awards, decay, and revenue share is the next serious layer rather than a thing we are pretending already exists because the nouns are written down.
 
 Patron tiers:
 
@@ -129,16 +130,14 @@ The current build is a strong first slice, not a public alpha.
 
 Before Bifrost is ready for a real rollout, it still needs:
 
-- initial EF Core migrations and repeatable database bootstrap
-- GitHub App webhook ingestion and issue or pull request sync
-- stronger role and permission hardening
-- health checks, logging, and deployment smoke tests
-- nginx or systemd deployment artifacts and matching ops runbooks
-- backup and restore instructions
-- full point-ledger rules for patron credit, contributor credit, decay, and adjustments
-- revenue share batch generation and approval flow
+- live GitHub App installation validation against the real `GameCult/Bifrost` repository
+- a deploy rehearsal on Yggdrasil with real secrets and a real PostgreSQL database
+- backup and restore rehearsal for PostgreSQL and app secrets
+- fuller workflow polish around blockers, archival, and review ergonomics
+- production-safe payout proposal batching and finance review workflow
+- the real point rules for patron credit, contributor credit, decay jobs, and revenue share calculation
 
-So yes, the platform is real now. It is just still in the phase where honesty matters more than pretending the scaffolding is a cathedral.
+So yes, Bifrost is real now. No, it is not time to announce that cooperative governance has been solved by a web form. Honesty still beats pretending the scaffolding is already a cathedral.
 
 ## Rollout Shape
 

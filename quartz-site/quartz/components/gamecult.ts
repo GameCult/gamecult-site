@@ -465,11 +465,9 @@ export function buildGameCultPageContext(
     stripTopTagline(currentRoot)
   }
 
-  if (currentFile.slug !== "index") {
-    stripTopHeading(sourceRoot)
-    if (sourceRoot !== currentRoot) {
-      stripTopHeading(currentRoot)
-    }
+  stripTopHeading(sourceRoot)
+  if (sourceRoot !== currentRoot) {
+    stripTopHeading(currentRoot)
   }
 
   const overviewNote = findSidebarOverviewNote(currentFile.slug, allFiles)

@@ -32,6 +32,11 @@ const routes: Route[] = [
     ],
   },
   {
+    label: "GCLP",
+    slug: "Docs/labor-platform" as FullSlug,
+    matches: ["Docs/labor-platform"],
+  },
+  {
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],

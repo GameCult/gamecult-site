@@ -15,7 +15,7 @@ This section holds the operational side of GameCult: how publishing works, how t
 
 ## Platform Docs
 
-- [Labor Platform](/Docs/labor-platform)
+- [GameCult Labor Platform (GCLP)](/Docs/labor-platform)
 
 ## Studio Context
 

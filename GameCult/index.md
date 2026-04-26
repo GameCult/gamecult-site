@@ -66,6 +66,7 @@ The homepage pitch and the studio pitch were always the same argument in two dif
   <section class="gamecult-hero-panel">
     <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
     <p>We think information wants to be public, contributors deserve visibility, and artistic integrity matters more than sanding every project into something safe enough for a quarterly earnings call.</p>
+    <p>The world keeps telling creative people to compete for scraps, hide the process, accept burnout as professionalism, and call any surviving dignity a bonus feature. We think that arrangement is rotten.</p>
     <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
     <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
     <div class="gamecult-feature-grid">
@@ -83,7 +84,7 @@ The homepage pitch and the studio pitch were always the same argument in two dif
       </div>
       <div class="gamecult-feature-card">
         <h3>Cooperative instincts</h3>
-        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout and starvation games.</p>
+        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout, scarcity theater, and starvation games.</p>
       </div>
     </div>
   </section>

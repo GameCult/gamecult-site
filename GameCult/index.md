@@ -58,7 +58,7 @@ compositeSections:
 
 *"Open source game development, cooperative by instinct, strange by design."*
 
-GameCult is a distributed game studio building science-fantasy worlds, competitive experiments, fiction, and the kind of operational scaffolding that keeps ambitious projects from dissolving into vibes, private chats, and half-remembered promises.
+GameCult is a distributed game studio building science-fantasy worlds, competitive experiments, fiction, and the kind of operational scaffolding that keeps ambitious projects from dissolving into vibes, private chats, half-remembered promises, and the usual soft exploitation people are apparently expected to call collaboration.
 
 The homepage pitch and the studio pitch were always the same argument in two different outfits, so this page is now both: the front door, the manifesto, and the route into the rest of the mess.
 
@@ -66,6 +66,7 @@ The homepage pitch and the studio pitch were always the same argument in two dif
   <section class="gamecult-hero-panel">
     <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
     <p>We think information wants to be public, contributors deserve visibility, and artistic integrity matters more than sanding every project into something safe enough for a quarterly earnings call.</p>
+    <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
     <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
     <div class="gamecult-feature-grid">
       <div class="gamecult-feature-card">
@@ -73,8 +74,8 @@ The homepage pitch and the studio pitch were always the same argument in two dif
         <p>Source, docs, and public writing should be inspectable, linkable, and easy to revise in Git instead of trapped in some editor-shaped oubliette.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>Transparent work</h3>
-        <p>Contributors should be able to see what matters, what needs doing, and where the effort goes instead of treating studio work like folklore.</p>
+        <h3>Legible incentives</h3>
+        <p>People should be able to see what matters, what needs doing, what gets rewarded, and how support changes priorities instead of treating studio work like folklore.</p>
       </div>
       <div class="gamecult-feature-card">
         <h3>Flagships and experiments</h3>
@@ -82,7 +83,7 @@ The homepage pitch and the studio pitch were always the same argument in two dif
       </div>
       <div class="gamecult-feature-card">
         <h3>Cooperative instincts</h3>
-        <p>The studio should answer to the people building and supporting the work, not only to whatever executive class would most like to turn it into a content treadmill.</p>
+        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout and starvation games.</p>
       </div>
     </div>
   </section>

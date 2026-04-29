@@ -4,8 +4,10 @@ import { GameCultPageContext } from "./gamecult"
 
 type Route = {
   label: string
-  slug: FullSlug
-  matches: string[]
+  slug?: FullSlug
+  href?: string
+  matches?: string[]
+  external?: boolean
 }
 
 type ExternalLink = {
@@ -42,6 +44,11 @@ const routes: Route[] = [
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],
+  },
+  {
+    label: "Repixelizer",
+    href: "https://repixelizer.gamecult.org",
+    external: true,
   },
   {
     label: "Blog",
@@ -104,7 +111,7 @@ function isMatch(currentSlug: string, prefix: string) {
 function pickActiveRoute(currentSlug: string) {
   return routes
     .flatMap((route) =>
-      route.matches
+      (route.matches ?? [])
         .filter((prefix) => isMatch(currentSlug, prefix))
         .map((prefix) => ({
           route,
@@ -154,11 +161,16 @@ export default (() => {
         <nav class="gamecult-titlebar-nav" aria-label="GameCult navigation">
           <div class="gamecult-titlebar-links">
             {routes.map((route) => {
-              const active = activeRoute?.slug === route.slug
+              const active = route.slug ? activeRoute?.slug === route.slug : false
+              const href = route.external
+                ? route.href!
+                : resolveRelative(currentSlug, route.slug!)
               return (
                 <a
-                  href={resolveRelative(currentSlug, route.slug)}
+                  href={href}
                   class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
+                  target={route.external ? "_blank" : undefined}
+                  rel={route.external ? "noreferrer noopener" : undefined}
                 >
                   {route.label}
                 </a>

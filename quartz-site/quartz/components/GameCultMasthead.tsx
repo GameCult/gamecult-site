@@ -62,8 +62,9 @@ const routes: Route[] = [
   },
   {
     label: "Aetheria",
-    slug: "Aetheria/index" as FullSlug,
+    href: "https://aetheria.gamecult.org",
     matches: ["Aetheria"],
+    external: true,
   },
 ]
 

@@ -70,6 +70,8 @@ The homepage pitch and the studio pitch were always the same argument in two dif
     <p>The world keeps telling creative people to compete for scraps, hide the process, accept burnout as professionalism, and call any surviving dignity a bonus feature. We think that arrangement is rotten.</p>
     <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
     <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
+    <p>If you remember GameCult from before the long silence: yes, that silence had a cause. Aetheria reached a playable vertical slice, then ran headfirst into fundraising, expiring professional tooling needs, and publisher conversations that liked the enthusiasm until the open-source implications became somebody's meeting problem.</p>
+    <p>The studio went quiet because the human carrying most of it broke under that load. We are not dressing that up as strategic mystery. The rebuild now is quieter, sharper, and more honest about scope: preserve the open model, make the work legible again, and stop trying to personally outmuscle the entire economic climate like that ever made sense.</p>
     <div class="gamecult-feature-grid">
       <div class="gamecult-feature-card">
         <h3>Open by default</h3>

@@ -28,11 +28,11 @@ Our first major project, Aetheria, is the largest of the lot: part frontier surv
 
 At full scale, Aetheria supports two modes in the same setting: a large-scale multiplayer strategy game driven by competing corporations, and an action-RPG layer where players explore that same galaxy through combat, trade, quests, and frontier survival. Ambitious, yes. We noticed.
 
-Because that vision is enormous, we also pursue shorter-term projects that sharpen the studio's skills and get distinctive work out sooner. The first of those is an Aetheria prequel that explores the social and economic conditions shaping the wider setting without making the first release carry the full weight of our galactic ambition problem.
+Because that vision is enormous, we also pursue shorter-term projects that sharpen the studio's skills and get distinctive work out sooner. The current public release path starts with Aetheria: Terminus, a focused rogue-lite action RPG slice that can prove the cockpit-scale game without making the first release carry the full weight of our galactic ambition problem.
 
-### Aetheria: L'appel du Vide
+### Aetheria: Terminus
 
-_L'appel du Vide_ is a single-player experience about a private investigator drawn into events spanning the entire colonization fleet. It introduces the ARPG formula that later lives inside the wider universe, but without requiring the first release to shoulder the sort of overhead that eats budgets and souls. It works as an hors d'oeuvre: a sharp, story-driven entry point that hones our skills and whets appetites for what is coming.
+Aetheria: Terminus is a rogue-lite route across hostile space: ship handling, procedural pressure, megacorporate opposition, salvage, contracts, and the deeply unfair discovery that freedom is easier to advertise than to reach. It works as the smaller blade by design: a public cut into the larger universe without demanding that the first release personally drag the entire galaxy into production.
 
 ## CultPong
 

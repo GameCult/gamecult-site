@@ -1,6 +1,6 @@
 ---
 title: GameCult
-description: "GameCult is an open game studio for science-fantasy worlds, competitive experiments, fiction, and the public machinery required to build them without the usual private-cabal nonsense."
+description: "Open game studio for science-fantasy worlds, competitive experiments, fiction, and the public machinery required to build them without the usual private-cabal nonsense."
 enableToc: false
 showCompositeJump: false
 sidebarGroups:

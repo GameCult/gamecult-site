@@ -1,5 +1,6 @@
 ---
 title: Why Aetheria Went Quiet
+description: "Aetheria went quiet when the vertical slice finally collided with funding reality, studio infrastructure, and one human being carrying too much of the blast radius."
 ---
 
 # Why Aetheria Went Quiet

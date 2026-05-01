@@ -1,24 +1,39 @@
 # GameCult Site
 
-`gamecult-site` is the new Quartz-based source for the public `gamecult.org` root site.
+`gamecult-site` is the public `gamecult.org` root site: studio pitch, projects, docs, blog, and the usual pile of ambitions trying to look organized in public.
 
-It follows the same general split that worked well for `AetheriaLore`:
+The site now builds against the shared `GameCult-Quartz` engine instead of vendoring its own Quartz fork. That means this repo mostly owns content plus a site overlay, not an entire second copy of the machinery.
 
-- `GameCult/` contains the actual site content in Markdown
-- `quartz-site/` contains the vendored Quartz implementation and custom UI
-- `scripts/quartz/quartz.ps1` is the beginner-friendly helper for local build and dev runs
-- `.github/workflows/deploy-quartz.yml` deploys the static site to GitHub Pages
+## Repo Shape
 
-## Goals
+- `GameCult/`: published Markdown content
+- `site/`: GameCult-specific Quartz overlay
+  - `quartz.config.ts`
+  - `quartz.layout.ts`
+  - custom components
+  - custom styles
+  - static assets
+- `quartz-site/public/`: generated static output
+- `scripts/quartz/quartz.ps1`: local build/dev launcher
+- `.github/workflows/deploy-quartz.yml`: Pages deploy workflow, delegated to `GameCult-Quartz`
 
-- replace the legacy Grav site with a static workflow that edits well outside a CMS
-- keep developer ergonomics close to the Aetheria site
-- provide a natural home for studio pages, blog posts, docs, and project hubs
-- link to `aetheria.gamecult.org` as the deeper Aetheria-specific vault and publishing surface
+## Shared Engine Dependency
+
+Local builds expect the shared engine repo to exist either:
+
+- as a sibling checkout at `E:\\Projects\\GameCult-Quartz`, or
+- at the path provided through `GAMECULT_QUARTZ_ROOT`
+
+Install dependencies in `GameCult-Quartz` first:
+
+```powershell
+cd E:\Projects\GameCult-Quartz
+npm ci
+```
 
 ## Local Development
 
-From the repo root:
+From this repo root:
 
 ```powershell
 .\scripts\quartz\quartz.ps1 dev
@@ -30,23 +45,13 @@ For a one-off production build:
 .\scripts\quartz\quartz.ps1 build
 ```
 
-The generated static output goes to `quartz-site/public`.
+The shared engine stages a runtime under `.quartz-build/engine` and writes the final static site to `quartz-site/public`.
 
-## Repo Map
+## Content Map
 
-- `GameCult/index.md`: root landing page and top-level navigation hub
-- `GameCult/Studio/`: studio model, process, and participation pages
-- `GameCult/Projects/`: project overview pages
-- `GameCult/Blog/`: public-facing updates and essays
-- `GameCult/Docs/`: contributor-facing or audience-facing documentation
-- `Aetheria` lives on its own Quartz site at `aetheria.gamecult.org`; this repo just links out to it
+- `GameCult/index.md`: root landing page and manifesto
+- `GameCult/Projects/`: public project pages
+- `GameCult/Blog/`: posts, fiction, and announcements
+- `GameCult/Docs/`: documentation and infrastructure-facing pages
 
-## Design Direction
-
-This site intentionally reuses parts of the Aetheria Quartz shell:
-
-- dark-first visual treatment
-- bold masthead and section chips
-- overview-note-driven sidebar navigation
-
-But it is not a copy of the Aetheria lore site. The structure here is broader and aimed at the studio root.
+`Aetheria` lives on its own site at `https://aetheria.gamecult.org`; this repo links outward instead of pretending to be both things at once.

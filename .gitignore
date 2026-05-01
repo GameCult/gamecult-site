@@ -22,6 +22,7 @@ Thumbs.db
 # Local tooling and build outputs
 /.tools/
 /.npm-cache/
+/.quartz-build/
 /quartz-site/node_modules/
 /quartz-site/public/
 /quartz-site/.quartz-cache/

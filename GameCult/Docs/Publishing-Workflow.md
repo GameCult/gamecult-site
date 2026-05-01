@@ -1,5 +1,6 @@
 ---
 title: Publishing Workflow
+description: "How the public site gets published without a CMS: edit markdown, preview locally, commit to Git, and let GitHub Pages do the dull ceremonial part."
 ---
 
 # Publishing Workflow

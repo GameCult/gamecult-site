@@ -1,5 +1,6 @@
 ---
 title: Site Architecture
+description: "How the root site is laid out now: content in `GameCult/`, shared Quartz machinery underneath, and a cleaner split between the studio front door and the denser Aetheria subsite."
 ---
 
 # Site Architecture

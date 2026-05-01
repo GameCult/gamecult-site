@@ -1,5 +1,6 @@
 ---
 title: Hello, World!
+description: "An introduction to GameCult's studio model: open development, public machinery, strange games, and the stubborn idea that contributors should matter."
 ---
 
 # Welcome, GameCult Initiates

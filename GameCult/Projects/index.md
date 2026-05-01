@@ -10,7 +10,7 @@ This section gathers GameCult's active projects and near-term experiments. Aethe
 
 ## Current Projects
 
-- [Aetheria](/Aetheria/)
+- [Aetheria](https://aetheria.gamecult.org)
 - [CultPong](/Projects/CultPong)
 
 ## Studio Context

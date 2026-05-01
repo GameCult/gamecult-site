@@ -6,7 +6,9 @@ import { clone } from "../util/clone"
 
 export type GameCultSidebarLink = {
   label: string
-  slug: FullSlug
+  slug?: FullSlug
+  href?: string
+  external?: boolean
 }
 
 export type GameCultSidebarGroup = {
@@ -30,6 +32,8 @@ export type GameCultPageContext = {
 type FrontmatterSidebarLink = {
   label?: unknown
   slug?: unknown
+  href?: unknown
+  external?: unknown
 }
 
 type FrontmatterSidebarGroup = {
@@ -363,14 +367,27 @@ function extractFrontmatterOverviewGroups(file: QuartzPluginData): GameCultSideb
             return undefined
           }
 
-          const slug = resolveGameCultReferenceSlug(file.slug as FullSlug, rawLink.slug)
-          if (!slug) {
+          let slug: FullSlug | undefined
+          let href: string | undefined
+          let external = false
+
+          if (typeof rawLink.slug === "string") {
+            slug = resolveGameCultReferenceSlug(file.slug as FullSlug, rawLink.slug)
+            if (!slug) {
+              return undefined
+            }
+          } else if (typeof rawLink.href === "string" && rawLink.href.trim().length > 0) {
+            href = rawLink.href.trim()
+            external = rawLink.external === true || /^https?:\/\//i.test(href)
+          } else {
             return undefined
           }
 
           return {
             label: rawLink.label,
             slug,
+            href,
+            external,
           }
         })
         .filter((link): link is GameCultSidebarLink => link !== undefined)

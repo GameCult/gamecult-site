@@ -28,12 +28,21 @@ export default (() => {
                 <p class="gamecult-overview-group-title">{group.title}</p>
                 <ul class="gamecult-overview-links">
                   {group.links.map((link) => {
-                    const active = isSidebarLinkActive(currentSlug, link.slug)
+                    const active = link.slug ? isSidebarLinkActive(currentSlug, link.slug) : false
+                    const href =
+                      link.href ?? (link.slug ? resolveRelative(currentSlug, link.slug) : undefined)
+
+                    if (!href) {
+                      return null
+                    }
+
                     return (
                       <li class={active ? "active" : undefined}>
                         <a
-                          href={resolveRelative(currentSlug, link.slug)}
+                          href={href}
                           class={active ? "active" : undefined}
+                          target={link.external ? "_blank" : undefined}
+                          rel={link.external ? "noreferrer noopener" : undefined}
                         >
                           {link.label}
                         </a>

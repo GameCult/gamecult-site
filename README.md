@@ -39,7 +39,7 @@ The generated static output goes to `quartz-site/public`.
 - `GameCult/Projects/`: project overview pages
 - `GameCult/Blog/`: public-facing updates and essays
 - `GameCult/Docs/`: contributor-facing or audience-facing documentation
-- `GameCult/Aetheria/`: Aetheria hub pages that point toward the larger subsite
+- `Aetheria` lives on its own Quartz site at `aetheria.gamecult.org`; this repo just links out to it
 
 ## Design Direction
 

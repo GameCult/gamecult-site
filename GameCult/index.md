@@ -22,7 +22,8 @@ sidebarGroups:
   - title: Projects
     links:
       - label: Aetheria
-        slug: Aetheria/
+        href: https://aetheria.gamecult.org
+        external: true
       - label: CultPong
         slug: Projects/CultPong
   - title: Writing

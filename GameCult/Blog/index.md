@@ -26,4 +26,4 @@ The blog is where shorter GameCult writing lives: announcements, notes, fiction,
 
 - [GameCult](/)
 - [Projects](/Projects/)
-- [Aetheria](/Aetheria/)
+- [Aetheria](https://aetheria.gamecult.org)

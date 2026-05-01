@@ -28,11 +28,15 @@ Our first major project, Aetheria, is the largest of the lot: part frontier surv
 
 At full scale, Aetheria supports two modes in the same setting: a large-scale multiplayer strategy game driven by competing corporations, and an action-RPG layer where players explore that same galaxy through combat, trade, quests, and frontier survival. Ambitious, yes. We noticed.
 
-Because that vision is enormous, we also pursue shorter-term projects that sharpen the studio's skills and get distinctive work out sooner. The current public release path starts with Aetheria: Terminus, a focused rogue-lite action RPG slice that can prove the cockpit-scale game without making the first release carry the full weight of our galactic ambition problem.
+Because that vision is enormous, we also pursue shorter-term projects that sharpen the studio's skills and get distinctive work out sooner. The release path has always included scope knives, because apparently "ship a whole persistent galaxy first" is frowned upon by people with calendars.
+
+The first big cut was Aetheria: Terminus, a focused rogue-lite action RPG slice meant to prove the cockpit-scale game without making the first release carry the full weight of our galactic ambition problem.
+
+When even Terminus looked too large, the last-ditch step down was `L'appel du Vide`: a curated story-first Aetheria project about Cat Marrigan, an out-of-work private investigator and taxi driver caught in the social aftermath of humanity realizing Elysium is not a round trip. It remains useful because it trades procedural sprawl for authored cases, passengers, stations, factions, and the deeply economical horror of having fewer moving parts to personally ruin.
 
 ### Aetheria: Terminus
 
-Aetheria: Terminus is a rogue-lite route across hostile space: ship handling, procedural pressure, megacorporate opposition, salvage, contracts, and the deeply unfair discovery that freedom is easier to advertise than to reach. It works as the smaller blade by design: a public cut into the larger universe without demanding that the first release personally drag the entire galaxy into production.
+Aetheria: Terminus is a rogue-lite route across hostile space: ship handling, procedural pressure, megacorporate opposition, salvage, contracts, and the deeply unfair discovery that freedom is easier to advertise than to reach. It works as the smaller blade compared with full Aetheria, though history has been rude enough to point out that even smaller blades can still be too large to safely wave around indoors.
 
 ## CultPong
 

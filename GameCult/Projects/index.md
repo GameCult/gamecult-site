@@ -10,7 +10,7 @@ This section gathers GameCult's active projects and near-term experiments. Aethe
 
 Aetheria's public silence after 2021 was not a disappearance of intent. The project reached a playable vertical slice, then hit the funding wall: professional audio tooling needed to become paid, the studio needed a way to compensate contributors, and publisher interest tended to cool once the open-source model stopped sounding like a novelty and started sounding like a real structural commitment. The machine did not die. It ran out of breathable atmosphere.
 
-The new Aetheria site is the recovery surface: lore, design notes, media, planning evidence, and the current release path gathered into one place so returning contributors and curious strangers can see what still exists and what is being made next. That includes the big galaxy-scale design, Terminus as the first major scope cut, and the smaller post-Terminus `Aetheria: Call of the Void` story-first target built around Cat Marrigan, PI cases, taxi fares, and the point-of-no-return revelation.
+The new Aetheria site is the recovery surface: lore, design notes, media, planning evidence, and the current release path gathered into one place so returning contributors and curious strangers can see what still exists and what is being made next. That includes the big galaxy-scale design, Terminus as the first major scope cut, and the smaller post-Terminus `Aetheria: Call of the Void` story-first target built around Cat Marrigan, PI cases, taxi fares, and the point-of-no-return revelation. That last one comes from an older colonization-fleet version of the setting, so its story beats are useful but not yet continuity-clean.
 
 ## Current Projects
 

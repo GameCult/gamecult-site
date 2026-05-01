@@ -1,6 +1,7 @@
 ---
 title: CultPong
 description: "Competitive arcade nonsense with expressive paddle shapes, violent bash reversals, and just enough structure to keep the whole thing barely respectable."
+socialDeck: "Pong, but less respectable."
 ---
 
 # CultPong

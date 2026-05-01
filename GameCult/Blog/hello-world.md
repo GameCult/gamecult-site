@@ -32,7 +32,7 @@ Because that vision is enormous, we also pursue shorter-term projects that sharp
 
 The first big cut was Aetheria: Terminus, a focused rogue-lite action RPG slice meant to prove the cockpit-scale game without making the first release carry the full weight of our galactic ambition problem.
 
-When even Terminus looked too large, the last-ditch step down was `L'appel du Vide`: a curated story-first Aetheria project about Cat Marrigan, an out-of-work private investigator and taxi driver caught in the social aftermath of humanity realizing Elysium is not a round trip. It remains useful because it trades procedural sprawl for authored cases, passengers, stations, factions, and the deeply economical horror of having fewer moving parts to personally ruin.
+When even Terminus looked too large, the last-ditch step down was `Aetheria: Call of the Void`: a curated story-first Aetheria project about Cat Marrigan, an out-of-work private investigator and taxi driver caught in the social aftermath of humanity realizing Elysium is not a round trip. The title translates `l'appel du vide`, the irrational urge to step over the edge when staring down from a height, because apparently we are capable of restraint only after translating the French. It remains useful because it trades procedural sprawl for authored cases, passengers, stations, factions, and the deeply economical horror of having fewer moving parts to personally ruin.
 
 ### Aetheria: Terminus
 

@@ -28,7 +28,7 @@ type SectionKey = "studio" | "projects" | "blog" | "docs"
 const sectionMetadata: Record<SectionKey, SiteSocialMetadata> = {
   studio: {
     section: "Studio",
-    deck: "Open source game development, cooperative by instinct, strange by design.",
+    deck: "Open source game dev, strange by design.",
     image: {
       kind: "static",
       path: "social/studio-stonks.jpg",
@@ -37,7 +37,7 @@ const sectionMetadata: Record<SectionKey, SiteSocialMetadata> = {
   },
   projects: {
     section: "Projects",
-    deck: "Flagships, experiments, and other bad ideas stubborn enough to survive contact with reality.",
+    deck: "Flagships, experiments, and durable bad ideas.",
     image: {
       kind: "static",
       path: "social/projects-debris.jpg",
@@ -46,7 +46,7 @@ const sectionMetadata: Record<SectionKey, SiteSocialMetadata> = {
   },
   blog: {
     section: "Blog",
-    deck: "Fiction, announcements, and the bits too useful to leave rotting in chat logs.",
+    deck: "Fiction, announcements, and the good bits rescued from chat.",
     image: {
       kind: "static",
       path: "social/blog-lavacave.jpg",
@@ -55,7 +55,7 @@ const sectionMetadata: Record<SectionKey, SiteSocialMetadata> = {
   },
   docs: {
     section: "Docs",
-    deck: "Infrastructure, publishing notes, and the machinery behind the circus.",
+    deck: "Infrastructure, publishing notes, backstage machinery.",
     image: {
       kind: "static",
       path: "social/docs-bounty.jpg",

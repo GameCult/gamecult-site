@@ -1,6 +1,7 @@
 ---
 title: Bifrost
 description: "The GameCult labor platform: work, governance, patronage, contributor history, and payout logic dragged out of folklore and into software."
+socialDeck: "Co-op governance dragged out of folklore."
 ---
 
 # Bifrost

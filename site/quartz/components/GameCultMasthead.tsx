@@ -8,6 +8,19 @@ type Route = {
   href?: string
   matches?: string[]
   external?: boolean
+  dropdownGroups?: DropdownGroup[]
+}
+
+type DropdownLink = {
+  label: string
+  slug?: FullSlug
+  href?: string
+  external?: boolean
+}
+
+type DropdownGroup = {
+  title: string
+  links: DropdownLink[]
 }
 
 type ExternalLink = {
@@ -20,6 +33,49 @@ type ExternalLink = {
     paths?: string[]
   }
 }
+
+const projectGroups: DropdownGroup[] = [
+  {
+    title: "Worlds and Games",
+    links: [
+      { label: "Aetheria-Economy", slug: "Projects/Aetheria-Economy" as FullSlug },
+      { label: "AetheriaLore", slug: "Projects/AetheriaLore" as FullSlug },
+      { label: "CultPong", slug: "Projects/CultPong" as FullSlug },
+    ],
+  },
+  {
+    title: "Studio and Sites",
+    links: [
+      { label: "GCLP", slug: "Projects/GCLP" as FullSlug },
+      { label: "gamecult-site", slug: "Projects/gamecult-site" as FullSlug },
+      { label: "GameCult-Quartz", slug: "Projects/GameCult-Quartz" as FullSlug },
+      { label: "gamecult-grav", slug: "Projects/gamecult-grav" as FullSlug },
+    ],
+  },
+  {
+    title: "Libraries and Protocols",
+    links: [
+      { label: "CultLib", slug: "Projects/CultLib" as FullSlug },
+      { label: "cultcache-ts", slug: "Projects/cultcache-ts" as FullSlug },
+      { label: "cultnet-ts", slug: "Projects/cultnet-ts" as FullSlug },
+      { label: "epiphany-graph-rs", slug: "Projects/epiphany-graph-rs" as FullSlug },
+    ],
+  },
+  {
+    title: "AI and Tools",
+    links: [
+      { label: "Ghostlight", slug: "Projects/Ghostlight" as FullSlug },
+      { label: "repixelizer", slug: "Projects/repixelizer" as FullSlug },
+    ],
+  },
+  {
+    title: "Forks and Parked Dependencies",
+    links: [
+      { label: "geometry-script", slug: "Projects/geometry-script" as FullSlug },
+      { label: "stride", slug: "Projects/stride" as FullSlug },
+    ],
+  },
+]
 
 const routes: Route[] = [
   {
@@ -36,19 +92,10 @@ const routes: Route[] = [
     ],
   },
   {
-    label: "Bifrost",
-    slug: "Docs/Bifrost" as FullSlug,
-    matches: ["Docs/Bifrost"],
-  },
-  {
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],
-  },
-  {
-    label: "Repixelizer",
-    href: "https://repixelizer.gamecult.org",
-    external: true,
+    dropdownGroups: projectGroups,
   },
   {
     label: "Blog",
@@ -166,6 +213,51 @@ export default (() => {
               const href = route.external
                 ? route.href!
                 : resolveRelative(currentSlug, route.slug!)
+
+              if (route.dropdownGroups) {
+                return (
+                  <details class="gamecult-nav-dropdown">
+                    <summary
+                      class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
+                    >
+                      <span>{route.label}</span>
+                      <span class="gamecult-nav-caret" aria-hidden="true">
+                        v
+                      </span>
+                    </summary>
+                    <div class="gamecult-nav-dropdown-panel">
+                      <a href={href} class="gamecult-nav-dropdown-overview">
+                        Repo Atlas
+                      </a>
+                      {route.dropdownGroups.map((group) => (
+                        <section class="gamecult-nav-dropdown-group">
+                          <h3>{group.title}</h3>
+                          <ul class="gamecult-nav-dropdown-list">
+                            {group.links.map((link) => {
+                              const linkHref = link.external
+                                ? link.href!
+                                : resolveRelative(currentSlug, link.slug!)
+                              return (
+                                <li>
+                                  <a
+                                    href={linkHref}
+                                    class="gamecult-nav-dropdown-link"
+                                    target={link.external ? "_blank" : undefined}
+                                    rel={link.external ? "noreferrer noopener" : undefined}
+                                  >
+                                    {link.label}
+                                  </a>
+                                </li>
+                              )
+                            })}
+                          </ul>
+                        </section>
+                      ))}
+                    </div>
+                  </details>
+                )
+              }
+
               return (
                 <a
                   href={href}

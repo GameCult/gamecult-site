@@ -44,11 +44,7 @@ const projectGroups: DropdownGroup[] = [
   {
     title: "Studio Systems",
     links: [
-      { label: "GCLP", slug: "Projects/GCLP" as FullSlug },
       { label: "Heimdall", slug: "Projects/Heimdall" as FullSlug },
-      { label: "gamecult-site", slug: "Projects/gamecult-site" as FullSlug },
-      { label: "GameCult-Quartz", slug: "Projects/GameCult-Quartz" as FullSlug },
-      { label: "gamecult-grav", slug: "Projects/gamecult-grav" as FullSlug },
     ],
   },
   {

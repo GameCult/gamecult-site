@@ -72,7 +72,8 @@ repos:
       - 2020-09-25: Initial Commit (broken due to version update)
 
   - repo: GCLP
-    page: /Projects/GCLP
+    page: null
+    presentation: omitted-from-site
     category: studio-systems
     kind: legacy-manifesto-seed
     status: dormant
@@ -214,7 +215,8 @@ repos:
       - 2026-05-06: Add CultNet Rust interop peer example
 
   - repo: gamecult-grav
-    page: /Projects/gamecult-grav
+    page: null
+    presentation: omitted-from-site
     category: studio-systems
     kind: legacy-site-archive
     status: archival
@@ -232,7 +234,8 @@ repos:
       - 2026-04-20: Restore tracked GameCult logo asset
 
   - repo: gamecult-site
-    page: /Projects/gamecult-site
+    page: null
+    presentation: omitted-from-site
     category: studio-systems
     kind: public-site
     status: active
@@ -253,7 +256,8 @@ repos:
       - 2026-05-07: Add public repo atlas and projects dropdown
 
   - repo: GameCult-Quartz
-    page: /Projects/GameCult-Quartz
+    page: null
+    presentation: omitted-from-site
     category: studio-systems
     kind: shared-site-engine
     status: active

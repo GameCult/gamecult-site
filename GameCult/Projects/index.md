@@ -9,16 +9,8 @@ sidebarGroups:
         slug: ./CultPong
   - title: Studio Systems
     links:
-      - label: GCLP
-        slug: ./GCLP
       - label: Heimdall
         slug: ./Heimdall
-      - label: gamecult-site
-        slug: ./gamecult-site
-      - label: GameCult-Quartz
-        slug: ./GameCult-Quartz
-      - label: gamecult-grav
-        slug: ./gamecult-grav
   - title: Shared Code
     links:
       - label: CultLib
@@ -53,7 +45,7 @@ Aetheria already has its own site, so the Aetheria runtime and lore repos are no
 
 Likewise, the CultCache and CultNet language ports are real repos, but they do not each need their own little throne room. They are folded into the [CultLib](/Projects/CultLib) page because they are one family of persistence and protocol work expressed in several runtimes, not six unrelated epics.
 
-Below is the curated map: the repos with enough independent trajectory to merit a page, plus the site and systems work that explain how the studio is currently choosing to be complicated.
+Below is the curated map: the repos with enough independent trajectory to merit a page, minus the infrastructure repos that only exist to explain other infrastructure repos and then make everyone sad.
 
 <div class="gamecult-project-groups">
   <section class="gamecult-project-group">
@@ -65,11 +57,7 @@ Below is the curated map: the repos with enough independent trajectory to merit 
   <section class="gamecult-project-group">
     <h2>Studio Systems</h2>
     <ul>
-      <li><a href="/Projects/GCLP">GCLP</a></li>
       <li><a href="/Projects/Heimdall">Heimdall</a></li>
-      <li><a href="/Projects/gamecult-site">gamecult-site</a></li>
-      <li><a href="/Projects/GameCult-Quartz">GameCult-Quartz</a></li>
-      <li><a href="/Projects/gamecult-grav">gamecult-grav</a></li>
     </ul>
   </section>
   <section class="gamecult-project-group">

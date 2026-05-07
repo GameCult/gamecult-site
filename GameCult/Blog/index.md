@@ -10,6 +10,7 @@ The blog is where shorter GameCult writing lives: announcements, notes, fiction,
 
 ## Notes
 
+- [Daily Damage Report](/Blog/daily-damage-report)
 - [Why Aetheria Went Quiet](/Blog/why-aetheria-went-quiet)
 - [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)
 

@@ -13,7 +13,7 @@ socialDeck: "Shared site engine, fewer fake forks, less suffering."
 <div class="gamecult-repo-links">
   <a class="gamecult-repo-link" href="https://github.com/GameCult/GameCult-Quartz">GitHub Repo</a>
   <a class="gamecult-repo-link" href="/Projects/gamecult-site">gamecult-site</a>
-  <a class="gamecult-repo-link" href="/Projects/AetheriaLore">AetheriaLore</a>
+  <a class="gamecult-repo-link" href="https://aetheria.gamecult.org">Aetheria Site</a>
 </div>
 
 <div class="gamecult-repo-facts">

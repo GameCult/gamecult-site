@@ -12,8 +12,8 @@ Ghostlight is the studio's social-AI experiment: agents designed to model perspe
 
 <div class="gamecult-repo-links">
   <a class="gamecult-repo-link" href="https://github.com/GameCult/Ghostlight">GitHub Repo</a>
-  <a class="gamecult-repo-link" href="/Projects/cultnet-ts">cultnet-ts</a>
   <a class="gamecult-repo-link" href="/Projects/CultLib">CultLib</a>
+  <a class="gamecult-repo-link" href="/Projects/VoidBot">VoidBot</a>
 </div>
 
 <div class="gamecult-repo-facts">

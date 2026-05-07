@@ -3,12 +3,13 @@ org: GameCult
 sourceLedger: docs/research/gamecult-org-repo-ledger.json
 recentChronicleWindowStart: 2026-04-18
 notes:
-  - The JSON ledger is the machine-chewable evidence layer: repo metadata, root entries, README excerpts where present, early commits, recent commits, and recent-wave commits.
-  - This YAML is the human layer: category, trajectory, ambition, current state, and the handful of commits that actually explain why the repo exists.
-  - Forked repos are included because they are public org artifacts, but their histories are interpreted as dependency or toolchain decisions rather than GameCult-native product buildouts.
+  - The JSON ledger is the machine-chewable evidence layer: repo metadata, root entries, README excerpts, and commit slices harvested from the current public org scan plus local clones where available.
+  - This YAML is the human layer: category, trajectory, ambition, and presentation strategy for each public repo.
+  - Not every public repo gets its own page. Aetheria repos defer to the dedicated Aetheria site, the CultCache/CultNet language ports fold into CultLib, and dependency-parking forks stay out of the public atlas because there is nothing new to say about them.
 repos:
   - repo: Aetheria-Economy
-    page: /Projects/Aetheria-Economy
+    page: https://aetheria.gamecult.org
+    presentation: external-aetheria-site
     category: worlds-and-games
     kind: flagship-runtime
     status: active
@@ -19,19 +20,19 @@ repos:
     githubUrl: https://github.com/GameCult/Aetheria-Economy
     publicSurface: https://aetheria.gamecult.org
     foundingIdea: Build the playable Aetheria runtime instead of leaving the flagship universe as lore and mood alone.
-    trajectory: Began as a 2020 Unity/client-server land rush, passed through playability and rendering waves in 2022, then revived around Unity 6, gravity surfaces, lore sync, and editor/tooling bridges in 2025-2026.
-    ambition: Prove a shippable slice of the broader Aetheria machine without pretending the entire MMO-scale dream must land at once.
-    currentState: Active flagship codebase with clear signs of revived systems work and tooling integration.
+    trajectory: Began as a Unity/client-server land rush, passed through playability and rendering waves, and later re-emerged around Unity 6, gravity surfaces, lore sync, and editor bridges.
+    ambition: Prove a shippable slice of the broader Aetheria machine without pretending the entire galaxy-scale dream has to land in one bite.
+    currentState: Active flagship runtime, handled editorially by the dedicated Aetheria site rather than duplicated on GameCult.
     markers:
       - 2020-02-26: Initial Client/Server Communication
       - 2020-03-11: Porting Galaxy Editor
-      - 2020-03-22: Database Support
       - 2022-08-08: Playability
       - 2025-07-10: Unity 6 Upgrade + Solid Gravity Surface
       - 2026-04-30: Add Epiphany Unity editor bridge
 
   - repo: AetheriaLore
-    page: /Projects/AetheriaLore
+    page: https://aetheria.gamecult.org
+    presentation: external-aetheria-site
     category: worlds-and-games
     kind: canon-vault
     status: active
@@ -42,14 +43,13 @@ repos:
     githubUrl: https://github.com/GameCult/AetheriaLore
     publicSurface: https://aetheria.gamecult.org
     foundingIdea: Gather lore, design notes, fiction, and continuity work into one canonical, searchable home.
-    trajectory: Started as vault import and worldbuilding recovery, then became a Quartz site, a public canon surface, and an editorial tool for reconciling old and new Aetheria material.
-    ambition: Serve as the source of truth for the setting while staying public enough for contributors and curious strangers to orient themselves.
-    currentState: Active vault and public site with hierarchy, media, stories, and continuity repairs in motion.
+    trajectory: Started as vault import and worldbuilding recovery, then became a Quartz site, a canon surface, and an editorial workbench for reconciling old and new Aetheria material.
+    ambition: Serve as the public source of truth for the setting without disappearing into private wiki sludge.
+    currentState: Active vault and public site, intentionally left to speak for itself on the Aetheria domain.
     markers:
       - 2026-04-19: Add local RAG tooling for vault navigation
       - 2026-04-19: Add Narrative Themes
       - 2026-04-19: Static Wiki Site via Quartz
-      - 2026-04-30: Restructure Aetheria front page and import story metadata
       - 2026-05-01: Restore visual Aetheria front page
       - 2026-05-01: Expand Aetheria game design hierarchy
 
@@ -65,52 +65,34 @@ repos:
     githubUrl: https://github.com/GameCult/CultPong
     foundingIdea: Take Pong, make the paddles expressive, add bash reversals, and aim for online competitive chaos.
     trajectory: Two public commits in one morning, full Unity project skeleton, then silence.
-    ambition: Short-match competitive arcade game with ranked/tournament potential and a geometry-driven skill ceiling.
-    currentState: Dormant public prototype; idea survives in studio memory and site copy.
+    ambition: Short-match competitive arcade nonsense with ranked potential and a geometry-driven skill ceiling.
+    currentState: Dormant public prototype whose founding joke still holds up.
     markers:
       - 2020-09-25: Initial commit
       - 2020-09-25: Initial Commit (broken due to version update)
 
   - repo: GCLP
     page: /Projects/GCLP
-    category: studio-and-sites
+    category: studio-systems
     kind: legacy-manifesto-seed
     status: dormant
     fork: false
     language: null
     createdAt: 2020-10-02
-    lastPushAt: 2020-10-02
+    lastPushAt: 2020-10-05
     githubUrl: https://github.com/GameCult/GCLP
     successorPage: /Docs/Bifrost
     foundingIdea: Drag work, governance, patronage, and compensation logic out of private memory and into software.
-    trajectory: Public repo never advanced beyond a one-commit README stub, but the concept survived and later re-emerged as Bifrost.
+    trajectory: Public repo never moved beyond a stub, but the idea survived and later re-emerged as Bifrost.
     ambition: A studio operating system for membership, work, governance, and payout logic.
-    currentState: Fossil seed; historically important because the idea outlived the repo.
+    currentState: Fossil seed; historically useful because the idea outlived the repo.
     markers:
       - 2020-10-02: Initial commit
 
-  - repo: stride
-    page: /Projects/stride
-    category: forks-and-parked-dependencies
-    kind: upstream-engine-fork
-    status: parked
-    fork: true
-    language: C#
-    createdAt: 2021-06-15
-    lastPushAt: 2021-06-15
-    githubUrl: https://github.com/GameCult/stride
-    upstreamUrl: https://github.com/stride3d/stride
-    foundingIdea: Keep a technically significant engine fork under org custody rather than relying on memory alone.
-    trajectory: Forked from upstream and left largely untouched in public.
-    ambition: Dependency control, reference value, possible patching surface if engine work demanded it.
-    currentState: Historical fork, not a GameCult-native product buildout.
-    markers:
-      - 2021-06-15: Forked from stride3d/stride
-
   - repo: CultLib
     page: /Projects/CultLib
-    category: libraries-and-protocols
-    kind: shared-csharp-substrate
+    category: shared-code
+    kind: shared-runtime-family
     status: active
     fork: false
     language: C#
@@ -118,9 +100,9 @@ repos:
     lastPushAt: 2026-05-06
     githubUrl: https://github.com/GameCult/CultLib
     foundingIdea: Stop re-solving shared runtime, persistence, UI, and networking machinery in every bigger codebase.
-    trajectory: Began with storage/security/UI cleanup, then pivoted into protocol, schema, and interop work as the broader tooling stack emerged.
-    ambition: Become the boring, reusable center of gravity for GameCult's C# side.
-    currentState: Active shared library with clear protocol and persistence responsibilities.
+    trajectory: Started as C# runtime cleanup and pivoted hard into schema, persistence, and interop work. The one-day appearance of CultCache and CultNet siblings across TypeScript, Rust, and Python made it the obvious umbrella for a whole repo family.
+    ambition: Become the boring center of gravity for the studio's persistence and protocol stack across languages.
+    currentState: Active anchor repo and public landing page for the broader CultLib/CultCache/CultNet family.
     markers:
       - 2026-04-18: JSON backing store, I/O fixes, Networking Security
       - 2026-04-18: Complete CultUI Port and remove legacy UI prefabs and scripts
@@ -128,133 +110,10 @@ repos:
       - 2026-05-06: Bring legacy CultNet into the schema-v0 fold
       - 2026-05-06: Add CultNet C# interop peer harness
 
-  - repo: gamecult-grav
-    page: /Projects/gamecult-grav
-    category: studio-and-sites
-    kind: legacy-site-archive
-    status: archival
-    fork: false
-    language: SCSS
-    createdAt: 2020-08-09
-    lastPushAt: 2026-04-20
-    githubUrl: https://github.com/GameCult/gamecult-grav
-    foundingIdea: Hold the public site in Grav and sync content through the CMS-era workflow.
-    trajectory: Mostly GitSync noise and content churn; later demoted to archive status and mined for salvage during the Quartz migration.
-    ambition: No longer to be the live site; now to preserve old copy, assets, and structure for reference.
-    currentState: Archive and salvage quarry.
-    markers:
-      - 2022-07-02: Grav GitSync burst
-      - 2026-04-20: Restore tracked GameCult logo asset
-
-  - repo: gamecult-site
-    page: /Projects/gamecult-site
-    category: studio-and-sites
-    kind: public-site
-    status: active
-    fork: false
-    language: TypeScript
-    createdAt: 2026-04-21
-    lastPushAt: 2026-05-01
-    githubUrl: https://github.com/GameCult/gamecult-site
-    publicSurface: https://gamecult.org
-    foundingIdea: Replace the old Grav site with a Git-friendly Quartz site that can actually hold the studio's current shape.
-    trajectory: Exploded out of migration, then immediately became a venue for copy revision, layout repair, navigation redesign, repo surfacing, and shared-engine extraction.
-    ambition: Serve as the living public front door for the studio, its projects, and its arguments.
-    currentState: Active public surface built atop GameCult-Quartz.
-    markers:
-      - 2026-04-21: Initial Quartz site migration
-      - 2026-04-21: Composite Studio overview sections
-      - 2026-04-21: Merge homepage into Studio landing
-      - 2026-04-22: Update GCLP page for Bifrost rollout
-      - 2026-05-01: Switch site build to shared GameCult-Quartz
-
-  - repo: repixelizer
-    page: /Projects/repixelizer
-    category: ai-and-tools
-    kind: optimization-tool
-    status: active
-    fork: false
-    language: Python
-    createdAt: 2026-04-21
-    lastPushAt: 2026-05-01
-    githubUrl: https://github.com/GameCult/repixelizer
-    publicSurface: https://repixelizer.gamecult.org
-    foundingIdea: Make fake pixel art stop lying by solving for actual pixel coherence instead of merely shrinking images.
-    trajectory: Rapid CLI bootstrap, metric and lattice experimentation, an extended tile-graph detour, then hosted queue/gui work and operationalization.
-    ambition: Recover real-looking pixel structure from AI-ish or faux-pixel inputs while figuring out which parts of the algorithm actually deserve to live.
-    currentState: Active experiment with visible signs of both ambition and self-correction.
-    markers:
-      - 2026-04-21: Bootstrap the repixelizer CLI project
-      - 2026-04-22: Improve lattice inference with source evidence
-      - 2026-04-22: Add line-aware refinement energy
-      - 2026-04-22: Add experimental tile graph reconstruction mode
-      - 2026-04-29: Log hosted queue and job pressure
-      - 2026-05-01: Log Repixelizer job actors for ops summaries
-
-  - repo: GameCult-Quartz
-    page: /Projects/GameCult-Quartz
-    category: studio-and-sites
-    kind: shared-site-engine
-    status: active
-    fork: false
-    language: TypeScript
-    createdAt: 2026-05-01
-    lastPushAt: 2026-05-07
-    githubUrl: https://github.com/GameCult/GameCult-Quartz
-    foundingIdea: Extract the shared site engine so GameCult's Quartz-based sites stop pretending duplicated forks are a strategy.
-    trajectory: Extraction, metadata cleanup, preview fixes, art-first social cards, then a simplification pass on the card chrome.
-    ambition: Shared static-site infrastructure with per-site overlays and meaningful divergence where it counts.
-    currentState: Active shared engine repo.
-    markers:
-      - 2026-05-01: Extract shared GameCult-Quartz engine
-      - 2026-05-01: Improve preview title and description extraction
-      - 2026-05-01: Tighten social metadata generation
-      - 2026-05-01: Add image-forward social card generation
-      - 2026-05-07: Simplify social card chrome
-
-  - repo: Ghostlight
-    page: /Projects/Ghostlight
-    category: ai-and-tools
-    kind: social-agent-runtime
-    status: active
-    fork: false
-    language: Python
-    createdAt: 2026-05-01
-    lastPushAt: 2026-05-06
-    githubUrl: https://github.com/GameCult/Ghostlight
-    foundingIdea: Build socially legible AI agents instead of sycophantic chatbot paste.
-    trajectory: Started with state/persistence and documentation, narrowed into story-scene authoring and projection, then widened into lore grounding and CultNet/CultCache integration.
-    ambition: Support authored scenes, simulations, and eventually richer social worlds with agents that can actually hold perspective and stance.
-    currentState: Active experimental runtime with scene, state, and protocol work in motion.
-    markers:
-      - 2026-05-01: Scaffold Ghostlight persistence spine
-      - 2026-05-01: Retarget Ghostlight toward Call of the Void authoring
-      - 2026-05-01: Define prompt projection contract
-      - 2026-05-01: Adopt Ink for branching scenes
-      - 2026-05-06: Migrate state spine toward cultcache-py
-      - 2026-05-06: Define the shared CultNet agent-state contract
-
-  - repo: geometry-script
-    page: /Projects/geometry-script
-    category: forks-and-parked-dependencies
-    kind: upstream-tool-fork
-    status: parked
-    fork: true
-    language: Python
-    createdAt: 2026-05-04
-    lastPushAt: 2026-05-04
-    githubUrl: https://github.com/GameCult/geometry-script
-    upstreamUrl: https://github.com/carson-katri/geometry-script
-    foundingIdea: Keep a promising procedural-geometry tool close enough to inspect or adapt if it became strategically useful.
-    trajectory: Forked into the org and not publicly diverged afterward.
-    ambition: Potential procedural-art or pipeline leverage, not a declared in-house flagship.
-    currentState: Parked fork.
-    markers:
-      - 2026-05-04: Forked from carson-katri/geometry-script
-
   - repo: cultcache-ts
-    page: /Projects/cultcache-ts
-    category: libraries-and-protocols
+    page: /Projects/CultLib
+    presentation: folded-into-cultlib
+    category: shared-code
     kind: typescript-persistence-port
     status: active
     fork: false
@@ -263,18 +122,59 @@ repos:
     lastPushAt: 2026-05-06
     githubUrl: https://github.com/GameCult/cultcache-ts
     foundingIdea: Bring the CultCache persistence model to the TypeScript side of the stack.
-    trajectory: Clean one-day sprint from initial port through ergonomics, schema compatibility, exports, and raw-envelope optimization.
+    trajectory: One-day sprint from initial port through built output, schema compatibility, and raw-envelope optimization.
     ambition: Quiet foundational storage for the studio's TypeScript tools.
-    currentState: Fresh active port.
+    currentState: Fresh active port, documented under CultLib rather than padded out into a redundant standalone page.
     markers:
       - 2026-05-06: Initial CultCacheTS port
       - 2026-05-06: Ship built output for consumers
       - 2026-05-06: Accept generated parse-style schemas in CultCacheTS
       - 2026-05-06: Add raw envelope fast path to CultCacheTS
 
+  - repo: cultcache-rs
+    page: /Projects/CultLib
+    presentation: folded-into-cultlib
+    category: shared-code
+    kind: rust-persistence-port
+    status: active
+    fork: false
+    language: Rust
+    createdAt: 2026-05-06
+    lastPushAt: 2026-05-06
+    githubUrl: https://github.com/GameCult/cultcache-rs
+    foundingIdea: Give the CultCache model a typed Rust home instead of making Rust consumers paw at generic envelopes.
+    trajectory: Bootstrap, architecture notes, store hardening, registry tightening, slot formatter generation, and raw envelope fast paths all land in one concentrated burst.
+    ambition: Typed Rust persistence with real schema identity and no reflective slop.
+    currentState: Fresh active port, folded into the CultLib family page.
+    markers:
+      - 2026-05-06: Create Rust CultCache crate
+      - 2026-05-06: Document CultCache Rust architecture
+      - 2026-05-06: Harden CultCache store persistence
+      - 2026-05-06: Add raw envelope fast path to cultcache-rs
+
+  - repo: cultcache-py
+    page: /Projects/CultLib
+    presentation: folded-into-cultlib
+    category: shared-code
+    kind: python-persistence-port
+    status: active
+    fork: false
+    language: Python
+    createdAt: 2026-05-06
+    lastPushAt: 2026-05-06
+    githubUrl: https://github.com/GameCult/cultcache-py
+    foundingIdea: Bring the CultCache persistence pattern to Python control-plane and bootstrap surfaces.
+    trajectory: Tiny public start: scaffold the port, then add slot formatting for cross-runtime DatabaseEntry compatibility.
+    ambition: A dependency-light Python persistence layer that still speaks the same schema language as the rest of the family.
+    currentState: Young but clearly scoped family member, documented under CultLib.
+    markers:
+      - 2026-05-06: Scaffold cultcache-py
+      - 2026-05-06: Add DatabaseEntry slot formatter
+
   - repo: cultnet-ts
-    page: /Projects/cultnet-ts
-    category: libraries-and-protocols
+    page: /Projects/CultLib
+    presentation: folded-into-cultlib
+    category: shared-code
     kind: typescript-network-layer
     status: active
     fork: false
@@ -285,16 +185,244 @@ repos:
     foundingIdea: Give the TypeScript side a real CultNet client and interop story.
     trajectory: One-day build from initial client to wire compatibility, generated contracts, schema discovery, local replication, and CI-backed interop checks.
     ambition: Cross-runtime message and schema flow without bespoke wire misery.
-    currentState: Fresh active protocol client.
+    currentState: Fresh active protocol client, folded into the CultLib family page.
     markers:
       - 2026-05-06: Build the first CultNet TypeScript client
       - 2026-05-06: Add explicit CultLib wire-contract compatibility
       - 2026-05-06: Add CultNet schema discovery catalog
       - 2026-05-06: Add cross-runtime CultNet interop harness
 
+  - repo: cultnet-rs
+    page: /Projects/CultLib
+    presentation: folded-into-cultlib
+    category: shared-code
+    kind: rust-network-layer
+    status: active
+    fork: false
+    language: Rust
+    createdAt: 2026-05-06
+    lastPushAt: 2026-05-06
+    githubUrl: https://github.com/GameCult/cultnet-rs
+    foundingIdea: Give Rust peers the same typed CultNet vocabulary, framing, and replication seams as the rest of the stack.
+    trajectory: Bootstrap, schema discovery, raw replication lanes, and an interop peer example all land on the same day.
+    ambition: A boring, shareable wire layer for Rust neighbors in the swarm.
+    currentState: Fresh active protocol crate, covered via the CultLib page.
+    markers:
+      - 2026-05-06: Create CultNet Rust core
+      - 2026-05-06: Add schema discovery to cultnet-rs
+      - 2026-05-06: Add raw local replication lane to cultnet-rs
+      - 2026-05-06: Add CultNet Rust interop peer example
+
+  - repo: gamecult-grav
+    page: /Projects/gamecult-grav
+    category: studio-systems
+    kind: legacy-site-archive
+    status: archival
+    fork: false
+    language: SCSS
+    createdAt: 2020-08-09
+    lastPushAt: 2026-04-20
+    githubUrl: https://github.com/GameCult/gamecult-grav
+    foundingIdea: Hold the public site in Grav and sync content through the CMS-era workflow.
+    trajectory: Mostly GitSync churn, later demoted to archive status and mined for salvage during the Quartz migration.
+    ambition: No longer to be the live site; now to preserve old copy, assets, and structure for reference.
+    currentState: Archive and salvage quarry.
+    markers:
+      - 2022-07-02: Grav GitSync burst
+      - 2026-04-20: Restore tracked GameCult logo asset
+
+  - repo: gamecult-site
+    page: /Projects/gamecult-site
+    category: studio-systems
+    kind: public-site
+    status: active
+    fork: false
+    language: TypeScript
+    createdAt: 2026-04-21
+    lastPushAt: 2026-05-07
+    githubUrl: https://github.com/GameCult/gamecult-site
+    publicSurface: https://gamecult.org
+    foundingIdea: Replace the old Grav site with a Git-friendly Quartz site that can actually hold the studio's current shape.
+    trajectory: Exploded out of migration, then became a venue for copy revision, layout repair, navigation redesign, repo surfacing, and shared-engine extraction. The latest pass turns it into a curated repo atlas instead of a giant undifferentiated org dump.
+    ambition: Serve as the living public front door for the studio, its arguments, and the subset of its repo sprawl that still deserves daylight.
+    currentState: Active public surface built atop GameCult-Quartz, now with a curated projects atlas.
+    markers:
+      - 2026-04-21: Initial Quartz site migration
+      - 2026-04-21: Merge homepage into Studio landing
+      - 2026-05-01: Switch site build to shared GameCult-Quartz
+      - 2026-05-07: Add public repo atlas and projects dropdown
+
+  - repo: GameCult-Quartz
+    page: /Projects/GameCult-Quartz
+    category: studio-systems
+    kind: shared-site-engine
+    status: active
+    fork: false
+    language: TypeScript
+    createdAt: 2026-05-01
+    lastPushAt: 2026-05-07
+    githubUrl: https://github.com/GameCult/GameCult-Quartz
+    foundingIdea: Extract the shared site engine so GameCult's Quartz-based sites stop pretending duplicated forks are a strategy.
+    trajectory: Extraction, metadata cleanup, preview fixes, art-forward social cards, and a later simplification pass once the chrome started showing off.
+    ambition: Shared static-site infrastructure with per-site overlays and real divergence where it counts.
+    currentState: Active shared site engine.
+    markers:
+      - 2026-05-01: Extract shared GameCult-Quartz engine
+      - 2026-05-01: Improve preview title and description extraction
+      - 2026-05-01: Add image-forward social card generation
+      - 2026-05-07: Simplify social card chrome
+
+  - repo: Ghostlight
+    page: /Projects/Ghostlight
+    category: agents-and-interfaces
+    kind: social-agent-runtime
+    status: active
+    fork: false
+    language: Python
+    createdAt: 2026-05-01
+    lastPushAt: 2026-05-06
+    githubUrl: https://github.com/GameCult/Ghostlight
+    foundingIdea: Build socially legible AI agents instead of sycophantic chatbot paste.
+    trajectory: Started with state/persistence and docs, narrowed into scene authoring and projection, then widened into lore grounding and CultCache/CultNet integration.
+    ambition: Support authored scenes, simulations, and eventually richer social worlds with agents that can actually hold perspective and stance.
+    currentState: Active social-runtime experiment.
+    markers:
+      - 2026-05-01: Scaffold Ghostlight persistence spine
+      - 2026-05-01: Retarget Ghostlight toward Call of the Void authoring
+      - 2026-05-01: Define prompt projection contract
+      - 2026-05-06: Migrate state spine toward cultcache-py
+      - 2026-05-06: Define the shared CultNet agent-state contract
+
+  - repo: VoidBot
+    page: /Projects/VoidBot
+    category: agents-and-interfaces
+    kind: discord-assistant
+    status: active
+    fork: false
+    language: TypeScript
+    createdAt: 2026-04-24
+    lastPushAt: 2026-05-06
+    githubUrl: https://github.com/GameCult/VoidBot
+    foundingIdea: Build a Discord-native assistant that can answer from history, repos, and lore, then hand deeper work off to Codex.
+    trajectory: The repo already has a serious architecture in README form; recent public history hardens moderation state, persona plumbing, backups, and CultNet/CultCache interop.
+    ambition: A room-aware assistant with retrieval teeth and a proper escape hatch into heavier tooling.
+    currentState: Active Discord assistant and retrieval runtime.
+    markers:
+      - 2026-04-24: Initial public repo creation
+      - 2026-05-06: Move moderation state behind CultCacheTS
+      - 2026-05-06: Point CultCacheTS submodule at GameCult upstream
+      - 2026-05-06: Add shared Discord persona webhook pipe
+      - 2026-05-06: Record CultNet interop lab evidence
+
+  - repo: Epiphany
+    page: /Projects/Epiphany
+    category: agents-and-interfaces
+    kind: coding-harness
+    status: active
+    fork: false
+    language: Rust
+    createdAt: 2026-04-23
+    lastPushAt: 2026-05-07
+    githubUrl: https://github.com/GameCult/Epiphany
+    foundingIdea: Build a coding harness where the model has to model the machine it is changing instead of free-climbing on transcript vibes.
+    trajectory: The README establishes the full typed-state thesis; the current public commit wave is all about repo birth, heartbeat physiology, memory distillation, and repo-owned organs.
+    ambition: Turn agentic coding from token fog into a maintained control system with maps, evidence, verification, and bounded authority.
+    currentState: Active harness fork with a sharply defined architectural doctrine.
+    markers:
+      - 2026-04-23: Initial public repo creation
+      - 2026-05-07: Make repo personality distillation birth-only
+      - 2026-05-07: Add repo memory distiller packet
+      - 2026-05-07: Wire repo birth startup valve
+      - 2026-05-07: Seed heartbeat physiology at repo birth
+
+  - repo: EpiphanyAquarium
+    page: /Projects/EpiphanyAquarium
+    category: agents-and-interfaces
+    kind: operator-interface
+    status: active
+    fork: false
+    language: TypeScript
+    createdAt: 2026-05-05
+    lastPushAt: 2026-05-07
+    githubUrl: https://github.com/GameCult/EpiphanyAquarium
+    foundingIdea: Give Epiphany a local, sensory operator surface instead of forcing all coordination through terminal prose.
+    trajectory: The repo starts with the aquarium thesis already intact, then immediately fusses over interface feel through synth control lanes, sfxr golf, readability metrics, and sound targets.
+    ambition: A tactile control room for agent systems with local affordances, inspectable state, and enough taste to feel alive.
+    currentState: Active operator interface with obvious audio/interface personality work.
+    markers:
+      - 2026-05-05: Initial public repo creation
+      - 2026-05-07: Add modular synth control lanes
+      - 2026-05-07: Golf classic sfxr patch scripts
+      - 2026-05-07: Add synth script readability metrics
+      - 2026-05-07: Add wobble bass synth golf target
+
+  - repo: Heimdall
+    page: /Projects/Heimdall
+    category: studio-systems
+    kind: identity-authority
+    status: active
+    fork: false
+    language: TypeScript
+    createdAt: 2026-04-26
+    lastPushAt: 2026-04-29
+    githubUrl: https://github.com/GameCult/Heimdall
+    foundingIdea: Stop rebuilding provider OAuth and entitlement glue inside every hosted app.
+    trajectory: Public history is a concentrated implementation burst around Repixelizer, StreamPixels, Twitch verification, credential handoff, token scope normalization, and managed auth seams.
+    ambition: One shared identity authority for Yggdrasil-hosted apps, with signed claims and local verification instead of a shared-auth swamp.
+    currentState: Active auth service with real consumer seams already visible.
+    markers:
+      - 2026-04-26: Initial public repo creation
+      - 2026-04-29: Add StreamPixels managed auth seams
+      - 2026-04-29: Persist StreamPixels credential handoff state
+      - 2026-04-29: Normalize OAuth token scopes
+      - 2026-04-29: Refresh managed provider credentials on resolve
+
+  - repo: repixelizer
+    page: /Projects/repixelizer
+    category: visual-labs
+    kind: optimization-tool
+    status: active
+    fork: false
+    language: Python
+    createdAt: 2026-04-21
+    lastPushAt: 2026-05-01
+    githubUrl: https://github.com/GameCult/repixelizer
+    publicSurface: https://repixelizer.gamecult.org
+    foundingIdea: Make fake pixel art stop lying by solving for actual pixel coherence instead of merely shrinking images.
+    trajectory: Rapid CLI bootstrap, lattice and metric experimentation, a tile-graph detour, and then hosted queue/gui work once the experiment demanded a public surface.
+    ambition: Recover real-looking pixel structure from AI-ish or faux-pixel inputs while figuring out which parts of the algorithm actually deserve to live.
+    currentState: Active experiment with both ambition and self-correction visible in public.
+    markers:
+      - 2026-04-21: Bootstrap the repixelizer CLI project
+      - 2026-04-22: Improve lattice inference with source evidence
+      - 2026-04-22: Add line-aware refinement energy
+      - 2026-04-22: Add experimental tile graph reconstruction mode
+      - 2026-04-29: Log hosted queue and job pressure
+
+  - repo: VibeGeometry
+    page: /Projects/VibeGeometry
+    category: visual-labs
+    kind: procedural-geometry-lab
+    status: active
+    fork: false
+    language: Python
+    createdAt: 2026-05-04
+    lastPushAt: 2026-05-07
+    githubUrl: https://github.com/GameCult/VibeGeometry
+    foundingIdea: Build an evidence-driven pipeline for local agents authoring Blender geometry-node scenes.
+    trajectory: Started as architecture and persistence scaffolding, then dived almost immediately into CSG grammar, parity fixtures, native bridge probing, mesh generation, and performance work.
+    ambition: Make procedural scene generation inspectable enough that render evidence can actually steer the machine.
+    currentState: Active research lab already deep in the geometry kernel weeds.
+    markers:
+      - 2026-05-04: Initial public repo creation
+      - 2026-05-07: Add CSG tree API surface
+      - 2026-05-07: Get RealtimeCSG native bridge generating meshes
+      - 2026-05-07: Add CSG perf fixtures and polygon category splitting
+      - 2026-05-07: Advance CSG category kernel groundwork
+
   - repo: epiphany-graph-rs
     page: /Projects/epiphany-graph-rs
-    category: libraries-and-protocols
+    category: shared-code
     kind: graph-layout-research
     status: active
     fork: false
@@ -303,8 +431,8 @@ repos:
     lastPushAt: 2026-05-07
     githubUrl: https://github.com/GameCult/epiphany-graph-rs
     foundingIdea: Build a graph-layout engine that respects structure, clustering, and readability instead of just repulsion and luck.
-    trajectory: One-day research burst from crate bootstrap to 3D layout, structural analysis, Barnes-Hut repulsion, sweeps, and quality metrics.
-    ambition: Make large semantic/social systems more interpretable and tunable.
+    trajectory: One-day research burst from crate bootstrap to 3D layout, structural analysis, Barnes-Hut repulsion, and quality metrics.
+    ambition: Make large semantic and social systems more interpretable and tunable.
     currentState: Brand-new active research repo.
     markers:
       - 2026-05-07: Initial hybrid graph layout crate
@@ -312,3 +440,41 @@ repos:
       - 2026-05-07: Add realtime 3D layout solver
       - 2026-05-07: Add Barnes-Hut 3D repulsion
       - 2026-05-07: Add layout structure quality metrics
+
+  - repo: geometry-script
+    page: null
+    presentation: omitted-from-site
+    category: forks-and-dependencies
+    kind: upstream-tool-fork
+    status: parked
+    fork: true
+    language: null
+    createdAt: 2026-05-04
+    lastPushAt: 2026-05-04
+    githubUrl: https://github.com/GameCult/geometry-script
+    upstreamUrl: https://github.com/carson-katri/geometry-script
+    foundingIdea: Keep a promising procedural-geometry dependency close enough to inspect if needed.
+    trajectory: Forked into the org and not publicly diverged afterward.
+    ambition: Reference value, not a GameCult-native product story.
+    currentState: Omitted from the site atlas because there is nothing new to say beyond "we forked this once."
+    markers:
+      - 2026-05-04: Forked from carson-katri/geometry-script
+
+  - repo: stride
+    page: null
+    presentation: omitted-from-site
+    category: forks-and-dependencies
+    kind: upstream-engine-fork
+    status: parked
+    fork: true
+    language: null
+    createdAt: 2021-06-15
+    lastPushAt: 2021-06-15
+    githubUrl: https://github.com/GameCult/stride
+    upstreamUrl: https://github.com/stride3d/stride
+    foundingIdea: Keep an engine fork under org custody instead of relying on memory alone.
+    trajectory: Forked from upstream and parked.
+    ambition: Possible patch surface if engine work ever demanded it.
+    currentState: Omitted from the site atlas because the public story is just "this dependency existed here once."
+    markers:
+      - 2021-06-15: Forked from stride3d/stride

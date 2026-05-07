@@ -1,101 +1,98 @@
 ---
 title: Projects
-description: "The public GameCult workbench: flagship game code, lore, sites, libraries, AI experiments, and the forks we parked here because they mattered."
-socialDeck: "Games, tools, infrastructure, and other durable bad ideas."
+description: "The public GameCult repo atlas: experiments, site infrastructure, agent runtimes, shared libraries, and the projects that still have a live argument to make."
+socialDeck: "The repos that still justify explaining themselves in public."
 sidebarGroups:
-  - title: Worlds and Games
+  - title: Games and Worlds
     links:
-      - label: Aetheria-Economy
-        slug: ./Aetheria-Economy
-      - label: AetheriaLore
-        slug: ./AetheriaLore
       - label: CultPong
         slug: ./CultPong
-  - title: Studio and Sites
+  - title: Studio Systems
     links:
       - label: GCLP
         slug: ./GCLP
+      - label: Heimdall
+        slug: ./Heimdall
       - label: gamecult-site
         slug: ./gamecult-site
       - label: GameCult-Quartz
         slug: ./GameCult-Quartz
       - label: gamecult-grav
         slug: ./gamecult-grav
-  - title: Libraries and Protocols
+  - title: Shared Code
     links:
       - label: CultLib
         slug: ./CultLib
-      - label: cultcache-ts
-        slug: ./cultcache-ts
-      - label: cultnet-ts
-        slug: ./cultnet-ts
       - label: epiphany-graph-rs
         slug: ./epiphany-graph-rs
-  - title: AI and Tools
+  - title: Agents and Interfaces
     links:
+      - label: Epiphany
+        slug: ./Epiphany
+      - label: EpiphanyAquarium
+        slug: ./EpiphanyAquarium
       - label: Ghostlight
         slug: ./Ghostlight
+      - label: VoidBot
+        slug: ./VoidBot
+  - title: Visual Labs
+    links:
       - label: repixelizer
         slug: ./repixelizer
-  - title: Forks and Parked Dependencies
-    links:
-      - label: geometry-script
-        slug: ./geometry-script
-      - label: stride
-        slug: ./stride
+      - label: VibeGeometry
+        slug: ./VibeGeometry
 ---
 
 # Projects
 
-*"A studio should be able to house a flagship universe, a site engine, a protocol library, and a deeply questionable side experiment without pretending they are the same thing."*
+*"The repo atlas, trimmed down to the projects that still have a point and the families that actually belong together."*
 
-This section is the public workbench for the GameCult GitHub org. Some repos are flagship work. Some are infrastructure. Some are research bursts that still smell faintly of ozone. A couple are forks parked here because a dependency mattered at the time. All of them say something useful about what the studio keeps trying to build.
+This section is the public workbench for the GameCult GitHub org. Some repos are live systems. Some are research bursts that still smell faintly of ozone. Some are support machinery for the support machinery. The point is not to pretend every public repository deserves the same amount of ceremony. The point is to make the shape of the work legible without building a second museum for our own breadcrumbs.
 
-Aetheria remains the flagship universe. CultPong is the compact arcade bad decision. Bifrost exists as the real successor to the old GCLP concept, but because the public repo history still includes the older seed, both show up here honestly rather than pretending the lineage does not exist.
+Aetheria already has its own site, so the Aetheria runtime and lore repos are not duplicated here as separate writeups. If you want the universe, the setting, or the larger thesis about humanity repeatedly inventing its own extinction event, go to [aetheria.gamecult.org](https://aetheria.gamecult.org). This page is for the rest of the studio's visible machinery.
 
-The more recent wave of repos tells a different story: shared site infrastructure extracted out of duplication, lore vaults promoted into canonical homes, protocol libraries split out for reuse, AI experiments turned into named systems, and graph/layout research spun into dedicated crates instead of rotting inside bigger apps.
+Likewise, the CultCache and CultNet language ports are real repos, but they do not each need their own little throne room. They are folded into the [CultLib](/Projects/CultLib) page because they are one family of persistence and protocol work expressed in several runtimes, not six unrelated epics.
 
-Below is the grouped map. Each entry has its own writeup, repo link, trajectory read, and a short answer to the question "what is this thing actually for?"
+Below is the curated map: the repos with enough independent trajectory to merit a page, plus the site and systems work that explain how the studio is currently choosing to be complicated.
 
 <div class="gamecult-project-groups">
   <section class="gamecult-project-group">
-    <h2>Worlds and Games</h2>
+    <h2>Games and Worlds</h2>
     <ul>
-      <li><a href="/Projects/Aetheria-Economy">Aetheria-Economy</a></li>
-      <li><a href="/Projects/AetheriaLore">AetheriaLore</a></li>
       <li><a href="/Projects/CultPong">CultPong</a></li>
     </ul>
   </section>
   <section class="gamecult-project-group">
-    <h2>Studio and Sites</h2>
+    <h2>Studio Systems</h2>
     <ul>
       <li><a href="/Projects/GCLP">GCLP</a></li>
+      <li><a href="/Projects/Heimdall">Heimdall</a></li>
       <li><a href="/Projects/gamecult-site">gamecult-site</a></li>
       <li><a href="/Projects/GameCult-Quartz">GameCult-Quartz</a></li>
       <li><a href="/Projects/gamecult-grav">gamecult-grav</a></li>
     </ul>
   </section>
   <section class="gamecult-project-group">
-    <h2>Libraries and Protocols</h2>
+    <h2>Shared Code</h2>
     <ul>
       <li><a href="/Projects/CultLib">CultLib</a></li>
-      <li><a href="/Projects/cultcache-ts">cultcache-ts</a></li>
-      <li><a href="/Projects/cultnet-ts">cultnet-ts</a></li>
       <li><a href="/Projects/epiphany-graph-rs">epiphany-graph-rs</a></li>
     </ul>
   </section>
   <section class="gamecult-project-group">
-    <h2>AI and Tools</h2>
+    <h2>Agents and Interfaces</h2>
     <ul>
+      <li><a href="/Projects/Epiphany">Epiphany</a></li>
+      <li><a href="/Projects/EpiphanyAquarium">EpiphanyAquarium</a></li>
       <li><a href="/Projects/Ghostlight">Ghostlight</a></li>
-      <li><a href="/Projects/repixelizer">repixelizer</a></li>
+      <li><a href="/Projects/VoidBot">VoidBot</a></li>
     </ul>
   </section>
   <section class="gamecult-project-group">
-    <h2>Forks and Parked Dependencies</h2>
+    <h2>Visual Labs</h2>
     <ul>
-      <li><a href="/Projects/geometry-script">geometry-script</a></li>
-      <li><a href="/Projects/stride">stride</a></li>
+      <li><a href="/Projects/repixelizer">repixelizer</a></li>
+      <li><a href="/Projects/VibeGeometry">VibeGeometry</a></li>
     </ul>
   </section>
 </div>

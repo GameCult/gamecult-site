@@ -36,43 +36,42 @@ type ExternalLink = {
 
 const projectGroups: DropdownGroup[] = [
   {
-    title: "Worlds and Games",
+    title: "Games and Worlds",
     links: [
-      { label: "Aetheria-Economy", slug: "Projects/Aetheria-Economy" as FullSlug },
-      { label: "AetheriaLore", slug: "Projects/AetheriaLore" as FullSlug },
       { label: "CultPong", slug: "Projects/CultPong" as FullSlug },
     ],
   },
   {
-    title: "Studio and Sites",
+    title: "Studio Systems",
     links: [
       { label: "GCLP", slug: "Projects/GCLP" as FullSlug },
+      { label: "Heimdall", slug: "Projects/Heimdall" as FullSlug },
       { label: "gamecult-site", slug: "Projects/gamecult-site" as FullSlug },
       { label: "GameCult-Quartz", slug: "Projects/GameCult-Quartz" as FullSlug },
       { label: "gamecult-grav", slug: "Projects/gamecult-grav" as FullSlug },
     ],
   },
   {
-    title: "Libraries and Protocols",
+    title: "Shared Code",
     links: [
       { label: "CultLib", slug: "Projects/CultLib" as FullSlug },
-      { label: "cultcache-ts", slug: "Projects/cultcache-ts" as FullSlug },
-      { label: "cultnet-ts", slug: "Projects/cultnet-ts" as FullSlug },
       { label: "epiphany-graph-rs", slug: "Projects/epiphany-graph-rs" as FullSlug },
     ],
   },
   {
-    title: "AI and Tools",
+    title: "Agents and Interfaces",
     links: [
+      { label: "Epiphany", slug: "Projects/Epiphany" as FullSlug },
+      { label: "EpiphanyAquarium", slug: "Projects/EpiphanyAquarium" as FullSlug },
       { label: "Ghostlight", slug: "Projects/Ghostlight" as FullSlug },
-      { label: "repixelizer", slug: "Projects/repixelizer" as FullSlug },
+      { label: "VoidBot", slug: "Projects/VoidBot" as FullSlug },
     ],
   },
   {
-    title: "Forks and Parked Dependencies",
+    title: "Visual Labs",
     links: [
-      { label: "geometry-script", slug: "Projects/geometry-script" as FullSlug },
-      { label: "stride", slug: "Projects/stride" as FullSlug },
+      { label: "repixelizer", slug: "Projects/repixelizer" as FullSlug },
+      { label: "VibeGeometry", slug: "Projects/VibeGeometry" as FullSlug },
     ],
   },
 ]

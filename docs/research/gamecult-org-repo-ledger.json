@@ -29,428 +29,154 @@
                             "obj",
                             "Packages"
                         ],
-        "readmeExcerpt":  "*.3dm filter=lfs diff=lfs merge=lfs -text \n*.3ds filter=lfs diff=lfs merge=lfs -text \n*.blend filter=lfs diff=lfs merge=lfs -text \n*.c4d filter=lfs diff=lfs merge=lfs -text \n*.collada filter=lfs diff=lfs merge=lfs -text \n*.dae filter=lfs diff=lfs merge=lfs -text \n*.dxf filter=lfs diff=lfs merge=lfs -text \n*.fbx filter=lfs diff=lfs merge=lfs -text",
+        "readmeExcerpt":  "# Aetheria \nAetheria is an ambitious (AA quality) open source tactical action role-playing game with a sprawling sci-fi setting that combines stunning visuals with unprecedented simulation depth while maintaining accessibility. \nAll mechanics are developed to be engine-agnostic, while Unity was chosen as a renderer and editor environment for its accessibility and extensibility. Many custom features have been developed, such as a database frontend with configurable backing store for managing game content, a novel visual input rebinding system, and a volumetric cloud renderer with groundbreaking fidelity, any of which can easily add value to other open source gamedev projects. We\u0027d love to see other teams building on our foundation to deliver their own vision and contribute to the ecosystem we\u0027re creating. \nIt is our ambition to forge a new paradigm of open source game development, as to our knowledge there are no other open source projects of this scope building up a foundation from scratch. Game development is notoriously averse to this model and nobody wants to share their shiny toys for fear of losing their competitive advantage. By building and sharing immersive and compelling experiences like this, we hope to change that. \n## Contact Us \nIf you want to chat, please join [our Discord server](https://discord.gg/trbteNj) for detailed development updates and discussions about the game design, narrative, art direction, and general topics. Shitposting welcome! \n### Trailer (outdated) \n[![Trailer](https://img.youtube.com/vi/6hg1w2vcwDc/0.jpg)](https://www.youtube.com/watch?v=6hg1w2vcwDc)",
         "earlyCommits":  [
-                             {
-                                 "date":  "2025-03-16",
-                                 "sha":  "2fd957a3",
-                                 "subject":  "Updated Bloom"
-                             },
-                             {
-                                 "date":  "2025-03-20",
-                                 "sha":  "f0ac783f",
-                                 "subject":  "Framg錸g"
-                             },
-                             {
-                                 "date":  "2025-07-10",
-                                 "sha":  "4584211f",
-                                 "subject":  "Pre-Upgrade"
-                             },
-                             {
-                                 "date":  "2025-07-10",
-                                 "sha":  "7561c09e",
-                                 "subject":  "Unity 6 Upgrade + Solid Gravity Surface"
-                             },
-                             {
-                                 "date":  "2025-07-18",
-                                 "sha":  "6b0860b1",
-                                 "subject":  "Bugfixes \u0026 Reactive Refactor"
-                             },
-                             {
-                                 "date":  "2025-07-19",
-                                 "sha":  "e4c41d1e",
-                                 "subject":  "Lore Vault Elysium Species"
-                             },
-                             {
-                                 "date":  "2025-07-19",
-                                 "sha":  "55b55beb",
-                                 "subject":  "Sector Map Entity Count Bugfix + Updated Readme"
-                             },
-                             {
-                                 "date":  "2026-04-30",
-                                 "sha":  "2000eb5c",
-                                 "subject":  "Add Epiphany Unity editor bridge"
-                             }
+
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2026-04-30",
-                                  "sha":  "2000eb5c",
-                                  "subject":  "Add Epiphany Unity editor bridge"
-                              },
-                              {
-                                  "date":  "2025-07-19",
-                                  "sha":  "55b55beb",
-                                  "subject":  "Sector Map Entity Count Bugfix + Updated Readme"
-                              },
-                              {
-                                  "date":  "2025-07-19",
-                                  "sha":  "e4c41d1e",
-                                  "subject":  "Lore Vault Elysium Species"
-                              },
-                              {
-                                  "date":  "2025-07-18",
-                                  "sha":  "6b0860b1",
-                                  "subject":  "Bugfixes \u0026 Reactive Refactor"
-                              },
-                              {
-                                  "date":  "2025-07-10",
-                                  "sha":  "7561c09e",
-                                  "subject":  "Unity 6 Upgrade + Solid Gravity Surface"
-                              },
-                              {
-                                  "date":  "2025-07-10",
-                                  "sha":  "4584211f",
-                                  "subject":  "Pre-Upgrade"
-                              },
-                              {
-                                  "date":  "2025-03-20",
-                                  "sha":  "f0ac783f",
-                                  "subject":  "Framg錸g"
-                              },
-                              {
-                                  "date":  "2025-03-16",
-                                  "sha":  "2fd957a3",
-                                  "subject":  "Updated Bloom"
-                              },
-                              {
-                                  "date":  "2025-03-15",
-                                  "sha":  "d83f97a4",
-                                  "subject":  "Lore Update"
-                              },
-                              {
-                                  "date":  "2025-03-03",
-                                  "sha":  "493af64b",
-                                  "subject":  "Worldbuilding Vault"
-                              },
-                              {
-                                  "date":  "2025-01-30",
-                                  "sha":  "c6ffcad3",
-                                  "subject":  "Shields"
-                              },
-                              {
-                                  "date":  "2022-08-08",
-                                  "sha":  "47e500e1",
-                                  "subject":  "Playability"
-                              }
-                          ],
-        "recentWaveCommits":  {
-                                  "date":  "2026-04-30",
-                                  "sha":  "2000eb5c",
-                                  "subject":  "Add Epiphany Unity editor bridge"
-                              }
-    },
-    {
-        "name":  "gamecult-grav",
-        "fullName":  "GameCult/gamecult-grav",
-        "description":  "Our Grav website contents",
-        "language":  "SCSS",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/gamecult-grav",
-        "createdAt":  "2020-08-09T01:28:09Z",
-        "pushedAt":  "2026-04-20T00:14:47Z",
-        "defaultBranch":  "master",
-        "stargazers":  1,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\gamecult-grav",
-        "rootEntries":  [
-                            "config",
-                            "pages",
-                            "themes",
-                            "LICENSE",
-                            "README.md"
-                        ],
-        "readmeExcerpt":  "MIT License \nCopyright (c) 2020 GameCult \nPermission is hereby granted, free of charge, to any person obtaining a copy \nof this software and associated documentation files (the \"Software\"), to deal \nin the Software without restriction, including without limitation the rights \nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell \ncopies of the Software, and to permit persons to whom the Software is \nfurnished to do so, subject to the following conditions:",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "38d68e6",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "fda640f",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "8fa52d7",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "2eec615",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "33b7b16",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "4e1c0f7",
-                                 "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                             },
-                             {
-                                 "date":  "2022-07-02",
-                                 "sha":  "6a4c0e7",
-                                 "subject":  "Update default.md"
-                             },
-                             {
-                                 "date":  "2026-04-20",
-                                 "sha":  "50a7363",
-                                 "subject":  "Restore tracked GameCult logo asset"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-04-20",
-                                  "sha":  "50a7363",
-                                  "subject":  "Restore tracked GameCult logo asset"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "6a4c0e7",
-                                  "subject":  "Update default.md"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "4e1c0f7",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "33b7b16",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "2eec615",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "8fa52d7",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "fda640f",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "38d68e6",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "4322dab",
-                                  "subject":  "Update default.md"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "6ee1f6c",
-                                  "subject":  "Merge branch \u0027master\u0027 of https://github.com/GameCult/gamecult-grav"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "b870fef",
-                                  "subject":  "iframe embed"
-                              },
-                              {
-                                  "date":  "2022-07-02",
-                                  "sha":  "8c041dd",
-                                  "subject":  "(Grav GitSync) Automatic Commit from rwvens"
-                              }
-                          ],
-        "recentWaveCommits":  {
-                                  "date":  "2026-04-20",
-                                  "sha":  "50a7363",
-                                  "subject":  "Restore tracked GameCult logo asset"
-                              }
-    },
-    {
-        "name":  "CultPong",
-        "fullName":  "GameCult/CultPong",
-        "description":  "Fast-paced Competitive Pong",
-        "language":  "C#",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/CultPong",
-        "createdAt":  "2020-09-25T03:35:00Z",
-        "pushedAt":  "2020-09-25T06:19:56Z",
-        "defaultBranch":  "master",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  null,
-        "rootEntries":  [
-                            ".collabignore",
-                            ".gitignore",
-                            ".idea",
-                            "Assets",
-                            "LICENSE",
-                            "Packages",
-                            "ProjectSettings",
-                            "Serverside Code",
-                            "UserSettings"
-                        ],
-        "readmeExcerpt":  null,
-        "earlyCommits":  [
-                             {
-                                 "date":  "2020-09-25",
-                                 "sha":  "3f7b3b7",
-                                 "subject":  "Initial Commit (broken due to version update)"
-                             },
-                             {
-                                 "date":  "2020-09-25",
-                                 "sha":  "74003df",
-                                 "subject":  "Initial commit"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2020-09-25",
-                                  "sha":  "3f7b3b7",
-                                  "subject":  "Initial Commit (broken due to version update)"
-                              },
-                              {
-                                  "date":  "2020-09-25",
-                                  "sha":  "74003df",
-                                  "subject":  "Initial commit"
-                              }
+
                           ],
         "recentWaveCommits":  [
 
                               ]
     },
     {
-        "name":  "GCLP",
-        "fullName":  "GameCult/GCLP",
-        "description":  "GameCult Labor Platform",
-        "language":  null,
+        "name":  "AetheriaLore",
+        "fullName":  "GameCult/AetheriaLore",
+        "description":  "Obsidian Vault containing Aetheria worldbuilding work",
+        "language":  "TypeScript",
         "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/GCLP",
-        "createdAt":  "2020-10-02T13:02:19Z",
-        "pushedAt":  "2020-10-05T16:03:33Z",
+        "sourceUrl":  "https://github.com/GameCult/AetheriaLore",
+        "createdAt":  "2026-04-18T14:38:08Z",
+        "pushedAt":  "2026-05-05T15:05:20Z",
         "defaultBranch":  "main",
-        "stargazers":  1,
+        "stargazers":  0,
         "forks":  0,
-        "localPath":  null,
+        "localPath":  "E:\\Projects\\AetheriaLore",
         "rootEntries":  [
-                            "LICENSE",
-                            "README.md"
+                            ".epiphany",
+                            ".github",
+                            ".npm-cache",
+                            ".obsidian",
+                            ".quartz-build",
+                            ".rag",
+                            ".tools",
+                            "Aetheria",
+                            "copilot-conversations",
+                            "copilot-custom-prompts",
+                            "quartz-site",
+                            "scripts",
+                            "site",
+                            ".gitattributes",
+                            ".gitignore"
                         ],
-        "readmeExcerpt":  "GameCult Labor Platform",
-        "earlyCommits":  {
-                             "date":  "2020-10-02",
-                             "sha":  "77ad151",
-                             "subject":  "Initial commit"
-                         },
-        "recentCommits":  {
-                              "date":  "2020-10-02",
-                              "sha":  "77ad151",
-                              "subject":  "Initial commit"
-                          },
+        "readmeExcerpt":  "# AetheriaLore \n`AetheriaLore` is the source vault for `https://aetheria.gamecult.org`: lore, design notes, stories, and the sort of worldbuilding that thrives when nobody forces it into a CMS shaped like office software. \nThe site now builds against the shared `GameCult-Quartz` engine instead of carrying its own private Quartz clone. This repo owns the vault content and the Aetheria-specific overlay; the engine lives next door. \n## Repository Map \n- `Aetheria/`: the actual vault content \n- `site/`: Aetheria-specific Quartz overlay \n  - `quartz.config.ts` \n  - `quartz.layout.ts`",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
         "recentWaveCommits":  [
 
                               ]
     },
     {
-        "name":  "stride",
-        "fullName":  "GameCult/stride",
-        "description":  "Stride Game Engine (formerly Xenko)",
-        "language":  null,
-        "fork":  true,
-        "sourceUrl":  "https://github.com/GameCult/stride",
-        "createdAt":  "2021-06-15T17:47:09Z",
-        "pushedAt":  "2021-06-15T12:29:04Z",
-        "defaultBranch":  "master",
+        "name":  "cultcache-py",
+        "fullName":  "GameCult/cultcache-py",
+        "description":  null,
+        "language":  "Python",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/cultcache-py",
+        "createdAt":  "2026-05-06T03:43:59Z",
+        "pushedAt":  "2026-05-06T03:54:27Z",
+        "defaultBranch":  "main",
         "stargazers":  0,
         "forks":  0,
-        "localPath":  null,
+        "localPath":  "E:\\Projects\\cultcache-py",
         "rootEntries":  [
-                            ".editorconfig",
-                            ".gitattributes",
-                            ".github",
+                            "src",
+                            "tests",
                             ".gitignore",
-                            "BACKERS.md",
-                            "LICENSE.md",
-                            "NuGet.config",
-                            "README.md",
-                            "THIRD PARTY.md",
-                            "bin",
-                            "build",
-                            "crowdin.yml",
-                            "deps",
-                            "docs",
-                            "samples"
+                            "pyproject.toml",
+                            "README.md"
                         ],
-        "readmeExcerpt":  "![Stride](sources/data/images/Logo/stride-logo-readme.png) \n======= \nWelcome to the Stride source code repository! \nStride is an open-source C# game engine for realistic rendering and VR. \nThe engine is highly modular and aims at giving game makers more flexibility in their development. \nStride comes with an editor that allows you to create and manage the content of your games or applications visually and intuitively. \n![Stride Editor](https://stride3d.net/images/external/script-editor.png) \nTo learn more about Stride, visit [stride3d.net](https://stride3d.net/).",
+        "readmeExcerpt":  "# cultcache-py \n`cultcache-py` is the Python port of GameCult\u0027s CultCache persistence pattern: callers work with registered domain documents while the cache owns schema identity, routing, globals, name lookups, indexes, and backing-store envelopes. \nIt is intentionally small. It is not an ORM, a database, or distributed consensus wearing rented authority. \n## Current Shape \n- document types are registered explicitly \n- each persisted envelope stores `type`, `key`, `payload`, and `stored_at` \n- payloads decode only through the registered document definition for that type \n- unknown persisted types fail closed",
         "earlyCommits":  [
 
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2021-06-08",
-                                  "sha":  "a8977da",
-                                  "subject":  "[Targets] MSBuild MakeRelative doesn\u0027t include trailing \\ anymore (https://github.com/dotnet/msbuild/issues/6493). Thanks manio143 for the fix!"
-                              },
-                              {
-                                  "date":  "2021-06-08",
-                                  "sha":  "f15d1d2",
-                                  "subject":  "[Reflection] Give the deps.json file a higher priority when loading an assembly by name"
-                              },
-                              {
-                                  "date":  "2021-06-02",
-                                  "sha":  "de1b101",
-                                  "subject":  "Make enum name more descriptive \u0026 add missing SamplerState case (#1050)"
-                              },
-                              {
-                                  "date":  "2021-06-02",
-                                  "sha":  "285ab25",
-                                  "subject":  "#1063 GameSettingsAssetCompiler dynamically detecs runtime content types (#1064)"
-                              },
-                              {
-                                  "date":  "2021-05-29",
-                                  "sha":  "0c86549",
-                                  "subject":  "Prevent ArgException of Path.Combine in Single File Publish scenario"
-                              },
-                              {
-                                  "date":  "2021-05-27",
-                                  "sha":  "44d0c67",
-                                  "subject":  "[Setup] Bumped version to 5.0.5"
-                              },
-                              {
-                                  "date":  "2021-05-20",
-                                  "sha":  "108bf62",
-                                  "subject":  "[Launcher] NuGet: specify a default TargetFramework if the package doesn\u0027t have any (fixes #1067)"
-                              },
-                              {
-                                  "date":  "2021-05-10",
-                                  "sha":  "68153c8",
-                                  "subject":  "[Samples] Bumped samples"
-                              },
-                              {
-                                  "date":  "2021-05-10",
-                                  "sha":  "0bd635c",
-                                  "subject":  "[Assets] Package upgrader can migrate project from .NET Framework to .NET 5.0"
-                              },
-                              {
-                                  "date":  "2021-05-07",
-                                  "sha":  "c3985e3",
-                                  "subject":  "[Launcher] Publish: Also use IncludeAllContentForSelfExtract"
-                              },
-                              {
-                                  "date":  "2021-05-07",
-                                  "sha":  "dde3b79",
-                                  "subject":  "[Launcher] Don\u0027t use PublishTrimmed (https://github.com/microsoft/microsoft-ui-xaml/issues/3749)"
-                              },
-                              {
-                                  "date":  "2021-05-07",
-                                  "sha":  "d828099",
-                                  "subject":  "[Launcher] Removed hardcoded list of TFM (doesn\u0027t work if new package doesn\u0027t have .NET 4.7 anymore; also we can later easily bump TFM to .NET 6 without having to change the launcher)"
-                              }
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "cultcache-rs",
+        "fullName":  "GameCult/cultcache-rs",
+        "description":  null,
+        "language":  "Rust",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/cultcache-rs",
+        "createdAt":  "2026-05-06T02:44:28Z",
+        "pushedAt":  "2026-05-06T10:23:20Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\cultcache-rs",
+        "rootEntries":  [
+                            "cultcache-rs-derive",
+                            "src",
+                            "target",
+                            ".gitignore",
+                            "Cargo.lock",
+                            "Cargo.toml",
+                            "README.md"
+                        ],
+        "readmeExcerpt":  "# CultCache Rust \n`cultcache-rs` is the Rust port of the useful part of GameCult\u0027s CultCache: \na polymorphism-aware in-memory cache that remembers through pluggable backing \nstores. \nConsumer code should think in domain types: \n```rust \nlet player = cache.get_required::\u003cPlayerData\u003e(\"player:meta\")?; \ncache.put(\"player:meta\", \u0026player)?;",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "cultcache-ts",
+        "fullName":  "GameCult/cultcache-ts",
+        "description":  "CultCache-style typed persistence for TypeScript with schema-backed polymorphic MessagePack storage.",
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/cultcache-ts",
+        "createdAt":  "2026-05-06T02:11:07Z",
+        "pushedAt":  "2026-05-06T10:23:20Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\CultCacheTS",
+        "rootEntries":  [
+                            "dist",
+                            "dist-test",
+                            "node_modules",
+                            "src",
+                            "test",
+                            ".gitignore",
+                            "package-lock.json",
+                            "package.json",
+                            "README.md",
+                            "tsconfig.json",
+                            "tsconfig.test.json"
+                        ],
+        "readmeExcerpt":  "# CultCacheTS \n`CultCacheTS` is the TypeScript port of the useful part of GameCult\u0027s `CultCache` idea: consumer code talks to typed domain documents, while a closed-world persistence layer deals with schemas, routing, name lookups, indexes, globals, and raw MessagePack bytes. \nThis is not an ORM in a fake mustache. It is for cases where you want: \n- one cache API for heterogeneous domain documents \n- typed reads and writes instead of every script massaging anonymous blobs \n- lookup by type, logical key, name, and indexed property \n- singleton-style global documents \n- backing-store routing instead of every caller pawing raw files directly",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
                           ],
         "recentWaveCommits":  [
 
@@ -486,2052 +212,50 @@
                             "LICENSE",
                             "README.md"
                         ],
-        "readmeExcerpt":  "* text=auto",
+        "readmeExcerpt":  "# CultLib \nCultLib is a set of reusable C# libraries for game backends, game-adjacent services, and Unity-integrated tooling, including a declarative runtime UI composition framework for Unity. \nThe libraries cover three main areas: \n- logging primitives and implementations \n- a typed in-memory cache with pluggable persistence \n- LiteNetLib-based networking with encrypted credential exchange and signed session tokens \n- declarative Unity UI composition and reflective runtime inspector tooling \n## Repository Scope",
         "earlyCommits":  [
-                             {
-                                 "date":  "2026-04-18",
-                                 "sha":  "0bfc85a4",
-                                 "subject":  "JSON backing store, I/O fixes, Networking Security"
-                             },
-                             {
-                                 "date":  "2026-04-18",
-                                 "sha":  "bb7605d1",
-                                 "subject":  "Update README.md"
-                             },
-                             {
-                                 "date":  "2026-04-18",
-                                 "sha":  "92e1227b",
-                                 "subject":  "Complete CultUI Port and remove legacy UI prefabs and scripts"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "c627200e",
-                                 "subject":  "Preserve DatabaseEntry MessagePack key slots"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "73a30052",
-                                 "subject":  "Clarify sample payloads in CultNet"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "0e452b09",
-                                 "subject":  "Add schema discovery messages to CultNet"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "0277ca79",
-                                 "subject":  "Bring legacy CultNet into the schema-v0 fold"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "123f0147",
-                                 "subject":  "Add CultNet C# interop peer harness"
-                             }
+
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "123f0147",
-                                  "subject":  "Add CultNet C# interop peer harness"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "0277ca79",
-                                  "subject":  "Bring legacy CultNet into the schema-v0 fold"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "0e452b09",
-                                  "subject":  "Add schema discovery messages to CultNet"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "73a30052",
-                                  "subject":  "Clarify sample payloads in CultNet"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "c627200e",
-                                  "subject":  "Preserve DatabaseEntry MessagePack key slots"
-                              },
-                              {
-                                  "date":  "2026-04-18",
-                                  "sha":  "92e1227b",
-                                  "subject":  "Complete CultUI Port and remove legacy UI prefabs and scripts"
-                              },
-                              {
-                                  "date":  "2026-04-18",
-                                  "sha":  "bb7605d1",
-                                  "subject":  "Update README.md"
-                              },
-                              {
-                                  "date":  "2026-04-18",
-                                  "sha":  "0bfc85a4",
-                                  "subject":  "JSON backing store, I/O fixes, Networking Security"
-                              },
-                              {
-                                  "date":  "2026-04-18",
-                                  "sha":  "d88eecb4",
-                                  "subject":  "Update Dependencies"
-                              },
-                              {
-                                  "date":  "2026-04-18",
-                                  "sha":  "137cb2ce",
-                                  "subject":  "Initial commit"
-                              }
+
                           ],
         "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "123f0147",
-                                      "subject":  "Add CultNet C# interop peer harness"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "0277ca79",
-                                      "subject":  "Bring legacy CultNet into the schema-v0 fold"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "0e452b09",
-                                      "subject":  "Add schema discovery messages to CultNet"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "73a30052",
-                                      "subject":  "Clarify sample payloads in CultNet"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "c627200e",
-                                      "subject":  "Preserve DatabaseEntry MessagePack key slots"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "92e1227b",
-                                      "subject":  "Complete CultUI Port and remove legacy UI prefabs and scripts"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "bb7605d1",
-                                      "subject":  "Update README.md"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "0bfc85a4",
-                                      "subject":  "JSON backing store, I/O fixes, Networking Security"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "d88eecb4",
-                                      "subject":  "Update Dependencies"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "137cb2ce",
-                                      "subject":  "Initial commit"
-                                  }
+
                               ]
     },
     {
-        "name":  "AetheriaLore",
-        "fullName":  "GameCult/AetheriaLore",
-        "description":  "Obsidian Vault containing Aetheria worldbuilding work",
-        "language":  "TypeScript",
+        "name":  "cultnet-rs",
+        "fullName":  "GameCult/cultnet-rs",
+        "description":  null,
+        "language":  "Rust",
         "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/AetheriaLore",
-        "createdAt":  "2026-04-18T14:38:08Z",
-        "pushedAt":  "2026-05-05T15:05:20Z",
-        "defaultBranch":  "main",
+        "sourceUrl":  "https://github.com/GameCult/cultnet-rs",
+        "createdAt":  "2026-05-06T05:50:31Z",
+        "pushedAt":  "2026-05-06T19:45:05Z",
+        "defaultBranch":  "master",
         "stargazers":  0,
         "forks":  0,
-        "localPath":  "E:\\Projects\\AetheriaLore",
+        "localPath":  "E:\\Projects\\cultnet-rs",
         "rootEntries":  [
-                            ".epiphany",
-                            ".github",
-                            ".npm-cache",
-                            ".obsidian",
-                            ".quartz-build",
-                            ".rag",
-                            ".tools",
-                            "Aetheria",
-                            "copilot-conversations",
-                            "copilot-custom-prompts",
-                            "quartz-site",
-                            "scripts",
-                            "site",
-                            ".gitattributes",
-                            ".gitignore"
-                        ],
-        "readmeExcerpt":  "* text=auto",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-04",
-                                 "sha":  "662d2ed",
-                                 "subject":  "Backfill Pallas manifold and item hooks"
-                             },
-                             {
-                                 "date":  "2026-05-04",
-                                 "sha":  "efa2fd7",
-                                 "subject":  "Clarify cephalopod mobile harness labor"
-                             },
-                             {
-                                 "date":  "2026-05-04",
-                                 "sha":  "bfb1387",
-                                 "subject":  "Update community-plugins.json"
-                             },
-                             {
-                                 "date":  "2026-05-04",
-                                 "sha":  "d32735b",
-                                 "subject":  "Add playable Lucent Ink story"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "98ce45d",
-                                 "subject":  "Add cinematic Corvid IF page"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "7f33501",
-                                 "subject":  "Seed Epiphany swarm workspace state"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "3e99c9a",
-                                 "subject":  "Record Aquarium swarm registration audit"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "de30297",
-                                 "subject":  "Record Aetheria swarm boundary doctrine"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "de30297",
-                                  "subject":  "Record Aetheria swarm boundary doctrine"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "3e99c9a",
-                                  "subject":  "Record Aquarium swarm registration audit"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "7f33501",
-                                  "subject":  "Seed Epiphany swarm workspace state"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "98ce45d",
-                                  "subject":  "Add cinematic Corvid IF page"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "d32735b",
-                                  "subject":  "Add playable Lucent Ink story"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "bfb1387",
-                                  "subject":  "Update community-plugins.json"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "efa2fd7",
-                                  "subject":  "Clarify cephalopod mobile harness labor"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "662d2ed",
-                                  "subject":  "Backfill Pallas manifold and item hooks"
-                              },
-                              {
-                                  "date":  "2026-05-03",
-                                  "sha":  "910a04d",
-                                  "subject":  "Clean Bloom canon tone"
-                              },
-                              {
-                                  "date":  "2026-05-03",
-                                  "sha":  "b167d55",
-                                  "subject":  "Rework Bloom habitat engineering canon"
-                              },
-                              {
-                                  "date":  "2026-05-03",
-                                  "sha":  "a6e0643",
-                                  "subject":  "Add Bloom quantitative sanity anchors"
-                              },
-                              {
-                                  "date":  "2026-05-03",
-                                  "sha":  "39f7630",
-                                  "subject":  "Add Bloom engineering brainstorming notes"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "de30297",
-                                      "subject":  "Record Aetheria swarm boundary doctrine"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "3e99c9a",
-                                      "subject":  "Record Aquarium swarm registration audit"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "7f33501",
-                                      "subject":  "Seed Epiphany swarm workspace state"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "98ce45d",
-                                      "subject":  "Add cinematic Corvid IF page"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "d32735b",
-                                      "subject":  "Add playable Lucent Ink story"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "bfb1387",
-                                      "subject":  "Update community-plugins.json"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "efa2fd7",
-                                      "subject":  "Clarify cephalopod mobile harness labor"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "662d2ed",
-                                      "subject":  "Backfill Pallas manifold and item hooks"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "910a04d",
-                                      "subject":  "Clean Bloom canon tone"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "b167d55",
-                                      "subject":  "Rework Bloom habitat engineering canon"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "a6e0643",
-                                      "subject":  "Add Bloom quantitative sanity anchors"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "39f7630",
-                                      "subject":  "Add Bloom engineering brainstorming notes"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "1489dc8",
-                                      "subject":  "Correct Bloom axial habitation desirability"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "16f4d40",
-                                      "subject":  "Define AU Ramp Administration access"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "059d657",
-                                      "subject":  "Clarify Bloom open interior pressure model"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "e792966",
-                                      "subject":  "Add Bloom habitat anatomy lore"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "5d2e085",
-                                      "subject":  "Clarify AU cephalopod dry-operation labor"
-                                  },
-                                  {
-                                      "date":  "2026-05-02",
-                                      "sha":  "f2c7747",
-                                      "subject":  "Rename Raven Collective to Corvid Collective"
-                                  },
-                                  {
-                                      "date":  "2026-05-02",
-                                      "sha":  "d0c4d6f",
-                                      "subject":  "Elaborate Navigator habitat ergonomics"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "357675e",
-                                      "subject":  "Add Aetheria shunt mark favicon assets"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "68f6711",
-                                      "subject":  "Tighten Aetheria social deck copy"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "a756681",
-                                      "subject":  "Add Aetheria social card defaults"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "27fb8c9",
-                                      "subject":  "Refine Aetheria social preview copy"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "17e0bb0",
-                                      "subject":  "Polish lore preview metadata"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "a8f961c",
-                                      "subject":  "Flag Call of the Void continuity mismatch"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "5af0771",
-                                      "subject":  "Rebuild with updated GameCult-Quartz"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "4e6c3a2",
-                                      "subject":  "Rename L\u0027appel du Vide to Call of the Void"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "050501b",
-                                      "subject":  "Document L\u0027appel du Vide scope cut"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "cf04706",
-                                      "subject":  "Add Aetheria revival context"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "3fb6a1d",
-                                      "subject":  "Refine game design source framing"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "6ee0e57",
-                                      "subject":  "Add nebula media studies"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "06e2515",
-                                      "subject":  "Expand homepage section summaries"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "f373be2",
-                                      "subject":  "Expand Aetheria game design hierarchy"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "db5b0a4",
-                                      "subject":  "Restore Aetheria folder page emission"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "69ad228",
-                                      "subject":  "Switch site build to shared GameCult-Quartz"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "e64455a",
-                                      "subject":  "Match Aetheria chrome to GameCult"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "8721b09",
-                                      "subject":  "Remove redundant Aetheria link grid"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "a363403",
-                                      "subject":  "Lighten Aetheria section headers"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "c957497",
-                                      "subject":  "Restore visual Aetheria front page"
-                                  },
-                                  {
-                                      "date":  "2026-04-30",
-                                      "sha":  "215bf72",
-                                      "subject":  "Restructure Aetheria front page and import story metadata"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "5b6722d",
-                                      "subject":  "Refine narrative theme names"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "f95bdb5",
-                                      "subject":  "Expand managed reality theme"
-                                  },
-                                  {
-                                      "date":  "2026-04-20",
-                                      "sha":  "4392c19",
-                                      "subject":  "Update deploy-quartz.yml"
-                                  },
-                                  {
-                                      "date":  "2026-04-20",
-                                      "sha":  "5f45993",
-                                      "subject":  "Prefer real note slugs; update docs and PS1"
-                                  },
-                                  {
-                                      "date":  "2026-04-19",
-                                      "sha":  "6127440",
-                                      "subject":  "Static Wiki Site via Quartz"
-                                  },
-                                  {
-                                      "date":  "2026-04-19",
-                                      "sha":  "d5d7410",
-                                      "subject":  "Add Neuromorphic Firmware and expand Cognitum lore"
-                                  },
-                                  {
-                                      "date":  "2026-04-19",
-                                      "sha":  "0cc297f",
-                                      "subject":  "Add thermal-tech brainstorming and politics updates"
-                                  },
-                                  {
-                                      "date":  "2026-04-19",
-                                      "sha":  "1c9523b",
-                                      "subject":  "Add Narrative Themes"
-                                  },
-                                  {
-                                      "date":  "2026-04-19",
-                                      "sha":  "f339aae",
-                                      "subject":  "Add local RAG tooling for vault navigation"
-                                  },
-                                  {
-                                      "date":  "2026-04-18",
-                                      "sha":  "c7d307c",
-                                      "subject":  "Expand Pre-Elysium factions and timeline"
-                                  }
-                              ]
-    },
-    {
-        "name":  "gamecult-site",
-        "fullName":  "GameCult/gamecult-site",
-        "description":  "Quartz Site for GameCult.org",
-        "language":  "TypeScript",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/gamecult-site",
-        "createdAt":  "2026-04-21T01:44:13Z",
-        "pushedAt":  "2026-05-01T16:01:05Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\gamecult-site",
-        "rootEntries":  [
-                            ".github",
-                            ".npm-cache",
-                            ".quartz-build",
-                            ".tools",
-                            "docs",
-                            "GameCult",
-                            "quartz-site",
-                            "scripts",
-                            "site",
-                            ".gitattributes",
+                            "contracts",
+                            "examples",
+                            "src",
+                            "target",
+                            "tests",
                             ".gitignore",
-                            "AGENTS.md",
+                            "Cargo.lock",
+                            "Cargo.toml",
                             "README.md"
                         ],
-        "readmeExcerpt":  "* text=auto",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "3b8eb9a",
-                                 "subject":  "Clarify L\u0027appel du Vide release role"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "38ac221",
-                                 "subject":  "Use Call of the Void public title"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "e676413",
-                                 "subject":  "Rebuild with updated GameCult-Quartz"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "c96f1db",
-                                 "subject":  "Note Call of the Void continuity mismatch"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "45af5b8",
-                                 "subject":  "Polish site preview metadata"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "bad77bb",
-                                 "subject":  "Refine GameCult social preview copy"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "b2629c7",
-                                 "subject":  "Add GameCult social card defaults"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "ec6c687",
-                                 "subject":  "Tighten GameCult social deck copy"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "ec6c687",
-                                  "subject":  "Tighten GameCult social deck copy"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "b2629c7",
-                                  "subject":  "Add GameCult social card defaults"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "bad77bb",
-                                  "subject":  "Refine GameCult social preview copy"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "45af5b8",
-                                  "subject":  "Polish site preview metadata"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "c96f1db",
-                                  "subject":  "Note Call of the Void continuity mismatch"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "e676413",
-                                  "subject":  "Rebuild with updated GameCult-Quartz"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "38ac221",
-                                  "subject":  "Use Call of the Void public title"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "3b8eb9a",
-                                  "subject":  "Clarify L\u0027appel du Vide release role"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "da4f229",
-                                  "subject":  "Explain Aetheria project silence"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "3c5a654",
-                                  "subject":  "Switch site build to shared GameCult-Quartz"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "3c979e6",
-                                  "subject":  "Draft GameCult-Quartz extraction plan"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "dbae406",
-                                  "subject":  "Retire local Aetheria pages"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "ec6c687",
-                                      "subject":  "Tighten GameCult social deck copy"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "b2629c7",
-                                      "subject":  "Add GameCult social card defaults"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "bad77bb",
-                                      "subject":  "Refine GameCult social preview copy"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "45af5b8",
-                                      "subject":  "Polish site preview metadata"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "c96f1db",
-                                      "subject":  "Note Call of the Void continuity mismatch"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "e676413",
-                                      "subject":  "Rebuild with updated GameCult-Quartz"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "38ac221",
-                                      "subject":  "Use Call of the Void public title"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "3b8eb9a",
-                                      "subject":  "Clarify L\u0027appel du Vide release role"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "da4f229",
-                                      "subject":  "Explain Aetheria project silence"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "3c5a654",
-                                      "subject":  "Switch site build to shared GameCult-Quartz"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "3c979e6",
-                                      "subject":  "Draft GameCult-Quartz extraction plan"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "dbae406",
-                                      "subject":  "Retire local Aetheria pages"
-                                  },
-                                  {
-                                      "date":  "2026-04-30",
-                                      "sha":  "796ff7c",
-                                      "subject":  "Point Aetheria header link at AetheriaLore"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "d2f98e5",
-                                      "subject":  "Add Repixelizer header link"
-                                  },
-                                  {
-                                      "date":  "2026-04-28",
-                                      "sha":  "abef666",
-                                      "subject":  "Sharpen Aetheria core pitch"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "559c7ae",
-                                      "subject":  "Turn up GameCult pitch intensity"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "b527178",
-                                      "subject":  "Sharpen GameCult studio pitch"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "b079eba",
-                                      "subject":  "Add Patreon wordmark to masthead"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "9b91eee",
-                                      "subject":  "Refresh Aetheria Elysium canon"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "2dc9a18",
-                                      "subject":  "Trim root breadcrumbs and trail parents"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "49c82dd",
-                                      "subject":  "Rename labor platform page to Bifrost"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "a75614a",
-                                      "subject":  "Separate breadcrumb and page title lines"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "93b29d4",
-                                      "subject":  "Restore stacked page headers and dedupe homepage title"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "0ef406f",
-                                      "subject":  "Unify page headers and trim breadcrumb repetition"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "f4a2b6d",
-                                      "subject":  "Remove duplicate GCLP body title"
-                                  },
-                                  {
-                                      "date":  "2026-04-22",
-                                      "sha":  "a3c52b0",
-                                      "subject":  "Update GCLP page for Bifrost rollout"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "98c9a93",
-                                      "subject":  "Move masthead socials into title row"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "6e66818",
-                                      "subject":  "Use official GitHub and Discord marks"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "fb2af2f",
-                                      "subject":  "Disable SPA and harden homepage header"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "bf684cc",
-                                      "subject":  "Remove homepage promo cards and enlarge socials"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "d2f584f",
-                                      "subject":  "Remove masthead search and enlarge social icons"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "29a02ed",
-                                      "subject":  "Trim homepage lead-in and clarify masthead icons"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "660798e",
-                                      "subject":  "Remove duplicate homepage nav and iconify socials"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "979451d",
-                                      "subject":  "Tighten homepage nav and retire Metamorphosis"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "b23b5d2",
-                                      "subject":  "Hide homepage backlinks and add community links"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "9b6a743",
-                                      "subject":  "Remove composite standalone note links"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "a93cbc3",
-                                      "subject":  "Flatten Studio pages into root"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "a4e8567",
-                                      "subject":  "Remove redundant homepage nav slab"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "dc7651b",
-                                      "subject":  "Merge homepage into Studio landing"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "ff73688",
-                                      "subject":  "Sharpen site copy with studio voice"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "c013129",
-                                      "subject":  "Make Aetheria a composite landing page"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "54e9692",
-                                      "subject":  "Rewrite site copy in studio voice"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "a0e4dbf",
-                                      "subject":  "Embed CultPong gameplay video"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "8f42942",
-                                      "subject":  "Fix Studio media overflow and add debugging note"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "b66847f",
-                                      "subject":  "Fix Studio composite responsive breakpoints"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "3a77b50",
-                                      "subject":  "Stabilize composite section columns"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "fa1a754",
-                                      "subject":  "Use flex layout for composite media sections"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "1053e68",
-                                      "subject":  "Stop stretching composite media panels"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "de7679b",
-                                      "subject":  "Fix composite Studio section layout"
-                                  },
-                                  {
-                                      "date":  "2026-04-21",
-                                      "sha":  "b0fb223",
-                                      "subject":  "Composite Studio overview sections"
-                                  }
-                              ]
-    },
-    {
-        "name":  "repixelizer",
-        "fullName":  "GameCult/repixelizer",
-        "description":  "Takes pixel art that only looks pixelated and tries to make it stop lying.",
-        "language":  "Python",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/repixelizer",
-        "createdAt":  "2026-04-21T20:54:51Z",
-        "pushedAt":  "2026-05-01T15:15:30Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\repixelizer",
-        "rootEntries":  [
-                            ".pytest_cache",
-                            ".venv",
-                            "artifacts",
-                            "config",
-                            "docs",
-                            "examples",
-                            "frontend",
-                            "notes",
-                            "scripts",
-                            "src",
-                            "state",
-                            "tests",
-                            "tools",
-                            ".gitignore",
-                            "AGENTS.md"
-                        ],
-        "readmeExcerpt":  ".venv/ \n__pycache__/ \n*.pyc \n*.pyo \n*.pyd \n.pytest_cache/ \n.mypy_cache/ \n.coverage",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "f3dc8e0",
-                                 "subject":  "Prune hosted run controls"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "ba10f57",
-                                 "subject":  "Make hidden GUI controls stay hidden"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "bac0b6c",
-                                 "subject":  "Replace solver loss chart with state metrics"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "bfaca2f",
-                                 "subject":  "Remove seed control from GUI"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "f5bc53c",
-                                 "subject":  "Log hosted queue and job pressure"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "334dcd1",
-                                 "subject":  "Fix GUI failed response handling"
-                             },
-                             {
-                                 "date":  "2026-04-29",
-                                 "sha":  "e0025b4",
-                                 "subject":  "Handle oversize upload errors cleanly"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "da25c88",
-                                 "subject":  "Log Repixelizer job actors for ops summaries"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "da25c88",
-                                  "subject":  "Log Repixelizer job actors for ops summaries"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "e0025b4",
-                                  "subject":  "Handle oversize upload errors cleanly"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "334dcd1",
-                                  "subject":  "Fix GUI failed response handling"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "f5bc53c",
-                                  "subject":  "Log hosted queue and job pressure"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "bfaca2f",
-                                  "subject":  "Remove seed control from GUI"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "bac0b6c",
-                                  "subject":  "Replace solver loss chart with state metrics"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "ba10f57",
-                                  "subject":  "Make hidden GUI controls stay hidden"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "f3dc8e0",
-                                  "subject":  "Prune hosted run controls"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "75dd1e7",
-                                  "subject":  "Record Patreon hosted access policy"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "7722007",
-                                  "subject":  "Send Patreon tier access policy"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "4de3e24",
-                                  "subject":  "Add hosted legal pages"
-                              },
-                              {
-                                  "date":  "2026-04-29",
-                                  "sha":  "98e8e3f",
-                                  "subject":  "Record app-owned access policy"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "da25c88",
-                                      "subject":  "Log Repixelizer job actors for ops summaries"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "e0025b4",
-                                      "subject":  "Handle oversize upload errors cleanly"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "334dcd1",
-                                      "subject":  "Fix GUI failed response handling"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "f5bc53c",
-                                      "subject":  "Log hosted queue and job pressure"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "bfaca2f",
-                                      "subject":  "Remove seed control from GUI"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "bac0b6c",
-                                      "subject":  "Replace solver loss chart with state metrics"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "ba10f57",
-                                      "subject":  "Make hidden GUI controls stay hidden"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "f3dc8e0",
-                                      "subject":  "Prune hosted run controls"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "75dd1e7",
-                                      "subject":  "Record Patreon hosted access policy"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "7722007",
-                                      "subject":  "Send Patreon tier access policy"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "4de3e24",
-                                      "subject":  "Add hosted legal pages"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "98e8e3f",
-                                      "subject":  "Record app-owned access policy"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "cae9cbf",
-                                      "subject":  "Send Repixelizer Discord access policy"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "a4833d1",
-                                      "subject":  "Simplify landing auth actions"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "2d5c244",
-                                      "subject":  "Use app access for owned job routes"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "a500054",
-                                      "subject":  "Allow hosted static assets before auth"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "9042946",
-                                      "subject":  "Match logo tile stroke colors"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "3e2775e",
-                                      "subject":  "Restore perimeter strokes on logo tiles"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "ff797aa",
-                                      "subject":  "Fix app logo PNG tile rendering"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "fbc4ae2",
-                                      "subject":  "Add 1024 app logo PNG"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "f2b62bc",
-                                      "subject":  "Trim victory-lap docs language"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "f89d6ed",
-                                      "subject":  "Polish README preview framing"
-                                  },
-                                  {
-                                      "date":  "2026-04-29",
-                                      "sha":  "5f2a644",
-                                      "subject":  "Prepare lean solver for hosted shipping"
-                                  },
-                                  {
-                                      "date":  "2026-04-28",
-                                      "sha":  "2c65690",
-                                      "subject":  "Persist manual tuning findings"
-                                  },
-                                  {
-                                      "date":  "2026-04-28",
-                                      "sha":  "16c86d5",
-                                      "subject":  "Simplify lattice inference and hosted landing"
-                                  },
-                                  {
-                                      "date":  "2026-04-27",
-                                      "sha":  "3fa3be8",
-                                      "subject":  "Land Heimdall auth flow in hosted web layer"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "2de45c0",
-                                      "subject":  "Prepare hosted auth seam for Heimdall"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "20c610e",
-                                      "subject":  "Add hosted landing page"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "728e084",
-                                      "subject":  "Use direct autocorr inference for hosted demo"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "338ecc7",
-                                      "subject":  "Tighten autocorr lattice consensus"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "cbe1abd",
-                                      "subject":  "Drop pixel-walk lattice sizing"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "9590768",
-                                      "subject":  "Remove spectral prior and widen solver drift"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "831c921",
-                                      "subject":  "Let dense inference candidates exceed legacy cap"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "8915a77",
-                                      "subject":  "Record dense inference diagnosis"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "f3ec8c5",
-                                      "subject":  "Tighten dense landscape inset"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "6e81a27",
-                                      "subject":  "Add dense landscape preview fixture"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "32f6055",
-                                      "subject":  "Keep README focused on phase-field"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "4c28aee",
-                                      "subject":  "Restore canonical pipeline docs"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "1c5175e",
-                                      "subject":  "Point shared auth docs at Heimdall"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "4b511b1",
-                                      "subject":  "Persist hosted deployment strategy"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "1fd7c0c",
-                                      "subject":  "Refresh public docs for GUI release"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "d3dc0c4",
-                                      "subject":  "Fix output viewer inspect panning"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "9d08b9d",
-                                      "subject":  "Point hosted access docs at gamecult-access"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "ef58b50",
-                                      "subject":  "Clarify shared access data boundaries"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "532c189",
-                                      "subject":  "Split hosted access architecture"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "e44de57",
-                                      "subject":  "Audit map doctrine boundaries"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "e66aceb",
-                                      "subject":  "Add persistence scaffolding"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "03231c7",
-                                      "subject":  "Sync viewer inspect magnification"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "ef865d5",
-                                      "subject":  "Make editor surface square"
-                                  },
-                                  {
-                                      "date":  "2026-04-26",
-                                      "sha":  "ddcd73b",
-                                      "subject":  "Move canvas card into editor toolbar"
-                                  }
-                              ]
-    },
-    {
-        "name":  "GameCult-Quartz",
-        "fullName":  "GameCult/GameCult-Quartz",
-        "description":  "Styling, components and infrastructure shared between GameCult static websites",
-        "language":  "TypeScript",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/GameCult-Quartz",
-        "createdAt":  "2026-05-01T10:27:41Z",
-        "pushedAt":  "2026-05-01T16:01:04Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\GameCult-Quartz",
-        "rootEntries":  [
-                            ".github",
-                            "node_modules",
-                            "quartz",
-                            "scripts",
-                            ".gitattributes",
-                            ".gitignore",
-                            ".node-version",
-                            ".npmrc",
-                            ".prettierignore",
-                            ".prettierrc",
-                            "AGENTS.md",
-                            "CODE_OF_CONDUCT.md",
-                            "Dockerfile",
-                            "globals.d.ts",
-                            "index.d.ts"
-                        ],
-        "readmeExcerpt":  "* text=auto eol=lf",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "a7b1be5",
-                                 "subject":  "Extract shared GameCult-Quartz engine"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "fdbc4ff",
-                                 "subject":  "Clean preview description extraction"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "bbdc45e",
-                                 "subject":  "Improve preview title and description extraction"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "bc3cf96",
-                                 "subject":  "Tighten social metadata generation"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "b7f0198",
-                                 "subject":  "Add image-forward social card generation"
-                             },
-                             {
-                                 "date":  "2026-05-01",
-                                 "sha":  "2be83d5",
-                                 "subject":  "Simplify social card chrome"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "2be83d5",
-                                  "subject":  "Simplify social card chrome"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "b7f0198",
-                                  "subject":  "Add image-forward social card generation"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "bc3cf96",
-                                  "subject":  "Tighten social metadata generation"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "bbdc45e",
-                                  "subject":  "Improve preview title and description extraction"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "fdbc4ff",
-                                  "subject":  "Clean preview description extraction"
-                              },
-                              {
-                                  "date":  "2026-05-01",
-                                  "sha":  "a7b1be5",
-                                  "subject":  "Extract shared GameCult-Quartz engine"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "2be83d5",
-                                      "subject":  "Simplify social card chrome"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "b7f0198",
-                                      "subject":  "Add image-forward social card generation"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "bc3cf96",
-                                      "subject":  "Tighten social metadata generation"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "bbdc45e",
-                                      "subject":  "Improve preview title and description extraction"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "fdbc4ff",
-                                      "subject":  "Clean preview description extraction"
-                                  },
-                                  {
-                                      "date":  "2026-05-01",
-                                      "sha":  "a7b1be5",
-                                      "subject":  "Extract shared GameCult-Quartz engine"
-                                  }
-                              ]
-    },
-    {
-        "name":  "Ghostlight",
-        "fullName":  "GameCult/Ghostlight",
-        "description":  "Social AI agents designed to mimic human psychology instead of sycophantic chatbots",
-        "language":  "Python",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/Ghostlight",
-        "createdAt":  "2026-05-01T17:28:28Z",
-        "pushedAt":  "2026-05-06T13:34:00Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\Ghostlight",
-        "rootEntries":  [
-                            "docs",
-                            "examples",
-                            "experiments",
-                            "node_modules",
-                            "notes",
-                            "prompts",
-                            "schemas",
-                            "scripts",
-                            "state",
-                            "tools",
-                            "vendor",
-                            ".gitignore",
-                            ".gitmodules",
-                            "AGENTS.md",
-                            "package-lock.json"
-                        ],
-        "readmeExcerpt":  "__pycache__/ \n*.pyc \n.venv/ \nnode_modules/ \nstate/scratch-compaction-*.md \nexperiments/images/",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "6d8102f",
-                                 "subject":  "Add Corvid visual replay plan"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "f82ccea",
-                                 "subject":  "Add BFL image batch runner"
-                             },
-                             {
-                                 "date":  "2026-05-05",
-                                 "sha":  "c0f8716",
-                                 "subject":  "Record Corvid site publication"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "d55299d",
-                                 "subject":  "Plan VoidBot routine for cast swarm"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "2531b42",
-                                 "subject":  "Migrate state spine toward cultcache-py"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "f4e277e",
-                                 "subject":  "Update cultcache-py wire contract"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "02f7f6f",
-                                 "subject":  "Define the shared CultNet agent-state contract"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "c48dac6",
-                                 "subject":  "Bridge Ghostlight scene initiative to Epiphany heartbeat"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "c48dac6",
-                                  "subject":  "Bridge Ghostlight scene initiative to Epiphany heartbeat"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "02f7f6f",
-                                  "subject":  "Define the shared CultNet agent-state contract"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "f4e277e",
-                                  "subject":  "Update cultcache-py wire contract"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "2531b42",
-                                  "subject":  "Migrate state spine toward cultcache-py"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "d55299d",
-                                  "subject":  "Plan VoidBot routine for cast swarm"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "c0f8716",
-                                  "subject":  "Record Corvid site publication"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "f82ccea",
-                                  "subject":  "Add BFL image batch runner"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "6d8102f",
-                                  "subject":  "Add Corvid visual replay plan"
-                              },
-                              {
-                                  "date":  "2026-05-05",
-                                  "sha":  "77a30a5",
-                                  "subject":  "Add Corvid Collective founding fixture"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "82be778",
-                                  "subject":  "Add initiative scheduler artifact seam"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "93511fd",
-                                  "subject":  "Exercise sandboxed IF branch pilot"
-                              },
-                              {
-                                  "date":  "2026-05-04",
-                                  "sha":  "8b69c3a",
-                                  "subject":  "Add Lucent branching Ink scaffold"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "c48dac6",
-                                      "subject":  "Bridge Ghostlight scene initiative to Epiphany heartbeat"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "02f7f6f",
-                                      "subject":  "Define the shared CultNet agent-state contract"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "f4e277e",
-                                      "subject":  "Update cultcache-py wire contract"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "2531b42",
-                                      "subject":  "Migrate state spine toward cultcache-py"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "d55299d",
-                                      "subject":  "Plan VoidBot routine for cast swarm"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "c0f8716",
-                                      "subject":  "Record Corvid site publication"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "f82ccea",
-                                      "subject":  "Add BFL image batch runner"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "6d8102f",
-                                      "subject":  "Add Corvid visual replay plan"
-                                  },
-                                  {
-                                      "date":  "2026-05-05",
-                                      "sha":  "77a30a5",
-                                      "subject":  "Add Corvid Collective founding fixture"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "82be778",
-                                      "subject":  "Add initiative scheduler artifact seam"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "93511fd",
-                                      "subject":  "Exercise sandboxed IF branch pilot"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "8b69c3a",
-                                      "subject":  "Add Lucent branching Ink scaffold"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "51a35f0",
-                                      "subject":  "Add sandboxed coordinator prompt"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "b8f671b",
-                                      "subject":  "Model character cognition separately from system intelligence"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "f2b22df",
-                                      "subject":  "Distill persistent memory doctrine"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "4f25836",
-                                      "subject":  "Require sandboxed coordinator turns"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "6de2707",
-                                      "subject":  "Add Lucent readable and raw output views"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "75e2560",
-                                      "subject":  "Extend Lucent loop to release resolution"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "b883775",
-                                      "subject":  "Build Lucent hostage-feed training loop"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "39e21fc",
-                                      "subject":  "Stage Lucent hostage-feed scene seed"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "a629a29",
-                                      "subject":  "Tighten Pallas training-loop bookkeeping"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "3a50b65",
-                                      "subject":  "Add Pallas training-loop receipt pilot"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "e9ea7ec",
-                                      "subject":  "Mark Pallas fixture as reference only"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "89e91c1",
-                                      "subject":  "Add corpus coverage ledger"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "4b2156b",
-                                      "subject":  "Prune obsolete prototype fixtures"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "0f50cce",
-                                      "subject":  "Document illustrated IF scene-set pipeline"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "78caaf7",
-                                      "subject":  "Fix Pallas supplier provenance"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "b3ce04c",
-                                      "subject":  "Add lore and spatial reviewer prompts"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "8c5524d",
-                                      "subject":  "Revise Pallas narrative reviewer findings"
-                                  },
-                                  {
-                                      "date":  "2026-05-04",
-                                      "sha":  "0cd39e9",
-                                      "subject":  "Ground Pallas fixture in Kappa loop geometry"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "aa17ed5",
-                                      "subject":  "Clarify Pallas Kappa blueprint prompt"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "286e64f",
-                                      "subject":  "Pin Ilya arrival route in Pallas fixture"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "95d7a35",
-                                      "subject":  "Add Pallas service ring blueprint prompt"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "9db20e3",
-                                      "subject":  "Revert \"Add visual blockout pipeline\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "bfdf96a",
-                                      "subject":  "Revert \"Fix Pallas blockout guide shots\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "0b9ebe2",
-                                      "subject":  "Revert \"Enrich Pallas blockout geometry\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "2957c6b",
-                                      "subject":  "Revert \"Mark primitive blockouts as prototype only\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "b25def8",
-                                      "subject":  "Revert \"Rebuild Pallas blockout as staged environment\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "ba9f5be",
-                                      "subject":  "Revert \"Add Geometry Nodes blockout builder\""
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "c52c9b4",
-                                      "subject":  "Add Geometry Nodes blockout builder"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "324b2a3",
-                                      "subject":  "Rebuild Pallas blockout as staged environment"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "7c2ccb3",
-                                      "subject":  "Mark primitive blockouts as prototype only"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "77cd2e1",
-                                      "subject":  "Enrich Pallas blockout geometry"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "191637a",
-                                      "subject":  "Fix Pallas blockout guide shots"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "1399022",
-                                      "subject":  "Add visual blockout pipeline"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "4db20c2",
-                                      "subject":  "Soften cephalopod work-support visuals"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "507e8d9",
-                                      "subject":  "Tighten nonhuman visual prompting"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "5a490c1",
-                                      "subject":  "Generalize visual group guardrails"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "d616d12",
-                                      "subject":  "Fix memory-dependent visual prompts"
-                                  },
-                                  {
-                                      "date":  "2026-05-03",
-                                      "sha":  "664b8a2",
-                                      "subject":  "Split BFL base and edit prompts"
-                                  }
-                              ]
-    },
-    {
-        "name":  "geometry-script",
-        "fullName":  "GameCult/geometry-script",
-        "description":  "A scripting API for Blender\u0027s Geometry Nodes",
-        "language":  null,
-        "fork":  true,
-        "sourceUrl":  "https://github.com/GameCult/geometry-script",
-        "createdAt":  "2026-05-04T13:10:58Z",
-        "pushedAt":  "2026-05-04T19:04:56Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  null,
-        "rootEntries":  [
-                            ".github",
-                            ".gitignore",
-                            "LICENSE",
-                            "README.md",
-                            "__init__.py",
-                            "absolute_path.py",
-                            "api",
-                            "book",
-                            "docs",
-                            "examples",
-                            "external.py",
-                            "preferences.py",
-                            "typeshed"
-                        ],
-        "readmeExcerpt":  "![Geometry Script wordmark](book/src/images/wordmark.png) \nA scripting API for Blender\u0027s Geometry Nodes: \n\u003ctable\u003e \n\u003ctbody\u003e \n\u003ctr\u003e \n\u003ctd\u003e \n```python \nfrom geometry_script import *",
+        "readmeExcerpt":  "# CultNet RS \n`cultnet-rs` is the Rust sibling of `cultnet-ts`: typed MessagePack messages, \n4-byte length-prefixed direct-pipe framing, CultLib-shaped security helpers, and \nCultCache replication without making callers paw through raw envelopes like we \nlost a bet. \nThe contract is intentionally boring: \n- `cultnet.schema.v0` sends schema-versioned MessagePack objects. \n- `gamecult.networking.v0` maps the legacy C# union shape explicitly.",
         "earlyCommits":  [
 
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2025-07-04",
-                                  "sha":  "24d9930",
-                                  "subject":  "Enhance repeat_grid function: add spacing parameters for customizable grid spacing"
-                              },
-                              {
-                                  "date":  "2025-07-04",
-                                  "sha":  "08c3cd5",
-                                  "subject":  "Fix Repeat Grid example: improve parameter naming, add proper spacing calculation"
-                              },
-                              {
-                                  "date":  "2024-10-27",
-                                  "sha":  "96a1b29",
-                                  "subject":  "fix a spelling mistake"
-                              },
-                              {
-                                  "date":  "2023-11-16",
-                                  "sha":  "6952ec5",
-                                  "subject":  "replace dictionary used to count node input links with collections.Counter"
-                              },
-                              {
-                                  "date":  "2023-11-16",
-                                  "sha":  "e380e6f",
-                                  "subject":  "precalculate number of links to node input sockets to avoid using the \u0027links\u0027 property"
-                              },
-                              {
-                                  "date":  "2023-11-15",
-                                  "sha":  "f0d43fb",
-                                  "subject":  "disambiguate duplicate variable name \u0027node\u0027 within inner loop for readability"
-                              },
-                              {
-                                  "date":  "2023-11-15",
-                                  "sha":  "5cf07a1",
-                                  "subject":  "rewrite topological sort, avoiding calls to the expensive \u0027links\u0027 property of the NodeSocket class"
-                              },
-                              {
-                                  "date":  "2023-11-16",
-                                  "sha":  "8a1b4c4",
-                                  "subject":  "Add check for nested trees"
-                              },
-                              {
-                                  "date":  "2023-11-15",
-                                  "sha":  "6c25f12",
-                                  "subject":  "Support Blender 3.x alongside 4.x"
-                              },
-                              {
-                                  "date":  "2023-11-15",
-                                  "sha":  "56d6198",
-                                  "subject":  "Allow passing domain to `store`"
-                              },
-                              {
-                                  "date":  "2023-11-11",
-                                  "sha":  "da99654",
-                                  "subject":  "Add repeat zone support"
-                              },
-                              {
-                                  "date":  "2023-11-02",
-                                  "sha":  "e3befbe",
-                                  "subject":  "Migrate to NodeTree.interface API for Blender 4.0 release"
-                              }
+
                           ],
         "recentWaveCommits":  [
 
-                              ]
-    },
-    {
-        "name":  "cultcache-ts",
-        "fullName":  "GameCult/cultcache-ts",
-        "description":  "CultCache-style typed persistence for TypeScript with schema-backed polymorphic MessagePack storage.",
-        "language":  "TypeScript",
-        "fork":  false,
-        "sourceUrl":  "https://github.com/GameCult/cultcache-ts",
-        "createdAt":  "2026-05-06T02:11:07Z",
-        "pushedAt":  "2026-05-06T10:23:20Z",
-        "defaultBranch":  "main",
-        "stargazers":  0,
-        "forks":  0,
-        "localPath":  "E:\\Projects\\CultCacheTS",
-        "rootEntries":  [
-                            "dist",
-                            "dist-test",
-                            "node_modules",
-                            "src",
-                            "test",
-                            ".gitignore",
-                            "package-lock.json",
-                            "package.json",
-                            "README.md",
-                            "tsconfig.json",
-                            "tsconfig.test.json"
-                        ],
-        "readmeExcerpt":  "node_modules/ \ndist-test/",
-        "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "0c430c3",
-                                 "subject":  "Initial CultCacheTS port"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "9562d6a",
-                                 "subject":  "Ship built output for consumers"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "be0a96d",
-                                 "subject":  "Expand CultCacheTS toward full CultCache ergonomics"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "b7cc33a",
-                                 "subject":  "Accept generated parse-style schemas in CultCacheTS"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "6c2e1e3",
-                                 "subject":  "Publish generic schema exports"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "ed3f2b8",
-                                 "subject":  "Add raw envelope fast path to CultCacheTS"
-                             }
-                         ],
-        "recentCommits":  [
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "ed3f2b8",
-                                  "subject":  "Add raw envelope fast path to CultCacheTS"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "6c2e1e3",
-                                  "subject":  "Publish generic schema exports"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "b7cc33a",
-                                  "subject":  "Accept generated parse-style schemas in CultCacheTS"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "be0a96d",
-                                  "subject":  "Expand CultCacheTS toward full CultCache ergonomics"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "9562d6a",
-                                  "subject":  "Ship built output for consumers"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "0c430c3",
-                                  "subject":  "Initial CultCacheTS port"
-                              }
-                          ],
-        "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "ed3f2b8",
-                                      "subject":  "Add raw envelope fast path to CultCacheTS"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "6c2e1e3",
-                                      "subject":  "Publish generic schema exports"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "b7cc33a",
-                                      "subject":  "Accept generated parse-style schemas in CultCacheTS"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "be0a96d",
-                                      "subject":  "Expand CultCacheTS toward full CultCache ergonomics"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "9562d6a",
-                                      "subject":  "Ship built output for consumers"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "0c430c3",
-                                      "subject":  "Initial CultCacheTS port"
-                                  }
                               ]
     },
     {
@@ -2564,117 +288,122 @@
                             "tsconfig.json",
                             "tsconfig.test.json"
                         ],
-        "readmeExcerpt":  "node_modules/ \ndist/ \ndist-test/ \n*.tgz",
+        "readmeExcerpt":  "# CultNet TS \n`cultnet-ts` is the TypeScript port of the useful shape of GameCult\u0027s \nnetworking layer: typed MessagePack messages, direct-pipe framing, CultLib-style \nsecurity/session helpers, and state replication that hands typed values into a \n`CultCache` instead of making consumer code paw raw database envelopes. \nThis is not an HTTP wrapper wearing a fake mustache. It is for runtimes that \nalready trust a direct channel and want a compact shared contract over it. \n## Scope",
         "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "f29e627",
-                                 "subject":  "Build the first CultNet TypeScript client"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "f6ff48e",
-                                 "subject":  "Add explicit CultLib wire-contract compatibility"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "3957154",
-                                 "subject":  "Generate shared swarm contracts from schemas"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "653f368",
-                                 "subject":  "Add CultNet schema discovery catalog"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "ca17c8e",
-                                 "subject":  "Add raw local replication lane to CultNetTS"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "afda72b",
-                                 "subject":  "Add cross-runtime CultNet interop harness"
-                             },
-                             {
-                                 "date":  "2026-05-06",
-                                 "sha":  "f9efce2",
-                                 "subject":  "Add GitHub Actions interop ritual"
-                             }
+
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "f9efce2",
-                                  "subject":  "Add GitHub Actions interop ritual"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "afda72b",
-                                  "subject":  "Add cross-runtime CultNet interop harness"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "ca17c8e",
-                                  "subject":  "Add raw local replication lane to CultNetTS"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "653f368",
-                                  "subject":  "Add CultNet schema discovery catalog"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "3957154",
-                                  "subject":  "Generate shared swarm contracts from schemas"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "f6ff48e",
-                                  "subject":  "Add explicit CultLib wire-contract compatibility"
-                              },
-                              {
-                                  "date":  "2026-05-06",
-                                  "sha":  "f29e627",
-                                  "subject":  "Build the first CultNet TypeScript client"
-                              }
+
                           ],
         "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "f9efce2",
-                                      "subject":  "Add GitHub Actions interop ritual"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "afda72b",
-                                      "subject":  "Add cross-runtime CultNet interop harness"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "ca17c8e",
-                                      "subject":  "Add raw local replication lane to CultNetTS"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "653f368",
-                                      "subject":  "Add CultNet schema discovery catalog"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "3957154",
-                                      "subject":  "Generate shared swarm contracts from schemas"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "f6ff48e",
-                                      "subject":  "Add explicit CultLib wire-contract compatibility"
-                                  },
-                                  {
-                                      "date":  "2026-05-06",
-                                      "sha":  "f29e627",
-                                      "subject":  "Build the first CultNet TypeScript client"
-                                  }
+
+                              ]
+    },
+    {
+        "name":  "CultPong",
+        "fullName":  "GameCult/CultPong",
+        "description":  "Fast-paced Competitive Pong",
+        "language":  "C#",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/CultPong",
+        "createdAt":  "2020-09-25T03:35:00Z",
+        "pushedAt":  "2020-09-25T06:19:56Z",
+        "defaultBranch":  "master",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  null,
+        "rootEntries":  null,
+        "readmeExcerpt":  null,
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "Epiphany",
+        "fullName":  "GameCult/Epiphany",
+        "description":  "A more opinionated agentic coding harness based on Codex",
+        "language":  "Rust",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/Epiphany",
+        "createdAt":  "2026-04-23T20:59:54Z",
+        "pushedAt":  "2026-05-07T03:08:56Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\EpiphanyAgent",
+        "rootEntries":  [
+                            ".epiphany-dogfood",
+                            ".epiphany-face",
+                            ".epiphany-gui",
+                            ".epiphany-heartbeats",
+                            ".epiphany-rumination",
+                            ".epiphany-smoke",
+                            "apps",
+                            "epiphany-core",
+                            "EpiphanyDogfood",
+                            "integrations",
+                            "notes",
+                            "protocol",
+                            "state",
+                            "tools",
+                            "vendor"
+                        ],
+        "readmeExcerpt":  "# EpiphanyAgent \nEpiphany is an opinionated fork of Codex built around one demand: the model \nmust model the thing it is changing. \nThe problem this repo is chasing is not \"LLMs can\u0027t write code.\" They can. The \nproblem is that they can keep making plausible local moves after the global \ndesign has already wandered off and died in a ditch. \nEpiphany answers that by moving important state out of transcript fog and into \ntyped, inspectable surfaces: maps, evidence, retrieval state, graph/frontier",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "EpiphanyAquarium",
+        "fullName":  "GameCult/EpiphanyAquarium",
+        "description":  null,
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/EpiphanyAquarium",
+        "createdAt":  "2026-05-05T11:51:42Z",
+        "pushedAt":  "2026-05-07T05:08:34Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\EpiphanyAquarium",
+        "rootEntries":  [
+                            ".epiphany-aquarium",
+                            "bevy-aquarium",
+                            "crates",
+                            "dist",
+                            "node_modules",
+                            "notes",
+                            "public",
+                            "scripts",
+                            "src",
+                            "src-tauri",
+                            "state",
+                            "vendor",
+                            ".gitignore",
+                            ".gitmodules",
+                            "AGENTS.md"
+                        ],
+        "readmeExcerpt":  "# Epiphany Aquarium \nFullscreen aquarium interface for Epiphany. \nThis is the cute, dynamic operator surface: React, Tauri, WebGL2, fluid \nsimulation, agent-local menus, and interaction audio. It is deliberately split \nfrom `E:\\Projects\\EpiphanyAgent` so the UI can develop its own state, memory, \nand taste without dragging harness architecture into every visual decision. \n## Shape \n- Idle state: fluid, agents, glow, motion, sound, vibes.",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
                               ]
     },
     {
@@ -2705,162 +434,407 @@
                             "RESEARCH.md",
                             "TUNING_DOCTRINE.md"
                         ],
-        "readmeExcerpt":  "/target \ndata/tuning/ \n*_latest.csv",
+        "readmeExcerpt":  "# epiphany-graph-rs \nHybrid graph layout for DAGs that still want to breathe. \nThis crate treats Sugiyama as a constraint generator instead of a final layout. \nThe Sugiyama pass assigns ranks and same-rank order; the force pass relaxes \nthose constraints with springs, repulsion, collision, and edge direction \npressure. \nThe result is a spectrum: \n- force-dominant for organic structure",
         "earlyCommits":  [
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "2f293a6",
-                                 "subject":  "Deepen structural graph analysis"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "fb23fbd",
-                                 "subject":  "Add realtime 3D layout solver"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "591a5d9",
-                                 "subject":  "Add Barnes-Hut 3D repulsion"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "63aad19",
-                                 "subject":  "Add force approximation accuracy sweeps"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "020897d",
-                                 "subject":  "Add tuning doctrine and preliminary sweep"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "b5af7f0",
-                                 "subject":  "Add local and far-field repulsion tuning knobs"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "50d4062",
-                                 "subject":  "Add structured force organs and battleground"
-                             },
-                             {
-                                 "date":  "2026-05-07",
-                                 "sha":  "a6f0ca6",
-                                 "subject":  "Add layout structure quality metrics"
-                             }
+
                          ],
         "recentCommits":  [
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "a6f0ca6",
-                                  "subject":  "Add layout structure quality metrics"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "50d4062",
-                                  "subject":  "Add structured force organs and battleground"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "b5af7f0",
-                                  "subject":  "Add local and far-field repulsion tuning knobs"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "020897d",
-                                  "subject":  "Add tuning doctrine and preliminary sweep"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "63aad19",
-                                  "subject":  "Add force approximation accuracy sweeps"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "591a5d9",
-                                  "subject":  "Add Barnes-Hut 3D repulsion"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "fb23fbd",
-                                  "subject":  "Add realtime 3D layout solver"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "2f293a6",
-                                  "subject":  "Deepen structural graph analysis"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "67924e5",
-                                  "subject":  "Add structural graph analysis and fold groups"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "4d1f2fc",
-                                  "subject":  "Add hybrid 3D layout"
-                              },
-                              {
-                                  "date":  "2026-05-07",
-                                  "sha":  "ff7e87b",
-                                  "subject":  "Initial hybrid graph layout crate"
-                              }
+
                           ],
         "recentWaveCommits":  [
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "a6f0ca6",
-                                      "subject":  "Add layout structure quality metrics"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "50d4062",
-                                      "subject":  "Add structured force organs and battleground"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "b5af7f0",
-                                      "subject":  "Add local and far-field repulsion tuning knobs"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "020897d",
-                                      "subject":  "Add tuning doctrine and preliminary sweep"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "63aad19",
-                                      "subject":  "Add force approximation accuracy sweeps"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "591a5d9",
-                                      "subject":  "Add Barnes-Hut 3D repulsion"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "fb23fbd",
-                                      "subject":  "Add realtime 3D layout solver"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "2f293a6",
-                                      "subject":  "Deepen structural graph analysis"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "67924e5",
-                                      "subject":  "Add structural graph analysis and fold groups"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "4d1f2fc",
-                                      "subject":  "Add hybrid 3D layout"
-                                  },
-                                  {
-                                      "date":  "2026-05-07",
-                                      "sha":  "ff7e87b",
-                                      "subject":  "Initial hybrid graph layout crate"
-                                  }
+
+                              ]
+    },
+    {
+        "name":  "gamecult-grav",
+        "fullName":  "GameCult/gamecult-grav",
+        "description":  "Our Grav website contents",
+        "language":  "SCSS",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/gamecult-grav",
+        "createdAt":  "2020-08-09T01:28:09Z",
+        "pushedAt":  "2026-04-20T00:14:47Z",
+        "defaultBranch":  "master",
+        "stargazers":  1,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\gamecult-grav",
+        "rootEntries":  [
+                            "config",
+                            "pages",
+                            "themes",
+                            "LICENSE",
+                            "README.md"
+                        ],
+        "readmeExcerpt":  "# gamecult-grav \nOur Grav website contents",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "GameCult-Quartz",
+        "fullName":  "GameCult/GameCult-Quartz",
+        "description":  "Styling, components and infrastructure shared between GameCult static websites",
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/GameCult-Quartz",
+        "createdAt":  "2026-05-01T10:27:41Z",
+        "pushedAt":  "2026-05-01T16:01:04Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\GameCult-Quartz",
+        "rootEntries":  [
+                            ".github",
+                            "node_modules",
+                            "quartz",
+                            "scripts",
+                            ".gitattributes",
+                            ".gitignore",
+                            ".node-version",
+                            ".npmrc",
+                            ".prettierignore",
+                            ".prettierrc",
+                            "AGENTS.md",
+                            "CODE_OF_CONDUCT.md",
+                            "Dockerfile",
+                            "globals.d.ts",
+                            "index.d.ts"
+                        ],
+        "readmeExcerpt":  "# GameCult-Quartz \nShared Quartz engine, reusable GitHub Pages workflow, and the minimum amount of ceremony needed to keep `gamecult-site` and `AetheriaLore` from turning into two copy-pasted maintenance problems with different logos. \n## What Lives Here \n- Shared Quartz source, dependencies, and build tooling \n- `scripts/build-site.mjs` for staging a site repo against the shared engine \n- Reusable Pages workflow at `.github/workflows/quartz-pages.yml` \n- Generic defaults only \nSite-specific content, mastheads, sidebars, render hooks, and custom chrome stay in the consumer repos as overlays.",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "gamecult-site",
+        "fullName":  "GameCult/gamecult-site",
+        "description":  "Quartz Site for GameCult.org",
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/gamecult-site",
+        "createdAt":  "2026-04-21T01:44:13Z",
+        "pushedAt":  "2026-05-07T04:39:11Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\gamecult-site",
+        "rootEntries":  [
+                            ".github",
+                            ".npm-cache",
+                            ".quartz-build",
+                            ".tools",
+                            "docs",
+                            "GameCult",
+                            "quartz-site",
+                            "scripts",
+                            "site",
+                            ".gitattributes",
+                            ".gitignore",
+                            "AGENTS.md",
+                            "README.md",
+                            "tmp-org-repos.json"
+                        ],
+        "readmeExcerpt":  "# GameCult Site \n`gamecult-site` is the public `gamecult.org` root site: studio pitch, projects, docs, blog, and the usual pile of ambitions trying to look organized in public. \nThe site now builds against the shared `GameCult-Quartz` engine instead of vendoring its own Quartz fork. That means this repo mostly owns content plus a site overlay, not an entire second copy of the machinery. \n## Repo Shape \n- `GameCult/`: published Markdown content \n- `site/`: GameCult-specific Quartz overlay \n  - `quartz.config.ts` \n  - `quartz.layout.ts`",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "GCLP",
+        "fullName":  "GameCult/GCLP",
+        "description":  "GameCult Labor Platform",
+        "language":  null,
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/GCLP",
+        "createdAt":  "2020-10-02T13:02:19Z",
+        "pushedAt":  "2020-10-05T16:03:33Z",
+        "defaultBranch":  "main",
+        "stargazers":  1,
+        "forks":  0,
+        "localPath":  null,
+        "rootEntries":  null,
+        "readmeExcerpt":  null,
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "geometry-script",
+        "fullName":  "GameCult/geometry-script",
+        "description":  "A scripting API for Blender\u0027s Geometry Nodes",
+        "language":  null,
+        "fork":  true,
+        "sourceUrl":  "https://github.com/GameCult/geometry-script",
+        "createdAt":  "2026-05-04T13:10:58Z",
+        "pushedAt":  "2026-05-04T19:04:56Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  null,
+        "rootEntries":  null,
+        "readmeExcerpt":  null,
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "Ghostlight",
+        "fullName":  "GameCult/Ghostlight",
+        "description":  "Social AI agents designed to mimic human psychology instead of sycophantic chatbots",
+        "language":  "Python",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/Ghostlight",
+        "createdAt":  "2026-05-01T17:28:28Z",
+        "pushedAt":  "2026-05-06T13:34:00Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\Ghostlight",
+        "rootEntries":  [
+                            "docs",
+                            "examples",
+                            "experiments",
+                            "node_modules",
+                            "notes",
+                            "prompts",
+                            "schemas",
+                            "scripts",
+                            "state",
+                            "tools",
+                            "vendor",
+                            ".gitignore",
+                            ".gitmodules",
+                            "AGENTS.md",
+                            "package-lock.json"
+                        ],
+        "readmeExcerpt":  "# Ghostlight \nGhostlight is a research and implementation home for socially persistent \ngenerative agents. \nThe project is about characters and simulated people who remain coherent across \ntime, routine, pressure, memory, culture, misreading, masks, incentives, and \nchanging relationships. The aim is not to make a language model sound charming \nfor one scene. The aim is to build machinery that can track who someone is, \nwhat they believe, what they hide, how they see other people, how they live when",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "Heimdall",
+        "fullName":  "GameCult/Heimdall",
+        "description":  "Shared identity authority service for GameCult\u0027s Yggdrasil",
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/Heimdall",
+        "createdAt":  "2026-04-26T10:45:45Z",
+        "pushedAt":  "2026-04-29T16:25:27Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\Heimdall",
+        "rootEntries":  [
+                            "dist",
+                            "docs",
+                            "node_modules",
+                            "notes",
+                            "secrets",
+                            "src",
+                            "state",
+                            "tests",
+                            "tools",
+                            ".env.example",
+                            ".gitignore",
+                            "AGENTS.md",
+                            "package.json",
+                            "pnpm-lock.yaml",
+                            "README.md"
+                        ],
+        "readmeExcerpt":  "# Heimdall \nHeimdall is the shared auth authority taking shape for GameCult-hosted \nexperiments. \nThe point is painfully simple: \n- stop rebuilding Discord/Patreon login glue in every app \n- keep provider OAuth, linked identities, grants, entitlements, and session \n  issuance in one place \n- let app runtimes verify signed claims locally so \"shared auth\" does not",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "repixelizer",
+        "fullName":  "GameCult/repixelizer",
+        "description":  "Takes pixel art that only looks pixelated and tries to make it stop lying.",
+        "language":  "Python",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/repixelizer",
+        "createdAt":  "2026-04-21T20:54:51Z",
+        "pushedAt":  "2026-05-01T15:15:30Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\repixelizer",
+        "rootEntries":  [
+                            ".pytest_cache",
+                            ".venv",
+                            "artifacts",
+                            "config",
+                            "docs",
+                            "examples",
+                            "frontend",
+                            "notes",
+                            "scripts",
+                            "src",
+                            "state",
+                            "tests",
+                            "tools",
+                            ".gitignore",
+                            "AGENTS.md"
+                        ],
+        "readmeExcerpt":  "# Repixelizer \nRepixelizer is a Python tool for images that are doing a pixel art impression instead of actually respecting the grid. \nIt is aimed at the annoying middle ground: sprites, emblems, and logos that \nlook locally pixelated but fall apart the second you ask them to commit to one \nlattice like grown-ups. \nRepixelizer treats fake pixel art as lattice inference plus `phase-field` \nreconstruction: infer the ruler, preview the edges, let every output cell \nsearch a tiny local window for quieter paint, relax the whole sheet back into a",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "stride",
+        "fullName":  "GameCult/stride",
+        "description":  "Stride Game Engine (formerly Xenko)",
+        "language":  null,
+        "fork":  true,
+        "sourceUrl":  "https://github.com/GameCult/stride",
+        "createdAt":  "2021-06-15T17:47:09Z",
+        "pushedAt":  "2021-06-15T12:29:04Z",
+        "defaultBranch":  "master",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  null,
+        "rootEntries":  null,
+        "readmeExcerpt":  null,
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "VibeGeometry",
+        "fullName":  "GameCult/VibeGeometry",
+        "description":  "Research repo for agent-authored Blender geometry-node scene generation.",
+        "language":  "Python",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/VibeGeometry",
+        "createdAt":  "2026-05-04T13:10:46Z",
+        "pushedAt":  "2026-05-07T03:32:12Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\VibeGeometry",
+        "rootEntries":  [
+                            "crates",
+                            "docs",
+                            "examples",
+                            "experiments",
+                            "external",
+                            "notes",
+                            "patches",
+                            "prompts",
+                            "schemas",
+                            "scripts",
+                            "state",
+                            "target",
+                            "tools",
+                            "vibegeometry",
+                            ".gitignore"
+                        ],
+        "readmeExcerpt":  "# VibeGeometry \nVibeGeometry is a research and implementation home for agent-authored Blender \nscene generation. \nThe project exists to build a pipeline where Codex, or any other sufficiently \nuseful local agent, can take reference images and visual instructions, plan a \nprocedural geometry strategy, generate Blender Python scripts, construct \ncomplex geometry-node graphs, render the result, and revise from evidence \ninstead of shrugging confidently at a pile of decorative node spaghetti.",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
+                              ]
+    },
+    {
+        "name":  "VoidBot",
+        "fullName":  "GameCult/VoidBot",
+        "description":  "Discord-native assistant for GameCult",
+        "language":  "TypeScript",
+        "fork":  false,
+        "sourceUrl":  "https://github.com/GameCult/VoidBot",
+        "createdAt":  "2026-04-24T12:04:23Z",
+        "pushedAt":  "2026-05-06T12:22:22Z",
+        "defaultBranch":  "main",
+        "stargazers":  0,
+        "forks":  0,
+        "localPath":  "E:\\Projects\\VoidBot",
+        "rootEntries":  [
+                            ".codex",
+                            ".voidbot",
+                            "apps",
+                            "config",
+                            "docs",
+                            "infra",
+                            "node_modules",
+                            "notes",
+                            "packages",
+                            "scripts",
+                            "state",
+                            "styles",
+                            "tools",
+                            "vendor",
+                            ".env"
+                        ],
+        "readmeExcerpt":  "# VoidBot \n`TypeScript workspace` 路 `Discord bot` 路 `Codex MCP` 路 `Qdrant` 路 `Ollama` \nVoidBot is a Discord-native assistant for GameCult. \nIt can answer from archived Discord history, indexed GameCult repos, and Aetheria lore, then hand deeper work off to Codex when Discord stops being a sane place to do it. The current build already supports real Discord replies, semantic retrieval, source and lore indexing, and Codex handoff flows. \n## What VoidBot Can Do \n- answer owner questions through a Discord-safe `codex exec` lane \n- use real MCP tools for archived Discord history, repo search, lore lookup, and owner notifications \n- keep an explicit per-speaker interaction memory for direct conversations and ambient mentions of Void",
+        "earlyCommits":  [
+
+                         ],
+        "recentCommits":  [
+
+                          ],
+        "recentWaveCommits":  [
+
                               ]
     }
 ]

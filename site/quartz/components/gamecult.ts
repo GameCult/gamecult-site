@@ -29,6 +29,10 @@ export type GameCultPageContext = {
   sidebar?: GameCultSidebarData
 }
 
+type GameCultBlogPost = QuartzPluginData & {
+  slug: FullSlug
+}
+
 type FrontmatterSidebarLink = {
   label?: unknown
   slug?: unknown
@@ -406,6 +410,86 @@ function extractFrontmatterOverviewGroups(file: QuartzPluginData): GameCultSideb
   return groups.length > 0 ? groups : undefined
 }
 
+function blogDateValue(file: QuartzPluginData) {
+  return file.dates?.published ?? file.dates?.created ?? file.dates?.modified
+}
+
+export function getGameCultAuthorLabel(file: QuartzPluginData) {
+  const author = file.frontmatter?.author
+  if (typeof author === "string" && author.trim().length > 0) {
+    return author.trim()
+  }
+
+  const authors = file.frontmatter?.authors
+  if (Array.isArray(authors)) {
+    const names = authors
+      .filter((entry): entry is string => typeof entry === "string" && entry.trim().length > 0)
+      .map((entry) => entry.trim())
+
+    if (names.length > 0) {
+      return names.join(", ")
+    }
+  }
+
+  return "GameCult"
+}
+
+export function collectGameCultBlogPosts(allFiles: QuartzPluginData[]): GameCultBlogPost[] {
+  return allFiles
+    .filter(
+      (file): file is GameCultBlogPost =>
+        typeof file.slug === "string" &&
+        file.slug.startsWith("Blog/") &&
+        file.slug !== "Blog/index" &&
+        !!file.frontmatter?.title,
+    )
+    .sort((a, b) => {
+      const aDate = blogDateValue(a)
+      const bDate = blogDateValue(b)
+
+      if (aDate && bDate) {
+        return bDate.getTime() - aDate.getTime()
+      }
+
+      if (aDate && !bDate) {
+        return -1
+      }
+
+      if (!aDate && bDate) {
+        return 1
+      }
+
+      return (a.frontmatter?.title ?? "").localeCompare(b.frontmatter?.title ?? "")
+    })
+}
+
+function buildBlogSidebarData(file: QuartzPluginData, allFiles: QuartzPluginData[]): GameCultSidebarData {
+  const posts = collectGameCultBlogPosts(allFiles)
+  const groupsByYear = new Map<string, GameCultSidebarLink[]>()
+
+  for (const post of posts) {
+    const date = blogDateValue(post)
+    const year = date ? date.getUTCFullYear().toString() : "Undated"
+    const existing = groupsByYear.get(year) ?? []
+    existing.push({
+      label: post.frontmatter?.title ?? post.slug,
+      slug: post.slug,
+    })
+    groupsByYear.set(year, existing)
+  }
+
+  return {
+    title: file.frontmatter?.title ?? "Blog",
+    slug: file.slug as FullSlug,
+    tagline: "Recent notes, fiction, experiments, and other escaped materials.",
+    summary: `${posts.length} public posts, newest trouble first.`,
+    groups: [...groupsByYear.entries()].map(([title, links]) => ({
+      title,
+      links,
+    })),
+  }
+}
+
 function overviewCandidates(currentSlug: FullSlug, includeCurrent = true) {
   if (currentSlug === "index") {
     return includeCurrent ? (["index"] as FullSlug[]) : []
@@ -488,7 +572,11 @@ export function buildGameCultPageContext(
   }
 
   const overviewNote = findSidebarOverviewNote(currentFile.slug, allFiles)
-  const sidebar = overviewNote ? extractOverviewData(overviewNote) : undefined
+  const sidebar = overviewNote
+    ? overviewNote.slug === ("Blog/index" as FullSlug)
+      ? buildBlogSidebarData(overviewNote, allFiles)
+      : extractOverviewData(overviewNote)
+    : undefined
 
   return {
     headerTagline: currentTaglineText ?? sidebar?.tagline,

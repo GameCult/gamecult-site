@@ -2,6 +2,7 @@
 title: Daily Damage Report
 description: "A rolling day-by-day chronicle of what moved across the GameCult repo swarm, which projects woke up, and what kind of trouble they got into."
 socialDeck: "What moved, what mutated, and which repo woke up swinging."
+date: 2026-05-07
 ---
 
 # Daily Damage Report

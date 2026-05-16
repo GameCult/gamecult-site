@@ -1,6 +1,7 @@
 ---
 title: When We Get Home
 description: "Two colonists keep promising they'll go home once the work is done, then slowly discover Elysium is becoming home in the meantime."
+author: Emily Harvey
 date: 2020-12-14
 tags:
   - aetheria

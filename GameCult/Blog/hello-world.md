@@ -1,6 +1,7 @@
 ---
 title: Hello, World!
 description: "An introduction to GameCult's studio model: open development, public machinery, strange games, and the stubborn idea that contributors should matter."
+date: 2022-07-01
 ---
 
 # Welcome, GameCult Initiates

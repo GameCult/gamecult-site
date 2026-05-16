@@ -1,5 +1,6 @@
 ---
 title: Cat and the Chocolate Factory
+description: "A text adventure where Cat gets dragooned into a factory rescue mission full of candy, danger, and profoundly suspicious engineering."
 date: 2022-07-01
 ---
 

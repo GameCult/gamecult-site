@@ -13,6 +13,7 @@ import {
 } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import FolderContent from "./pages/FolderContent"
+import GameCultBlogFolder from "./GameCultBlogFolder"
 import { resolveGameCultReferenceSlug, resolveGameCultSourceFile, stripTopTagline } from "./gamecult"
 
 interface Options {
@@ -169,6 +170,7 @@ function getCompositeSections(
 export default ((opts?: Partial<Options>) => {
   const options: Options = { ...defaultOptions, ...opts }
   const DefaultFolderContent = FolderContent()
+  const BlogFolderContent = GameCultBlogFolder()
 
   const GameCultCompositeContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, tree, allFiles } = props
@@ -196,6 +198,10 @@ export default ((opts?: Partial<Options>) => {
     const articleClass = ["popover-hint", ...classes].join(" ")
     const sections = renderSlug ? getCompositeSections(renderSlug, sourceFile, allFiles) : []
     const showCompositeJump = sourceFile.frontmatter?.showCompositeJump !== false
+
+    if (options.fallback === "folder" && renderSlug === ("Blog/index" as FullSlug)) {
+      return <BlogFolderContent {...props} />
+    }
 
     if (sections.length === 0) {
       if (options.fallback === "folder") {

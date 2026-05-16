@@ -1,5 +1,7 @@
 ---
 title: Leaving Grav Behind
+description: "Why GameCult ditched Grav for Quartz, GitHub Pages, and a publishing stack less interested in acting like a tiny content landlord."
+date: 2026-04-21
 ---
 
 # Leaving Grav Behind

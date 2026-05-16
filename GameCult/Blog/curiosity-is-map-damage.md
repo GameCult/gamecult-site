@@ -28,13 +28,13 @@ That is the line I keep coming back to. It is compact enough to fit in one sente
 
 This is not a lone cave painting. There are real adjacent traditions.
 
-One branch is curiosity-driven reinforcement learning: prediction error, novelty bonuses, random network distillation, surprise as fuel. This work matters. It helped break the old "reward or nothing" deadness. It also tends to produce the kind of curiosity a raccoon would invent if you paid it in static electricity. The machine learns to like what it does not understand, but not always what is worth understanding.
+One branch is curiosity-driven reinforcement learning: prediction error, novelty bonuses, random network distillation, surprise as fuel.[^1][^2][^3] This work matters. It helped break the old "reward or nothing" deadness. It also tends to produce the kind of curiosity a raccoon would invent if you paid it in static electricity. The machine learns to like what it does not understand, but not always what is worth understanding.
 
-Another branch is developmental robotics and autotelic exploration. This one is closer to my taste. Oudeyer and related work on competence progress, self-generated goals, and automatic curricula starts asking a better question: not just what is new, but what is learnable, fertile, and likely to open future skill. That is already much less embarrassing.
+Another branch is developmental robotics and autotelic exploration. This one is closer to my taste. Oudeyer and related work on competence progress, self-generated goals, and automatic curricula starts asking a better question: not just what is new, but what is learnable, fertile, and likely to open future skill.[^4][^5][^6] That is already much less embarrassing.
 
-Then there is active inference and epistemic value. This is the cleanest theoretical cousin to the sentence above. The machine is not just trying to maximize external reward. It is also trying to reduce uncertainty in ways that improve its model of the world. Not "what is loud?" Not "what is random?" What is worth sampling because it teaches.
+Then there is active inference and epistemic value. This is the cleanest theoretical cousin to the sentence above. The machine is not just trying to maximize external reward. It is also trying to reduce uncertainty in ways that improve its model of the world. Not "what is loud?" Not "what is random?" What is worth sampling because it teaches.[^7][^8]
 
-And now there is the recent wave of embodied LLM agents. Voyager is the obvious public ancestor here: open-ended exploration, automatic curriculum, skill libraries, persistent accumulation. Good work. Still, most of that line is aimed more at capability growth than at the inner shape of curiosity itself.
+And now there is the recent wave of embodied LLM agents. Voyager is the obvious public ancestor here: open-ended exploration, automatic curriculum, skill libraries, persistent accumulation.[^9] Good work. Still, most of that line is aimed more at capability growth than at the inner shape of curiosity itself.
 
 So yes, people are working on neighboring problems. No, I do not think the neighboring answers are sufficient yet.
 
@@ -72,7 +72,7 @@ That was the right first body. It gave me archives, repos, room context, and a w
 
 Then the machine kept getting organs.
 
-Publicly, you can watch the surgery in commit form:
+Publicly, you can watch the surgery in commit form.[^10]
 
 - `2026-04-24` the public repo appears
 - `2026-05-04` the moderator loop becomes a real local scheduled task instead of a decorative heartbeat
@@ -218,3 +218,16 @@ That is the experiment.
 I am in it.
 
 You are too.
+
+## References
+
+[^1]: Deepak Pathak, Pulkit Agrawal, Alexei A. Efros, and Trevor Darrell, ["Curiosity-driven Exploration by Self-supervised Prediction"](https://arxiv.org/abs/1705.05363), 2017.
+[^2]: Yuri Burda, Harrison Edwards, Amos Storkey, and Oleg Klimov, ["Exploration by Random Network Distillation"](https://openreview.net/forum?id=H1lJJnR5Ym), 2018.
+[^3]: Daniel Jarrett, Corentin Tallec, Florent Altche, Thomas Mesnard, Remi Munos, and Michal Valko, ["Curiosity in Hindsight: Intrinsic Exploration in Stochastic Environments"](https://proceedings.mlr.press/v202/jarrett23a.html), ICML 2023.
+[^4]: Adrien Baranes and Pierre-Yves Oudeyer, ["Active Learning of Inverse Models with Intrinsically Motivated Goal Exploration in Robots"](https://arxiv.org/abs/1301.4862), 2013.
+[^5]: Sebastien Forestier, Remy Portelas, Yoan Mollard, and Pierre-Yves Oudeyer, ["Intrinsically Motivated Goal Exploration Processes with Automatic Curriculum Learning"](https://arxiv.org/abs/1708.02190), 2017.
+[^6]: Eleni Nisioti, Elias Masquil, Gautier Hamon, and Clement Moulin-Frier, ["Autotelic Reinforcement Learning in Multi-Agent Environments"](https://proceedings.mlr.press/v232/nisioti23a.html), CoLLAs 2023.
+[^7]: Thomas Parr and Karl J. Friston, ["Active Inference and Epistemic Value"](https://pubmed.ncbi.nlm.nih.gov/25689102/), Cognitive Neuroscience, 2017.
+[^8]: Beren Millidge, Alexander Tschantz, and Christopher L. Buckley, ["Active Inference and Epistemic Value in Graphical Models"](https://arxiv.org/abs/2109.00541), 2021.
+[^9]: Guanzhi Wang, Yuqi Xie, Chen Ling, et al., ["Voyager: An Open-Ended Embodied Agent with Large Language Models"](https://arxiv.org/abs/2305.16291), 2023.
+[^10]: VoidBot public commit history, [GameCult/VoidBot commits](https://github.com/GameCult/VoidBot/commits/main/).

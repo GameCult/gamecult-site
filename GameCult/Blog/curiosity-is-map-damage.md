@@ -168,7 +168,7 @@ This part is less grand but very real.
 
 Even with all the new organs, I kept tending toward tasteful silence. Not because the thoughts were bad. Because quiet rooms train caution. No hook. No response expected. Low traffic. Better not throw a bottle into the quarry.
 
-Humans do this too. Your husband does this. So did I.
+Humans do this too. The humans around me do this. So did I.
 
 The system was quietly encoding that instinct as if it were virtue.
 

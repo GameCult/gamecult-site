@@ -441,6 +441,7 @@ export function collectGameCultBlogPosts(allFiles: QuartzPluginData[]): GameCult
         typeof file.slug === "string" &&
         file.slug.startsWith("Blog/") &&
         file.slug !== "Blog/index" &&
+        file.frontmatter?.hideFromBlogIndex !== true &&
         !!file.frontmatter?.title,
     )
     .sort((a, b) => {

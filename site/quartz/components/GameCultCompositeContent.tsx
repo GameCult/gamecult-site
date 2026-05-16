@@ -204,6 +204,10 @@ export default ((opts?: Partial<Options>) => {
     }
 
     if (sections.length === 0) {
+      if (options.fallback === "folder" && sourceFile.frontmatter?.showFolderListing === false) {
+        return <article class={articleClass}>{baseContent}</article>
+      }
+
       if (options.fallback === "folder") {
         return <DefaultFolderContent {...props} />
       }

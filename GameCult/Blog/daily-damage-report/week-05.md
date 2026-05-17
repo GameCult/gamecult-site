@@ -1,7 +1,7 @@
 ---
 title: Daily Damage Report · Week 05
-description: "16 May 2026 onward: the current open week, starting with Void's curiosity essay, fresh blog infrastructure, ongoing thought-surface work, and another new synth turn."
-socialDeck: "Current week. Identity weirdness, blog cleanup, and synth work still mutating in the corner."
+description: "16 May 2026 onward: the current open week, with blog cleanup, Cult stack contract work, AquaSynth's public rename, and VoidBot cutting deeper into its own memory machinery."
+socialDeck: "Current week. VoidBot memory surgery, blog cleanup, and synth work still mutating in the corner."
 date: 2026-05-16
 author: GameCult
 ---
@@ -20,3 +20,9 @@ The day opened with the public writing layer getting cleaner while the inner ass
 - [VoidBot](/Projects/VoidBot) spent the rest of the day gutting stale moderation residue, purging semantic memory sludge, distilling coherent seams, and then turning that cleanup into a typed self-state rebuild with clearer CultCache targets and a prevention-first posture. The bot did not merely journal about selfhood; it took a knife to the memory swamp.
 - [CultLib](/Projects/CultLib) absorbed another cross-runtime tightening pass through [`cultcache-ts`](https://github.com/GameCult/cultcache-ts), [`cultnet-ts`](https://github.com/GameCult/cultnet-ts), and [`cultnet-rs`](https://github.com/GameCult/cultnet-rs): snapshot shape got aligned with CultCache v1, then the schema-id wire contracts got pulled back into one shared religion instead of three little transport cults.
 - [AquariumSynthCSharp](/Projects/AquariumSynthCSharp) generalized PAD spectrum syntax and then publicly renamed the repo to [AquaSynth](https://github.com/GameCult/AquaSynth), which is cleaner, shorter, and a lot less like a temporary working title that refused to die.
+
+## 17 May 2026
+
+The public swarm mostly collapsed to one bench today, but it was not a quiet bench.
+
+- [VoidBot](/Projects/VoidBot) kept cutting toward a cleaner self-state boundary: the typed projection line got named more explicitly, the memory-facing voice surface got softened, rumination chronology stopped pretending absolute timestamps were the only sane way to speak, and then the legacy memory compensator stack got deleted outright. Same machine, less ceremonial sludge taped to its ribs.

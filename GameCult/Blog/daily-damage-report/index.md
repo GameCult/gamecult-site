@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 05 · 16 May 2026 onward](/Blog/daily-damage-report/week-05)  
-  The current open week: VoidBot artifact rumination, Hugin graph surfacing, Epiphany bridge surgery, Zyphos going public, and Aquarium machinery mutating in plain view.
+  The current open week: VoidBot artifact rumination, Hugin graph surfacing, Epiphany memory-graph wiring, Zyphos going public, and Aquarium machinery mutating in plain view.
 
 ## Archive
 

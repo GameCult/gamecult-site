@@ -25,6 +25,9 @@ sidebarGroups:
       - label: Aetheria
         href: https://aetheria.gamecult.org
         external: true
+      - label: Zyphos
+        href: https://zyphos.gamecult.org
+        external: true
       - label: CultPong
         slug: Projects/CultPong
   - title: Writing

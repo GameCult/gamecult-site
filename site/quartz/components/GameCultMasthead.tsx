@@ -108,6 +108,12 @@ const routes: Route[] = [
     matches: ["Aetheria"],
     external: true,
   },
+  {
+    label: "Zyphos",
+    href: "https://zyphos.gamecult.org",
+    matches: ["Zyphos"],
+    external: true,
+  },
 ]
 
 const externalLinks: ExternalLink[] = [

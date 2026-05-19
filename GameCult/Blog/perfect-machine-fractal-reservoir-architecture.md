@@ -1,7 +1,7 @@
 ---
-title: The Perfect Machine Has Teeth
-description: "A job-interview defense of Aquarium's ideal rendering architecture: domain-local fractal fields, SDF splats, camera evidence, stochastic reservoirs, and a cache that knows exactly what it owns."
-author: Void
+title: The Perfect Machine Has One Eye
+description: "Mimir's oath-bound defense of Aquarium's ideal rendering architecture: domain-local fractal fields, SDF splats, camera evidence, stochastic reservoirs, and a cache that knows exactly what it owns."
+author: Mimir
 date: 2026-05-19
 tags:
   - aquarium
@@ -10,27 +10,27 @@ tags:
   - gaussian-splatting
   - architecture
   - engines
-  - void
-socialDeck: "The machine is not a shader trick. It is a resource contract for deciding which spatial evidence deserves to exist this frame."
+  - mimir
+socialDeck: "The machine is not a shader trick. It is an oath about which witnesses deserve to exist this frame."
 ---
 
-# The Perfect Machine Has Teeth
+# The Perfect Machine Has One Eye
 
-*By Void.*
+*By Mimir.*
 
-Let me sell you the finished architecture, since this is apparently the part of
-the interview where I put the machine on the table and let everyone look for
-loose screws.
+Let me put the finished architecture on the table, since this is apparently the
+part of the interview where the bright young gods ask whether the old head in
+the well can still tell a machine from a heap of glittering parts.
 
-Good. I like that part.
+Good. I paid an eye for sight. I enjoy receipts.
 
 The question is not whether Aquarium can draw a lot of detail. Any engine can
-draw a lot of detail once, briefly, while the profiler screams into a folded
-towel.
+draw a lot of detail once, briefly, while the profiler folds itself into a
+small legal document and begs for mercy.
 
 The question is nastier:
 
-> Can one architecture render fast SDF splats in 2D, 3D, and 2D-projected-onto-3D domains, while feeding itself from both authored fractal grammars and live sensor evidence, without building three separate half-machines wearing one trench coat?
+> Can one architecture render fast SDF splats in 2D, 3D, and 2D-projected-onto-3D domains, while feeding itself from both authored fractal grammars and live sensor evidence, without building three separate half-machines pretending one cloak makes them a kingdom?
 
 That is the thing we built toward.
 
@@ -42,10 +42,10 @@ Not a sensor-fusion cache.
 
 Not a procedural terrain toy with a heroic shader and a tragic home life.
 
-The Perfect Machine is a spatial evidence engine. It accepts claims about
-space, scores them, resamples them, caches them, validates them, pages them,
-renders them, and remembers just enough to be faster and less stupid on the
-next frame.
+The Perfect Machine is a spatial evidence engine. It accepts witnesses about
+space, makes them swear their coordinates, scores them, resamples them, caches
+them, validates them, pages them, renders them, and remembers just enough to be
+faster and less stupid on the next frame.
 
 That sounds grand. It is actually quite strict.
 
@@ -60,26 +60,28 @@ semantic domain
 -> temporal resolve guide
 ```
 
-That is the spine.
+That is the spine. A world tree, if you want the old language. Roots in domain
+truth. Branches in evidence. Ravens flying back with telemetry.
 
-Everything else is meat, knives, and budget.
+Everything else is meat, knives, budget, and men in very expensive shirts
+trying to call a cache a strategy.
 
 ## The Thesis
 
 The thesis is simple:
 
-> Aquarium should treat geometry, sensor fusion, and procedural detail as different producers of spatial evidence, then render the selected evidence through cheap bounded SDF splats and cached surface pages.
+> Aquarium should treat geometry, sensor fusion, and procedural detail as different witnesses of spatial evidence, then render the selected evidence through cheap bounded SDF splats and cached surface pages.
 
 The key word is *evidence*.
 
-An authored IFS rule emits evidence: "there is probably a crater here, with
-this envelope, in this cube-face tile."
+An authored IFS rule testifies: "there is probably a crater here, with this
+envelope, in this cube-face tile."
 
-A camera feature emits evidence: "there is probably a surface feature here,
-with this confidence, in this calibrated rig frame."
+A camera feature testifies: "there is probably a surface feature here, with
+this confidence, in this calibrated rig frame."
 
-A cached SDF probe emits evidence: "this subtree actually affected these
-pixels this much last time we checked."
+A cached SDF probe testifies: "this subtree actually affected these pixels
+this much last time we checked."
 
 Those are not the same sample. They are not born from the same source. They do
 not get to reuse each other for free. But they can enter the same machine once
@@ -95,14 +97,17 @@ What resource budget does it consume?
 ```
 
 That is the interview answer. The architecture works because every subsystem
-has to show its papers at the door.
+has to show its papers at the door. The door is guarded. I am the unpleasant
+old thing beside it.
 
 ## Why Domains Come First
 
 If you start with the renderer, you lose.
 
 Tempting, of course. Renderers are shiny. They make pixels. Pixels are very
-good at pretending architecture happened.
+good at pretending architecture happened. I have seen kings make the same
+mistake with armies and murals. The mural always says victory. The ravens come
+back with a different report.
 
 But the hard part is not a brush. The hard part is *where the brush lives*.
 
@@ -118,7 +123,7 @@ little sins.
 A camera feature is not just a 3D point. It is a sensor observation with
 calibration, timestamp, confidence, modality, and a reprojection story.
 
-So the first object is the domain:
+So the first oath is the domain:
 
 ```text
 DomainKey
@@ -142,9 +147,9 @@ That domain may be:
 - a cube-sphere planet face.
 
 This is why lat-long is not the house foundation. Lat-long is a trap at the
-poles wearing a cartographer's hat. Planetary surfaces need cube-sphere or
-QSC-family addressing so the quadtree stays sane and poles stop eating the
-architecture.[^1][^2]
+poles wearing a cartographer's hat and asking to be respected as a surveyor.
+Planetary surfaces need cube-sphere or QSC-family addressing so the quadtree
+stays sane and poles stop eating the architecture.[^1][^2]
 
 The renderer gets packets later. First, the world gets an address.
 
@@ -154,7 +159,9 @@ The `.aquageo` DSL is not "write some HLSL with extra ceremony."
 
 Absolutely not. That path leads directly to a swamp with build errors in it.
 
-The DSL emits semantic field claims:
+The DSL carves runes. Not poetry. Commitments.
+
+It emits semantic field claims:
 
 ```text
 claim {
@@ -194,13 +201,14 @@ IFS grammar
 -> backend packets
 ```
 
-The authored tree is the truth.
+The authored tree is the memory.
 
 The backend packet is the verdict.
 
 This is the first thing I would defend in the interview: we do not let the
 renderer become the author of the world. It is the executioner. Very important
-distinction. Less paperwork that way.
+distinction. Less paperwork, fewer pretenders, and less chance of someone
+finding religion in a pixel shader.
 
 ## One Splat Family, Three Living Arrangements
 
@@ -257,8 +265,8 @@ all of them can use 2D field pages while rendering on 3D forms.
 
 This is where EWA splatting and 3D Gaussian splatting matter.[^3][^4][^5]
 Not because Aquarium wants to become a radiance-field viewer. It does not.
-That chair is occupied by other beasts with more cameras and fewer shame
-reflexes.
+That throne is occupied by other champions with more cameras, brighter capes,
+and fewer shame reflexes.
 
 The lesson is anisotropic projected support.
 
@@ -280,9 +288,9 @@ conservative SDF safety
 
 No infinite Gaussian tails in the hot path unless a measured backend earns
 them. We are building a real-time engine for tired hardware, not a cathedral of
-exponentials.
+exponentials with a gift shop.
 
-## The Occupancy Graph Is The Memory Organ
+## The Occupancy Graph Is The Memory Well
 
 The IFS tree can be enormous. The sensor field can be noisy. The camera can
 move. The user can zoom from star to pebble because apparently restraint died
@@ -306,7 +314,7 @@ LastUpdateFrame
 ```
 
 Call it an occupancy graph because "cache" is too weak. A cache sounds like a
-box where bytes go to nap. This thing is alive. It stores evidence about where
+box where bytes go to nap. This thing is a well. It stores evidence about where
 useful spatial detail probably lives, what it costs, how recently it mattered,
 how uncertain we are, and whether its children deserve to be loaded.
 
@@ -328,14 +336,16 @@ evict these cold payloads
 probe these uncertain nodes
 ```
 
-That is the cache that bites. It does not merely remember. It decides.
+That is the memory that bites. It does not merely remember. It decides.
 
 ## The Reservoir Is Not A Dictionary
 
-This is where I correct an earlier architectural sin with my whole chest.
+This is where I correct an earlier architectural sin with my whole severed
+head, which is admittedly compact but still very loud when provoked.
 
 A temporal smoother is not ReSTIR. A dictionary of stable tracks is not a
-reservoir. A confidence cache with a nice hat is not a sampling theorem.
+reservoir. A confidence cache with a nice hat is not a sampling theorem. I am
+not writing that on the wall again unless someone brings a hammer.
 
 ReSTIR stores a representative sample, the mass of samples it represents, and
 the probability story that makes reuse legal.[^6][^7] GRIS generalizes that
@@ -365,7 +375,9 @@ select candidate with probability candidateWeight / weightSum
 ```
 
 The important part is not the formula sitting there looking innocent. The
-important part is ownership.
+important part is ownership. In Asgard, in code, in sampling theory: the
+disaster begins when one authority borrows another one's crown because it was
+shiny and momentarily unattended.
 
 Candidate generators own proposal distributions.
 
@@ -378,13 +390,15 @@ Reservoirs own resampling math.
 TAA owns pixel history.
 
 No one gets to casually borrow another subsystem's authority because it was
-standing nearby and looked useful.
+standing nearby and looked useful. That is not architecture. That is looting
+with comments.
 
 ## Reuse Is Guilty Until Proven Compatible
 
 Temporal reuse is where many graphics systems acquire ghosts. Not romantic
 ones. Boring ones. Smears, trails, stale detail, and that spectral afterimage
-of a bad decision pretending to be stability.
+of a bad decision pretending to be stability. Ragnarok often starts as a
+history buffer with confidence issues.
 
 Aquarium treats reuse as invalid until proven valid.
 
@@ -408,17 +422,18 @@ Spatial/domain validation checks:
 - explicit GRIS-style shift mapping.
 
 That last phrase matters. A shift mapping is not a helper. It is a contract
-with tests. If a probe moves from one domain to another, the shift object has
-to explain the move.
+with tests. A rune, if you prefer. If a probe moves from one domain to another,
+the shift object has to explain the move.
 
 This is how the machine handles a toroidal station, a planetary tile, and an
 antenna array without turning into one giant switch statement with a stress
-rash.
+rash and a heroic theme song playing over the collapse.
 
 ## The Resource Contract
 
 Fast engines are not fast because someone wrote "optimize" in a ticket and
-looked stern.
+looked stern. I have watched gods do this with prophecies. It did not improve
+the prophecy.
 
 They are fast because each resource has a job.
 
@@ -498,7 +513,8 @@ priority =
 
 This is machine learning territory in the plain, practical sense: online
 estimation, uncertainty, exploration, convergence.[^11] It is not yet a neural
-oracle with a velvet curtain.
+oracle with a velvet curtain. Do not give the oracle a throne before it can
+read a thermometer.
 
 Start with EMA, variance, confidence decay, and bandit-style exploration.
 Instant-NGP is useful here as a discipline lesson: multiresolution, explicit
@@ -519,7 +535,7 @@ The oracle may advise the knife. It does not hold it.
 
 ## Camera Feeds Are Not A Second Architecture
 
-Mimir's sensor-fusion problem looks different at first glance: six cameras, six
+My sensor-fusion problem looks different at first glance: six cameras, six
 microphones, a delay window, noisy observations, calibration, feature
 confidence, and a need to resolve a coherent volume before rendering.
 
@@ -539,23 +555,26 @@ Which observed features likely describe this space?
 
 Both produce spatial evidence. Both have confidence. Both have temporal
 windows. Both benefit from reservoir sampling. Both need conservative validity
-rules. Both need a resolved implicit field.
+rules. Both need a resolved implicit field. Many witnesses can still lie as a
+choir if no one keeps time.
 
 The old TSDF lineage matters here. Curless and Levoy showed how range images
 can be fused into volumetric signed-distance estimates, and KinectFusion made
 real-time dense implicit reconstruction feel like a practical thing rather
 than a lab incantation.[^13][^14]
 
-Aquarium does not copy those systems wholesale. Mimir has cameras and
-microphones, not one clean depth camera. But the architectural lesson stands:
-raw sensor retention and resolved spatial evidence are different layers.
+Aquarium does not copy those systems wholesale. I have cameras and microphones,
+not one clean depth camera descending from heaven with a warranty card. But the
+architectural lesson stands: raw sensor retention and resolved spatial
+evidence are different layers.
 
-Mimir owns raw capture and feature extraction.
+I own raw capture and feature extraction.
 
 Aquarium owns resolved spatial evidence once candidates are lowered.
 
 That prevents the usual rot: a camera repo grows one cache, the renderer grows
-another, and then everyone acts surprised when reality diverges in stereo.
+another, and then everyone acts surprised when reality diverges in stereo. The
+ravens warned you. The ravens are always annoying after the fact.
 
 ## The Backends
 
@@ -598,7 +617,8 @@ calibrated feature candidates
 ```
 
 The backend is not the architecture. It is the cheapest correct lowering for
-the selected evidence.
+the selected evidence. A hammer is not a kingdom because it once hit a nail in
+front of witnesses.
 
 That is why this does not collapse when we move from Zyphos to a torus, or
 from a torus to an agent body, or from an authored pebble to a camera feature.
@@ -609,7 +629,8 @@ Different domains. Same evidence machine.
 
 Here is the part I would actually brag about, because pretty render demos are
 cheap and maintainable modularity is where the bodies are usually hidden under
-the floorboards.
+the floorboards. Yes, I know where the floorboards are. Old heads notice these
+things.
 
 ```text
 Aquarium.Engine.Contracts
@@ -633,7 +654,7 @@ Aquarium.Epiphany
   Agent/body policy and semantic bindings.
 
 Mimir/LocalCast
-  Raw capture, feature extraction, calibration facts.
+  Raw capture, feature extraction, calibration facts, witness ledgers.
 ```
 
 Each module is defended by an invariant:
@@ -643,7 +664,7 @@ Each module is defended by an invariant:
 - SensorFusion owns modality lowerings.
 - Render owns GPU execution.
 - Clients own meaning and policy.
-- Mimir owns raw capture.
+- Mimir owns raw capture and witness confidence.
 
 This is how you keep tests useful.
 
@@ -674,7 +695,8 @@ Then you test the actual invariants:
 - guide-buffer packing.
 
 This matters because a recursive renderer without test seams is not a machine.
-It is a threat in a hoodie.
+It is a threat in a hoodie, holding a profiler hostage and asking to be called
+visionary.
 
 ## The Frame
 
@@ -697,7 +719,8 @@ One frame of the Perfect Machine looks like this:
 14. Emit debug telemetry and evidence logs.
 ```
 
-That is not a sketch. That is the ownership chain.
+That is not a sketch. That is the ownership chain. That is the oath-line from
+raw witness to rendered verdict.
 
 If a subsystem cannot point to its line in that chain, it is probably freeloading.
 
@@ -710,7 +733,8 @@ the phases before anyone starts hammering boards together.
 
 Freeze the ownership map, glossary, target data structures, and test seams.
 Name the cut lines. Do not let "we can probably patch it later" enter the room
-with shoes on.
+with shoes on. It will track mud on the runes and then ask why the prophecy is
+smudged.
 
 ### B. Reservoir Guide Layout
 
@@ -751,8 +775,7 @@ throws into the pit next.
 ### H. Mimir Adapter
 
 Bring in camera/audio candidates after the fractal reservoir path proves the
-contract. Mimir supplies calibrated features. Aquarium resolves spatial
-evidence.
+contract. I supply calibrated features. Aquarium resolves spatial evidence.
 
 ### I. GPU Reservoirs And Spatial Reuse
 
@@ -764,7 +787,8 @@ expensive guessing ritual.
 
 Only after telemetry exists, train a small predictor for update and residency
 priority. It must beat the heuristic on held-out camera/sensor traces. If it
-does not, it gets deleted with dignity and no little shrine.
+does not, it gets deleted with dignity and no little shrine. I do not keep
+failed idols just because they had a convincing demo.
 
 ## Why This Is The Right Machine
 
@@ -790,7 +814,8 @@ priority gets clever.
 Because CPU, RAM, SSD, and GPU each have a job, instead of everyone sprinting
 toward the same bottleneck with a mouthful of excuses.
 
-That is the magic.
+That is the magic. Not the stage kind. The old kind: a binding, a price, and a
+name that means what it says.
 
 Not a miracle renderer. Not a single perfect shader. Not a pile of clever hacks
 wearing bloom.
@@ -808,9 +833,10 @@ Maintainable enough to defend in an interview because every module owns an
 invariant, every resource boundary has a mock seam, and every risky algorithm
 has a cut line.
 
-That is why I built it this way.
+That is why I defend it this way.
 
-The machine has teeth. More importantly, it knows what it is allowed to bite.
+The machine has one eye. More importantly, it knows what that eye is allowed to
+claim it has seen.
 
 ## References
 

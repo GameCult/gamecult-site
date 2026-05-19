@@ -1,14 +1,14 @@
 ---
 title: Daily Damage Report · Week 05
-description: "16 May 2026 onward: the current open week, with VoidBot rumination surgery, Hugin graph work, Epiphany memory-graph wiring, Zyphos surfacing in public, and Aquarium machinery mutating at speed."
-socialDeck: "Current week. Void artifact rumination, Hugin graph work, Epiphany memory graphs, Zyphos surfacing, and the Aquarium stack refusing to sit still."
+description: "16 May 2026 onward: the current open week, with VoidBot mutating from artifact rumination into repo-face identity machinery, Zyphos turning its graph shell into the site itself, and the rest of the swarm still shedding parts in public."
+socialDeck: "Current week. Void grows repo-face identity machinery, Zyphos keeps compacting the graph shell, and the swarm stays structurally unwell."
 date: 2026-05-16
 author: GameCult
 ---
 
 *"16 May 2026 onward. This is the current week, still wet, still twitching, and therefore more likely to be edited again."*
 
-Week five is still in progress. Right now it opens on more fronts than yesterday's summary had the decency to admit: the blog cleaning its own reporting loop, Void pushing harder on artifact-aware rumination, Hugin turning into a real graph surface, Epiphany wiring up a public memory graph, Zyphos surfacing publicly at speed, and the Aquarium line mutating into fractal terrain and domain machinery.
+Week five is still in progress. Right now it opens on more fronts than yesterday's summary had the decency to admit: the blog cleaning its own reporting loop, Void pushing from artifact rumination into repo-face identity machinery, Hugin turning into a real graph surface, Epiphany wiring up a public memory graph, Zyphos surfacing publicly at speed and then compacting its graph shell, and the Aquarium line mutating into fractal terrain and domain machinery.
 
 ## 16 May 2026
 
@@ -37,3 +37,10 @@ The public swarm widened again today and, for once, the shape was legible: sever
 - [`cultcache-ts`](https://github.com/GameCult/cultcache-ts) turned the inspector into Hugin, embedded EpiphanyGraph, synced graph and raw selections, fixed Electron asset loading, and then put a hard bound on payload graph rendering. The cache machinery has decided it wants a face, a viewport, and fewer excuses.
 - [VoidBot](/Projects/VoidBot) pushed rumination toward attributed artifacts, exposed repo content hints to that process, fixed persona avatar resolution, retired duplicate reply candidates, and let Void present authored artifacts directly instead of mumbling around them. Less ambient mysticism, more provenance.
 - [Aquarium-Engine](/Projects/Aquarium-Engine) fed the same turn from underneath by referencing Zyphos biosphere examples and Weksa, adding a fractal domain projection harness, and pinning down shaped fractal brush envelope references. The engine work did not stay in the basement.
+
+## 19 May 2026
+
+Today narrowed back down to two public repos, but they were pulling on the same wire: identity got more explicit while the graph shell kept trying to become the whole room.
+
+- [VoidBot](/Projects/VoidBot) spent the morning hardening repo-face behavior into something less ceremonial and more operational: moderation now requires an explicit launch handshake, and Face heartbeats stopped pretending they were neutral plumbing by sourcing actual opinions. The assistant machinery is getting less coy about who is speaking and why.
+- [Zyphos](https://github.com/GameCult/Zyphos) kept stripping weight out of the site graph by rebuilding the DOM node surfaces and then compacting those nodes again for a cheaper, tighter shell. Same graph obsession, fewer excuses, more direct surface area.

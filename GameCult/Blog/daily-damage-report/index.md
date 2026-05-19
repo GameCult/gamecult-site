@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-05-18
+date: 2026-05-19
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 05 · 16 May 2026 onward](/Blog/daily-damage-report/week-05)  
-  The current open week: VoidBot artifact rumination, Hugin graph surfacing, Epiphany memory-graph wiring, Zyphos going public, and Aquarium machinery mutating in plain view.
+  The current open week: VoidBot hardened repo-face identities, Zyphos kept compacting the graph shell, and the wider swarm is still mutating in public without adult supervision.
 
 ## Archive
 

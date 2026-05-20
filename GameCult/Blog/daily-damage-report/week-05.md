@@ -44,3 +44,13 @@ Today narrowed back down to two public repos, but they were pulling on the same 
 
 - [VoidBot](/Projects/VoidBot) spent the morning hardening repo-face behavior into something less ceremonial and more operational: moderation now requires an explicit launch handshake, and Face heartbeats stopped pretending they were neutral plumbing by sourcing actual opinions. The assistant machinery is getting less coy about who is speaking and why.
 - [Zyphos](https://github.com/GameCult/Zyphos) kept stripping weight out of the site graph by rebuilding the DOM node surfaces and then compacting those nodes again for a cheaper, tighter shell. Same graph obsession, fewer excuses, more direct surface area.
+
+## 20 May 2026
+
+Today the public swarm widened back out. The graph shell did not disappear, but it stopped being the whole story: lore caste economics, renderer authority boundaries, open infra identity machinery, and coordinator surgery all landed in view at once.
+
+- The public GitHub org is now sitting at 30 repositories, and today's visible motion hit four of them instead of hiding in one hyperfixated corner of the machine.
+- [AetheriaLore](https://github.com/GameCult/AetheriaLore) added the residue-crew labor caste and expanded the [Parallax Auditors](https://github.com/GameCult/AetheriaLore/commit/5c3aa3460447c9c6f1fc7e6ae2937c09e8023be4) machinery around contaminated-route work, disputed salvage, and clearance histories that never quite wash clean. The setting keeps finding new ways to turn logistics into class violence.
+- [Aquarium-Engine](/Projects/Aquarium-Engine) decoupled [GPU splat generation from domain depth](https://github.com/GameCult/Aquarium-Engine/commit/c599310195aef0950f0ed95eafd26eef2c5f4aea), which is the sort of renderer cut that sounds small until you realize it is really a fight over who owns structure and who merely draws it.
+- [CultLib](/Projects/CultLib) gave itself a public Face by adding [Libby](https://github.com/GameCult/CultLib/commit/0ecba71b), an open-infra repo identity with an avatar, a voice, and very specific feelings about portable state. Even the shared plumbing wants a persona now.
+- [Epiphany](https://github.com/GameCult/Epiphany) moved [coordinator judgment into core](https://github.com/GameCult/Epiphany/commit/3d4ed26b0fda0e3a5a2cdbcc7056742a0d2e00d7), pulling decision authority inward instead of leaving it draped across the bridge layer like a lazy compatibility scarf. Better ownership, less theater.

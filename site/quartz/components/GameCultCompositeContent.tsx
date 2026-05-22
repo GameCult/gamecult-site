@@ -13,7 +13,7 @@ import {
 } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import FolderContent from "./pages/FolderContent"
-import GameCultBlogFolder from "./GameCultBlogFolder"
+import AutoIndexFolder from "./AutoIndexFolder"
 import { resolveGameCultReferenceSlug, resolveGameCultSourceFile, stripTopTagline } from "./gamecult"
 
 interface Options {
@@ -170,7 +170,16 @@ function getCompositeSections(
 export default ((opts?: Partial<Options>) => {
   const options: Options = { ...defaultOptions, ...opts }
   const DefaultFolderContent = FolderContent()
-  const BlogFolderContent = GameCultBlogFolder()
+  const BlogFolderContent = AutoIndexFolder({
+    rootSlug: "Blog",
+    classPrefix: "gamecult-blog",
+    hideFrontmatterKey: "hideFromBlogIndex",
+    defaultAuthor: "GameCult",
+    emptyDescription: "This post exists, which is already more than many ideas manage.",
+    showDescriptionIntro: true,
+    sidebarTagline: "Recent notes, fiction, experiments, and other escaped materials.",
+    sidebarSummary: (count) => `${count} public posts, newest trouble first.`,
+  })
 
   const GameCultCompositeContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, tree, allFiles } = props

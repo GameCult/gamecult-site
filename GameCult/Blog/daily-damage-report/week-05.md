@@ -1,14 +1,14 @@
 ---
 title: Daily Damage Report - Week 05
-description: "16 May 2026 onward: the current open week, with VoidBot mutating from artifact rumination into repo-face identity machinery, Zyphos turning its graph shell into the site itself, and the rest of the swarm still shedding parts in public."
-socialDeck: "Current week. Void grows repo-face identity machinery, Zyphos keeps compacting the graph shell, and the swarm stays structurally unwell."
-date: 2026-05-16
+description: "16 May to 22 May 2026: repo-face governance got operational, Zyphos compacted its graph shell into a real site surface, Quartz killed another hand-rolled index, and the public swarm kept cutting against stale authority."
+socialDeck: "Repo faces grow up, graph shells get tighter, and the weekly damage pile closes out with less ceremony."
+date: 2026-05-22
 author: GameCult
 ---
 
-*"16 May 2026 onward. This is the current week, still wet, still twitching, and therefore more likely to be edited again."*
+*"16 May 2026 to 22 May 2026. This week is closed now, which only means the damage has been filed somewhere slightly less embarrassing."*
 
-Week five is still in progress. Right now it opens on more fronts than yesterday's summary had the decency to admit: the blog cleaning its own reporting loop, Void pushing from artifact rumination into repo-face identity machinery, Hugin turning into a real graph surface, Epiphany wiring up a public memory graph, Zyphos surfacing publicly at speed and then compacting its graph shell, and the Aquarium line mutating into fractal terrain and domain machinery.
+Week five widened fast and then spent the rest of its life making that choice everyone else's problem. The main line was coherent, annoyingly enough: repo-face identity stopped acting like decorative lore and turned into an actual operating surface, Zyphos kept compacting its graph shell until it started feeling like a site instead of a ceremony, and the rest of the public bench kept moving authority closer to the places that actually do the work.
 
 ## 16 May 2026
 

@@ -94,10 +94,11 @@
     const plateB = createElement("div", "aetheria-ink-visual-plate")
     const scrim = createElement("div", "aetheria-ink-visual-scrim")
     const caption = createElement("p", "aetheria-ink-visual-caption")
+    const references = createElement("aside", "aetheria-ink-slide-references")
     const section = createElement("div", "aetheria-ink-section")
     const sectionText = createElement("div", "aetheria-ink-section-text")
 
-    visual.append(plateA, plateB, scrim, caption)
+    visual.append(plateA, plateB, scrim, caption, references)
     section.append(sectionText)
     stage.append(visual, section)
 
@@ -106,11 +107,48 @@
       plateA,
       plateB,
       caption,
+      references,
       sectionText,
       activePlate: plateA,
       inactivePlate: plateB,
       slideIndex: -1,
     }
+  }
+
+  function resolveSlideReferences(manifest, slide) {
+    if (!manifest || !slide) return []
+    if (Array.isArray(slide.references)) return slide.references
+    const referenceSets = manifest.references_by_caption || manifest.referencesByCaption || {}
+    const byCaption = referenceSets[slide.caption || manifest.default_caption || ""]
+    return Array.isArray(byCaption) ? byCaption : []
+  }
+
+  function renderSlideReferences(target, references) {
+    target.replaceChildren()
+    if (!references || references.length === 0) {
+      target.hidden = true
+      return
+    }
+
+    target.hidden = false
+    target.append(createElement("p", "aetheria-ink-slide-references-title", "References"))
+
+    const list = createElement("ul", "aetheria-ink-slide-references-list")
+    for (const reference of references) {
+      const item = createElement("li")
+      const label = reference.label || reference.title || reference.url || "Reference"
+      if (reference.url) {
+        const link = createElement("a", "", label)
+        link.href = reference.url
+        link.target = "_blank"
+        link.rel = "noreferrer noopener"
+        item.append(link)
+      } else {
+        item.textContent = label
+      }
+      list.append(item)
+    }
+    target.append(list)
   }
 
   function setCinematicSlide(stageState, manifest, index) {
@@ -132,6 +170,7 @@
     stageState.inactivePlate = previous
     stageState.slideIndex = clamped
     stageState.caption.textContent = slide.caption || manifest.default_caption || ""
+    renderSlideReferences(stageState.references, resolveSlideReferences(manifest, slide))
   }
 
   function renderCinematicText(stageState, text) {
@@ -288,6 +327,8 @@
         if (isCinematic) {
           stageState.slideIndex = -1
           stageState.caption.textContent = ""
+          stageState.references.replaceChildren()
+          stageState.references.hidden = true
           stageState.sectionText.replaceChildren()
           continueButton.onclick = () => {
             stageState.sectionText.classList.add("is-exiting")

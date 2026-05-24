@@ -1276,6 +1276,60 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
   backdrop-filter: blur(12px);
 }
 
+.aetheria-ink-slide-references {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  width: min(24rem, calc(100% - 2rem));
+  max-width: 42%;
+  padding: 0.62rem 0.72rem 0.68rem;
+  border: 1px solid rgba(255, 198, 120, 0.22);
+  border-radius: 18px;
+  background: rgba(5, 8, 13, 0.68);
+  color: rgba(226, 238, 252, 0.9);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(14px);
+}
+
+.aetheria-ink-slide-references[hidden] {
+  display: none;
+}
+
+.aetheria-ink-slide-references-title {
+  margin: 0 0 0.38rem;
+  color: rgba(255, 225, 184, 0.94);
+  font-family: var(--titleFont);
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.aetheria-ink-slide-references-list {
+  display: grid;
+  gap: 0.24rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.aetheria-ink-slide-references-list li {
+  margin: 0;
+  color: rgba(226, 238, 252, 0.88);
+  font-size: clamp(0.72rem, 1.1vw, 0.82rem);
+  line-height: 1.28;
+}
+
+.aetheria-ink-slide-references-list a {
+  color: rgba(255, 198, 120, 0.94);
+}
+
+.aetheria-ink-slide-references-list a:hover,
+.aetheria-ink-slide-references-list a:focus-visible {
+  color: #fff3e8;
+}
+
 .aetheria-ink-section {
   position: absolute;
   inset: auto clamp(0.85rem, 3vw, 2rem) clamp(1.5rem, 6vh, 4rem);
@@ -1447,5 +1501,9 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 
   .gamecult-embed-frame iframe {
     min-height: 520px;
+  }
+
+  .aetheria-ink-slide-references {
+    max-width: 58%;
   }
 }

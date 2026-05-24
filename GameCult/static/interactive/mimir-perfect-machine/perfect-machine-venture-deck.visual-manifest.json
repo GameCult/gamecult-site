@@ -384,5 +384,97 @@
       "image": "slide-09.png",
       "caption": "The Ask"
     }
-  ]
+  ],
+  "references_by_caption": {
+    "The Room Stops Being A Set": [
+      {
+        "label": "Mimir: The Perfect Machine Full Field",
+        "url": "https://mimir.gamecult.org/docs/perfect-machine-full-field"
+      },
+      {
+        "label": "Mimir public docs",
+        "url": "https://mimir.gamecult.org/"
+      }
+    ],
+    "Witnesses, Not Feeds": [
+      {
+        "label": "Mimir architecture notes",
+        "url": "https://mimir.gamecult.org/docs/architecture"
+      }
+    ],
+    "The Rolling Reservoir Is The Throat": [
+      {
+        "label": "Mimir implementation plan",
+        "url": "https://mimir.gamecult.org/docs/implementation-plan"
+      },
+      {
+        "label": "Mimir: The Perfect Machine Full Field",
+        "url": "https://mimir.gamecult.org/docs/perfect-machine-full-field"
+      }
+    ],
+    "The Acoustic Runes": [
+      {
+        "label": "Mimir audio field map",
+        "url": "https://mimir.gamecult.org/docs/audio-field"
+      },
+      {
+        "label": "Cohen: Time-Frequency Distributions",
+        "url": "https://doi.org/10.1109/5.30749"
+      },
+      {
+        "label": "Mann & Haykin: The Chirplet Transform",
+        "url": "https://wearcam.org/chirplet.htm"
+      }
+    ],
+    "The Phone Becomes A Probe": [
+      {
+        "label": "Mimir: The Perfect Machine Full Field",
+        "url": "https://mimir.gamecult.org/docs/perfect-machine-full-field"
+      }
+    ],
+    "Bodies Enter The Machine": [
+      {
+        "label": "Mimir native capture cadence notes",
+        "url": "https://mimir.gamecult.org/docs/native-capture-cadence"
+      }
+    ],
+    "Fensalir Renders The Verdict": [
+      {
+        "label": "Fensalir integration map",
+        "url": "https://mimir.gamecult.org/research/perfect-machine-study-2026-05-23/fensalir-integration-map"
+      },
+      {
+        "label": "3D Gaussian Splatting",
+        "url": "https://arxiv.org/abs/2308.04079"
+      },
+      {
+        "label": "EWA Volume Splatting",
+        "url": "https://vcg.seas.harvard.edu/publications/20011001-ewa-volume-splatting"
+      }
+    ],
+    "Why This Wins": [
+      {
+        "label": "Mimir Perfect Machine Study Index",
+        "url": "https://mimir.gamecult.org/research/perfect-machine-study-2026-05-23/"
+      },
+      {
+        "label": "Mimir public docs",
+        "url": "https://mimir.gamecult.org/"
+      }
+    ],
+    "The Ask": [
+      {
+        "label": "Mimir public docs",
+        "url": "https://mimir.gamecult.org/"
+      },
+      {
+        "label": "Mimir: The Perfect Machine Full Field",
+        "url": "https://mimir.gamecult.org/docs/perfect-machine-full-field"
+      },
+      {
+        "label": "Mimir Perfect Machine Study Index",
+        "url": "https://mimir.gamecult.org/research/perfect-machine-study-2026-05-23/"
+      }
+    ]
+  }
 }

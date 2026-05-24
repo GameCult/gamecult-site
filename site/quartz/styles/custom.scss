@@ -1190,6 +1190,224 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
   background: #050a11;
 }
 
+.aetheria-ink-player {
+  display: grid;
+  gap: 0.9rem;
+  margin: 1.3rem 0 1.6rem;
+  padding: clamp(0.8rem, 2vw, 1.1rem);
+  border: 1px solid rgba(255, 198, 120, 0.2);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at 16% 12%, rgba(255, 198, 120, 0.12), transparent 24%),
+    radial-gradient(circle at 82% 10%, rgba(104, 172, 255, 0.1), transparent 26%),
+    linear-gradient(180deg, rgba(7, 8, 12, 0.98), rgba(9, 13, 19, 0.96));
+  box-shadow:
+    0 18px 38px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.aetheria-ink-status {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  color: rgba(255, 138, 42, 0.96);
+  font-family: var(--titleFont);
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.aetheria-ink-cinematic-stage {
+  position: relative;
+  min-height: clamp(480px, 62vh, 680px);
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 198, 120, 0.18);
+  background: #05070b;
+  box-shadow:
+    0 28px 68px rgba(0, 0, 0, 0.44),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.aetheria-ink-visual,
+.aetheria-ink-visual-plate,
+.aetheria-ink-visual-scrim {
+  position: absolute;
+  inset: 0;
+}
+
+.aetheria-ink-visual-plate {
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  transform: scale(1.035);
+  filter: saturate(1.08) contrast(1.02) brightness(0.86);
+  transition:
+    opacity 780ms ease,
+    transform 1400ms ease;
+}
+
+.aetheria-ink-visual-plate.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.aetheria-ink-visual-scrim {
+  background:
+    radial-gradient(circle at 50% 32%, transparent 0%, rgba(0, 0, 0, 0.1) 34%, rgba(0, 0, 0, 0.7) 100%),
+    linear-gradient(180deg, rgba(3, 5, 8, 0.18), rgba(3, 5, 8, 0.82));
+}
+
+.aetheria-ink-visual-caption {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  margin: 0;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid rgba(255, 198, 120, 0.24);
+  border-radius: 999px;
+  background: rgba(5, 8, 13, 0.62);
+  color: rgba(255, 225, 184, 0.92);
+  font-family: var(--titleFont);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+}
+
+.aetheria-ink-section {
+  position: absolute;
+  inset: auto clamp(0.85rem, 3vw, 2rem) clamp(1.5rem, 6vh, 4rem);
+  display: grid;
+  place-items: end stretch;
+}
+
+.aetheria-ink-section-text {
+  max-width: min(760px, 100%);
+  padding: clamp(1rem, 2.3vw, 1.45rem);
+  border: 1px solid rgba(255, 198, 120, 0.18);
+  border-radius: 24px;
+  background:
+    linear-gradient(135deg, rgba(7, 10, 15, 0.72), rgba(10, 16, 23, 0.54)),
+    radial-gradient(circle at 14% 0%, rgba(255, 198, 120, 0.14), transparent 26%);
+  box-shadow:
+    0 20px 54px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(18px);
+}
+
+.aetheria-ink-line,
+.aetheria-ink-end,
+.aetheria-ink-error {
+  margin: 0;
+  color: rgba(246, 241, 226, 0.96);
+  font-size: clamp(1.05rem, 1.8vw, 1.32rem);
+  line-height: 1.65;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55);
+}
+
+.aetheria-ink-end,
+.aetheria-ink-error {
+  position: relative;
+  z-index: 1;
+}
+
+.aetheria-ink-error {
+  color: #ffb7a6;
+}
+
+.aetheria-ink-section-text.is-entering {
+  animation: aetheriaInkTextIn 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.aetheria-ink-section-text.is-exiting {
+  animation: aetheriaInkTextOut 220ms ease both;
+}
+
+.aetheria-ink-choices {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 0.65rem;
+}
+
+.aetheria-ink-choice,
+.aetheria-ink-continue,
+.aetheria-ink-restart {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  border: 1px solid rgba(255, 198, 120, 0.28);
+  background: rgba(255, 198, 120, 0.1);
+  color: rgba(255, 235, 205, 0.94);
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.aetheria-ink-choice {
+  padding: 0.75rem 0.95rem;
+  border-radius: 18px;
+  text-align: left;
+}
+
+.aetheria-ink-continue,
+.aetheria-ink-restart {
+  justify-self: center;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  font-family: var(--titleFont);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.aetheria-ink-choice:hover,
+.aetheria-ink-choice:focus-visible,
+.aetheria-ink-continue:hover,
+.aetheria-ink-continue:focus-visible,
+.aetheria-ink-restart:hover,
+.aetheria-ink-restart:focus-visible {
+  border-color: rgba(255, 198, 120, 0.6);
+  background: rgba(255, 198, 120, 0.18);
+  transform: translateY(-1px);
+}
+
+.aetheria-ink-continue[hidden],
+.aetheria-ink-variables[hidden] {
+  display: none;
+}
+
+@keyframes aetheriaInkTextIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.985);
+    filter: blur(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes aetheriaInkTextOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-8px);
+    filter: blur(8px);
+  }
+}
+
 @media all and not ($desktop) {
   .gamecult-home-hero {
     grid-template-columns: minmax(0, 1fr);

@@ -2,6 +2,23 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import * as Component from "./quartz/components"
 import GameCultCompositeContent from "./quartz/components/GameCultCompositeContent"
+import { QuartzEmitterPlugin } from "./quartz/plugins/types"
+
+const GameCultInkPlayerResources: QuartzEmitterPlugin = () => ({
+  name: "GameCultInkPlayerResources",
+  async *emit() {},
+  async *partialEmit() {},
+  externalResources: () => ({
+    js: [
+      {
+        src: "/static/interactive/aetheria-ink-player.js",
+        loadTime: "afterDOMReady",
+        contentType: "external",
+        spaPreserve: true,
+      },
+    ],
+  }),
+})
 
 /**
  * Quartz 4 Configuration
@@ -101,6 +118,7 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
+      GameCultInkPlayerResources(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),

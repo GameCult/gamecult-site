@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-05-24
+date: 2026-05-25
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 06 - 23 May 2026 onward](/Blog/daily-damage-report/week-06)  
-  The current open week: VoidBot rebuilt its repo-face swarm as a cockpit, Mimir made song contours own sync truth, the graph/site surface kept collapsing into one path, and the public repo bench continued its habit of documenting the surgery while still bleeding.
+  The current open week: the repo-face cockpit kept waking up, Mimir turned spectra into a public lab animal, Norn finished clawing its way out of the old graph skin, and the rest of the bench kept renaming, relaying, and rebuilding authority in public.
 
 ## Archive
 

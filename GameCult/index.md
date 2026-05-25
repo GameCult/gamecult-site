@@ -6,6 +6,8 @@ showCompositeJump: false
 sidebarGroups:
   - title: Studio
     links:
+      - label: Graph
+        slug: Graph
       - label: Open Source Model
         slug: Open-Source-Model
       - label: Contributing

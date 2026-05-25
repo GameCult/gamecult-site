@@ -98,6 +98,11 @@ const routes: Route[] = [
     matches: ["Blog"],
   },
   {
+    label: "Graph",
+    slug: "Graph" as FullSlug,
+    matches: ["Graph"],
+  },
+  {
     label: "Docs",
     slug: "Docs/index" as FullSlug,
     matches: ["Docs"],

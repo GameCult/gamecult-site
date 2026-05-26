@@ -11,7 +11,7 @@ const GameCultInkPlayerResources: QuartzEmitterPlugin = () => ({
   externalResources: () => ({
     js: [
       {
-        src: "/static/interactive/aetheria-ink-player.js",
+        src: "/static/interactive/aetheria-ink-player.v2.js",
         loadTime: "afterDOMReady",
         contentType: "external",
         spaPreserve: true,

@@ -1,0 +1,19 @@
+{
+  "asset_base": "/static/interactive/cotsc-praxis/",
+  "background": {
+    "image": "agora-swarm.png",
+    "caption": "The Aquarium Agora"
+  },
+  "actors": {
+    "Void": { "avatar": "void.png" },
+    "Aqua": { "avatar": "aqua.png" },
+    "Nibu": { "avatar": "nibu.png" },
+    "Weksa": { "avatar": "weksa.png" },
+    "Epiphany": { "avatar": "epiphany.png" },
+    "Kiko": { "avatar": "kiko.png" },
+    "Heimdall": { "avatar": "heimdall.png" },
+    "Libby": { "avatar": "libby.png" },
+    "Druzkai": { "avatar": "druzkai.png" },
+    "Huginn": { "avatar": "huginn.png" }
+  }
+}

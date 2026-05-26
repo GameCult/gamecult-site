@@ -184,6 +184,105 @@
     stageState.sectionText.classList.add("is-entering")
   }
 
+  function resolveManifestAsset(manifest, asset) {
+    if (!asset) return ""
+    if (/^(https?:)?\/\//.test(asset) || asset.startsWith("/")) return asset
+    const base = manifest?.asset_base || manifest?.image_base || ""
+    return `${base}${asset}`
+  }
+
+  function parseTags(tags) {
+    const parsed = {}
+    for (const tag of tags || []) {
+      const separator = tag.indexOf(":")
+      if (separator === -1) continue
+      const key = tag.slice(0, separator).trim().toLowerCase()
+      const value = tag.slice(separator + 1).trim()
+      if (key && value) parsed[key] = value
+    }
+    return parsed
+  }
+
+  function createSpeakerStage() {
+    const stage = createElement("div", "aetheria-ink-speaker-stage")
+    const background = createElement("div", "aetheria-ink-speaker-background")
+    const scrim = createElement("div", "aetheria-ink-speaker-scrim")
+    const sceneLabel = createElement("p", "aetheria-ink-speaker-scene")
+    const card = createElement("div", "aetheria-ink-speaker-card")
+    const avatarShell = createElement("div", "aetheria-ink-speaker-avatar-shell")
+    const avatar = document.createElement("img")
+    const body = createElement("div", "aetheria-ink-speaker-body")
+    const name = createElement("p", "aetheria-ink-speaker-name")
+    const line = createElement("p", "aetheria-ink-speaker-line")
+
+    avatar.className = "aetheria-ink-speaker-avatar"
+    avatar.loading = "lazy"
+    avatar.decoding = "async"
+
+    avatarShell.append(avatar)
+    body.append(name, line)
+    card.append(avatarShell, body)
+    stage.append(background, scrim, sceneLabel, card)
+
+    return {
+      stage,
+      background,
+      sceneLabel,
+      card,
+      avatar,
+      name,
+      line,
+      backgroundSet: false,
+    }
+  }
+
+  function setSpeakerBackground(stageState, manifest, container) {
+    if (stageState.backgroundSet) return
+
+    const background = manifest?.background || {}
+    const image =
+      container.dataset.backgroundImage ||
+      background.image ||
+      manifest?.background_image ||
+      manifest?.backgroundImage ||
+      ""
+
+    if (image) {
+      stageState.background.style.backgroundImage = `url("${resolveManifestAsset(manifest, image)}")`
+    }
+
+    stageState.sceneLabel.textContent =
+      container.dataset.sceneLabel || background.caption || manifest?.default_caption || ""
+    stageState.sceneLabel.hidden = stageState.sceneLabel.textContent.length === 0
+    stageState.backgroundSet = true
+  }
+
+  function resolveSpeakerAvatar(manifest, speaker, taggedAvatar) {
+    const actor = manifest?.actors?.[speaker] || manifest?.actors?.[speaker?.toLowerCase?.()]
+    if (actor?.avatar) return resolveManifestAsset(manifest, actor.avatar)
+    if (taggedAvatar && (taggedAvatar.startsWith("/") || /^(https?:)?\/\//.test(taggedAvatar))) {
+      return taggedAvatar
+    }
+    return ""
+  }
+
+  function renderSpeakerLine(stageState, manifest, text, metadata) {
+    const speaker = metadata.speaker || "Void"
+    const avatar = resolveSpeakerAvatar(manifest, speaker, metadata.avatar)
+
+    stageState.name.textContent = speaker
+    stageState.line.textContent = text
+    stageState.avatar.hidden = avatar.length === 0
+    if (avatar) {
+      stageState.avatar.src = avatar
+      stageState.avatar.alt = `${speaker} avatar`
+    }
+
+    stageState.card.classList.remove("is-entering")
+    void stageState.card.offsetWidth
+    stageState.card.classList.add("is-entering")
+  }
+
   function appendParagraphs(story, transcript) {
     let advanced = false
     let safety = 0
@@ -277,6 +376,61 @@
     })
   }
 
+  function renderSpeakerStep(story, state) {
+    const { choices, variables, stageState, manifest, continueButton, container } = state
+
+    setSpeakerBackground(stageState, manifest, container)
+    choices.replaceChildren()
+    continueButton.hidden = true
+
+    let text = ""
+    let metadata = {}
+    let safety = 0
+
+    while (story.canContinue && text.length === 0 && safety < 100) {
+      text = story.Continue().trim()
+      metadata = parseTags(story.currentTags)
+      safety += 1
+    }
+
+    if (safety >= 100) {
+      text = "The story did not settle before the safety limit. Something in the Ink is looping."
+      metadata = { speaker: "System" }
+    }
+
+    if (text.length > 0) {
+      renderSpeakerLine(stageState, manifest, text, metadata)
+      renderVariables(story, variables)
+
+      if (story.canContinue) {
+        continueButton.hidden = false
+        continueButton.textContent = "Continue"
+        return
+      }
+    }
+
+    renderVariables(story, variables)
+
+    if (story.currentChoices.length === 0) {
+      choices.append(createElement("p", "aetheria-ink-end", "End of branch. The circle goes quiet."))
+      return
+    }
+
+    story.currentChoices.forEach((choice, index) => {
+      const button = createElement("button", "aetheria-ink-choice", choice.text)
+      button.type = "button"
+      button.addEventListener("click", () => {
+        stageState.card.classList.add("is-exiting")
+        window.setTimeout(() => {
+          story.ChooseChoiceIndex(index)
+          stageState.card.classList.remove("is-exiting")
+          renderSpeakerStep(story, state)
+        }, 140)
+      })
+      choices.append(button)
+    })
+  }
+
   async function initialisePlayer(container) {
     if (container.dataset.inkInitialised === "true") return
     container.dataset.inkInitialised = "true"
@@ -289,9 +443,16 @@
 
     const status = createElement("p", "aetheria-ink-status", "Loading story...")
     const isCinematic = container.dataset.inkMode === "cinematic"
-    const showVariables = !isCinematic || container.dataset.showVariables === "true"
-    const transcript = isCinematic ? null : createElement("div", "aetheria-ink-transcript")
-    const stageState = isCinematic ? createCinematicStage() : null
+    const isSpeakerPanel = container.dataset.inkMode === "speaker-panel"
+    const showVariables =
+      (!isCinematic && !isSpeakerPanel) || container.dataset.showVariables === "true"
+    const transcript =
+      isCinematic || isSpeakerPanel ? null : createElement("div", "aetheria-ink-transcript")
+    const stageState = isCinematic
+      ? createCinematicStage()
+      : isSpeakerPanel
+        ? createSpeakerStage()
+        : null
     const choices = createElement("div", "aetheria-ink-choices")
     const variables = createElement("div", "aetheria-ink-variables")
     const continueButton = createElement("button", "aetheria-ink-continue", "Continue")
@@ -302,6 +463,10 @@
 
     if (isCinematic) {
       container.classList.add("aetheria-ink-player-cinematic")
+      variables.hidden = !showVariables
+      container.replaceChildren(status, stageState.stage, choices, variables, continueButton, restart)
+    } else if (isSpeakerPanel) {
+      container.classList.add("aetheria-ink-player-speaker")
       variables.hidden = !showVariables
       container.replaceChildren(status, stageState.stage, choices, variables, continueButton, restart)
     } else {
@@ -349,6 +514,37 @@
             stageState,
             manifest: visualManifest,
             continueButton,
+          })
+        } else if (isSpeakerPanel) {
+          stageState.backgroundSet = false
+          stageState.background.style.backgroundImage = ""
+          stageState.sceneLabel.textContent = ""
+          stageState.card.classList.remove("is-entering", "is-exiting")
+          stageState.avatar.removeAttribute("src")
+          stageState.avatar.hidden = true
+          stageState.name.textContent = ""
+          stageState.line.textContent = ""
+          continueButton.onclick = () => {
+            stageState.card.classList.add("is-exiting")
+            window.setTimeout(() => {
+              stageState.card.classList.remove("is-exiting")
+              renderSpeakerStep(story, {
+                choices,
+                variables,
+                stageState,
+                manifest: visualManifest,
+                continueButton,
+                container,
+              })
+            }, 140)
+          }
+          renderSpeakerStep(story, {
+            choices,
+            variables,
+            stageState,
+            manifest: visualManifest,
+            continueButton,
+            container,
           })
         } else {
           transcript.replaceChildren()

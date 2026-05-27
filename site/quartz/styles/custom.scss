@@ -682,15 +682,12 @@ body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
 
   .page > #quartz-body .center > article {
     margin-top: 1rem;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
+    padding: 1rem;
+    overflow: hidden;
   }
 
   .aetheria-ink-player-full-content .aetheria-ink-speaker-stage {
-    height: min(720px, calc(100vh - 15.5rem));
+    height: min(720px, calc(100vh - 17.5rem));
     min-height: 360px;
   }
 }

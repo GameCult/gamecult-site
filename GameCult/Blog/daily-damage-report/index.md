@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-05-26
+date: 2026-05-27
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 06 - 23 May 2026 onward](/Blog/daily-damage-report/week-06)  
-  The current open week: Norn kept its new name, Mimir and Fensalir forced field resources into explicit ownership, AquaSynth kept dragging Pink Trombone toward parity, VoidBot rewired the repo-face cockpit around Socratic Ink, and the site itself spent the day publishing sermons with fewer excuses.
+  The current open week: the public site stack split a shared Ink embedder out into Sai and Quartz, Epiphany pushed typed organ/runtime contracts into the core, and the local bench ran far ahead in AquaSynth, Fensalir, Mimir, and VoidBot without pretending that unpushed surgery was already public truth.
 
 ## Archive
 

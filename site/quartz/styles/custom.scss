@@ -1380,6 +1380,9 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 }
 
 .aetheria-ink-player-speaker {
+  box-sizing: border-box;
+  width: min(1120px, calc(100vw - 24rem));
+  max-width: calc(100vw - 2rem);
   border-radius: 18px;
   background:
     linear-gradient(180deg, rgba(5, 6, 10, 0.98), rgba(9, 11, 16, 0.96)),
@@ -1388,7 +1391,9 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 
 .aetheria-ink-speaker-stage {
   position: relative;
-  min-height: clamp(520px, 68vh, 760px);
+  height: clamp(320px, 42vw, 520px);
+  max-height: calc(100vh - 8rem);
+  min-height: 320px;
   overflow: hidden;
   border: 1px solid rgba(255, 198, 120, 0.2);
   border-radius: 18px;
@@ -1406,7 +1411,8 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 
 .aetheria-ink-speaker-background {
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   filter: saturate(1.06) contrast(1.02) brightness(0.92);
 }
 
@@ -1440,16 +1446,18 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 
 .aetheria-ink-speaker-card {
   position: absolute;
-  right: clamp(0.85rem, 3vw, 2rem);
-  bottom: clamp(1rem, 4vh, 2.5rem);
-  left: clamp(0.85rem, 3vw, 2rem);
+  box-sizing: border-box;
+  right: clamp(0.5rem, 2vw, 1rem);
+  bottom: clamp(0.45rem, 1.2vw, 0.85rem);
+  left: clamp(0.5rem, 2vw, 1rem);
   z-index: 1;
   display: grid;
   grid-template-columns: clamp(82px, 12vw, 132px) minmax(0, 1fr);
   gap: clamp(0.75rem, 2vw, 1.15rem);
   align-items: center;
-  max-width: 980px;
+  width: min(980px, calc(100% - clamp(1rem, 4vw, 2rem)));
   min-height: clamp(150px, 21vh, 220px);
+  margin-inline: auto;
   padding: clamp(0.8rem, 2vw, 1.15rem);
   border: 1px solid rgba(255, 198, 120, 0.24);
   border-radius: 18px;
@@ -1658,12 +1666,20 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
     max-width: 58%;
   }
 
+  .aetheria-ink-player-speaker {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .aetheria-ink-speaker-stage {
-    min-height: 620px;
+    height: clamp(260px, 56vw, 330px);
+    max-height: none;
+    min-height: 260px;
   }
 
   .aetheria-ink-speaker-card {
     grid-template-columns: 72px minmax(0, 1fr);
+    width: calc(100% - 1rem);
     min-height: 156px;
   }
 

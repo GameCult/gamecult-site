@@ -214,13 +214,14 @@
     const body = createElement("div", "aetheria-ink-speaker-body")
     const name = createElement("p", "aetheria-ink-speaker-name")
     const line = createElement("p", "aetheria-ink-speaker-line")
+    const controls = createElement("div", "aetheria-ink-speaker-controls")
 
     avatar.className = "aetheria-ink-speaker-avatar"
     avatar.loading = "lazy"
     avatar.decoding = "async"
 
     avatarShell.append(avatar)
-    body.append(name, line)
+    body.append(name, line, controls)
     card.append(avatarShell, body)
     stage.append(background, scrim, sceneLabel, card)
 
@@ -232,6 +233,7 @@
       avatar,
       name,
       line,
+      controls,
       backgroundSet: false,
     }
   }
@@ -468,7 +470,8 @@
     } else if (isSpeakerPanel) {
       container.classList.add("aetheria-ink-player-speaker")
       variables.hidden = !showVariables
-      container.replaceChildren(status, stageState.stage, choices, variables, continueButton, restart)
+      stageState.controls.append(choices, continueButton, restart)
+      container.replaceChildren(status, stageState.stage, variables)
     } else {
       container.replaceChildren(status, transcript, choices, variables, restart)
     }

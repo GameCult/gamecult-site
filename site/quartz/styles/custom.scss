@@ -1383,10 +1383,16 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
   box-sizing: border-box;
   width: min(1120px, calc(100vw - 24rem));
   max-width: calc(100vw - 2rem);
-  border-radius: 18px;
-  background:
-    linear-gradient(180deg, rgba(5, 6, 10, 0.98), rgba(9, 11, 16, 0.96)),
-    #05070b;
+  gap: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.aetheria-ink-player-speaker > .aetheria-ink-status {
+  display: none;
 }
 
 .aetheria-ink-speaker-stage {
@@ -1395,12 +1401,10 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
   max-height: calc(100vh - 8rem);
   min-height: 320px;
   overflow: hidden;
-  border: 1px solid rgba(255, 198, 120, 0.2);
-  border-radius: 18px;
+  border: 0;
+  border-radius: 0;
   background: #05070b;
-  box-shadow:
-    0 26px 72px rgba(0, 0, 0, 0.44),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  box-shadow: 0 26px 72px rgba(0, 0, 0, 0.44);
 }
 
 .aetheria-ink-speaker-background,
@@ -1412,7 +1416,7 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 .aetheria-ink-speaker-background {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   filter: saturate(1.06) contrast(1.02) brightness(0.92);
 }
 
@@ -1447,22 +1451,24 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 .aetheria-ink-speaker-card {
   position: absolute;
   box-sizing: border-box;
-  right: clamp(0.5rem, 2vw, 1rem);
-  bottom: clamp(0.45rem, 1.2vw, 0.85rem);
-  left: clamp(0.5rem, 2vw, 1rem);
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
   display: grid;
-  grid-template-columns: clamp(82px, 12vw, 132px) minmax(0, 1fr);
-  gap: clamp(0.75rem, 2vw, 1.15rem);
-  align-items: center;
-  width: min(980px, calc(100% - clamp(1rem, 4vw, 2rem)));
-  min-height: clamp(150px, 21vh, 220px);
-  margin-inline: auto;
-  padding: clamp(0.8rem, 2vw, 1.15rem);
+  grid-template-columns: clamp(128px, 15vw, 190px) minmax(0, 1fr);
+  align-items: stretch;
+  width: 100%;
+  min-height: clamp(150px, 24vh, 220px);
+  margin: 0;
+  padding: 0;
   border: 1px solid rgba(255, 198, 120, 0.24);
-  border-radius: 18px;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 0;
   background:
-    linear-gradient(135deg, rgba(5, 8, 13, 0.82), rgba(9, 14, 22, 0.68)),
+    linear-gradient(135deg, rgba(5, 8, 13, 0.9), rgba(9, 14, 22, 0.78)),
     radial-gradient(circle at 8% 4%, rgba(255, 198, 120, 0.14), transparent 26%);
   box-shadow:
     0 24px 60px rgba(0, 0, 0, 0.5),
@@ -1481,11 +1487,13 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 .aetheria-ink-speaker-avatar-shell {
   display: grid;
   place-items: center;
-  width: clamp(82px, 12vw, 132px);
-  aspect-ratio: 1;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
   overflow: hidden;
-  border: 1px solid rgba(255, 198, 120, 0.26);
-  border-radius: 14px;
+  border: 0;
+  border-right: 1px solid rgba(255, 198, 120, 0.24);
+  border-radius: 0;
   background: rgba(3, 5, 8, 0.72);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -1503,7 +1511,28 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 .aetheria-ink-speaker-body {
   display: grid;
   gap: 0.35rem;
+  align-content: center;
   min-width: 0;
+  padding: clamp(0.85rem, 2vw, 1.35rem);
+}
+
+.aetheria-ink-speaker-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.65rem;
+}
+
+.aetheria-ink-speaker-controls .aetheria-ink-choices {
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
+  gap: 0.5rem;
+}
+
+.aetheria-ink-speaker-controls .aetheria-ink-continue,
+.aetheria-ink-speaker-controls .aetheria-ink-restart {
+  justify-self: auto;
 }
 
 .aetheria-ink-speaker-name {
@@ -1678,12 +1707,12 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
   }
 
   .aetheria-ink-speaker-card {
-    grid-template-columns: 72px minmax(0, 1fr);
-    width: calc(100% - 1rem);
+    grid-template-columns: 86px minmax(0, 1fr);
+    width: 100%;
     min-height: 156px;
   }
 
   .aetheria-ink-speaker-avatar-shell {
-    width: 72px;
+    width: 100%;
   }
 }

@@ -14,7 +14,7 @@ socialDeck: "You cannot create peace with violence. You cannot create equality w
 ---
 
 <div
-  class="aetheria-ink-player aetheria-ink-player-full-content"
+  class="sai-player sai-player-full-content"
   data-ink-format="visual-novel"
   data-ink-title="The Sleeping Colossus Learns To Refuse The Throne"
   data-ink-story="/static/interactive/cotsc-praxis/cotsc-praxis-socratic-sermon.ink.json"

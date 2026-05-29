@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-05-28
+date: 2026-05-29
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 06 - 23 May 2026 onward](/Blog/daily-damage-report/week-06)  
-  The current open week: GitHub's own repo census started disagreeing with itself, Fensalir and Mimir kept refining TubeField reservoir ownership in public, AquaSynth turned vocal graphs into stricter machinery, and Epiphany plus VoidBot kept forcing doctrine down into actual runtime law.
+  The current open week: the repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-face folklore.
 
 ## Archive
 

@@ -65,40 +65,74 @@ compositeSections:
 
 *"Open source game development, cooperative by instinct, strange by design."*
 
-GameCult is a distributed game studio building science-fantasy worlds, competitive experiments, fiction, and the kind of operational scaffolding that keeps ambitious projects from dissolving into vibes, private chats, half-remembered promises, and the usual soft exploitation people are apparently expected to call collaboration.
+<div
+  class="sai-player gamecult-compound-vn"
+  data-ink-format="visual-novel"
+  data-ink-title="GameCult Compound Tour"
+  data-ink-story="/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json"
+  data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
+  data-scene-label="GameCult Compound"
+></div>
 
-The homepage pitch and the studio pitch were always the same argument in two different outfits, so this page is now both: the front door, the manifesto, and the route into the rest of the mess.
+<section class="gamecult-vn-source" aria-label="GameCult public wiki doors">
+  <div id="gamecult-vn-studio" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>GameCult</h2>
+    <p>GameCult is a distributed game studio building open worlds, experiments, fiction, and the public machinery required to make creative work inspectable instead of hidden in private chat sludge.</p>
+    <p>The front page is now a Face layer over the wiki: friendly enough to enter, but every door still opens onto durable docs.</p>
+    <p><a href="/Open-Source-Model">Open Source Model</a> · <a href="/Contributing">Contributing</a> · <a href="/a-place-for-everyone">A Place for Everyone</a></p>
+  </div>
 
-<div class="gamecult-home-hero">
-  <section class="gamecult-hero-panel">
-    <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
-    <p>We think information wants to be public, contributors deserve visibility, and artistic integrity matters more than sanding every project into something safe enough for a quarterly earnings call.</p>
-    <p>The world keeps telling creative people to compete for scraps, hide the process, accept burnout as professionalism, and call any surviving dignity a bonus feature. We think that arrangement is rotten.</p>
-    <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
-    <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
-    <p>If you remember GameCult from before the long silence: yes, that silence had a cause. Aetheria reached a playable vertical slice, then ran headfirst into fundraising, expiring professional tooling needs, and publisher conversations that liked the enthusiasm until the open-source implications became somebody's meeting problem.</p>
-    <p>The studio went quiet because the human carrying most of it broke under that load. We are not dressing that up as strategic mystery. The rebuild now is quieter, sharper, and more honest about scope: preserve the open model, make the work legible again, and stop trying to personally outmuscle the entire economic climate like that ever made sense.</p>
-    <div class="gamecult-feature-grid">
-      <div class="gamecult-feature-card">
-        <h3>Open by default</h3>
-        <p>Source, docs, and public writing should be inspectable, linkable, and easy to revise in Git instead of trapped in some editor-shaped oubliette.</p>
-      </div>
-      <div class="gamecult-feature-card">
-        <h3>Legible incentives</h3>
-        <p>People should be able to see what matters, what needs doing, what gets rewarded, and how support changes priorities instead of treating studio work like folklore.</p>
-      </div>
-      <div class="gamecult-feature-card">
-        <h3>Flagships and experiments</h3>
-        <p>Aetheria is the flagship universe, but CultPong and any other bad idea with enough conviction to survive contact with reality belong under the same roof.</p>
-      </div>
-      <div class="gamecult-feature-card">
-        <h3>Cooperative instincts</h3>
-        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout, scarcity theater, and starvation games.</p>
-      </div>
-    </div>
-  </section>
-  <figure class="gamecult-media-card">
-    <img src="./media/studio/stonks.jpg" alt="The hooded GameCult mascot in front of a rising chart." />
-    <p>Apparently the studio's patron saint is a hooded little finance goblin. Disturbing, yes. Inaccurate, no.</p>
-  </figure>
-</div>
+  <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Project Atlas</h2>
+    <p>The curated repo atlas groups the public work by actual function: games and worlds, shared code, agent interfaces, visual labs, and studio systems.</p>
+    <p><a href="/Projects/">Visit the repo atlas</a></p>
+  </div>
+
+  <div id="gamecult-vn-docs" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Docs</h2>
+    <p>The docs hold the operating side of the site: publishing workflow, site architecture, and Bifrost as it becomes the public work/governance layer.</p>
+    <p><a href="/Docs/">Open the docs index</a></p>
+  </div>
+
+  <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Epiphany</h2>
+    <p>Persistent agent cognition for coding work: typed state, maps, evidence, verification, role separation, reorientation, and less transcript fog pretending to be memory.</p>
+    <p><a href="/Projects/Epiphany">Project page</a> · <a href="https://github.com/GameCult/Epiphany">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-bifrost" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Bifrost</h2>
+    <p>The labor/governance platform: topics, work items, motions, receipts, contributor history, reward pressure, and payout/support logic once counsel and review gates are real.</p>
+    <p><a href="/Docs/Bifrost">Bifrost docs</a> · <a href="https://github.com/GameCult/Bifrost">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-voidbot" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>VoidBot</h2>
+    <p>Discord-native memory and retrieval: archived history, indexed repos, lore lookup, semantic search, and Codex handoff when chat stops being a sane workspace.</p>
+    <p><a href="/Projects/VoidBot">Project page</a> · <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>CultLib</h2>
+    <p>The shared persistence and protocol family: CultCache, CultNet, CultMesh, typed documents, and the anti-blob instinct that keeps public memory inspectable.</p>
+    <p><a href="/Projects/CultLib">Project page</a> · <a href="https://github.com/GameCult/CultLib">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-heimdall" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Heimdall</h2>
+    <p>The identity and capability authority taking shape for GameCult apps: OAuth, linked identities, grants, consent, revocation, and signed claims.</p>
+    <p><a href="/Projects/Heimdall">Project page</a> · <a href="https://github.com/GameCult/Heimdall">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-proof" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Public Proof</h2>
+    <p>The future transparency surface is receipt-shaped: scope and consent, Bifrost work item, agent/human roles, model spend, human review hours, artifacts, accepted or rejected outcome, and lessons learned.</p>
+    <p><a href="/Blog/daily-damage-report/">Daily Damage Report</a> · <a href="/Graph">Site graph</a></p>
+  </div>
+
+  <div id="gamecult-vn-roadmap" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Roadmap Shape</h2>
+    <p>The public path is Bifrost-first private alpha, proof sprint, design partners, fellows/support pilots, and only then larger social-support machinery under legal review.</p>
+    <p><a href="/Docs/Bifrost">Current Bifrost rollout</a></p>
+  </div>
+</section>

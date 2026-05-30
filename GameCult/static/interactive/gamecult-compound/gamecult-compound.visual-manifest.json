@@ -1,0 +1,61 @@
+{
+  "asset_base": "/static/interactive/cotsc-praxis/",
+  "default_caption": "GameCult Compound",
+  "scenes": {
+    "compound": { "label": "Front Gate" },
+    "forge": { "label": "Epiphany Forge" },
+    "ledger": { "label": "Bifrost Ledger Hall" },
+    "archive": { "label": "VoidBot Archive Room" },
+    "library": { "label": "CultLib Library" },
+    "gate": { "label": "Heimdall Gatehouse" },
+    "receipts": { "label": "Proof Walk" }
+  },
+  "actors": {
+    "Void": { "avatar": "void.png" },
+    "Epiphany": { "avatar": "epiphany.png" },
+    "Libby": { "avatar": "libby.png" },
+    "Heimdall": { "avatar": "heimdall.png" }
+  },
+  "dom_cards": {
+    "studio": {
+      "title": "Studio",
+      "selector": "#gamecult-vn-studio"
+    },
+    "projects": {
+      "title": "Project Atlas",
+      "selector": "#gamecult-vn-projects"
+    },
+    "docs": {
+      "title": "Docs",
+      "selector": "#gamecult-vn-docs"
+    },
+    "epiphany": {
+      "title": "Epiphany",
+      "selector": "#gamecult-vn-epiphany"
+    },
+    "bifrost": {
+      "title": "Bifrost",
+      "selector": "#gamecult-vn-bifrost"
+    },
+    "voidbot": {
+      "title": "VoidBot",
+      "selector": "#gamecult-vn-voidbot"
+    },
+    "cultlib": {
+      "title": "CultLib",
+      "selector": "#gamecult-vn-cultlib"
+    },
+    "heimdall": {
+      "title": "Heimdall",
+      "selector": "#gamecult-vn-heimdall"
+    },
+    "proof": {
+      "title": "Receipts",
+      "selector": "#gamecult-vn-proof"
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "selector": "#gamecult-vn-roadmap"
+    }
+  }
+}

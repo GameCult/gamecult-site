@@ -5,15 +5,45 @@
     "caption": "The Aquarium Agora"
   },
   "actors": {
-    "Void": { "avatar": "void.png" },
-    "Aqua": { "avatar": "aqua.png" },
-    "Nibu": { "avatar": "nibu.png" },
-    "Weksa": { "avatar": "weksa.png" },
-    "Epiphany": { "avatar": "epiphany.png" },
-    "Kiko": { "avatar": "kiko.png" },
-    "Heimdall": { "avatar": "heimdall.png" },
-    "Libby": { "avatar": "libby.png" },
-    "Druzkai": { "avatar": "druzkai.png" },
-    "Huginn": { "avatar": "huginn.png" }
+    "Void": {
+      "avatar": "void.png",
+      "character_sheet": "character-sheets/void-sheet.png"
+    },
+    "Aqua": {
+      "avatar": "aqua.png",
+      "character_sheet": "character-sheets/aqua-sheet.png"
+    },
+    "Nibu": {
+      "avatar": "nibu.png",
+      "character_sheet": "character-sheets/nibu-sheet.png"
+    },
+    "Weksa": {
+      "avatar": "weksa.png",
+      "character_sheet": "character-sheets/weksa-sheet.png"
+    },
+    "Epiphany": {
+      "avatar": "epiphany.png",
+      "character_sheet": "character-sheets/epiphany-sheet.png"
+    },
+    "Kiko": {
+      "avatar": "kiko.png",
+      "character_sheet": "character-sheets/kiko-sheet.png"
+    },
+    "Heimdall": {
+      "avatar": "heimdall.png",
+      "character_sheet": "character-sheets/heimdall-sheet.png"
+    },
+    "Libby": {
+      "avatar": "libby.png",
+      "character_sheet": "character-sheets/libby-sheet.png"
+    },
+    "Druzkai": {
+      "avatar": "druzkai.png",
+      "character_sheet": "character-sheets/druzkai-sheet.png"
+    },
+    "Huginn": {
+      "avatar": "huginn.png",
+      "character_sheet": "character-sheets/huginn-sheet.png"
+    }
   }
 }

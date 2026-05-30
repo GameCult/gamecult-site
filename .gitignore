@@ -27,3 +27,4 @@ Thumbs.db
 /quartz-site/public/
 /quartz-site/.quartz-cache/
 /quartz-site/tsconfig.tsbuildinfo
+/.quartz-build-tmp

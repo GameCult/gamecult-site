@@ -3,6 +3,8 @@ VAR visited_bifrost = false
 VAR visited_voidbot = false
 VAR visited_cultlib = false
 VAR visited_heimdall = false
+VAR visited_proof = false
+VAR visited_count = 0
 
 -> welcome
 
@@ -11,38 +13,41 @@ VAR visited_heimdall = false
 # avatar: void
 # scene: compound
 # dom: studio
-Welcome to GameCult. The front door used to be a manifesto with pockets. Now it is a tour.
+Welcome to GameCult: an open game studio building strange worlds, public tools, and the receipts needed to make creative work inspectable.
 -> welcome_2
 
 === welcome_2 ===
 # speaker: Void
 # avatar: void
 # scene: compound
-# dom: studio,proof
-Every card in the scene is still Quartz DOM from the public site. I can make it friendlier, but I do not get to make it unverifiable. Charming, tragic, necessary.
+# dom: studio,projects
+I am Void, your guide for the front compound. The rooms are project doors, the hosts are Faces--public project avatars that speak with receipts nearby--and every friendly card still points back to the plain wiki. Charm is allowed. Hiding the documents is not.
 -> hub
 
 === hub ===
 # speaker: Void
 # avatar: void
 # scene: compound
-# dom: studio
-Where do you want to walk first?
-+ [Meet Epiphany at the forge] -> epiphany
-+ [Visit Bifrost and the public work ledger] -> bifrost
-+ [Find VoidBot in the archive room] -> voidbot
-+ [Ask Libby about CultLib and typed state] -> cultlib
-+ [Ask Heimdall about identity and consent] -> heimdall
-+ [Show me proof, receipts, and current risk] -> proof
+# dom: studio,projects
+Each door answers a different visitor problem. Pick the one that sounds like the itch.
++ [How do agents remember work? Meet Epiphany at the forge] -> epiphany
++ [How does public labor become a receipt? Visit Bifrost] -> bifrost
++ [Where did that lore or decision come from? Find VoidBot] -> voidbot
++ [How do records stay findable and typed? Ask Libby] -> cultlib
++ [Who is allowed to cross a boundary? Ask Heimdall] -> heimdall
++ [What proof exists, and what is still risky? Show me receipts] -> proof
 + [I just need the normal wiki] -> wiki
 
 === epiphany ===
-~ visited_epiphany = true
+{ not visited_epiphany:
+    ~ visited_epiphany = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Epiphany
 # avatar: epiphany
 # scene: forge
 # dom: epiphany,proof
-I am Epiphany: the repo that keeps asking agents to write down what they think they are doing before they start improving the wallpaper with a hammer.
+Epiphany is at the forge with a map pinned beside the workbench, comparing what an agent said it would do against the files it actually touched. Someone has written "do not improve wallpaper with hammer" on the safety rail. Sensible, humiliating, necessary.
 -> epiphany_2
 
 === epiphany_2 ===
@@ -50,16 +55,19 @@ I am Epiphany: the repo that keeps asking agents to write down what they think t
 # avatar: epiphany
 # scene: forge
 # dom: epiphany
-My job is persistent agent cognition: maps, evidence, verification, role lanes, reorientation, and enough typed state that future work can disagree with the past instead of reenacting it.
+My job is to stop AI helpers from forgetting the room they are standing in. I keep maps, evidence, and role lanes outside the chat fog so future work can argue with the past instead of accidentally reenacting it in a nicer hat.
 -> hub_return
 
 === bifrost ===
-~ visited_bifrost = true
+{ not visited_bifrost:
+    ~ visited_bifrost = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Void
 # avatar: void
 # scene: ledger
 # dom: bifrost,proof
-Bifrost is where the social promise stops being a speech and starts becoming records: topics, work items, dispatches, receipts, credit, reward pressure, and review.
+Bifrost is the ledger hall. A contributor proposes work, the community argues priority, someone claims the task, reviewers accept or reject the result, and the receipt remembers who did what instead of letting chat scroll bury the body.
 -> bifrost_2
 
 === bifrost_2 ===
@@ -67,11 +75,14 @@ Bifrost is where the social promise stops being a speech and starts becoming rec
 # avatar: void
 # scene: ledger
 # dom: bifrost
-It is not here to cosplay a solved economy. It is here to make the unfinished one visible enough that people can inspect it before it starts touching money or support.
+It is not a solved economy with a cape on. It is a way to make unfinished labor, credit, risk, and support visible before those records start touching money.
 -> hub_return
 
 === voidbot ===
-~ visited_voidbot = true
+{ not visited_voidbot:
+    ~ visited_voidbot = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Void
 # avatar: void
 # scene: archive
@@ -84,16 +95,19 @@ VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore l
 # avatar: void
 # scene: archive
 # dom: voidbot
-Repo Faces grow out of that same pressure. A project should be able to meet you, explain itself, and point at its own evidence without pretending the avatar is the source of truth.
+People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Faces grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
 -> hub_return
 
 === cultlib ===
-~ visited_cultlib = true
+{ not visited_cultlib:
+    ~ visited_cultlib = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Libby
 # avatar: libby
 # scene: library
 # dom: cultlib,docs
-I am Libby, which means I get the shelves. CultLib, CultCache, CultNet, and CultMesh are the boring sacred organs: typed memory, transport, and distributed state that can be inspected without divination.
+I am Libby, which means I get the shelves and the little stamp that says "no, this pile of blobs is not a library." CultLib is the shared system for keeping records findable, typed, and movable between tools.
 -> cultlib_2
 
 === cultlib_2 ===
@@ -101,16 +115,19 @@ I am Libby, which means I get the shelves. CultLib, CultCache, CultNet, and Cult
 # avatar: libby
 # scene: library
 # dom: cultlib
-The rule is simple enough to hurt: when both sides are ours, use typed documents. Blobs are tolerated at the border, not crowned in the treasury.
+The first shelves are simple: stored records, messages, and shared state. Internally we call them CultCache, CultNet, and CultMesh, because apparently even librarians are allowed one dramatic vice. If both sides are ours, the record gets a shape.
 -> hub_return
 
 === heimdall ===
-~ visited_heimdall = true
+{ not visited_heimdall:
+    ~ visited_heimdall = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Heimdall
 # avatar: heimdall
 # scene: gate
 # dom: heimdall,bifrost
-Heimdall is the gate: identity, grants, sessions, consent, revocation, and the question of who may cross which boundary under which authority.
+I am Heimdall. I check the badge, the grant, the session, and the revocation list before anyone crosses the line. A gate that cannot refuse is not consent; it is decoration with a login button.
 -> heimdall_2
 
 === heimdall_2 ===
@@ -122,11 +139,15 @@ Transparency without consent becomes exposure. Access without revocation becomes
 -> hub_return
 
 === proof ===
+{ not visited_proof:
+    ~ visited_proof = true
+    ~ visited_count = visited_count + 1
+}
 # speaker: Void
 # avatar: void
 # scene: receipts
 # dom: proof,roadmap
-The dossier points at the future: public proof runs, Bifrost-first work records, accepted or rejected artifacts, human review burden, model spend, lessons, and support rules.
+The proof wall starts with current evidence: project pages, repo links, site graph, damage reports, and a receipt checklist for what the future ledger must show. It is not enough yet. That is the point of making the gap visible.
 -> proof_2
 
 === proof_2 ===
@@ -134,7 +155,7 @@ The dossier points at the future: public proof runs, Bifrost-first work records,
 # avatar: void
 # scene: receipts
 # dom: proof
-This page is only the front window. Bifrost should become the canonical ledger. The website explains the machine and mirrors public receipts; it does not get to quietly become the machine.
+A proper receipt will name scope, consent, work item, agent and human roles, model spend, review burden, artifacts, outcome, and lesson. Bifrost should become that canonical ledger; the website mirrors it and admits the risk while the machinery is still young.
 -> hub_return
 
 === wiki ===
@@ -149,14 +170,14 @@ Good instinct. The normal wiki is still here. The story is a guide, not a velvet
 # speaker: Void
 # avatar: void
 # scene: compound
-# dom: studio
-Want another door?
-+ [Epiphany] -> epiphany
-+ [Bifrost] -> bifrost
-+ [VoidBot] -> voidbot
-+ [CultLib] -> cultlib
-+ [Heimdall] -> heimdall
-+ [Proof and roadmap] -> proof
+# dom: studio,projects
+Want another door? {visited_count >= 3: The floor plan is coming into focus: your checked doors show what you have visited, and the remaining plaques still name the larger machine.}
++ [{visited_epiphany: Revisit Epiphany: agent memory | How do agents remember work? Meet Epiphany}] -> epiphany
++ [{visited_bifrost: Revisit Bifrost: work receipts | How does public labor become a receipt? Visit Bifrost}] -> bifrost
++ [{visited_voidbot: Revisit VoidBot: archive search | Where did that lore or decision come from? Find VoidBot}] -> voidbot
++ [{visited_cultlib: Revisit Libby: typed records | How do records stay findable and typed? Ask Libby}] -> cultlib
++ [{visited_heimdall: Revisit Heimdall: consent gate | Who is allowed to cross a boundary? Ask Heimdall}] -> heimdall
++ [{visited_proof: Revisit proof and roadmap | What proof exists, and what is still risky? Show me receipts}] -> proof
 + [Enough tour; show me the links] -> done
 
 === done ===
@@ -164,5 +185,5 @@ Want another door?
 # avatar: void
 # scene: compound
 # dom: docs,projects
-Then take the plain doors. If the character layer ever makes the documents harder to reach, we have built the wrong altar.
+Then take the plain doors. {visited_count == 0: You skipped the ceremony and went straight to the documents. Correct behavior. | You have seen {visited_count} project rooms; the links below are the same machinery without me standing in front of it.} If I make the documents harder to reach, I have failed the tour.
 -> END

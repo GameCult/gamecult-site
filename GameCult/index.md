@@ -78,8 +78,8 @@ compositeSections:
   <div id="gamecult-vn-studio" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>GameCult</h2>
     <p>GameCult is a distributed game studio building open worlds, experiments, fiction, and the public machinery required to make creative work inspectable instead of hidden in private chat sludge.</p>
-    <p>The front page is now a Face layer over the wiki: friendly enough to enter, but every door still opens onto durable docs.</p>
-    <p><a href="/Open-Source-Model">Open Source Model</a> · <a href="/Contributing">Contributing</a> · <a href="/a-place-for-everyone">A Place for Everyone</a></p>
+    <p>This page gives new readers a guided path through the public wiki. It should make the place easier to enter while keeping every document door plainly reachable.</p>
+    <p><a href="/Open-Source-Model">Open Source Model</a> | <a href="/Contributing">Contributing</a> | <a href="/a-place-for-everyone">A Place for Everyone</a></p>
   </div>
 
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -96,38 +96,38 @@ compositeSections:
 
   <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Epiphany</h2>
-    <p>Persistent agent cognition for coding work: typed state, maps, evidence, verification, role separation, reorientation, and less transcript fog pretending to be memory.</p>
-    <p><a href="/Projects/Epiphany">Project page</a> · <a href="https://github.com/GameCult/Epiphany">GitHub repo</a></p>
+    <p>Epiphany helps coding agents remember the job outside the chat transcript: explicit maps, evidence, role lanes, and verification before the next tool swing.</p>
+    <p><a href="/Projects/Epiphany">Project page</a> | <a href="https://github.com/GameCult/Epiphany">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-bifrost" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Bifrost</h2>
-    <p>The labor/governance platform: topics, work items, motions, receipts, contributor history, reward pressure, and payout/support logic once counsel and review gates are real.</p>
-    <p><a href="/Docs/Bifrost">Bifrost docs</a> · <a href="https://github.com/GameCult/Bifrost">GitHub repo</a></p>
+    <p>Bifrost turns public work into inspectable records: proposed tasks, claims, reviews, receipts, contributor history, and the reward/support pressure that must not hide in private chat.</p>
+    <p><a href="/Docs/Bifrost">Bifrost docs</a> | <a href="https://github.com/GameCult/Bifrost">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-voidbot" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>VoidBot</h2>
-    <p>Discord-native memory and retrieval: archived history, indexed repos, lore lookup, semantic search, and Codex handoff when chat stops being a sane workspace.</p>
-    <p><a href="/Projects/VoidBot">Project page</a> · <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
+    <p>VoidBot makes project memory askable: archived Discord history, indexed repos, lore lookup, semantic search, and Codex handoff when chat stops being a sane workspace.</p>
+    <p><a href="/Projects/VoidBot">Project page</a> | <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>CultLib</h2>
-    <p>The shared persistence and protocol family: CultCache, CultNet, CultMesh, typed documents, and the anti-blob instinct that keeps public memory inspectable.</p>
-    <p><a href="/Projects/CultLib">Project page</a> · <a href="https://github.com/GameCult/CultLib">GitHub repo</a></p>
+    <p>CultLib is the shared record shelf: typed documents first, protocol names second, and no convenient blob crowned as truth just because it was nearby.</p>
+    <p><a href="/Projects/CultLib">Project page</a> | <a href="https://github.com/GameCult/CultLib">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-heimdall" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Heimdall</h2>
     <p>The identity and capability authority taking shape for GameCult apps: OAuth, linked identities, grants, consent, revocation, and signed claims.</p>
-    <p><a href="/Projects/Heimdall">Project page</a> · <a href="https://github.com/GameCult/Heimdall">GitHub repo</a></p>
+    <p><a href="/Projects/Heimdall">Project page</a> | <a href="https://github.com/GameCult/Heimdall">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-proof" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Public Proof</h2>
-    <p>The future transparency surface is receipt-shaped: scope and consent, Bifrost work item, agent/human roles, model spend, human review hours, artifacts, accepted or rejected outcome, and lessons learned.</p>
-    <p><a href="/Blog/daily-damage-report/">Daily Damage Report</a> · <a href="/Graph">Site graph</a></p>
+    <p>The proof surface is still young. Today it starts with repo links, damage reports, graph visibility, and a receipt checklist for future Bifrost work records.</p>
+    <p><a href="/Blog/daily-damage-report/">Daily Damage Report</a> | <a href="/Graph">Site graph</a></p>
   </div>
 
   <div id="gamecult-vn-roadmap" class="gamecult-vn-source-card" data-sai-dom-source="true">

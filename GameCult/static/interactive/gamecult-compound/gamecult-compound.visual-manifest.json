@@ -1,61 +1,171 @@
 {
   "asset_base": "/static/interactive/cotsc-praxis/",
   "default_caption": "GameCult Compound",
+  "global_style_cue": "Stripped-down website visual novel stage using clean card chrome, high-contrast public-document panels, restrained studio lighting, visible project-room affordances, and no full background image. The scene is represented through stage cards, route plaques, document surfaces, and speaker portraits so it blends into the Quartz page instead of covering it.",
+  "metadata_contract": "Sai currently renders scene labels, actor avatars, and dom_cards. The scene_set, camera, visual_anchor, dom_card_roles, visual_ref, and state_modifiers fields are canonical reviewer/tooling metadata for the stripped card-stage plan until Sai exposes them through runtime probes or visual hooks.",
+  "scene_set": {
+    "id": "gamecult_compound_card_stage",
+    "purpose": "A reusable card-chrome compound layout for homepage replay. The stage is not a generated background; it is a durable arrangement of document-backed route cards, speaker panels, and room-specific props that can preserve hub geography and visited-state markers.",
+    "layout": "Wide compound hub with route plaques arranged around the dialogue frame. Each project room swaps in two or three DOM-backed cards plus a small prop metaphor: forge workbench, ledger counter, archive terminal, library shelves, gate console, or proof wall. Return visits mark completed rooms with checked plaque state.",
+    "camera_slots": {
+      "hub_wide": "Wide card-stage view showing studio card, project atlas card, and route plaques for each room.",
+      "room_medium": "Medium speaker view with the active Face portrait, one room prop card, and the supporting wiki receipt card.",
+      "receipt_close": "Close document-card view for proof, docs, and source links."
+    }
+  },
   "scenes": {
-    "compound": { "label": "Front Gate" },
-    "forge": { "label": "Epiphany Forge" },
-    "ledger": { "label": "Bifrost Ledger Hall" },
-    "archive": { "label": "VoidBot Archive Room" },
-    "library": { "label": "CultLib Library" },
-    "gate": { "label": "Heimdall Gatehouse" },
-    "receipts": { "label": "Proof Walk" }
+    "compound": {
+      "label": "Front Gate",
+      "camera": "hub_wide",
+      "visible_actors": ["Void"],
+      "visual_anchor": "A public studio compound rendered as clean website cards rather than a painted background: central GameCult welcome card, project-atlas card, docs card, and route plaques for forge, ledger, archive, library, gate, proof wall, and direct wiki exit.",
+      "dom_card_roles": {
+        "studio": "central welcome placard",
+        "projects": "project atlas signboard",
+        "docs": "plain wiki exit"
+      }
+    },
+    "forge": {
+      "label": "Epiphany Forge",
+      "camera": "room_medium",
+      "visible_actors": ["Epiphany"],
+      "visual_anchor": "Agent-state forge represented by a workbench card, pinned machine map, evidence ledger sheet, verification checklist, and Epiphany portrait beside the project receipt card.",
+      "dom_card_roles": {
+        "epiphany": "project receipt card",
+        "proof": "evidence sheet on the workbench"
+      }
+    },
+    "ledger": {
+      "label": "Bifrost Ledger Hall",
+      "camera": "room_medium",
+      "visible_actors": ["Void"],
+      "visual_anchor": "Public labor ledger counter with work item slips, claim stamps, review marks, credit trail, and payout-risk warning card; Bifrost documentation appears as the inspectable receipt behind the scene.",
+      "dom_card_roles": {
+        "bifrost": "ledger desk card",
+        "proof": "receipt example panel"
+      }
+    },
+    "archive": {
+      "label": "VoidBot Archive Room",
+      "camera": "room_medium",
+      "visible_actors": ["Void"],
+      "visual_anchor": "Archive terminal and shelf-card scene with Discord history, repo search, lore lookup, and Codex handoff routes shown as labeled drawers rather than abstract database language.",
+      "dom_card_roles": {
+        "voidbot": "archive terminal card",
+        "projects": "repo atlas drawer"
+      }
+    },
+    "library": {
+      "label": "CultLib Library",
+      "camera": "room_medium",
+      "visible_actors": ["Libby"],
+      "visual_anchor": "Typed-record library with labeled shelves for stored documents, messages, and distributed state; Libby stands near a stamp pad marked with schema, provenance, and public inspection.",
+      "dom_card_roles": {
+        "cultlib": "library shelf card",
+        "docs": "public docs shelf"
+      }
+    },
+    "gate": {
+      "label": "Heimdall Gatehouse",
+      "camera": "room_medium",
+      "visible_actors": ["Heimdall"],
+      "visual_anchor": "Identity and consent gate rendered as a credential console with grant, session, revocation, and signed-claim panels; the gate visibly has both entry and refusal paths.",
+      "dom_card_roles": {
+        "heimdall": "gate console card",
+        "bifrost": "authority trail card"
+      }
+    },
+    "receipts": {
+      "label": "Proof Walk",
+      "camera": "receipt_close",
+      "visible_actors": ["Void"],
+      "visual_anchor": "Proof wall made of public document cards: current site graph, damage report, repo links, future Bifrost receipt checklist, known-risk note, and roadmap panel.",
+      "dom_card_roles": {
+        "proof": "current receipt checklist",
+        "roadmap": "future ledger path"
+      }
+    }
   },
   "actors": {
-    "Void": { "avatar": "void.png" },
-    "Epiphany": { "avatar": "epiphany.png" },
-    "Libby": { "avatar": "libby.png" },
-    "Heimdall": { "avatar": "heimdall.png" }
+    "Void": {
+      "avatar": "void.png",
+      "visual_ref_type": "dom_avatar_portrait_ref",
+      "visual_ref": "Dry guide Face with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts."
+    },
+    "Epiphany": {
+      "avatar": "epiphany.png",
+      "visual_ref_type": "dom_avatar_portrait_ref",
+      "visual_ref": "Bright agent-state forge Face with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose."
+    },
+    "Libby": {
+      "avatar": "libby.png",
+      "visual_ref_type": "dom_avatar_portrait_ref",
+      "visual_ref": "Open-knowledge librarian Face with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge."
+    },
+    "Heimdall": {
+      "avatar": "heimdall.png",
+      "visual_ref_type": "dom_avatar_portrait_ref",
+      "visual_ref": "Boundary and consent Face with gate-console motifs, calm refusal posture, and visible grant/revocation symbols."
+    }
+  },
+  "state_modifiers": {
+    "visited_epiphany": "Mark forge route plaque as visited and add a small checked map pin on return to the compound hub.",
+    "visited_bifrost": "Mark ledger route plaque as visited and add a stamped receipt icon on return to the compound hub.",
+    "visited_voidbot": "Mark archive route plaque as visited and add a retrieved-thread icon on return to the compound hub.",
+    "visited_cultlib": "Mark library route plaque as visited and add a cataloged-record icon on return to the compound hub.",
+    "visited_heimdall": "Mark gate route plaque as visited and add a revoked/approved grant icon pair on return to the compound hub.",
+    "visited_proof": "Mark proof wall route plaque as visited and pin the roadmap card beside the current receipt checklist."
   },
   "dom_cards": {
     "studio": {
       "title": "Studio",
-      "selector": "#gamecult-vn-studio"
+      "selector": "#gamecult-vn-studio",
+      "role": "central public-studio orientation card"
     },
     "projects": {
       "title": "Project Atlas",
-      "selector": "#gamecult-vn-projects"
+      "selector": "#gamecult-vn-projects",
+      "role": "route signboard to public projects"
     },
     "docs": {
       "title": "Docs",
-      "selector": "#gamecult-vn-docs"
+      "selector": "#gamecult-vn-docs",
+      "role": "plain wiki exit and operating docs shelf"
     },
     "epiphany": {
       "title": "Epiphany",
-      "selector": "#gamecult-vn-epiphany"
+      "selector": "#gamecult-vn-epiphany",
+      "role": "agent-memory project receipt"
     },
     "bifrost": {
       "title": "Bifrost",
-      "selector": "#gamecult-vn-bifrost"
+      "selector": "#gamecult-vn-bifrost",
+      "role": "public work-ledger receipt"
     },
     "voidbot": {
       "title": "VoidBot",
-      "selector": "#gamecult-vn-voidbot"
+      "selector": "#gamecult-vn-voidbot",
+      "role": "archive and retrieval terminal"
     },
     "cultlib": {
       "title": "CultLib",
-      "selector": "#gamecult-vn-cultlib"
+      "selector": "#gamecult-vn-cultlib",
+      "role": "typed-record shelf card"
     },
     "heimdall": {
       "title": "Heimdall",
-      "selector": "#gamecult-vn-heimdall"
+      "selector": "#gamecult-vn-heimdall",
+      "role": "identity and consent gate console"
     },
     "proof": {
       "title": "Receipts",
-      "selector": "#gamecult-vn-proof"
+      "selector": "#gamecult-vn-proof",
+      "role": "current proof and risk checklist"
     },
     "roadmap": {
       "title": "Roadmap",
-      "selector": "#gamecult-vn-roadmap"
+      "selector": "#gamecult-vn-roadmap",
+      "role": "future public-ledger path"
     }
   }
 }

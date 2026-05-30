@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-05-29
+date: 2026-05-30
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -13,10 +13,13 @@ This is the running index for the public work log across GameCult's repos. Each 
 
 ## Current Week
 
-- [Week 06 - 23 May 2026 onward](/Blog/daily-damage-report/week-06)  
-  The current open week: the repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-face folklore.
+- [Week 07 - 30 May 2026 onward](/Blog/daily-damage-report/week-07)  
+  The current open week: GitHub only admits one same-day public push, but the local bench is already busy with Epiphany proof law, live ingest and reservoir surgery, IPA trial swarms, DOM-card site organs, and private ops work carrying signal behind the curtain.
 
 ## Archive
+
+- [Week 06 - 23 May 2026 to 29 May 2026](/Blog/daily-damage-report/week-06)  
+  The repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-face folklore.
 
 - [Week 05 - 16 May 2026 to 22 May 2026](/Blog/daily-damage-report/week-05)  
   Repo-face governance became a real operating surface, Zyphos kept compacting the graph shell, Quartz finally stopped hand-rolling one more index, and the swarm continued its public self-surgery without developing shame.

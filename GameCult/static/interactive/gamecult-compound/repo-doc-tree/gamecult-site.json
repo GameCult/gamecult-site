@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 86,
+  "documentCount": 87,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -470,6 +470,13 @@
       "title": "Site Architecture",
       "path": "GameCult/Docs/Site-Architecture.md",
       "href": "/Docs/Site-Architecture",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/dossier.md",
+      "title": "Dossier",
+      "path": "GameCult/dossier.md",
+      "href": "/dossier",
       "extension": "md"
     },
     {

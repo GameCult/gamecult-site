@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 214,
+  "documentCount": 215,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -890,6 +890,13 @@
       "title": "Mimir Face",
       "path": "docs/mimir-face.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/mimir-face.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/move-controller-stream.md",
+      "title": "Move Controller Stream",
+      "path": "docs/move-controller-stream.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/move-controller-stream.md",
       "extension": "md"
     },
     {

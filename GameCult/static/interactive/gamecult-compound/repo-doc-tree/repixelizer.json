@@ -1,15 +1,8 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "repixelizer",
-  "documentCount": 63,
+  "documentCount": 62,
   "documents": [
-    {
-      "id": "repixelizer:.pytest_cache/README.md",
-      "title": ".Pytest Cache",
-      "path": ".pytest_cache/README.md",
-      "href": "https://github.com/GameCult/repixelizer/blob/main/.pytest_cache/README.md",
-      "extension": "md"
-    },
     {
       "id": "repixelizer:.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
       "title": "LICENSE",

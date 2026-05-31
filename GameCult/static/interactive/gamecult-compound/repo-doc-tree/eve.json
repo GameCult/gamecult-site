@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Eve",
-  "documentCount": 17,
+  "documentCount": 18,
   "documents": [
     {
       "id": "Eve:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -99,6 +99,13 @@
       "title": "Cultmesh Streaming Ui Framework",
       "path": "docs/cultmesh-streaming-ui-framework.md",
       "href": "https://github.com/GameCult/Eve/blob/main/docs/cultmesh-streaming-ui-framework.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/eve-dsl-reactive-bindings.md",
+      "title": "Eve Dsl Reactive Bindings",
+      "path": "docs/eve-dsl-reactive-bindings.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/eve-dsl-reactive-bindings.md",
       "extension": "md"
     },
     {

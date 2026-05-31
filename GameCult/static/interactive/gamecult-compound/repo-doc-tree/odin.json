@@ -1,0 +1,21 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Odin",
+  "documentCount": 2,
+  "documents": [
+    {
+      "id": "Odin:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Odin:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

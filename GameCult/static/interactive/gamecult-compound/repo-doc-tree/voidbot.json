@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "VoidBot",
-  "documentCount": 11274,
+  "documentCount": 11637,
   "documents": [
     {
       "id": "VoidBot:.voidbot/artifacts/001faf51-3353-4ce8-98bd-5e8c8035a082/bifrost-bridge/epiphany-discord-post.md",
@@ -190,6 +190,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/00bbd448-1568-4ba7-9de0-822238839b6f/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00bbd448-1568-4ba7-9de0-822238839b6f/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/00ee1df8-f997-468b-9479-f32d601ce448/request.md",
       "extension": "md"
     },
     {
@@ -998,6 +1033,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/02f6fd19-f96e-4858-89d5-5d2aa2aacd31/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/030f5b12-093b-431a-82fb-2555bdf06743/bifrost-bridge/epiphany-discord-post.md",
       "title": "Epiphany Discord Post",
       "path": ".voidbot/artifacts/030f5b12-093b-431a-82fb-2555bdf06743/bifrost-bridge/epiphany-discord-post.md",
@@ -1656,6 +1726,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/bifrost-bridge/nibu-discord-post.md",
+      "title": "Nibu Discord Post",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/bifrost-bridge/nibu-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/bifrost-bridge/nibu-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/050b57b0-2434-4844-8f9a-076348a62e83/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/052ec2a4-7302-442f-a883-06b7c7a21293/bifrost-bridge/mimir-discord-post.md",
       "title": "Mimir Discord Post",
       "path": ".voidbot/artifacts/052ec2a4-7302-442f-a883-06b7c7a21293/bifrost-bridge/mimir-discord-post.md",
@@ -1730,6 +1842,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/057cb978-df13-4709-9e8c-645f442d95f9/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057cb978-df13-4709-9e8c-645f442d95f9/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/057f4789-7c8f-42e6-95c8-c5aaf0bb20ed/request.md",
       "extension": "md"
     },
     {
@@ -2559,6 +2706,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/bifrost-bridge/weksa-discord-post.md",
+      "title": "Weksa Discord Post",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/bifrost-bridge/weksa-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/bifrost-bridge/weksa-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0800da8a-fed0-489e-860c-df0cc12d2f57/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/080e2fec-5e1a-49da-b9cd-88c451ce0576/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/080e2fec-5e1a-49da-b9cd-88c451ce0576/codex-turn-1-debug.md",
@@ -2703,6 +2892,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/0872fea8-3f0d-40ff-868a-31f8126de6a2/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0872fea8-3f0d-40ff-868a-31f8126de6a2/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/08b7fe0c-0bb0-4c7e-b8de-3e850f5a94ca/request.md",
       "extension": "md"
     },
     {
@@ -3984,6 +4208,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/0d35606e-9228-4ac6-9601-7706a1babb08/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d35606e-9228-4ac6-9601-7706a1babb08/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/bifrost-bridge/weksa-discord-post.md",
+      "title": "Weksa Discord Post",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/bifrost-bridge/weksa-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/bifrost-bridge/weksa-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/0d728475-db4a-45d7-a12b-f48c7be3dc77/request.md",
       "extension": "md"
     },
     {
@@ -6556,6 +6822,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1563655f-599a-4b6e-96f8-a17c60e808b5/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/15704460-dbe7-4b22-b561-b729b75a22c2/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/15704460-dbe7-4b22-b561-b729b75a22c2/codex-turn-1-debug.md",
@@ -7050,6 +7351,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/16ceb4bb-1112-47ae-8396-fb9b1fc8e593/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16ceb4bb-1112-47ae-8396-fb9b1fc8e593/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/bifrost-bridge/fensalir-discord-post.md",
+      "title": "Fensalir Discord Post",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/bifrost-bridge/fensalir-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/bifrost-bridge/fensalir-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/16e495a0-85b9-41cd-8efa-01d15a3b08c2/request.md",
       "extension": "md"
     },
     {
@@ -9633,6 +9976,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/1fe7100f-8ad5-416f-8f59-0403ab3019e4/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/1fe7100f-8ad5-416f-8f59-0403ab3019e4/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/bifrost-bridge/weksa-discord-post.md",
+      "title": "Weksa Discord Post",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/bifrost-bridge/weksa-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/bifrost-bridge/weksa-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2016c611-0971-474a-ac86-88d036cc4eb5/request.md",
       "extension": "md"
     },
     {
@@ -13087,6 +13472,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2a6acf04-18d9-4256-9d8c-3ce0f33df5ca/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/2a7d3a91-8489-4ed2-819b-44d81fe6c8dd/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/2a7d3a91-8489-4ed2-819b-44d81fe6c8dd/codex-turn-1-debug.md",
@@ -13413,6 +13833,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/2b20f6b8-f78b-4d49-a2f7-ea24f41606a7/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b20f6b8-f78b-4d49-a2f7-ea24f41606a7/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/bifrost-bridge/aqua-discord-post.md",
+      "title": "Aqua Discord Post",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/bifrost-bridge/aqua-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/bifrost-bridge/aqua-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/2b351895-818c-4696-9366-8c75236908e3/request.md",
       "extension": "md"
     },
     {
@@ -15992,6 +16454,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32509851-1f4d-4a9a-b181-1b5ad8e17d95/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/3252d3e0-5a2b-483d-ba3a-92446a87bb88/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/3252d3e0-5a2b-483d-ba3a-92446a87bb88/codex-turn-1-debug.md",
@@ -16171,6 +16668,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/32d0b010-d528-43ae-b75a-8a2edea53f3b/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32d0b010-d528-43ae-b75a-8a2edea53f3b/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/32f21c6f-cdbc-4b83-b08f-68c3170de2da/request.md",
       "extension": "md"
     },
     {
@@ -17602,6 +18134,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/bifrost-bridge/eve-discord-post.md",
+      "title": "Eve Discord Post",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/bifrost-bridge/eve-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/bifrost-bridge/eve-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/37eca509-1dc5-433f-b78b-033436fedc97/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/38132058-83ac-44b0-8e5e-cd03401418ea/bifrost-bridge/nibu-discord-post.md",
       "title": "Nibu Discord Post",
       "path": ".voidbot/artifacts/38132058-83ac-44b0-8e5e-cd03401418ea/bifrost-bridge/nibu-discord-post.md",
@@ -18222,6 +18796,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/39a976aa-c50c-40fe-9513-b23c3e6349c5/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39a976aa-c50c-40fe-9513-b23c3e6349c5/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/39adbe64-1a98-4ae4-b9e5-cdbdaf7ccbbf/request.md",
       "extension": "md"
     },
     {
@@ -19415,6 +20024,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/3d34dd42-bf2e-4966-9714-629c07a95c82/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/3d4e01a1-5a64-4090-8895-22b7c34a3a12/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/3d4e01a1-5a64-4090-8895-22b7c34a3a12/codex-turn-1-debug.md",
@@ -20381,6 +21025,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/40b4fab5-e35c-4c87-a532-1638dbefdeae/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/40e53224-1c2c-4891-b045-8376d31812fb/bifrost-bridge/weksa-discord-post.md",
       "title": "Weksa Discord Post",
       "path": ".voidbot/artifacts/40e53224-1c2c-4891-b045-8376d31812fb/bifrost-bridge/weksa-discord-post.md",
@@ -20910,6 +21589,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/420ef010-8bfa-4bbe-8277-c047f1c7033b/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/420ef010-8bfa-4bbe-8277-c047f1c7033b/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/423afdd8-ef0d-4544-ad01-ef4f9aeeef3f/request.md",
       "extension": "md"
     },
     {
@@ -22047,6 +22761,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc0bfc-c15c-43a4-9a99-6426207e3c7c/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/45cc6551-c52a-4c64-82fb-d8a40cebc871/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/45cc6551-c52a-4c64-82fb-d8a40cebc871/codex-turn-1-debug.md",
@@ -22079,6 +22828,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/45cc6551-c52a-4c64-82fb-d8a40cebc871/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45cc6551-c52a-4c64-82fb-d8a40cebc871/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/45d122a7-4b01-4c26-8108-6907045dc53c/request.md",
       "extension": "md"
     },
     {
@@ -25820,6 +26604,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5331fe0b-a73f-4207-81c1-2323d8dd628c/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/537c4177-cd81-49c5-8a37-b630deab6d33/bifrost-bridge/mimir-discord-post.md",
       "title": "Mimir Discord Post",
       "path": ".voidbot/artifacts/537c4177-cd81-49c5-8a37-b630deab6d33/bifrost-bridge/mimir-discord-post.md",
@@ -25859,6 +26678,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/537c4177-cd81-49c5-8a37-b630deab6d33/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/537c4177-cd81-49c5-8a37-b630deab6d33/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/53820d4e-172f-4263-bab7-9250a2b2be88/request.md",
       "extension": "md"
     },
     {
@@ -27332,6 +28186,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/588395fc-7a06-430e-b1fa-1204f2ceef79/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/58992fa0-1f90-48cc-959b-7776f8aaef59/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/58992fa0-1f90-48cc-959b-7776f8aaef59/codex-turn-1-debug.md",
@@ -27724,6 +28613,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a631920-0967-4a41-b92e-b71dc87c6e15/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/5a7d88cb-d995-4677-a305-e6b8c54b8653/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/5a7d88cb-d995-4677-a305-e6b8c54b8653/codex-turn-1-debug.md",
@@ -27756,6 +28680,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/5a7d88cb-d995-4677-a305-e6b8c54b8653/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a7d88cb-d995-4677-a305-e6b8c54b8653/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5a856652-c255-4188-b821-4c02826d53f9/request.md",
       "extension": "md"
     },
     {
@@ -28274,6 +29233,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/5be5c5d4-691a-4bd9-804a-e9902be18b81/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5be5c5d4-691a-4bd9-804a-e9902be18b81/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5c086aeb-2aaf-4f0b-877b-c74aa739cfd5/request.md",
       "extension": "md"
     },
     {
@@ -29110,6 +30104,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/5f4b213c-8a6d-47de-a62a-f15682cdd012/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/5f571866-3d7c-4bb7-8751-5c513ecb787c/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/5f571866-3d7c-4bb7-8751-5c513ecb787c/codex-turn-1-debug.md",
@@ -29359,6 +30388,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/60266833-3a5c-4178-927f-cba3454b1110/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/60266833-3a5c-4178-927f-cba3454b1110/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/bifrost-bridge/mimir-discord-post.md",
+      "title": "Mimir Discord Post",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/bifrost-bridge/mimir-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/bifrost-bridge/mimir-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/6026b2ce-92b1-4758-9097-82c242fe7763/request.md",
       "extension": "md"
     },
     {
@@ -30671,6 +31742,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/656eec68-d67f-4035-bdc2-adcc1c00dcdf/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/65805ba8-3d53-4971-a956-0b08759d9c1c/bifrost-bridge/epiphany-discord-post.md",
       "title": "Epiphany Discord Post",
       "path": ".voidbot/artifacts/65805ba8-3d53-4971-a956-0b08759d9c1c/bifrost-bridge/epiphany-discord-post.md",
@@ -31308,6 +32414,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/676948af-8ea1-4d3a-9e82-d511d0e5c4df/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/677ce121-a60e-400e-9d1d-7cdb6ccdd70a/bifrost-bridge/epiphany-discord-post.md",
       "title": "Epiphany Discord Post",
       "path": ".voidbot/artifacts/677ce121-a60e-400e-9d1d-7cdb6ccdd70a/bifrost-bridge/epiphany-discord-post.md",
@@ -31840,6 +32981,83 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68f325b7-430e-4c7d-ac29-4f810cd99011/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/bifrost-bridge/huginn-discord-post.md",
+      "title": "Huginn Discord Post",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/bifrost-bridge/huginn-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/bifrost-bridge/huginn-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/68fd1c8c-7059-4532-8774-a52f9004ef01/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/6907680d-643e-4196-b53e-fcfc1d934111/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/6907680d-643e-4196-b53e-fcfc1d934111/codex-turn-1-debug.md",
@@ -32012,6 +33230,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/699bdbc2-ff60-48f4-bf6b-9eceee1d21d2/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/699bdbc2-ff60-48f4-bf6b-9eceee1d21d2/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/69abda5b-a799-4776-a3af-7d04eefd294f/request.md",
       "extension": "md"
     },
     {
@@ -35666,6 +36919,125 @@
       "title": "Request",
       "path": ".voidbot/artifacts/77149cbb-4698-46ac-813c-1865756dbb08/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77149cbb-4698-46ac-813c-1865756dbb08/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/bifrost-bridge/aqua-discord-post.md",
+      "title": "Aqua Discord Post",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/bifrost-bridge/aqua-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/bifrost-bridge/aqua-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/7715b667-0fc4-463a-9a2a-7bf9983c3c03/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/771f3982-ca25-40f6-b38e-4790ed0da721/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/bifrost-bridge/weksa-discord-post.md",
+      "title": "Weksa Discord Post",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/bifrost-bridge/weksa-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/bifrost-bridge/weksa-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/77326c65-58f7-4a88-813c-48e5362bfb70/request.md",
       "extension": "md"
     },
     {
@@ -39351,6 +40723,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/832ce78f-c54f-4cb9-b155-478df59298e2/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/83378afb-c5a7-4d96-878d-699ec7c82d15/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/83378afb-c5a7-4d96-878d-699ec7c82d15/codex-turn-1-debug.md",
@@ -40755,6 +42162,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/89291a7d-107d-48c3-a2ba-26544433618a/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/89291a7d-107d-48c3-a2ba-26544433618a/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/893a1a97-63bc-4835-9fe0-abb28c0a15b8/request.md",
       "extension": "md"
     },
     {
@@ -42788,6 +44230,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8eb3bc69-d9df-4ce5-8695-fca501b769ea/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/8f2c4c18-7c42-4a36-9238-1b9e4a825799/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/8f2c4c18-7c42-4a36-9238-1b9e4a825799/codex-turn-1-debug.md",
@@ -42820,6 +44297,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/8f2c4c18-7c42-4a36-9238-1b9e4a825799/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f2c4c18-7c42-4a36-9238-1b9e4a825799/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8f4c7034-b0fc-4f5a-9434-9d4cdd088924/request.md",
       "extension": "md"
     },
     {
@@ -43583,6 +45095,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/91cc46ce-0f10-4b58-88f8-26ea86462bf4/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/91cc46ce-0f10-4b58-88f8-26ea86462bf4/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/92172553-0a2f-4564-8369-db1dc09a69d1/request.md",
       "extension": "md"
     },
     {
@@ -46649,6 +48196,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/9c4e56e5-210e-4ccb-8b42-159918adc7f4/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c4e56e5-210e-4ccb-8b42-159918adc7f4/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/9c576896-c395-4e96-9259-2ac57bd71a08/request.md",
       "extension": "md"
     },
     {
@@ -50810,6 +52392,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/a9cf2ec1-7682-411d-9263-541ceb249f54/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/a9d9125a-b812-4458-bf6a-024e82e80038/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/a9d9125a-b812-4458-bf6a-024e82e80038/codex-turn-1-debug.md",
@@ -51559,6 +53176,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ac929d55-dddf-456c-a781-80a974530424/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/acaef1d1-102a-427f-a9c1-9c18725d4471/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/acaef1d1-102a-427f-a9c1-9c18725d4471/codex-turn-1-debug.md",
@@ -51829,6 +53481,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/ad5d4c62-229e-4745-8fb1-df33ca88033c/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad5d4c62-229e-4745-8fb1-df33ca88033c/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ad6b3211-8168-4b5c-8dce-a6359d845368/request.md",
       "extension": "md"
     },
     {
@@ -52403,6 +54090,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/b030d077-15b5-438a-8029-f5aa830e8632/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b030d077-15b5-438a-8029-f5aa830e8632/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b03bb356-34da-4315-b4ec-a3867aa973dc/request.md",
       "extension": "md"
     },
     {
@@ -54034,6 +55756,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/b5043b2a-c9c5-4171-ba81-288a56043797/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5043b2a-c9c5-4171-ba81-288a56043797/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/b5105776-a8be-4632-bfeb-957cc0c61c29/request.md",
       "extension": "md"
     },
     {
@@ -56956,6 +58713,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/bddbbc7d-09fb-4485-8fcd-89ca80475337/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/bdf8bc9c-b50c-4dad-8568-da1f93c5c2d1/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/bdf8bc9c-b50c-4dad-8568-da1f93c5c2d1/codex-turn-1-debug.md",
@@ -58272,6 +60064,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c151fa4f-7c38-46d8-b2a9-0aa35b173ef8/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/c1736757-8fdf-45c7-8342-456ce1d9b1c6/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/c1736757-8fdf-45c7-8342-456ce1d9b1c6/codex-turn-1-debug.md",
@@ -59378,6 +61205,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/bifrost-bridge/libby-discord-post.md",
+      "title": "Libby Discord Post",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/bifrost-bridge/libby-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/bifrost-bridge/libby-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c472a607-630a-4b79-b84e-ed9011f950a2/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/c4738364-dd10-4267-bdf5-1bd7bbc99e5c/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/c4738364-dd10-4267-bdf5-1bd7bbc99e5c/codex-turn-1-debug.md",
@@ -59634,6 +61503,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/c525b0c3-a933-4de1-9618-f3f45d8222c7/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c525b0c3-a933-4de1-9618-f3f45d8222c7/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c52fba50-68ab-4be7-a29d-64207ad7a93f/request.md",
       "extension": "md"
     },
     {
@@ -60880,6 +62784,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/c86e4bfb-5bf1-47b0-8f9b-3c5c909979de/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c86e4bfb-5bf1-47b0-8f9b-3c5c909979de/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c8748e8d-39ec-49ed-ae32-76bf5454d182/request.md",
       "extension": "md"
     },
     {
@@ -64698,6 +66637,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d5bd2d6b-670d-4123-a68a-f2d995939e32/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/d5c1f158-22d4-436c-92fd-f3ce9849658a/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/d5c1f158-22d4-436c-92fd-f3ce9849658a/codex-turn-1-debug.md",
@@ -65482,6 +67456,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d8c838e7-c660-4cc7-87b8-ea3722a2b404/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/d8ca410a-3752-4acd-9f4f-c65ee9814c25/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/d8ca410a-3752-4acd-9f4f-c65ee9814c25/codex-turn-1-debug.md",
@@ -65668,6 +67677,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/d965017e-1342-465e-aecb-fdf9d4271eda/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d965017e-1342-465e-aecb-fdf9d4271eda/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/bifrost-bridge/weksa-discord-post.md",
+      "title": "Weksa Discord Post",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/bifrost-bridge/weksa-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/bifrost-bridge/weksa-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9724a59-dbcb-40c6-93b5-99cd135673a6/request.md",
       "extension": "md"
     },
     {
@@ -65864,6 +67915,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/d9cc24ef-5746-4d6f-a989-fdbea6476e7c/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9cc24ef-5746-4d6f-a989-fdbea6476e7c/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/bifrost-bridge/mimir-discord-post.md",
+      "title": "Mimir Discord Post",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/bifrost-bridge/mimir-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/bifrost-bridge/mimir-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/d9ebaa01-8c76-4500-8c75-e7fe78212b22/request.md",
       "extension": "md"
     },
     {
@@ -67967,6 +70060,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/bifrost-bridge/druzkai-discord-post.md",
+      "title": "Druzkai Discord Post",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/bifrost-bridge/druzkai-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/bifrost-bridge/druzkai-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e07ae305-5672-4a7d-9396-2e628b3124ae/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/e09ae880-8b3c-4615-baa3-70f204f292b8/bifrost-bridge/druzkai-discord-post.md",
       "title": "Druzkai Discord Post",
       "path": ".voidbot/artifacts/e09ae880-8b3c-4615-baa3-70f204f292b8/bifrost-bridge/druzkai-discord-post.md",
@@ -68405,6 +70540,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/e27e175a-fa23-4e93-aa6c-265b100ed7c3/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e27e175a-fa23-4e93-aa6c-265b100ed7c3/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e2b9c8ab-a3bc-4433-865a-fc9106222603/request.md",
       "extension": "md"
     },
     {
@@ -69976,6 +72146,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/bifrost-bridge/aqua-discord-post.md",
+      "title": "Aqua Discord Post",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/bifrost-bridge/aqua-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/bifrost-bridge/aqua-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e86083f1-819e-42d9-b3bd-4423dcc6710a/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/e87ca4b5-cd13-44d6-b33d-250e2b5d42dd/bifrost-bridge/nibu-discord-post.md",
       "title": "Nibu Discord Post",
       "path": ".voidbot/artifacts/e87ca4b5-cd13-44d6-b33d-250e2b5d42dd/bifrost-bridge/nibu-discord-post.md",
@@ -70015,6 +72227,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/e87ca4b5-cd13-44d6-b33d-250e2b5d42dd/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e87ca4b5-cd13-44d6-b33d-250e2b5d42dd/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/e8b665cc-49bf-48dc-9813-cdca522486e1/request.md",
       "extension": "md"
     },
     {
@@ -70379,6 +72626,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/ea7708ba-771b-41b2-9db5-124d8b1a3b85/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7708ba-771b-41b2-9db5-124d8b1a3b85/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ea7ae96d-8d0d-4b77-88ee-347d9c9f9c2b/request.md",
       "extension": "md"
     },
     {
@@ -73623,6 +75905,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f3aac1fb-d6f6-4bfb-a78b-d2a8bef18253/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/f3c5d3a0-4444-4731-b4d1-e09efb867098/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/f3c5d3a0-4444-4731-b4d1-e09efb867098/codex-turn-1-debug.md",
@@ -74292,6 +76609,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/f5f58228-9674-4feb-a3de-6e835dfbb5d8/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f5f58228-9674-4feb-a3de-6e835dfbb5d8/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f60d8af7-810c-4fa2-8f5a-0a95fb013669/request.md",
       "extension": "md"
     },
     {
@@ -75737,6 +78089,48 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/bifrost-bridge/sai-discord-post.md",
+      "title": "Sai Discord Post",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/bifrost-bridge/sai-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/bifrost-bridge/sai-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/f9e1715f-538d-4fe7-b084-5eee2a29f7fb/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/f9e7fb20-20f6-4dbb-bfe1-9cd70d9b1f99/bifrost-bridge/libby-discord-post.md",
       "title": "Libby Discord Post",
       "path": ".voidbot/artifacts/f9e7fb20-20f6-4dbb-bfe1-9cd70d9b1f99/bifrost-bridge/libby-discord-post.md",
@@ -76126,6 +78520,41 @@
       "title": "Request",
       "path": ".voidbot/artifacts/fb11e3f7-7fdc-4375-8892-6b25290f2e3f/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb11e3f7-7fdc-4375-8892-6b25290f2e3f/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fb29acec-4e1e-47b8-a896-d18b6f23d9fa/request.md",
       "extension": "md"
     },
     {
@@ -76647,6 +79076,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/fdcfd6aa-1d07-4103-9e0e-8615649cfe97/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/fdd692f5-997a-451b-8da2-2983f167684b/bifrost-bridge/aqua-discord-post.md",
       "title": "Aqua Discord Post",
       "path": ".voidbot/artifacts/fdd692f5-997a-451b-8da2-2983f167684b/bifrost-bridge/aqua-discord-post.md",
@@ -76941,6 +79405,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff0ae57f-9993-497e-8af2-314eb9bf7c48/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/ff18f320-7bc2-42da-bbde-e531dae77310/bifrost-bridge/aqua-discord-post.md",
       "title": "Aqua Discord Post",
       "path": ".voidbot/artifacts/ff18f320-7bc2-42da-bbde-e531dae77310/bifrost-bridge/aqua-discord-post.md",
@@ -77099,6 +79598,48 @@
       "title": "Request",
       "path": ".voidbot/artifacts/ff36b073-8523-44d5-baf5-43bc636cbc2a/request.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff36b073-8523-44d5-baf5-43bc636cbc2a/request.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/bifrost-bridge/norn-discord-post.md",
+      "title": "Norn Discord Post",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/bifrost-bridge/norn-discord-post.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/bifrost-bridge/norn-discord-post.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/ff387808-0d7b-42f5-9827-4e30478c044a/request.md",
       "extension": "md"
     },
     {

@@ -93,6 +93,11 @@ const routes: Route[] = [
     dropdownGroups: projectGroups,
   },
   {
+    label: "Pitch",
+    slug: "Pitch" as FullSlug,
+    matches: ["Pitch"],
+  },
+  {
     label: "Blog",
     slug: "Blog/index" as FullSlug,
     matches: ["Blog"],

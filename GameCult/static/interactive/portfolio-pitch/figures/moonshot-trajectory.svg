@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">GameCult moonshot trajectory</title>
+  <desc id="desc">A neon launch diagram showing GameCult projects forming a trajectory from cooperative patronage to a surface-web moon.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.42" stop-color="#07182a"/>
+      <stop offset="1" stop-color="#180b20"/>
+    </linearGradient>
+    <linearGradient id="flare" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a2a"/>
+      <stop offset="0.45" stop-color="#59b7ff"/>
+      <stop offset="1" stop-color="#8edfb0"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="48%" r="54%">
+      <stop offset="0" stop-color="#fff6cf"/>
+      <stop offset="0.55" stop-color="#d9f2ff"/>
+      <stop offset="1" stop-color="#59b7ff"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;letter-spacing:1px;fill:#edf6ff}
+      .small{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:700;fill:#b7c7d9}
+      .tiny{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:700;fill:#07111c}
+      .panel{fill:#0b111a;stroke:#59b7ff;stroke-width:2;opacity:.92}
+      .hot{fill:#ff8a2a}
+      .blue{fill:#59b7ff}
+      .green{fill:#8edfb0}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#space)"/>
+  <g opacity=".35">
+    <circle cx="130" cy="110" r="2" fill="#edf6ff"/>
+    <circle cx="270" cy="220" r="2" fill="#8edfb0"/>
+    <circle cx="520" cy="120" r="3" fill="#59b7ff"/>
+    <circle cx="730" cy="240" r="2" fill="#edf6ff"/>
+    <circle cx="1050" cy="140" r="3" fill="#ff8a2a"/>
+    <circle cx="1400" cy="80" r="2" fill="#edf6ff"/>
+    <circle cx="1480" cy="360" r="3" fill="#8edfb0"/>
+    <circle cx="330" cy="720" r="2" fill="#59b7ff"/>
+    <circle cx="1270" cy="760" r="2" fill="#edf6ff"/>
+  </g>
+  <circle cx="1300" cy="220" r="132" fill="url(#moon)" filter="url(#glow)"/>
+  <circle cx="1258" cy="188" r="18" fill="#93c7df" opacity=".45"/>
+  <circle cx="1344" cy="245" r="28" fill="#93c7df" opacity=".35"/>
+  <circle cx="1300" cy="300" r="11" fill="#93c7df" opacity=".4"/>
+  <text x="1160" y="402" class="label" font-size="35">COOPERATIVE SURFACE WEB</text>
+  <text x="1192" y="437" class="small" font-size="19">interfaces, patronage, games, rooms, agents</text>
+  <path d="M165 746 C 438 560, 715 474, 942 310 S 1210 130, 1300 220" fill="none" stroke="url(#flare)" stroke-width="10" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M165 746 C 438 560, 715 474, 942 310 S 1210 130, 1300 220" fill="none" stroke="#edf6ff" stroke-width="2" stroke-dasharray="13 18" opacity=".8"/>
+  <g transform="translate(92 650)">
+    <polygon points="55,120 130,120 115,40 70,40" fill="#d9f2ff" stroke="#59b7ff" stroke-width="3"/>
+    <polygon points="70,40 92,-5 115,40" fill="#ff8a2a"/>
+    <rect x="72" y="68" width="40" height="28" rx="6" fill="#07182a" stroke="#8edfb0" stroke-width="3"/>
+    <path d="M74 120 L50 180 L96 138 L134 180 L112 120 Z" fill="#ff8a2a" opacity=".9" filter="url(#glow)"/>
+    <text x="0" y="222" class="label" font-size="28">GAMECULT LAUNCH</text>
+    <text x="4" y="252" class="small" font-size="18">worker-owned ignition stack</text>
+  </g>
+  <g transform="translate(300 542)">
+    <rect class="panel" x="0" y="0" width="245" height="98" rx="18"/>
+    <circle cx="38" cy="49" r="23" class="hot"/>
+    <text x="76" y="42" class="label" font-size="24">BIFROST</text>
+    <text x="76" y="69" class="small" font-size="16">patronage becomes power</text>
+  </g>
+  <g transform="translate(592 438)">
+    <rect class="panel" x="0" y="0" width="238" height="98" rx="18"/>
+    <circle cx="39" cy="49" r="23" class="blue"/>
+    <text x="78" y="42" class="label" font-size="24">EVE</text>
+    <text x="78" y="69" class="small" font-size="16">multi-backend DOM stream</text>
+  </g>
+  <g transform="translate(852 278)">
+    <rect class="panel" x="0" y="0" width="264" height="98" rx="18"/>
+    <circle cx="39" cy="49" r="23" class="green"/>
+    <text x="78" y="42" class="label" font-size="24">CULTMESH</text>
+    <text x="78" y="69" class="small" font-size="16">state with explicit authority</text>
+  </g>
+  <g transform="translate(1018 110)">
+    <rect class="panel" x="0" y="0" width="218" height="98" rx="18"/>
+    <circle cx="38" cy="49" r="23" fill="#edf6ff"/>
+    <text x="76" y="42" class="label" font-size="24">SAI</text>
+    <text x="76" y="69" class="small" font-size="16">VN homepage renderer</text>
+  </g>
+  <g transform="translate(96 74)">
+    <rect x="0" y="0" width="710" height="118" rx="20" fill="#07111c" stroke="#ff8a2a" stroke-width="3" opacity=".95"/>
+    <text x="30" y="48" class="label" font-size="34">MOONSHOT MAP</text>
+    <text x="30" y="84" class="small" font-size="20">not a valuation, a claim engine: each orbit must earn receipts</text>
+  </g>
+  <g transform="translate(1345 605)">
+    <rect x="0" y="0" width="170" height="170" rx="28" fill="#ff8a2a" opacity=".94" filter="url(#glow)"/>
+    <text x="24" y="57" class="tiny" font-size="20">MYTHIC CASE</text>
+    <text x="24" y="94" class="tiny" font-size="42">$10B+</text>
+    <text x="24" y="124" class="tiny" font-size="17">if the surface web</text>
+    <text x="24" y="146" class="tiny" font-size="17">becomes infrastructure</text>
+  </g>
+</svg>

@@ -474,6 +474,26 @@
       "title": "Roadmap",
       "selector": "#gamecult-vn-roadmap",
       "role": "future public-ledger path"
+    },
+    "moonshot": {
+      "title": "Moonshot Trajectory",
+      "selector": "#gamecult-vn-moonshot",
+      "role": "portfolio launch graphic"
+    },
+    "surface_stack": {
+      "title": "Eve Surface Web Stack",
+      "selector": "#gamecult-vn-surface-stack",
+      "role": "multi-backend CultUI surface graphic"
+    },
+    "patronage_furnace": {
+      "title": "Bifrost Patronage Furnace",
+      "selector": "#gamecult-vn-patronage-furnace",
+      "role": "patronage to voting power graphic"
+    },
+    "value_orbit": {
+      "title": "Portfolio Value Orbit",
+      "selector": "#gamecult-vn-value-orbit",
+      "role": "project orbit and shared substrate graphic"
     }
   },
   "spaces": {

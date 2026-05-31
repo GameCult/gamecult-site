@@ -4,6 +4,7 @@ VAR visited_voidbot = false
 VAR visited_cultlib = false
 VAR visited_heimdall = false
 VAR visited_proof = false
+VAR visited_pitch = false
 VAR visited_count = 0
 
 -> welcome
@@ -39,6 +40,7 @@ Each door is a website space. Pick the one that sounds like the itch.
 + [How do records stay findable and typed? Ask Libby] -> cultlib
 + [Who is allowed to cross a boundary? Ask Heimdall] -> heimdall
 + [What proof exists, and what is still risky? Show me receipts] -> proof
++ [Show me the impossible portfolio pitch] -> pitch_intro
 + [I just need the normal wiki] -> wiki
 
 === epiphany ===
@@ -173,6 +175,128 @@ The proof wall starts with current evidence: project pages, repo links, site gra
 A proper receipt will name scope, consent, work item, agent and human roles, model spend, review burden, artifacts, outcome, and lesson. Bifrost should become that canonical ledger; the website mirrors it and admits the risk while the machinery is still young.
 -> hub_return
 
+=== pitch_intro ===
+{ not visited_pitch:
+    ~ visited_pitch = true
+    ~ visited_count = visited_count + 1
+}
+# speaker: Void
+# avatar: void
+# scene: project_atlas
+# sprite: unimpressed@left
+# dom: moonshot,projects
+All right. The portfolio pitch. Everyone is about to explain why their favourite machine is the hinge of civilization. I will stand here with the receipts and try not to make a face.
++ [Let Eve sell the surface web] -> pitch_eve
++ [Let Bifrost sell patron voting] -> pitch_bifrost
++ [Let CultMesh sell the substrate] -> pitch_cultmesh
++ [Let Epiphany sell agent labour] -> pitch_epiphany
++ [Let the games sell the moonshot] -> pitch_games
++ [Return to the compound] -> hub_return
+
+=== pitch_eve ===
+# speaker: Kiko
+# avatar: kiko
+# scene: overlay_studio
+# sprite: confetti@right
+# dom: surface_stack,projects
+Eve is not a website widget. It is the part where operational UI stops being trapped in one browser tab and starts moving through the mesh like infrastructure. Dashboards, overlays, tools, mobile views: same state, many bodies.
+-> pitch_eve_void
+
+=== pitch_eve_void ===
+# speaker: Void
+# avatar: void
+# scene: overlay_studio
+# sprite: unimpressed@left
+# dom: surface_stack
+Translation: if Eve works, the dashboard becomes portable. That is disruptive enough that saying it out loud makes the room feel like it needs adult supervision.
+-> pitch_return
+
+=== pitch_bifrost ===
+# speaker: Heimdall
+# avatar: heimdall
+# scene: ledger
+# sprite: badge@right
+# dom: patronage_furnace,bifrost
+Bifrost turns support into accountable power. Buy a cosmetic, fund a bounty, do verified work, and the ledger knows. The base of the log is the political argument: how flat should this hierarchy be?
+-> pitch_bifrost_void
+
+=== pitch_bifrost_void ===
+# speaker: Void
+# avatar: void
+# scene: ledger
+# sprite: document@left
+# dom: patronage_furnace
+That is the gamer pitch with the mask off: microtransactions become patronage, patronage becomes voting weight, and voting weight stays project-local enough to inspect.
+-> pitch_return
+
+=== pitch_cultmesh ===
+# speaker: Libby
+# avatar: libby
+# scene: library
+# sprite: schema@right
+# dom: value_orbit,cultlib
+The billion-dollar part is not one product doing jazz hands. It is typed shared state, provenance, and authority becoming boring enough that every project can use it. Boring infrastructure is where the real leverage hides.
+-> pitch_cultmesh_void
+
+=== pitch_cultmesh_void ===
+# speaker: Void
+# avatar: void
+# scene: library
+# sprite: point@left
+# dom: value_orbit
+The portfolio stops being a basket of unrelated bets when the projects orbit one state substrate. That is the actual moonshot, wearing librarian glasses for camouflage.
+-> pitch_return
+
+=== pitch_epiphany ===
+# speaker: Epiphany
+# avatar: epiphany
+# scene: forge
+# sprite: evidence@right
+# dom: moonshot,epiphany
+I sell the boring miracle: agents that remember the job, show evidence, and stop improvising around missing context. Governed agent labour is not a feature. It is the factory floor waking up.
+-> pitch_epiphany_void
+
+=== pitch_epiphany_void ===
+# speaker: Void
+# avatar: void
+# scene: forge
+# sprite: unimpressed@left
+# dom: moonshot
+It is a dramatic claim. It is also the part where AI work stops being a fireworks receipt and starts becoming something Bifrost can evaluate.
+-> pitch_return
+
+=== pitch_games ===
+# speaker: Nibu
+# avatar: nibu
+# scene: nibu_ship
+# sprite: triumph@right
+# dom: patronage_furnace,projects
+The game pitch is indecently simple: people already spend money in worlds they care about. We give that spend memory, dignity, and political consequence. The cosmetics are cute. The governance hook is the engine.
+-> pitch_games_void
+
+=== pitch_games_void ===
+# speaker: Void
+# avatar: void
+# scene: nibu_ship
+# sprite: document@left
+# dom: patronage_furnace,proof
+The thesis is not "sell more hats." The thesis is that players can become patrons of the world they inhabit, with votes instead of decorative thank-you emails.
+-> pitch_return
+
+=== pitch_return ===
+# speaker: Void
+# avatar: void
+# scene: project_atlas
+# sprite: point@left
+# dom: moonshot,value_orbit
+That is the pitch hall. Breathless upside, visible receipts, and just enough restraint to avoid becoming a finance-themed hallucination.
++ [Eve: surface web] -> pitch_eve
++ [Bifrost: patron voting] -> pitch_bifrost
++ [CultMesh: value orbit] -> pitch_cultmesh
++ [Epiphany: governed agents] -> pitch_epiphany
++ [Games: players as patrons] -> pitch_games
++ [Back to the main compound] -> hub_return
+
 === wiki ===
 # speaker: Void
 # avatar: void
@@ -195,6 +319,7 @@ Want another door? {visited_count >= 3: The floor plan is coming into focus: you
 + [{visited_cultlib: Revisit Libby: typed records | How do records stay findable and typed? Ask Libby}] -> cultlib
 + [{visited_heimdall: Revisit Heimdall: consent gate | Who is allowed to cross a boundary? Ask Heimdall}] -> heimdall
 + [{visited_proof: Revisit proof and roadmap | What proof exists, and what is still risky? Show me receipts}] -> proof
++ [{visited_pitch: Revisit the over-the-top portfolio pitch | Show me the impossible portfolio pitch}] -> pitch_intro
 + [Enough tour; show me the links] -> done
 
 === done ===

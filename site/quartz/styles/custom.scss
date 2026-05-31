@@ -1078,6 +1078,8 @@ body[data-slug="index"] {
 
   .page > #quartz-body .center {
     display: block;
+    grid-area: grid-center;
+    width: 100%;
     min-width: 0;
   }
 
@@ -1105,6 +1107,18 @@ body[data-slug="index"] {
     white-space: nowrap;
     pointer-events: none;
   }
+}
+
+body[data-slug="Pitch"] .gamecult-vn-source {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 body[data-slug="index"] .gamecult-compound-vn.sai-player-speaker {
@@ -1233,8 +1247,104 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   margin-top: 0.62rem;
 }
 
+.gamecult-vn-source-card img {
+  display: block;
+  width: 100%;
+  max-height: min(48vh, 420px);
+  object-fit: contain;
+  margin: 0.65rem 0 0.7rem;
+  border: 1px solid rgba(89, 183, 255, 0.12);
+  border-radius: 10px;
+  background: rgba(5, 8, 13, 0.72);
+}
+
 body[data-slug="index"] .gamecult-composite-sections {
   margin-top: 1rem;
+}
+
+body[data-slug="Pitch"] {
+  overflow: hidden;
+
+  .page {
+    max-width: none;
+    min-height: 100svh;
+    padding: 0;
+  }
+
+  .page > #quartz-body {
+    min-height: 100svh;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+  }
+
+  .page > #quartz-body > .left.sidebar,
+  .page > #quartz-body > .right.sidebar,
+  .page > #quartz-body > footer,
+  .page > #quartz-body .center > .page-header,
+  .page > #quartz-body .center > .page-footer {
+    display: none;
+  }
+
+  .page > #quartz-body .center {
+    display: block;
+    grid-area: grid-center;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .page > #quartz-body .center > article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .page::before {
+    display: none !important;
+  }
+}
+
+body[data-slug="Pitch"] .gamecult-pitch-vn.sai-player-speaker {
+  display: block;
+  width: 100%;
+  min-height: 100svh;
+  margin: 0;
+}
+
+body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage,
+body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
+  height: 100svh;
+  min-height: 100svh;
+  border: 0;
+  border-radius: 0;
+  background:
+    linear-gradient(180deg, rgba(6, 10, 15, 0.98), rgba(8, 14, 22, 0.94)),
+    linear-gradient(135deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.03));
+  box-shadow:
+    0 28px 68px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+@supports (height: 100dvh) {
+  body[data-slug="Pitch"] {
+    .page,
+    .page > #quartz-body,
+    .gamecult-pitch-vn.sai-player-speaker,
+    .gamecult-pitch-vn .sai-speaker-stage,
+    .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
+      min-height: 100dvh;
+    }
+
+    .gamecult-pitch-vn .sai-speaker-stage,
+    .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
+      height: 100dvh;
+    }
+  }
 }
 
 .gamecult-composite-page {

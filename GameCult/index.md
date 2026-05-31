@@ -22,6 +22,8 @@ sidebarGroups:
         slug: the-new-hotness
       - label: Bifrost
         slug: Docs/Bifrost
+      - label: Portfolio Pitch
+        slug: Pitch
   - title: Projects
     links:
       - label: Aetheria
@@ -73,7 +75,7 @@ cssclasses:
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Project Atlas</h2>
     <p>The curated repo atlas groups the public work by actual function: games and worlds, shared code, agent interfaces, visual labs, and studio systems.</p>
-    <p><a href="/Projects/">Visit the repo atlas</a></p>
+    <p><a href="/Pitch">Play the over-the-top portfolio pitch</a> | <a href="/Projects/">Visit the repo atlas</a></p>
   </div>
 
   <div id="gamecult-vn-docs" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -122,5 +124,29 @@ cssclasses:
     <h2>Roadmap Shape</h2>
     <p>The public path is Bifrost-first private alpha, proof sprint, design partners, fellows/support pilots, and only then larger social-support machinery under legal review.</p>
     <p><a href="/Docs/Bifrost">Current Bifrost rollout</a></p>
+  </div>
+
+  <div id="gamecult-vn-moonshot" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
+    <h2>Moonshot Trajectory</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg" alt="GameCult moonshot trajectory graphic" />
+    <p>Bifrost, Eve, CultMesh, and Sai form the launch path from worker-owned production into the cooperative surface web.</p>
+  </div>
+
+  <div id="gamecult-vn-surface-stack" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
+    <h2>Eve Surface Web Stack</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/surface-web-stack.svg" alt="Eve surface web stack graphic" />
+    <p>Eve streams CultUI semantics across web, desktop, mobile, game UI, and creator overlays without splitting truth into dashboard islands.</p>
+  </div>
+
+  <div id="gamecult-vn-patronage-furnace" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
+    <h2>Patronage Furnace</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/patronage-furnace.svg" alt="Bifrost patronage furnace graphic" />
+    <p>Game spend, patronage, and verified work enter Bifrost; log-power voting and project-local governance come out.</p>
+  </div>
+
+  <div id="gamecult-vn-value-orbit" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
+    <h2>Value Orbit Map</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/value-orbit-map.svg" alt="GameCult portfolio value orbit map" />
+    <p>The portfolio becomes dangerous when projects orbit one shared governance, state, and interface substrate.</p>
   </div>
 </section>

@@ -7,10 +7,10 @@
     "label": "GameCult Ink Knot Graph",
     "solver": "norn-rs",
     "solver_wasm": "/static/interactive/norn/norn-rs.wasm",
-    "iterations": 220,
-    "rank_gap": 150,
-    "node_gap": 88,
-    "edge_length": 132,
+    "iterations": 360,
+    "rank_gap": 215,
+    "node_gap": 138,
+    "edge_length": 192,
     "nodes": [
       {
         "id": "hub",
@@ -860,7 +860,10 @@
         "source": "repo_swarm",
         "target": "sai_scene_surfaces"
       }
-    ]
+    ],
+    "viewport_width": 1180,
+    "viewport_height": 720,
+    "viewport_padding": 90
   },
   "scene_set": {
     "id": "gamecult_compound_card_stage",

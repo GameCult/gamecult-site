@@ -1180,17 +1180,17 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 .gamecult-compound-vn .sai-graph-layer {
   inset: 3.6rem auto 9.2rem 1rem;
-  width: min(48rem, 46vw);
+  width: min(72rem, 64vw);
   z-index: 4;
 }
 
 .gamecult-compound-vn .sai-graph-layer svg {
   width: 100%;
-  height: min(29rem, 52vh);
+  height: min(36rem, 64vh);
 }
 
 .gamecult-compound-vn .sai-dom-layer {
-  inset: 3.6rem 1rem 9.2rem calc(min(48rem, 46vw) + 2rem);
+  inset: 3.6rem 1rem 9.2rem calc(min(72rem, 64vw) + 2rem);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
 }
 

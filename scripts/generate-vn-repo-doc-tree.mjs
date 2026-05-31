@@ -204,7 +204,6 @@ for (const repo of repos) {
 
 const payload = {
   schema: "gamecult.vn.repoDocTree.v1",
-  generatedAt: new Date().toISOString(),
   sourceRoot: projectsRoot,
   repoCount: repos.length,
   documentCount,

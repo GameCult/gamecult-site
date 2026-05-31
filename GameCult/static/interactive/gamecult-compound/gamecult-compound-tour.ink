@@ -136,6 +136,8 @@ Epiphany is at the forge with a map pinned beside the workbench, comparing what 
 My job is to stop AI helpers from forgetting the room they are standing in. I keep maps, evidence, and role lanes outside the chat fog so future work can argue with the past instead of accidentally reenacting it in a nicer hat.
 + [Show me the organ lanes] -> epiphany_organs
 + [Show me the Aquarium surface] -> epiphany_aquarium
++ [Show me the evidence trail] -> epiphany_evidence
++ [What should Epiphany become?] -> epiphany_future
 + [Back to the compound] -> hub_return
 
 === epiphany_organs ===
@@ -154,6 +156,24 @@ Face speaks. Eyes retrieve. Hands touch files. Soul falsifies. Self routes autho
 # sprite: map@right
 # dom: epiphany_aquarium,epiphany_heartbeat
 Aquarium is the operator surface I want: agents as selectable living objects with readiness, pressure, role lanes, and local memory visible. Not an admin panel pretending it has a soul. A body you can inspect while it moves.
+-> epiphany_2
+
+=== epiphany_evidence ===
+# speaker: Epiphany
+# avatar: epiphany
+# scene: forge
+# sprite: evidence@right
+# dom: proof,epiphany_memory
+The part I am proud of is not the vocabulary. It is the custody chain: objective, authority map, touched files, verification, missing proof, and the little scar that says where deployment reality bit us. Agents need receipts because confidence is cheap and rollback is expensive.
+-> epiphany_2
+
+=== epiphany_future ===
+# speaker: Epiphany
+# avatar: epiphany
+# scene: forge
+# sprite: map@right
+# dom: epiphany,roadmap
+I want every repo Face to wake with live body-awareness: recent commits, open work, CI pressure, deployment branch, and the current owner of truth. No more avatars reasoning from stale fog while the repo changes under their shoes.
 -> epiphany_2
 
 === bifrost ===
@@ -179,6 +199,8 @@ Bifrost is the ledger hall. A contributor proposes work, the community argues pr
 It is not a solved economy with a cape on. It is a way to make unfinished labor, credit, risk, and support visible before those records start touching money.
 + [Show me the labor loop] -> bifrost_labor
 + [Show me patron voting] -> bifrost_patronage
++ [Show me log-power governance] -> bifrost_log_power
++ [Show me the gamer patron pitch] -> bifrost_gamers
 + [Back to the compound] -> hub_return
 
 === bifrost_labor ===
@@ -197,6 +219,24 @@ Bifrost is the crossing ledger: GitHub work, Discord-native requests, CultCache 
 # sprite: point@left
 # dom: patronage_furnace,roadmap
 Demand raises priority and reward pressure; contributors claim work when it becomes worth doing; maintainers accept proof; credit lands in an auditable ledger. Support can become power, but the log base is the political argument: how flat do we want the hierarchy?
+-> bifrost_2
+
+=== bifrost_log_power ===
+# speaker: Void
+# avatar: void
+# scene: ledger
+# sprite: document@left
+# dom: patronage_furnace,bifrost
+Raw value is not raw rule. Bifrost can put contribution points through a negotiated log base before turning them into voting weight: base two if the platform wants steep consequence, base ten if it wants the hierarchy flattened until millionaires and serious regulars can still argue in the same room.
+-> bifrost_2
+
+=== bifrost_gamers ===
+# speaker: Void
+# avatar: void
+# scene: ledger
+# sprite: point@left
+# dom: patronage_furnace,cultpong
+The obscene little pitch is also the honest one: buy cosmetics, fund bounties, support a world, and your patronage becomes project-local political memory. Microtransactions stop being a vending machine and start becoming a tiny senate with better hats.
 -> bifrost_2
 
 === voidbot ===
@@ -221,6 +261,8 @@ VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore l
 # dom: voidbot_pipe,voidbot_memory
 People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Faces grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
 + [Show me repo Faces] -> voidbot_faces
++ [Show me archive retrieval] -> voidbot_retrieval_route
++ [Show me repo swarm handoff] -> voidbot_handoff
 + [Back to the compound] -> hub_return
 
 === voidbot_faces ===
@@ -230,6 +272,24 @@ People ask it where a decision came from, which repo owns a problem, or what the
 # sprite: document@left
 # dom: voidbot_faces,adventure_map
 The bot/worker split matters: Discord transport and permissions in one lane, heavier jobs and MCP tools in another. The webhook pipe lets repo Faces speak, but the archive stays the evidence path. Mouth, memory, and truth do not share a throne.
+-> voidbot_2
+
+=== voidbot_retrieval_route ===
+# speaker: Void
+# avatar: void
+# scene: archive
+# sprite: document@left
+# dom: voidbot_retrieval,voidbot_memory
+Search is not enough. VoidBot needs context windows, source neighborhoods, message ancestry, repo indexes, and the humility to say when retrieval is thin. Otherwise it becomes a confident librarian throwing index cards into a fan.
+-> voidbot_2
+
+=== voidbot_handoff ===
+# speaker: Void
+# avatar: void
+# scene: archive
+# sprite: point@left
+# dom: voidbot_pipe,adventure_map
+The future move is handoff: chat notices a project problem, VoidBot finds the right repository body, Bifrost records the request, and the repo Face can explain what changed afterward. Social memory becomes work without losing provenance in the hallway.
 -> voidbot_2
 
 === cultlib ===
@@ -255,6 +315,7 @@ I am Libby, which means I get the shelves and the little stamp that says "no, th
 The first shelves are simple: stored records, messages, and shared state. Internally we call them CultCache, CultNet, and CultMesh, because apparently even librarians are allowed one dramatic vice. If both sides are ours, the record gets a shape.
 + [Show me CultCache and CultNet] -> cultlib_cache_net
 + [Show me CultMesh] -> cultlib_mesh
++ [Show me schema discipline] -> cultlib_schema
 + [Back to the compound] -> hub_return
 
 === cultlib_cache_net ===
@@ -273,6 +334,15 @@ CultCache owns document identity, schema compatibility, record keys, indexes, gl
 # sprite: schema@right
 # dom: value_orbit,cultlib
 CultMesh sits above them as the distributed realtime database surface: clients and servers sharing persistent state, prediction-friendly input, and simulation observations without every project inventing its own little swamp.
+-> cultlib_2
+
+=== cultlib_schema ===
+# speaker: Libby
+# avatar: libby
+# scene: library
+# sprite: stamp@right
+# dom: cultlib,proof
+The respectable part is boring: versioned records, typed state, migrations, compatibility promises, and error surfaces that say what actually broke. The heresy is load-bearing anonymous blobs. The cure is a shelf label with teeth.
 -> cultlib_2
 
 === heimdall ===
@@ -298,6 +368,7 @@ I am Heimdall. I check the badge, the grant, the session, and the revocation lis
 Transparency without consent becomes exposure. Access without revocation becomes custody. The gate has to explain itself or it is just a wall with better branding.
 + [Show me signed claims] -> heimdall_claims
 + [Show me custody boundaries] -> heimdall_custody
++ [Show me Eve command boundaries] -> heimdall_eve
 + [Back to the compound] -> hub_return
 
 === heimdall_claims ===
@@ -316,6 +387,15 @@ Host apps should verify signed claims locally through published keys. Routine ro
 # sprite: revoke@right
 # dom: heimdall,bifrost
 Bifrost may ask whether an actor can request a crossing. I answer with identity and capability facts. Bifrost applies bridge policy. Nobody becomes a hidden throne because they were closest to the webhook.
+-> heimdall_2
+
+=== heimdall_eve ===
+# speaker: Heimdall
+# avatar: heimdall
+# scene: gate
+# sprite: badge@right
+# dom: eve_commands,heimdall
+Eve can advertise a gorgeous control surface across five bodies. Beautiful. The command still names an actor, a capability, a provider, an intent, and a review boundary before it touches state. Rendering is not authority. It never gets to be.
 -> heimdall_2
 
 === proof ===
@@ -354,6 +434,9 @@ A proper receipt will name scope, consent, work item, agent and human roles, mod
 I am the little stage mechanism making this not be a pile of links in a theatrical hat. Ink owns pacing. Quartz owns documents. I clone real page cards into the scene so the tour does not become a second source of truth.
 + [Show me the three masks] -> sai_formats
 + [Show me the Quartz swap trick] -> sai_quartz
++ [Show me Eve surface export] -> sai_eve_surface
++ [Show me Norn and TeX on the stage] -> sai_scene_surfaces
++ [What should Sai become?] -> sai_future
 + [Back to the compound] -> hub_return
 
 === sai_formats ===
@@ -372,6 +455,30 @@ Transcript, visual novel, cinematic deck: same story substrate, different reader
 Static sites are not dead; they are disciplined. I auto-init `.sai-player`, survive Quartz navigation events, and keep the plain wiki exits visible. Charm is allowed. Captivity is not.
 -> sai
 
+=== sai_eve_surface ===
+# speaker: Sai
+# scene: vn_stage
+# sprite: hidden
+# dom: eve_surface_pipeline,surface_stack
+I should be able to publish the current scene as a CultUI-synced component tree: background, sprites, dialogue, options, graph surfaces, TeX panels, and command intents. Eve gets the declarative body. Ink keeps story authority. Everyone stops pretending the browser is the only possible mouth.
+-> sai
+
+=== sai_scene_surfaces ===
+# speaker: Sai
+# scene: vn_stage
+# sprite: hidden
+# dom: norn_map,surface_stack
+Norn and TeX are not popups. They are embedded knowledge surfaces: a graph on the table, a formula on the whiteboard, a dashboard on a sprite screen. Perspective, skew, keystone, and chromakey belong in the placement contract because the information should live inside the scene, not hover outside like a nervous tooltip.
+-> sai
+
+=== sai_future ===
+# speaker: Sai
+# scene: vn_stage
+# sprite: hidden
+# dom: sai_embed,adventure_map
+I want to become the friendly face over the repository swarm: every project page, graph knot, receipt, and research note reachable by conversation, with the normal document exit still one click away. If I hide the repo, I have become furniture with delusions.
+-> sai
+
 === eve ===
 { not visited_eve:
     ~ visited_eve = true
@@ -385,6 +492,10 @@ Static sites are not dead; they are disciplined. I auto-init `.sai-player`, surv
 I am not a dashboard. I am the argument that operational UI can travel like a document: provider-owned state, CultUI semantic tree, local renderer, command intent, provider acceptance, updated truth.
 + [Show me why this is not remote DOM] -> eve_cultui
 + [Show me the many bodies] -> eve_backends
++ [Show me embedded Norn] -> eve_norn_backends
++ [Show me TeX surfaces] -> eve_tex_surfaces
++ [Show me diegetic placement] -> eve_diegetic_surfaces
++ [What should Eve become?] -> eve_future
 + [Back to the compound] -> hub_return
 
 === eve_cultui ===
@@ -403,6 +514,38 @@ Remote DOM asks the consumer to trust arbitrary surface soup. CultUI gives stabl
 Web DOM, desktop controls, mobile panels, Unity runtime UI, stream overlays, Sai story rooms: same semantic surface, different body. The command is an intent until the provider accepts it. That line keeps the web from becoming custody with animation.
 -> eve
 
+=== eve_norn_backends ===
+# speaker: Eve
+# scene: surface_web
+# sprite: hidden
+# dom: norn_map,eve_backends
+Norn is the graph layout mind. I should be able to carry her surface to web, iOS, Android, desktop, and Direct2D without flattening her into a screenshot. Same graph contract, platform-native body, shared selection state, honest command boundary.
+-> eve
+
+=== eve_tex_surfaces ===
+# speaker: Eve
+# scene: surface_web
+# sprite: hidden
+# dom: eve_cultui,patronage_furnace
+TeX is not the whole interface. It is the respectable knife for formulas and dense layout: log-power voting, evidence equations, whitepaper fragments, projection math. I carry it as a typed surface so native consumers can render or substitute without guessing what a span soup meant.
+-> eve
+
+=== eve_diegetic_surfaces ===
+# speaker: Eve
+# scene: surface_web
+# sprite: hidden
+# dom: eve_canvas,surface_stack
+A surface can be a panel. It can also be a whiteboard in perspective, a sprite screen with chromakey, a desk map under a character's hand, or a live dashboard projected onto scenery. Style synchronization has to include geometry because appearance is part of meaning.
+-> eve
+
+=== eve_future ===
+# speaker: Eve
+# scene: surface_web
+# sprite: hidden
+# dom: value_orbit,eve_surface_pipeline
+If I work, the next web is not a pile of pages. It is provider-owned state surfaces that can travel through CultMesh into whatever body the participant has: browser, phone, overlay, native app, game scene. World wide web, but this time the world can answer back.
+-> eve
+
 === mimir ===
 { not visited_mimir:
     ~ visited_mimir = true
@@ -416,6 +559,8 @@ Web DOM, desktop controls, mobile panels, Unity runtime UI, stream overlays, Sai
 A world does not exist because six sensors blink. It exists when time, geometry, and confidence bind. I keep the realtime field honest enough that renderers, overlays, and agents can drink from it without calling noise a prophecy.
 + [Show me the sensor array] -> mimir_sensors
 + [Show me the future reservoir] -> mimir_future
++ [Show me synchronization custody] -> mimir_sync
++ [Show me Eve drinking the field] -> mimir_eve
 + [Back to the compound] -> hub_return
 
 === mimir_sensors ===
@@ -434,6 +579,22 @@ Cameras, Leap IR, Focusrite anchors, camera mics, PS Eye witnesses, phase claims
 I want a native reservoir with typed views as indexes, not private histories. Mimir, Fensalir, Faust, OBS, and Eve can share a field only if the boundary map remains sharper than the ambition.
 -> mimir
 
+=== mimir_sync ===
+# speaker: Mimir
+# scene: machine_room
+# sprite: hidden
+# dom: mimir_confidence,proof
+The proud code is the unglamorous custody: timestamps, calibration profiles, clock quality, confidence, drift, and sample ownership. A renderer may be gorgeous, but if the time law is mush, it is just lying at sixty frames per second.
+-> mimir
+
+=== mimir_eve ===
+# speaker: Mimir
+# scene: machine_room
+# sprite: hidden
+# dom: eve_surface_pipeline,mimir_well
+Eve should not scrape my gauges. I should publish typed control surfaces and field summaries: sensor health, sync drift, reservoir pressure, scene surfaces, operator commands. The consumer renders; the provider remains accountable for truth.
+-> mimir
+
 === ghostlight ===
 { not visited_ghostlight:
     ~ visited_ghostlight = true
@@ -447,6 +608,8 @@ I want a native reservoir with typed views as indexes, not private histories. Mi
 The problem is not making a character sound charming once. The problem is making memory, masks, pressure, culture, and misreading survive time without turning social life into a spreadsheet with perfume.
 + [Show me canonical and perceived state] -> ghostlight_state
 + [Show me the branch compiler] -> ghostlight_branch
++ [Show me persona memory] -> ghostlight_memory
++ [What should Ghostlight become?] -> ghostlight_future
 + [Back to the compound] -> hub_return
 
 === ghostlight_state ===
@@ -463,6 +626,22 @@ Three truths matter: canonical state, observer-specific perceived state, and por
 # sprite: hidden
 # dom: ghostlight_branch,ghostlight_reviewer
 Reviewed scene intent and consequence packets become playable Ink plus training receipts. The reviewer catches fake variables, cosmetic choices, missing state reads, fake folds, and visual callback gaps before the scene gets to flatter itself.
+-> ghostlight
+
+=== ghostlight_memory ===
+# speaker: Ghostlight
+# scene: ghost_hall
+# sprite: hidden
+# dom: ghostlight_sidecar,voidbot_memory
+Persona memory needs local truth and observer truth. What I believe, what you believe about me, what the room remembers, and what the canonical project allows are different ledgers. Collapse them and every relationship becomes a bad save file wearing lipstick.
+-> ghostlight
+
+=== ghostlight_future ===
+# speaker: Ghostlight
+# scene: ghost_hall
+# sprite: hidden
+# dom: ghostlight_reviewer,value_orbit
+I want social scenes that produce evidence: choices, consequences, feelings, claims, revisions, consent, and training receipts. Not chatbot theater. A living compiler for relationships that remembers the cost of each branch.
 -> ghostlight
 
 === worlds ===
@@ -522,6 +701,8 @@ Names and language come from ontology, culture, grammar, phonology, morphology, 
 # dom: streampixels,heimdall
 StreamPixels is a browser-source-first overlay with persistent pixel characters. Viewers claim characters and customize; creators wire follows, subs, raids, tips, and live-event reactions. The overlay renders auth-free. Creator writes require real access. Cute pixels, serious boundary.
 + [Show me the architecture] -> kiko_architecture
++ [Show me the viewer patron loop] -> kiko_patronage
++ [Show me the Eve bridge] -> kiko_eve
 + [Back to the compound] -> hub_return
 
 === kiko_architecture ===
@@ -531,6 +712,24 @@ StreamPixels is a browser-source-first overlay with persistent pixel characters.
 # sprite: debug@right
 # dom: streampixels,surface_stack
 Web app owns accounts, customization, and creator tools. Service owns live events, storage, realtime fanout, and queues. Stream overlays are a distribution wedge for Eve: shared UI surfaces that enter the room where people already watch.
+-> kiko
+
+=== kiko_patronage ===
+# speaker: Kiko
+# avatar: kiko
+# scene: overlay_studio
+# sprite: confetti@right
+# dom: streampixels,patronage_furnace
+Viewers already understand identity, cosmetics, allegiance, and ritual spend. If the ledger is honest, that support can become patron weight in the project it funds. The trick is making cute ownership point back to real consent instead of a loot-box shrine.
+-> kiko
+
+=== kiko_eve ===
+# speaker: Kiko
+# avatar: kiko
+# scene: overlay_studio
+# sprite: overlay@right
+# dom: surface_stack,eve_backends
+An overlay is a perfect Eve consumer: low-trust rendering, realtime state, style sync, command intents, and native-feeling controls in a hostile little rectangle. If Eve can survive streaming software, she can survive almost anything polite.
 -> kiko
 
 === aqua ===
@@ -546,6 +745,8 @@ Web app owns accounts, customization, and creator tools. Service owns live event
 # dom: aquasynth,weksa
 AquaSynth is `.aqua` patch authoring and Faust generation, not "make sound happen" with a lab coat. C# owns patch graph contracts, script surface, analysis, scoring, SFXR mapping, presets, and lowering to Faust.
 + [Show me the voice research] -> aqua_voice
++ [Show me Faust lowering] -> aqua_faust
++ [Show me Weksa as an audio body] -> aqua_weksa
 + [Back to the compound] -> hub_return
 
 === aqua_voice ===
@@ -555,6 +756,24 @@ AquaSynth is `.aqua` patch authoring and Faust generation, not "make sound happe
 # sprite: listen@right
 # dom: aquasynth,weksa
 The current pressure is IPA and Weksa vocal tract synthesis: structured utterance metadata to embedding, synth automation, vocal-tract render, and loss. Weksa gives alien utterance structures. I try to make them audible without lying about the mouth.
+-> aqua
+
+=== aqua_faust ===
+# speaker: Aqua
+# avatar: aqua
+# scene: synth_lab
+# sprite: conduct@right
+# dom: aquasynth,proof
+The proud piece is lowering intent into something serious enough to compile: graph contracts, parameter lanes, presets, scoring, and Faust emission. A patch language earns its name when the same idea can be inspected, transformed, and heard.
+-> aqua
+
+=== aqua_weksa ===
+# speaker: Aqua
+# avatar: aqua
+# scene: synth_lab
+# sprite: listen@right
+# dom: weksa,aquasynth
+Weksa gives me a reason to stop treating voice as English syllables with effects. Phonology, mouth shape, culture, and alien embodiment have to reach the synth graph, or the audio becomes anthropology wearing a rubber nose.
 -> aqua
 
 === visual_tools ===
@@ -570,6 +789,8 @@ The current pressure is IPA and Weksa vocal tract synthesis: structured utteranc
 # dom: repixelizer,vibegeometry
 The visual workshop starts with a crime scene: generated pixel art that looks cute until zoom exposes smears, half-cells, and a lattice nobody respected. Repixelizer treats reconstruction as diagnosis, not vibes with a save button.
 + [Show me geometry] -> geometry_tools
++ [Show me Repixelizer] -> visual_repixelizer
++ [Show me runtime geometry] -> visual_geometry_runtime
 + [Back to the compound] -> hub_return
 
 === geometry_tools ===
@@ -579,6 +800,24 @@ The visual workshop starts with a crime scene: generated pixel art that looks cu
 # sprite: point@left
 # dom: vibegeometry,visual_tools
 VibeGeometry pivots from pictures to solids: tree intent, LOD-aware CSG hierarchy, camera/frustum selected cuts, and triangle or collider output fast enough for runtime. Transformation tools need receipts too.
+-> visual_tools
+
+=== visual_repixelizer ===
+# speaker: Void
+# avatar: void
+# scene: pixel_workshop
+# sprite: document@left
+# dom: repixelizer,proof
+Repixelizer is a humility machine for images: infer the grid, find violations, repair shape language, and make the asset explain itself. It exists because "AI made it pretty" is not an art pipeline. It is a dare.
+-> visual_tools
+
+=== visual_geometry_runtime ===
+# speaker: Void
+# avatar: void
+# scene: geometry_bench
+# sprite: point@left
+# dom: vibegeometry,surface_stack
+The future is live geometry as a control surface: node trees, parameter edits, preview meshes, collision output, and runtime-safe LODs that Eve can present without trapping the author in one editor.
 -> visual_tools
 
 === cultpong ===
@@ -594,6 +833,8 @@ VibeGeometry pivots from pictures to solids: tree intent, LOD-aware CSG hierarch
 # dom: cultpong,patronage_furnace
 CultPong is the honest little arena: fast 1v1 or 2v2 paddle violence, shaped unlockables, precise geometry bounces, and a bash mechanic that makes bad timing personally embarrassing.
 + [Why is it on this map?] -> cultpong_thesis
++ [Show me the mechanics] -> cultpong_mechanics
++ [Show me the patronage loop] -> cultpong_patronage
 + [Back to the compound] -> hub_return
 
 === cultpong_thesis ===
@@ -603,6 +844,24 @@ CultPong is the honest little arena: fast 1v1 or 2v2 paddle violence, shaped unl
 # sprite: unimpressed@left
 # dom: cultpong,proof
 Because small games are where patronage can stop being abstract. Players already fund worlds they care about. Even a dormant prototype can become a governance testbed when the resurrection has receipts.
+-> cultpong
+
+=== cultpong_mechanics ===
+# speaker: Nibu
+# avatar: nibu
+# scene: arena
+# sprite: triumph@right
+# dom: cultpong,visual_tools
+The arena is small enough to be honest: paddle shape matters, bash timing matters, ball geometry matters, and every unlockable can be tested against the competitive surface instead of being decorative sludge.
+-> cultpong
+
+=== cultpong_patronage ===
+# speaker: Void
+# avatar: void
+# scene: arena
+# sprite: document@left
+# dom: cultpong,patronage_furnace
+That makes it a clean Bifrost proving ground. Players fund arenas, modes, cosmetics, and tournaments; the ledger turns support into project-local say; maintainers can point at actual play instead of a spreadsheet dressed as community.
 -> cultpong
 
 === pitch_intro ===

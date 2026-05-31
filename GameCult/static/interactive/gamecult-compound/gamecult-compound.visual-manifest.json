@@ -12,51 +12,809 @@
     "node_gap": 88,
     "edge_length": 132,
     "nodes": [
-      { "id": "hub", "label": "Hub", "target": "hub", "core": true, "weight": 1.4 },
-      { "id": "norn", "label": "Norn", "target": "norn", "core": true, "weight": 1.3 },
-      { "id": "sai", "label": "Sai", "target": "sai", "weight": 1.1 },
-      { "id": "eve", "label": "Eve", "target": "eve", "weight": 1.1 },
-      { "id": "epiphany", "label": "Epiphany", "target": "epiphany", "weight": 1.1 },
-      { "id": "bifrost", "label": "Bifrost", "target": "bifrost", "weight": 1.1 },
-      { "id": "voidbot", "label": "VoidBot", "target": "voidbot", "weight": 1 },
-      { "id": "cultlib", "label": "Libby", "target": "cultlib", "weight": 1 },
-      { "id": "heimdall", "label": "Heimdall", "target": "heimdall", "weight": 0.95 },
-      { "id": "mimir", "label": "Mimir", "target": "mimir", "weight": 0.95 },
-      { "id": "ghostlight", "label": "Ghostlight", "target": "ghostlight", "weight": 0.95 },
-      { "id": "worlds", "label": "Worlds", "target": "worlds", "core": true, "weight": 1.25 },
-      { "id": "kiko", "label": "Kiko", "target": "kiko", "weight": 0.95 },
-      { "id": "aqua", "label": "Aqua", "target": "aqua", "weight": 0.95 },
-      { "id": "visual_tools", "label": "Visual Tools", "target": "visual_tools", "weight": 0.95 },
-      { "id": "cultpong", "label": "CultPong", "target": "cultpong", "weight": 0.95 },
-      { "id": "proof", "label": "Proof", "target": "proof", "weight": 1 },
-      { "id": "pitch", "label": "Pitch", "target": "pitch_intro", "weight": 1 }
+      {
+        "id": "hub",
+        "label": "Hub",
+        "target": "hub",
+        "core": true,
+        "weight": 1.4
+      },
+      {
+        "id": "norn",
+        "label": "Norn",
+        "target": "norn",
+        "core": true,
+        "weight": 1.3
+      },
+      {
+        "id": "sai",
+        "label": "Sai",
+        "target": "sai",
+        "weight": 1.1
+      },
+      {
+        "id": "eve",
+        "label": "Eve",
+        "target": "eve",
+        "weight": 1.1
+      },
+      {
+        "id": "epiphany",
+        "label": "Epiphany",
+        "target": "epiphany",
+        "weight": 1.1
+      },
+      {
+        "id": "bifrost",
+        "label": "Bifrost",
+        "target": "bifrost",
+        "weight": 1.1
+      },
+      {
+        "id": "voidbot",
+        "label": "VoidBot",
+        "target": "voidbot",
+        "weight": 1
+      },
+      {
+        "id": "cultlib",
+        "label": "Libby",
+        "target": "cultlib",
+        "weight": 1
+      },
+      {
+        "id": "heimdall",
+        "label": "Heimdall",
+        "target": "heimdall",
+        "weight": 0.95
+      },
+      {
+        "id": "mimir",
+        "label": "Mimir",
+        "target": "mimir",
+        "weight": 0.95
+      },
+      {
+        "id": "ghostlight",
+        "label": "Ghostlight",
+        "target": "ghostlight",
+        "weight": 0.95
+      },
+      {
+        "id": "worlds",
+        "label": "Worlds",
+        "target": "worlds",
+        "core": true,
+        "weight": 1.25
+      },
+      {
+        "id": "kiko",
+        "label": "Kiko",
+        "target": "kiko",
+        "weight": 0.95
+      },
+      {
+        "id": "aqua",
+        "label": "Aqua",
+        "target": "aqua",
+        "weight": 0.95
+      },
+      {
+        "id": "visual_tools",
+        "label": "Visual Tools",
+        "target": "visual_tools",
+        "weight": 0.95
+      },
+      {
+        "id": "cultpong",
+        "label": "CultPong",
+        "target": "cultpong",
+        "weight": 0.95
+      },
+      {
+        "id": "proof",
+        "label": "Proof",
+        "target": "proof",
+        "weight": 1
+      },
+      {
+        "id": "pitch",
+        "label": "Pitch",
+        "target": "pitch_intro",
+        "weight": 1
+      },
+      {
+        "id": "norn_threads",
+        "label": "Threads",
+        "target": "norn_threads",
+        "weight": 0.62
+      },
+      {
+        "id": "norn_solver",
+        "label": "Solver",
+        "target": "norn_solver",
+        "weight": 0.62
+      },
+      {
+        "id": "norn_future",
+        "label": "Future",
+        "target": "norn_future",
+        "weight": 0.62
+      },
+      {
+        "id": "epiphany_organs",
+        "label": "Organs",
+        "target": "epiphany_organs",
+        "weight": 0.62
+      },
+      {
+        "id": "epiphany_aquarium",
+        "label": "Aquarium",
+        "target": "epiphany_aquarium",
+        "weight": 0.62
+      },
+      {
+        "id": "epiphany_evidence",
+        "label": "Evidence",
+        "target": "epiphany_evidence",
+        "weight": 0.62
+      },
+      {
+        "id": "epiphany_future",
+        "label": "Future",
+        "target": "epiphany_future",
+        "weight": 0.62
+      },
+      {
+        "id": "bifrost_labor",
+        "label": "Labor Loop",
+        "target": "bifrost_labor",
+        "weight": 0.62
+      },
+      {
+        "id": "bifrost_patronage",
+        "label": "Patronage",
+        "target": "bifrost_patronage",
+        "weight": 0.62
+      },
+      {
+        "id": "bifrost_log_power",
+        "label": "Log Power",
+        "target": "bifrost_log_power",
+        "weight": 0.62
+      },
+      {
+        "id": "bifrost_gamers",
+        "label": "Gamer Patrons",
+        "target": "bifrost_gamers",
+        "weight": 0.62
+      },
+      {
+        "id": "voidbot_faces",
+        "label": "Repo Faces",
+        "target": "voidbot_faces",
+        "weight": 0.62
+      },
+      {
+        "id": "voidbot_retrieval_route",
+        "label": "Retrieval",
+        "target": "voidbot_retrieval_route",
+        "weight": 0.62
+      },
+      {
+        "id": "voidbot_handoff",
+        "label": "Handoff",
+        "target": "voidbot_handoff",
+        "weight": 0.62
+      },
+      {
+        "id": "cultlib_cache_net",
+        "label": "Cache/Net",
+        "target": "cultlib_cache_net",
+        "weight": 0.62
+      },
+      {
+        "id": "cultlib_mesh",
+        "label": "CultMesh",
+        "target": "cultlib_mesh",
+        "weight": 0.62
+      },
+      {
+        "id": "cultlib_schema",
+        "label": "Schemas",
+        "target": "cultlib_schema",
+        "weight": 0.62
+      },
+      {
+        "id": "heimdall_claims",
+        "label": "Claims",
+        "target": "heimdall_claims",
+        "weight": 0.62
+      },
+      {
+        "id": "heimdall_custody",
+        "label": "Custody",
+        "target": "heimdall_custody",
+        "weight": 0.62
+      },
+      {
+        "id": "heimdall_eve",
+        "label": "Eve Gate",
+        "target": "heimdall_eve",
+        "weight": 0.62
+      },
+      {
+        "id": "sai_formats",
+        "label": "Formats",
+        "target": "sai_formats",
+        "weight": 0.62
+      },
+      {
+        "id": "sai_quartz",
+        "label": "Quartz",
+        "target": "sai_quartz",
+        "weight": 0.62
+      },
+      {
+        "id": "sai_eve_surface",
+        "label": "Eve Export",
+        "target": "sai_eve_surface",
+        "weight": 0.62
+      },
+      {
+        "id": "sai_scene_surfaces",
+        "label": "Scene Surfaces",
+        "target": "sai_scene_surfaces",
+        "weight": 0.62
+      },
+      {
+        "id": "sai_future",
+        "label": "Future",
+        "target": "sai_future",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_cultui",
+        "label": "CultUI",
+        "target": "eve_cultui",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_backends",
+        "label": "Backends",
+        "target": "eve_backends",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_norn_backends",
+        "label": "Norn Native",
+        "target": "eve_norn_backends",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_tex_surfaces",
+        "label": "TeX",
+        "target": "eve_tex_surfaces",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_diegetic_surfaces",
+        "label": "Diegetic UI",
+        "target": "eve_diegetic_surfaces",
+        "weight": 0.62
+      },
+      {
+        "id": "eve_future",
+        "label": "Future",
+        "target": "eve_future",
+        "weight": 0.62
+      },
+      {
+        "id": "mimir_sensors",
+        "label": "Sensors",
+        "target": "mimir_sensors",
+        "weight": 0.62
+      },
+      {
+        "id": "mimir_future",
+        "label": "Reservoir",
+        "target": "mimir_future",
+        "weight": 0.62
+      },
+      {
+        "id": "mimir_sync",
+        "label": "Sync Custody",
+        "target": "mimir_sync",
+        "weight": 0.62
+      },
+      {
+        "id": "mimir_eve",
+        "label": "Eve Field",
+        "target": "mimir_eve",
+        "weight": 0.62
+      },
+      {
+        "id": "ghostlight_state",
+        "label": "State",
+        "target": "ghostlight_state",
+        "weight": 0.62
+      },
+      {
+        "id": "ghostlight_branch",
+        "label": "Compiler",
+        "target": "ghostlight_branch",
+        "weight": 0.62
+      },
+      {
+        "id": "ghostlight_memory",
+        "label": "Memory",
+        "target": "ghostlight_memory",
+        "weight": 0.62
+      },
+      {
+        "id": "ghostlight_future",
+        "label": "Future",
+        "target": "ghostlight_future",
+        "weight": 0.62
+      },
+      {
+        "id": "nibu_wound",
+        "label": "Nibu",
+        "target": "nibu_wound",
+        "weight": 0.62
+      },
+      {
+        "id": "zyphos",
+        "label": "Zyphos",
+        "target": "zyphos",
+        "weight": 0.62
+      },
+      {
+        "id": "weksa_route",
+        "label": "Weksa",
+        "target": "weksa_route",
+        "weight": 0.62
+      },
+      {
+        "id": "kiko_architecture",
+        "label": "Architecture",
+        "target": "kiko_architecture",
+        "weight": 0.62
+      },
+      {
+        "id": "kiko_patronage",
+        "label": "Patrons",
+        "target": "kiko_patronage",
+        "weight": 0.62
+      },
+      {
+        "id": "kiko_eve",
+        "label": "Eve Bridge",
+        "target": "kiko_eve",
+        "weight": 0.62
+      },
+      {
+        "id": "aqua_voice",
+        "label": "Voice",
+        "target": "aqua_voice",
+        "weight": 0.62
+      },
+      {
+        "id": "aqua_faust",
+        "label": "Faust",
+        "target": "aqua_faust",
+        "weight": 0.62
+      },
+      {
+        "id": "aqua_weksa",
+        "label": "Weksa Voice",
+        "target": "aqua_weksa",
+        "weight": 0.62
+      },
+      {
+        "id": "geometry_tools",
+        "label": "Geometry",
+        "target": "geometry_tools",
+        "weight": 0.62
+      },
+      {
+        "id": "visual_repixelizer",
+        "label": "Repixelizer",
+        "target": "visual_repixelizer",
+        "weight": 0.62
+      },
+      {
+        "id": "visual_geometry_runtime",
+        "label": "Runtime Geo",
+        "target": "visual_geometry_runtime",
+        "weight": 0.62
+      },
+      {
+        "id": "cultpong_thesis",
+        "label": "Thesis",
+        "target": "cultpong_thesis",
+        "weight": 0.62
+      },
+      {
+        "id": "cultpong_mechanics",
+        "label": "Mechanics",
+        "target": "cultpong_mechanics",
+        "weight": 0.62
+      },
+      {
+        "id": "cultpong_patronage",
+        "label": "Patron Loop",
+        "target": "cultpong_patronage",
+        "weight": 0.62
+      },
+      {
+        "id": "pitch_eve",
+        "label": "Pitch Eve",
+        "target": "pitch_eve",
+        "weight": 0.62
+      },
+      {
+        "id": "pitch_bifrost",
+        "label": "Pitch Bifrost",
+        "target": "pitch_bifrost",
+        "weight": 0.62
+      },
+      {
+        "id": "pitch_cultmesh",
+        "label": "Pitch CultMesh",
+        "target": "pitch_cultmesh",
+        "weight": 0.62
+      },
+      {
+        "id": "pitch_epiphany",
+        "label": "Pitch Epiphany",
+        "target": "pitch_epiphany",
+        "weight": 0.62
+      },
+      {
+        "id": "pitch_games",
+        "label": "Pitch Games",
+        "target": "pitch_games",
+        "weight": 0.62
+      }
     ],
     "edges": [
-      { "source": "hub", "target": "norn" },
-      { "source": "norn", "target": "sai" },
-      { "source": "norn", "target": "eve" },
-      { "source": "norn", "target": "epiphany" },
-      { "source": "norn", "target": "bifrost" },
-      { "source": "sai", "target": "epiphany" },
-      { "source": "sai", "target": "mimir" },
-      { "source": "mimir", "target": "ghostlight" },
-      { "source": "ghostlight", "target": "epiphany" },
-      { "source": "epiphany", "target": "voidbot" },
-      { "source": "voidbot", "target": "cultlib" },
-      { "source": "cultlib", "target": "bifrost" },
-      { "source": "bifrost", "target": "heimdall" },
-      { "source": "heimdall", "target": "eve" },
-      { "source": "eve", "target": "kiko" },
-      { "source": "kiko", "target": "cultpong" },
-      { "source": "cultpong", "target": "worlds" },
-      { "source": "worlds", "target": "aqua" },
-      { "source": "aqua", "target": "visual_tools" },
-      { "source": "visual_tools", "target": "voidbot" },
-      { "source": "worlds", "target": "proof" },
-      { "source": "proof", "target": "pitch" },
-      { "source": "pitch", "target": "eve" },
-      { "source": "pitch", "target": "bifrost" },
-      { "source": "pitch", "target": "worlds" }
+      {
+        "source": "hub",
+        "target": "norn"
+      },
+      {
+        "source": "norn",
+        "target": "sai"
+      },
+      {
+        "source": "norn",
+        "target": "eve"
+      },
+      {
+        "source": "norn",
+        "target": "epiphany"
+      },
+      {
+        "source": "norn",
+        "target": "bifrost"
+      },
+      {
+        "source": "sai",
+        "target": "epiphany"
+      },
+      {
+        "source": "sai",
+        "target": "mimir"
+      },
+      {
+        "source": "mimir",
+        "target": "ghostlight"
+      },
+      {
+        "source": "ghostlight",
+        "target": "epiphany"
+      },
+      {
+        "source": "epiphany",
+        "target": "voidbot"
+      },
+      {
+        "source": "voidbot",
+        "target": "cultlib"
+      },
+      {
+        "source": "cultlib",
+        "target": "bifrost"
+      },
+      {
+        "source": "bifrost",
+        "target": "heimdall"
+      },
+      {
+        "source": "heimdall",
+        "target": "eve"
+      },
+      {
+        "source": "eve",
+        "target": "kiko"
+      },
+      {
+        "source": "kiko",
+        "target": "cultpong"
+      },
+      {
+        "source": "cultpong",
+        "target": "worlds"
+      },
+      {
+        "source": "worlds",
+        "target": "aqua"
+      },
+      {
+        "source": "aqua",
+        "target": "visual_tools"
+      },
+      {
+        "source": "visual_tools",
+        "target": "voidbot"
+      },
+      {
+        "source": "worlds",
+        "target": "proof"
+      },
+      {
+        "source": "proof",
+        "target": "pitch"
+      },
+      {
+        "source": "pitch",
+        "target": "eve"
+      },
+      {
+        "source": "pitch",
+        "target": "bifrost"
+      },
+      {
+        "source": "pitch",
+        "target": "worlds"
+      },
+      {
+        "source": "norn",
+        "target": "norn_threads"
+      },
+      {
+        "source": "norn",
+        "target": "norn_solver"
+      },
+      {
+        "source": "norn",
+        "target": "norn_future"
+      },
+      {
+        "source": "epiphany",
+        "target": "epiphany_organs"
+      },
+      {
+        "source": "epiphany",
+        "target": "epiphany_aquarium"
+      },
+      {
+        "source": "epiphany",
+        "target": "epiphany_evidence"
+      },
+      {
+        "source": "epiphany",
+        "target": "epiphany_future"
+      },
+      {
+        "source": "bifrost",
+        "target": "bifrost_labor"
+      },
+      {
+        "source": "bifrost",
+        "target": "bifrost_patronage"
+      },
+      {
+        "source": "bifrost",
+        "target": "bifrost_log_power"
+      },
+      {
+        "source": "bifrost",
+        "target": "bifrost_gamers"
+      },
+      {
+        "source": "voidbot",
+        "target": "voidbot_faces"
+      },
+      {
+        "source": "voidbot",
+        "target": "voidbot_retrieval_route"
+      },
+      {
+        "source": "voidbot",
+        "target": "voidbot_handoff"
+      },
+      {
+        "source": "cultlib",
+        "target": "cultlib_cache_net"
+      },
+      {
+        "source": "cultlib",
+        "target": "cultlib_mesh"
+      },
+      {
+        "source": "cultlib",
+        "target": "cultlib_schema"
+      },
+      {
+        "source": "heimdall",
+        "target": "heimdall_claims"
+      },
+      {
+        "source": "heimdall",
+        "target": "heimdall_custody"
+      },
+      {
+        "source": "heimdall",
+        "target": "heimdall_eve"
+      },
+      {
+        "source": "sai",
+        "target": "sai_formats"
+      },
+      {
+        "source": "sai",
+        "target": "sai_quartz"
+      },
+      {
+        "source": "sai",
+        "target": "sai_eve_surface"
+      },
+      {
+        "source": "sai",
+        "target": "sai_scene_surfaces"
+      },
+      {
+        "source": "sai",
+        "target": "sai_future"
+      },
+      {
+        "source": "eve",
+        "target": "eve_cultui"
+      },
+      {
+        "source": "eve",
+        "target": "eve_backends"
+      },
+      {
+        "source": "eve",
+        "target": "eve_norn_backends"
+      },
+      {
+        "source": "eve",
+        "target": "eve_tex_surfaces"
+      },
+      {
+        "source": "eve",
+        "target": "eve_diegetic_surfaces"
+      },
+      {
+        "source": "eve",
+        "target": "eve_future"
+      },
+      {
+        "source": "mimir",
+        "target": "mimir_sensors"
+      },
+      {
+        "source": "mimir",
+        "target": "mimir_future"
+      },
+      {
+        "source": "mimir",
+        "target": "mimir_sync"
+      },
+      {
+        "source": "mimir",
+        "target": "mimir_eve"
+      },
+      {
+        "source": "ghostlight",
+        "target": "ghostlight_state"
+      },
+      {
+        "source": "ghostlight",
+        "target": "ghostlight_branch"
+      },
+      {
+        "source": "ghostlight",
+        "target": "ghostlight_memory"
+      },
+      {
+        "source": "ghostlight",
+        "target": "ghostlight_future"
+      },
+      {
+        "source": "worlds",
+        "target": "nibu_wound"
+      },
+      {
+        "source": "worlds",
+        "target": "zyphos"
+      },
+      {
+        "source": "worlds",
+        "target": "weksa_route"
+      },
+      {
+        "source": "kiko",
+        "target": "kiko_architecture"
+      },
+      {
+        "source": "kiko",
+        "target": "kiko_patronage"
+      },
+      {
+        "source": "kiko",
+        "target": "kiko_eve"
+      },
+      {
+        "source": "aqua",
+        "target": "aqua_voice"
+      },
+      {
+        "source": "aqua",
+        "target": "aqua_faust"
+      },
+      {
+        "source": "aqua",
+        "target": "aqua_weksa"
+      },
+      {
+        "source": "visual_tools",
+        "target": "geometry_tools"
+      },
+      {
+        "source": "visual_tools",
+        "target": "visual_repixelizer"
+      },
+      {
+        "source": "visual_tools",
+        "target": "visual_geometry_runtime"
+      },
+      {
+        "source": "cultpong",
+        "target": "cultpong_thesis"
+      },
+      {
+        "source": "cultpong",
+        "target": "cultpong_mechanics"
+      },
+      {
+        "source": "cultpong",
+        "target": "cultpong_patronage"
+      },
+      {
+        "source": "pitch",
+        "target": "pitch_eve"
+      },
+      {
+        "source": "pitch",
+        "target": "pitch_bifrost"
+      },
+      {
+        "source": "pitch",
+        "target": "pitch_cultmesh"
+      },
+      {
+        "source": "pitch",
+        "target": "pitch_epiphany"
+      },
+      {
+        "source": "pitch",
+        "target": "pitch_games"
+      }
     ]
   },
   "scene_set": {

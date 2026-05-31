@@ -218,19 +218,6 @@ description: "GameCult's over-the-top TeX portfolio dossier rendered as a dark-m
 enableToc: true
 cssclasses:
   - portfolio-dossier-page
-sidebarGroups:
-  - title: Studio
-    links:
-      - label: Visual Novel Home
-        slug: index
-      - label: Portfolio Pitch
-        slug: Pitch
-      - label: Portfolio Dossier
-        slug: Portfolio-Dossier
-      - label: Project Atlas
-        slug: Projects
-      - label: Graph
-        slug: Graph
 ---
 
 <section class="portfolio-dossier-hero">

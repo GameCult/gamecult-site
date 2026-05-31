@@ -5,6 +5,7 @@ import GameCultOverviewSidebar from "./quartz/components/GameCultOverviewSidebar
 import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
+const isPortfolioDossierPage = (page: any) => page.fileData.slug === "Portfolio-Dossier"
 const isStandardContentPage = (page: any) => page.fileData.slug !== "index" && !isGraphPage(page)
 
 // components shared across all pages
@@ -51,7 +52,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.ConditionalRender({
       component: GameCultOverviewSidebar(),
-      condition: (page) => !isGraphPage(page),
+      condition: (page) => !isGraphPage(page) && !isPortfolioDossierPage(page),
     }),
   ],
   right: [
@@ -61,7 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: isStandardContentPage,
+      condition: (page) => isStandardContentPage(page) && !isPortfolioDossierPage(page),
     }),
   ],
 }

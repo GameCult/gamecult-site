@@ -13,6 +13,8 @@
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{caption}
 
 \definecolor{voidblack}{HTML}{05070B}
 \definecolor{voidpanel}{HTML}{0B111A}
@@ -75,6 +77,13 @@
     \end{minipage}
   }
   \end{center}
+}
+\newcommand{\MoonGraphic}[3]{
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=#1\linewidth]{#2}
+    \caption*{\small\textbf{\color{voidorange}#3}}
+  \end{figure}
 }
 \newcommand{\ProjectHeader}[4]{
   \chapter{#1}

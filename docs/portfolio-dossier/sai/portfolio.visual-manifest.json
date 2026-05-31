@@ -70,5 +70,35 @@
       "title": "Portfolio Dossier Spread",
       "source": "/docs/portfolio-dossier/main.pdf"
     }
+  },
+  "graphic_cards": {
+    "moonshot_trajectory": {
+      "kind": "svg-card",
+      "title": "Moonshot Trajectory",
+      "source": "/docs/portfolio-dossier/figures/moonshot-trajectory.svg",
+      "scene": "portfolio_hall",
+      "caption": "Worker-owned launch path from Bifrost ignition to the cooperative surface-web moon."
+    },
+    "value_orbit_map": {
+      "kind": "svg-card",
+      "title": "Value Orbit Map",
+      "source": "/docs/portfolio-dossier/figures/value-orbit-map.svg",
+      "scene": "portfolio_hall",
+      "caption": "The portfolio becomes dangerous when projects orbit one shared substrate."
+    },
+    "patronage_furnace": {
+      "kind": "svg-card",
+      "title": "Patronage Furnace",
+      "source": "/docs/portfolio-dossier/figures/patronage-furnace.svg",
+      "scene": "ledger",
+      "caption": "Game spend, patronage, and work receipts become log-power voting weight."
+    },
+    "surface_web_stack": {
+      "kind": "svg-card",
+      "title": "Surface Web Stack",
+      "source": "/docs/portfolio-dossier/figures/surface-web-stack.svg",
+      "scene": "surface_web",
+      "caption": "CultUI surfaces stream to web, desktop, mobile, games, and overlays."
+    }
   }
 }

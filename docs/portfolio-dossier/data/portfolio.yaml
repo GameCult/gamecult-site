@@ -114,3 +114,24 @@ projects:
     room: Graph Loom
     thesis: Readable graph layout for work, evidence, and architecture.
     mythic_case: Spatial cognition layer for the surface web.
+graphics:
+  - id: moonshot-trajectory
+    name: Moonshot Trajectory
+    source_svg: figures/moonshot-trajectory.svg
+    tex_pdf: figures/moonshot-trajectory.pdf
+    thesis: GameCult launch path from cooperative production to the surface web.
+  - id: value-orbit-map
+    name: Value Orbit Map
+    source_svg: figures/value-orbit-map.svg
+    tex_pdf: figures/value-orbit-map.pdf
+    thesis: Portfolio projects orbit the shared Bifrost/Eve/CultMesh/Sai substrate.
+  - id: patronage-furnace
+    name: Patronage Furnace
+    source_svg: figures/patronage-furnace.svg
+    tex_pdf: figures/patronage-furnace.pdf
+    thesis: Spending, patronage, and verified labor become receipt-backed voting power.
+  - id: surface-web-stack
+    name: Surface Web Stack
+    source_svg: figures/surface-web-stack.svg
+    tex_pdf: figures/surface-web-stack.pdf
+    thesis: CultUI semantic surfaces travel across web, desktop, mobile, games, and overlays.

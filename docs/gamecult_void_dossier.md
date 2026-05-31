@@ -88,10 +88,12 @@ But voting weight should not be linear by default. Linear voting turns patronage
 The inherited rule family is log-power voting:
 
 ```text
-voting_weight = 1 + log_base(1 + effective_points)
+voting_weight = 1 + log_base(max(1, effective_points))
 ```
 
 The leading `1` is not decoration. If voting share is only normalized pure logarithms, the log base mostly cancels out. With a baseline voting unit, the base becomes a real political parameter: it decides how fast accumulated points pull someone away from ordinary member weight.
+
+Example: with base `10`, one million effective points becomes `7` votes, while ten thousand effective points becomes `5` votes. That is still hierarchy. It is just a hierarchy whose slope has been dragged out into public where people can argue with it.
 
 Base `2` says accumulated value should matter sharply. Base `10` says the hierarchy should be much flatter. Both are defensible. Neither should be smuggled in by a developer because the constant looked tidy.
 
@@ -250,13 +252,13 @@ effective_points =
 + global_contribution_points  * 0.10
 + global_patron_points        * 0.05
 
-voting_weight = 1 + log2(1 + effective_points)
+voting_weight = 1 + log2(max(1, effective_points))
 ```
 
 Another project might choose a flatter platform consensus curve:
 
 ```text
-voting_weight = 1 + log10(1 + effective_points)
+voting_weight = 1 + log10(max(1, effective_points))
 ```
 
 Base `10` is the high end I can currently stomach without turning contribution into decorative confetti. A deployment that wants something flatter than that should have to say so in public and win the argument.

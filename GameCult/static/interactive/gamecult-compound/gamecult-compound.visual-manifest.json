@@ -517,6 +517,16 @@
         }
       }
     },
+    "Sai": {
+      "avatar": "sai.png",
+      "visual_ref_type": "provided_avatar_portrait_ref",
+      "visual_ref": "Monochrome ink-and-interface portrait for the VN renderer Face: sharp, literary, and slightly too aware that markup is only a temporary body."
+    },
+    "Eve": {
+      "avatar": "eve.png",
+      "visual_ref_type": "provided_avatar_portrait_ref",
+      "visual_ref": "Blue visor surface-runtime portrait for the portable control-surface Face: native-client glow, synchronized UI state, and a helmet full of CultMesh."
+    },
     "Aqua": {
       "avatar": "aqua.png",
       "default_sprite": "idle",

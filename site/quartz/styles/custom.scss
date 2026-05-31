@@ -1090,6 +1090,7 @@ body[data-slug="index"] {
 }
 
 .gamecult-compound-vn.sai-player-speaker {
+  --sai-sprite-pixel-scale: 4;
   min-height: calc(100vh - 4.5rem);
   margin: 0;
 }
@@ -1109,7 +1110,8 @@ body[data-slug="index"] {
 }
 
 .gamecult-compound-vn .sai-speaker-background {
-  display: none;
+  display: block;
+  opacity: 0.72;
 }
 
 .gamecult-compound-vn .sai-speaker-scrim {
@@ -1141,6 +1143,17 @@ body[data-slug="index"] {
 .gamecult-compound-vn .sai-dom-card-title,
 .gamecult-compound-vn .sai-speaker-name {
   color: rgba(255, 138, 42, 0.96);
+}
+
+.gamecult-compound-vn .sai-sprite {
+  width: auto;
+  min-width: 0;
+  max-width: none;
+}
+
+.gamecult-compound-vn .sai-sprite-image {
+  width: auto;
+  max-width: none;
 }
 
 .gamecult-compound-vn .sai-speaker-card {

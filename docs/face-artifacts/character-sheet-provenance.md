@@ -25,6 +25,8 @@ Extracted runtime sprites live under:
 
 `GameCult/static/interactive/cotsc-praxis/sprites/`
 
+The active runtime sprites were replaced on 2026-05-31 with repixelized 3x2 sheet exports from `E:\Projects\repixelizer\artifacts\spritesheet-grid-3x2`. The site compound player opts into 4x pixel scaling and Sai renders sprite images with nearest-neighbor-style `image-rendering: pixelated`; the repixelized color pass keeps the previous tracked sprite alpha masks so characters remain transparent over the VN background.
+
 Generated VN backgrounds live under:
 
 `GameCult/static/interactive/cotsc-praxis/backgrounds/`

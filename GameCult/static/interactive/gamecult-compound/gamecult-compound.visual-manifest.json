@@ -209,6 +209,123 @@
         "docs": "typed state docs shelf"
       },
       "background": "backgrounds/cultcachets-inspection-desk.png"
+    },
+    "graph_loom": {
+      "label": "Norn Graph Loom",
+      "camera": "hub_wide",
+      "visible_actors": [
+        "Norn"
+      ],
+      "visual_anchor": "Whole-adventure graph room with repository nodes, route edges, architecture/dataflow threads, and direct links back to canonical project surfaces.",
+      "dom_card_roles": {
+        "adventure_map": "whole adventure graph",
+        "norn_map": "Norn project card"
+      },
+      "background": "backgrounds/project-atlas.png"
+    },
+    "vn_stage": {
+      "label": "Sai VN Stage",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Sai"
+      ],
+      "visual_anchor": "Homepage visual novel renderer desk with Ink pacing, Quartz document cards, and honest exit links visible.",
+      "dom_card_roles": {
+        "sai_embed": "Sai renderer card",
+        "sai_dom_cards": "DOM card contract"
+      },
+      "background": "backgrounds/compound.png"
+    },
+    "surface_web": {
+      "label": "Eve Surface Web Atrium",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Eve"
+      ],
+      "visual_anchor": "Multi-backend surface web room showing CultUI semantic state flowing into web, native, mobile, overlay, and game renderers.",
+      "dom_card_roles": {
+        "surface_stack": "surface web graphic",
+        "eve_surface_pipeline": "Eve authority pipeline"
+      },
+      "background": "backgrounds/streampixels-overlay-studio.png"
+    },
+    "machine_room": {
+      "label": "Mimir Machine Room",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Mimir"
+      ],
+      "visual_anchor": "Realtime field well with sensor rails, calibration cards, confidence readouts, and reservoir packets feeding future render surfaces.",
+      "dom_card_roles": {
+        "mimir_well": "Mimir jurisdiction card",
+        "mimir_reservoir": "native reservoir card"
+      },
+      "background": "backgrounds/receipts.png"
+    },
+    "ghost_hall": {
+      "label": "Ghostlight Hall",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Ghostlight"
+      ],
+      "visual_anchor": "Social-state hall with canonical, perceived, and projected Persona state held apart beside branch compiler receipts.",
+      "dom_card_roles": {
+        "ghostlight_state": "social state card",
+        "ghostlight_branch": "branch compiler card"
+      },
+      "background": "backgrounds/archive.png"
+    },
+    "synth_lab": {
+      "label": "AquaSynth Voice Lab",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Aqua"
+      ],
+      "visual_anchor": "Audio patch and alien-voice research lab with Weksa utterance cards, Faust lowering notes, and vocal tract controls.",
+      "dom_card_roles": {
+        "aquasynth": "AquaSynth project card",
+        "weksa": "language substrate card"
+      },
+      "background": "backgrounds/weksa-language-lab.png"
+    },
+    "pixel_workshop": {
+      "label": "Pixel Workshop",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Void"
+      ],
+      "visual_anchor": "Pixel reconstruction bench with grid diagnostics, phase-field overlays, and before/after artifact cards.",
+      "dom_card_roles": {
+        "repixelizer": "Repixelizer project card",
+        "visual_tools": "shared visual tools thesis"
+      },
+      "background": "backgrounds/cultcachets-inspection-desk.png"
+    },
+    "geometry_bench": {
+      "label": "Geometry Bench",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Void"
+      ],
+      "visual_anchor": "CSG geometry bench with selected-cut diagrams, runtime output notes, and transformation receipts.",
+      "dom_card_roles": {
+        "vibegeometry": "VibeGeometry project card",
+        "visual_tools": "shared visual tools thesis"
+      },
+      "background": "backgrounds/project-atlas.png"
+    },
+    "arena": {
+      "label": "CultPong Arena",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Nibu"
+      ],
+      "visual_anchor": "Small competitive arena for shaped paddles, geometry bounces, bash timing, and patronage experiments.",
+      "dom_card_roles": {
+        "cultpong": "CultPong project card",
+        "patronage_furnace": "patronage experiment card"
+      },
+      "background": "backgrounds/project-atlas.png"
     }
   },
   "actors": {
@@ -474,6 +591,216 @@
       "title": "Roadmap",
       "selector": "#gamecult-vn-roadmap",
       "role": "future public-ledger path"
+    },
+    "adventure_map": {
+      "title": "Adventure Graph",
+      "selector": "#gamecult-vn-adventure-map",
+      "role": "whole repository swarm navigation graph"
+    },
+    "norn_map": {
+      "title": "Norn",
+      "selector": "#gamecult-vn-norn-map",
+      "role": "graph loom project card"
+    },
+    "norn_architecture": {
+      "title": "Architecture Thread",
+      "selector": "#gamecult-vn-norn-architecture",
+      "role": "architecture ownership graph"
+    },
+    "norn_dataflow": {
+      "title": "Dataflow Thread",
+      "selector": "#gamecult-vn-norn-dataflow",
+      "role": "dataflow movement graph"
+    },
+    "norn_focus": {
+      "title": "Focus Trial",
+      "selector": "#gamecult-vn-norn-focus",
+      "role": "selected node inspection contract"
+    },
+    "norn_solver": {
+      "title": "Solver Body",
+      "selector": "#gamecult-vn-norn-solver",
+      "role": "graph layout solver card"
+    },
+    "norn_future": {
+      "title": "Norn Wants",
+      "selector": "#gamecult-vn-norn-future",
+      "role": "future graph rooms"
+    },
+    "sai_embed": {
+      "title": "Sai",
+      "selector": "#gamecult-vn-sai-embed",
+      "role": "visual novel renderer card"
+    },
+    "sai_formats": {
+      "title": "Sai Formats",
+      "selector": "#gamecult-vn-sai-formats",
+      "role": "transcript, VN, and cinematic formats"
+    },
+    "sai_dom_cards": {
+      "title": "DOM Cards",
+      "selector": "#gamecult-vn-sai-dom-cards",
+      "role": "Quartz card cloning contract"
+    },
+    "sai_quartz": {
+      "title": "Quartz Swap",
+      "selector": "#gamecult-vn-sai-quartz",
+      "role": "client-side navigation survival"
+    },
+    "sai_links": {
+      "title": "Honest Exits",
+      "selector": "#gamecult-vn-sai-links",
+      "role": "plain wiki exits"
+    },
+    "eve_surface_pipeline": {
+      "title": "Eve Pipeline",
+      "selector": "#gamecult-vn-eve-surface-pipeline",
+      "role": "provider state to renderer command loop"
+    },
+    "eve_cultui": {
+      "title": "CultUI",
+      "selector": "#gamecult-vn-eve-cultui",
+      "role": "semantic UI contract"
+    },
+    "eve_backends": {
+      "title": "Many Bodies",
+      "selector": "#gamecult-vn-eve-backends",
+      "role": "multi-backend render targets"
+    },
+    "eve_commands": {
+      "title": "Command Trial",
+      "selector": "#gamecult-vn-eve-commands",
+      "role": "command intent and provider acceptance"
+    },
+    "eve_canvas": {
+      "title": "Native Proof",
+      "selector": "#gamecult-vn-eve-canvas",
+      "role": "EveCanvas native shell"
+    },
+    "epiphany_organs": {
+      "title": "Organ Lanes",
+      "selector": "#gamecult-vn-epiphany-organs",
+      "role": "Epiphany work-organ authority map"
+    },
+    "epiphany_memory": {
+      "title": "Memory Split",
+      "selector": "#gamecult-vn-epiphany-memory",
+      "role": "local memory versus public Persona projection"
+    },
+    "epiphany_heartbeat": {
+      "title": "Heartbeat",
+      "selector": "#gamecult-vn-epiphany-heartbeat",
+      "role": "agent pressure and scheduler state"
+    },
+    "epiphany_aquarium": {
+      "title": "Aquarium Surface",
+      "selector": "#gamecult-vn-epiphany-aquarium",
+      "role": "diegetic operator surface"
+    },
+    "voidbot_retrieval": {
+      "title": "Retrieval Body",
+      "selector": "#gamecult-vn-voidbot-retrieval",
+      "role": "Discord, repo, and lore retrieval"
+    },
+    "voidbot_pipe": {
+      "title": "Bot / Worker Split",
+      "selector": "#gamecult-vn-voidbot-pipe",
+      "role": "Discord transport and job worker split"
+    },
+    "voidbot_memory": {
+      "title": "Social Memory",
+      "selector": "#gamecult-vn-voidbot-memory",
+      "role": "interaction memory and audit events"
+    },
+    "voidbot_faces": {
+      "title": "Repo Faces",
+      "selector": "#gamecult-vn-voidbot-faces",
+      "role": "project persona speech surface"
+    },
+    "mimir_well": {
+      "title": "Mimir Field Well",
+      "selector": "#gamecult-vn-mimir-well",
+      "role": "realtime field jurisdiction"
+    },
+    "mimir_reservoir": {
+      "title": "Native Reservoir",
+      "selector": "#gamecult-vn-mimir-reservoir",
+      "role": "time-ordered sensor reservoir"
+    },
+    "mimir_sensors": {
+      "title": "Sensor Array",
+      "selector": "#gamecult-vn-mimir-sensors",
+      "role": "room sensor and calibration map"
+    },
+    "mimir_confidence": {
+      "title": "Confidence",
+      "selector": "#gamecult-vn-mimir-confidence",
+      "role": "drift and false-coherence checks"
+    },
+    "ghostlight_state": {
+      "title": "Ghostlight State",
+      "selector": "#gamecult-vn-ghostlight-state",
+      "role": "canonical, perceived, and projected social state"
+    },
+    "ghostlight_branch": {
+      "title": "Branch Compiler",
+      "selector": "#gamecult-vn-ghostlight-branch",
+      "role": "reviewed Ink scene compiler"
+    },
+    "ghostlight_sidecar": {
+      "title": "Sidecars",
+      "selector": "#gamecult-vn-ghostlight-sidecar",
+      "role": "training and visual sidecars"
+    },
+    "ghostlight_reviewer": {
+      "title": "Reviewer",
+      "selector": "#gamecult-vn-ghostlight-reviewer",
+      "role": "scene artifact reviewer"
+    },
+    "aetheria": {
+      "title": "Aetheria",
+      "selector": "#gamecult-vn-aetheria",
+      "role": "science-fantasy world vault"
+    },
+    "zyphos": {
+      "title": "Zyphos",
+      "selector": "#gamecult-vn-zyphos",
+      "role": "living-world ecology vault"
+    },
+    "weksa": {
+      "title": "Weksa",
+      "selector": "#gamecult-vn-weksa",
+      "role": "ontology-first language research"
+    },
+    "streampixels": {
+      "title": "StreamPixels",
+      "selector": "#gamecult-vn-streampixels",
+      "role": "livestream overlay and creator surface"
+    },
+    "aquasynth": {
+      "title": "AquaSynth",
+      "selector": "#gamecult-vn-aquasynth",
+      "role": "audio patch and voice synthesis lab"
+    },
+    "repixelizer": {
+      "title": "Repixelizer",
+      "selector": "#gamecult-vn-repixelizer",
+      "role": "pixel reconstruction tool"
+    },
+    "vibegeometry": {
+      "title": "VibeGeometry",
+      "selector": "#gamecult-vn-vibegeometry",
+      "role": "runtime geometry and CSG tool"
+    },
+    "visual_tools": {
+      "title": "Visual Tools",
+      "selector": "#gamecult-vn-visual-tools",
+      "role": "shared visual transformation thesis"
+    },
+    "cultpong": {
+      "title": "CultPong",
+      "selector": "#gamecult-vn-cultpong",
+      "role": "small competitive game and patronage testbed"
     },
     "moonshot": {
       "title": "Moonshot Trajectory",

@@ -78,6 +78,117 @@ cssclasses:
     <p><a href="/Pitch">Play the over-the-top portfolio pitch</a> | <a href="/Projects/">Visit the repo atlas</a></p>
   </div>
 
+  <div id="gamecult-vn-adventure-map" class="gamecult-vn-source-card gamecult-vn-graph-card" data-sai-dom-source="true">
+    <h2>Norn's Adventure Graph</h2>
+    <svg viewBox="0 0 960 540" role="img" aria-label="GameCult repository swarm adventure graph">
+      <g class="graph-links">
+        <path d="M480 72 L274 154 L220 278 L270 402 L480 468 L690 402 L740 278 L686 154 Z"/>
+        <path d="M480 72 L480 468 M274 154 L690 402 M686 154 L270 402 M220 278 L740 278"/>
+        <path d="M274 154 L126 112 L118 250 L220 278 M686 154 L836 116 L848 252 L740 278"/>
+        <path d="M270 402 L128 424 L246 494 M690 402 L830 424 L716 494"/>
+      </g>
+      <g class="graph-node core"><circle cx="480" cy="72" r="36"/><text x="480" y="77">Norn</text></g>
+      <g class="graph-node"><circle cx="274" cy="154" r="32"/><text x="274" y="159">Sai</text></g>
+      <g class="graph-node"><circle cx="686" cy="154" r="32"/><text x="686" y="159">Eve</text></g>
+      <g class="graph-node"><circle cx="220" cy="278" r="34"/><text x="220" y="283">Epiphany</text></g>
+      <g class="graph-node"><circle cx="740" cy="278" r="34"/><text x="740" y="283">Bifrost</text></g>
+      <g class="graph-node"><circle cx="270" cy="402" r="32"/><text x="270" y="407">VoidBot</text></g>
+      <g class="graph-node"><circle cx="690" cy="402" r="32"/><text x="690" y="407">Libby</text></g>
+      <g class="graph-node core"><circle cx="480" cy="468" r="36"/><text x="480" y="473">Worlds</text></g>
+      <g class="graph-node small"><circle cx="126" cy="112" r="28"/><text x="126" y="117">Mimir</text></g>
+      <g class="graph-node small"><circle cx="118" cy="250" r="28"/><text x="118" y="255">Ghostlight</text></g>
+      <g class="graph-node small"><circle cx="836" cy="116" r="28"/><text x="836" y="121">Heimdall</text></g>
+      <g class="graph-node small"><circle cx="848" cy="252" r="28"/><text x="848" y="257">CultMesh</text></g>
+      <g class="graph-node small"><circle cx="128" cy="424" r="28"/><text x="128" y="429">Weksa</text></g>
+      <g class="graph-node small"><circle cx="246" cy="494" r="28"/><text x="246" y="499">Aqua</text></g>
+      <g class="graph-node small"><circle cx="830" cy="424" r="28"/><text x="830" y="429">Kiko</text></g>
+      <g class="graph-node small"><circle cx="716" cy="494" r="28"/><text x="716" y="499">CultPong</text></g>
+    </svg>
+    <p>Norn is the graph host: every route is a room, every room points back to a repo, and every claim is supposed to survive being viewed as topology.</p>
+  </div>
+
+  <div id="gamecult-vn-norn-map" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Norn</h2>
+    <p>Norn makes architecture and dataflow readable as linked graphs. The job is not to beautify complexity, but to show ownership, movement, neighbors, and evidence without flattening the system into a list.</p>
+    <p><a href="https://github.com/GameCult/Norn">Norn repo</a> | <a href="https://github.com/GameCult/norn-rs">norn-rs</a></p>
+  </div>
+
+  <div id="gamecult-vn-norn-architecture" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Architecture Thread</h2>
+    <p>Architecture nodes own bodies and responsibilities: repos, services, runtimes, stores, surfaces, and the authority they are allowed to exercise.</p>
+  </div>
+
+  <div id="gamecult-vn-norn-dataflow" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Dataflow Thread</h2>
+    <p>Dataflow nodes own movement: evidence, fragments, turns, validation, proposals, command intent, accepted state, and published receipts.</p>
+  </div>
+
+  <div id="gamecult-vn-norn-focus" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Focus Trial</h2>
+    <p>Low zoom shows shape; high zoom shows title, purpose, mechanism, status, and code references. The selected node has to commit geometry instead of being repaired after the fact.</p>
+  </div>
+
+  <div id="gamecult-vn-norn-solver" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Solver Body</h2>
+    <p>The Rust side aims at hybrid graph layout: ranking, ordering, direction pressure, springs, collision, and force relaxation. React owns inspection, not the underlying truth.</p>
+  </div>
+
+  <div id="gamecult-vn-norn-future" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Norn Wants</h2>
+    <p>Live Bifrost work frontiers, Epiphany evidence maps, Eve operational surfaces, Ghostlight consequence graphs, and direct graph rooms for every repo in the swarm.</p>
+  </div>
+
+  <div id="gamecult-vn-sai-embed" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Sai</h2>
+    <p>Sai renders Ink stories inside public pages. It lets a Persona guide stand beside real Quartz documents, so onboarding can be narrative without becoming a parallel wiki.</p>
+  </div>
+
+  <div id="gamecult-vn-sai-formats" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Three Masks</h2>
+    <p>Transcript, visual novel, and cinematic deck are different reader postures over one story substrate. The homepage uses VN because it can point at the machine while speaking.</p>
+  </div>
+
+  <div id="gamecult-vn-sai-dom-cards" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>DOM Cards</h2>
+    <p>The `# dom:` tag clones canonical page cards into the stage. Quartz remains the source of truth; Ink controls pacing; Sai controls rendering.</p>
+  </div>
+
+  <div id="gamecult-vn-sai-quartz" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Quartz Swap</h2>
+    <p>Sai auto-initializes `.sai-player`, survives client-side navigation, and keeps plain links visible. A guided tour must never become a locked door.</p>
+  </div>
+
+  <div id="gamecult-vn-sai-links" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Honest Exits</h2>
+    <p>The VN is a spatial navigation layer, not a curtain. Every room keeps a route back to the public wiki, project page, repo, or receipt surface.</p>
+  </div>
+
+  <div id="gamecult-vn-eve-surface-pipeline" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Eve Pipeline</h2>
+    <p>Provider-owned state becomes a CultUI semantic tree; Eve projects it into local renderers; user action becomes command intent; the provider accepts or refuses and publishes updated truth.</p>
+    <p><a href="https://github.com/GameCult/Eve">Eve repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-eve-cultui" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Not Remote DOM</h2>
+    <p>CultUI surfaces carry stable widget IDs, typed bindings, command routes, layout intent, permissions, health, and provenance. Arbitrary DOM soup does not get to be infrastructure.</p>
+  </div>
+
+  <div id="gamecult-vn-eve-backends" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Many Bodies</h2>
+    <p>Web DOM, desktop controls, mobile panels, Unity UI, stream overlays, and Sai rooms can render the same semantic surface without each becoming its own little kingdom.</p>
+  </div>
+
+  <div id="gamecult-vn-eve-commands" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Command Trial</h2>
+    <p>Eve owns projection, hit-testing, and command intent. Providers own truth and command acceptance. That split is the spine.</p>
+  </div>
+
+  <div id="gamecult-vn-eve-canvas" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Native Proof</h2>
+    <p>EveCanvas is the current native shell: UIKit lifecycle and crisp text, OpenGL ES pixels, CADisplayLink frames, CoreMotion telemetry, and no premature claim that telemetry is authority.</p>
+  </div>
+
   <div id="gamecult-vn-docs" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Docs</h2>
     <p>The docs hold the operating side of the site: publishing workflow, site architecture, and Bifrost as it becomes the public work/governance layer.</p>
@@ -90,6 +201,26 @@ cssclasses:
     <p><a href="/Projects/Epiphany">Project page</a> | <a href="https://github.com/GameCult/Epiphany">GitHub repo</a></p>
   </div>
 
+  <div id="gamecult-vn-epiphany-organs" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Organ Lanes</h2>
+    <p>Self routes, Face speaks, Eyes retrieve, Proprioception maps, Hands edit, Soul verifies, and Imagination shapes futures. The point is authority boundaries, not costume names.</p>
+  </div>
+
+  <div id="gamecult-vn-epiphany-memory" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Memory Split</h2>
+    <p>Local organ memory lives as durable agent state; portable public Persona projection uses a typed persona-state shape. Memory, speech, scheduler, and evidence do not get to counterfeit each other.</p>
+  </div>
+
+  <div id="gamecult-vn-epiphany-heartbeat" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Heartbeat</h2>
+    <p>Initiative, readiness, speed, reaction bias, load, constraints, and pending turns make agent pressure inspectable before the Face starts talking.</p>
+  </div>
+
+  <div id="gamecult-vn-epiphany-aquarium" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Aquarium Surface</h2>
+    <p>EpiphanyAquarium wants agents to be selectable living objects: role lanes, memory, pressure, and readiness visible without drowning the operator in admin chrome.</p>
+  </div>
+
   <div id="gamecult-vn-bifrost" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Bifrost</h2>
     <p>Bifrost turns public work into inspectable records: proposed tasks, claims, reviews, receipts, contributor history, and the reward/support pressure that must not hide in private chat.</p>
@@ -100,6 +231,26 @@ cssclasses:
     <h2>VoidBot</h2>
     <p>VoidBot makes project memory askable: archived Discord history, indexed repos, lore lookup, semantic search, and Codex handoff when chat stops being a sane workspace.</p>
     <p><a href="/Projects/VoidBot">Project page</a> | <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-voidbot-retrieval" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Retrieval Body</h2>
+    <p>VoidBot searches archived Discord history, indexed source trees, Aetheria lore, and local vector stores, then hands deeper work to Codex when chat stops being the right tool.</p>
+  </div>
+
+  <div id="gamecult-vn-voidbot-pipe" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Bot / Worker Split</h2>
+    <p>The Discord gateway and permissions stay in the bot lane; heavier jobs and MCP tools live in the worker lane. Transport is not truth.</p>
+  </div>
+
+  <div id="gamecult-vn-voidbot-memory" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Social Memory</h2>
+    <p>Interaction memory, audit events, self-state projection, speech receipts, and candidate interventions let the bot remember without pretending a read is a verdict.</p>
+  </div>
+
+  <div id="gamecult-vn-voidbot-faces" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Repo Faces</h2>
+    <p>Repo Faces grow from indexed bodies and webhook speech. A project should greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.</p>
   </div>
 
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -124,6 +275,99 @@ cssclasses:
     <h2>Roadmap Shape</h2>
     <p>The public path is Bifrost-first private alpha, proof sprint, design partners, fellows/support pilots, and only then larger social-support machinery under legal review.</p>
     <p><a href="/Docs/Bifrost">Current Bifrost rollout</a></p>
+  </div>
+
+  <div id="gamecult-vn-mimir-well" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Mimir Field Well</h2>
+    <p>Mimir owns configuration, calibration truth, runtime contracts, launch, status, persistence, and continuity pressure for realtime room intelligence.</p>
+  </div>
+
+  <div id="gamecult-vn-mimir-reservoir" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Native Reservoir</h2>
+    <p>The future body is one rolling time-ordered reservoir. Typed views are indexes, not private histories. Camera frames, scene rays, material claims, audio blocks, phase claims, and render packets share a field.</p>
+  </div>
+
+  <div id="gamecult-vn-mimir-sensors" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Sensor Array</h2>
+    <p>Cameras, Leap IR, Focusrite anchors, camera mics, PS Eye witnesses, visual fusion, audio field models, and clock drift all need visible confidence before they can feed the surface web.</p>
+  </div>
+
+  <div id="gamecult-vn-mimir-confidence" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Confidence</h2>
+    <p>Mimir wants drift named, cadence proven, false coherence rejected, and no feed called truth before it earns the oath.</p>
+  </div>
+
+  <div id="gamecult-vn-ghostlight-state" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Ghostlight State</h2>
+    <p>Ghostlight keeps three truths apart: canonical state, observer-specific perceived state, and portable Persona projection.</p>
+  </div>
+
+  <div id="gamecult-vn-ghostlight-branch" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Branch Compiler</h2>
+    <p>Reviewed scene intent and consequence packets become playable Ink plus training receipts. The compiler cares about state reads, consequences, and branch folding.</p>
+  </div>
+
+  <div id="gamecult-vn-ghostlight-sidecar" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Sidecars</h2>
+    <p>`.training.json` and visual sidecars make scene consequences reusable for future specialized models and visual surfaces.</p>
+  </div>
+
+  <div id="gamecult-vn-ghostlight-reviewer" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Reviewer</h2>
+    <p>The reviewer catches fake variables, cosmetic choices, missing state reads, fake folds, and visual callback gaps before a scene calls itself meaningful.</p>
+  </div>
+
+  <div id="gamecult-vn-aetheria" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Aetheria</h2>
+    <p>Science-fantasy ships, faction pressure, generated routes, action-RPG ambitions, and a setting archive waiting for recovery work instead of another heroic restart.</p>
+    <p><a href="https://aetheria.gamecult.org">Aetheria site</a></p>
+  </div>
+
+  <div id="gamecult-vn-zyphos" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Zyphos</h2>
+    <p>A close-binary living world with dim-star ecology, Mother Tree contracts, memory-bearing cells and landscapes, and politics that behaves like biology with obligations.</p>
+    <p><a href="https://zyphos.gamecult.org">Zyphos site</a></p>
+  </div>
+
+  <div id="gamecult-vn-weksa" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Weksa</h2>
+    <p>Ontology-first language work: source text to interlingua, alien ontology, grammar, morphology, phonology, diachrony, renderer, gloss, and trace.</p>
+    <p><a href="https://github.com/GameCult/weksa">Weksa repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-streampixels" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>StreamPixels</h2>
+    <p>Persistent pixel characters for livestream overlays: account linking, customization, creator event rules, realtime fanout, and overlay rendering that does not own authorization.</p>
+    <p><a href="https://github.com/GameCult/StreamPixels">StreamPixels repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-aquasynth" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>AquaSynth</h2>
+    <p>Patch graph contracts, `.aqua` authoring, SFXR mapping, Faust generation, and the research path toward alien vocal-tract synthesis with Weksa utterance structures.</p>
+    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-repixelizer" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Repixelizer</h2>
+    <p>Pixel-art reconstruction as diagnosis: infer the grid, expose lattice mistakes, rebuild phase fields, sample source pixels, snap alpha, and optionally quantize palette.</p>
+    <p><a href="/Projects/repixelizer">Project page</a> | <a href="https://github.com/GameCult/repixelizer">Repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-vibegeometry" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>VibeGeometry</h2>
+    <p>Runtime shape work around Rust CSG: tree intent, LOD-aware hierarchy, selected cuts, and generated geometry outputs with inspectable transformation receipts.</p>
+    <p><a href="/Projects/VibeGeometry">Project page</a> | <a href="https://github.com/GameCult/VibeGeometry">Repo</a></p>
+  </div>
+
+  <div id="gamecult-vn-visual-tools" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Visual Tools</h2>
+    <p>Repixelizer and VibeGeometry share a thesis: creative tools should make constrained reconstruction inspectable, not hide transformations behind a pretty export.</p>
+  </div>
+
+  <div id="gamecult-vn-cultpong" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>CultPong</h2>
+    <p>A fast paddle-arena prototype with shaped unlockables, geometry-driven bounces, a bash mechanic, and an obvious path toward tiny-game patronage experiments.</p>
+    <p><a href="/Projects/CultPong">Project page</a></p>
   </div>
 
   <div id="gamecult-vn-moonshot" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">

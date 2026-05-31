@@ -1594,6 +1594,54 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
   background: rgba(5, 10, 18, 0.9);
 }
 
+.gamecult-vn-graph-card svg {
+  display: block;
+  width: 100%;
+  max-height: min(58vh, 28rem);
+  margin: 0.2rem 0 0.75rem;
+  overflow: visible;
+}
+
+.gamecult-vn-graph-card .graph-links {
+  fill: none;
+  stroke: rgba(89, 183, 255, 0.44);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.gamecult-vn-graph-card .graph-node circle {
+  fill: rgba(7, 17, 26, 0.92);
+  stroke: rgba(255, 180, 93, 0.78);
+  stroke-width: 3;
+}
+
+.gamecult-vn-graph-card .graph-node.core circle {
+  fill: rgba(255, 180, 93, 0.12);
+  stroke: rgba(255, 180, 93, 0.92);
+  stroke-width: 4;
+}
+
+.gamecult-vn-graph-card .graph-node.small circle {
+  stroke: rgba(89, 183, 255, 0.72);
+}
+
+.gamecult-vn-graph-card .graph-node text {
+  fill: rgba(246, 241, 226, 0.96);
+  font-family: var(--titleFont);
+  font-size: 20px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  paint-order: stroke;
+  stroke: rgba(0, 0, 0, 0.72);
+  stroke-width: 4px;
+}
+
+.gamecult-vn-graph-card .graph-node.small text {
+  font-size: 15px;
+}
+
 .gamecult-embed-frame {
   margin: 1.2rem 0 1.4rem;
   padding: 0.8rem;

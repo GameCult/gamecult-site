@@ -1040,17 +1040,17 @@ a:hover,
   line-height: 1.5;
 }
 
-body[data-slug="index"]
+body[data-slug="tour"]
   .gamecult-composite-overview
   > h2:has(+ .gamecult-link-grid),
-body[data-slug="index"]
+body[data-slug="tour"]
   .gamecult-composite-overview
   > h3:has(+ .gamecult-link-grid),
-body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
+body[data-slug="tour"] .gamecult-composite-overview > .gamecult-link-grid {
   display: none !important;
 }
 
-body[data-slug="index"] {
+body[data-slug="tour"] {
   overflow: hidden;
 
   .page {
@@ -1119,7 +1119,7 @@ body[data-slug="index"] {
 }
 
 body[data-slug="Pitch"] .gamecult-vn-source,
-body[data-slug="index"] .gamecult-vn-source {
+body[data-slug="tour"] .gamecult-vn-source {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1131,7 +1131,7 @@ body[data-slug="index"] .gamecult-vn-source {
   pointer-events: none;
 }
 
-body[data-slug="index"] .gamecult-compound-vn.sai-player-speaker {
+body[data-slug="tour"] .gamecult-compound-vn.sai-player-speaker {
   --sai-sprite-pixel-scale: 4;
   position: fixed;
   inset: 0;
@@ -1144,8 +1144,8 @@ body[data-slug="index"] .gamecult-compound-vn.sai-player-speaker {
   margin: 0;
 }
 
-body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage,
-body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage,
+body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   height: 100svh;
   min-height: 100svh;
   border: 0;
@@ -1159,7 +1159,7 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 @supports (height: 100dvh) {
-  body[data-slug="index"] {
+  body[data-slug="tour"] {
     .page,
     .page > #quartz-body,
     .gamecult-compound-vn.sai-player-speaker,
@@ -1412,7 +1412,7 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   white-space: nowrap;
 }
 
-body[data-slug="index"] .gamecult-composite-sections {
+body[data-slug="tour"] .gamecult-composite-sections {
   margin-top: 1rem;
 }
 
@@ -1730,6 +1730,64 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
   line-height: 1.55;
 }
 
+.gamecult-home-action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.gamecult-home-action {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 0;
+  padding: 0.95rem 1rem;
+  border: 1px solid rgba(89, 183, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(8, 13, 21, 0.72);
+  color: var(--light);
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease,
+    background 160ms ease;
+}
+
+.gamecult-home-action:hover,
+.gamecult-home-action:focus-visible {
+  border-color: rgba(255, 138, 42, 0.45);
+  background: rgba(13, 20, 31, 0.9);
+  transform: translateY(-1px);
+}
+
+.gamecult-home-action.primary {
+  border-color: rgba(255, 138, 42, 0.34);
+}
+
+.gamecult-home-action span {
+  color: rgba(255, 138, 42, 0.96);
+  font-family: var(--titleFont);
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.gamecult-home-action strong {
+  color: var(--dark);
+  font-family: var(--titleFont);
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+.gamecult-home-action em {
+  color: rgba(183, 199, 217, 0.82);
+  font-size: 0.9rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+
 .gamecult-media-card {
   box-sizing: border-box;
   display: flex;
@@ -1838,6 +1896,10 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
   }
 
   .gamecult-feature-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gamecult-home-action-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 

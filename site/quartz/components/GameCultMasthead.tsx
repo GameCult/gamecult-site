@@ -87,6 +87,11 @@ const routes: Route[] = [
     ],
   },
   {
+    label: "Tour",
+    slug: "tour" as FullSlug,
+    matches: ["tour"],
+  },
+  {
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],

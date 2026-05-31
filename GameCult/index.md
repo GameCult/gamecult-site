@@ -52,18 +52,7 @@ sidebarGroups:
         slug: Docs/Bifrost
 cssclasses:
   - gamecult-composite-overview
-compositeSections:
-  - Open-Source-Model
-  - Contributing
-  - democratizing-gamedev
-  - a-place-for-everyone
-  - games-as-a-service
-  - the-new-hotness
 ---
-
-# GameCult
-
-*"Open source game development, cooperative by instinct, strange by design."*
 
 <div
   class="sai-player gamecult-compound-vn"

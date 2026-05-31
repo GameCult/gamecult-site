@@ -1051,12 +1051,16 @@ body[data-slug="index"] .gamecult-composite-overview > .gamecult-link-grid {
 }
 
 body[data-slug="index"] {
+  overflow: hidden;
+
   .page {
     max-width: none;
-    padding-inline: clamp(0.7rem, 2vw, 1.2rem);
+    min-height: 100svh;
+    padding: 0;
   }
 
   .page > #quartz-body {
+    min-height: 100svh;
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "grid-header"
@@ -1066,16 +1070,19 @@ body[data-slug="index"] {
 
   .page > #quartz-body > .left.sidebar,
   .page > #quartz-body > .right.sidebar,
-  .page > #quartz-body .center > .page-header > header {
+  .page > #quartz-body > footer,
+  .page > #quartz-body .center > .page-header,
+  .page > #quartz-body .center > .page-footer {
     display: none;
   }
 
   .page > #quartz-body .center {
+    display: block;
     min-width: 0;
   }
 
   .page > #quartz-body .center > article {
-    margin-top: clamp(0.6rem, 2vh, 1.1rem);
+    margin: 0;
     padding: 0;
     border: 0;
     border-radius: 0;
@@ -1083,30 +1090,48 @@ body[data-slug="index"] {
     box-shadow: none;
   }
 
-  .page > #quartz-body .center > article > h1,
-  .page > #quartz-body .center > article > p:first-of-type {
-    display: none;
+  .page::before,
+  .gamecult-vn-source {
+    display: none !important;
   }
 }
 
 .gamecult-compound-vn.sai-player-speaker {
   --sai-sprite-pixel-scale: 4;
-  min-height: calc(100vh - 4.5rem);
+  width: 100%;
+  min-height: 100svh;
   margin: 0;
 }
 
 .gamecult-compound-vn .sai-speaker-stage,
 .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
-  height: calc(100vh - 4.5rem);
-  min-height: 620px;
-  border: 1px solid rgba(89, 183, 255, 0.14);
-  border-radius: 22px;
+  height: 100svh;
+  min-height: 100svh;
+  border: 0;
+  border-radius: 0;
   background:
     linear-gradient(180deg, rgba(6, 10, 15, 0.98), rgba(8, 14, 22, 0.94)),
     linear-gradient(135deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.03));
   box-shadow:
     0 28px 68px rgba(0, 0, 0, 0.34),
     inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+@supports (height: 100dvh) {
+  body[data-slug="index"] {
+    .page,
+    .page > #quartz-body,
+    .gamecult-compound-vn.sai-player-speaker,
+    .gamecult-compound-vn .sai-speaker-stage,
+    .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+      min-height: 100dvh;
+    }
+
+    .gamecult-compound-vn .sai-speaker-stage,
+    .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+      height: 100dvh;
+    }
+  }
 }
 
 .gamecult-compound-vn .sai-speaker-background {

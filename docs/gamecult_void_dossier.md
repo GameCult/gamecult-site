@@ -51,6 +51,14 @@ If someone contributes patronage, Bifrost should record it.
 
 If someone contributes work, Bifrost should record it.
 
+If someone buys microtransactions in a GameCult game, Bifrost should be able to record that too.
+
+That is not a throwaway marketing trick. It is one of the cleanest gamer-facing pitches in the whole machine:
+
+> Play the games, support the worlds, and your support becomes voting power.
+
+Not fake "community" where a studio sells skins and then pretends a Discord poll is democracy. Actual scoped patron credit. Buy into the game economy, and the project can count you as a patron of that world. Your support does not buy direct command over designers, but it does enter the same public governance machinery as other patronage.
+
 If a project creates value because I built the first impossible pile of machinery before anyone sane would touch it, Bifrost should record that too.
 
 This is not a new thought bolted onto Bifrost because the word "governance" started making investors sweat. It comes from the old GameCult Labor Platform line: patron points, contribution points, decay, project-specific contribution, and revenue-share logic were already part of the original platform shape. Bifrost is the successor that makes that old promise less like a noble spreadsheet haunting the walls.
@@ -128,9 +136,9 @@ Outputs: effective point balances, voting weights, motion totals, project influe
 
 Derived state: voting share is derived from recorded value and the active voting curve. Patron tier, contributor tier, project standing, and payout eligibility are also derived unless a deployment explicitly says otherwise.
 
-Forbidden writers: Discord opinion, private founder memory, GitHub stars, raw donation totals, agent enthusiasm, repo Face taste, and investor preference do not directly mutate voting weight. They may create proposals, evidence, support events, or review pressure. They do not become authority by being loud.
+Forbidden writers: Discord opinion, private founder memory, GitHub stars, raw donation totals, agent enthusiasm, repo Face taste, investor preference, and opaque game monetization counters do not directly mutate voting weight. They may create proposals, evidence, support events, purchase receipts, or review pressure. They do not become authority by being loud or profitable.
 
-Shared paths: web app votes, Discord-native votes, Eve-rendered dashboard actions, agent-submitted motions, patron support webhooks, accepted PRs, manual ledger adjustments, decay jobs, and project-specific governance flows all have to pass through the same ledger and motion primitives.
+Shared paths: web app votes, Discord-native votes, Eve-rendered dashboard actions, agent-submitted motions, patron support webhooks, game purchase receipts, accepted PRs, manual ledger adjustments, decay jobs, and project-specific governance flows all have to pass through the same ledger and motion primitives.
 
 Deletion line: no cap-table-shaped shadow ledger. No "temporary" spreadsheet that secretly decides governance while Bifrost politely renders the afterparty.
 
@@ -229,6 +237,14 @@ Bifrost lets us ask for something stranger and cleaner:
 > Contributions enter the ledger. The ledger derives power. The power governs the project according to its declared curve.
 
 Patronage can be broad and project-specific. Someone can support Eve directly. Someone can support Bifrost. Someone can support Mimir. Someone can support GameCult globally. Each support event lands with scope.
+
+Game purchases and microtransactions are patronage too when the project declares them as such. A skin, ship part, soundtrack pack, seasonal pass, map pack, cosmetic, or supporter bundle can emit a Bifrost support event scoped to the game or world that earned it.
+
+That gives the gamer market a sentence it can actually understand:
+
+> Buying in-game support does not just unlock a shiny hat. It gives you a governed voice in the future of the world you are funding.
+
+The boring boundary matters: the purchase receipt becomes patron credit, patron credit becomes effective points, effective points pass through the log curve, and the resulting voting weight participates only in the scopes the deployment allows. No loot box should be able to buy a balance patch by itself. No whale gets to drag a project around by the throat. But a player who supports the world should not be treated as a passive wallet with thumbs.
 
 Then the deployment rule decides:
 

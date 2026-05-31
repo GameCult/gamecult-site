@@ -32,3 +32,5 @@ Generated VN backgrounds live under:
 `GameCult/static/interactive/cotsc-praxis/backgrounds/`
 
 The first expanded compound background pass added dedicated rooms for Project Atlas, Docs Shelf, Blog Lane, Nibu's Alakrita ship, Zyphos's fungal vault, Weksa's language lab, StreamPixels' overlay studio, and CultCacheTS's inspection desk.
+
+On 2026-05-31, the non-hub room backgrounds were replaced with repixelized 836x470 exports from `E:\Projects\repixelizer\artifacts\non-spritesheet-scenes\repixelized-836x470`. The compound CSS renders scene backgrounds with pixelated image scaling; `compound.png` remains the unreplaced hub background until a dedicated repixelized hub export is provided.

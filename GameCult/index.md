@@ -71,7 +71,6 @@ compositeSections:
   data-ink-title="GameCult Compound Tour"
   data-ink-story="/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json"
   data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
-  data-scene-label="GameCult Compound"
 ></div>
 
 <section class="gamecult-vn-source" aria-label="GameCult public wiki doors">

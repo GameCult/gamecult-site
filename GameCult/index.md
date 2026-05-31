@@ -16,14 +16,18 @@ sidebarGroups:
         slug: Open-Source-Model
       - label: Contributing
         slug: Contributing
+      - label: Democratizing Gamedev
+        slug: democratizing-gamedev
+      - label: A Place for Everyone
+        slug: a-place-for-everyone
+      - label: Games as a Service
+        slug: games-as-a-service
+      - label: The New Hotness
+        slug: the-new-hotness
       - label: Bifrost
         slug: Docs/Bifrost
-      - label: Portfolio Pitch
-        slug: Pitch
   - title: Projects
     links:
-      - label: Project Atlas
-        slug: Projects
       - label: Aetheria
         href: https://aetheria.gamecult.org
         external: true
@@ -34,10 +38,14 @@ sidebarGroups:
         slug: Projects/CultPong
   - title: Writing
     links:
-      - label: Blog
-        slug: Blog
-      - label: Daily Damage Report
-        slug: Blog/daily-damage-report
+      - label: Hello, World!
+        slug: Blog/hello-world
+      - label: Rain
+        slug: Blog/rain
+      - label: When We Get Home
+        slug: Blog/when-we-get-home
+      - label: Cat and the Chocolate Factory
+        slug: Blog/cat-and-the-chocolate-factory/
   - title: Docs
     links:
       - label: Publishing Workflow
@@ -47,63 +55,54 @@ sidebarGroups:
       - label: Bifrost
         slug: Docs/Bifrost
 cssclasses:
-  - gamecult-home
+  - gamecult-composite-overview
+compositeSections:
+  - Open-Source-Model
+  - Contributing
+  - democratizing-gamedev
+  - a-place-for-everyone
+  - games-as-a-service
+  - the-new-hotness
 ---
 
-> Open game studio for strange worlds, public tools, and the receipts required to make creative work inspectable.
+# GameCult
 
-GameCult builds games, agent infrastructure, creator tools, and public governance machinery in the same repo swarm. The practical target is simple enough to survive daylight: make work, support, evidence, credit, and decision-making easier to inspect than a private chat scroll.
+*"Open source game development, cooperative by instinct, strange by design."*
 
-## Start Here
+GameCult is a distributed game studio building science-fantasy worlds, competitive experiments, fiction, and the kind of operational scaffolding that keeps ambitious projects from dissolving into vibes, private chats, half-remembered promises, and the usual soft exploitation people are apparently expected to call collaboration.
 
-<div class="gamecult-home-action-grid">
-  <a class="gamecult-home-action primary" href="/tour">
-    <span>Guided Tour</span>
-    <strong>Walk the compound as a visual novel.</strong>
-    <em>Best first stop if you want the friendly-faced map.</em>
-  </a>
-  <a class="gamecult-home-action" href="/dossier">
-    <span>Dossier</span>
-    <strong>Read the serious investment memo.</strong>
-    <em>Epiphany, Bifrost, CultMesh, proof plan, risks, and controls.</em>
-  </a>
-  <a class="gamecult-home-action" href="/Projects/">
-    <span>Projects</span>
-    <strong>Browse the public project atlas.</strong>
-    <em>Games, worlds, agent systems, shared code, and visual labs.</em>
-  </a>
-  <a class="gamecult-home-action" href="/Blog/daily-damage-report/">
-    <span>Damage Report</span>
-    <strong>Check what moved recently.</strong>
-    <em>The weekly repo-swarm field log. Polite fiction has left the room.</em>
-  </a>
+The homepage pitch and the studio pitch were always the same argument in two different outfits, so this page is now both: the front door, the manifesto, and the route into the rest of the mess.
+
+<div class="gamecult-home-hero">
+  <section class="gamecult-hero-panel">
+    <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
+    <p>We think information wants to be public, contributors deserve visibility, and artistic integrity matters more than sanding every project into something safe enough for a quarterly earnings call.</p>
+    <p>The world keeps telling creative people to compete for scraps, hide the process, accept burnout as professionalism, and call any surviving dignity a bonus feature. We think that arrangement is rotten.</p>
+    <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
+    <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
+    <p>If you remember GameCult from before the long silence: yes, that silence had a cause. Aetheria reached a playable vertical slice, then ran headfirst into fundraising, expiring professional tooling needs, and publisher conversations that liked the enthusiasm until the open-source implications became somebody's meeting problem.</p>
+    <p>The studio went quiet because the human carrying most of it broke under that load. We are not dressing that up as strategic mystery. The rebuild now is quieter, sharper, and more honest about scope: preserve the open model, make the work legible again, and stop trying to personally outmuscle the entire economic climate like that ever made sense.</p>
+    <div class="gamecult-feature-grid">
+      <div class="gamecult-feature-card">
+        <h3>Open by default</h3>
+        <p>Source, docs, and public writing should be inspectable, linkable, and easy to revise in Git instead of trapped in some editor-shaped oubliette.</p>
+      </div>
+      <div class="gamecult-feature-card">
+        <h3>Legible incentives</h3>
+        <p>People should be able to see what matters, what needs doing, what gets rewarded, and how support changes priorities instead of treating studio work like folklore.</p>
+      </div>
+      <div class="gamecult-feature-card">
+        <h3>Flagships and experiments</h3>
+        <p>Aetheria is the flagship universe, but CultPong and any other bad idea with enough conviction to survive contact with reality belong under the same roof.</p>
+      </div>
+      <div class="gamecult-feature-card">
+        <h3>Cooperative instincts</h3>
+        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout, scarcity theater, and starvation games.</p>
+      </div>
+    </div>
+  </section>
+  <figure class="gamecult-media-card">
+    <img src="./media/studio/stonks.jpg" alt="The hooded GameCult mascot in front of a rising chart." />
+    <p>Apparently the studio's patron saint is a hooded little finance goblin. Disturbing, yes. Inaccurate, no.</p>
+  </figure>
 </div>
-
-## What This Is
-
-GameCult is not trying to make one magic app. It is building a shared production substrate:
-
-- **Bifrost** records work requests, claims, reviews, receipts, contributor credit, patronage pressure, and governance.
-- **Epiphany** keeps agent work grounded in maps, evidence, role lanes, and verification instead of transcript fog.
-- **CultMesh** carries typed distributed state so tools and games can share facts without crowning one dashboard as reality.
-- **Sai** turns public surfaces into navigable story, including the guided site tour.
-- **Eve** aims to project operational surfaces across web, desktop, mobile, overlays, and native runtimes.
-
-The mythology is allowed to have teeth. The machinery still has to compile.
-
-## Current Public Paths
-
-<div class="gamecult-link-grid">
-  <a href="/Open-Source-Model">Open Source Model</a>
-  <a href="/Contributing">Contributing</a>
-  <a href="/Docs/Bifrost">Bifrost Docs</a>
-  <a href="/Graph">Site Graph</a>
-  <a href="/Pitch">Portfolio Pitch</a>
-  <a href="https://github.com/GameCult">GitHub Org</a>
-</div>
-
-## Why It Matters
-
-Creative production already runs on invisible social machinery: Discord arguments, repo history, half-remembered decisions, unpaid support, private taste, and tools that do not know who owns the truth. GameCult's bet is that those flows can become legible without becoming dead.
-
-The short version: play the games, inspect the work, follow the receipts, and help wake the machine without letting it turn into mush.

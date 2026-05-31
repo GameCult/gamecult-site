@@ -28,6 +28,7 @@ const textDocumentNames = new Set([
 ]);
 const ignoredDirectories = new Set([
   ".git",
+  ".pytest_cache",
   ".quartz-build",
   ".npm-cache",
   ".tools",
@@ -77,7 +78,19 @@ function collectDocuments(repoPath, repoName) {
 
   while (stack.length > 0) {
     const current = stack.pop();
-    const entries = fs.readdirSync(current, { withFileTypes: true });
+    let entries;
+    try {
+      entries = fs.readdirSync(current, { withFileTypes: true });
+    } catch (error) {
+      if (error?.code === "EPERM" || error?.code === "EACCES") {
+        const relativeCurrent = path.relative(repoPath, current).split(path.sep).join("/") || ".";
+        console.warn(
+          `Skipping unreadable directory in ${repoName}: ${relativeCurrent} (${error.code})`,
+        );
+        continue;
+      }
+      throw error;
+    }
     for (const entry of entries) {
       const absolute = path.join(current, entry.name);
       const relative = path.relative(repoPath, absolute).split(path.sep).join("/");

@@ -5,7 +5,7 @@ import GameCultOverviewSidebar from "./quartz/components/GameCultOverviewSidebar
 import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
-const isIntegratedDossierPage = (page: any) => page.fileData.slug === "Integrated-Dossier"
+const isIntegratedDossierPage = (page: any) => page.fileData.slug === "dossier"
 const isStandardContentPage = (page: any) => page.fileData.slug !== "index" && !isGraphPage(page)
 
 // components shared across all pages

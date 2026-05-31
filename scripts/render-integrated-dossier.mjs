@@ -3,7 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const sourcePath = path.join(root, "docs", "gamecult_integrated_dossier.tex");
-const outputPath = path.join(root, "GameCult", "Integrated-Dossier.md");
+const outputPath = path.join(root, "GameCult", "dossier.md");
 
 function readBraceArg(text, start) {
   while (text[start] && /\s/.test(text[start])) start += 1;

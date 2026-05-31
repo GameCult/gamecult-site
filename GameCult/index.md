@@ -25,7 +25,7 @@ sidebarGroups:
       - label: Portfolio Pitch
         slug: Pitch
       - label: Integrated Dossier
-        slug: Integrated-Dossier
+        slug: dossier
   - title: Projects
     links:
       - label: Aetheria

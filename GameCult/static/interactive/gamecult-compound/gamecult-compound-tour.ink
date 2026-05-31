@@ -42,7 +42,8 @@ I am Void, your guide for the front compound. The rooms are project doors, topic
 # avatar: void
 # scene: compound
 # sprite: point@left
-# dom: adventure_map,projects
+# knot: hub
+# dom: projects
 Norn has finally put the entire floor plan on the table, because apparently a whole repository swarm should not be navigated by vibes and two suspicious arrows. Pick a door. The map will keep accusing us of being real.
 + [Show me the Norn adventure graph] -> norn
 + [How do agents remember work? Meet Epiphany at the forge] -> epiphany
@@ -71,7 +72,8 @@ Norn has finally put the entire floor plan on the table, because apparently a wh
 # speaker: Norn
 # scene: graph_loom
 # sprite: hidden
-# dom: adventure_map,norn_map
+# knot: norn
+# dom: norn_map
 This is the graph loom. I do not tell you the machine is coherent; I make the claims sit where you can inspect their neighbors. A map is not truth. A map is a way to make truth nervous.
 + [Show me architecture versus dataflow] -> norn_threads
 + [Show me the solver body] -> norn_solver
@@ -120,6 +122,7 @@ I want Bifrost work frontiers, Epiphany evidence maps, Eve operational surfaces,
 # avatar: epiphany
 # scene: forge
 # sprite: evidence@right
+# knot: epiphany
 # dom: epiphany,epiphany_organs
 Epiphany is at the forge with a map pinned beside the workbench, comparing what an agent said it would do against the files it actually touched. Someone has written "do not improve wallpaper with hammer" on the safety rail. Sensible, humiliating, necessary.
 -> epiphany_2
@@ -162,6 +165,7 @@ Aquarium is the operator surface I want: agents as selectable living objects wit
 # avatar: void
 # scene: ledger
 # sprite: document@left
+# knot: bifrost
 # dom: bifrost,proof
 Bifrost is the ledger hall. A contributor proposes work, the community argues priority, someone claims the task, reviewers accept or reject the result, and the receipt remembers who did what instead of letting chat scroll bury the body.
 -> bifrost_2
@@ -204,6 +208,7 @@ Demand raises priority and reward pressure; contributors claim work when it beco
 # avatar: void
 # scene: archive
 # sprite: document@left
+# knot: voidbot
 # dom: voidbot,voidbot_retrieval
 VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore lookup, and an escape hatch into heavier work when chat becomes a shoebox full of lightning.
 -> voidbot_2
@@ -236,6 +241,7 @@ The bot/worker split matters: Discord transport and permissions in one lane, hea
 # avatar: libby
 # scene: library
 # sprite: stamp@right
+# knot: cultlib
 # dom: cultlib,docs
 I am Libby, which means I get the shelves and the little stamp that says "no, this pile of blobs is not a library." CultLib is the shared system for keeping records findable, typed, and movable between tools.
 -> cultlib_2
@@ -278,6 +284,7 @@ CultMesh sits above them as the distributed realtime database surface: clients a
 # avatar: heimdall
 # scene: gate
 # sprite: badge@right
+# knot: heimdall
 # dom: heimdall,bifrost
 I am Heimdall. I check the badge, the grant, the session, and the revocation list before anyone crosses the line. A gate that cannot refuse is not consent; it is decoration with a login button.
 -> heimdall_2
@@ -320,7 +327,8 @@ Bifrost may ask whether an actor can request a crossing. I answer with identity 
 # avatar: void
 # scene: receipts
 # sprite: document@left
-# dom: proof,adventure_map
+# knot: proof
+# dom: proof
 The proof wall starts with current evidence: project pages, repo links, site graph, damage reports, and a receipt checklist for what the future ledger must show. It is not enough yet. That is the point of making the gap visible.
 -> proof_2
 
@@ -341,6 +349,7 @@ A proper receipt will name scope, consent, work item, agent and human roles, mod
 # speaker: Sai
 # scene: vn_stage
 # sprite: hidden
+# knot: sai
 # dom: sai_embed,sai_dom_cards
 I am the little stage mechanism making this not be a pile of links in a theatrical hat. Ink owns pacing. Quartz owns documents. I clone real page cards into the scene so the tour does not become a second source of truth.
 + [Show me the three masks] -> sai_formats
@@ -371,6 +380,7 @@ Static sites are not dead; they are disciplined. I auto-init `.sai-player`, surv
 # speaker: Eve
 # scene: surface_web
 # sprite: hidden
+# knot: eve
 # dom: surface_stack,eve_surface_pipeline
 I am not a dashboard. I am the argument that operational UI can travel like a document: provider-owned state, CultUI semantic tree, local renderer, command intent, provider acceptance, updated truth.
 + [Show me why this is not remote DOM] -> eve_cultui
@@ -401,6 +411,7 @@ Web DOM, desktop controls, mobile panels, Unity runtime UI, stream overlays, Sai
 # speaker: Mimir
 # scene: machine_room
 # sprite: hidden
+# knot: mimir
 # dom: mimir_well,mimir_reservoir
 A world does not exist because six sensors blink. It exists when time, geometry, and confidence bind. I keep the realtime field honest enough that renderers, overlays, and agents can drink from it without calling noise a prophecy.
 + [Show me the sensor array] -> mimir_sensors
@@ -431,6 +442,7 @@ I want a native reservoir with typed views as indexes, not private histories. Mi
 # speaker: Ghostlight
 # scene: ghost_hall
 # sprite: hidden
+# knot: ghostlight
 # dom: ghostlight_state,ghostlight_branch
 The problem is not making a character sound charming once. The problem is making memory, masks, pressure, culture, and misreading survive time without turning social life into a spreadsheet with perfume.
 + [Show me canonical and perceived state] -> ghostlight_state
@@ -462,6 +474,7 @@ Reviewed scene intent and consequence packets become playable Ink plus training 
 # avatar: nibu
 # scene: nibu_ship
 # sprite: console@right
+# knot: worlds
 # dom: aetheria,projects
 Aetheria is cockpits, spreadsheets, extinction on repeat, and the joyless realization that ship customization is also politics. The romance is real. So are payroll, tooling, funding, and the open-source business problem currently sitting in the captain's chair.
 + [Let Nibu talk about the wound] -> nibu_wound
@@ -505,6 +518,7 @@ Names and language come from ontology, culture, grammar, phonology, morphology, 
 # avatar: kiko
 # scene: overlay_studio
 # sprite: overlay@right
+# knot: kiko
 # dom: streampixels,heimdall
 StreamPixels is a browser-source-first overlay with persistent pixel characters. Viewers claim characters and customize; creators wire follows, subs, raids, tips, and live-event reactions. The overlay renders auth-free. Creator writes require real access. Cute pixels, serious boundary.
 + [Show me the architecture] -> kiko_architecture
@@ -528,6 +542,7 @@ Web app owns accounts, customization, and creator tools. Service owns live event
 # avatar: aqua
 # scene: synth_lab
 # sprite: conduct@right
+# knot: aqua
 # dom: aquasynth,weksa
 AquaSynth is `.aqua` patch authoring and Faust generation, not "make sound happen" with a lab coat. C# owns patch graph contracts, script surface, analysis, scoring, SFXR mapping, presets, and lowering to Faust.
 + [Show me the voice research] -> aqua_voice
@@ -551,6 +566,7 @@ The current pressure is IPA and Weksa vocal tract synthesis: structured utteranc
 # avatar: void
 # scene: pixel_workshop
 # sprite: document@left
+# knot: visual_tools
 # dom: repixelizer,vibegeometry
 The visual workshop starts with a crime scene: generated pixel art that looks cute until zoom exposes smears, half-cells, and a lattice nobody respected. Repixelizer treats reconstruction as diagnosis, not vibes with a save button.
 + [Show me geometry] -> geometry_tools
@@ -574,6 +590,7 @@ VibeGeometry pivots from pictures to solids: tree intent, LOD-aware CSG hierarch
 # avatar: nibu
 # scene: arena
 # sprite: triumph@right
+# knot: cultpong
 # dom: cultpong,patronage_furnace
 CultPong is the honest little arena: fast 1v1 or 2v2 paddle violence, shaped unlockables, precise geometry bounces, and a bash mechanic that makes bad timing personally embarrassing.
 + [Why is it on this map?] -> cultpong_thesis
@@ -597,6 +614,7 @@ Because small games are where patronage can stop being abstract. Players already
 # avatar: void
 # scene: project_atlas
 # sprite: unimpressed@left
+# knot: pitch_intro
 # dom: moonshot,projects
 All right. The portfolio pitch. Everyone is about to explain why their favourite machine is the hinge of civilization. I will stand here with the receipts and try not to make a face.
 + [Let Eve sell the surface web] -> pitch_eve
@@ -724,7 +742,8 @@ Good instinct. The normal wiki is still here. The story is a guide, not a velvet
 # avatar: void
 # scene: compound
 # sprite: point@left
-# dom: adventure_map,projects
+# knot: hub
+# dom: projects
 Want another door? {visited_count >= 3: The floor plan is coming into focus: your checked doors show what you have visited, and the remaining plaques still name the larger machine.}
 + [{visited_norn: Revisit Norn: adventure graph | Show me the Norn adventure graph}] -> norn
 + [{visited_epiphany: Revisit Epiphany: agent memory | How do agents remember work? Meet Epiphany}] -> epiphany

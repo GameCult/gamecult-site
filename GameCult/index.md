@@ -78,35 +78,6 @@ cssclasses:
     <p><a href="/Pitch">Play the over-the-top portfolio pitch</a> | <a href="/Projects/">Visit the repo atlas</a></p>
   </div>
 
-  <div id="gamecult-vn-adventure-map" class="gamecult-vn-source-card gamecult-vn-graph-card" data-sai-dom-source="true">
-    <h2>Norn's Adventure Graph</h2>
-    <svg viewBox="0 0 960 540" role="img" aria-label="GameCult repository swarm adventure graph">
-      <g class="graph-links">
-        <path d="M480 72 L274 154 L220 278 L270 402 L480 468 L690 402 L740 278 L686 154 Z"/>
-        <path d="M480 72 L480 468 M274 154 L690 402 M686 154 L270 402 M220 278 L740 278"/>
-        <path d="M274 154 L126 112 L118 250 L220 278 M686 154 L836 116 L848 252 L740 278"/>
-        <path d="M270 402 L128 424 L246 494 M690 402 L830 424 L716 494"/>
-      </g>
-      <g class="graph-node core"><circle cx="480" cy="72" r="36"/><text x="480" y="77">Norn</text></g>
-      <g class="graph-node"><circle cx="274" cy="154" r="32"/><text x="274" y="159">Sai</text></g>
-      <g class="graph-node"><circle cx="686" cy="154" r="32"/><text x="686" y="159">Eve</text></g>
-      <g class="graph-node"><circle cx="220" cy="278" r="34"/><text x="220" y="283">Epiphany</text></g>
-      <g class="graph-node"><circle cx="740" cy="278" r="34"/><text x="740" y="283">Bifrost</text></g>
-      <g class="graph-node"><circle cx="270" cy="402" r="32"/><text x="270" y="407">VoidBot</text></g>
-      <g class="graph-node"><circle cx="690" cy="402" r="32"/><text x="690" y="407">Libby</text></g>
-      <g class="graph-node core"><circle cx="480" cy="468" r="36"/><text x="480" y="473">Worlds</text></g>
-      <g class="graph-node small"><circle cx="126" cy="112" r="28"/><text x="126" y="117">Mimir</text></g>
-      <g class="graph-node small"><circle cx="118" cy="250" r="28"/><text x="118" y="255">Ghostlight</text></g>
-      <g class="graph-node small"><circle cx="836" cy="116" r="28"/><text x="836" y="121">Heimdall</text></g>
-      <g class="graph-node small"><circle cx="848" cy="252" r="28"/><text x="848" y="257">CultMesh</text></g>
-      <g class="graph-node small"><circle cx="128" cy="424" r="28"/><text x="128" y="429">Weksa</text></g>
-      <g class="graph-node small"><circle cx="246" cy="494" r="28"/><text x="246" y="499">Aqua</text></g>
-      <g class="graph-node small"><circle cx="830" cy="424" r="28"/><text x="830" y="429">Kiko</text></g>
-      <g class="graph-node small"><circle cx="716" cy="494" r="28"/><text x="716" y="499">CultPong</text></g>
-    </svg>
-    <p>Norn is the graph host: every route is a room, every room points back to a repo, and every claim is supposed to survive being viewed as topology.</p>
-  </div>
-
   <div id="gamecult-vn-norn-map" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Norn</h2>
     <p>Norn makes architecture and dataflow readable as linked graphs. The job is not to beautify complexity, but to show ownership, movement, neighbors, and evidence without flattening the system into a list.</p>

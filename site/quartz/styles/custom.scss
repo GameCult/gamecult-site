@@ -1178,8 +1178,19 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   color: rgba(220, 231, 246, 0.94);
 }
 
+.gamecult-compound-vn .sai-graph-layer {
+  inset: 3.6rem auto 9.2rem 1rem;
+  width: min(48rem, 46vw);
+  z-index: 4;
+}
+
+.gamecult-compound-vn .sai-graph-layer svg {
+  width: 100%;
+  height: min(29rem, 52vh);
+}
+
 .gamecult-compound-vn .sai-dom-layer {
-  inset: 3.6rem 1rem 9.2rem;
+  inset: 3.6rem 1rem 9.2rem calc(min(48rem, 46vw) + 2rem);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
 }
 
@@ -1212,6 +1223,22 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   background:
     linear-gradient(135deg, rgba(5, 8, 13, 0.92), rgba(9, 14, 22, 0.82)),
     linear-gradient(90deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.04));
+}
+
+@media (max-width: 960px) {
+  .gamecult-compound-vn .sai-graph-layer {
+    inset: 3.2rem 0.75rem auto;
+    width: auto;
+  }
+
+  .gamecult-compound-vn .sai-graph-layer svg {
+    width: 100%;
+    height: min(18rem, 34vh);
+  }
+
+  .gamecult-compound-vn .sai-dom-layer {
+    inset: calc(3.2rem + min(18rem, 34vh) + 0.75rem) 0.75rem 9rem;
+  }
 }
 
 .gamecult-vn-source {
@@ -1592,54 +1619,6 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
   border-radius: 16px;
   border: 1px solid rgba(89, 183, 255, 0.12);
   background: rgba(5, 10, 18, 0.9);
-}
-
-.gamecult-vn-graph-card svg {
-  display: block;
-  width: 100%;
-  max-height: min(58vh, 28rem);
-  margin: 0.2rem 0 0.75rem;
-  overflow: visible;
-}
-
-.gamecult-vn-graph-card .graph-links {
-  fill: none;
-  stroke: rgba(89, 183, 255, 0.44);
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.gamecult-vn-graph-card .graph-node circle {
-  fill: rgba(7, 17, 26, 0.92);
-  stroke: rgba(255, 180, 93, 0.78);
-  stroke-width: 3;
-}
-
-.gamecult-vn-graph-card .graph-node.core circle {
-  fill: rgba(255, 180, 93, 0.12);
-  stroke: rgba(255, 180, 93, 0.92);
-  stroke-width: 4;
-}
-
-.gamecult-vn-graph-card .graph-node.small circle {
-  stroke: rgba(89, 183, 255, 0.72);
-}
-
-.gamecult-vn-graph-card .graph-node text {
-  fill: rgba(246, 241, 226, 0.96);
-  font-family: var(--titleFont);
-  font-size: 20px;
-  font-weight: 600;
-  text-anchor: middle;
-  dominant-baseline: middle;
-  paint-order: stroke;
-  stroke: rgba(0, 0, 0, 0.72);
-  stroke-width: 4px;
-}
-
-.gamecult-vn-graph-card .graph-node.small text {
-  font-size: 15px;
 }
 
 .gamecult-embed-frame {

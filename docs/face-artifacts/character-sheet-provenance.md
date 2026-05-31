@@ -20,3 +20,11 @@ Each sheet uses the largest local avatar/source render found during the pass and
 Generated sheet assets live under:
 
 `GameCult/static/interactive/cotsc-praxis/character-sheets/`
+
+Extracted runtime sprites live under:
+
+`GameCult/static/interactive/cotsc-praxis/sprites/`
+
+Generated first-ring VN backgrounds live under:
+
+`GameCult/static/interactive/cotsc-praxis/backgrounds/`

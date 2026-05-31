@@ -2,7 +2,7 @@
   "asset_base": "/static/interactive/cotsc-praxis/",
   "default_caption": "GameCult Compound",
   "global_style_cue": "Stripped-down website visual novel stage using clean card chrome, high-contrast public-document panels, restrained studio lighting, visible project-room affordances, and no full background image. The scene is represented through stage cards, route plaques, document surfaces, and speaker portraits so it blends into the Quartz page instead of covering it.",
-  "metadata_contract": "Sai currently renders scene labels, actor avatars, and dom_cards. The scene_set, camera, visual_anchor, dom_card_roles, visual_ref, and state_modifiers fields are canonical reviewer/tooling metadata for the stripped card-stage plan until Sai exposes them through runtime probes or visual hooks.",
+  "metadata_contract": "Sai renders scene labels, backgrounds, actor avatars, named sprites, dom_cards, and space metadata. The spaces map is the canonical website-compound contract: each space is a project, topic, repo, setting, tool, docs shelf, blog lane, or receipt surface with a host and canonical URL.",
   "scene_set": {
     "id": "gamecult_compound_card_stage",
     "purpose": "A reusable card-chrome compound layout for homepage replay. The stage is not a generated background; it is a durable arrangement of document-backed route cards, speaker panels, and room-specific props that can preserve hub geography and visited-state markers.",
@@ -17,95 +17,299 @@
     "compound": {
       "label": "Front Gate",
       "camera": "hub_wide",
-      "visible_actors": ["Void"],
+      "visible_actors": [
+        "Void"
+      ],
       "visual_anchor": "A public studio compound rendered as clean website cards rather than a painted background: central GameCult welcome card, project-atlas card, docs card, and route plaques for forge, ledger, archive, library, gate, proof wall, and direct wiki exit.",
       "dom_card_roles": {
         "studio": "central welcome placard",
         "projects": "project atlas signboard",
         "docs": "plain wiki exit"
-      }
+      },
+      "background": "backgrounds/compound.png"
     },
     "forge": {
       "label": "Epiphany Forge",
       "camera": "room_medium",
-      "visible_actors": ["Epiphany"],
+      "visible_actors": [
+        "Epiphany"
+      ],
       "visual_anchor": "Agent-state forge represented by a workbench card, pinned machine map, evidence ledger sheet, verification checklist, and Epiphany portrait beside the project receipt card.",
       "dom_card_roles": {
         "epiphany": "project receipt card",
         "proof": "evidence sheet on the workbench"
-      }
+      },
+      "background": "backgrounds/forge.png"
     },
     "ledger": {
       "label": "Bifrost Ledger Hall",
       "camera": "room_medium",
-      "visible_actors": ["Void"],
+      "visible_actors": [
+        "Void"
+      ],
       "visual_anchor": "Public labor ledger counter with work item slips, claim stamps, review marks, credit trail, and payout-risk warning card; Bifrost documentation appears as the inspectable receipt behind the scene.",
       "dom_card_roles": {
         "bifrost": "ledger desk card",
         "proof": "receipt example panel"
-      }
+      },
+      "background": "backgrounds/ledger.png"
     },
     "archive": {
       "label": "VoidBot Archive Room",
       "camera": "room_medium",
-      "visible_actors": ["Void"],
+      "visible_actors": [
+        "Void"
+      ],
       "visual_anchor": "Archive terminal and shelf-card scene with Discord history, repo search, lore lookup, and Codex handoff routes shown as labeled drawers rather than abstract database language.",
       "dom_card_roles": {
         "voidbot": "archive terminal card",
         "projects": "repo atlas drawer"
-      }
+      },
+      "background": "backgrounds/archive.png"
     },
     "library": {
       "label": "CultLib Library",
       "camera": "room_medium",
-      "visible_actors": ["Libby"],
+      "visible_actors": [
+        "Libby"
+      ],
       "visual_anchor": "Typed-record library with labeled shelves for stored documents, messages, and distributed state; Libby stands near a stamp pad marked with schema, provenance, and public inspection.",
       "dom_card_roles": {
         "cultlib": "library shelf card",
         "docs": "public docs shelf"
-      }
+      },
+      "background": "backgrounds/library.png"
     },
     "gate": {
       "label": "Heimdall Gatehouse",
       "camera": "room_medium",
-      "visible_actors": ["Heimdall"],
+      "visible_actors": [
+        "Heimdall"
+      ],
       "visual_anchor": "Identity and consent gate rendered as a credential console with grant, session, revocation, and signed-claim panels; the gate visibly has both entry and refusal paths.",
       "dom_card_roles": {
         "heimdall": "gate console card",
         "bifrost": "authority trail card"
-      }
+      },
+      "background": "backgrounds/gate.png"
     },
     "receipts": {
       "label": "Proof Walk",
       "camera": "receipt_close",
-      "visible_actors": ["Void"],
+      "visible_actors": [
+        "Void"
+      ],
       "visual_anchor": "Proof wall made of public document cards: current site graph, damage report, repo links, future Bifrost receipt checklist, known-risk note, and roadmap panel.",
       "dom_card_roles": {
         "proof": "current receipt checklist",
         "roadmap": "future ledger path"
-      }
+      },
+      "background": "backgrounds/receipts.png"
     }
   },
   "actors": {
     "Void": {
       "avatar": "void.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Dry guide Face with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts."
+      "visual_ref": "Dry guide Face with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts.",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": {
+          "image": "sprites/void/idle.png",
+          "position": "left",
+          "scale": 1.15
+        },
+        "welcome": {
+          "image": "sprites/void/welcome.png",
+          "position": "left",
+          "scale": 1.15
+        },
+        "document": {
+          "image": "sprites/void/document.png",
+          "position": "left",
+          "scale": 1.12
+        },
+        "point": {
+          "image": "sprites/void/point.png",
+          "position": "left",
+          "scale": 1.12
+        },
+        "unimpressed": {
+          "image": "sprites/void/unimpressed.png",
+          "position": "left",
+          "scale": 1.12
+        }
+      }
     },
     "Epiphany": {
       "avatar": "epiphany.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Bright agent-state forge Face with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose."
+      "visual_ref": "Bright agent-state forge Face with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose.",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": {
+          "image": "sprites/epiphany/idle.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "map": {
+          "image": "sprites/epiphany/map.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "evidence": {
+          "image": "sprites/epiphany/evidence.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "cut": {
+          "image": "sprites/epiphany/cut.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "stop": {
+          "image": "sprites/epiphany/stop.png",
+          "position": "right",
+          "scale": 1.08
+        }
+      }
     },
     "Libby": {
       "avatar": "libby.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Open-knowledge librarian Face with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge."
+      "visual_ref": "Open-knowledge librarian Face with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge.",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": {
+          "image": "sprites/libby/idle.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "stamp": {
+          "image": "sprites/libby/stamp.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "schema": {
+          "image": "sprites/libby/schema.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "shush": {
+          "image": "sprites/libby/shush.png",
+          "position": "right",
+          "scale": 1.08
+        },
+        "research": {
+          "image": "sprites/libby/research.png",
+          "position": "right",
+          "scale": 1.08
+        }
+      }
     },
     "Heimdall": {
       "avatar": "heimdall.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Boundary and consent Face with gate-console motifs, calm refusal posture, and visible grant/revocation symbols."
+      "visual_ref": "Boundary and consent Face with gate-console motifs, calm refusal posture, and visible grant/revocation symbols.",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": {
+          "image": "sprites/heimdall/idle.png",
+          "position": "right",
+          "scale": 1.1
+        },
+        "badge": {
+          "image": "sprites/heimdall/badge.png",
+          "position": "right",
+          "scale": 1.1
+        },
+        "barrier": {
+          "image": "sprites/heimdall/barrier.png",
+          "position": "right",
+          "scale": 1.1
+        },
+        "revoke": {
+          "image": "sprites/heimdall/revoke.png",
+          "position": "right",
+          "scale": 1.1
+        },
+        "protect": {
+          "image": "sprites/heimdall/protect.png",
+          "position": "right",
+          "scale": 1.1
+        }
+      }
+    },
+    "Aqua": {
+      "avatar": "aqua.png",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": "sprites/aqua/idle.png",
+        "conduct": "sprites/aqua/conduct.png",
+        "patch": "sprites/aqua/patch.png",
+        "listen": "sprites/aqua/listen.png",
+        "boundary": "sprites/aqua/boundary.png"
+      }
+    },
+    "Nibu": {
+      "avatar": "nibu.png",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": "sprites/nibu/idle.png",
+        "sarcastic": "sprites/nibu/sarcastic.png",
+        "console": "sprites/nibu/console.png",
+        "glitch": "sprites/nibu/glitch.png",
+        "lore": "sprites/nibu/lore.png",
+        "triumph": "sprites/nibu/triumph.png"
+      }
+    },
+    "Weksa": {
+      "avatar": "weksa.png",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": "sprites/weksa/idle.png",
+        "map": "sprites/weksa/map.png",
+        "argue": "sprites/weksa/argue.png",
+        "fieldwork": "sprites/weksa/fieldwork.png",
+        "interlingua": "sprites/weksa/interlingua.png",
+        "contract": "sprites/weksa/contract.png"
+      }
+    },
+    "Kiko": {
+      "avatar": "kiko.png",
+      "default_sprite": "overlay",
+      "sprites": {
+        "overlay": "sprites/kiko/overlay.png",
+        "sprint": "sprites/kiko/sprint.png",
+        "tinker": "sprites/kiko/tinker.png",
+        "boundary": "sprites/kiko/boundary.png",
+        "confetti": "sprites/kiko/confetti.png",
+        "debug": "sprites/kiko/debug.png"
+      }
+    },
+    "Druzkai": {
+      "avatar": "druzkai.png",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": "sprites/druzkai/idle.png",
+        "tablet": "sprites/druzkai/tablet.png",
+        "road": "sprites/druzkai/road.png",
+        "contract": "sprites/druzkai/contract.png",
+        "warning": "sprites/druzkai/warning.png",
+        "memory": "sprites/druzkai/memory.png"
+      }
+    },
+    "Huginn": {
+      "avatar": "huginn.png",
+      "default_sprite": "idle",
+      "sprites": {
+        "idle": "sprites/huginn/idle.png",
+        "return": "sprites/huginn/return.png",
+        "validate": "sprites/huginn/validate.png",
+        "lens": "sprites/huginn/lens.png",
+        "refuse": "sprites/huginn/refuse.png",
+        "envelope": "sprites/huginn/envelope.png"
+      }
     }
   },
   "state_modifiers": {
@@ -166,6 +370,179 @@
       "title": "Roadmap",
       "selector": "#gamecult-vn-roadmap",
       "role": "future public-ledger path"
+    }
+  },
+  "spaces": {
+    "front_gate": {
+      "kind": "hub",
+      "scene": "compound",
+      "host": "Void",
+      "title": "GameCult Front Gate",
+      "url": "/",
+      "dom": [
+        "studio",
+        "projects",
+        "docs"
+      ],
+      "contains": [
+        "projects",
+        "docs",
+        "blog",
+        "proof_walk"
+      ]
+    },
+    "projects": {
+      "kind": "project_atlas",
+      "scene": "compound",
+      "host": "Void",
+      "title": "Project Atlas",
+      "url": "/Projects/",
+      "dom": [
+        "projects"
+      ],
+      "contains": [
+        "epiphany",
+        "bifrost",
+        "voidbot",
+        "cultlib",
+        "heimdall",
+        "aetheria",
+        "zyphos",
+        "weksa",
+        "streampixels"
+      ]
+    },
+    "docs": {
+      "kind": "docs_shelf",
+      "scene": "compound",
+      "host": "Void",
+      "title": "Docs Shelf",
+      "url": "/Docs/",
+      "dom": [
+        "docs"
+      ]
+    },
+    "blog": {
+      "kind": "blog_lane",
+      "scene": "receipts",
+      "host": "Void",
+      "title": "Blog Lane",
+      "url": "/Blog/",
+      "dom": [
+        "roadmap",
+        "proof"
+      ]
+    },
+    "epiphany": {
+      "kind": "repo_tool",
+      "scene": "forge",
+      "host": "Epiphany",
+      "title": "EpiphanyAgent Forge",
+      "url": "/Projects/EpiphanyAgent/",
+      "dom": [
+        "epiphany",
+        "proof"
+      ],
+      "repo": "EpiphanyAgent"
+    },
+    "bifrost": {
+      "kind": "repo_tool",
+      "scene": "ledger",
+      "host": "Void",
+      "title": "Bifrost Ledger Hall",
+      "url": "/Projects/Bifrost/",
+      "dom": [
+        "bifrost",
+        "proof"
+      ],
+      "repo": "Bifrost"
+    },
+    "voidbot": {
+      "kind": "repo_tool",
+      "scene": "archive",
+      "host": "Void",
+      "title": "VoidBot Archive Room",
+      "url": "/Projects/VoidBot/",
+      "dom": [
+        "voidbot",
+        "projects"
+      ],
+      "repo": "VoidBot"
+    },
+    "cultlib": {
+      "kind": "repo_tool",
+      "scene": "library",
+      "host": "Libby",
+      "title": "CultLib Library",
+      "url": "/Projects/CultLib/",
+      "dom": [
+        "cultlib",
+        "docs"
+      ],
+      "repo": "CultLib"
+    },
+    "heimdall": {
+      "kind": "repo_tool",
+      "scene": "gate",
+      "host": "Heimdall",
+      "title": "Heimdall Gatehouse",
+      "url": "/Projects/Heimdall/",
+      "dom": [
+        "heimdall",
+        "bifrost"
+      ],
+      "repo": "Heimdall"
+    },
+    "proof_walk": {
+      "kind": "receipt_surface",
+      "scene": "receipts",
+      "host": "Void",
+      "title": "Proof Walk",
+      "url": "/Docs/",
+      "dom": [
+        "proof",
+        "roadmap"
+      ]
+    },
+    "aetheria": {
+      "kind": "setting",
+      "scene": "archive",
+      "host": "Nibu",
+      "title": "Aetheria Setting Vault",
+      "url": "/Aetheria/",
+      "repo": "AetheriaLore"
+    },
+    "zyphos": {
+      "kind": "setting",
+      "scene": "library",
+      "host": "Druzkai",
+      "title": "Zyphos / Eusocial Interbeing Vault",
+      "url": "/Projects/Eusocial-Interbeing/",
+      "repo": "Eusocial Interbeing"
+    },
+    "weksa": {
+      "kind": "tool",
+      "scene": "library",
+      "host": "Weksa",
+      "title": "Weksa Language Lab",
+      "url": "/Projects/weksa/",
+      "repo": "weksa"
+    },
+    "streampixels": {
+      "kind": "tool",
+      "scene": "compound",
+      "host": "Kiko",
+      "title": "StreamPixels Overlay Studio",
+      "url": "/Projects/StreamPixels/",
+      "repo": "StreamPixels"
+    },
+    "cultcachets": {
+      "kind": "repo_tool",
+      "scene": "library",
+      "host": "Huginn",
+      "title": "CultCacheTS Inspection Desk",
+      "url": "/Projects/CultCacheTS/",
+      "repo": "CultCacheTS"
     }
   }
 }

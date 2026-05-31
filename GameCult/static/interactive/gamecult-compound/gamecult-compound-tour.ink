@@ -12,6 +12,7 @@ VAR visited_count = 0
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: welcome@left
 # dom: studio
 Welcome to GameCult: an open game studio building strange worlds, public tools, and the receipts needed to make creative work inspectable.
 -> welcome_2
@@ -20,16 +21,18 @@ Welcome to GameCult: an open game studio building strange worlds, public tools, 
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: document@left
 # dom: studio,projects
-I am Void, your guide for the front compound. The rooms are project doors, the hosts are Faces--public project avatars that speak with receipts nearby--and every friendly card still points back to the plain wiki. Charm is allowed. Hiding the documents is not.
+I am Void, your guide for the front compound. The rooms are project doors, topic rooms, repo desks, setting vaults, tool benches, blog lanes, and docs shelves. Every friendly path still points back to the canonical page. Charm is allowed. Hiding the documents is not.
 -> hub
 
 === hub ===
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: point@left
 # dom: studio,projects
-Each door answers a different visitor problem. Pick the one that sounds like the itch.
+Each door is a website space. Pick the one that sounds like the itch.
 + [How do agents remember work? Meet Epiphany at the forge] -> epiphany
 + [How does public labor become a receipt? Visit Bifrost] -> bifrost
 + [Where did that lore or decision come from? Find VoidBot] -> voidbot
@@ -46,6 +49,7 @@ Each door answers a different visitor problem. Pick the one that sounds like the
 # speaker: Epiphany
 # avatar: epiphany
 # scene: forge
+# sprite: evidence@right
 # dom: epiphany,proof
 Epiphany is at the forge with a map pinned beside the workbench, comparing what an agent said it would do against the files it actually touched. Someone has written "do not improve wallpaper with hammer" on the safety rail. Sensible, humiliating, necessary.
 -> epiphany_2
@@ -54,6 +58,7 @@ Epiphany is at the forge with a map pinned beside the workbench, comparing what 
 # speaker: Epiphany
 # avatar: epiphany
 # scene: forge
+# sprite: map@right
 # dom: epiphany
 My job is to stop AI helpers from forgetting the room they are standing in. I keep maps, evidence, and role lanes outside the chat fog so future work can argue with the past instead of accidentally reenacting it in a nicer hat.
 -> hub_return
@@ -66,6 +71,7 @@ My job is to stop AI helpers from forgetting the room they are standing in. I ke
 # speaker: Void
 # avatar: void
 # scene: ledger
+# sprite: document@left
 # dom: bifrost,proof
 Bifrost is the ledger hall. A contributor proposes work, the community argues priority, someone claims the task, reviewers accept or reject the result, and the receipt remembers who did what instead of letting chat scroll bury the body.
 -> bifrost_2
@@ -74,6 +80,7 @@ Bifrost is the ledger hall. A contributor proposes work, the community argues pr
 # speaker: Void
 # avatar: void
 # scene: ledger
+# sprite: unimpressed@left
 # dom: bifrost
 It is not a solved economy with a cape on. It is a way to make unfinished labor, credit, risk, and support visible before those records start touching money.
 -> hub_return
@@ -86,6 +93,7 @@ It is not a solved economy with a cape on. It is a way to make unfinished labor,
 # speaker: Void
 # avatar: void
 # scene: archive
+# sprite: document@left
 # dom: voidbot,projects
 VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore lookup, and an escape hatch into heavier work when chat becomes a shoebox full of lightning.
 -> voidbot_2
@@ -94,6 +102,7 @@ VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore l
 # speaker: Void
 # avatar: void
 # scene: archive
+# sprite: point@left
 # dom: voidbot
 People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Faces grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
 -> hub_return
@@ -106,6 +115,7 @@ People ask it where a decision came from, which repo owns a problem, or what the
 # speaker: Libby
 # avatar: libby
 # scene: library
+# sprite: stamp@right
 # dom: cultlib,docs
 I am Libby, which means I get the shelves and the little stamp that says "no, this pile of blobs is not a library." CultLib is the shared system for keeping records findable, typed, and movable between tools.
 -> cultlib_2
@@ -114,6 +124,7 @@ I am Libby, which means I get the shelves and the little stamp that says "no, th
 # speaker: Libby
 # avatar: libby
 # scene: library
+# sprite: schema@right
 # dom: cultlib
 The first shelves are simple: stored records, messages, and shared state. Internally we call them CultCache, CultNet, and CultMesh, because apparently even librarians are allowed one dramatic vice. If both sides are ours, the record gets a shape.
 -> hub_return
@@ -126,6 +137,7 @@ The first shelves are simple: stored records, messages, and shared state. Intern
 # speaker: Heimdall
 # avatar: heimdall
 # scene: gate
+# sprite: badge@right
 # dom: heimdall,bifrost
 I am Heimdall. I check the badge, the grant, the session, and the revocation list before anyone crosses the line. A gate that cannot refuse is not consent; it is decoration with a login button.
 -> heimdall_2
@@ -134,6 +146,7 @@ I am Heimdall. I check the badge, the grant, the session, and the revocation lis
 # speaker: Heimdall
 # avatar: heimdall
 # scene: gate
+# sprite: barrier@right
 # dom: heimdall
 Transparency without consent becomes exposure. Access without revocation becomes custody. The gate has to explain itself or it is just a wall with better branding.
 -> hub_return
@@ -146,6 +159,7 @@ Transparency without consent becomes exposure. Access without revocation becomes
 # speaker: Void
 # avatar: void
 # scene: receipts
+# sprite: document@left
 # dom: proof,roadmap
 The proof wall starts with current evidence: project pages, repo links, site graph, damage reports, and a receipt checklist for what the future ledger must show. It is not enough yet. That is the point of making the gap visible.
 -> proof_2
@@ -154,6 +168,7 @@ The proof wall starts with current evidence: project pages, repo links, site gra
 # speaker: Void
 # avatar: void
 # scene: receipts
+# sprite: point@left
 # dom: proof
 A proper receipt will name scope, consent, work item, agent and human roles, model spend, review burden, artifacts, outcome, and lesson. Bifrost should become that canonical ledger; the website mirrors it and admits the risk while the machinery is still young.
 -> hub_return
@@ -162,6 +177,7 @@ A proper receipt will name scope, consent, work item, agent and human roles, mod
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: welcome@left
 # dom: docs,projects
 Good instinct. The normal wiki is still here. The story is a guide, not a velvet curtain in front of the exits.
 -> hub_return
@@ -170,6 +186,7 @@ Good instinct. The normal wiki is still here. The story is a guide, not a velvet
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: point@left
 # dom: studio,projects
 Want another door? {visited_count >= 3: The floor plan is coming into focus: your checked doors show what you have visited, and the remaining plaques still name the larger machine.}
 + [{visited_epiphany: Revisit Epiphany: agent memory | How do agents remember work? Meet Epiphany}] -> epiphany
@@ -184,6 +201,7 @@ Want another door? {visited_count >= 3: The floor plan is coming into focus: you
 # speaker: Void
 # avatar: void
 # scene: compound
+# sprite: document@left
 # dom: docs,projects
 Then take the plain doors. {visited_count == 0: You skipped the ceremony and went straight to the documents. Correct behavior. | You have seen {visited_count} project rooms; the links below are the same machinery without me standing in front of it.} If I make the documents harder to reach, I have failed the tour.
 -> END

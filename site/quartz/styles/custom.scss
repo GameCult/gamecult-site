@@ -1090,21 +1090,32 @@ body[data-slug="index"] {
     box-shadow: none;
   }
 
-  .page::before,
-  .gamecult-vn-source {
+  .page::before {
     display: none !important;
+  }
+
+  .gamecult-vn-source {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    pointer-events: none;
   }
 }
 
-.gamecult-compound-vn.sai-player-speaker {
+body[data-slug="index"] .gamecult-compound-vn.sai-player-speaker {
   --sai-sprite-pixel-scale: 4;
   width: 100%;
   min-height: 100svh;
   margin: 0;
 }
 
-.gamecult-compound-vn .sai-speaker-stage,
-.gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage,
+body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   height: 100svh;
   min-height: 100svh;
   border: 0;

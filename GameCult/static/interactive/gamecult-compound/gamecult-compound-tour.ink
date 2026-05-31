@@ -46,6 +46,7 @@ I am Void, your guide for the front compound. The rooms are project doors, topic
 # dom: projects
 Norn has finally put the entire floor plan on the table, because apparently a whole repository swarm should not be navigated by vibes and two suspicious arrows. Pick a door. The map will keep accusing us of being real.
 + [Show me the Norn adventure graph] -> norn
++ [Open the full repository documentation tree] -> repo_swarm
 + [How do agents remember work? Meet Epiphany at the forge] -> epiphany
 + [How does public labor become a receipt? Visit Bifrost] -> bifrost
 + [Where did that lore or decision come from? Find VoidBot] -> voidbot
@@ -77,6 +78,7 @@ Norn has finally put the entire floor plan on the table, because apparently a wh
 This is the graph loom. I do not tell you the machine is coherent; I make the claims sit where you can inspect their neighbors. A map is not truth. A map is a way to make truth nervous.
 + [Show me architecture versus dataflow] -> norn_threads
 + [Show me the solver body] -> norn_solver
++ [Open the generated repo documentation tree] -> repo_swarm
 + [Show me what Norn wants to become] -> norn_future
 + [Return to the compound] -> hub_return
 
@@ -262,6 +264,7 @@ VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore l
 People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Faces grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
 + [Show me repo Faces] -> voidbot_faces
 + [Show me archive retrieval] -> voidbot_retrieval_route
++ [Show me the generated doc tree] -> repo_swarm
 + [Show me repo swarm handoff] -> voidbot_handoff
 + [Back to the compound] -> hub_return
 
@@ -421,6 +424,18 @@ The proof wall starts with current evidence: project pages, repo links, site gra
 A proper receipt will name scope, consent, work item, agent and human roles, model spend, review burden, artifacts, outcome, and lesson. Bifrost should become that canonical ledger; the website mirrors it and admits the risk while the machinery is still young.
 -> hub_return
 
+=== repo_swarm ===
+# speaker: Norn
+# scene: graph_loom
+# sprite: hidden
+# knot: repo_swarm
+# dom: repo_doc_tree,adventure_map
+This is the generated documentation substrate: every local GameCult repository with document-shaped files, grouped by repo and kept outside Ink so the archive can grow without making the dialogue compiler carry a warehouse on its back.
++ [Let Sai explain how this enters the VN] -> sai_scene_surfaces
++ [Let VoidBot explain retrieval over the same body] -> voidbot_retrieval_route
++ [Let the pitch hall pull from these assets] -> pitch_intro
++ [Back to the compound] -> hub_return
+
 === sai ===
 { not visited_sai:
     ~ visited_sai = true
@@ -434,6 +449,7 @@ A proper receipt will name scope, consent, work item, agent and human roles, mod
 I am the little stage mechanism making this not be a pile of links in a theatrical hat. Ink owns pacing. Quartz owns documents. I clone real page cards into the scene so the tour does not become a second source of truth.
 + [Show me the three masks] -> sai_formats
 + [Show me the Quartz swap trick] -> sai_quartz
++ [Show me the repository documentation tree] -> repo_swarm
 + [Show me Eve surface export] -> sai_eve_surface
 + [Show me Norn and TeX on the stage] -> sai_scene_surfaces
 + [What should Sai become?] -> sai_future

@@ -1,0 +1,357 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "weksa",
+  "documentCount": 50,
+  "documents": [
+    {
+      "id": "weksa:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/README.md",
+      "title": ".Voidbot",
+      "path": ".voidbot/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:data/roots/README.md",
+      "title": "Roots",
+      "path": "data/roots/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/data/roots/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:data/typology/README.md",
+      "title": "Typology",
+      "path": "data/typology/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/data/typology/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/best-modern-approach.md",
+      "title": "Best Modern Approach",
+      "path": "docs/best-modern-approach.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/best-modern-approach.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/english-pronunciation-lowering.md",
+      "title": "English Pronunciation Lowering",
+      "path": "docs/english-pronunciation-lowering.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/english-pronunciation-lowering.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/flavored-english-lowering.md",
+      "title": "Flavored English Lowering",
+      "path": "docs/flavored-english-lowering.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/flavored-english-lowering.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/interlingua-standard.md",
+      "title": "Interlingua Standard",
+      "path": "docs/interlingua-standard.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/interlingua-standard.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/language-model.md",
+      "title": "Language Model",
+      "path": "docs/language-model.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/language-model.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/project-model.md",
+      "title": "Project Model",
+      "path": "docs/project-model.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/project-model.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/roadmap.md",
+      "title": "Roadmap",
+      "path": "docs/roadmap.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/runtime-authoring-split.md",
+      "title": "Runtime Authoring Split",
+      "path": "docs/runtime-authoring-split.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/runtime-authoring-split.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/utterance-embedding.md",
+      "title": "Utterance Embedding",
+      "path": "docs/utterance-embedding.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/utterance-embedding.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/english-lowering/nibu-proof-001/evaluation.md",
+      "title": "Evaluation",
+      "path": "examples/english-lowering/nibu-proof-001/evaluation.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/english-lowering/nibu-proof-001/evaluation.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/english-lowering/README.md",
+      "title": "English Lowering",
+      "path": "examples/english-lowering/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/english-lowering/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/first-contact/README.md",
+      "title": "First Contact",
+      "path": "examples/first-contact/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/first-contact/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/speech-training/tiny-panphon-v0.1/README.md",
+      "title": "Tiny Panphon V0.1",
+      "path": "examples/speech-training/tiny-panphon-v0.1/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/speech-training/tiny-panphon-v0.1/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/english-lowering-packet.md",
+      "title": "English Lowering Packet",
+      "path": "schemas/english-lowering-packet.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/english-lowering-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/english-pronunciation-plan.md",
+      "title": "English Pronunciation Plan",
+      "path": "schemas/english-pronunciation-plan.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/english-pronunciation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/interlingua-packet.md",
+      "title": "Interlingua Packet",
+      "path": "schemas/interlingua-packet.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/interlingua-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/language-project-state.md",
+      "title": "Language Project State",
+      "path": "schemas/language-project-state.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/language-project-state.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/project-state.md",
+      "title": "Project State",
+      "path": "schemas/project-state.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/project-state.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/README.md",
+      "title": "Schemas",
+      "path": "schemas/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:schemas/utterance-embedding-handoff.md",
+      "title": "Utterance Embedding Handoff",
+      "path": "schemas/utterance-embedding-handoff.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/schemas/utterance-embedding-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/aetheria/nibu.md",
+      "title": "Nibu",
+      "path": "settings/aetheria/nibu.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/aetheria/nibu.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/eusocial-interbeing/airawa-first-contact-slice.md",
+      "title": "Airawa First Contact Slice",
+      "path": "settings/eusocial-interbeing/airawa-first-contact-slice.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/eusocial-interbeing/airawa-first-contact-slice.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/eusocial-interbeing/language-design.md",
+      "title": "Language Design",
+      "path": "settings/eusocial-interbeing/language-design.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/eusocial-interbeing/language-design.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/eusocial-interbeing/README.md",
+      "title": "Eusocial Interbeing",
+      "path": "settings/eusocial-interbeing/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/eusocial-interbeing/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/aliens.md",
+      "title": "Aliens",
+      "path": "settings/rust-to-dust/aliens.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/aliens.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/battle-royale.md",
+      "title": "Battle Royale",
+      "path": "settings/rust-to-dust/battle-royale.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/battle-royale.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/language-design.md",
+      "title": "Language Design",
+      "path": "settings/rust-to-dust/language-design.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/language-design.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/README.md",
+      "title": "Rust To Dust",
+      "path": "settings/rust-to-dust/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/setting.md",
+      "title": "Setting",
+      "path": "settings/rust-to-dust/setting.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/setting.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:settings/rust-to-dust/story.md",
+      "title": "Story",
+      "path": "settings/rust-to-dust/story.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/settings/rust-to-dust/story.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

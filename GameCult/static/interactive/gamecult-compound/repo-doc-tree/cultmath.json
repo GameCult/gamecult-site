@@ -1,0 +1,21 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "CultMath",
+  "documentCount": 2,
+  "documents": [
+    {
+      "id": "CultMath:docs/design.md",
+      "title": "Design",
+      "path": "docs/design.md",
+      "href": "https://github.com/GameCult/CultMath/blob/main/docs/design.md",
+      "extension": "md"
+    },
+    {
+      "id": "CultMath:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/CultMath/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

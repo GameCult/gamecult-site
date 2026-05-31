@@ -1,0 +1,189 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Norn",
+  "documentCount": 26,
+  "documents": [
+    {
+      "id": "Norn:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:benchmarks/README.md",
+      "title": "Benchmarks",
+      "path": "benchmarks/README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/benchmarks/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:crates/norn-rs/README.md",
+      "title": "Norn Rs",
+      "path": "crates/norn-rs/README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/crates/norn-rs/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:crates/norn-rs/RESEARCH.md",
+      "title": "RESEARCH",
+      "path": "crates/norn-rs/RESEARCH.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/crates/norn-rs/RESEARCH.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:crates/norn-rs/TUNING_DOCTRINE.md",
+      "title": "TUNING DOCTRINE",
+      "path": "crates/norn-rs/TUNING_DOCTRINE.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/crates/norn-rs/TUNING_DOCTRINE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:docs/norn-avatar-prompts.md",
+      "title": "Norn Avatar Prompts",
+      "path": "docs/norn-avatar-prompts.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/docs/norn-avatar-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:docs/norn-face-seed.md",
+      "title": "Norn Face Seed",
+      "path": "docs/norn-face-seed.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/docs/norn-face-seed.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:FRIENDLINESS_TUNER.md",
+      "title": "FRIENDLINESS TUNER",
+      "path": "FRIENDLINESS_TUNER.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/FRIENDLINESS_TUNER.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/state/scratch.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:TUNING.md",
+      "title": "TUNING",
+      "path": "TUNING.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/TUNING.md",
+      "extension": "md"
+    },
+    {
+      "id": "Norn:web/norn-viewer/README.md",
+      "title": "Norn Viewer",
+      "path": "web/norn-viewer/README.md",
+      "href": "https://github.com/GameCult/Norn/blob/main/web/norn-viewer/README.md",
+      "extension": "md"
+    }
+  ]
+}

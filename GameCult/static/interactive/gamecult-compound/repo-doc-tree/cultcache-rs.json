@@ -1,0 +1,14 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "cultcache-rs",
+  "documentCount": 1,
+  "documents": [
+    {
+      "id": "cultcache-rs:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/cultcache-rs/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

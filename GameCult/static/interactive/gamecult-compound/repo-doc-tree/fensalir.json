@@ -1,0 +1,511 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Fensalir",
+  "documentCount": 72,
+  "documents": [
+    {
+      "id": "Fensalir:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-budget-pressure-20260530-001046.md",
+      "title": "Reservoir Budget Pressure 20260530 001046",
+      "path": "artifacts/fensalir-captures/reservoir-budget-pressure-20260530-001046.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-budget-pressure-20260530-001046.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-budget-pressure-20260530-003006.md",
+      "title": "Reservoir Budget Pressure 20260530 003006",
+      "path": "artifacts/fensalir-captures/reservoir-budget-pressure-20260530-003006.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-budget-pressure-20260530-003006.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-compare-20260529-231904-metrics.md",
+      "title": "Reservoir Compare 20260529 231904 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-compare-20260529-231904-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-compare-20260529-231904-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-003006.md",
+      "title": "Reservoir Loss Curve 20260530 003006",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-003006.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-003006.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-221043.md",
+      "title": "Reservoir Loss Curve 20260530 221043",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-221043.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-221043.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-224652.md",
+      "title": "Reservoir Loss Curve 20260530 224652",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-224652.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-224652.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-230650.md",
+      "title": "Reservoir Loss Curve 20260530 230650",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-230650.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-230650.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-231828.md",
+      "title": "Reservoir Loss Curve 20260530 231828",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-231828.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-231828.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-loss-curve-20260530-232852.md",
+      "title": "Reservoir Loss Curve 20260530 232852",
+      "path": "artifacts/fensalir-captures/reservoir-loss-curve-20260530-232852.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-loss-curve-20260530-232852.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260529-234414-metrics.md",
+      "title": "Reservoir Sequence 20260529 234414 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260529-234414-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260529-234414-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260529-235031-metrics.md",
+      "title": "Reservoir Sequence 20260529 235031 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260529-235031-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260529-235031-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260530-000151-metrics.md",
+      "title": "Reservoir Sequence 20260530 000151 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260530-000151-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260530-000151-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260530-000846-metrics.md",
+      "title": "Reservoir Sequence 20260530 000846 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260530-000846-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260530-000846-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260530-001046-metrics.md",
+      "title": "Reservoir Sequence 20260530 001046 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260530-001046-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260530-001046-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:artifacts/fensalir-captures/reservoir-sequence-20260530-003006-metrics.md",
+      "title": "Reservoir Sequence 20260530 003006 Metrics",
+      "path": "artifacts/fensalir-captures/reservoir-sequence-20260530-003006-metrics.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/artifacts/fensalir-captures/reservoir-sequence-20260530-003006-metrics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/aquarium-engine-doctrine.md",
+      "title": "Aquarium Engine Doctrine",
+      "path": "docs/aquarium-engine-doctrine.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/aquarium-engine-doctrine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/cult-runtime-surface.md",
+      "title": "Cult Runtime Surface",
+      "path": "docs/cult-runtime-surface.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/cult-runtime-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/d3d12-best-practices-audit.md",
+      "title": "D3d12 Best Practices Audit",
+      "path": "docs/d3d12-best-practices-audit.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/d3d12-best-practices-audit.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/d3d12-migration.md",
+      "title": "D3d12 Migration",
+      "path": "docs/d3d12-migration.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/d3d12-migration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/engine-client-boundary.md",
+      "title": "Engine Client Boundary",
+      "path": "docs/engine-client-boundary.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/engine-client-boundary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/eve-direct2d-client-surface.md",
+      "title": "Eve Direct2d Client Surface",
+      "path": "docs/eve-direct2d-client-surface.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/eve-direct2d-client-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/fractal-domain-reservoir.md",
+      "title": "Fractal Domain Reservoir",
+      "path": "docs/fractal-domain-reservoir.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/fractal-domain-reservoir.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/hlsl-renderer.md",
+      "title": "Hlsl Renderer",
+      "path": "docs/hlsl-renderer.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/hlsl-renderer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/input.md",
+      "title": "Input",
+      "path": "docs/input.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/input.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/papers/fensalir-native-domain-reservoirs.tex",
+      "title": "Fensalir Native Domain Reservoirs",
+      "path": "docs/papers/fensalir-native-domain-reservoirs.tex",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/papers/fensalir-native-domain-reservoirs.tex",
+      "extension": "tex"
+    },
+    {
+      "id": "Fensalir:docs/papers/fensalir-pipeline.tex",
+      "title": "Fensalir Pipeline",
+      "path": "docs/papers/fensalir-pipeline.tex",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/papers/fensalir-pipeline.tex",
+      "extension": "tex"
+    },
+    {
+      "id": "Fensalir:docs/perfect-fensalir-machine-roadmap.md",
+      "title": "Perfect Fensalir Machine Roadmap",
+      "path": "docs/perfect-fensalir-machine-roadmap.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/perfect-fensalir-machine-roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/perfect-machine-architecture.md",
+      "title": "Perfect Machine Architecture",
+      "path": "docs/perfect-machine-architecture.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/perfect-machine-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/planetary-flow-implementation-plan.md",
+      "title": "Planetary Flow Implementation Plan",
+      "path": "docs/planetary-flow-implementation-plan.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/planetary-flow-implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/planetary-flow-nn-architecture.md",
+      "title": "Planetary Flow Nn Architecture",
+      "path": "docs/planetary-flow-nn-architecture.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/planetary-flow-nn-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/planetary-flow-organ.md",
+      "title": "Planetary Flow Organ",
+      "path": "docs/planetary-flow-organ.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/planetary-flow-organ.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/README.md",
+      "title": "Docs",
+      "path": "docs/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/rendering-teardown-rebuild-protocol.md",
+      "title": "Rendering Teardown Rebuild Protocol",
+      "path": "docs/rendering-teardown-rebuild-protocol.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/rendering-teardown-rebuild-protocol.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/reservoir-reconstruction-action-plan.md",
+      "title": "Reservoir Reconstruction Action Plan",
+      "path": "docs/reservoir-reconstruction-action-plan.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/reservoir-reconstruction-action-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/stochastic-transparent-surface-pipeline.md",
+      "title": "Stochastic Transparent Surface Pipeline",
+      "path": "docs/stochastic-transparent-surface-pipeline.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/stochastic-transparent-surface-pipeline.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/temporal-sdf-gaussian-field.md",
+      "title": "Temporal Sdf Gaussian Field",
+      "path": "docs/temporal-sdf-gaussian-field.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/temporal-sdf-gaussian-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/temporal-spatial-evidence-reservoir.md",
+      "title": "Temporal Spatial Evidence Reservoir",
+      "path": "docs/temporal-spatial-evidence-reservoir.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/temporal-spatial-evidence-reservoir.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/tsr-inspired-taa-spec.md",
+      "title": "Tsr Inspired Taa Spec",
+      "path": "docs/tsr-inspired-taa-spec.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/tsr-inspired-taa-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/vortice-spine.md",
+      "title": "Vortice Spine",
+      "path": "docs/vortice-spine.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/vortice-spine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:docs/zyphos-eusocial-sync.md",
+      "title": "Zyphos Eusocial Sync",
+      "path": "docs/zyphos-eusocial-sync.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/docs/zyphos-eusocial-sync.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/d3d12/source-manifest.md",
+      "title": "Source Manifest",
+      "path": "research/d3d12/source-manifest.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/d3d12/source-manifest.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/d3d12/synthesis.md",
+      "title": "Synthesis",
+      "path": "research/d3d12/synthesis.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/d3d12/synthesis.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/planetary-flow-organ-literature.md",
+      "title": "Planetary Flow Organ Literature",
+      "path": "research/planetary-flow-organ-literature.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/planetary-flow-organ-literature.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/README.md",
+      "title": "Research",
+      "path": "research/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/cube-sphere-fractal-brushes.md",
+      "title": "Cube Sphere Fractal Brushes",
+      "path": "research/rendering/cube-sphere-fractal-brushes.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/cube-sphere-fractal-brushes.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/fensalir-spine-emblem-ifs-demo.md",
+      "title": "Fensalir Spine Emblem Ifs Demo",
+      "path": "research/rendering/fensalir-spine-emblem-ifs-demo.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/fensalir-spine-emblem-ifs-demo.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/fractal-brush-architecture-plan.md",
+      "title": "Fractal Brush Architecture Plan",
+      "path": "research/rendering/fractal-brush-architecture-plan.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/fractal-brush-architecture-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/fractal-brush-implementation-roadmap.md",
+      "title": "Fractal Brush Implementation Roadmap",
+      "path": "research/rendering/fractal-brush-implementation-roadmap.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/fractal-brush-implementation-roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/fractal-projection-report.md",
+      "title": "Fractal Projection Report",
+      "path": "research/rendering/fractal-projection-report.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/fractal-projection-report.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/fractal-reference-oracles.md",
+      "title": "Fractal Reference Oracles",
+      "path": "research/rendering/fractal-reference-oracles.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/fractal-reference-oracles.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:research/rendering/hdr-pbr-presentation.md",
+      "title": "Hdr Pbr Presentation",
+      "path": "research/rendering/hdr-pbr-presentation.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/research/rendering/hdr-pbr-presentation.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:src/Saga/README.md",
+      "title": "Saga",
+      "path": "src/Saga/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/src/Saga/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:state/evidence-planetary-flow-organ.md",
+      "title": "Evidence Planetary Flow Organ",
+      "path": "state/evidence-planetary-flow-organ.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/state/evidence-planetary-flow-organ.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:state/README.md",
+      "title": "State",
+      "path": "state/README.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:state/scratch-fractal-resolve-split.md",
+      "title": "Scratch Fractal Resolve Split",
+      "path": "state/scratch-fractal-resolve-split.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/state/scratch-fractal-resolve-split.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:state/scratch-fractal-surface-visible.md",
+      "title": "Scratch Fractal Surface Visible",
+      "path": "state/scratch-fractal-surface-visible.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/state/scratch-fractal-surface-visible.md",
+      "extension": "md"
+    },
+    {
+      "id": "Fensalir:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Fensalir/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Eve",
+  "documentCount": 17,
+  "documents": [
+    {
+      "id": "Eve:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/cultmesh-streaming-ui-framework.md",
+      "title": "Cultmesh Streaming Ui Framework",
+      "path": "docs/cultmesh-streaming-ui-framework.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/cultmesh-streaming-ui-framework.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/renderer-parity.md",
+      "title": "Renderer Parity",
+      "path": "docs/renderer-parity.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/renderer-parity.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/surface-contract-v1.md",
+      "title": "Surface Contract V1",
+      "path": "docs/surface-contract-v1.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/surface-contract-v1.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

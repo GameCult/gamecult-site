@@ -1,0 +1,448 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "repixelizer",
+  "documentCount": 63,
+  "documents": [
+    {
+      "id": "repixelizer:.pytest_cache/README.md",
+      "title": ".Pytest Cache",
+      "path": ".pytest_cache/README.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.pytest_cache/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/dependencies.md",
+      "title": "Dependencies",
+      "path": ".venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/dependencies.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/dependencies.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/other-tools.md",
+      "title": "Other Tools",
+      "path": ".venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/other-tools.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/other-tools.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/streaming.md",
+      "title": "Streaming",
+      "path": ".venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/streaming.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/references/streaming.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+      "title": "SKILL",
+      "path": ".venv/Lib/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/fastapi/.agents/skills/fastapi/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/idna-3.13.dist-info/licenses/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/idna-3.13.dist-info/licenses/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/idna-3.13.dist-info/licenses/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/networkx-3.6.1.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/networkx-3.6.1.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/networkx-3.6.1.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy-2.4.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy/_core/include/numpy/random/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy/_core/include/numpy/random/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy/_core/include/numpy/random/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy/ma/README.rst",
+      "title": "Ma",
+      "path": ".venv/Lib/site-packages/numpy/ma/README.rst",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy/ma/README.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/numpy/random/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/numpy/random/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/numpy/random/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/AUTHORS.txt",
+      "title": "AUTHORS",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/AUTHORS.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/AUTHORS.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/dependency_groups/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/dependency_groups/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/dependency_groups/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/cachecontrol/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip/_vendor/cachecontrol/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/cachecontrol/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/dependency_groups/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip/_vendor/dependency_groups/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/dependency_groups/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/distlib/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip/_vendor/distlib/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/distlib/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/idna/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/README.rst",
+      "title": "Vendor",
+      "path": ".venv/Lib/site-packages/pip/_vendor/README.rst",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/README.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pip/_vendor/urllib3/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/pip/_vendor/urllib3/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pip/_vendor/urllib3/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/pyjwt-2.12.1.dist-info/licenses/AUTHORS.rst",
+      "title": "AUTHORS",
+      "path": ".venv/Lib/site-packages/pyjwt-2.12.1.dist-info/licenses/AUTHORS.rst",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/pyjwt-2.12.1.dist-info/licenses/AUTHORS.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/python_multipart-0.0.26.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/python_multipart-0.0.26.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/python_multipart-0.0.26.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/starlette-1.0.0.dist-info/licenses/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/sympy/parsing/autolev/test-examples/README.txt",
+      "title": "Test Examples",
+      "path": ".venv/Lib/site-packages/sympy/parsing/autolev/test-examples/README.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/sympy/parsing/autolev/test-examples/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/sympy/parsing/latex/LICENSE.txt",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/sympy/parsing/latex/LICENSE.txt",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/sympy/parsing/latex/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/torchgen/packaged/autograd/README.md",
+      "title": "Autograd",
+      "path": ".venv/Lib/site-packages/torchgen/packaged/autograd/README.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/torchgen/packaged/autograd/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:.venv/Lib/site-packages/uvicorn-0.46.0.dist-info/licenses/LICENSE.md",
+      "title": "LICENSE",
+      "path": ".venv/Lib/site-packages/uvicorn-0.46.0.dist-info/licenses/LICENSE.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/.venv/Lib/site-packages/uvicorn-0.46.0.dist-info/licenses/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:artifacts/solver-tuning-campaign-20260429-010014/manual-findings.md",
+      "title": "Manual Findings",
+      "path": "artifacts/solver-tuning-campaign-20260429-010014/manual-findings.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/artifacts/solver-tuning-campaign-20260429-010014/manual-findings.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:artifacts/supervised-tuning-20260429/findings.md",
+      "title": "Findings",
+      "path": "artifacts/supervised-tuning-20260429/findings.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/artifacts/supervised-tuning-20260429/findings.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/gamecult-hosted-access-architecture.md",
+      "title": "Gamecult Hosted Access Architecture",
+      "path": "docs/gamecult-hosted-access-architecture.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/gamecult-hosted-access-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/hosted-auth-architecture.md",
+      "title": "Hosted Auth Architecture",
+      "path": "docs/hosted-auth-architecture.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/hosted-auth-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "docs/implementation-plan.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/lean-optimizer-algorithm-map.md",
+      "title": "Lean Optimizer Algorithm Map",
+      "path": "docs/lean-optimizer-algorithm-map.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/lean-optimizer-algorithm-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/repixelizer-hosted-access-profile.md",
+      "title": "Repixelizer Hosted Access Profile",
+      "path": "docs/repixelizer-hosted-access-profile.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/repixelizer-hosted-access-profile.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/solver-tuning-lessons-2026-04-29.md",
+      "title": "Solver Tuning Lessons 2026 04 29",
+      "path": "docs/solver-tuning-lessons-2026-04-29.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/solver-tuning-lessons-2026-04-29.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/spec.md",
+      "title": "Spec",
+      "path": "docs/spec.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:examples/corpus/ATTRIBUTION.md",
+      "title": "ATTRIBUTION",
+      "path": "examples/corpus/ATTRIBUTION.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/examples/corpus/ATTRIBUTION.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:examples/corpus/README.md",
+      "title": "Corpus",
+      "path": "examples/corpus/README.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/examples/corpus/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

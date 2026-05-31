@@ -1,0 +1,420 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Ghostlight",
+  "documentCount": 59,
+  "documents": [
+    {
+      "id": "Ghostlight:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/aetheria/call-of-the-void-brainstorm.md",
+      "title": "Call Of The Void Brainstorm",
+      "path": "docs/aetheria/call-of-the-void-brainstorm.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/aetheria/call-of-the-void-brainstorm.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/aetheria-agent-population-model.md",
+      "title": "Aetheria Agent Population Model",
+      "path": "docs/architecture/aetheria-agent-population-model.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/aetheria-agent-population-model.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/aetheria-content-generation-targets.md",
+      "title": "Aetheria Content Generation Targets",
+      "path": "docs/architecture/aetheria-content-generation-targets.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/aetheria-content-generation-targets.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/aetheria-lore-grounding-architecture.md",
+      "title": "Aetheria Lore Grounding Architecture",
+      "path": "docs/architecture/aetheria-lore-grounding-architecture.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/aetheria-lore-grounding-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/aetheria-persistent-agent-architecture.md",
+      "title": "Aetheria Persistent Agent Architecture",
+      "path": "docs/architecture/aetheria-persistent-agent-architecture.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/aetheria-persistent-agent-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/agent-state-distributions-and-prompt-projection.md",
+      "title": "Agent State Distributions And Prompt Projection",
+      "path": "docs/architecture/agent-state-distributions-and-prompt-projection.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/agent-state-distributions-and-prompt-projection.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/agent-state-variable-glossary.md",
+      "title": "Agent State Variable Glossary",
+      "path": "docs/architecture/agent-state-variable-glossary.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/agent-state-variable-glossary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/canonical-agent-state-schema.md",
+      "title": "Canonical Agent State Schema",
+      "path": "docs/architecture/canonical-agent-state-schema.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/canonical-agent-state-schema.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/corpus-coverage-ledger.md",
+      "title": "Corpus Coverage Ledger",
+      "path": "docs/architecture/corpus-coverage-ledger.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/corpus-coverage-ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/cultnet-shared-agent-state-contract.md",
+      "title": "Cultnet Shared Agent State Contract",
+      "path": "docs/architecture/cultnet-shared-agent-state-contract.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/cultnet-shared-agent-state-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/illustrated-if-visual-pipeline.md",
+      "title": "Illustrated If Visual Pipeline",
+      "path": "docs/architecture/illustrated-if-visual-pipeline.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/illustrated-if-visual-pipeline.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/ink-branching-scenes.md",
+      "title": "Ink Branching Scenes",
+      "path": "docs/architecture/ink-branching-scenes.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/ink-branching-scenes.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/lore-grounding-digest-format.md",
+      "title": "Lore Grounding Digest Format",
+      "path": "docs/architecture/lore-grounding-digest-format.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/lore-grounding-digest-format.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/persistence-spine.md",
+      "title": "Persistence Spine",
+      "path": "docs/architecture/persistence-spine.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/persistence-spine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/projected-local-context.md",
+      "title": "Projected Local Context",
+      "path": "docs/architecture/projected-local-context.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/projected-local-context.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/projection-distillation-plan.md",
+      "title": "Projection Distillation Plan",
+      "path": "docs/architecture/projection-distillation-plan.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/projection-distillation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/prompt-projection-contract.md",
+      "title": "Prompt Projection Contract",
+      "path": "docs/architecture/prompt-projection-contract.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/prompt-projection-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/sandboxed-responder-packets.md",
+      "title": "Sandboxed Responder Packets",
+      "path": "docs/architecture/sandboxed-responder-packets.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/sandboxed-responder-packets.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/schema-future-mechanisms.md",
+      "title": "Schema Future Mechanisms",
+      "path": "docs/architecture/schema-future-mechanisms.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/schema-future-mechanisms.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/sequential-agent-runtime.md",
+      "title": "Sequential Agent Runtime",
+      "path": "docs/architecture/sequential-agent-runtime.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/sequential-agent-runtime.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/soft-model-training-artifacts.md",
+      "title": "Soft Model Training Artifacts",
+      "path": "docs/architecture/soft-model-training-artifacts.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/soft-model-training-artifacts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/technology-item-manifest-plan.md",
+      "title": "Technology Item Manifest Plan",
+      "path": "docs/architecture/technology-item-manifest-plan.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/technology-item-manifest-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/training-plan.md",
+      "title": "Training Plan",
+      "path": "docs/architecture/training-plan.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/training-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/voidbot-routine-adoption-plan.md",
+      "title": "Voidbot Routine Adoption Plan",
+      "path": "docs/architecture/voidbot-routine-adoption-plan.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/voidbot-routine-adoption-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/research/personality-model-roadmap.md",
+      "title": "Personality Model Roadmap",
+      "path": "docs/research/personality-model-roadmap.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/research/personality-model-roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/research/personality-signal-classifier.md",
+      "title": "Personality Signal Classifier",
+      "path": "docs/research/personality-signal-classifier.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/research/personality-signal-classifier.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/research/things-to-steal.md",
+      "title": "Things To Steal",
+      "path": "docs/research/things-to-steal.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/research/things-to-steal.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:examples/training-loops/lucent-hostage-feed-v0/README.md",
+      "title": "Lucent Hostage Feed V0",
+      "path": "examples/training-loops/lucent-hostage-feed-v0/README.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/examples/training-loops/lucent-hostage-feed-v0/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/corvid-collective-founding-v0/sandbox-packets/corvid-collective-founding-v0.coordinator-packet.md",
+      "title": "Corvid Collective Founding V0.Coordinator Packet",
+      "path": "experiments/corvid-collective-founding-v0/sandbox-packets/corvid-collective-founding-v0.coordinator-packet.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/corvid-collective-founding-v0/sandbox-packets/corvid-collective-founding-v0.coordinator-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.clean-run.md",
+      "title": "Lucent Hostage Feed V0.Clean Run",
+      "path": "experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.clean-run.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.clean-run.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.polished-readable.md",
+      "title": "Lucent Hostage Feed V0.Polished Readable",
+      "path": "experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.polished-readable.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.polished-readable.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.raw-responder-rollup.md",
+      "title": "Lucent Hostage Feed V0.Raw Responder Rollup",
+      "path": "experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.raw-responder-rollup.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.raw-responder-rollup.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.staging-sketch.md",
+      "title": "Lucent Hostage Feed V0.Staging Sketch",
+      "path": "experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.staging-sketch.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/lucent-hostage-feed-v0.staging-sketch.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.coordinator-packet.md",
+      "title": "Lucent Hostage Feed.Negotiator Branch.V1.Coordinator Packet",
+      "path": "experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.coordinator-packet.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.coordinator-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.weaver-packet.md",
+      "title": "Lucent Hostage Feed.Negotiator Branch.V1.Weaver Packet",
+      "path": "experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.weaver-packet.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/lucent-hostage-feed-v0/sandbox-packets/lucent-hostage-feed.negotiator-branch.v1.weaver-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/pallas-species-strikes/pallas-species-strikes.branch-and-fold-clean-run.v0.md",
+      "title": "Pallas Species Strikes.Branch And Fold Clean Run.V0",
+      "path": "experiments/pallas-species-strikes/pallas-species-strikes.branch-and-fold-clean-run.v0.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/pallas-species-strikes/pallas-species-strikes.branch-and-fold-clean-run.v0.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:experiments/pallas-training-loop-v0/pallas-training-loop-v0.clean-run.md",
+      "title": "Pallas Training Loop V0.Clean Run",
+      "path": "experiments/pallas-training-loop-v0/pallas-training-loop-v0.clean-run.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/experiments/pallas-training-loop-v0/pallas-training-loop-v0.clean-run.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/architecture-rationale.md",
+      "title": "Architecture Rationale",
+      "path": "notes/architecture-rationale.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/architecture-rationale.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/documentation-inventory.md",
+      "title": "Documentation Inventory",
+      "path": "notes/documentation-inventory.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/documentation-inventory.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/epiphany-intrusion-audit.md",
+      "title": "Epiphany Intrusion Audit",
+      "path": "notes/epiphany-intrusion-audit.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/epiphany-intrusion-audit.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/ghostlight-current-system-map.md",
+      "title": "Ghostlight Current System Map",
+      "path": "notes/ghostlight-current-system-map.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/ghostlight-current-system-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:notes/ghostlight-implementation-plan.md",
+      "title": "Ghostlight Implementation Plan",
+      "path": "notes/ghostlight-implementation-plan.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/notes/ghostlight-implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/image-generation/pallas-service-ring-kappa-blueprint.prompt.md",
+      "title": "Pallas Service Ring Kappa Blueprint.Prompt",
+      "path": "prompts/image-generation/pallas-service-ring-kappa-blueprint.prompt.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/image-generation/pallas-service-ring-kappa-blueprint.prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/image-generation/pallas-service-ring-kappa-environment-overview.prompt.md",
+      "title": "Pallas Service Ring Kappa Environment Overview.Prompt",
+      "path": "prompts/image-generation/pallas-service-ring-kappa-environment-overview.prompt.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/image-generation/pallas-service-ring-kappa-environment-overview.prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/interactive-fiction-weaver.md",
+      "title": "Interactive Fiction Weaver",
+      "path": "prompts/interactive-fiction-weaver.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/interactive-fiction-weaver.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/lore-grounding-reviewer.md",
+      "title": "Lore Grounding Reviewer",
+      "path": "prompts/lore-grounding-reviewer.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/lore-grounding-reviewer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/narrative-quality-reviewer.md",
+      "title": "Narrative Quality Reviewer",
+      "path": "prompts/narrative-quality-reviewer.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/narrative-quality-reviewer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/README.md",
+      "title": "Prompts",
+      "path": "prompts/README.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/research-sanity-responder.md",
+      "title": "Research Sanity Responder",
+      "path": "prompts/research-sanity-responder.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/research-sanity-responder.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/sandboxed-coordinator-turn.md",
+      "title": "Sandboxed Coordinator Turn",
+      "path": "prompts/sandboxed-coordinator-turn.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/sandboxed-coordinator-turn.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/sandboxed-responder-packet.md",
+      "title": "Sandboxed Responder Packet",
+      "path": "prompts/sandboxed-responder-packet.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/sandboxed-responder-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/spatial-geometric-cohesion-reviewer.md",
+      "title": "Spatial Geometric Cohesion Reviewer",
+      "path": "prompts/spatial-geometric-cohesion-reviewer.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/spatial-geometric-cohesion-reviewer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:prompts/visual-scene-continuity-reviewer.md",
+      "title": "Visual Scene Continuity Reviewer",
+      "path": "prompts/visual-scene-continuity-reviewer.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/prompts/visual-scene-continuity-reviewer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:scripts/README.md",
+      "title": "Scripts",
+      "path": "scripts/README.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/scripts/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/state/scratch.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:vendor/cultcache-py/README.md",
+      "title": "Cultcache Py",
+      "path": "vendor/cultcache-py/README.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/vendor/cultcache-py/README.md",
+      "extension": "md"
+    }
+  ]
+}

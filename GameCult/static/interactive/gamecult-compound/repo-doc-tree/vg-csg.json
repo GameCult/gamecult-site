@@ -1,0 +1,35 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "vg-csg",
+  "documentCount": 4,
+  "documents": [
+    {
+      "id": "vg-csg:docs/csg-performance-fixtures.md",
+      "title": "Csg Performance Fixtures",
+      "path": "docs/csg-performance-fixtures.md",
+      "href": "https://github.com/GameCult/vg-csg/blob/main/docs/csg-performance-fixtures.md",
+      "extension": "md"
+    },
+    {
+      "id": "vg-csg:docs/realtime-csg-bevy-assembler.md",
+      "title": "Realtime Csg Bevy Assembler",
+      "path": "docs/realtime-csg-bevy-assembler.md",
+      "href": "https://github.com/GameCult/vg-csg/blob/main/docs/realtime-csg-bevy-assembler.md",
+      "extension": "md"
+    },
+    {
+      "id": "vg-csg:docs/realtime-csg-doctrine.md",
+      "title": "Realtime Csg Doctrine",
+      "path": "docs/realtime-csg-doctrine.md",
+      "href": "https://github.com/GameCult/vg-csg/blob/main/docs/realtime-csg-doctrine.md",
+      "extension": "md"
+    },
+    {
+      "id": "vg-csg:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/vg-csg/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

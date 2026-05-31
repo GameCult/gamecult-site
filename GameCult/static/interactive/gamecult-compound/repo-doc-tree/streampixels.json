@@ -1,0 +1,210 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "StreamPixels",
+  "documentCount": 29,
+  "documents": [
+    {
+      "id": "StreamPixels:.streampixels-local/runtime/node-v24-win-x64/CHANGELOG.md",
+      "title": "CHANGELOG",
+      "path": ".streampixels-local/runtime/node-v24-win-x64/CHANGELOG.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.streampixels-local/runtime/node-v24-win-x64/CHANGELOG.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.streampixels-local/runtime/node-v24-win-x64/README.md",
+      "title": "Node V24 Win X64",
+      "path": ".streampixels-local/runtime/node-v24-win-x64/README.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.streampixels-local/runtime/node-v24-win-x64/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/README.md",
+      "title": ".Voidbot",
+      "path": ".voidbot/README.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/configuration.md",
+      "title": "Configuration",
+      "path": "docs/configuration.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/configuration.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/direct-provider-validation.md",
+      "title": "Direct Provider Validation",
+      "path": "docs/direct-provider-validation.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/direct-provider-validation.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "docs/implementation-plan.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/overlay-scene-choreography-spec.md",
+      "title": "Overlay Scene Choreography Spec",
+      "path": "docs/overlay-scene-choreography-spec.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/overlay-scene-choreography-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/repository-map.md",
+      "title": "Repository Map",
+      "path": "docs/repository-map.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/repository-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:notes/current-algorithmic-map.md",
+      "title": "Current Algorithmic Map",
+      "path": "notes/current-algorithmic-map.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/notes/current-algorithmic-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:PixelHeroes/DemoTileset/Readme.txt",
+      "title": "Readme",
+      "path": "PixelHeroes/DemoTileset/Readme.txt",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/PixelHeroes/DemoTileset/Readme.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "StreamPixels:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/state/scratch.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:streampixels-unified-spec.md",
+      "title": "Streampixels Unified Spec",
+      "path": "streampixels-unified-spec.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/streampixels-unified-spec.md",
+      "extension": "md"
+    }
+  ]
+}

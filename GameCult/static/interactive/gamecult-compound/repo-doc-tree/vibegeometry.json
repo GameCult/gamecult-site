@@ -1,0 +1,56 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "VibeGeometry",
+  "documentCount": 7,
+  "documents": [
+    {
+      "id": "VibeGeometry:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:crates/vg_csg/docs/csg-performance-fixtures.md",
+      "title": "Csg Performance Fixtures",
+      "path": "crates/vg_csg/docs/csg-performance-fixtures.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/crates/vg_csg/docs/csg-performance-fixtures.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:crates/vg_csg/docs/realtime-csg-bevy-assembler.md",
+      "title": "Realtime Csg Bevy Assembler",
+      "path": "crates/vg_csg/docs/realtime-csg-bevy-assembler.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/crates/vg_csg/docs/realtime-csg-bevy-assembler.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:crates/vg_csg/docs/realtime-csg-doctrine.md",
+      "title": "Realtime Csg Doctrine",
+      "path": "crates/vg_csg/docs/realtime-csg-doctrine.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/crates/vg_csg/docs/realtime-csg-doctrine.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:crates/vg_csg/README.md",
+      "title": "Vg Csg",
+      "path": "crates/vg_csg/README.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/crates/vg_csg/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "VibeGeometry:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/VibeGeometry/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

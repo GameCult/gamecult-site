@@ -1,0 +1,1260 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "EpiphanyAgent-check-8a0c305",
+  "documentCount": 179,
+  "documents": [
+    {
+      "id": "EpiphanyAgent-check-8a0c305:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:CONTRIBUTING.md",
+      "title": "CONTRIBUTING",
+      "path": "CONTRIBUTING.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/CONTRIBUTING.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:CONTRIBUTOR_LICENSE_AGREEMENT.md",
+      "title": "CONTRIBUTOR LICENSE AGREEMENT",
+      "path": "CONTRIBUTOR_LICENSE_AGREEMENT.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/CONTRIBUTOR_LICENSE_AGREEMENT.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:eval-plan.md",
+      "title": "Eval Plan",
+      "path": "eval-plan.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/eval-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/architecture-rationale.md",
+      "title": "Architecture Rationale",
+      "path": "notes/architecture-rationale.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/architecture-rationale.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/codex-repository-algorithmic-map.md",
+      "title": "Codex Repository Algorithmic Map",
+      "path": "notes/codex-repository-algorithmic-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/codex-repository-algorithmic-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/epiphany-core-harness-surfaces.md",
+      "title": "Epiphany Core Harness Surfaces",
+      "path": "notes/epiphany-core-harness-surfaces.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/epiphany-core-harness-surfaces.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/epiphany-current-algorithmic-map.md",
+      "title": "Epiphany Current Algorithmic Map",
+      "path": "notes/epiphany-current-algorithmic-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/epiphany-current-algorithmic-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/epiphany-fork-implementation-plan.md",
+      "title": "Epiphany Fork Implementation Plan",
+      "path": "notes/epiphany-fork-implementation-plan.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/epiphany-fork-implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:protocol/controller-actions.md",
+      "title": "Controller Actions",
+      "path": "protocol/controller-actions.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/protocol/controller-actions.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/state/scratch.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/babysit-pr/references/github-api-notes.md",
+      "title": "Github Api Notes",
+      "path": "vendor/codex/.codex/skills/babysit-pr/references/github-api-notes.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/babysit-pr/references/github-api-notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/babysit-pr/references/heuristics.md",
+      "title": "Heuristics",
+      "path": "vendor/codex/.codex/skills/babysit-pr/references/heuristics.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/babysit-pr/references/heuristics.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/babysit-pr/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/babysit-pr/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/babysit-pr/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/code-review-breaking-changes/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/code-review-breaking-changes/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/code-review-breaking-changes/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/code-review-change-size/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/code-review-change-size/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/code-review-change-size/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/code-review-context/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/code-review-context/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/code-review-context/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/code-review-testing/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/code-review-testing/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/code-review-testing/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/code-review/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/code-review/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/code-review/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/codex-bug/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/codex-bug/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/codex-bug/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/codex-pr-body/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/codex-pr-body/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/codex-pr-body/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/remote-tests/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/remote-tests/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/remote-tests/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.codex/skills/test-tui/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/.codex/skills/test-tui/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.codex/skills/test-tui/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.devcontainer/README.md",
+      "title": ".Devcontainer",
+      "path": "vendor/codex/.devcontainer/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.devcontainer/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/codex/labels/codex-attempt.md",
+      "title": "Codex Attempt",
+      "path": "vendor/codex/.github/codex/labels/codex-attempt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/codex/labels/codex-attempt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/codex/labels/codex-review.md",
+      "title": "Codex Review",
+      "path": "vendor/codex/.github/codex/labels/codex-review.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/codex/labels/codex-review.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/codex/labels/codex-rust-review.md",
+      "title": "Codex Rust Review",
+      "path": "vendor/codex/.github/codex/labels/codex-rust-review.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/codex/labels/codex-rust-review.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/codex/labels/codex-triage.md",
+      "title": "Codex Triage",
+      "path": "vendor/codex/.github/codex/labels/codex-triage.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/codex/labels/codex-triage.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/pull_request_template.md",
+      "title": "Pull Request Template",
+      "path": "vendor/codex/.github/pull_request_template.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/pull_request_template.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/.github/workflows/README.md",
+      "title": "Workflows",
+      "path": "vendor/codex/.github/workflows/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/.github/workflows/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/AGENTS.md",
+      "title": "AGENTS",
+      "path": "vendor/codex/AGENTS.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/CHANGELOG.md",
+      "title": "CHANGELOG",
+      "path": "vendor/codex/CHANGELOG.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/CHANGELOG.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-cli/scripts/README.md",
+      "title": "Scripts",
+      "path": "vendor/codex/codex-cli/scripts/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-cli/scripts/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/ansi-escape/README.md",
+      "title": "Ansi Escape",
+      "path": "vendor/codex/codex-rs/ansi-escape/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/ansi-escape/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/app-server-client/README.md",
+      "title": "App Server Client",
+      "path": "vendor/codex/codex-rs/app-server-client/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/app-server-client/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/app-server-test-client/README.md",
+      "title": "App Server Test Client",
+      "path": "vendor/codex/codex-rs/app-server-test-client/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/app-server-test-client/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/app-server/README.md",
+      "title": "App Server",
+      "path": "vendor/codex/codex-rs/app-server/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/app-server/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/apply-patch/apply_patch_tool_instructions.md",
+      "title": "Apply Patch Tool Instructions",
+      "path": "vendor/codex/codex-rs/apply-patch/apply_patch_tool_instructions.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/apply-patch/apply_patch_tool_instructions.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/001_add_file/expected/bar.md",
+      "title": "Bar",
+      "path": "vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/001_add_file/expected/bar.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/001_add_file/expected/bar.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/README.md",
+      "title": "Scenarios",
+      "path": "vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/apply-patch/tests/fixtures/scenarios/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/chatgpt/README.md",
+      "title": "Chatgpt",
+      "path": "vendor/codex/codex-rs/chatgpt/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/chatgpt/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/codex-api/README.md",
+      "title": "Codex Api",
+      "path": "vendor/codex/codex-rs/codex-api/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/codex-api/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/codex-client/README.md",
+      "title": "Codex Client",
+      "path": "vendor/codex/codex-rs/codex-client/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/codex-client/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/collaboration-mode-templates/templates/default.md",
+      "title": "Default",
+      "path": "vendor/codex/codex-rs/collaboration-mode-templates/templates/default.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/collaboration-mode-templates/templates/default.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/collaboration-mode-templates/templates/execute.md",
+      "title": "Execute",
+      "path": "vendor/codex/codex-rs/collaboration-mode-templates/templates/execute.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/collaboration-mode-templates/templates/execute.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/collaboration-mode-templates/templates/pair_programming.md",
+      "title": "Pair Programming",
+      "path": "vendor/codex/codex-rs/collaboration-mode-templates/templates/pair_programming.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/collaboration-mode-templates/templates/pair_programming.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/collaboration-mode-templates/templates/plan.md",
+      "title": "Plan",
+      "path": "vendor/codex/codex-rs/collaboration-mode-templates/templates/plan.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/collaboration-mode-templates/templates/plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/config.md",
+      "title": "Config",
+      "path": "vendor/codex/codex-rs/config.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/config.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/gpt_5_1_prompt.md",
+      "title": "Gpt 5 1 Prompt",
+      "path": "vendor/codex/codex-rs/core/gpt_5_1_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/gpt_5_1_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/gpt_5_2_prompt.md",
+      "title": "Gpt 5 2 Prompt",
+      "path": "vendor/codex/codex-rs/core/gpt_5_2_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/gpt_5_2_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/gpt_5_codex_prompt.md",
+      "title": "Gpt 5 Codex Prompt",
+      "path": "vendor/codex/codex-rs/core/gpt_5_codex_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/gpt_5_codex_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/gpt-5.1-codex-max_prompt.md",
+      "title": "Gpt 5.1 Codex Max Prompt",
+      "path": "vendor/codex/codex-rs/core/gpt-5.1-codex-max_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/gpt-5.1-codex-max_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/gpt-5.2-codex_prompt.md",
+      "title": "Gpt 5.2 Codex Prompt",
+      "path": "vendor/codex/codex-rs/core/gpt-5.2-codex_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/gpt-5.2-codex_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/hierarchical_agents_message.md",
+      "title": "Hierarchical Agents Message",
+      "path": "vendor/codex/codex-rs/core/hierarchical_agents_message.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/hierarchical_agents_message.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/prompt_with_apply_patch_instructions.md",
+      "title": "Prompt With Apply Patch Instructions",
+      "path": "vendor/codex/codex-rs/core/prompt_with_apply_patch_instructions.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/prompt_with_apply_patch_instructions.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/README.md",
+      "title": "Core",
+      "path": "vendor/codex/codex-rs/core/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/review_prompt.md",
+      "title": "Review Prompt",
+      "path": "vendor/codex/codex-rs/core/review_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/review_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/config_loader/README.md",
+      "title": "Config Loader",
+      "path": "vendor/codex/codex-rs/core/src/config_loader/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/config_loader/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/config/schema.md",
+      "title": "Schema",
+      "path": "vendor/codex/codex-rs/core/src/config/schema.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/config/schema.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/never.md",
+      "title": "Never",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/never.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/never.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_failure.md",
+      "title": "On Failure",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_failure.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_failure.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request_rule_request_permission.md",
+      "title": "On Request Rule Request Permission",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request_rule_request_permission.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request_rule_request_permission.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request.md",
+      "title": "On Request",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/on_request.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/unless_trusted.md",
+      "title": "Unless Trusted",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/unless_trusted.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/approval_policy/unless_trusted.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/danger_full_access.md",
+      "title": "Danger Full Access",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/danger_full_access.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/danger_full_access.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/read_only.md",
+      "title": "Read Only",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/read_only.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/read_only.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/workspace_write.md",
+      "title": "Workspace Write",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/workspace_write.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/permissions/sandbox_mode/workspace_write.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_end.md",
+      "title": "Realtime End",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_end.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_end.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_start.md",
+      "title": "Realtime Start",
+      "path": "vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_start.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/context/prompts/realtime/realtime_start.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/guardian/policy_template.md",
+      "title": "Policy Template",
+      "path": "vendor/codex/codex-rs/core/src/guardian/policy_template.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/guardian/policy_template.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/guardian/policy.md",
+      "title": "Policy",
+      "path": "vendor/codex/codex-rs/core/src/guardian/policy.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/guardian/policy.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/src/memories/README.md",
+      "title": "Memories",
+      "path": "vendor/codex/codex-rs/core/src/memories/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/src/memories/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/agents/orchestrator.md",
+      "title": "Orchestrator",
+      "path": "vendor/codex/codex-rs/core/templates/agents/orchestrator.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/agents/orchestrator.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/collab/experimental_prompt.md",
+      "title": "Experimental Prompt",
+      "path": "vendor/codex/codex-rs/core/templates/collab/experimental_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/collab/experimental_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/compact/prompt.md",
+      "title": "Prompt",
+      "path": "vendor/codex/codex-rs/core/templates/compact/prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/compact/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/compact/summary_prefix.md",
+      "title": "Summary Prefix",
+      "path": "vendor/codex/codex-rs/core/templates/compact/summary_prefix.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/compact/summary_prefix.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/memories/consolidation.md",
+      "title": "Consolidation",
+      "path": "vendor/codex/codex-rs/core/templates/memories/consolidation.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/memories/consolidation.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/memories/read_path.md",
+      "title": "Read Path",
+      "path": "vendor/codex/codex-rs/core/templates/memories/read_path.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/memories/read_path.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/memories/stage_one_input.md",
+      "title": "Stage One Input",
+      "path": "vendor/codex/codex-rs/core/templates/memories/stage_one_input.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/memories/stage_one_input.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/memories/stage_one_system.md",
+      "title": "Stage One System",
+      "path": "vendor/codex/codex-rs/core/templates/memories/stage_one_system.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/memories/stage_one_system.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/model_instructions/gpt-5.2-codex_instructions_template.md",
+      "title": "Gpt 5.2 Codex Instructions Template",
+      "path": "vendor/codex/codex-rs/core/templates/model_instructions/gpt-5.2-codex_instructions_template.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/model_instructions/gpt-5.2-codex_instructions_template.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_friendly.md",
+      "title": "Gpt 5.2 Codex Friendly",
+      "path": "vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_friendly.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_friendly.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_pragmatic.md",
+      "title": "Gpt 5.2 Codex Pragmatic",
+      "path": "vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_pragmatic.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/personalities/gpt-5.2-codex_pragmatic.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/realtime/backend_prompt.md",
+      "title": "Backend Prompt",
+      "path": "vendor/codex/codex-rs/core/templates/realtime/backend_prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/realtime/backend_prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/review/history_message_completed.md",
+      "title": "History Message Completed",
+      "path": "vendor/codex/codex-rs/core/templates/review/history_message_completed.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/review/history_message_completed.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/review/history_message_interrupted.md",
+      "title": "History Message Interrupted",
+      "path": "vendor/codex/codex-rs/core/templates/review/history_message_interrupted.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/review/history_message_interrupted.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/search_tool/tool_description.md",
+      "title": "Tool Description",
+      "path": "vendor/codex/codex-rs/core/templates/search_tool/tool_description.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/search_tool/tool_description.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/core/templates/search_tool/tool_suggest_description.md",
+      "title": "Tool Suggest Description",
+      "path": "vendor/codex/codex-rs/core/templates/search_tool/tool_suggest_description.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/core/templates/search_tool/tool_suggest_description.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/debug-client/README.md",
+      "title": "Debug Client",
+      "path": "vendor/codex/codex-rs/debug-client/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/debug-client/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/docs/bazel.md",
+      "title": "Bazel",
+      "path": "vendor/codex/codex-rs/docs/bazel.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/docs/bazel.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/docs/codex_mcp_interface.md",
+      "title": "Codex Mcp Interface",
+      "path": "vendor/codex/codex-rs/docs/codex_mcp_interface.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/docs/codex_mcp_interface.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/docs/protocol_v1.md",
+      "title": "Protocol V1",
+      "path": "vendor/codex/codex-rs/docs/protocol_v1.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/docs/protocol_v1.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/exec-server/README.md",
+      "title": "Exec Server",
+      "path": "vendor/codex/codex-rs/exec-server/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/exec-server/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/execpolicy-legacy/README.md",
+      "title": "Execpolicy Legacy",
+      "path": "vendor/codex/codex-rs/execpolicy-legacy/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/execpolicy-legacy/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/execpolicy/README.md",
+      "title": "Execpolicy",
+      "path": "vendor/codex/codex-rs/execpolicy/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/execpolicy/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/file-search/README.md",
+      "title": "File Search",
+      "path": "vendor/codex/codex-rs/file-search/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/file-search/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/git-utils/README.md",
+      "title": "Git Utils",
+      "path": "vendor/codex/codex-rs/git-utils/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/git-utils/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/linux-sandbox/README.md",
+      "title": "Linux Sandbox",
+      "path": "vendor/codex/codex-rs/linux-sandbox/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/linux-sandbox/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/models-manager/prompt.md",
+      "title": "Prompt",
+      "path": "vendor/codex/codex-rs/models-manager/prompt.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/models-manager/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/network-proxy/README.md",
+      "title": "Network Proxy",
+      "path": "vendor/codex/codex-rs/network-proxy/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/network-proxy/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/otel/README.md",
+      "title": "Otel",
+      "path": "vendor/codex/codex-rs/otel/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/otel/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/process-hardening/README.md",
+      "title": "Process Hardening",
+      "path": "vendor/codex/codex-rs/process-hardening/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/process-hardening/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/protocol/README.md",
+      "title": "Protocol",
+      "path": "vendor/codex/codex-rs/protocol/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/protocol/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/protocol/src/prompts/base_instructions/default.md",
+      "title": "Default",
+      "path": "vendor/codex/codex-rs/protocol/src/prompts/base_instructions/default.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/protocol/src/prompts/base_instructions/default.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/README.md",
+      "title": "Codex Rs",
+      "path": "vendor/codex/codex-rs/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/responses-api-proxy/npm/README.md",
+      "title": "Npm",
+      "path": "vendor/codex/codex-rs/responses-api-proxy/npm/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/responses-api-proxy/npm/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/responses-api-proxy/README.md",
+      "title": "Responses Api Proxy",
+      "path": "vendor/codex/codex-rs/responses-api-proxy/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/responses-api-proxy/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/rollout-trace/README.md",
+      "title": "Rollout Trace",
+      "path": "vendor/codex/codex-rs/rollout-trace/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/rollout-trace/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/shell-escalation/README.md",
+      "title": "Shell Escalation",
+      "path": "vendor/codex/codex-rs/shell-escalation/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/shell-escalation/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/LICENSE.txt",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/cli.md",
+      "title": "Cli",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/cli.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/cli.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/codex-network.md",
+      "title": "Codex Network",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/codex-network.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/codex-network.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/image-api.md",
+      "title": "Image Api",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/image-api.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/image-api.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/prompting.md",
+      "title": "Prompting",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/prompting.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/prompting.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/sample-prompts.md",
+      "title": "Sample Prompts",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/sample-prompts.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/references/sample-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/imagegen/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/imagegen/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/imagegen/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/LICENSE.txt",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/latest-model.md",
+      "title": "Latest Model",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/latest-model.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/latest-model.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/prompting-guide.md",
+      "title": "Prompting Guide",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/prompting-guide.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/prompting-guide.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/upgrade-guide.md",
+      "title": "Upgrade Guide",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/upgrade-guide.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/references/upgrade-guide.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/openai-docs/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/references/plugin-json-spec.md",
+      "title": "Plugin Json Spec",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/references/plugin-json-spec.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/references/plugin-json-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/plugin-creator/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/license.txt",
+      "title": "License",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/license.txt",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/license.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/references/openai_yaml.md",
+      "title": "Openai Yaml",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/references/openai_yaml.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/references/openai_yaml.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/skill-creator/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/LICENSE.txt",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/SKILL.md",
+      "title": "SKILL",
+      "path": "vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/SKILL.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/skills/src/assets/samples/skill-installer/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/stdio-to-uds/README.md",
+      "title": "Stdio To Uds",
+      "path": "vendor/codex/codex-rs/stdio-to-uds/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/stdio-to-uds/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/thread-store/src/remote/AGENTS.md",
+      "title": "AGENTS",
+      "path": "vendor/codex/codex-rs/thread-store/src/remote/AGENTS.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/thread-store/src/remote/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/tools/README.md",
+      "title": "Tools",
+      "path": "vendor/codex/codex-rs/tools/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/tools/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/tui/prompt_for_init_command.md",
+      "title": "Prompt For Init Command",
+      "path": "vendor/codex/codex-rs/tui/prompt_for_init_command.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/tui/prompt_for_init_command.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/tui/src/bottom_pane/AGENTS.md",
+      "title": "AGENTS",
+      "path": "vendor/codex/codex-rs/tui/src/bottom_pane/AGENTS.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/tui/src/bottom_pane/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/tui/styles.md",
+      "title": "Styles",
+      "path": "vendor/codex/codex-rs/tui/styles.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/tui/styles.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/utils/cargo-bin/README.md",
+      "title": "Cargo Bin",
+      "path": "vendor/codex/codex-rs/utils/cargo-bin/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/utils/cargo-bin/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/utils/pty/README.md",
+      "title": "Pty",
+      "path": "vendor/codex/codex-rs/utils/pty/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/utils/pty/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/utils/stream-parser/README.md",
+      "title": "Stream Parser",
+      "path": "vendor/codex/codex-rs/utils/stream-parser/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/utils/stream-parser/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/utils/template/README.md",
+      "title": "Template",
+      "path": "vendor/codex/codex-rs/utils/template/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/utils/template/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/vendor/bubblewrap/CODE-OF-CONDUCT.md",
+      "title": "CODE OF CONDUCT",
+      "path": "vendor/codex/codex-rs/vendor/bubblewrap/CODE-OF-CONDUCT.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/vendor/bubblewrap/CODE-OF-CONDUCT.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/vendor/bubblewrap/NEWS.md",
+      "title": "NEWS",
+      "path": "vendor/codex/codex-rs/vendor/bubblewrap/NEWS.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/vendor/bubblewrap/NEWS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/vendor/bubblewrap/README.md",
+      "title": "Bubblewrap",
+      "path": "vendor/codex/codex-rs/vendor/bubblewrap/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/vendor/bubblewrap/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/vendor/bubblewrap/release-checklist.md",
+      "title": "Release Checklist",
+      "path": "vendor/codex/codex-rs/vendor/bubblewrap/release-checklist.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/vendor/bubblewrap/release-checklist.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/codex-rs/vendor/bubblewrap/SECURITY.md",
+      "title": "SECURITY",
+      "path": "vendor/codex/codex-rs/vendor/bubblewrap/SECURITY.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/codex-rs/vendor/bubblewrap/SECURITY.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/agents_md.md",
+      "title": "Agents Md",
+      "path": "vendor/codex/docs/agents_md.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/agents_md.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/authentication.md",
+      "title": "Authentication",
+      "path": "vendor/codex/docs/authentication.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/authentication.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/CLA.md",
+      "title": "CLA",
+      "path": "vendor/codex/docs/CLA.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/CLA.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/config.md",
+      "title": "Config",
+      "path": "vendor/codex/docs/config.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/config.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/contributing.md",
+      "title": "Contributing",
+      "path": "vendor/codex/docs/contributing.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/contributing.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/example-config.md",
+      "title": "Example Config",
+      "path": "vendor/codex/docs/example-config.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/example-config.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/exec.md",
+      "title": "Exec",
+      "path": "vendor/codex/docs/exec.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/exec.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/execpolicy.md",
+      "title": "Execpolicy",
+      "path": "vendor/codex/docs/execpolicy.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/execpolicy.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/exit-confirmation-prompt-design.md",
+      "title": "Exit Confirmation Prompt Design",
+      "path": "vendor/codex/docs/exit-confirmation-prompt-design.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/exit-confirmation-prompt-design.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/getting-started.md",
+      "title": "Getting Started",
+      "path": "vendor/codex/docs/getting-started.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/getting-started.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/install.md",
+      "title": "Install",
+      "path": "vendor/codex/docs/install.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/install.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/js_repl.md",
+      "title": "Js Repl",
+      "path": "vendor/codex/docs/js_repl.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/js_repl.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/license.md",
+      "title": "License",
+      "path": "vendor/codex/docs/license.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/license.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/open-source-fund.md",
+      "title": "Open Source Fund",
+      "path": "vendor/codex/docs/open-source-fund.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/open-source-fund.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/sandbox.md",
+      "title": "Sandbox",
+      "path": "vendor/codex/docs/sandbox.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/sandbox.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/skills.md",
+      "title": "Skills",
+      "path": "vendor/codex/docs/skills.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/skills.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/slash_commands.md",
+      "title": "Slash Commands",
+      "path": "vendor/codex/docs/slash_commands.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/slash_commands.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-alternate-screen.md",
+      "title": "Tui Alternate Screen",
+      "path": "vendor/codex/docs/tui-alternate-screen.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-alternate-screen.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-chat-composer.md",
+      "title": "Tui Chat Composer",
+      "path": "vendor/codex/docs/tui-chat-composer.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-chat-composer.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-request-user-input.md",
+      "title": "Tui Request User Input",
+      "path": "vendor/codex/docs/tui-request-user-input.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-request-user-input.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-stream-chunking-review.md",
+      "title": "Tui Stream Chunking Review",
+      "path": "vendor/codex/docs/tui-stream-chunking-review.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-stream-chunking-review.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-stream-chunking-tuning.md",
+      "title": "Tui Stream Chunking Tuning",
+      "path": "vendor/codex/docs/tui-stream-chunking-tuning.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-stream-chunking-tuning.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/docs/tui-stream-chunking-validation.md",
+      "title": "Tui Stream Chunking Validation",
+      "path": "vendor/codex/docs/tui-stream-chunking-validation.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/docs/tui-stream-chunking-validation.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/README.md",
+      "title": "Codex",
+      "path": "vendor/codex/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python-runtime/README.md",
+      "title": "Python Runtime",
+      "path": "vendor/codex/sdk/python-runtime/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python-runtime/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python/docs/api-reference.md",
+      "title": "Api Reference",
+      "path": "vendor/codex/sdk/python/docs/api-reference.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python/docs/api-reference.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python/docs/faq.md",
+      "title": "Faq",
+      "path": "vendor/codex/sdk/python/docs/faq.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python/docs/faq.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python/docs/getting-started.md",
+      "title": "Getting Started",
+      "path": "vendor/codex/sdk/python/docs/getting-started.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python/docs/getting-started.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python/examples/README.md",
+      "title": "Examples",
+      "path": "vendor/codex/sdk/python/examples/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python/examples/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/python/README.md",
+      "title": "Python",
+      "path": "vendor/codex/sdk/python/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/python/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/sdk/typescript/README.md",
+      "title": "Typescript",
+      "path": "vendor/codex/sdk/typescript/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/sdk/typescript/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/SECURITY.md",
+      "title": "SECURITY",
+      "path": "vendor/codex/SECURITY.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/SECURITY.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/third_party/v8/README.md",
+      "title": "V8",
+      "path": "vendor/codex/third_party/v8/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/third_party/v8/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent-check-8a0c305:vendor/codex/tools/argument-comment-lint/README.md",
+      "title": "Argument Comment Lint",
+      "path": "vendor/codex/tools/argument-comment-lint/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent-check-8a0c305/blob/main/vendor/codex/tools/argument-comment-lint/README.md",
+      "extension": "md"
+    }
+  ]
+}

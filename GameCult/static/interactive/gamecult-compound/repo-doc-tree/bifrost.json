@@ -1,0 +1,273 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Bifrost",
+  "documentCount": 38,
+  "documents": [
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_11d2c7f2-85c6-44ea-9e89-ec7fe0ab5db9/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_11d2c7f2-85c6-44ea-9e89-ec7fe0ab5db9/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_11d2c7f2-85c6-44ea-9e89-ec7fe0ab5db9/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_11f314e4-dc38-4ae0-9b6f-dfdcff5eeff4/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_11f314e4-dc38-4ae0-9b6f-dfdcff5eeff4/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_11f314e4-dc38-4ae0-9b6f-dfdcff5eeff4/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_435a18a2-050b-4329-978e-83e0a59182c3/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_435a18a2-050b-4329-978e-83e0a59182c3/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_435a18a2-050b-4329-978e-83e0a59182c3/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_48361d22-07a9-424b-af17-dcd440e03f65/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_48361d22-07a9-424b-af17-dcd440e03f65/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_48361d22-07a9-424b-af17-dcd440e03f65/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_6bbb6048-16f4-4702-b44e-b1ddf4436b2b/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_6bbb6048-16f4-4702-b44e-b1ddf4436b2b/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_6bbb6048-16f4-4702-b44e-b1ddf4436b2b/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_93a0f276-c4a4-45cc-9013-d4e522936ff1/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_93a0f276-c4a4-45cc-9013-d4e522936ff1/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_93a0f276-c4a4-45cc-9013-d4e522936ff1/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_9c2e87c5-4bc1-410b-83c5-c5543dc8ed98/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_9c2e87c5-4bc1-410b-83c5-c5543dc8ed98/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_9c2e87c5-4bc1-410b-83c5-c5543dc8ed98/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_da091c43-81a7-4bc1-9b37-328227c0f0c6/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_da091c43-81a7-4bc1-9b37-328227c0f0c6/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_da091c43-81a7-4bc1-9b37-328227c0f0c6/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/agent-dispatch/req_e057dc61-e4e4-402d-879d-c2998416719f/prompt.md",
+      "title": "Prompt",
+      "path": ".bifrost/agent-dispatch/req_e057dc61-e4e4-402d-879d-c2998416719f/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/agent-dispatch/req_e057dc61-e4e4-402d-879d-c2998416719f/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/governance-dispatch-packets/topic_040d9807-2efa-4f89-acce-ca05300bfc2a.md",
+      "title": "Topic 040d9807 2efa 4f89 Acce Ca05300bfc2a",
+      "path": ".bifrost/governance-dispatch-packets/topic_040d9807-2efa-4f89-acce-ca05300bfc2a.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/governance-dispatch-packets/topic_040d9807-2efa-4f89-acce-ca05300bfc2a.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/governance-dispatch-packets/topic_2fcf370c-d675-49e6-a606-5536ffeb536f.md",
+      "title": "Topic 2fcf370c D675 49e6 A606 5536ffeb536f",
+      "path": ".bifrost/governance-dispatch-packets/topic_2fcf370c-d675-49e6-a606-5536ffeb536f.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/governance-dispatch-packets/topic_2fcf370c-d675-49e6-a606-5536ffeb536f.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/governance-dispatch-packets/topic_95053275-0a5a-4b05-806e-671dc5cff4d1.md",
+      "title": "Topic 95053275 0a5a 4b05 806e 671dc5cff4d1",
+      "path": ".bifrost/governance-dispatch-packets/topic_95053275-0a5a-4b05-806e-671dc5cff4d1.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/governance-dispatch-packets/topic_95053275-0a5a-4b05-806e-671dc5cff4d1.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.bifrost/governance-dispatch-packets/topic_c0435074-5bcb-44ff-934e-88ad280371ab.md",
+      "title": "Topic C0435074 5bcb 44ff 934e 88ad280371ab",
+      "path": ".bifrost/governance-dispatch-packets/topic_c0435074-5bcb-44ff-934e-88ad280371ab.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.bifrost/governance-dispatch-packets/topic_c0435074-5bcb-44ff-934e-88ad280371ab.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/agent-transport.md",
+      "title": "Agent Transport",
+      "path": "docs/agent-transport.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/agent-transport.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/bifrost-mvp-plan.md",
+      "title": "Bifrost Mvp Plan",
+      "path": "docs/bifrost-mvp-plan.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/bifrost-mvp-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/bridge.md",
+      "title": "Bridge",
+      "path": "docs/bridge.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/bridge.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/context.md",
+      "title": "Context",
+      "path": "docs/context.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/context.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/full-implementation-strategy.md",
+      "title": "Full Implementation Strategy",
+      "path": "docs/full-implementation-strategy.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/full-implementation-strategy.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/jurisdiction-map.md",
+      "title": "Jurisdiction Map",
+      "path": "docs/jurisdiction-map.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/jurisdiction-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "title": "SKILL",
+      "path": "plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Bifrost:src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "title": "LICENSE",
+      "path": "src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "extension": "txt"
+    }
+  ]
+}

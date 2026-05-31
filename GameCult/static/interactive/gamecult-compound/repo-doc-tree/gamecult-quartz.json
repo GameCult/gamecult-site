@@ -1,0 +1,35 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "GameCult-Quartz",
+  "documentCount": 4,
+  "documents": [
+    {
+      "id": "GameCult-Quartz:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/GameCult-Quartz/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "GameCult-Quartz:CODE_OF_CONDUCT.md",
+      "title": "CODE OF CONDUCT",
+      "path": "CODE_OF_CONDUCT.md",
+      "href": "https://github.com/GameCult/GameCult-Quartz/blob/main/CODE_OF_CONDUCT.md",
+      "extension": "md"
+    },
+    {
+      "id": "GameCult-Quartz:LICENSE.txt",
+      "title": "LICENSE",
+      "path": "LICENSE.txt",
+      "href": "https://github.com/GameCult/GameCult-Quartz/blob/main/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "GameCult-Quartz:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/GameCult-Quartz/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

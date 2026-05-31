@@ -1,0 +1,28 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "aquasynth-rs",
+  "documentCount": 3,
+  "documents": [
+    {
+      "id": "aquasynth-rs:docs/faust-backend.md",
+      "title": "Faust Backend",
+      "path": "docs/faust-backend.md",
+      "href": "https://github.com/GameCult/aquasynth-rs/blob/main/docs/faust-backend.md",
+      "extension": "md"
+    },
+    {
+      "id": "aquasynth-rs:docs/split-notes.md",
+      "title": "Split Notes",
+      "path": "docs/split-notes.md",
+      "href": "https://github.com/GameCult/aquasynth-rs/blob/main/docs/split-notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "aquasynth-rs:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/aquasynth-rs/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

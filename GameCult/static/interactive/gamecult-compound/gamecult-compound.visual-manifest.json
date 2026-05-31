@@ -476,6 +476,19 @@
         "label": "Pitch Games",
         "target": "pitch_games",
         "weight": 0.62
+      },
+      {
+        "id": "repo_swarm",
+        "label": "Repo Docs",
+        "target": "repo_swarm",
+        "core": true,
+        "weight": 1.2
+      },
+      {
+        "id": "pitch_assets",
+        "label": "Pitch Assets",
+        "target": "pitch_intro",
+        "weight": 0.82
       }
     ],
     "edges": [
@@ -814,6 +827,38 @@
       {
         "source": "pitch",
         "target": "pitch_games"
+      },
+      {
+        "source": "hub",
+        "target": "repo_swarm"
+      },
+      {
+        "source": "norn",
+        "target": "repo_swarm"
+      },
+      {
+        "source": "sai",
+        "target": "repo_swarm"
+      },
+      {
+        "source": "voidbot",
+        "target": "repo_swarm"
+      },
+      {
+        "source": "repo_swarm",
+        "target": "pitch_assets"
+      },
+      {
+        "source": "repo_swarm",
+        "target": "pitch"
+      },
+      {
+        "source": "repo_swarm",
+        "target": "voidbot_retrieval_route"
+      },
+      {
+        "source": "repo_swarm",
+        "target": "sai_scene_surfaces"
       }
     ]
   },
@@ -1645,6 +1690,11 @@
       "title": "Portfolio Value Orbit",
       "selector": "#gamecult-vn-value-orbit",
       "role": "project orbit and shared substrate graphic"
+    },
+    "repo_doc_tree": {
+      "title": "Repository Swarm Docs",
+      "selector": "#gamecult-vn-repo-doc-tree",
+      "role": "generated tree of every local GameCult repository document and pitch-mode asset"
     }
   },
   "spaces": {

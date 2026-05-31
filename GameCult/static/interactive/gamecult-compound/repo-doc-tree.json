@@ -1,0 +1,472 @@
+{
+  "schema": "gamecult.vn.repoDocTree.v1",
+  "generatedAt": "2026-05-31T14:27:19.185Z",
+  "sourceRoot": "E:\\Projects",
+  "repoCount": 41,
+  "documentCount": 45067,
+  "repos": [
+    {
+      "name": "_vg_csg_history_full",
+      "documentCount": 3,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/vg-csg-history-full.json"
+    },
+    {
+      "name": "Aetheria",
+      "documentCount": 973,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/aetheria.json"
+    },
+    {
+      "name": "AetheriaLore",
+      "documentCount": 265,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/aetherialore.json"
+    },
+    {
+      "name": "Aquarium-Engine",
+      "documentCount": 51,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/aquarium-engine.json"
+    },
+    {
+      "name": "AquaSynth",
+      "documentCount": 1362,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/aquasynth.json"
+    },
+    {
+      "name": "aquasynth-rs",
+      "documentCount": 3,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/aquasynth-rs.json"
+    },
+    {
+      "name": "Bifrost",
+      "documentCount": 38,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/bifrost.json"
+    },
+    {
+      "name": "cultcache-py",
+      "documentCount": 1,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcache-py.json"
+    },
+    {
+      "name": "cultcache-rs",
+      "documentCount": 1,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcache-rs.json"
+    },
+    {
+      "name": "CultCacheTS",
+      "documentCount": 14,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcachets.json"
+    },
+    {
+      "name": "CultLib",
+      "documentCount": 631,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultlib.json"
+    },
+    {
+      "name": "CultMath",
+      "documentCount": 2,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultmath.json"
+    },
+    {
+      "name": "cultnet-rs",
+      "documentCount": 1,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultnet-rs.json"
+    },
+    {
+      "name": "CultNetTS",
+      "documentCount": 1,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultnetts.json"
+    },
+    {
+      "name": "EpiphanyAgent",
+      "documentCount": 28492,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyagent.json"
+    },
+    {
+      "name": "EpiphanyAgent-check-8a0c305",
+      "documentCount": 179,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyagent-check-8a0c305.json"
+    },
+    {
+      "name": "EpiphanyAquarium",
+      "documentCount": 21,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyaquarium.json"
+    },
+    {
+      "name": "EpiphanyAquarium-Bevy",
+      "documentCount": 15,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyaquarium-bevy.json"
+    },
+    {
+      "name": "EpiphanyAquarium-Web",
+      "documentCount": 11,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyaquarium-web.json"
+    },
+    {
+      "name": "Eusocial Interbeing",
+      "documentCount": 86,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/eusocial-interbeing.json"
+    },
+    {
+      "name": "Eve",
+      "documentCount": 17,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/eve.json"
+    },
+    {
+      "name": "Fensalir",
+      "documentCount": 72,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/fensalir.json"
+    },
+    {
+      "name": "gamecult-grav",
+      "documentCount": 26,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/gamecult-grav.json"
+    },
+    {
+      "name": "gamecult-ops",
+      "documentCount": 22,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/gamecult-ops.json"
+    },
+    {
+      "name": "GameCult-Quartz",
+      "documentCount": 4,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/gamecult-quartz.json"
+    },
+    {
+      "name": "gamecult-site",
+      "documentCount": 86,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/gamecult-site.json"
+    },
+    {
+      "name": "Ghostlight",
+      "documentCount": 59,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/ghostlight.json"
+    },
+    {
+      "name": "Heimdall",
+      "documentCount": 23,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/heimdall.json"
+    },
+    {
+      "name": "LunaMosaic",
+      "documentCount": 745,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/lunamosaic.json"
+    },
+    {
+      "name": "Luxidland",
+      "documentCount": 175,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/luxidland.json"
+    },
+    {
+      "name": "Mimir",
+      "documentCount": 214,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/mimir.json"
+    },
+    {
+      "name": "Norn",
+      "documentCount": 26,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/norn.json"
+    },
+    {
+      "name": "norn-rs",
+      "documentCount": 3,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/norn-rs.json"
+    },
+    {
+      "name": "Perlines",
+      "documentCount": 2,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/perlines.json"
+    },
+    {
+      "name": "repixelizer",
+      "documentCount": 63,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/repixelizer.json"
+    },
+    {
+      "name": "Sai",
+      "documentCount": 16,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/sai.json"
+    },
+    {
+      "name": "StreamPixels",
+      "documentCount": 29,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/streampixels.json"
+    },
+    {
+      "name": "vg-csg",
+      "documentCount": 4,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/vg-csg.json"
+    },
+    {
+      "name": "VibeGeometry",
+      "documentCount": 7,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/vibegeometry.json"
+    },
+    {
+      "name": "VoidBot",
+      "documentCount": 11274,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/voidbot.json"
+    },
+    {
+      "name": "weksa",
+      "documentCount": 50,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/weksa.json"
+    }
+  ],
+  "pitchAssets": {
+    "title": "Pitch Mode Assets",
+    "description": "Whitepaper, TeX dossier, SVG moonshot graphics, and Sai pitch routes that characters can pull in when they start selling their corner of the machine.",
+    "documents": [
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/00-void-thesis.tex",
+        "title": "00 Void Thesis",
+        "path": "docs/portfolio-dossier/chapters/00-void-thesis.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/00-void-thesis.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/01-eve-surface-web.tex",
+        "title": "01 Eve Surface Web",
+        "path": "docs/portfolio-dossier/chapters/01-eve-surface-web.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/01-eve-surface-web.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/02-bifrost-patronage.tex",
+        "title": "02 Bifrost Patronage",
+        "path": "docs/portfolio-dossier/chapters/02-bifrost-patronage.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/02-bifrost-patronage.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/03-projection-engine.tex",
+        "title": "03 Projection Engine",
+        "path": "docs/portfolio-dossier/chapters/03-projection-engine.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/03-projection-engine.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/03a-moonshot-graphics.tex",
+        "title": "03a Moonshot Graphics",
+        "path": "docs/portfolio-dossier/chapters/03a-moonshot-graphics.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/03a-moonshot-graphics.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/04-sai-homepage-pipeline.tex",
+        "title": "04 Sai Homepage Pipeline",
+        "path": "docs/portfolio-dossier/chapters/04-sai-homepage-pipeline.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/04-sai-homepage-pipeline.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/99-data-contract.tex",
+        "title": "99 Data Contract",
+        "path": "docs/portfolio-dossier/chapters/99-data-contract.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/99-data-contract.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/aetheria-zyphos.tex",
+        "title": "Aetheria Zyphos",
+        "path": "docs/portfolio-dossier/chapters/projects/aetheria-zyphos.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/aetheria-zyphos.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/aquasynth.tex",
+        "title": "Aquasynth",
+        "path": "docs/portfolio-dossier/chapters/projects/aquasynth.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/aquasynth.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/bifrost.tex",
+        "title": "Bifrost",
+        "path": "docs/portfolio-dossier/chapters/projects/bifrost.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/bifrost.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/cultmesh.tex",
+        "title": "Cultmesh",
+        "path": "docs/portfolio-dossier/chapters/projects/cultmesh.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/cultmesh.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/cultpong.tex",
+        "title": "Cultpong",
+        "path": "docs/portfolio-dossier/chapters/projects/cultpong.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/cultpong.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/epiphany-aquarium.tex",
+        "title": "Epiphany Aquarium",
+        "path": "docs/portfolio-dossier/chapters/projects/epiphany-aquarium.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/epiphany-aquarium.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/epiphany.tex",
+        "title": "Epiphany",
+        "path": "docs/portfolio-dossier/chapters/projects/epiphany.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/epiphany.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/eve.tex",
+        "title": "Eve",
+        "path": "docs/portfolio-dossier/chapters/projects/eve.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/eve.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/fensalir.tex",
+        "title": "Fensalir",
+        "path": "docs/portfolio-dossier/chapters/projects/fensalir.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/fensalir.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/ghostlight.tex",
+        "title": "Ghostlight",
+        "path": "docs/portfolio-dossier/chapters/projects/ghostlight.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/ghostlight.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/heimdall.tex",
+        "title": "Heimdall",
+        "path": "docs/portfolio-dossier/chapters/projects/heimdall.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/heimdall.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/mimir.tex",
+        "title": "Mimir",
+        "path": "docs/portfolio-dossier/chapters/projects/mimir.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/mimir.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/norn.tex",
+        "title": "Norn",
+        "path": "docs/portfolio-dossier/chapters/projects/norn.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/norn.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/repixelizer.tex",
+        "title": "Repixelizer",
+        "path": "docs/portfolio-dossier/chapters/projects/repixelizer.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/repixelizer.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/sai.tex",
+        "title": "Sai",
+        "path": "docs/portfolio-dossier/chapters/projects/sai.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/sai.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/streampixels.tex",
+        "title": "Streampixels",
+        "path": "docs/portfolio-dossier/chapters/projects/streampixels.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/streampixels.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/vibegeometry.tex",
+        "title": "Vibegeometry",
+        "path": "docs/portfolio-dossier/chapters/projects/vibegeometry.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/vibegeometry.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/voidbot.tex",
+        "title": "Voidbot",
+        "path": "docs/portfolio-dossier/chapters/projects/voidbot.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/voidbot.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/chapters/projects/weksa.tex",
+        "title": "Weksa",
+        "path": "docs/portfolio-dossier/chapters/projects/weksa.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/chapters/projects/weksa.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/figures/surface-web-stack.tex",
+        "title": "Surface Web Stack",
+        "path": "docs/portfolio-dossier/figures/surface-web-stack.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/figures/surface-web-stack.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/figures/value-furnace.tex",
+        "title": "Value Furnace",
+        "path": "docs/portfolio-dossier/figures/value-furnace.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/figures/value-furnace.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/main.tex",
+        "title": "Main",
+        "path": "docs/portfolio-dossier/main.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/main.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/preamble.tex",
+        "title": "Preamble",
+        "path": "docs/portfolio-dossier/preamble.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/preamble.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:docs/portfolio-dossier/project-index.tex",
+        "title": "Project Index",
+        "path": "docs/portfolio-dossier/project-index.tex",
+        "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/portfolio-dossier/project-index.tex",
+        "extension": "tex"
+      },
+      {
+        "id": "gamecult-site:GameCult/Pitch.md",
+        "title": "Pitch",
+        "path": "GameCult/Pitch.md",
+        "href": "/Pitch",
+        "extension": "md"
+      },
+      {
+        "id": "gamecult-site:GameCult/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg",
+        "title": "Moonshot Trajectory",
+        "path": "GameCult/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg",
+        "href": "/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg",
+        "extension": "svg"
+      },
+      {
+        "id": "gamecult-site:GameCult/static/interactive/portfolio-pitch/figures/patronage-furnace.svg",
+        "title": "Patronage Furnace",
+        "path": "GameCult/static/interactive/portfolio-pitch/figures/patronage-furnace.svg",
+        "href": "/static/interactive/portfolio-pitch/figures/patronage-furnace.svg",
+        "extension": "svg"
+      },
+      {
+        "id": "gamecult-site:GameCult/static/interactive/portfolio-pitch/figures/surface-web-stack.svg",
+        "title": "Surface Web Stack",
+        "path": "GameCult/static/interactive/portfolio-pitch/figures/surface-web-stack.svg",
+        "href": "/static/interactive/portfolio-pitch/figures/surface-web-stack.svg",
+        "extension": "svg"
+      },
+      {
+        "id": "gamecult-site:GameCult/static/interactive/portfolio-pitch/figures/value-orbit-map.svg",
+        "title": "Value Orbit Map",
+        "path": "GameCult/static/interactive/portfolio-pitch/figures/value-orbit-map.svg",
+        "href": "/static/interactive/portfolio-pitch/figures/value-orbit-map.svg",
+        "extension": "svg"
+      }
+    ]
+  }
+}

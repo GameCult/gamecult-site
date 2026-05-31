@@ -1,0 +1,14 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "CultNetTS",
+  "documentCount": 1,
+  "documents": [
+    {
+      "id": "CultNetTS:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/CultNetTS/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

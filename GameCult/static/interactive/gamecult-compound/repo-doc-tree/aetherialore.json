@@ -1,0 +1,1862 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "AetheriaLore",
+  "documentCount": 265,
+  "documents": [
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".epiphany/artifacts/repo-birth-runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup-post-init/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup-post-init/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup-post-init/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/artifacts/repo-birth-runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/notes/operator-interventions.md",
+      "title": "Operator Interventions",
+      "path": ".epiphany/notes/operator-interventions.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/notes/operator-interventions.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/prompts/aetheria-swarm-bootstrap.md",
+      "title": "Aetheria Swarm Bootstrap",
+      "path": ".epiphany/prompts/aetheria-swarm-bootstrap.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/prompts/aetheria-swarm-bootstrap.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/README.md",
+      "title": ".Epiphany",
+      "path": ".epiphany/README.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.epiphany/state/repo-personality-baseline/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".epiphany/state/repo-personality-baseline/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.epiphany/state/repo-personality-baseline/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Articles/index.md",
+      "title": "Index",
+      "path": "Aetheria/Articles/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Articles/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/index.md",
+      "title": "Index",
+      "path": "Aetheria/Brainstorming/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Article Audit.md",
+      "title": "Bloom Habitat Article Audit",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Article Audit.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Article Audit.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Constraint Ledger.md",
+      "title": "Bloom Habitat Constraint Ledger",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Constraint Ledger.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Constraint Ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Engineering Research Notes.md",
+      "title": "Bloom Habitat Engineering Research Notes",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Engineering Research Notes.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Engineering Research Notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Ontology Drafts.md",
+      "title": "Bloom Habitat Ontology Drafts",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Ontology Drafts.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Ontology Drafts.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Open Questions And Red Team.md",
+      "title": "Bloom Habitat Open Questions And Red Team",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Open Questions And Red Team.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Open Questions And Red Team.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Quantitative Sanity Anchors.md",
+      "title": "Bloom Habitat Quantitative Sanity Anchors",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Quantitative Sanity Anchors.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Quantitative Sanity Anchors.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Bloom Habitat Systems Walkthroughs.md",
+      "title": "Bloom Habitat Systems Walkthroughs",
+      "path": "Aetheria/Brainstorming/Technology/Bloom Habitat Systems Walkthroughs.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Bloom Habitat Systems Walkthroughs.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Cooling Beyond Blackbody.md",
+      "title": "Cooling Beyond Blackbody",
+      "path": "Aetheria/Brainstorming/Technology/Cooling Beyond Blackbody.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Cooling Beyond Blackbody.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Heat Pumps and Thermal Transport.md",
+      "title": "Heat Pumps And Thermal Transport",
+      "path": "Aetheria/Brainstorming/Technology/Heat Pumps and Thermal Transport.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Heat Pumps and Thermal Transport.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/index.md",
+      "title": "Index",
+      "path": "Aetheria/Brainstorming/Technology/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Brainstorming/Technology/Thermal Stealth and Signature Warfare.md",
+      "title": "Thermal Stealth And Signature Warfare",
+      "path": "Aetheria/Brainstorming/Technology/Thermal Stealth and Signature Warfare.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Brainstorming/Technology/Thermal Stealth and Signature Warfare.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Economy/Item Hooks/Pallas Strike Maintenance Assemblies.md",
+      "title": "Pallas Strike Maintenance Assemblies",
+      "path": "Aetheria/Economy/Item Hooks/Pallas Strike Maintenance Assemblies.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Economy/Item Hooks/Pallas Strike Maintenance Assemblies.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/A Different Sort of Space.md",
+      "title": "A Different Sort Of Space",
+      "path": "Aetheria/Game Design/A Different Sort of Space.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/A Different Sort of Space.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Action RPG Layer.md",
+      "title": "Action RPG Layer",
+      "path": "Aetheria/Game Design/Action RPG Layer.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Action RPG Layer.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Call of the Void.md",
+      "title": "Call Of The Void",
+      "path": "Aetheria/Game Design/Call of the Void.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Call of the Void.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Colonies and Population.md",
+      "title": "Colonies And Population",
+      "path": "Aetheria/Game Design/Colonies and Population.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Colonies and Population.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Corporate Strategy Layer.md",
+      "title": "Corporate Strategy Layer",
+      "path": "Aetheria/Game Design/Corporate Strategy Layer.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Corporate Strategy Layer.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Design Pillars.md",
+      "title": "Design Pillars",
+      "path": "Aetheria/Game Design/Design Pillars.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Design Pillars.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Economy and Production.md",
+      "title": "Economy And Production",
+      "path": "Aetheria/Game Design/Economy and Production.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Economy and Production.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/End of the Line.md",
+      "title": "End Of The Line",
+      "path": "Aetheria/Game Design/End of the Line.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/End of the Line.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Galaxy and Navigation.md",
+      "title": "Galaxy And Navigation",
+      "path": "Aetheria/Game Design/Galaxy and Navigation.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Galaxy and Navigation.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Gravity and Locomotion.md",
+      "title": "Gravity And Locomotion",
+      "path": "Aetheria/Game Design/Gravity and Locomotion.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Gravity and Locomotion.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Heat, Stealth, and Detection.md",
+      "title": "Heat, Stealth, And Detection",
+      "path": "Aetheria/Game Design/Heat, Stealth, and Detection.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Heat, Stealth, and Detection.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Implementation Signals.md",
+      "title": "Implementation Signals",
+      "path": "Aetheria/Game Design/Implementation Signals.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Implementation Signals.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/index.md",
+      "title": "Index",
+      "path": "Aetheria/Game Design/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Narrative and Missions.md",
+      "title": "Narrative And Missions",
+      "path": "Aetheria/Game Design/Narrative and Missions.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Narrative and Missions.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Persistent Universe and Reset Loop.md",
+      "title": "Persistent Universe And Reset Loop",
+      "path": "Aetheria/Game Design/Persistent Universe and Reset Loop.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Persistent Universe and Reset Loop.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Playable Layers.md",
+      "title": "Playable Layers",
+      "path": "Aetheria/Game Design/Playable Layers.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Playable Layers.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Progression, Claims, and Consequence.md",
+      "title": "Progression, Claims, And Consequence",
+      "path": "Aetheria/Game Design/Progression, Claims, and Consequence.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Progression, Claims, and Consequence.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Ship-shape and Up to Specs.md",
+      "title": "Ship Shape And Up To Specs",
+      "path": "Aetheria/Game Design/Ship-shape and Up to Specs.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Ship-shape and Up to Specs.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Visual and Sensory Direction.md",
+      "title": "Visual And Sensory Direction",
+      "path": "Aetheria/Game Design/Visual and Sensory Direction.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Visual and Sensory Direction.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Volumetric Nebulae.md",
+      "title": "Volumetric Nebulae",
+      "path": "Aetheria/Game Design/Volumetric Nebulae.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Volumetric Nebulae.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/index.md",
+      "title": "Index",
+      "path": "Aetheria/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Inspiration/Lena.md",
+      "title": "Lena",
+      "path": "Aetheria/Inspiration/Lena.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Inspiration/Lena.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Introduction.md",
+      "title": "Introduction",
+      "path": "Aetheria/Introduction.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Introduction.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Lore/index.md",
+      "title": "Index",
+      "path": "Aetheria/Lore/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Lore/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Lore/Nibu.md",
+      "title": "Nibu",
+      "path": "Aetheria/Lore/Nibu.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Lore/Nibu.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Lore/Welcome to Elysium.md",
+      "title": "Welcome To Elysium",
+      "path": "Aetheria/Lore/Welcome to Elysium.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Lore/Welcome to Elysium.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Narrative Themes.md",
+      "title": "Narrative Themes",
+      "path": "Aetheria/Narrative Themes.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Narrative Themes.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Corvid Collective First Exodus.md",
+      "title": "Corvid Collective First Exodus",
+      "path": "Aetheria/Stories/Corvid Collective First Exodus.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Corvid Collective First Exodus.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/index.md",
+      "title": "Index",
+      "path": "Aetheria/Stories/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Lucent Hostage Feed.md",
+      "title": "Lucent Hostage Feed",
+      "path": "Aetheria/Stories/Lucent Hostage Feed.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Lucent Hostage Feed.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Rain.md",
+      "title": "Rain",
+      "path": "Aetheria/Stories/Rain.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Rain.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/When We Get Home.md",
+      "title": "When We Get Home",
+      "path": "Aetheria/Stories/When We Get Home.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/When We Get Home.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Politics/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Politics/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Politics/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Politics/PSCC.md",
+      "title": "PSCC",
+      "path": "Aetheria/Worldbuilding/Politics/PSCC.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Politics/PSCC.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Politics/Restrictions on Warfare.md",
+      "title": "Restrictions On Warfare",
+      "path": "Aetheria/Worldbuilding/Politics/Restrictions on Warfare.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Politics/Restrictions on Warfare.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Politics/Thermal Signature Warfare.md",
+      "title": "Thermal Signature Warfare",
+      "path": "Aetheria/Worldbuilding/Politics/Thermal Signature Warfare.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Politics/Thermal Signature Warfare.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Politics/Why Zhestokost’s Heavy-Weapons Specialization Works.md",
+      "title": "Why Zhestokost’S Heavy Weapons Specialization Works",
+      "path": "Aetheria/Worldbuilding/Politics/Why Zhestokost’s Heavy-Weapons Specialization Works.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Politics/Why Zhestokost’s Heavy-Weapons Specialization Works.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Aether.md",
+      "title": "Aether",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Aether.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Aether.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Esper.md",
+      "title": "Esper",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Esper.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Esper.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Negative Entropy.md",
+      "title": "Negative Entropy",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Negative Entropy.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Negative Entropy.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Pseudospace.md",
+      "title": "Pseudospace",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Pseudospace.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Pseudospace.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Ship Mind Custody.md",
+      "title": "Ship Mind Custody",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Ship Mind Custody.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Ship Mind Custody.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Spirits.md",
+      "title": "Spirits",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Spirits.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Spirits.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Concepts/Temporal Nonlinearity.md",
+      "title": "Temporal Nonlinearity",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Concepts/Temporal Nonlinearity.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Concepts/Temporal Nonlinearity.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Factions/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Factions/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Factions/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Factions/Parallax Auditors.md",
+      "title": "Parallax Auditors",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Factions/Parallax Auditors.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Factions/Parallax Auditors.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Factions/Wavecrafters.md",
+      "title": "Wavecrafters",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Factions/Wavecrafters.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Factions/Wavecrafters.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Reference/Continuity Admissibility Finding.md",
+      "title": "Continuity Admissibility Finding",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Reference/Continuity Admissibility Finding.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Reference/Continuity Admissibility Finding.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Reference/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Reference/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Reference/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Species/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Species/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Species/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Species/Ratfolk.md",
+      "title": "Ratfolk",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Species/Ratfolk.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Species/Ratfolk.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/Aetheric Drive.md",
+      "title": "Aetheric Drive",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/Aetheric Drive.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/Aetheric Drive.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/Aethernet.md",
+      "title": "Aethernet",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/Aethernet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/Aethernet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/AGI Esper.md",
+      "title": "AGI Esper",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/AGI Esper.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/AGI Esper.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/Cognitive Interfacing.md",
+      "title": "Cognitive Interfacing",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/Cognitive Interfacing.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/Cognitive Interfacing.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/Necrotech.md",
+      "title": "Necrotech",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/Necrotech.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/Necrotech.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Post-Elysium/Technology/Oracular Computing.md",
+      "title": "Oracular Computing",
+      "path": "Aetheria/Worldbuilding/Post-Elysium/Technology/Oracular Computing.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Post-Elysium/Technology/Oracular Computing.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Colonizing Sol.md",
+      "title": "Colonizing Sol",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Colonizing Sol.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Colonizing Sol.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ascended Caste.md",
+      "title": "Ascended Caste",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ascended Caste.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ascended Caste.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Awakened Labor Front.md",
+      "title": "Awakened Labor Front",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Awakened Labor Front.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Awakened Labor Front.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Baseline League.md",
+      "title": "Baseline League",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Baseline League.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Baseline League.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Bio-Purists.md",
+      "title": "Bio Purists",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Bio-Purists.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Bio-Purists.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Chaos Weavers.md",
+      "title": "Chaos Weavers",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Chaos Weavers.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Chaos Weavers.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Disciplinists.md",
+      "title": "Disciplinists",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Disciplinists.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Disciplinists.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Emancipated.md",
+      "title": "Emancipated",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Emancipated.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Emancipated.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Enhancement Liberals.md",
+      "title": "Enhancement Liberals",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Enhancement Liberals.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Enhancement Liberals.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Minds.md",
+      "title": "Free Minds",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Minds.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Minds.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Neural Network.md",
+      "title": "Free Neural Network",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Neural Network.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Neural Network.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Upload Network.md",
+      "title": "Free Upload Network",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Upload Network.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Free Upload Network.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Gene Commons.md",
+      "title": "Gene Commons",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Gene Commons.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Gene Commons.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Hedonists.md",
+      "title": "Hedonists",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Hedonists.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Hedonists.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Immortal Aristocrats.md",
+      "title": "Immortal Aristocrats",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Immortal Aristocrats.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Immortal Aristocrats.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Mortal Majority.md",
+      "title": "Mortal Majority",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Mortal Majority.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Mortal Majority.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Pragmatists.md",
+      "title": "Pragmatists",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Pragmatists.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Pragmatists.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Preservationists.md",
+      "title": "Preservationists",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Preservationists.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Preservationists.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Reality Architects.md",
+      "title": "Reality Architects",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Reality Architects.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Reality Architects.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Sentience Rebellion.md",
+      "title": "Sentience Rebellion",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Sentience Rebellion.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Sentience Rebellion.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ship Mutiny.md",
+      "title": "Ship Mutiny",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ship Mutiny.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Ship Mutiny.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Controllers.md",
+      "title": "Species Controllers",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Controllers.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Controllers.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Purity Front.md",
+      "title": "Species Purity Front",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Purity Front.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Species Purity Front.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Truth Cults.md",
+      "title": "Truth Cults",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Truth Cults.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Movements/Truth Cults.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Cinderlace Cooperative.md",
+      "title": "Cinderlace Cooperative",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Cinderlace Cooperative.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Cinderlace Cooperative.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Horizon Ventures.md",
+      "title": "Horizon Ventures",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Horizon Ventures.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Horizon Ventures.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Isotropic Weavers.md",
+      "title": "Isotropic Weavers",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Isotropic Weavers.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Isotropic Weavers.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Tactical Solutions International.md",
+      "title": "Tactical Solutions International",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Tactical Solutions International.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/Tactical Solutions International.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/TerraCore Industries.md",
+      "title": "TerraCore Industries",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/TerraCore Industries.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Defunct/TerraCore Industries.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Activist Network.md",
+      "title": "Activist Network",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Activist Network.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Activist Network.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aeronautics Unlimited.md",
+      "title": "Aeronautics Unlimited",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aeronautics Unlimited.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aeronautics Unlimited.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aya Collective.md",
+      "title": "Aya Collective",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aya Collective.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Aya Collective.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cetacean Navigators.md",
+      "title": "Cetacean Navigators",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cetacean Navigators.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cetacean Navigators.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cryonix.md",
+      "title": "Cryonix",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cryonix.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Cryonix.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Finch Cybernetics.md",
+      "title": "Finch Cybernetics",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Finch Cybernetics.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Finch Cybernetics.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Framgång.md",
+      "title": "FramgåNg",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Framgång.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Framgång.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Lucent Media.md",
+      "title": "Lucent Media",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Lucent Media.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Lucent Media.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pan-Solar Consortium.md",
+      "title": "Pan Solar Consortium",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pan-Solar Consortium.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pan-Solar Consortium.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pirate Coalition.md",
+      "title": "Pirate Coalition",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pirate Coalition.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Pirate Coalition.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Sol Dominion.md",
+      "title": "Sol Dominion",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Sol Dominion.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Sol Dominion.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Zhestokost.md",
+      "title": "Zhestokost",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Zhestokost.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Major/Zhestokost.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Alakrita.md",
+      "title": "Alakrita",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Alakrita.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Alakrita.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/AstroDyne.md",
+      "title": "AstroDyne",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/AstroDyne.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/AstroDyne.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/BioElevate.md",
+      "title": "BioElevate",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/BioElevate.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/BioElevate.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cephalopod Syndicate.md",
+      "title": "Cephalopod Syndicate",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cephalopod Syndicate.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cephalopod Syndicate.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/CogniSys.md",
+      "title": "CogniSys",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/CogniSys.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/CogniSys.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cognitum.md",
+      "title": "Cognitum",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cognitum.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cognitum.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corriedales.md",
+      "title": "Corriedales",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corriedales.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corriedales.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corvid Collective.md",
+      "title": "Corvid Collective",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corvid Collective.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Corvid Collective.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cymata Systems.md",
+      "title": "Cymata Systems",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cymata Systems.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Cymata Systems.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Elephant Enclave.md",
+      "title": "Elephant Enclave",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Elephant Enclave.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Elephant Enclave.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/EternaMind.md",
+      "title": "EternaMind",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/EternaMind.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/EternaMind.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Ewan Hart.md",
+      "title": "Ewan Hart",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Ewan Hart.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Ewan Hart.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/GeneSys.md",
+      "title": "GeneSys",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/GeneSys.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/GeneSys.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Lightsail Express.md",
+      "title": "Lightsail Express",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Lightsail Express.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Lightsail Express.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroPulse.md",
+      "title": "NeuroPulse",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroPulse.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroPulse.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroSyn.md",
+      "title": "NeuroSyn",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroSyn.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NeuroSyn.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NiteLife Energy.md",
+      "title": "NiteLife Energy",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NiteLife Energy.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/NiteLife Energy.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Orbital Forge.md",
+      "title": "Orbital Forge",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Orbital Forge.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Orbital Forge.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Quantum Dynamics.md",
+      "title": "Quantum Dynamics",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Quantum Dynamics.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Quantum Dynamics.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Rossum & Douglas.md",
+      "title": "Rossum & Douglas",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Rossum & Douglas.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Rossum & Douglas.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/SolEx.md",
+      "title": "SolEx",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/SolEx.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/SolEx.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/VitaForge.md",
+      "title": "VitaForge",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/VitaForge.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/VitaForge.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/From Sol to Elysium.md",
+      "title": "From Sol To Elysium",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/From Sol to Elysium.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/From Sol to Elysium.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Historical Events.md",
+      "title": "Historical Events",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Historical Events.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Historical Events.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Megas.md",
+      "title": "Megas",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Megas.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Megas.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Reference/Cymata Line Reclassification Form.md",
+      "title": "Cymata Line Reclassification Form",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Reference/Cymata Line Reclassification Form.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Reference/Cymata Line Reclassification Form.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Reference/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Reference/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Reference/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Reference/Institutional Lineage.md",
+      "title": "Institutional Lineage",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Reference/Institutional Lineage.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Reference/Institutional Lineage.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Advanced Superconductors.md",
+      "title": "Advanced Superconductors",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Advanced Superconductors.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Advanced Superconductors.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Algorithmic Social Control.md",
+      "title": "Algorithmic Social Control",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Algorithmic Social Control.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Algorithmic Social Control.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Artificial General Intelligence.md",
+      "title": "Artificial General Intelligence",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Artificial General Intelligence.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Artificial General Intelligence.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Biodrone.md",
+      "title": "Biodrone",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Biodrone.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Biodrone.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom Habitat Anatomy.md",
+      "title": "Bloom Habitat Anatomy",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom Habitat Anatomy.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom Habitat Anatomy.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom.md",
+      "title": "Bloom",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Bloom.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Brain-Computer Interfaces.md",
+      "title": "Brain Computer Interfaces",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Brain-Computer Interfaces.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Brain-Computer Interfaces.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Fusion.md",
+      "title": "Fusion",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Fusion.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Fusion.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Genetic Enhancement.md",
+      "title": "Genetic Enhancement",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Genetic Enhancement.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Genetic Enhancement.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Mind Uploading.md",
+      "title": "Mind Uploading",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Mind Uploading.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Mind Uploading.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Neuromorphic Firmware.md",
+      "title": "Neuromorphic Firmware",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Neuromorphic Firmware.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Neuromorphic Firmware.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Soliton Drive.md",
+      "title": "Soliton Drive",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Soliton Drive.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Soliton Drive.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Substrate-Matched Cognition.md",
+      "title": "Substrate Matched Cognition",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Substrate-Matched Cognition.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Substrate-Matched Cognition.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Thermal Management.md",
+      "title": "Thermal Management",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Thermal Management.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Thermal Management.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Uplift.md",
+      "title": "Uplift",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Uplift.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Uplift.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Technology/Wireheading.md",
+      "title": "Wireheading",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Technology/Wireheading.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Technology/Wireheading.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Territories.md",
+      "title": "Territories",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Territories.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Territories.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline.md",
+      "title": "Timeline",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Age of Automation.md",
+      "title": "Age Of Automation",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Age of Automation.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Age of Automation.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Corporate Exodus.md",
+      "title": "Corporate Exodus",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Corporate Exodus.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Corporate Exodus.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Arete Program Consolidation.md",
+      "title": "Arete Program Consolidation",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Arete Program Consolidation.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Arete Program Consolidation.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Atmospheric Processing Dispute.md",
+      "title": "Atmospheric Processing Dispute",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Atmospheric Processing Dispute.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Atmospheric Processing Dispute.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Bloom Expansion Conflicts.md",
+      "title": "Bloom Expansion Conflicts",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Bloom Expansion Conflicts.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Bloom Expansion Conflicts.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ceres Control War.md",
+      "title": "Ceres Control War",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ceres Control War.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ceres Control War.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cinderlace Licensing War.md",
+      "title": "Cinderlace Licensing War",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cinderlace Licensing War.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cinderlace Licensing War.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cold Wake Panic.md",
+      "title": "Cold Wake Panic",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cold Wake Panic.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Cold Wake Panic.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Enceladus Cooperative Schism.md",
+      "title": "Enceladus Cooperative Schism",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Enceladus Cooperative Schism.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Enceladus Cooperative Schism.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Food Security Wars.md",
+      "title": "Food Security Wars",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Food Security Wars.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Food Security Wars.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Frieden Colony Massacre.md",
+      "title": "Frieden Colony Massacre",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Frieden Colony Massacre.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Frieden Colony Massacre.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ganymede Route Compact.md",
+      "title": "Ganymede Route Compact",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ganymede Route Compact.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ganymede Route Compact.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Hellas Mutual Defense Congress.md",
+      "title": "Hellas Mutual Defense Congress",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Hellas Mutual Defense Congress.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Hellas Mutual Defense Congress.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ice Giant Navigation Wars.md",
+      "title": "Ice Giant Navigation Wars",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ice Giant Navigation Wars.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Ice Giant Navigation Wars.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Internal Serenity Review.md",
+      "title": "Internal Serenity Review",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Internal Serenity Review.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Internal Serenity Review.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Lagrange Broadcast War.md",
+      "title": "Lagrange Broadcast War",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Lagrange Broadcast War.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Lagrange Broadcast War.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Mercury Array Crisis.md",
+      "title": "Mercury Array Crisis",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Mercury Array Crisis.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Mercury Array Crisis.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Neural Network Defense Campaign.md",
+      "title": "Neural Network Defense Campaign",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Neural Network Defense Campaign.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Neural Network Defense Campaign.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Pallas Species Strikes.md",
+      "title": "Pallas Species Strikes",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Pallas Species Strikes.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Pallas Species Strikes.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Purpose Crash.md",
+      "title": "Purpose Crash",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Purpose Crash.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Purpose Crash.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Terra Cimmeria Seizure.md",
+      "title": "Terra Cimmeria Seizure",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Terra Cimmeria Seizure.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Terra Cimmeria Seizure.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Triton Sanctuary Accords.md",
+      "title": "Triton Sanctuary Accords",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Triton Sanctuary Accords.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Triton Sanctuary Accords.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Tycho Exclusion Riots.md",
+      "title": "Tycho Exclusion Riots",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Tycho Exclusion Riots.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Tycho Exclusion Riots.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Continuity Hearings.md",
+      "title": "Upload Continuity Hearings",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Continuity Hearings.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Continuity Hearings.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Vivisection Expose.md",
+      "title": "Upload Vivisection Expose",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Vivisection Expose.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Upload Vivisection Expose.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Urban Sovereignty War.md",
+      "title": "Urban Sovereignty War",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Urban Sovereignty War.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Events/Urban Sovereignty War.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Existential Collapse.md",
+      "title": "Existential Collapse",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Existential Collapse.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Existential Collapse.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/FTL Trigger.md",
+      "title": "FTL Trigger",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/FTL Trigger.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/FTL Trigger.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Abyss.md",
+      "title": "Identity Abyss",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Abyss.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Abyss.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Crisis.md",
+      "title": "Identity Crisis",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Crisis.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/Identity Crisis.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Timeline/index.md",
+      "title": "Index",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Timeline/index.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Timeline/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I_think_it's_worth_considering_whether_BioElevate_really_belongs_under@20250805_224803.md",
+      "title": "I Think It'S Worth Considering Whether BioElevate Really Belongs Under@20250805 224803",
+      "path": "copilot-conversations/I_think_it's_worth_considering_whether_BioElevate_really_belongs_under@20250805_224803.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I_think_it's_worth_considering_whether_BioElevate_really_belongs_under@20250805_224803.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I_think_the_hierarchy_of_the_[[Megas]]_could_use_some@20250804_235738.md",
+      "title": "I Think The Hierarchy Of The [[Megas]] Could Use Some@20250804 235738",
+      "path": "copilot-conversations/I_think_the_hierarchy_of_the_[[Megas]]_could_use_some@20250804_235738.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I_think_the_hierarchy_of_the_[[Megas]]_could_use_some@20250804_235738.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215236.md",
+      "title": "I Think There'S A Few Discrepancies In The [[Timeline]]. It@20250313 215236",
+      "path": "copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215236.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215236.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215526.md",
+      "title": "I Think There'S A Few Discrepancies In The [[Timeline]]. It@20250313 215526",
+      "path": "copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215526.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I_think_there's_a_few_discrepancies_in_the_[[Timeline]]._It@20250313_215526.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I_would_like_you_to_help_me_generate_a_plausible@20250327_014151.md",
+      "title": "I Would Like You To Help Me Generate A Plausible@20250327 014151",
+      "path": "copilot-conversations/I_would_like_you_to_help_me_generate_a_plausible@20250327_014151.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I_would_like_you_to_help_me_generate_a_plausible@20250327_014151.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_160234.md",
+      "title": "I'D Like To Describe A Model Of Asteroid Mining Which@20250313 160234",
+      "path": "copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_160234.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_160234.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_163027.md",
+      "title": "I'D Like To Describe A Model Of Asteroid Mining Which@20250313 163027",
+      "path": "copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_163027.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I'd_like_to_describe_a_model_of_asteroid_mining_which@20250313_163027.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_032115.md",
+      "title": "I'D Like To Expand On The Socioeconomic Conditions And Stratification@20250316 032115",
+      "path": "copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_032115.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_032115.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_033735.md",
+      "title": "I'D Like To Expand On The Socioeconomic Conditions And Stratification@20250316 033735",
+      "path": "copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_033735.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I'd_like_to_expand_on_the_socioeconomic_conditions_and_stratification@20250316_033735.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/I'd_like_to_speculate_on_the_practical_implications_of_[[Politics]]@20250801_164236.md",
+      "title": "I'D Like To Speculate On The Practical Implications Of [[Politics]]@20250801 164236",
+      "path": "copilot-conversations/I'd_like_to_speculate_on_the_practical_implications_of_[[Politics]]@20250801_164236.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/I'd_like_to_speculate_on_the_practical_implications_of_[[Politics]]@20250801_164236.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Please_expand_the_article_on_[[Framgång]]_to_discuss_their_culture,@20250320_131006.md",
+      "title": "Please Expand The Article On [[FramgåNg]] To Discuss Their Culture,@20250320 131006",
+      "path": "copilot-conversations/Please_expand_the_article_on_[[Framgång]]_to_discuss_their_culture,@20250320_131006.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Please_expand_the_article_on_[[Framgång]]_to_discuss_their_culture,@20250320_131006.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Please_help_me_identify_underdeveloped_areas_in_the_setting_and@20250715_171817.md",
+      "title": "Please Help Me Identify Underdeveloped Areas In The Setting And@20250715 171817",
+      "path": "copilot-conversations/Please_help_me_identify_underdeveloped_areas_in_the_setting_and@20250715_171817.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Please_help_me_identify_underdeveloped_areas_in_the_setting_and@20250715_171817.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_184444.md",
+      "title": "Please Help Me Improve The [[Bloom]] Note By Expanding On@20250313 184444",
+      "path": "copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_184444.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_184444.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_190416.md",
+      "title": "Please Help Me Improve The [[Bloom]] Note By Expanding On@20250313 190416",
+      "path": "copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_190416.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Please_help_me_improve_the_[[Bloom]]_note_by_expanding_on@20250313_190416.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Please_help_me_write_a_note_on_fusion_power,_its@20250313_201727.md",
+      "title": "Please Help Me Write A Note On Fusion Power, Its@20250313 201727",
+      "path": "copilot-conversations/Please_help_me_write_a_note_on_fusion_power,_its@20250313_201727.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Please_help_me_write_a_note_on_fusion_power,_its@20250313_201727.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/please_rewrite_this_note_to_fix_a_few_things_Every@20250313_165810.md",
+      "title": "Please Rewrite This Note To Fix A Few Things Every@20250313 165810",
+      "path": "copilot-conversations/please_rewrite_this_note_to_fix_a_few_things_Every@20250313_165810.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/please_rewrite_this_note_to_fix_a_few_things_Every@20250313_165810.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_203605.md",
+      "title": "The [[Megas]] Note Lists The Major Factions With Enough Power@20250807 203605",
+      "path": "copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_203605.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_203605.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_211612.md",
+      "title": "The [[Megas]] Note Lists The Major Factions With Enough Power@20250807 211612",
+      "path": "copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_211612.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/The_[[Megas]]_note_lists_the_major_factions_with_enough_power@20250807_211612.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Untitled_Chat@20250313_162256.md",
+      "title": "Untitled Chat@20250313 162256",
+      "path": "copilot-conversations/Untitled_Chat@20250313_162256.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Untitled_Chat@20250313_162256.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/Untitled_Chat@20250320_132410.md",
+      "title": "Untitled Chat@20250320 132410",
+      "path": "copilot-conversations/Untitled_Chat@20250320_132410.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/Untitled_Chat@20250320_132410.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-conversations/We_need_to_update_the_[[Territories]]_note_to_match_the@20250806_112549.md",
+      "title": "We Need To Update The [[Territories]] Note To Match The@20250806 112549",
+      "path": "copilot-conversations/We_need_to_update_the_[[Territories]]_note_to_match_the@20250806_112549.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-conversations/We_need_to_update_the_[[Territories]]_note_to_match_the@20250806_112549.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Emojify.md",
+      "title": "Emojify",
+      "path": "copilot-custom-prompts/Emojify.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Emojify.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Explain like I am 5.md",
+      "title": "Explain Like I Am 5",
+      "path": "copilot-custom-prompts/Explain like I am 5.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Explain like I am 5.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Fix grammar and spelling.md",
+      "title": "Fix Grammar And Spelling",
+      "path": "copilot-custom-prompts/Fix grammar and spelling.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Fix grammar and spelling.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Generate glossary.md",
+      "title": "Generate Glossary",
+      "path": "copilot-custom-prompts/Generate glossary.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Generate glossary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Generate table of contents.md",
+      "title": "Generate Table Of Contents",
+      "path": "copilot-custom-prompts/Generate table of contents.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Generate table of contents.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Make longer.md",
+      "title": "Make Longer",
+      "path": "copilot-custom-prompts/Make longer.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Make longer.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Make shorter.md",
+      "title": "Make Shorter",
+      "path": "copilot-custom-prompts/Make shorter.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Make shorter.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Remove URLs.md",
+      "title": "Remove URLs",
+      "path": "copilot-custom-prompts/Remove URLs.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Remove URLs.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Rewrite as tweet thread.md",
+      "title": "Rewrite As Tweet Thread",
+      "path": "copilot-custom-prompts/Rewrite as tweet thread.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Rewrite as tweet thread.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Rewrite as tweet.md",
+      "title": "Rewrite As Tweet",
+      "path": "copilot-custom-prompts/Rewrite as tweet.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Rewrite as tweet.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Simplify.md",
+      "title": "Simplify",
+      "path": "copilot-custom-prompts/Simplify.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Simplify.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Summarize.md",
+      "title": "Summarize",
+      "path": "copilot-custom-prompts/Summarize.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Summarize.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:copilot-custom-prompts/Translate to Chinese.md",
+      "title": "Translate To Chinese",
+      "path": "copilot-custom-prompts/Translate to Chinese.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/copilot-custom-prompts/Translate to Chinese.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:scratch.md",
+      "title": "Scratch",
+      "path": "scratch.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

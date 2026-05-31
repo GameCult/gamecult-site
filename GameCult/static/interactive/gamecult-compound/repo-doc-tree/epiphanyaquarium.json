@@ -1,0 +1,154 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "EpiphanyAquarium",
+  "documentCount": 21,
+  "documents": [
+    {
+      "id": "EpiphanyAquarium:.epiphany-aquarium/precomputed_atmospheric_scattering/platform/windows/README.txt",
+      "title": "Windows",
+      "path": ".epiphany-aquarium/precomputed_atmospheric_scattering/platform/windows/README.txt",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/.epiphany-aquarium/precomputed_atmospheric_scattering/platform/windows/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "EpiphanyAquarium:.epiphany-aquarium/precomputed_atmospheric_scattering/README.md",
+      "title": "Precomputed Atmospheric Scattering",
+      "path": ".epiphany-aquarium/precomputed_atmospheric_scattering/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/.epiphany-aquarium/precomputed_atmospheric_scattering/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:.epiphany-aquarium/VolumetricLighting/README.md",
+      "title": "VolumetricLighting",
+      "path": ".epiphany-aquarium/VolumetricLighting/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/.epiphany-aquarium/VolumetricLighting/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:bevy-aquarium/README.md",
+      "title": "Bevy Aquarium",
+      "path": "bevy-aquarium/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/bevy-aquarium/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/aetheria-volumetric-fog-map.md",
+      "title": "Aetheria Volumetric Fog Map",
+      "path": "notes/aetheria-volumetric-fog-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/aetheria-volumetric-fog-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/aquarium-behavior-map.md",
+      "title": "Aquarium Behavior Map",
+      "path": "notes/aquarium-behavior-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/aquarium-behavior-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/aquarium-interface-doctrine.md",
+      "title": "Aquarium Interface Doctrine",
+      "path": "notes/aquarium-interface-doctrine.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/aquarium-interface-doctrine.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/aquarium-renderer-map.md",
+      "title": "Aquarium Renderer Map",
+      "path": "notes/aquarium-renderer-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/aquarium-renderer-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/bevy-debug-ui.md",
+      "title": "Bevy Debug Ui",
+      "path": "notes/bevy-debug-ui.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/bevy-debug-ui.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/bevy-migration-map.md",
+      "title": "Bevy Migration Map",
+      "path": "notes/bevy-migration-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/bevy-migration-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/bruneton-atmospheric-scattering-map.md",
+      "title": "Bruneton Atmospheric Scattering Map",
+      "path": "notes/bruneton-atmospheric-scattering-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/bruneton-atmospheric-scattering-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/epiphany-agent-api-tree-map.md",
+      "title": "Epiphany Agent Api Tree Map",
+      "path": "notes/epiphany-agent-api-tree-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/epiphany-agent-api-tree-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/repository-split-map.md",
+      "title": "Repository Split Map",
+      "path": "notes/repository-split-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/repository-split-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/rust-branch-retrospective.md",
+      "title": "Rust Branch Retrospective",
+      "path": "notes/rust-branch-retrospective.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/rust-branch-retrospective.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:notes/rust-vfx-research-map.md",
+      "title": "Rust Vfx Research Map",
+      "path": "notes/rust-vfx-research-map.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/notes/rust-vfx-research-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:state/medicine-loop-2026-05-07.md",
+      "title": "Medicine Loop 2026 05 07",
+      "path": "state/medicine-loop-2026-05-07.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/state/medicine-loop-2026-05-07.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/state/scratch.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:vendor/bevy_procedural_audio/CHANGELOG.md",
+      "title": "CHANGELOG",
+      "path": "vendor/bevy_procedural_audio/CHANGELOG.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/vendor/bevy_procedural_audio/CHANGELOG.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAquarium:vendor/bevy_procedural_audio/README.md",
+      "title": "Bevy Procedural Audio",
+      "path": "vendor/bevy_procedural_audio/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/vendor/bevy_procedural_audio/README.md",
+      "extension": "md"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Heimdall",
+  "documentCount": 23,
+  "documents": [
+    {
+      "id": "Heimdall:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/app-profiles/repixelizer.md",
+      "title": "Repixelizer",
+      "path": "docs/app-profiles/repixelizer.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/app-profiles/repixelizer.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/app-profiles/streampixels.md",
+      "title": "Streampixels",
+      "path": "docs/app-profiles/streampixels.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/app-profiles/streampixels.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "docs/implementation-plan.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/service-contract.md",
+      "title": "Service Contract",
+      "path": "docs/service-contract.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:state/scratch-compaction-d44a230f-4396-40bc-bade-8540321fc091.md",
+      "title": "Scratch Compaction D44a230f 4396 40bc Bade 8540321fc091",
+      "path": "state/scratch-compaction-d44a230f-4396-40bc-bade-8540321fc091.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/state/scratch-compaction-d44a230f-4396-40bc-bade-8540321fc091.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

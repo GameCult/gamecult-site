@@ -8,6 +8,7 @@ The authority split is:
 - The visual manifest owns the website-compound map: spaces, scenes, hosts, sprite assets, and DOM card bindings.
 - Ink owns guided conversation, pacing, and temporary visited-state.
 - Sai owns rendering: background, sprites, dialogue, choices, and DOM-card staging.
+- `scripts/generate-vn-repo-doc-tree.mjs` owns the generated repository documentation substrate. It scans local GameCult repos, writes the lightweight index at `GameCult/static/interactive/gamecult-compound/repo-doc-tree.json`, and shards per-repo document lists under `repo-doc-tree/` so the homepage does not fetch the whole archive before a visitor asks for it.
 
 Current first-ring spaces:
 
@@ -37,5 +38,6 @@ Current first-ring spaces:
 | Geometry Bench | visual tool | Void | geometry_bench | `/Projects/VibeGeometry` |
 | CultPong Arena | game | Nibu | arena | `/Projects/CultPong` |
 | CultCacheTS Inspection Desk | repo/tool | Huginn | inspection_desk | `/Projects/CultCacheTS/` |
+| Repository Swarm Docs | generated docs tree | Norn | graph_loom | `/static/interactive/gamecult-compound/repo-doc-tree.json` |
 
-The current Ink tour now exposes the first real swarm graph rather than only the first-ring doors. Norn is the map host, Sai explains the renderer, Eve explains shared surfaces, Epiphany/VoidBot/Mimir/Ghostlight cover the agent-memory and social-state cluster, Bifrost/Heimdall/Libby cover governance and substrate, and the world/tool routes cover Aetheria, Zyphos, Weksa, StreamPixels, AquaSynth, Repixelizer, VibeGeometry, and CultPong. The next coherent expansion is to generate more of these branches from the space map and portfolio ledger so every repo can carry a research-backed Persona walkthrough without losing the plain canonical links.
+The current Ink tour now exposes the first real swarm graph rather than only the first-ring doors. Norn is the map host, Sai explains the renderer, Eve explains shared surfaces, Epiphany/VoidBot/Mimir/Ghostlight cover the agent-memory and social-state cluster, Bifrost/Heimdall/Libby cover governance and substrate, and the world/tool routes cover Aetheria, Zyphos, Weksa, StreamPixels, AquaSynth, Repixelizer, VibeGeometry, and CultPong. The repository swarm room now hydrates a generated tree of every local GameCult documentation file, plus pitch-mode dossier and SVG assets, without making Ink or the visual manifest carry that archive by hand.

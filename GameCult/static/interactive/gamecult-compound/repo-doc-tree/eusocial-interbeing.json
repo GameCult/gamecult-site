@@ -1,0 +1,609 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Eusocial Interbeing",
+  "documentCount": 86,
+  "documents": [
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing.md",
+      "title": "Eusocial Interbeing",
+      "path": "Eusocial Interbeing.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Aquatic Colony Feeders/Choir Reefs.md",
+      "title": "Choir Reefs",
+      "path": "Eusocial Interbeing/Biosphere/Aquatic Colony Feeders/Choir Reefs.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Aquatic Colony Feeders/Choir Reefs.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Couriers and Pollinators/Threadwing Couriers.md",
+      "title": "Threadwing Couriers",
+      "path": "Eusocial Interbeing/Biosphere/Couriers and Pollinators/Threadwing Couriers.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Couriers and Pollinators/Threadwing Couriers.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Candle Fungal Roads.md",
+      "title": "Candle Fungal Roads",
+      "path": "Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Candle Fungal Roads.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Candle Fungal Roads.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Lattice Ants.md",
+      "title": "Lattice Ants",
+      "path": "Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Lattice Ants.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Decomposers and Recyclers/Lattice Ants.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Grazers and Browsers/Glassback Grazers.md",
+      "title": "Glassback Grazers",
+      "path": "Eusocial Interbeing/Biosphere/Grazers and Browsers/Glassback Grazers.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Grazers and Browsers/Glassback Grazers.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Biosphere/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Parasites and Symbionts/Burden Flowers.md",
+      "title": "Burden Flowers",
+      "path": "Eusocial Interbeing/Biosphere/Parasites and Symbionts/Burden Flowers.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Parasites and Symbionts/Burden Flowers.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Parasites and Symbionts/Mirror Amoebae.md",
+      "title": "Mirror Amoebae",
+      "path": "Eusocial Interbeing/Biosphere/Parasites and Symbionts/Mirror Amoebae.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Parasites and Symbionts/Mirror Amoebae.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Primary Producers/Prismwake Mats.md",
+      "title": "Prismwake Mats",
+      "path": "Eusocial Interbeing/Biosphere/Primary Producers/Prismwake Mats.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Primary Producers/Prismwake Mats.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Biosphere/Primary Producers/Umbros-Facing Lantern Trees.md",
+      "title": "Umbros Facing Lantern Trees",
+      "path": "Eusocial Interbeing/Biosphere/Primary Producers/Umbros-Facing Lantern Trees.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Biosphere/Primary Producers/Umbros-Facing Lantern Trees.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/Airawa Empire.md",
+      "title": "Airawa Empire",
+      "path": "Eusocial Interbeing/Civilizations/Airawa Empire.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/Airawa Empire.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/Disconnected Tree Networks.md",
+      "title": "Disconnected Tree Networks",
+      "path": "Eusocial Interbeing/Civilizations/Disconnected Tree Networks.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/Disconnected Tree Networks.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Civilizations/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/Pre-Imperial Airawa Tribes.md",
+      "title": "Pre Imperial Airawa Tribes",
+      "path": "Eusocial Interbeing/Civilizations/Pre-Imperial Airawa Tribes.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/Pre-Imperial Airawa Tribes.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/Sa'auei'a Family Units.md",
+      "title": "Sa'Auei'A Family Units",
+      "path": "Eusocial Interbeing/Civilizations/Sa'auei'a Family Units.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/Sa'auei'a Family Units.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Civilizations/Sa'auei'a Nomadic Civilization.md",
+      "title": "Sa'Auei'A Nomadic Civilization",
+      "path": "Eusocial Interbeing/Civilizations/Sa'auei'a Nomadic Civilization.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Civilizations/Sa'auei'a Nomadic Civilization.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Conflicts/Continental Contact War.md",
+      "title": "Continental Contact War",
+      "path": "Eusocial Interbeing/Conflicts/Continental Contact War.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Conflicts/Continental Contact War.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Conflicts/Imperial Discovery of the Sa'auei'a.md",
+      "title": "Imperial Discovery Of The Sa'Auei'A",
+      "path": "Eusocial Interbeing/Conflicts/Imperial Discovery of the Sa'auei'a.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Conflicts/Imperial Discovery of the Sa'auei'a.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Conflicts/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Conflicts/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Conflicts/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Conflicts/Resistance of the Disconnected Networks.md",
+      "title": "Resistance Of The Disconnected Networks",
+      "path": "Eusocial Interbeing/Conflicts/Resistance of the Disconnected Networks.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Conflicts/Resistance of the Disconnected Networks.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Conflicts/Xenophobic Memetic Campaign.md",
+      "title": "Xenophobic Memetic Campaign",
+      "path": "Eusocial Interbeing/Conflicts/Xenophobic Memetic Campaign.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Conflicts/Xenophobic Memetic Campaign.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Breeding Grounds.md",
+      "title": "Breeding Grounds",
+      "path": "Eusocial Interbeing/Ecology/Breeding Grounds.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Breeding Grounds.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Eusocial Inter-Species Dynamics.md",
+      "title": "Eusocial Inter Species Dynamics",
+      "path": "Eusocial Interbeing/Ecology/Eusocial Inter-Species Dynamics.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Eusocial Inter-Species Dynamics.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Fractal Eusocial Web.md",
+      "title": "Fractal Eusocial Web",
+      "path": "Eusocial Interbeing/Ecology/Fractal Eusocial Web.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Fractal Eusocial Web.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Gestation Webs.md",
+      "title": "Gestation Webs",
+      "path": "Eusocial Interbeing/Ecology/Gestation Webs.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Gestation Webs.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Ecology/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Mother Tree Networks.md",
+      "title": "Mother Tree Networks",
+      "path": "Eusocial Interbeing/Ecology/Mother Tree Networks.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Mother Tree Networks.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Mutable Memory Endosymbiosis.md",
+      "title": "Mutable Memory Endosymbiosis",
+      "path": "Eusocial Interbeing/Ecology/Mutable Memory Endosymbiosis.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Mutable Memory Endosymbiosis.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Nation Scale Interbeings.md",
+      "title": "Nation Scale Interbeings",
+      "path": "Eusocial Interbeing/Ecology/Nation Scale Interbeings.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Nation Scale Interbeings.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Reciprocal Ecologies.md",
+      "title": "Reciprocal Ecologies",
+      "path": "Eusocial Interbeing/Ecology/Reciprocal Ecologies.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Reciprocal Ecologies.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Ecology/Zyphos Biosphere Examples.md",
+      "title": "Zyphos Biosphere Examples",
+      "path": "Eusocial Interbeing/Ecology/Zyphos Biosphere Examples.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Ecology/Zyphos Biosphere Examples.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Game Design/Fractal NPC Simulation Plan.md",
+      "title": "Fractal NPC Simulation Plan",
+      "path": "Eusocial Interbeing/Game Design/Fractal NPC Simulation Plan.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Game Design/Fractal NPC Simulation Plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Game Design/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Game Design/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Game Design/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Avatar/Avatar - Living Network.md",
+      "title": "Avatar Living Network",
+      "path": "Eusocial Interbeing/Inspirations/Avatar/Avatar - Living Network.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Avatar/Avatar - Living Network.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Avatar/Avatar - Na'vi Position Rebuilt.md",
+      "title": "Avatar Na'Vi Position Rebuilt",
+      "path": "Eusocial Interbeing/Inspirations/Avatar/Avatar - Na'vi Position Rebuilt.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Avatar/Avatar - Na'vi Position Rebuilt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Avatar/Avatar - What This Setting Rejects.md",
+      "title": "Avatar What This Setting Rejects",
+      "path": "Eusocial Interbeing/Inspirations/Avatar/Avatar - What This Setting Rejects.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Avatar/Avatar - What This Setting Rejects.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Avatar/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Inspirations/Avatar/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Avatar/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Inspirations/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Semiosis/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Inspirations/Semiosis/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Semiosis/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Lessons for This Setting.md",
+      "title": "Semiosis Lessons For This Setting",
+      "path": "Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Lessons for This Setting.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Lessons for This Setting.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Plant Agency Reviews.md",
+      "title": "Semiosis Plant Agency Reviews",
+      "path": "Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Plant Agency Reviews.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Plant Agency Reviews.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Sue Burke Interviews.md",
+      "title": "Semiosis Sue Burke Interviews",
+      "path": "Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Sue Burke Interviews.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Semiosis/Semiosis - Sue Burke Interviews.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Inspirations/Turtledove Path Dependency.md",
+      "title": "Turtledove Path Dependency",
+      "path": "Eusocial Interbeing/Inspirations/Turtledove Path Dependency.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Inspirations/Turtledove Path Dependency.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Species/Airawa.md",
+      "title": "Airawa",
+      "path": "Eusocial Interbeing/Species/Airawa.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Species/Airawa.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Species/Ecological Memory Partners.md",
+      "title": "Ecological Memory Partners",
+      "path": "Eusocial Interbeing/Species/Ecological Memory Partners.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Species/Ecological Memory Partners.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Species/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Species/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Species/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Species/Mother Trees.md",
+      "title": "Mother Trees",
+      "path": "Eusocial Interbeing/Species/Mother Trees.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Species/Mother Trees.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Species/Sa'auei'a.md",
+      "title": "Sa'Auei'A",
+      "path": "Eusocial Interbeing/Species/Sa'auei'a.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Species/Sa'auei'a.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Technologies/Biological Memetic Engine.md",
+      "title": "Biological Memetic Engine",
+      "path": "Eusocial Interbeing/Technologies/Biological Memetic Engine.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Technologies/Biological Memetic Engine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Technologies/Imperial Biopunk Infrastructure.md",
+      "title": "Imperial Biopunk Infrastructure",
+      "path": "Eusocial Interbeing/Technologies/Imperial Biopunk Infrastructure.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Technologies/Imperial Biopunk Infrastructure.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Technologies/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Technologies/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Technologies/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Technologies/Path Dependency.md",
+      "title": "Path Dependency",
+      "path": "Eusocial Interbeing/Technologies/Path Dependency.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Technologies/Path Dependency.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Technologies/Sa'auei'a Mobile Technologies.md",
+      "title": "Sa'Auei'A Mobile Technologies",
+      "path": "Eusocial Interbeing/Technologies/Sa'auei'a Mobile Technologies.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Technologies/Sa'auei'a Mobile Technologies.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/Ecological Bargaining.md",
+      "title": "Ecological Bargaining",
+      "path": "Eusocial Interbeing/Themes/Ecological Bargaining.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/Ecological Bargaining.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/Eugenics and Managed Life.md",
+      "title": "Eugenics And Managed Life",
+      "path": "Eusocial Interbeing/Themes/Eugenics and Managed Life.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/Eugenics and Managed Life.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/Themes/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/Memory as Hostage.md",
+      "title": "Memory As Hostage",
+      "path": "Eusocial Interbeing/Themes/Memory as Hostage.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/Memory as Hostage.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/Nomadism Without Primitivism.md",
+      "title": "Nomadism Without Primitivism",
+      "path": "Eusocial Interbeing/Themes/Nomadism Without Primitivism.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/Nomadism Without Primitivism.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/Themes/Technological Path Dependency.md",
+      "title": "Technological Path Dependency",
+      "path": "Eusocial Interbeing/Themes/Technological Path Dependency.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/Themes/Technological Path Dependency.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/World/Airawa Home Continent.md",
+      "title": "Airawa Home Continent",
+      "path": "Eusocial Interbeing/World/Airawa Home Continent.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/World/Airawa Home Continent.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/World/index.md",
+      "title": "Index",
+      "path": "Eusocial Interbeing/World/index.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/World/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/World/Sa'auei'a Continent.md",
+      "title": "Sa'Auei'A Continent",
+      "path": "Eusocial Interbeing/World/Sa'auei'a Continent.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/World/Sa'auei'a Continent.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/World/Zyphos Simulation Brief.md",
+      "title": "Zyphos Simulation Brief",
+      "path": "Eusocial Interbeing/World/Zyphos Simulation Brief.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/World/Zyphos Simulation Brief.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:Eusocial Interbeing/World/Zyphos Umbros Binary System.md",
+      "title": "Zyphos Umbros Binary System",
+      "path": "Eusocial Interbeing/World/Zyphos Umbros Binary System.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/Eusocial Interbeing/World/Zyphos Umbros Binary System.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:notes/current-system-map.md",
+      "title": "Current System Map",
+      "path": "notes/current-system-map.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/notes/current-system-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:notes/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "notes/implementation-plan.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/notes/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:site/README.md",
+      "title": "Site",
+      "path": "site/README.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/site/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eusocial Interbeing:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Eusocial%20Interbeing/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

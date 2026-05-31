@@ -64,6 +64,8 @@ cssclasses:
   data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
 ></div>
 
+<script src="/static/interactive/gamecult-compound/repo-doc-tree.js" defer></script>
+
 <section class="gamecult-vn-source" aria-label="GameCult public wiki doors">
   <div id="gamecult-vn-studio" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>GameCult</h2>
@@ -363,5 +365,12 @@ cssclasses:
     <h2>Value Orbit Map</h2>
     <img src="/static/interactive/portfolio-pitch/figures/value-orbit-map.svg" alt="GameCult portfolio value orbit map" />
     <p>The portfolio becomes dangerous when projects orbit one shared governance, state, and interface substrate.</p>
+  </div>
+
+  <div id="gamecult-vn-repo-doc-tree" class="gamecult-vn-source-card gamecult-vn-doc-tree-card" data-sai-dom-source="true">
+    <div data-gamecult-doc-tree>
+      <h2>Repository Swarm Documentation</h2>
+      <p>Loading the generated repo documentation tree.</p>
+    </div>
   </div>
 </section>

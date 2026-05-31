@@ -1,0 +1,1505 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Mimir",
+  "documentCount": 214,
+  "documents": [
+    {
+      "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-memory/prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/repo-memory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/repo-personality/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-personality/prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/repo-personality/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "title": "Prompt",
+      "path": ".voidbot/birth/runner/repo-trajectory/prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/repo-trajectory/prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "title": "Repo Initialization Startup Summary",
+      "path": ".voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-initialization-startup-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "title": "Repo Memory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "title": "Repo Memory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-memory/repo-memory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "title": "Repo Personality Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "title": "Repo Personality Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-personality/repo-personality-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "title": "Repo Trajectory Distiller Packet",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-packet.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "title": "Repo Trajectory Distiller Prompt",
+      "path": ".voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/runner/startup/repo-trajectory/repo-trajectory-distiller-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "title": "Legacy",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "title": "Preview",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "title": "AUTHORS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "title": "CREDITS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "title": "AUTHORS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "title": "PATENTS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "title": "Legacy",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/legacy/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "title": "Preview",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/include/vpl/preview/README.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/amf/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "title": "AUTHORS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/AUTHORS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/aom/libwebm/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "title": "CREDITS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/CREDITS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/detours/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/freetype/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libdatachannel/usrsctp/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libpng/pngminus/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "title": "AUTHORS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/AUTHORS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/libvpx/libwebm/LICENSE.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/python/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "title": "PATENTS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/svt-av1/PATENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vpl/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/vulkansdk/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x64/licenses/wil/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/CREDITS.TXT",
+      "title": "CREDITS",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/CREDITS.TXT",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/CREDITS.TXT",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/LICENSE.md",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/LICENSE.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/detours/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/vulkansdk/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/vulkansdk/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/.deps/obs-deps-2025-07-11-x86/licenses/vulkansdk/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/build-aux/README.md",
+      "title": "Build Aux",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/build-aux/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/build-aux/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/COC.rst",
+      "title": "COC",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/COC.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/COC.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/CONTRIBUTING.rst",
+      "title": "CONTRIBUTING",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/CONTRIBUTING.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/CONTRIBUTING.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/json11/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/json11/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/json11/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/LICENSE.txt",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/README.md",
+      "title": "Libcaption",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/deps/libcaption/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/backend-design.rst",
+      "title": "Backend Design",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/backend-design.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/backend-design.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/frontends.rst",
+      "title": "Frontends",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/frontends.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/frontends.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/graphics.rst",
+      "title": "Graphics",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/graphics.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/graphics.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/index.rst",
+      "title": "Index",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/index.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/index.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/plugins.rst",
+      "title": "Plugins",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/plugins.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/plugins.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-canvases.rst",
+      "title": "Reference Canvases",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-canvases.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-canvases.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core-objects.rst",
+      "title": "Reference Core Objects",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core-objects.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core-objects.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core.rst",
+      "title": "Reference Core",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-core.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-encoders.rst",
+      "title": "Reference Encoders",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-encoders.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-encoders.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-frontend-api.rst",
+      "title": "Reference Frontend Api",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-frontend-api.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-frontend-api.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-callback.rst",
+      "title": "Reference Libobs Callback",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-callback.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-callback.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-axisang.rst",
+      "title": "Reference Libobs Graphics Axisang",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-axisang.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-axisang.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-effects.rst",
+      "title": "Reference Libobs Graphics Effects",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-effects.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-effects.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-graphics.rst",
+      "title": "Reference Libobs Graphics Graphics",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-graphics.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-graphics.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-image-file.rst",
+      "title": "Reference Libobs Graphics Image File",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-image-file.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-image-file.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-math.rst",
+      "title": "Reference Libobs Graphics Math",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-math.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-math.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-matrix4.rst",
+      "title": "Reference Libobs Graphics Matrix4",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-matrix4.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-matrix4.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-quat.rst",
+      "title": "Reference Libobs Graphics Quat",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-quat.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-quat.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec2.rst",
+      "title": "Reference Libobs Graphics Vec2",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec2.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec2.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec3.rst",
+      "title": "Reference Libobs Graphics Vec3",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec3.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec3.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec4.rst",
+      "title": "Reference Libobs Graphics Vec4",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec4.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics-vec4.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics.rst",
+      "title": "Reference Libobs Graphics",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-graphics.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-media-io.rst",
+      "title": "Reference Libobs Media Io",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-media-io.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-media-io.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-base.rst",
+      "title": "Reference Libobs Util Base",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-base.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-base.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-bmem.rst",
+      "title": "Reference Libobs Util Bmem",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-bmem.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-bmem.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-circlebuf.rst",
+      "title": "Reference Libobs Util Circlebuf",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-circlebuf.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-circlebuf.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-config-file.rst",
+      "title": "Reference Libobs Util Config File",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-config-file.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-config-file.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-darray.rst",
+      "title": "Reference Libobs Util Darray",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-darray.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-darray.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-deque.rst",
+      "title": "Reference Libobs Util Deque",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-deque.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-deque.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-dstr.rst",
+      "title": "Reference Libobs Util Dstr",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-dstr.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-dstr.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-platform.rst",
+      "title": "Reference Libobs Util Platform",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-platform.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-platform.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-profiler.rst",
+      "title": "Reference Libobs Util Profiler",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-profiler.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-profiler.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-serializers.rst",
+      "title": "Reference Libobs Util Serializers",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-serializers.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-serializers.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-source-profiler.rst",
+      "title": "Reference Libobs Util Source Profiler",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-source-profiler.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-source-profiler.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-text-lookup.rst",
+      "title": "Reference Libobs Util Text Lookup",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-text-lookup.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-text-lookup.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-threading.rst",
+      "title": "Reference Libobs Util Threading",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-threading.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util-threading.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util.rst",
+      "title": "Reference Libobs Util",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-libobs-util.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-modules.rst",
+      "title": "Reference Modules",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-modules.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-modules.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-outputs.rst",
+      "title": "Reference Outputs",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-outputs.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-outputs.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-properties.rst",
+      "title": "Reference Properties",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-properties.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-properties.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-scenes.rst",
+      "title": "Reference Scenes",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-scenes.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-scenes.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-services.rst",
+      "title": "Reference Services",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-services.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-services.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-settings.rst",
+      "title": "Reference Settings",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-settings.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-settings.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-sources.rst",
+      "title": "Reference Sources",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-sources.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/reference-sources.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/scripting.rst",
+      "title": "Scripting",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/scripting.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/docs/sphinx/scripting.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/plugins/aja/README.md",
+      "title": "Aja",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/plugins/aja/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/plugins/aja/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/README.rst",
+      "title": "Obs Studio 31.1.1",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/README.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/.deps/obs-studio-31.1.1/README.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:artifacts/obs-sdk/obs-plugintemplate/README.md",
+      "title": "Obs Plugintemplate",
+      "path": "artifacts/obs-sdk/obs-plugintemplate/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/obs-sdk/obs-plugintemplate/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/runtime/SE-Natural-Bloom-Dirty-Lens/README.md",
+      "title": "SE Natural Bloom Dirty Lens",
+      "path": "artifacts/runtime/SE-Natural-Bloom-Dirty-Lens/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/runtime/SE-Natural-Bloom-Dirty-Lens/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:assets/branding/mimir-face-prompts.md",
+      "title": "Mimir Face Prompts",
+      "path": "assets/branding/mimir-face-prompts.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/assets/branding/mimir-face-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:assets/branding/mimir-icon-prompts.md",
+      "title": "Mimir Icon Prompts",
+      "path": "assets/branding/mimir-icon-prompts.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/assets/branding/mimir-icon-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "title": "Complex Contour Live 20260525 063229",
+      "path": "calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "title": "Complex Contour Live 20260528 002313",
+      "path": "calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "title": "Complex Contour Live 20260528 080604",
+      "path": "calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "title": "Complex Contour Live 20260528 080727",
+      "path": "calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "title": "Complex Contour Monitor Split 20260528 081813",
+      "path": "calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/audio-field.md",
+      "title": "Audio Field",
+      "path": "docs/audio-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/audio-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/bioacoustic-timeline-watermark.md",
+      "title": "Bioacoustic Timeline Watermark",
+      "path": "docs/bioacoustic-timeline-watermark.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/bioacoustic-timeline-watermark.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/bioacoustic-training-harness.md",
+      "title": "Bioacoustic Training Harness",
+      "path": "docs/bioacoustic-training-harness.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/bioacoustic-training-harness.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/calibration.md",
+      "title": "Calibration",
+      "path": "docs/calibration.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/calibration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/code-algorithm-map.md",
+      "title": "Code Algorithm Map",
+      "path": "docs/code-algorithm-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/code-algorithm-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/eve-dashboard.md",
+      "title": "Eve Dashboard",
+      "path": "docs/eve-dashboard.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/eve-dashboard.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/eve-program-output.md",
+      "title": "Eve Program Output",
+      "path": "docs/eve-program-output.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/eve-program-output.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/fensalir-rendering-rebuild-migration.md",
+      "title": "Fensalir Rendering Rebuild Migration",
+      "path": "docs/fensalir-rendering-rebuild-migration.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-rendering-rebuild-migration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/fensalir-spatial-audio.md",
+      "title": "Fensalir Spatial Audio",
+      "path": "docs/fensalir-spatial-audio.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-spatial-audio.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "docs/implementation-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/mimir-face.md",
+      "title": "Mimir Face",
+      "path": "docs/mimir-face.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/mimir-face.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/native-capture-cadence.md",
+      "title": "Native Capture Cadence",
+      "path": "docs/native-capture-cadence.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/native-capture-cadence.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/native-rebuild-plan.md",
+      "title": "Native Rebuild Plan",
+      "path": "docs/native-rebuild-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/native-rebuild-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/neighbor-sender-setup.md",
+      "title": "Neighbor Sender Setup",
+      "path": "docs/neighbor-sender-setup.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/neighbor-sender-setup.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/network-display-sync.md",
+      "title": "Network Display Sync",
+      "path": "docs/network-display-sync.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/network-display-sync.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/obs-receiver-setup.md",
+      "title": "Obs Receiver Setup",
+      "path": "docs/obs-receiver-setup.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-receiver-setup.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/obs-spout-streaming.md",
+      "title": "Obs Spout Streaming",
+      "path": "docs/obs-spout-streaming.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-spout-streaming.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/obs-stem-plugin.md",
+      "title": "Obs Stem Plugin",
+      "path": "docs/obs-stem-plugin.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-stem-plugin.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/obs-v1-smoke-test.md",
+      "title": "Obs V1 Smoke Test",
+      "path": "docs/obs-v1-smoke-test.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-v1-smoke-test.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/perfect-machine-domain-index.md",
+      "title": "Perfect Machine Domain Index",
+      "path": "docs/perfect-machine-domain-index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/perfect-machine-domain-index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/perfect-machine-full-field.md",
+      "title": "Perfect Machine Full Field",
+      "path": "docs/perfect-machine-full-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/perfect-machine-full-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/perfect-machine-module-library.md",
+      "title": "Perfect Machine Module Library",
+      "path": "docs/perfect-machine-module-library.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/perfect-machine-module-library.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/perfect-machine.md",
+      "title": "Perfect Machine",
+      "path": "docs/perfect-machine.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/perfect-machine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/program-control-surface.md",
+      "title": "Program Control Surface",
+      "path": "docs/program-control-surface.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/program-control-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/raven-eve-ingest.md",
+      "title": "Raven Eve Ingest",
+      "path": "docs/raven-eve-ingest.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/raven-eve-ingest.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/scene-editor-control-surface.md",
+      "title": "Scene Editor Control Surface",
+      "path": "docs/scene-editor-control-surface.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/scene-editor-control-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/self-hosted-live-edge.md",
+      "title": "Self Hosted Live Edge",
+      "path": "docs/self-hosted-live-edge.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/self-hosted-live-edge.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/sensor-fusion-architecture.md",
+      "title": "Sensor Fusion Architecture",
+      "path": "docs/sensor-fusion-architecture.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/sensor-fusion-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/typed-visual-state.md",
+      "title": "Typed Visual State",
+      "path": "docs/typed-visual-state.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/typed-visual-state.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/viable-stream-app.md",
+      "title": "Viable Stream App",
+      "path": "docs/viable-stream-app.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/viable-stream-app.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:index.md",
+      "title": "Index",
+      "path": "index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:Mimir Vault.md",
+      "title": "Mimir Vault",
+      "path": "Mimir Vault.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/Mimir Vault.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:native/README.md",
+      "title": "Native",
+      "path": "native/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/native/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:notes/current-system-map.md",
+      "title": "Current System Map",
+      "path": "notes/current-system-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/notes/current-system-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/ambisonic-aquasynth/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/ambisonic-aquasynth/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/ambisonic-aquasynth/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/ambisonic-aquasynth/summary.md",
+      "title": "Summary",
+      "path": "research/ambisonic-aquasynth/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/ambisonic-aquasynth/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/bioacoustic-contestants-2026-05-24.md",
+      "title": "Bioacoustic Contestants 2026 05 24",
+      "path": "research/bioacoustic-contestants-2026-05-24.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/bioacoustic-contestants-2026-05-24.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/chirplet-sync-decoder/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/chirplet-sync-decoder/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/chirplet-sync-decoder/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "title": "Mpact Readme",
+      "path": "research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/chirplet-sync-decoder/summary.md",
+      "title": "Summary",
+      "path": "research/chirplet-sync-decoder/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/chirplet-sync-decoder/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "title": "D3d12 Stereo Depth Provenance 2026 05 29",
+      "path": "research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/feedback-calibration/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/feedback-calibration/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/feedback-calibration/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/feedback-calibration/summary.md",
+      "title": "Summary",
+      "path": "research/feedback-calibration/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/feedback-calibration/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/gpu-fusion-splatting/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/gpu-fusion-splatting/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/gpu-fusion-splatting/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "title": "Graphdeco Gaussian Splatting Readme",
+      "path": "research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/gpu-fusion-splatting/summary.md",
+      "title": "Summary",
+      "path": "research/gpu-fusion-splatting/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/gpu-fusion-splatting/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/live-adaptive-sync/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/live-adaptive-sync/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/live-adaptive-sync/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/live-adaptive-sync/summary.md",
+      "title": "Summary",
+      "path": "research/live-adaptive-sync/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/live-adaptive-sync/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-hypotheses/summary.md",
+      "title": "Summary",
+      "path": "research/perfect-machine-hypotheses/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-hypotheses/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "title": "Acoustic Field Models",
+      "path": "research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "title": "Architecture Rumination",
+      "path": "research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "title": "Benchmark Plan",
+      "path": "research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "title": "Calibration Session Spec",
+      "path": "research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "title": "Chirplet Transform Deep Dive",
+      "path": "research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "title": "Current Hotspot Audit",
+      "path": "research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "title": "Data Dictionary",
+      "path": "research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "title": "Decoder Architecture Options",
+      "path": "research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "title": "Distributed Receiver Spec",
+      "path": "research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "title": "Failure Mode Ledger",
+      "path": "research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "title": "Fensalir Integration Map",
+      "path": "research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/glossary.md",
+      "title": "Glossary",
+      "path": "research/perfect-machine-study-2026-05-23/glossary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/glossary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "title": "Hot Path Pseudocode",
+      "path": "research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "title": "Implementation Roadmap",
+      "path": "research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/index.md",
+      "title": "Index",
+      "path": "research/perfect-machine-study-2026-05-23/index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "title": "Low Level Implementation Notes",
+      "path": "research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "title": "Microsecond Sync Math",
+      "path": "research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "title": "Native Boundary Map",
+      "path": "research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "title": "Open Implementation Catalog",
+      "path": "research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "title": "Optimization Ledger",
+      "path": "research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "title": "Option Matrix",
+      "path": "research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "title": "Prior Research Synthesis",
+      "path": "research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "title": "Questions And Hypotheses",
+      "path": "research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "title": "Reading Guide",
+      "path": "research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/references.md",
+      "title": "References",
+      "path": "research/perfect-machine-study-2026-05-23/references.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/references.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "title": "Research Claims Digest",
+      "path": "research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/samples/README.md",
+      "title": "Samples",
+      "path": "research/perfect-machine-study-2026-05-23/samples/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/samples/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "title": "State Machine Invariants",
+      "path": "research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "title": "Visual Fusion 4dgs Study",
+      "path": "research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "title": "Volumetric Audio Field",
+      "path": "research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/playback-calibration/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/playback-calibration/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/playback-calibration/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/playback-calibration/summary.md",
+      "title": "Summary",
+      "path": "research/playback-calibration/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/playback-calibration/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/README.md",
+      "title": "Research",
+      "path": "research/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "title": "Sonar Dsp Recursive Refinement 2026 05 25",
+      "path": "research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "title": "Liquid Dsp Readme",
+      "path": "research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "title": "Open Echo Readme",
+      "path": "research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "title": "Pyapril Readme",
+      "path": "research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "title": "Sources",
+      "path": "research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/spout-obs-bridge/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/spout-obs-bridge/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/spout-obs-bridge/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/spout-obs-bridge/summary.md",
+      "title": "Summary",
+      "path": "research/spout-obs-bridge/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/spout-obs-bridge/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/visual-spatial-map/bibliography.md",
+      "title": "Bibliography",
+      "path": "research/visual-spatial-map/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "title": "Brushstroke Fusion Rendering",
+      "path": "research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "title": "Inspirit Ps3eyedriver Readme",
+      "path": "research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "title": "Leapuvc Readme",
+      "path": "research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:research/visual-spatial-map/summary.md",
+      "title": "Summary",
+      "path": "research/visual-spatial-map/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:site/README.md",
+      "title": "Site",
+      "path": "site/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/site/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:state/scratch.md",
+      "title": "Scratch",
+      "path": "state/scratch.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/state/scratch.md",
+      "extension": "md"
+    }
+  ]
+}

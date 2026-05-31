@@ -1285,6 +1285,88 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   background: rgba(5, 8, 13, 0.72);
 }
 
+.gamecult-vn-doc-tree-card {
+  grid-column: 1 / -1;
+}
+
+.gamecult-doc-tree-header p,
+.gamecult-doc-tree-pitch p {
+  color: rgba(226, 238, 252, 0.84);
+}
+
+.gamecult-doc-tree-pitch {
+  margin: 0.85rem 0;
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 198, 120, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 198, 120, 0.06);
+}
+
+.gamecult-doc-tree-pitch h3 {
+  margin: 0 0 0.35rem;
+  color: rgba(255, 198, 120, 0.96);
+  font-family: var(--titleFont);
+  font-size: 0.96rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.gamecult-doc-tree-repos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 0.45rem;
+  max-height: min(58vh, 34rem);
+  overflow: auto;
+  padding-right: 0.25rem;
+}
+
+.gamecult-doc-tree-repo {
+  border: 1px solid rgba(89, 183, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(3, 6, 10, 0.34);
+}
+
+.gamecult-doc-tree-repo summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.52rem 0.62rem;
+  cursor: pointer;
+}
+
+.gamecult-doc-tree-count,
+.gamecult-doc-tree-path,
+.gamecult-doc-tree-overflow {
+  color: rgba(226, 238, 252, 0.62);
+  font-size: 0.78rem;
+}
+
+.gamecult-doc-tree-list {
+  display: grid;
+  gap: 0.32rem;
+  margin: 0;
+  padding: 0 0.62rem 0.62rem;
+  list-style: none;
+}
+
+.gamecult-doc-tree-list li {
+  display: grid;
+  gap: 0.08rem;
+  min-width: 0;
+}
+
+.gamecult-doc-tree-list a {
+  overflow-wrap: anywhere;
+}
+
+.gamecult-doc-tree-path {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 body[data-slug="index"] .gamecult-composite-sections {
   margin-top: 1rem;
 }

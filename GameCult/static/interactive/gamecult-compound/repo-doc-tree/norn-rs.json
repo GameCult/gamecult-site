@@ -1,0 +1,28 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "norn-rs",
+  "documentCount": 3,
+  "documents": [
+    {
+      "id": "norn-rs:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/norn-rs/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "norn-rs:RESEARCH.md",
+      "title": "RESEARCH",
+      "path": "RESEARCH.md",
+      "href": "https://github.com/GameCult/norn-rs/blob/main/RESEARCH.md",
+      "extension": "md"
+    },
+    {
+      "id": "norn-rs:TUNING_DOCTRINE.md",
+      "title": "TUNING DOCTRINE",
+      "path": "TUNING_DOCTRINE.md",
+      "href": "https://github.com/GameCult/norn-rs/blob/main/TUNING_DOCTRINE.md",
+      "extension": "md"
+    }
+  ]
+}

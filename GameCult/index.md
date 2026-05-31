@@ -24,6 +24,8 @@ sidebarGroups:
         slug: Docs/Bifrost
       - label: Portfolio Pitch
         slug: Pitch
+      - label: Portfolio Dossier
+        slug: Portfolio-Dossier
   - title: Projects
     links:
       - label: Aetheria

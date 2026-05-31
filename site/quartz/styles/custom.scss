@@ -1845,3 +1845,215 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
     min-height: 520px;
   }
 }
+
+.portfolio-dossier-page {
+  --dossier-panel: rgba(8, 13, 21, 0.9);
+  --dossier-panel-strong: rgba(11, 17, 26, 0.96);
+  --dossier-border: rgba(89, 183, 255, 0.18);
+  --dossier-orange: #ff8a2a;
+  --dossier-blue: #59b7ff;
+
+  article {
+    font-family: "Ubuntu", var(--bodyFont), sans-serif;
+    font-weight: 300;
+  }
+
+  article h1,
+  article h2,
+  article h3,
+  article h4 {
+    font-family: "Montserrat", var(--headerFont), sans-serif;
+    font-weight: 100;
+    letter-spacing: 0;
+  }
+
+  article h2 {
+    margin-top: 3.2rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid rgba(89, 183, 255, 0.14);
+    color: var(--dossier-blue);
+  }
+
+  article h3 {
+    color: var(--dossier-orange);
+  }
+
+  article h4 {
+    color: var(--dossier-blue);
+    font-weight: 300;
+  }
+
+  article p,
+  article li,
+  article td {
+    line-height: 1.68;
+  }
+}
+
+.portfolio-dossier-hero {
+  position: relative;
+  margin: 0 0 2.4rem;
+  padding: clamp(1.4rem, 4vw, 3.6rem);
+  border: 1px solid rgba(89, 183, 255, 0.2);
+  border-radius: 8px;
+  background:
+    linear-gradient(rgba(5, 7, 11, 0.84), rgba(5, 7, 11, 0.92)),
+    url("/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg") center / cover;
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  overflow: hidden;
+}
+
+.portfolio-dossier-kicker,
+.portfolio-dossier-source {
+  margin: 0;
+  color: rgba(183, 199, 217, 0.78);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.portfolio-dossier-hero h1 {
+  margin: 0.25rem 0 0.85rem;
+  color: #edf6ff;
+  font-size: clamp(2.4rem, 8vw, 5.8rem);
+  font-weight: 100 !important;
+  line-height: 0.95;
+}
+
+.portfolio-dossier-hero p:not(.portfolio-dossier-kicker, .portfolio-dossier-source) {
+  max-width: 48rem;
+  color: #edf6ff;
+  font-size: clamp(1rem, 1.6vw, 1.28rem);
+}
+
+.portfolio-dossier-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.4rem 0 0.9rem;
+}
+
+.portfolio-dossier-actions a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: 0.48rem 0.78rem;
+  border: 1px solid rgba(255, 138, 42, 0.36);
+  border-radius: 6px;
+  background: rgba(5, 7, 11, 0.72);
+  color: #ffd6ad;
+  font-family: "Ubuntu", var(--bodyFont), sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.portfolio-dossier-callout,
+.portfolio-dossier-card,
+.portfolio-dossier-project-meta,
+.portfolio-dossier-figure {
+  margin: 1.25rem 0;
+  border: 1px solid var(--dossier-border);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, var(--dossier-panel-strong), var(--dossier-panel)),
+    radial-gradient(circle at 100% 0%, rgba(255, 138, 42, 0.12), transparent 32%);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-dossier-callout {
+  padding: 1rem 1.15rem;
+}
+
+.portfolio-dossier-callout strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--dossier-orange);
+  font-family: "Montserrat", var(--headerFont), sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.portfolio-dossier-callout.blue strong {
+  color: var(--dossier-blue);
+}
+
+.portfolio-dossier-card,
+.portfolio-dossier-project-meta {
+  padding: 1rem;
+}
+
+.portfolio-dossier-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.portfolio-dossier-table th,
+.portfolio-dossier-table td {
+  padding: 0.72rem 0.4rem;
+  border-bottom: 1px solid rgba(89, 183, 255, 0.1);
+  vertical-align: top;
+}
+
+.portfolio-dossier-table th {
+  width: 10.5rem;
+  color: var(--dossier-blue);
+  font-family: "Montserrat", var(--headerFont), sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.portfolio-dossier-table tr:last-child th,
+.portfolio-dossier-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.portfolio-dossier-figure {
+  padding: 0.75rem;
+}
+
+.portfolio-dossier-figure img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  background: #05070b;
+}
+
+.portfolio-dossier-figure figcaption {
+  margin-top: 0.75rem;
+  color: #ffd6ad;
+  font-size: 0.95rem;
+}
+
+.portfolio-term {
+  color: var(--dossier-orange);
+  font-weight: 500;
+}
+
+.portfolio-signal {
+  color: var(--dossier-blue);
+  font-weight: 500;
+}
+
+@media (max-width: 720px) {
+  .portfolio-dossier-table,
+  .portfolio-dossier-table tbody,
+  .portfolio-dossier-table tr,
+  .portfolio-dossier-table th,
+  .portfolio-dossier-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .portfolio-dossier-table th {
+    padding-bottom: 0.2rem;
+    border-bottom: 0;
+  }
+
+  .portfolio-dossier-table td {
+    padding-top: 0;
+  }
+}

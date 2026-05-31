@@ -2057,3 +2057,184 @@ body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
     padding-top: 0;
   }
 }
+
+.integrated-dossier-page {
+  --integrated-panel: rgba(9, 14, 22, 0.94);
+  --integrated-panel-soft: rgba(12, 19, 29, 0.82);
+  --integrated-border: rgba(89, 183, 255, 0.16);
+  --integrated-blue: #59b7ff;
+  --integrated-orange: #ff8a2a;
+
+  article {
+    font-family: "Ubuntu", var(--bodyFont), sans-serif;
+    font-weight: 300;
+  }
+
+  article h1,
+  article h2,
+  article h3,
+  article h4 {
+    font-family: "Montserrat", var(--headerFont), sans-serif;
+    letter-spacing: 0;
+  }
+
+  article h2 {
+    margin-top: 3rem;
+    padding-bottom: 0.48rem;
+    border-bottom: 1px solid var(--integrated-border);
+    color: var(--integrated-blue);
+    font-weight: 200;
+  }
+
+  article h3 {
+    color: #d8e8f8;
+    font-weight: 300;
+  }
+
+  article h4 {
+    color: var(--integrated-orange);
+    font-weight: 300;
+  }
+
+  article p,
+  article li,
+  article td,
+  article dd {
+    line-height: 1.68;
+  }
+
+  article sup a {
+    color: #ffd6ad;
+    font-size: 0.72em;
+    text-decoration: none;
+  }
+}
+
+.integrated-dossier-hero {
+  margin: 0 0 2rem;
+  padding: clamp(1.35rem, 4vw, 3rem);
+  border: 1px solid rgba(89, 183, 255, 0.18);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(5, 8, 13, 0.98), rgba(11, 18, 28, 0.96)),
+    radial-gradient(circle at 88% 12%, rgba(89, 183, 255, 0.12), transparent 28%);
+  box-shadow:
+    0 26px 62px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.integrated-dossier-kicker,
+.integrated-dossier-source {
+  margin: 0;
+  color: rgba(183, 199, 217, 0.78);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.integrated-dossier-hero h1 {
+  margin: 0.3rem 0 0.75rem;
+  color: #edf6ff;
+  font-family: "Montserrat", var(--headerFont), sans-serif;
+  font-size: clamp(2.1rem, 6vw, 4.8rem);
+  font-weight: 100 !important;
+  line-height: 0.98;
+}
+
+.integrated-dossier-hero > p:not(.integrated-dossier-kicker, .integrated-dossier-source) {
+  max-width: 54rem;
+  color: #dbe9f7;
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+}
+
+.integrated-dossier-hero dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 0.85rem;
+  margin: 1.25rem 0 1rem;
+}
+
+.integrated-dossier-hero dl div,
+.integrated-dossier-note,
+.integrated-dossier-table,
+.integrated-dossier-glossary {
+  border: 1px solid var(--integrated-border);
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--integrated-panel), var(--integrated-panel-soft));
+}
+
+.integrated-dossier-hero dl div {
+  padding: 0.8rem 0.9rem;
+}
+
+.integrated-dossier-hero dt,
+.integrated-dossier-glossary dt {
+  color: var(--integrated-orange);
+  font-family: "Montserrat", var(--headerFont), sans-serif;
+  font-size: 0.78rem;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.integrated-dossier-hero dd,
+.integrated-dossier-glossary dd {
+  margin: 0.25rem 0 0;
+}
+
+.integrated-dossier-note {
+  margin: 1.2rem 0;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+.integrated-dossier-note strong {
+  color: var(--integrated-blue);
+}
+
+.integrated-dossier-lead {
+  border-color: rgba(255, 138, 42, 0.26);
+}
+
+.integrated-dossier-table {
+  display: block;
+  width: 100%;
+  margin: 1.3rem 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.integrated-dossier-table tbody {
+  display: table;
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+}
+
+.integrated-dossier-table th,
+.integrated-dossier-table td {
+  padding: 0.72rem 0.78rem;
+  border-bottom: 1px solid rgba(89, 183, 255, 0.1);
+  vertical-align: top;
+  text-align: left;
+}
+
+.integrated-dossier-table th {
+  color: var(--integrated-blue);
+  font-family: "Montserrat", var(--headerFont), sans-serif;
+  font-weight: 300;
+}
+
+.integrated-dossier-table tr:last-child th,
+.integrated-dossier-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.integrated-dossier-glossary {
+  padding: 1rem;
+}
+
+.integrated-dossier-glossary dd + dt {
+  margin-top: 1rem;
+}

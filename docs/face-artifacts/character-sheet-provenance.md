@@ -25,6 +25,8 @@ Extracted runtime sprites live under:
 
 `GameCult/static/interactive/cotsc-praxis/sprites/`
 
-Generated first-ring VN backgrounds live under:
+Generated VN backgrounds live under:
 
 `GameCult/static/interactive/cotsc-praxis/backgrounds/`
+
+The first expanded compound background pass added dedicated rooms for Project Atlas, Docs Shelf, Blog Lane, Nibu's Alakrita ship, Zyphos's fungal vault, Weksa's language lab, StreamPixels' overlay studio, and CultCacheTS's inspection desk.

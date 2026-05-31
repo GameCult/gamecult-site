@@ -1,12 +1,12 @@
 {
   "asset_base": "/static/interactive/cotsc-praxis/",
   "default_caption": "GameCult Compound",
-  "global_style_cue": "Stripped-down website visual novel stage using clean card chrome, high-contrast public-document panels, restrained studio lighting, visible project-room affordances, and no full background image. The scene is represented through stage cards, route plaques, document surfaces, and speaker portraits so it blends into the Quartz page instead of covering it.",
+  "global_style_cue": "Hybrid website visual novel stage using generated pixel-art room backgrounds, clean card chrome, high-contrast public-document panels, restrained studio lighting, visible project-room affordances, and Quartz DOM cards that blend into each scene rather than covering it.",
   "metadata_contract": "Sai renders scene labels, backgrounds, actor avatars, named sprites, dom_cards, and space metadata. The spaces map is the canonical website-compound contract: each space is a project, topic, repo, setting, tool, docs shelf, blog lane, or receipt surface with a host and canonical URL.",
   "scene_set": {
     "id": "gamecult_compound_card_stage",
-    "purpose": "A reusable card-chrome compound layout for homepage replay. The stage is not a generated background; it is a durable arrangement of document-backed route cards, speaker panels, and room-specific props that can preserve hub geography and visited-state markers.",
-    "layout": "Wide compound hub with route plaques arranged around the dialogue frame. Each project room swaps in two or three DOM-backed cards plus a small prop metaphor: forge workbench, ledger counter, archive terminal, library shelves, gate console, or proof wall. Return visits mark completed rooms with checked plaque state.",
+    "purpose": "A reusable hybrid compound layout for homepage replay. Each scene can combine a generated background, document-backed route cards, speaker panels, and room-specific props so hub geography and visited-state markers remain durable.",
+    "layout": "Wide compound hub with route plaques arranged around the dialogue frame. Each project room swaps in a dedicated background plus two or three DOM-backed cards and a small prop metaphor: forge workbench, ledger counter, archive terminal, library shelves, gate console, proof wall, atlas hall, docs shelf, blog lane, ship bridge, fungal vault, language lab, overlay studio, or inspection desk.",
     "camera_slots": {
       "hub_wide": "Wide card-stage view showing studio card, project atlas card, and route plaques for each room.",
       "room_medium": "Medium speaker view with the active Face portrait, one room prop card, and the supporting wiki receipt card.",
@@ -105,6 +105,110 @@
         "roadmap": "future ledger path"
       },
       "background": "backgrounds/receipts.png"
+    },
+    "project_atlas": {
+      "label": "Project Atlas",
+      "camera": "hub_wide",
+      "visible_actors": [
+        "Void"
+      ],
+      "visual_anchor": "Repo-atlas hall with grouped project doors, route plaques, constellation boards, and map tables for games, worlds, studio systems, shared code, agent interfaces, and visual labs.",
+      "dom_card_roles": {
+        "projects": "project atlas signboard",
+        "docs": "plain wiki exit"
+      },
+      "background": "backgrounds/project-atlas.png"
+    },
+    "docs_shelf": {
+      "label": "Docs Shelf",
+      "camera": "receipt_close",
+      "visible_actors": [
+        "Void"
+      ],
+      "visual_anchor": "Public documentation shelf with wiki binders, architecture blueprints, operating manuals, index drawers, and plain exits back into canonical Quartz pages.",
+      "dom_card_roles": {
+        "docs": "public documentation shelf",
+        "proof": "source receipt panel"
+      },
+      "background": "backgrounds/docs-shelf.png"
+    },
+    "blog_lane": {
+      "label": "Blog Lane",
+      "camera": "receipt_close",
+      "visible_actors": [
+        "Void"
+      ],
+      "visual_anchor": "Dispatch corridor of pinned field reports, week ledgers, article boards, archive boxes, and future-note surfaces.",
+      "dom_card_roles": {
+        "roadmap": "future dispatch lane",
+        "proof": "receipt checklist"
+      },
+      "background": "backgrounds/blog-lane.png"
+    },
+    "nibu_ship": {
+      "label": "Nibu's Alakrita Ship",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Nibu"
+      ],
+      "visual_anchor": "Abandoned Alakrita prestige-vessel bridge: elegant luxury shell, companion-AI interface, cracked custody locks, salvage scars, and an empty copilot seat.",
+      "dom_card_roles": {
+        "projects": "Aetheria setting route",
+        "proof": "lore provenance panel"
+      },
+      "background": "backgrounds/nibu-alakrita-ship.png"
+    },
+    "zyphos_vault": {
+      "label": "Zyphos Fungal Vault",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Druzkai"
+      ],
+      "visual_anchor": "Ecological memory vault with fungal roads, Mother Tree contract archives, treaty seed cabinets, and bioluminescent obligation paths.",
+      "dom_card_roles": {
+        "projects": "Eusocial Interbeing route",
+        "docs": "setting docs shelf"
+      },
+      "background": "backgrounds/zyphos-fungal-vault.png"
+    },
+    "weksa_lab": {
+      "label": "Weksa Language Lab",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Weksa"
+      ],
+      "visual_anchor": "Anthropological language lab with interlingua cards, ontology maps, phonology wheels, field notebooks, and culture-first translation tools.",
+      "dom_card_roles": {
+        "projects": "Weksa project route",
+        "docs": "language notes shelf"
+      },
+      "background": "backgrounds/weksa-language-lab.png"
+    },
+    "overlay_studio": {
+      "label": "StreamPixels Overlay Studio",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Kiko"
+      ],
+      "visual_anchor": "Live overlay tooling studio with transparent browser-source frames, packet rails, preview monitors, creator controls, and visible auth-boundary gate.",
+      "dom_card_roles": {
+        "projects": "StreamPixels project route",
+        "proof": "runtime boundary receipt"
+      },
+      "background": "backgrounds/streampixels-overlay-studio.png"
+    },
+    "inspection_desk": {
+      "label": "CultCacheTS Inspection Desk",
+      "camera": "room_medium",
+      "visible_actors": [
+        "Huginn"
+      ],
+      "visual_anchor": "Typed-state inspection desk with structured document envelopes, MessagePack cache reliquaries, schema validation seals, provenance trays, and handoff station.",
+      "dom_card_roles": {
+        "projects": "CultCacheTS project route",
+        "docs": "typed state docs shelf"
+      },
+      "background": "backgrounds/cultcachets-inspection-desk.png"
     }
   },
   "actors": {
@@ -393,7 +497,7 @@
     },
     "projects": {
       "kind": "project_atlas",
-      "scene": "compound",
+      "scene": "project_atlas",
       "host": "Void",
       "title": "Project Atlas",
       "url": "/Projects/",
@@ -414,7 +518,7 @@
     },
     "docs": {
       "kind": "docs_shelf",
-      "scene": "compound",
+      "scene": "docs_shelf",
       "host": "Void",
       "title": "Docs Shelf",
       "url": "/Docs/",
@@ -424,7 +528,7 @@
     },
     "blog": {
       "kind": "blog_lane",
-      "scene": "receipts",
+      "scene": "blog_lane",
       "host": "Void",
       "title": "Blog Lane",
       "url": "/Blog/",
@@ -506,7 +610,7 @@
     },
     "aetheria": {
       "kind": "setting",
-      "scene": "archive",
+      "scene": "nibu_ship",
       "host": "Nibu",
       "title": "Aetheria Setting Vault",
       "url": "/Aetheria/",
@@ -514,7 +618,7 @@
     },
     "zyphos": {
       "kind": "setting",
-      "scene": "library",
+      "scene": "zyphos_vault",
       "host": "Druzkai",
       "title": "Zyphos / Eusocial Interbeing Vault",
       "url": "/Projects/Eusocial-Interbeing/",
@@ -522,7 +626,7 @@
     },
     "weksa": {
       "kind": "tool",
-      "scene": "library",
+      "scene": "weksa_lab",
       "host": "Weksa",
       "title": "Weksa Language Lab",
       "url": "/Projects/weksa/",
@@ -530,7 +634,7 @@
     },
     "streampixels": {
       "kind": "tool",
-      "scene": "compound",
+      "scene": "overlay_studio",
       "host": "Kiko",
       "title": "StreamPixels Overlay Studio",
       "url": "/Projects/StreamPixels/",
@@ -538,7 +642,7 @@
     },
     "cultcachets": {
       "kind": "repo_tool",
-      "scene": "library",
+      "scene": "inspection_desk",
       "host": "Huginn",
       "title": "CultCacheTS Inspection Desk",
       "url": "/Projects/CultCacheTS/",

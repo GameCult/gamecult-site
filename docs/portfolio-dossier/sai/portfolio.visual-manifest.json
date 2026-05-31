@@ -1,0 +1,74 @@
+{
+  "asset_base": "/static/interactive/cotsc-praxis/",
+  "default_scene": "portfolio_hall",
+  "default_caption": "GameCult Portfolio Hall",
+  "metadata_contract": "Seed manifest for rendering the portfolio dossier as a Sai visual novel. Generated routes should derive from docs/portfolio-dossier/data/portfolio.yaml.",
+  "scenes": {
+    "portfolio_hall": {
+      "label": "Portfolio Hall",
+      "background": "backgrounds/project-atlas.png"
+    },
+    "surface_web": {
+      "label": "Surface Web Atrium",
+      "background": "backgrounds/streampixels-overlay-studio.png"
+    },
+    "ledger": {
+      "label": "Bifrost Ledger Hall",
+      "background": "backgrounds/ledger.png"
+    },
+    "forge": {
+      "label": "Agent Forge",
+      "background": "backgrounds/forge.png"
+    }
+  },
+  "actors": {
+    "Void": {
+      "avatar": "void.png",
+      "default_sprite": "point",
+      "sprites": {
+        "point": "sprites/void/point.png",
+        "document": "sprites/void/document.png",
+        "welcome": "sprites/void/welcome.png"
+      }
+    },
+    "Epiphany": {
+      "avatar": "epiphany.png",
+      "default_sprite": "map",
+      "sprites": {
+        "map": "sprites/epiphany/map.png",
+        "evidence": "sprites/epiphany/evidence.png"
+      }
+    }
+  },
+  "dom_cards": {
+    "portfolio": {
+      "selector": "#portfolio-dossier-card",
+      "title": "Portfolio Dossier"
+    },
+    "eve": {
+      "selector": "#portfolio-eve-card",
+      "title": "Eve: Surface Web"
+    },
+    "bifrost": {
+      "selector": "#portfolio-bifrost-card",
+      "title": "Bifrost: Patronage Becomes Power"
+    }
+  },
+  "tex_cards": {
+    "voting_curve": {
+      "kind": "tex-fragment",
+      "title": "Log-Power Voting",
+      "source": "voting\\_weight = 1 + \\log_{base}(\\max(1, effective\\_points))"
+    },
+    "surface_pipeline": {
+      "kind": "tex-fragment",
+      "title": "Eve Surface Pipeline",
+      "source": "provider\\ state \\rightarrow CultUI \\rightarrow Eve \\rightarrow local\\ renderer \\rightarrow command\\ intent \\rightarrow accepted\\ state"
+    },
+    "portfolio_pdf": {
+      "kind": "tex-page",
+      "title": "Portfolio Dossier Spread",
+      "source": "/docs/portfolio-dossier/main.pdf"
+    }
+  }
+}

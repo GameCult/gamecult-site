@@ -1,0 +1,57 @@
+\chapter{Sai Homepage Pipeline}
+
+The TeX dossier is the ceremonial artifact. Sai is the playable public route.
+
+\section{Target structure}
+
+\begin{itemize}
+  \item Each portfolio project becomes a VN room.
+  \item Each projection ladder becomes a DOM card.
+  \item Each governance claim becomes a Bifrost receipt panel.
+  \item Each project can link to its canonical page, repo, and dossier chapter.
+  \item Eve can later render the same portfolio data as a live dashboard.
+\end{itemize}
+
+\section{Sai asset contract}
+
+The folder includes \texttt{sai/portfolio-tour.ink} and \texttt{sai/portfolio.visual-manifest.json}. They are seeds, not final compiled assets. The intended build path is:
+
+\begin{center}
+\fcolorbox{voidorange}{voidpanel}{\parbox{0.84\linewidth}{\color{voidtext}
+\texttt{data/portfolio.yaml} $\rightarrow$ TeX chapters $\rightarrow$ Sai Ink routes $\rightarrow$ homepage VN
+}}
+\end{center}
+
+\Verdict{Do not maintain the PDF, homepage VN, and future Eve dashboard as three unrelated beautiful lies. One portfolio ledger. Many surfaces. Same machine.}
+
+\section{TeX In Browser}
+
+Sai needs a TeX surface, not just a PDF link.
+
+The portfolio dossier should compile as ceremonial PDF, but Sai also needs to embed TeX-authored material in-browser as VN cards, projection panels, formulas, and page-like dossier spreads. That gives the homepage the same authority surface as the document without forcing visitors to leave the VN.
+
+\subsection{Renderer split}
+
+\begin{itemize}
+  \item \Term{Math fragments}: render with a client-side math renderer such as KaTeX for formulas and compact notation.
+  \item \Term{Dossier spreads}: render precompiled page images or HTML fragments generated from TeX during the site build.
+  \item \Term{Live cards}: render structured portfolio data through Sai DOM cards when the card is semantic rather than typographic.
+\end{itemize}
+
+The browser should not run arbitrary TeX as an execution surface. TeX is too powerful and too weird to invite into the house unsupervised. The coherent path is build-time compilation plus a safe runtime fragment renderer.
+
+\subsection{Sai contract}
+
+Sai should learn a new card source kind:
+
+\begin{center}
+\fcolorbox{voidblue}{voidpanel}{\parbox{0.86\linewidth}{\color{voidtext}
+\texttt{tex-fragment}: safe inline/block math or short TeX panels rendered in browser.\\
+\texttt{tex-page}: precompiled dossier page image or HTML fragment emitted by the build.\\
+\texttt{portfolio-card}: structured claim data rendered as local DOM.
+}}
+\end{center}
+
+The VN route can then say: show Eve's projection formula, show Bifrost's voting curve, show the portfolio page spread, then offer the project room choices.
+
+\Verdict{Sai should make TeX walk around the room, not nail a PDF to the wall and call it interactive.}

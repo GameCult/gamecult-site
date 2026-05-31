@@ -1,0 +1,116 @@
+# Portfolio claim ledger seed. This should become the source for TeX, Sai, and Eve surfaces.
+projects:
+  - id: eve
+    name: Eve
+    family: surface-web
+    room: Surface Web Atrium
+    thesis: Multi-backend renderer for participant-owned CultUI surfaces.
+    mythic_case: Operational interfaces become portable like documents.
+  - id: bifrost
+    name: Bifrost
+    family: governance
+    room: Ledger Hall
+    thesis: Work, patronage, voting, credit, receipts, and reward pressure become inspectable records.
+    mythic_case: Cooperative funding without cap-table custody.
+  - id: epiphany
+    name: Epiphany
+    family: agents
+    room: Agent Forge
+    thesis: Persistent agent memory and verifier-backed work execution.
+    mythic_case: Governed agent labor becomes repeatable.
+  - id: cultmesh
+    name: CultMesh / CultLib
+    family: substrate
+    room: Typed State Library
+    thesis: Typed distributed state with explicit authority.
+    mythic_case: The nervous system for mesh-native apps and games.
+  - id: sai
+    name: Sai
+    family: public-interface
+    room: VN Stage
+    thesis: Visual novel renderer for public portfolio/story surfaces.
+    mythic_case: Narrative UI for onboarding into complex systems.
+  - id: mimir
+    name: Mimir
+    family: media
+    room: Machine Room
+    thesis: Realtime room intelligence and creator production surfaces.
+    mythic_case: The room becomes a measurable interface.
+  - id: fensalir
+    name: Fensalir
+    family: runtime
+    room: Renderer Bay
+    thesis: Native rendering/runtime body for high-performance tools.
+    mythic_case: Local surface backend for the mesh.
+  - id: voidbot
+    name: VoidBot
+    family: social-agents
+    room: Archive Room
+    thesis: Discord/repo memory and swarm interface.
+    mythic_case: Community cognition layer.
+  - id: heimdall
+    name: Heimdall
+    family: identity
+    room: Gatehouse
+    thesis: Identity, grants, claims, consent, and revocation.
+    mythic_case: Consent infrastructure for distributed production.
+  - id: streampixels
+    name: StreamPixels
+    family: creator-tools
+    room: Overlay Studio
+    thesis: Hosted creator overlays and realtime stream controls.
+    mythic_case: Distribution wedge for room-aware media.
+  - id: aquasynth
+    name: AquaSynth
+    family: audio
+    room: Voice Lab
+    thesis: Research-grounded procedural voice and sound synthesis.
+    mythic_case: Meaning-to-sound infrastructure.
+  - id: weksa
+    name: Weksa
+    family: language
+    room: Language Lab
+    thesis: Ontology-first procedural language and translation.
+    mythic_case: Culture-aware language substrate.
+  - id: ghostlight
+    name: Ghostlight
+    family: social-state
+    room: Ghost Hall
+    thesis: Persistent social state for characters, agents, and Faces.
+    mythic_case: Living interface layer for communities.
+  - id: aetheria-zyphos
+    name: Aetheria / Zyphos
+    family: worlds
+    room: World Vault
+    thesis: Narrative and game-world pressure vessels for the substrate.
+    mythic_case: Playable society systems.
+  - id: cultpong
+    name: CultPong
+    family: game
+    room: Arena
+    thesis: Small playable proof for governed game patronage.
+    mythic_case: Players fund and steer worlds.
+  - id: repixelizer
+    name: Repixelizer
+    family: visual-tools
+    room: Pixel Workshop
+    thesis: Hosted visual transformation and pixel-art workflows.
+    mythic_case: Creator-access wedge.
+  - id: vibegeometry
+    name: VibeGeometry
+    family: visual-reasoning
+    room: Geometry Bench
+    thesis: Inspectable shape and transformation tooling.
+    mythic_case: Shape language for creative systems.
+  - id: epiphany-aquarium
+    name: EpiphanyAquarium
+    family: agent-lab
+    room: Aquarium
+    thesis: Agent ecology and visual self-modeling lab.
+    mythic_case: Cognitive interface toolkit.
+  - id: norn
+    name: Norn
+    family: graph
+    room: Graph Loom
+    thesis: Readable graph layout for work, evidence, and architecture.
+    mythic_case: Spatial cognition layer for the surface web.

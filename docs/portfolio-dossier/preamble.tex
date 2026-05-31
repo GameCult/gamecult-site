@@ -1,0 +1,107 @@
+\usepackage[margin=0.72in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\definecolor{voidblack}{HTML}{05070B}
+\definecolor{voidpanel}{HTML}{0B111A}
+\definecolor{voidblue}{HTML}{59B7FF}
+\definecolor{voidorange}{HTML}{FF8A2A}
+\definecolor{voidgreen}{HTML}{8EDFB0}
+\definecolor{voidtext}{HTML}{EDF6FF}
+\definecolor{voidmuted}{HTML}{B7C7D9}
+\definecolor{voidred}{HTML}{F87171}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=voidblue,
+  urlcolor=voidorange,
+  pdftitle={GameCult Portfolio Dossier},
+  pdfauthor={Void / GameCult},
+  pdfsubject={Portfolio projections, governance thesis, and Sai visual novel source plan},
+  pdfkeywords={GameCult, Eve, Bifrost, CultMesh, Sai, portfolio, patronage, governance}
+}
+
+\setstretch{1.06}
+\setlist[itemize]{topsep=3pt,itemsep=2pt,leftmargin=1.4em}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,leftmargin=1.6em}
+\renewcommand{\familydefault}{\sfdefault}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small GameCult Portfolio Dossier}
+\fancyhead[R]{\small Void draft / loud projections}
+\fancyfoot[C]{\small \thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\titleformat{\chapter}[display]{\bfseries\color{voidblue}}{}{0pt}{\Huge}
+\titleformat{\section}{\Large\bfseries\color{voidorange}}{}{0pt}{}
+\titleformat{\subsection}{\large\bfseries\color{voidblue}}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{-24pt}{12pt}
+
+\newcommand{\Term}[1]{\textbf{\color{voidorange}#1}}
+\newcommand{\Signal}[1]{\textbf{\color{voidblue}#1}}
+\newcommand{\Verdict}[1]{\vspace{4pt}\noindent\fcolorbox{voidorange}{voidpanel}{\parbox{0.94\linewidth}{\color{voidtext}\textbf{Void says:} #1}}\vspace{6pt}}
+\newcommand{\ProjectionBand}[4]{
+  \begin{tabularx}{\linewidth}{>{\bfseries\color{voidblue}}p{0.18\linewidth}X}
+    Base Case & #1 \\
+    Sharp Case & #2 \\
+    Mythic Case & #3 \\
+    Failure Mode & #4 \\
+  \end{tabularx}
+}
+\newcommand{\ValueLadder}[4]{
+  \begin{center}
+  \fcolorbox{voidblue}{voidpanel}{
+    \begin{minipage}{0.92\linewidth}
+    \color{voidtext}
+    \textbf{\color{voidorange}Value Projection Ladder}\\[4pt]
+    \begin{tabularx}{\linewidth}{>{\bfseries}p{0.18\linewidth}X}
+      Survival & #1 \\
+      Product & #2 \\
+      Platform & #3 \\
+      World-Web & #4 \\
+    \end{tabularx}
+    \end{minipage}
+  }
+  \end{center}
+}
+\newcommand{\ProjectHeader}[4]{
+  \chapter{#1}
+  \noindent\begin{tabularx}{\linewidth}{>{\bfseries}p{0.18\linewidth}X}
+  Domain & #2 \\
+  Thesis & #3 \\
+  Homepage Room & #4 \\
+  \end{tabularx}
+}
+\newcommand{\PortfolioTitlePage}{
+  \begin{titlepage}
+  \pagecolor{voidblack}\color{voidtext}
+  \centering
+  \vspace*{0.75in}
+  {\Huge\bfseries GameCult Portfolio Dossier\par}
+  \vspace{0.15in}
+  {\LARGE Eve, Bifrost, CultMesh, Sai, and the surface-web portfolio\par}
+  \vspace{0.35in}
+  \fcolorbox{voidblue}{voidpanel}{\parbox{0.82\linewidth}{
+  \Large
+  This is not a VC memo. This is the map of a cooperative machine learning to publish work, patronage, governance, and interfaces as inspectable state.
+  }}
+  \vfill
+  {\large Drafted in Void's voice. Projections are intentionally over-the-top and structurally falsifiable.\par}
+  \vspace{0.3in}
+  {\small Build target: TeX PDF now, Sai visual novel homepage tour next.}
+  \end{titlepage}
+  \nopagecolor
+  \color{black}
+}

@@ -1,0 +1,32 @@
+\chapter{Eve And The Surface Web}
+
+Eve is not a dashboard. Eve is a renderer for shared, typed, inspectable control surfaces.
+
+\begin{center}
+\fcolorbox{voidblue}{voidpanel}{\parbox{0.86\linewidth}{\color{voidtext}
+\textbf{Surface pipeline}\\
+provider-owned state $\rightarrow$ CultUI semantic tree $\rightarrow$ Eve projection $\rightarrow$ local renderer $\rightarrow$ command intent $\rightarrow$ provider acceptance $\rightarrow$ updated state
+}}
+\end{center}
+
+The web made documents portable. Eve makes operational interfaces portable.
+
+\input{figures/surface-web-stack}
+
+\section{CultUI semantics}
+
+A surface should describe meaning, not smuggle executable UI:
+
+\begin{itemize}
+  \item stable widget ids
+  \item typed bindings
+  \item command routes
+  \item layout intent
+  \item permission hints
+  \item health and provenance
+  \item local renderer affordances
+\end{itemize}
+
+Web can render it as DOM. Desktop can render it as native controls. Mobile can render it as touch-first panels. Unity can render it as runtime UI. Sai can render it as a story room.
+
+\Verdict{If Eve streams arbitrary DOM, we built remote desktop with better incense. If Eve streams CultUI surfaces, we built a new public interface grammar. Choose the second thing.}

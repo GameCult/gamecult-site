@@ -1055,17 +1055,21 @@ body[data-slug="index"] {
 
   .page {
     max-width: none;
+    height: 100svh;
     min-height: 100svh;
+    max-height: 100svh;
+    overflow: hidden;
     padding: 0;
   }
 
   .page > #quartz-body {
-    min-height: 100svh;
+    height: 100svh;
+    min-height: 0;
+    max-height: 100svh;
     grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
+    grid-template-rows: minmax(0, 1fr);
+    grid-template-areas: "grid-center";
+    overflow: hidden;
   }
 
   .page > #quartz-body > .left.sidebar,
@@ -1080,16 +1084,21 @@ body[data-slug="index"] {
     display: block;
     grid-area: grid-center;
     width: 100%;
+    height: 100%;
     min-width: 0;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .page > #quartz-body .center > article {
+    height: 100%;
     margin: 0;
     padding: 0;
     border: 0;
     border-radius: 0;
     background: transparent;
     box-shadow: none;
+    overflow: hidden;
   }
 
   .page::before {
@@ -1109,7 +1118,8 @@ body[data-slug="index"] {
   }
 }
 
-body[data-slug="Pitch"] .gamecult-vn-source {
+body[data-slug="Pitch"] .gamecult-vn-source,
+body[data-slug="index"] .gamecult-vn-source {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1123,8 +1133,14 @@ body[data-slug="Pitch"] .gamecult-vn-source {
 
 body[data-slug="index"] .gamecult-compound-vn.sai-player-speaker {
   --sai-sprite-pixel-scale: 4;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
   width: 100%;
+  height: 100svh;
   min-height: 100svh;
+  max-height: 100svh;
+  overflow: hidden;
   margin: 0;
 }
 
@@ -1149,7 +1165,9 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
     .gamecult-compound-vn.sai-player-speaker,
     .gamecult-compound-vn .sai-speaker-stage,
     .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+      height: 100dvh;
       min-height: 100dvh;
+      max-height: 100dvh;
     }
 
     .gamecult-compound-vn .sai-speaker-stage,
@@ -1219,10 +1237,25 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .gamecult-compound-vn .sai-speaker-card {
+  left: 256px;
   border-top-color: rgba(89, 183, 255, 0.18);
+  grid-template-columns: minmax(0, 1fr);
   background:
     linear-gradient(135deg, rgba(5, 8, 13, 0.92), rgba(9, 14, 22, 0.82)),
     linear-gradient(90deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.04));
+}
+
+.gamecult-compound-vn .sai-speaker-avatar-shell {
+  position: absolute;
+  left: -256px;
+  bottom: 0;
+  width: 256px;
+  height: 256px;
+  border-top: 1px solid rgba(89, 183, 255, 0.18);
+  border-right-color: rgba(89, 183, 255, 0.18);
+  background:
+    linear-gradient(180deg, rgba(4, 7, 12, 0.2), rgba(4, 7, 12, 0.76)),
+    radial-gradient(circle at 50% 18%, rgba(89, 183, 255, 0.1), transparent 46%);
 }
 
 @media (max-width: 960px) {
@@ -1238,6 +1271,18 @@ body[data-slug="index"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
   .gamecult-compound-vn .sai-dom-layer {
     inset: calc(3.2rem + min(18rem, 34vh) + 0.75rem) 0.75rem 9rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .gamecult-compound-vn .sai-speaker-card {
+    left: 128px;
+  }
+
+  .gamecult-compound-vn .sai-speaker-avatar-shell {
+    left: -128px;
+    width: 128px;
+    height: 128px;
   }
 }
 

@@ -863,7 +863,10 @@
     ],
     "viewport_width": 1180,
     "viewport_height": 720,
-    "viewport_padding": 90
+    "viewport_padding": 90,
+    "focus_distortion_radius": 420,
+    "focus_distortion_strength": 0.3,
+    "focus_distortion_padding": 72
   },
   "scene_set": {
     "id": "gamecult_compound_card_stage",

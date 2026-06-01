@@ -1043,14 +1043,22 @@ a:hover,
 body[data-slug="tour"]
   .gamecult-composite-overview
   > h2:has(+ .gamecult-link-grid),
+body[data-slug="Pitch"]
+  .gamecult-composite-overview
+  > h2:has(+ .gamecult-link-grid),
 body[data-slug="tour"]
   .gamecult-composite-overview
   > h3:has(+ .gamecult-link-grid),
-body[data-slug="tour"] .gamecult-composite-overview > .gamecult-link-grid {
+body[data-slug="Pitch"]
+  .gamecult-composite-overview
+  > h3:has(+ .gamecult-link-grid),
+body[data-slug="tour"] .gamecult-composite-overview > .gamecult-link-grid,
+body[data-slug="Pitch"] .gamecult-composite-overview > .gamecult-link-grid {
   display: none !important;
 }
 
-body[data-slug="tour"] {
+body[data-slug="tour"],
+body[data-slug="Pitch"] {
   overflow: hidden;
 
   .page {
@@ -1131,7 +1139,8 @@ body[data-slug="tour"] .gamecult-vn-source {
   pointer-events: none;
 }
 
-body[data-slug="tour"] .gamecult-compound-vn.sai-player-speaker {
+body[data-slug="tour"] .gamecult-compound-vn.sai-player-speaker,
+body[data-slug="Pitch"] .gamecult-compound-vn.sai-player-speaker {
   --sai-sprite-pixel-scale: 4;
   position: fixed;
   inset: 0;
@@ -1145,7 +1154,9 @@ body[data-slug="tour"] .gamecult-compound-vn.sai-player-speaker {
 }
 
 body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage,
-body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
+body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards,
+body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage,
+body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   height: 100svh;
   min-height: 100svh;
   border: 0;
@@ -1159,7 +1170,8 @@ body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 @supports (height: 100dvh) {
-  body[data-slug="tour"] {
+  body[data-slug="tour"],
+  body[data-slug="Pitch"] {
     .page,
     .page > #quartz-body,
     .gamecult-compound-vn.sai-player-speaker,
@@ -1414,91 +1426,6 @@ body[data-slug="tour"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 body[data-slug="tour"] .gamecult-composite-sections {
   margin-top: 1rem;
-}
-
-body[data-slug="Pitch"] {
-  overflow: hidden;
-
-  .page {
-    max-width: none;
-    min-height: 100svh;
-    padding: 0;
-  }
-
-  .page > #quartz-body {
-    min-height: 100svh;
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
-  }
-
-  .page > #quartz-body > .left.sidebar,
-  .page > #quartz-body > .right.sidebar,
-  .page > #quartz-body > footer,
-  .page > #quartz-body .center > .page-header,
-  .page > #quartz-body .center > .page-footer {
-    display: none;
-  }
-
-  .page > #quartz-body .center {
-    display: block;
-    grid-area: grid-center;
-    width: 100%;
-    min-width: 0;
-  }
-
-  .page > #quartz-body .center > article {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .page::before {
-    display: none !important;
-  }
-}
-
-body[data-slug="Pitch"] .gamecult-pitch-vn.sai-player-speaker {
-  display: block;
-  width: 100%;
-  min-height: 100svh;
-  margin: 0;
-}
-
-body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage,
-body[data-slug="Pitch"] .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
-  height: 100svh;
-  min-height: 100svh;
-  border: 0;
-  border-radius: 0;
-  background:
-    linear-gradient(180deg, rgba(6, 10, 15, 0.98), rgba(8, 14, 22, 0.94)),
-    linear-gradient(135deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.03));
-  box-shadow:
-    0 28px 68px rgba(0, 0, 0, 0.34),
-    inset 0 1px 0 rgba(255, 255, 255, 0.03);
-}
-
-@supports (height: 100dvh) {
-  body[data-slug="Pitch"] {
-    .page,
-    .page > #quartz-body,
-    .gamecult-pitch-vn.sai-player-speaker,
-    .gamecult-pitch-vn .sai-speaker-stage,
-    .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
-      min-height: 100dvh;
-    }
-
-    .gamecult-pitch-vn .sai-speaker-stage,
-    .gamecult-pitch-vn .sai-speaker-stage.has-dom-cards {
-      height: 100dvh;
-    }
-  }
 }
 
 .gamecult-composite-page {

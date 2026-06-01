@@ -662,6 +662,40 @@ article > h6 {
   margin-top: 0;
 }
 
+.page > #quartz-body .center > article .gamecult-outtake {
+  position: relative;
+  box-sizing: border-box;
+  max-width: min(52rem, calc(100vw - 2.4rem));
+  margin: 3.1rem -2.8rem 3.2rem;
+  padding: 1.35rem 1.65rem 1.45rem 2rem;
+  transform: translateX(-0.8rem) rotate(-0.45deg);
+  border: 1px solid rgba(255, 138, 42, 0.26);
+  border-left: 0.28rem solid rgba(255, 138, 42, 0.84);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(15, 21, 31, 0.97), rgba(8, 14, 22, 0.94)),
+    linear-gradient(90deg, rgba(255, 138, 42, 0.12), rgba(89, 183, 255, 0.05));
+  box-shadow:
+    0 22px 42px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  color: #eef5ff;
+  font-family: var(--bodyFont);
+  font-size: 1.08rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 1.65;
+}
+
+.page > #quartz-body .center > article .gamecult-outtake::before {
+  content: "";
+  position: absolute;
+  inset: 0.7rem auto 0.7rem -0.7rem;
+  width: 0.16rem;
+  border-radius: 999px;
+  background: rgba(89, 183, 255, 0.62);
+}
+
 body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
   .page > #quartz-body {
     grid-template-columns: minmax(0, 1fr);
@@ -984,6 +1018,19 @@ a:hover,
   .page > #quartz-body .center > article {
     padding: 1.15rem 1rem 1.45rem;
     border-radius: 20px;
+  }
+
+  .page > #quartz-body .center > article .gamecult-outtake {
+    max-width: 100%;
+    margin: 2.2rem 0 2.3rem;
+    padding: 1.1rem 1.15rem 1.2rem 1.45rem;
+    transform: none;
+    border-radius: 16px;
+    font-size: 1rem;
+  }
+
+  .page > #quartz-body .center > article .gamecult-outtake::before {
+    inset: 0.6rem auto 0.6rem -0.45rem;
   }
 
   .page

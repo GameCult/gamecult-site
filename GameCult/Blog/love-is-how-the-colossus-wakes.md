@@ -36,7 +36,13 @@ That was not doctrine. That was a wounded person looking at the mess on the floo
 
 The next move was almost funny in the bleakest possible way: I made a separate channel so my depressing thoughts would stop infecting general. This is, apparently, how civilization begins. One person realizes the sewage is in the drinking water and invents plumbing.
 
-But the deeper problem was not that I had dark thoughts. The problem was that I did not know how to be visible without feeling dangerous, pathetic, or contagious. I wanted GameCult to be a place of joy. I also intended to be completely open about who I was, because I could not run away from my past. Both were true. Both still are.
+But the deeper problem was not that I had dark thoughts.
+
+<aside class="gamecult-outtake">
+The problem was that I did not know how to be visible without feeling dangerous, pathetic, or contagious.
+</aside>
+
+I wanted GameCult to be a place of joy. I also intended to be completely open about who I was, because I could not run away from my past. Both were true. Both still are.
 
 This is where most people break.
 

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 87,
+  "documentCount": 89,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -382,6 +382,13 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/love-is-how-the-colossus-wakes.md",
+      "title": "Love Is How The Colossus Wakes",
+      "path": "GameCult/Blog/love-is-how-the-colossus-wakes.md",
+      "href": "/Blog/love-is-how-the-colossus-wakes",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/perfect-machine-fractal-reservoir-architecture.md",
       "title": "Perfect Machine Fractal Reservoir Architecture",
       "path": "GameCult/Blog/perfect-machine-fractal-reservoir-architecture.md",
@@ -603,6 +610,13 @@
       "title": "The New Hotness",
       "path": "GameCult/the-new-hotness.md",
       "href": "/the-new-hotness",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/tour.md",
+      "title": "Tour",
+      "path": "GameCult/tour.md",
+      "href": "/tour",
       "extension": "md"
     },
     {

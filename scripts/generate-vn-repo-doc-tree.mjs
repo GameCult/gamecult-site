@@ -170,6 +170,10 @@ function slugifyRepoName(name) {
     .replace(/^-+|-+$/g, "");
 }
 
+function isTransientRepoClone(name) {
+  return /-check-[a-f0-9]+$/i.test(name) || /-pass-\d+-agent-\d+$/i.test(name);
+}
+
 const repos = fs
   .readdirSync(projectsRoot, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
@@ -177,6 +181,7 @@ const repos = fs
     name: entry.name,
     path: path.join(projectsRoot, entry.name),
   }))
+  .filter((repo) => !isTransientRepoClone(repo.name))
   .filter((repo) => fs.existsSync(path.join(repo.path, ".git")))
   .sort((left, right) => left.name.localeCompare(right.name))
   .map((repo) => ({

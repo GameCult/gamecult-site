@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Eve",
-  "documentCount": 18,
+  "documentCount": 20,
   "documents": [
     {
       "id": "Eve:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -106,6 +106,20 @@
       "title": "Eve Dsl Reactive Bindings",
       "path": "docs/eve-dsl-reactive-bindings.md",
       "href": "https://github.com/GameCult/Eve/blob/main/docs/eve-dsl-reactive-bindings.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/eve-face.md",
+      "title": "Eve Face",
+      "path": "docs/eve-face.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/eve-face.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/eve-multiverse.md",
+      "title": "Eve Multiverse",
+      "path": "docs/eve-multiverse.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/eve-multiverse.md",
       "extension": "md"
     },
     {

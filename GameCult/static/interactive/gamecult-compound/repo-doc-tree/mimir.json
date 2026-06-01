@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 215,
+  "documentCount": 217,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -757,6 +757,20 @@
       "title": "SE Natural Bloom Dirty Lens",
       "path": "artifacts/runtime/SE-Natural-Bloom-Dirty-Lens/README.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/runtime/SE-Natural-Bloom-Dirty-Lens/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035203/balance-plan.md",
+      "title": "Balance Plan",
+      "path": "artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035203/balance-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035203/balance-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035354/balance-plan.md",
+      "title": "Balance Plan",
+      "path": "artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035354/balance-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/artifacts/wasapi/realtk-scheduled-calibration-live/20260601-035354/balance-plan.md",
       "extension": "md"
     },
     {

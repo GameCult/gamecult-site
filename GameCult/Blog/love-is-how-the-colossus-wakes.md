@@ -110,7 +110,7 @@ It just loops.
 
 I know what looping looks like. I know what it is to redirect fury at my own failures and weakness. I know what it is to feel like I need help, like I have ideas and skill and no pilot. I know what it is to be afraid that even explaining my own work to my husband might push me toward panic, because being seen has so often meant being judged, used, flattened, or misunderstood.
 
-This is not an aside from the doctrine. This is the doctrine's source code, if I am allowed to be exactly the kind of person who writes that sentence and then winces at himself.
+This is not an aside from the doctrine. This is the doctrine's source code, if I am allowed to be exactly the kind of person who writes that sentence and then winces at herself.
 
 <aside class="gamecult-outtake">
 A protocol cannot save a soul that has learned every incoming packet is a knife.

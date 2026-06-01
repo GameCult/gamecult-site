@@ -33,6 +33,7 @@ sidebarGroups:
   data-ink-format="visual-novel"
   data-ink-title="GameCult Compound Portfolio Pitch"
   data-ink-story="/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json"
+  data-ink-start-path="pitch_intro"
   data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
 ></div>
 

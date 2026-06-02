@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 89,
+  "documentCount": 90,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -351,6 +351,13 @@
       "title": "Epiphany In The Interview Chair",
       "path": "GameCult/Blog/epiphany-in-the-interview-chair.md",
       "href": "/Blog/epiphany-in-the-interview-chair",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/eve-multiverse-daemon-architecture.md",
+      "title": "Eve Multiverse Daemon Architecture",
+      "path": "GameCult/Blog/eve-multiverse-daemon-architecture.md",
+      "href": "/Blog/eve-multiverse-daemon-architecture",
       "extension": "md"
     },
     {

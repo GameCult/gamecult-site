@@ -18,7 +18,7 @@ The root site is intentionally not the same thing as `aetheria.gamecult.org`. Th
 
 Longer architecture notes belong in `GameCult/Blog/` when they are public-facing
 essays, and in `GameCult/Docs/` when they are operational documentation. Current
-service architecture doctrine is published as [The Eve MultiVerse And The
-Service Architecture That Refuses To Lie](/Blog/eve-multiverse-service-architecture):
+daemon architecture doctrine is published as [The Eve MultiVerse And The
+Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture):
 CultCache `.cc` state, CultMesh Verse visibility, Eve GUI/TUI DSL, and Odin
-discovery as the shared GameCult service contract.
+discovery as the shared GameCult daemon contract.

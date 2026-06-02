@@ -1,13 +1,34 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-ops",
-  "documentCount": 22,
+  "documentCount": 25,
   "documents": [
     {
       "id": "gamecult-ops:AGENTS.md",
       "title": "AGENTS",
       "path": "AGENTS.md",
       "href": "https://github.com/GameCult/gamecult-ops/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:docs/verse-service-architecture.md",
+      "title": "Verse Service Architecture",
+      "path": "docs/verse-service-architecture.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/docs/verse-service-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:docs/verse-service-repo-audit.generated.md",
+      "title": "Verse Service Repo Audit.Generated",
+      "path": "docs/verse-service-repo-audit.generated.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/docs/verse-service-repo-audit.generated.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:docs/verse-service-repo-audit.md",
+      "title": "Verse Service Repo Audit",
+      "path": "docs/verse-service-repo-audit.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/docs/verse-service-repo-audit.md",
       "extension": "md"
     },
     {

@@ -1,0 +1,28 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Spotiverse",
+  "documentCount": 3,
+  "documents": [
+    {
+      "id": "Spotiverse:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Spotiverse/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Spotiverse:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Spotiverse/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Spotiverse:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Spotiverse/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "EpiphanyAgent",
-  "documentCount": 28492,
+  "documentCount": 28495,
   "documents": [
     {
       "id": "EpiphanyAgent:.epiphany-dogfood/aetheria-supervised/codex-home/.tmp/plugins/.agents/skills/plugin-creator/references/plugin-json-spec.md",
@@ -86899,6 +86899,13 @@
       "title": "Local 20260530 233352",
       "path": ".epiphany-run/local-20260530-233352/README.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260530-233352/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260602-142133/README.md",
+      "title": "Local 20260602 142133",
+      "path": ".epiphany-run/local-20260602-142133/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260602-142133/README.md",
       "extension": "md"
     },
     {
@@ -198300,6 +198307,13 @@
       "extension": "md"
     },
     {
+      "id": "EpiphanyAgent:notes/epiphany-verse-architecture.md",
+      "title": "Epiphany Verse Architecture",
+      "path": "notes/epiphany-verse-architecture.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/epiphany-verse-architecture.md",
+      "extension": "md"
+    },
+    {
       "id": "EpiphanyAgent:notes/eyes-cultnet-contracts.md",
       "title": "Eyes Cultnet Contracts",
       "path": "notes/eyes-cultnet-contracts.md",
@@ -198367,6 +198381,13 @@
       "title": "Substrate Gate Cultnet Contracts",
       "path": "notes/substrate-gate-cultnet-contracts.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/substrate-gate-cultnet-contracts.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:notes/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "notes/verse-service-contract.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/verse-service-contract.md",
       "extension": "md"
     },
     {

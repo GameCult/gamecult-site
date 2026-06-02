@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "StreamPixels",
-  "documentCount": 29,
+  "documentCount": 30,
   "documents": [
     {
       "id": "StreamPixels:.streampixels-local/runtime/node-v24-win-x64/CHANGELOG.md",
@@ -162,6 +162,13 @@
       "title": "Repository Map",
       "path": "docs/repository-map.md",
       "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/repository-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "StreamPixels:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/StreamPixels/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

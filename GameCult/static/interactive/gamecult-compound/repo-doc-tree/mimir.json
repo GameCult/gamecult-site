@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 217,
+  "documentCount": 218,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -883,6 +883,13 @@
       "title": "Fensalir Rendering Rebuild Migration",
       "path": "docs/fensalir-rendering-rebuild-migration.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-rendering-rebuild-migration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/fensalir-reservoir-daemon.md",
+      "title": "Fensalir Reservoir Daemon",
+      "path": "docs/fensalir-reservoir-daemon.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-reservoir-daemon.md",
       "extension": "md"
     },
     {

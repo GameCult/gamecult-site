@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Heimdall",
-  "documentCount": 23,
+  "documentCount": 25,
   "documents": [
     {
       "id": "Heimdall:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -109,6 +109,13 @@
       "extension": "md"
     },
     {
+      "id": "Heimdall:docs/app-profiles/spotiverse.md",
+      "title": "Spotiverse",
+      "path": "docs/app-profiles/spotiverse.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/app-profiles/spotiverse.md",
+      "extension": "md"
+    },
+    {
       "id": "Heimdall:docs/app-profiles/streampixels.md",
       "title": "Streampixels",
       "path": "docs/app-profiles/streampixels.md",
@@ -134,6 +141,13 @@
       "title": "Service Contract",
       "path": "docs/service-contract.md",
       "href": "https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

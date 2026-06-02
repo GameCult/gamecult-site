@@ -1,13 +1,20 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Odin",
-  "documentCount": 2,
+  "documentCount": 3,
   "documents": [
     {
       "id": "Odin:docs/architecture.md",
       "title": "Architecture",
       "path": "docs/architecture.md",
       "href": "https://github.com/GameCult/Odin/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Odin:docs/gjallar.md",
+      "title": "Gjallar",
+      "path": "docs/gjallar.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/docs/gjallar.md",
       "extension": "md"
     },
     {

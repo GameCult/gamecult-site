@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "repixelizer",
-  "documentCount": 62,
+  "documentCount": 63,
   "documents": [
     {
       "id": "repixelizer:.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
@@ -400,6 +400,13 @@
       "title": "Spec",
       "path": "docs/spec.md",
       "href": "https://github.com/GameCult/repixelizer/blob/main/docs/spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

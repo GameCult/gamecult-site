@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Ghostlight",
-  "documentCount": 59,
+  "documentCount": 60,
   "documents": [
     {
       "id": "Ghostlight:AGENTS.md",
@@ -169,6 +169,13 @@
       "title": "Training Plan",
       "path": "docs/architecture/training-plan.md",
       "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/training-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Ghostlight:docs/architecture/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/architecture/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Ghostlight/blob/main/docs/architecture/verse-service-contract.md",
       "extension": "md"
     },
     {

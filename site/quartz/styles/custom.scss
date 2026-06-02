@@ -98,6 +98,12 @@ body {
   backdrop-filter: none;
 }
 
+.page > #quartz-body .left.sidebar:has(.gamecult-overview-sidebar) {
+  position: static;
+  height: auto;
+  min-height: 0;
+}
+
 .page > #quartz-body .center > .page-header {
   margin-top: 2.4rem;
 }
@@ -769,11 +775,11 @@ body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
 }
 
 .gamecult-overview-sidebar {
+  position: static;
   width: 100%;
   align-self: start;
-  max-height: calc(100vh - 3.2rem);
-  overflow: auto;
-  padding-right: 0.2rem;
+  max-height: none;
+  overflow: visible;
 }
 
 .gamecult-overview-sidebar-inner {
@@ -867,7 +873,9 @@ body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
   padding: 0.18rem 0 0.18rem 0.72rem;
   border-left: 2px solid transparent;
   color: rgba(220, 231, 246, 0.84);
+  font-family: "Ubuntu", var(--bodyFont), sans-serif;
   font-size: 0.94rem;
+  font-weight: 300;
   line-height: 1.4;
 }
 

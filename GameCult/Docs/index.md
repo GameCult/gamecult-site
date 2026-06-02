@@ -16,6 +16,7 @@ This section holds the operational side of GameCult: how publishing works, how t
 ## Platform Docs
 
 - [Bifrost](/Docs/Bifrost)
+- [The Eve MultiVerse And The Service Architecture That Refuses To Lie](/Blog/eve-multiverse-service-architecture)
 
 ## Studio Context
 

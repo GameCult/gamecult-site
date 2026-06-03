@@ -1,0 +1,28 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Stonks",
+  "documentCount": 3,
+  "documents": [
+    {
+      "id": "Stonks:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Stonks/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Stonks:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Stonks/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Stonks:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Stonks/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

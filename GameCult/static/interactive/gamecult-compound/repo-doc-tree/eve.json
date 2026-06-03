@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Eve",
-  "documentCount": 20,
+  "documentCount": 21,
   "documents": [
     {
       "id": "Eve:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -120,6 +120,13 @@
       "title": "Eve Multiverse",
       "path": "docs/eve-multiverse.md",
       "href": "https://github.com/GameCult/Eve/blob/main/docs/eve-multiverse.md",
+      "extension": "md"
+    },
+    {
+      "id": "Eve:docs/provider-advertisement-contract.md",
+      "title": "Provider Advertisement Contract",
+      "path": "docs/provider-advertisement-contract.md",
+      "href": "https://github.com/GameCult/Eve/blob/main/docs/provider-advertisement-contract.md",
       "extension": "md"
     },
     {

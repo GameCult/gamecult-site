@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "weksa",
-  "documentCount": 50,
+  "documentCount": 51,
   "documents": [
     {
       "id": "weksa:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -190,6 +190,13 @@
       "title": "Utterance Embedding",
       "path": "docs/utterance-embedding.md",
       "href": "https://github.com/GameCult/weksa/blob/main/docs/utterance-embedding.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

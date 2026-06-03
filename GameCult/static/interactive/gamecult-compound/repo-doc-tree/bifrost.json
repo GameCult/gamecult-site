@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Bifrost",
-  "documentCount": 38,
+  "documentCount": 39,
   "documents": [
     {
       "id": "Bifrost:.bifrost/agent-dispatch/req_11d2c7f2-85c6-44ea-9e89-ec7fe0ab5db9/prompt.md",
@@ -232,6 +232,13 @@
       "title": "Jurisdiction Map",
       "path": "docs/jurisdiction-map.md",
       "href": "https://github.com/GameCult/Bifrost/blob/main/docs/jurisdiction-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Bifrost:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Bifrost/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

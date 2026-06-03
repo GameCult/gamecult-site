@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 218,
+  "documentCount": 219,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -1044,6 +1044,13 @@
       "title": "Typed Visual State",
       "path": "docs/typed-visual-state.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/typed-visual-state.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

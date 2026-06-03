@@ -1,8 +1,8 @@
 {
   "schema": "gamecult.vn.repoDocTree.v1",
   "sourceRoot": "E:\\Projects",
-  "repoCount": 43,
-  "documentCount": 48811,
+  "repoCount": 44,
+  "documentCount": 49434,
   "repos": [
     {
       "name": "_vg_csg_history_full",
@@ -26,7 +26,7 @@
     },
     {
       "name": "AquaSynth",
-      "documentCount": 3208,
+      "documentCount": 3209,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/aquasynth.json"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
       "name": "Bifrost",
-      "documentCount": 38,
+      "documentCount": 39,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/bifrost.json"
     },
     {
       "name": "bokusho",
-      "documentCount": 4,
+      "documentCount": 14,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/bokusho.json"
     },
     {
@@ -81,7 +81,7 @@
     },
     {
       "name": "EpiphanyAgent",
-      "documentCount": 28495,
+      "documentCount": 28498,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyagent.json"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "name": "Eve",
-      "documentCount": 20,
+      "documentCount": 21,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/eve.json"
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "name": "gamecult-ops",
-      "documentCount": 25,
+      "documentCount": 26,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/gamecult-ops.json"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "name": "Mimir",
-      "documentCount": 218,
+      "documentCount": 219,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/mimir.json"
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "name": "repixelizer",
-      "documentCount": 63,
+      "documentCount": 64,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/repixelizer.json"
     },
     {
@@ -191,8 +191,13 @@
     },
     {
       "name": "Spotiverse",
-      "documentCount": 3,
+      "documentCount": 4,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/spotiverse.json"
+    },
+    {
+      "name": "Stonks",
+      "documentCount": 3,
+      "src": "/static/interactive/gamecult-compound/repo-doc-tree/stonks.json"
     },
     {
       "name": "StreamPixels",
@@ -211,12 +216,12 @@
     },
     {
       "name": "VoidBot",
-      "documentCount": 13319,
+      "documentCount": 13918,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/voidbot.json"
     },
     {
       "name": "weksa",
-      "documentCount": 50,
+      "documentCount": 51,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/weksa.json"
     }
   ],

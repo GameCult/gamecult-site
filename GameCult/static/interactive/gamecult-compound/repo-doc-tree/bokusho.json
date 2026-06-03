@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "bokusho",
-  "documentCount": 4,
+  "documentCount": 14,
   "documents": [
     {
       "id": "bokusho:AGENTS.md",
@@ -29,6 +29,76 @@
       "title": ".",
       "path": "README.md",
       "href": "https://github.com/GameCult/bokusho/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-brush-dynamics-modeling-eyes-001/distillation.md",
+      "title": "Distillation",
+      "path": "Research/20260603-brush-dynamics-modeling-eyes-001/distillation.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-brush-dynamics-modeling-eyes-001/distillation.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-brush-dynamics-modeling-eyes-001/posture-data-notes.md",
+      "title": "Posture Data Notes",
+      "path": "Research/20260603-brush-dynamics-modeling-eyes-001/posture-data-notes.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-brush-dynamics-modeling-eyes-001/posture-data-notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-brush-dynamics-modeling-eyes-001/sources.md",
+      "title": "Sources",
+      "path": "Research/20260603-brush-dynamics-modeling-eyes-001/sources.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-brush-dynamics-modeling-eyes-001/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-brush-holding-historical-eyes-001/distillation.md",
+      "title": "Distillation",
+      "path": "Research/20260603-brush-holding-historical-eyes-001/distillation.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-brush-holding-historical-eyes-001/distillation.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-brush-holding-historical-eyes-001/sources.md",
+      "title": "Sources",
+      "path": "Research/20260603-brush-holding-historical-eyes-001/sources.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-brush-holding-historical-eyes-001/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-calligraphic-technique-eyes-001/distillation.md",
+      "title": "Distillation",
+      "path": "Research/20260603-calligraphic-technique-eyes-001/distillation.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-calligraphic-technique-eyes-001/distillation.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-calligraphic-technique-eyes-001/sources.md",
+      "title": "Sources",
+      "path": "Research/20260603-calligraphic-technique-eyes-001/sources.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-calligraphic-technique-eyes-001/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-youtube-xkcd-color-eyes-001/distillation.md",
+      "title": "Distillation",
+      "path": "Research/20260603-youtube-xkcd-color-eyes-001/distillation.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-youtube-xkcd-color-eyes-001/distillation.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-youtube-xkcd-color-eyes-001/sources.md",
+      "title": "Sources",
+      "path": "Research/20260603-youtube-xkcd-color-eyes-001/sources.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-youtube-xkcd-color-eyes-001/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:Research/20260603-youtube-xkcd-color-eyes-001/xkcd-color-survey-results.blog.notes.md",
+      "title": "Xkcd Color Survey Results.Blog.Notes",
+      "path": "Research/20260603-youtube-xkcd-color-eyes-001/xkcd-color-survey-results.blog.notes.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-youtube-xkcd-color-eyes-001/xkcd-color-survey-results.blog.notes.md",
       "extension": "md"
     }
   ]

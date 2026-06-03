@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Spotiverse",
-  "documentCount": 3,
+  "documentCount": 4,
   "documents": [
     {
       "id": "Spotiverse:AGENTS.md",
@@ -15,6 +15,13 @@
       "title": "Architecture",
       "path": "docs/architecture.md",
       "href": "https://github.com/GameCult/Spotiverse/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Spotiverse:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Spotiverse/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

@@ -1,13 +1,20 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-ops",
-  "documentCount": 25,
+  "documentCount": 26,
   "documents": [
     {
       "id": "gamecult-ops:AGENTS.md",
       "title": "AGENTS",
       "path": "AGENTS.md",
       "href": "https://github.com/GameCult/gamecult-ops/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:docs/eve-crusade-coordination.md",
+      "title": "Eve Crusade Coordination",
+      "path": "docs/eve-crusade-coordination.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/docs/eve-crusade-coordination.md",
       "extension": "md"
     },
     {

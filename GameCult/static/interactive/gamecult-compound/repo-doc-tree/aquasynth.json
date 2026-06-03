@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "AquaSynth",
-  "documentCount": 3208,
+  "documentCount": 3209,
   "documents": [
     {
       "id": "AquaSynth:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -22184,6 +22184,13 @@
       "title": "Utterance Parity Research",
       "path": "docs/utterance-parity-research.md",
       "href": "https://github.com/GameCult/AquaSynth/blob/main/docs/utterance-parity-research.md",
+      "extension": "md"
+    },
+    {
+      "id": "AquaSynth:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/AquaSynth/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "repixelizer",
-  "documentCount": 63,
+  "documentCount": 64,
   "documents": [
     {
       "id": "repixelizer:.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
@@ -386,6 +386,13 @@
       "title": "Repixelizer Hosted Access Profile",
       "path": "docs/repixelizer-hosted-access-profile.md",
       "href": "https://github.com/GameCult/repixelizer/blob/main/docs/repixelizer-hosted-access-profile.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/repixelizer-witness-contract.md",
+      "title": "Repixelizer Witness Contract",
+      "path": "docs/repixelizer-witness-contract.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/repixelizer-witness-contract.md",
       "extension": "md"
     },
     {

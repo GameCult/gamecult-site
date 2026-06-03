@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "EpiphanyAgent",
-  "documentCount": 28495,
+  "documentCount": 28498,
   "documents": [
     {
       "id": "EpiphanyAgent:.epiphany-dogfood/aetheria-supervised/codex-home/.tmp/plugins/.agents/skills/plugin-creator/references/plugin-json-spec.md",
@@ -86906,6 +86906,27 @@
       "title": "Local 20260602 142133",
       "path": ".epiphany-run/local-20260602-142133/README.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260602-142133/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260603-001205/README.md",
+      "title": "Local 20260603 001205",
+      "path": ".epiphany-run/local-20260603-001205/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260603-001205/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260603-001425/README.md",
+      "title": "Local 20260603 001425",
+      "path": ".epiphany-run/local-20260603-001425/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260603-001425/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260603-001527/README.md",
+      "title": "Local 20260603 001527",
+      "path": ".epiphany-run/local-20260603-001527/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260603-001527/README.md",
       "extension": "md"
     },
     {

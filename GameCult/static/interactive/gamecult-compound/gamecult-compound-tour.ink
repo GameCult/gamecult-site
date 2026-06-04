@@ -23,6 +23,7 @@ VAR visited_count = 0
 # speaker: Void
 # avatar: void
 # scene: compound
+# knot: front_gate
 # sprite: welcome@left
 # dom: studio
 Welcome to GameCult: an open game studio building strange worlds, public tools, and the receipts needed to make creative work inspectable.
@@ -32,6 +33,7 @@ Welcome to GameCult: an open game studio building strange worlds, public tools, 
 # speaker: Void
 # avatar: void
 # scene: compound
+# knot: front_gate
 # sprite: document@left
 # dom: studio,projects
 I am Void, your guide for the front compound. The rooms are project doors, topic rooms, repo desks, setting vaults, tool benches, blog lanes, and docs shelves. Every friendly path still points back to the canonical page. Charm is allowed. Hiding the documents is not.

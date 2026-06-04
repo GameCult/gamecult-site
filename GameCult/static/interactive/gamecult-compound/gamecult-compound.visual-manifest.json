@@ -13,6 +13,13 @@
     "edge_length": 192,
     "nodes": [
       {
+        "id": "front_gate",
+        "label": "Front Gate",
+        "target": "welcome",
+        "core": true,
+        "weight": 1.35
+      },
+      {
         "id": "hub",
         "label": "Hub",
         "target": "hub",
@@ -492,6 +499,10 @@
       }
     ],
     "edges": [
+      {
+        "source": "front_gate",
+        "target": "hub"
+      },
       {
         "source": "hub",
         "target": "norn"

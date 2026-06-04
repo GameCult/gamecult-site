@@ -1284,6 +1284,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .gamecult-compound-vn .sai-dom-layer {
+  z-index: 5;
   inset: 3.6rem 1rem 9.2rem calc(min(72rem, 64vw) + 2rem);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
 }

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "bokusho",
-  "documentCount": 14,
+  "documentCount": 15,
   "documents": [
     {
       "id": "bokusho:AGENTS.md",
@@ -15,6 +15,13 @@
       "title": "Architecture",
       "path": "docs/architecture.md",
       "href": "https://github.com/GameCult/bokusho/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:docs/brush-dynamics-plan.md",
+      "title": "Brush Dynamics Plan",
+      "path": "docs/brush-dynamics-plan.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/docs/brush-dynamics-plan.md",
       "extension": "md"
     },
     {

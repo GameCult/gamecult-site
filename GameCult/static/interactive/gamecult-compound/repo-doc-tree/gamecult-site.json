@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 90,
+  "documentCount": 91,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -274,6 +274,13 @@
       "title": "Aquasynth Weksa Vocal Tract",
       "path": "GameCult/Blog/aquasynth-weksa-vocal-tract.md",
       "href": "/Blog/aquasynth-weksa-vocal-tract",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/bokusho-and-the-brush-that-has-to-be-aimed.md",
+      "title": "Bokusho And The Brush That Has To Be Aimed",
+      "path": "GameCult/Blog/bokusho-and-the-brush-that-has-to-be-aimed.md",
+      "href": "/Blog/bokusho-and-the-brush-that-has-to-be-aimed",
       "extension": "md"
     },
     {

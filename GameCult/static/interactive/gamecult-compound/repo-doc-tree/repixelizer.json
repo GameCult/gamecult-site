@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "repixelizer",
-  "documentCount": 64,
+  "documentCount": 65,
   "documents": [
     {
       "id": "repixelizer:.venv/Lib/site-packages/click-8.3.3.dist-info/licenses/LICENSE.txt",
@@ -351,6 +351,13 @@
       "title": "Findings",
       "path": "artifacts/supervised-tuning-20260429/findings.md",
       "href": "https://github.com/GameCult/repixelizer/blob/main/artifacts/supervised-tuning-20260429/findings.md",
+      "extension": "md"
+    },
+    {
+      "id": "repixelizer:docs/eve-surface-lowering.md",
+      "title": "Eve Surface Lowering",
+      "path": "docs/eve-surface-lowering.md",
+      "href": "https://github.com/GameCult/repixelizer/blob/main/docs/eve-surface-lowering.md",
       "extension": "md"
     },
     {

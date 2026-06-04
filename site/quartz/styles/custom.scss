@@ -1314,11 +1314,19 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 .gamecult-compound-vn .sai-speaker-card {
   left: 256px;
+  width: auto;
+  max-width: calc(100% - 256px);
   border-top-color: rgba(89, 183, 255, 0.18);
   grid-template-columns: minmax(0, 1fr);
   background:
     linear-gradient(135deg, rgba(5, 8, 13, 0.92), rgba(9, 14, 22, 0.82)),
     linear-gradient(90deg, rgba(89, 183, 255, 0.04), rgba(255, 138, 42, 0.04));
+}
+
+.gamecult-compound-vn .sai-speaker-body,
+.gamecult-compound-vn .sai-speaker-line {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .gamecult-compound-vn .sai-speaker-avatar-shell {
@@ -1353,6 +1361,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 @media (max-width: 760px) {
   .gamecult-compound-vn .sai-speaker-card {
     left: 128px;
+    max-width: calc(100% - 128px);
   }
 
   .gamecult-compound-vn .sai-speaker-avatar-shell {

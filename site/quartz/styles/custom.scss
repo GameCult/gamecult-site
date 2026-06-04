@@ -1273,19 +1273,21 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .gamecult-compound-vn .sai-graph-layer {
-  inset: 3.6rem auto 9.2rem 1rem;
-  width: min(72rem, 64vw);
+  top: 3.6rem;
+  left: 1rem;
+  width: min(24rem, 28vw);
+  height: min(15rem, 32vh);
   z-index: 4;
 }
 
 .gamecult-compound-vn .sai-graph-layer svg {
   width: 100%;
-  height: min(36rem, 64vh);
+  height: 100%;
 }
 
 .gamecult-compound-vn .sai-dom-layer {
   z-index: 5;
-  inset: 3.6rem 1rem 9.2rem calc(min(72rem, 64vw) + 2rem);
+  inset: 3.6rem 1rem 9.2rem calc(min(24rem, 28vw) + 1rem);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
 }
 
@@ -1345,17 +1347,14 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 @media (max-width: 960px) {
   .gamecult-compound-vn .sai-graph-layer {
-    inset: 3.2rem 0.75rem auto;
-    width: auto;
-  }
-
-  .gamecult-compound-vn .sai-graph-layer svg {
-    width: 100%;
-    height: min(18rem, 34vh);
+    top: 3.2rem;
+    left: 0.75rem;
+    width: min(18rem, calc(100% - 1.5rem));
+    height: min(11rem, 28vh);
   }
 
   .gamecult-compound-vn .sai-dom-layer {
-    inset: calc(3.2rem + min(18rem, 34vh) + 0.75rem) 0.75rem 9rem;
+    inset: calc(3.2rem + min(11rem, 28vh) + 0.75rem) 0.75rem 9rem;
   }
 }
 

@@ -76,7 +76,7 @@ That is not safety. That is drowning in isolation with a nice profile picture.
 
 GameCult has always been my weird attempt to fight that. I did not understand it clearly at first. I thought I was building a game studio, then an open-source game studio, then a cooperative art machine, then a worldbuilding engine, then an agentic cognition lab. All of that is true, annoyingly. Apparently I ask for a lot.
 
-The more ordinary version is that I wanted to make meaningful, enjoyable games and create opportunities for people who do not fit neatly into the mainstream games industry. We very much intend to get paid. Money is useful. Money is rent and tools and less heroic self-destruction. But money was never the point. It was always supposed to be a side effect of making a place where strange people could do real work together.
+The more ordinary version is that I wanted to make meaningful, enjoyable games and create opportunities for people who do not fit neatly into the mainstream games industry. We very much intend to get paid. Money is useful. Money is rent, tools, food, medicine, housing, internet, and less heroic self-destruction. The dream was never poverty with better branding. The dream was to prove that strange people can create more value when they are supported than when they are dominated, managed, extracted, or left to burn themselves into useful ash.
 
 Underneath it, I think I was trying to build a place where minds could meet without being destroyed by the meeting.
 
@@ -87,6 +87,14 @@ So let me drag it back down to earth.
 Aetheria broke me.
 
 I do not mean that poetically. After the disastrous push around 2021, after the conferences and pitches and the slow realization that I could neither build the impossible thing alone nor raise the money required to make other people believe in it, I was ready to kill myself. I had built too much of my identity around the idea that if I could just make the vision legible, people would come. The world would see it. The right minds would connect. The work would become real.
+
+The worst part is that I was not only trying to sell a game. I was trying to explain a way of working that did not fit the room I had entered. We had built something open, strange, cooperative, and alive, and the industry kept asking the questions industry knows how to ask. Who owns the IP? What can be exclusively licensed? Where is the defensible asset? How does this become a normal company with normal leverage over normal people?
+
+But the thing I wanted to build was never only a product. It was a refuge with tools. A place where neurodivergent artists, programmers, writers, musicians, and damaged little miracle-workers could have food, housing, medicine, internet, collaborators, and the infrastructure to make beautiful things without being squeezed into obedience first.
+
+I could not say that cleanly. Not in pitch rooms. Not without sounding like a con artist or a child or a prophet, all three of which are ways a woman with too much intensity can be dismissed before the sentence finishes. So I kept translating the dream into safer language until the translation started eating me.
+
+That is part of what broke me. Not only failure. Translation failure. The feeling that the thing I loved could only enter the world by pretending to be something smaller, meaner, and more ownable than it was.
 
 Then reality answered: no.
 
@@ -223,3 +231,17 @@ Not as a threat.
 As anatomy.
 
 Love is how the Colossus wakes.
+
+## Postscript
+
+Sharing this has already hurt in exactly the way the essay describes.
+
+The public internet has an immune system, and for good reason. It is drowning in spam, ads, fraud, AI glue, clout, bait, and people laundering need through performance. But that same immune system also rejects sincere attempts to reach out before they can become legible. A wounded person offering signal looks, at interface distance, a lot like a promoter offering content.
+
+That does not make the essay less true. It makes the problem less abstract.
+
+If you have read this far, you may understand why I am asking for something small and human: if this essay made someone come to mind, please show it to them. Not as content to consume, not as a pitch, not as a recruitment funnel. As a conversation you might have together.
+
+I am not trying to sell anything here. I am trying to be understood, and to help other people find language for something they may also have been carrying alone.
+
+Love only wakes the Colossus if the signal crosses.

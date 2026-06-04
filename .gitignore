@@ -25,6 +25,10 @@ Thumbs.db
 /.quartz-build/
 /quartz-site/node_modules/
 /quartz-site/public/
+/quartz-site/public-*/
 /quartz-site/.quartz-cache/
 /quartz-site/tsconfig.tsbuildinfo
-/.quartz-build-tmp
+/quartz-site/*.log
+/quartz-site/playwright-report/
+/quartz-site/test-results/
+/.quartz-build*

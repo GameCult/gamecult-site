@@ -116,20 +116,24 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     linear-gradient(180deg, #07090d, #0c1018 42%, #080a0f);
 
   .page > #quartz-body {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 280px;
     grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
+      "grid-header grid-sidebar-right"
+      "grid-center grid-sidebar-right"
+      "grid-footer grid-sidebar-right";
   }
 
-  .page > #quartz-body > .left.sidebar,
-  .page > #quartz-body > .right.sidebar {
+  .page > #quartz-body > .left.sidebar {
     display: none;
   }
 
+  .page > #quartz-body > .right.sidebar {
+    display: block;
+    padding-top: 2rem;
+  }
+
   .page > #quartz-body .center {
-    max-width: 1060px;
+    max-width: 1180px;
     margin: 0 auto;
   }
 
@@ -139,7 +143,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
 
   .page > #quartz-body .center > article {
     position: relative;
-    max-width: 920px;
+    max-width: 1080px;
     margin: 2rem auto 4rem;
     padding: clamp(1.6rem, 4vw, 4.2rem);
     color: var(--ritual-paper-ink);
@@ -156,6 +160,41 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.04rem;
     line-height: 1.72;
+  }
+
+  .page > #quartz-body > .right.sidebar .toc {
+    position: sticky;
+    top: 1.2rem;
+    max-height: calc(100vh - 2.4rem);
+    padding: 0.95rem 1rem;
+    overflow: auto;
+    border: 1px solid rgba(174, 189, 210, 0.18);
+    border-radius: 8px;
+    background:
+      linear-gradient(180deg, rgba(16, 20, 29, 0.96), rgba(9, 12, 18, 0.94));
+    box-shadow:
+      0 24px 58px rgba(0, 0, 0, 0.36),
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .page > #quartz-body > .right.sidebar .toc h3 {
+    color: rgba(232, 237, 244, 0.92);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+  }
+
+  .page > #quartz-body > .right.sidebar .toc a {
+    color: rgba(232, 237, 244, 0.72);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
+  .page > #quartz-body > .right.sidebar .toc a:hover,
+  .page > #quartz-body > .right.sidebar .toc a.in-view {
+    color: var(--ritual-paper-blue);
   }
 
   .page > #quartz-body .center > article::before {
@@ -409,7 +448,52 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     background: rgba(5, 9, 15, 0.7);
   }
 
+  @media all and (min-width: 1120px) {
+    .page > #quartz-body .center > article {
+      column-count: 2;
+      column-gap: 2.6rem;
+      column-rule: 1px solid rgba(174, 189, 210, 0.16);
+    }
+
+    article > h1,
+    .ritual-paper-titleblock,
+    .ritual-paper-keyline,
+    article > h2,
+    .ritual-paper-abstract,
+    .ritual-paper-method-card,
+    .ritual-paper-results-strip,
+    .gamecult-media-card,
+    .katex-display {
+      column-span: all;
+    }
+
+    article > h3,
+    article blockquote,
+    article table,
+    article ol,
+    article ul {
+      break-inside: avoid;
+    }
+
+    article > h3 {
+      break-after: avoid;
+    }
+  }
+
   @media all and (max-width: 760px) {
+    .page > #quartz-body {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas:
+        "grid-header"
+        "grid-center"
+        "grid-sidebar-right"
+        "grid-footer";
+    }
+
+    .page > #quartz-body > .right.sidebar {
+      display: none;
+    }
+
     .page > #quartz-body .center > article {
       margin-top: 0.8rem;
       padding: 1.25rem;

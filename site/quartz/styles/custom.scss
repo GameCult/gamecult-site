@@ -98,6 +98,347 @@ body {
   backdrop-filter: none;
 }
 
+body[data-slug="Blog/small-ritual-of-reach"] {
+  --ritual-paper-bg: #090b10;
+  --ritual-paper-sheet: #10141d;
+  --ritual-paper-sheet-2: #141923;
+  --ritual-paper-ink: #e8edf4;
+  --ritual-paper-muted: #a9b2c3;
+  --ritual-paper-faint: #738093;
+  --ritual-paper-rule: rgba(174, 189, 210, 0.22);
+  --ritual-paper-blue: #7eb7ff;
+  --ritual-paper-green: #86d4aa;
+  --ritual-paper-gold: #e5bd73;
+
+  background:
+    radial-gradient(circle at 18% 4%, rgba(126, 183, 255, 0.09), transparent 28rem),
+    radial-gradient(circle at 84% 18%, rgba(229, 189, 115, 0.07), transparent 26rem),
+    linear-gradient(180deg, #07090d, #0c1018 42%, #080a0f);
+
+  .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+  }
+
+  .page > #quartz-body > .left.sidebar,
+  .page > #quartz-body > .right.sidebar {
+    display: none;
+  }
+
+  .page > #quartz-body .center {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  .page > #quartz-body .center > .page-header > .popover-hint {
+    display: none;
+  }
+
+  .page > #quartz-body .center > article {
+    position: relative;
+    max-width: 920px;
+    margin: 2rem auto 4rem;
+    padding: clamp(1.6rem, 4vw, 4.2rem);
+    color: var(--ritual-paper-ink);
+    border: 1px solid rgba(174, 189, 210, 0.2);
+    border-radius: 8px;
+    background:
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(180deg, var(--ritual-paper-sheet), var(--ritual-paper-sheet-2));
+    background-size: 32px 32px, auto;
+    box-shadow:
+      0 34px 90px rgba(0, 0, 0, 0.46),
+      0 0 0 1px rgba(255, 255, 255, 0.03) inset,
+      0 1px 0 rgba(255, 255, 255, 0.06) inset;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.04rem;
+    line-height: 1.72;
+  }
+
+  .page > #quartz-body .center > article::before {
+    content: "PREPRINT";
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.24rem 0.55rem;
+    color: rgba(229, 189, 115, 0.86);
+    border: 1px solid rgba(229, 189, 115, 0.28);
+    border-radius: 999px;
+    background: rgba(229, 189, 115, 0.06);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+  }
+
+  article > h1 {
+    max-width: 760px;
+    margin: 0 auto 0.55rem;
+    color: #f5f8fc;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.35rem, 5vw, 4.1rem);
+    font-weight: 600;
+    line-height: 1.02;
+    text-align: center;
+    letter-spacing: 0;
+  }
+
+  .ritual-paper-titleblock {
+    max-width: 760px;
+    margin: 0 auto 1.2rem;
+    text-align: center;
+  }
+
+  .ritual-paper-titleblock p {
+    margin: 0.35rem 0;
+  }
+
+  .ritual-paper-series,
+  .ritual-paper-note {
+    color: var(--ritual-paper-faint);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .ritual-paper-subtitle {
+    color: rgba(232, 237, 244, 0.9);
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+
+  .ritual-paper-author {
+    color: var(--ritual-paper-muted);
+    font-size: 0.92rem;
+  }
+
+  .ritual-paper-note {
+    margin-top: 0.85rem !important;
+    text-transform: none;
+    letter-spacing: 0.02em;
+  }
+
+  .ritual-paper-keyline {
+    width: min(34rem, 72%);
+    height: 1px;
+    margin: 1.4rem auto 2.2rem;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(126, 183, 255, 0.52),
+      rgba(229, 189, 115, 0.42),
+      transparent
+    );
+  }
+
+  article > h2,
+  article > h3 {
+    color: #f2f5fa;
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: 0;
+  }
+
+  article > h2 {
+    margin-top: 3.1rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ritual-paper-rule);
+    font-size: 1.48rem;
+    font-weight: 600;
+  }
+
+  article > h2#abstract {
+    margin-top: 1.3rem;
+  }
+
+  article > h3 {
+    margin-top: 2.1rem;
+    color: rgba(232, 237, 244, 0.92);
+    font-size: 1.13rem;
+    font-weight: 600;
+  }
+
+  article p,
+  article li {
+    color: rgba(232, 237, 244, 0.88);
+  }
+
+  article a {
+    color: var(--ritual-paper-blue);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+  }
+
+  article strong {
+    color: #f7f9fd;
+  }
+
+  article code {
+    color: #d5f4ff;
+    border: 1px solid rgba(126, 183, 255, 0.18);
+    border-radius: 4px;
+    background: rgba(6, 10, 16, 0.7);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+  }
+
+  article blockquote {
+    position: relative;
+    margin: 1.35rem 0;
+    padding: 1rem 1.2rem 1rem 1.35rem;
+    border: 1px solid rgba(126, 183, 255, 0.17);
+    border-left: 0.22rem solid rgba(126, 183, 255, 0.72);
+    border-radius: 6px;
+    background: rgba(7, 12, 19, 0.62);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  }
+
+  article blockquote::before {
+    content: "quoted protocol";
+    position: absolute;
+    top: -0.62rem;
+    left: 0.95rem;
+    padding: 0 0.35rem;
+    color: var(--ritual-paper-faint);
+    background: var(--ritual-paper-sheet);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  article blockquote p {
+    margin: 0.35rem 0;
+    color: rgba(232, 237, 244, 0.92);
+  }
+
+  article ul,
+  article ol {
+    padding-left: 1.45rem;
+  }
+
+  article li::marker {
+    color: var(--ritual-paper-gold);
+  }
+
+  .ritual-paper-abstract {
+    margin: 0.9rem 0 2rem;
+    padding: 1.2rem 1.35rem;
+    border: 1px solid rgba(134, 212, 170, 0.2);
+    border-radius: 6px;
+    background:
+      linear-gradient(180deg, rgba(134, 212, 170, 0.07), rgba(126, 183, 255, 0.035)),
+      rgba(7, 12, 19, 0.56);
+  }
+
+  .ritual-paper-abstract p {
+    font-size: 0.98rem;
+    line-height: 1.66;
+  }
+
+  .ritual-paper-method-card,
+  .ritual-paper-results-strip {
+    margin: 1.35rem 0;
+    border: 1px solid rgba(229, 189, 115, 0.24);
+    border-radius: 6px;
+    background: rgba(229, 189, 115, 0.055);
+  }
+
+  .ritual-paper-method-card {
+    padding: 1rem 1.1rem;
+  }
+
+  .ritual-paper-method-card p {
+    margin: 0.4rem 0;
+  }
+
+  .ritual-paper-results-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
+    overflow: hidden;
+  }
+
+  .ritual-paper-results-strip span {
+    padding: 0.85rem 0.65rem;
+    color: rgba(232, 237, 244, 0.88);
+    border-right: 1px solid rgba(229, 189, 115, 0.18);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.76rem;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  .ritual-paper-results-strip span:last-child {
+    border-right: 0;
+  }
+
+  .gamecult-media-card {
+    margin: 1.7rem 0 2rem;
+    padding: 0.85rem;
+    border: 1px solid rgba(174, 189, 210, 0.2);
+    border-radius: 6px;
+    background: rgba(5, 8, 13, 0.72);
+    box-shadow:
+      0 18px 42px rgba(0, 0, 0, 0.32),
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .gamecult-media-card img {
+    aspect-ratio: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    border-color: rgba(174, 189, 210, 0.18);
+    background: #121018;
+  }
+
+  .gamecult-media-card figcaption {
+    color: rgba(232, 237, 244, 0.74);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.74rem;
+    line-height: 1.55;
+  }
+
+  .katex-display {
+    margin: 1.15rem 0;
+    padding: 0.8rem 1rem;
+    overflow-x: auto;
+    border: 1px solid rgba(126, 183, 255, 0.14);
+    border-radius: 6px;
+    background: rgba(5, 9, 15, 0.7);
+  }
+
+  @media all and (max-width: 760px) {
+    .page > #quartz-body .center > article {
+      margin-top: 0.8rem;
+      padding: 1.25rem;
+      border-radius: 0;
+      font-size: 0.98rem;
+    }
+
+    .page > #quartz-body .center > article::before {
+      position: static;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    article > h1,
+    .ritual-paper-titleblock {
+      text-align: left;
+    }
+
+    .ritual-paper-keyline {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .ritual-paper-results-strip {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+}
+
 .page > #quartz-body .left.sidebar:has(.gamecult-overview-sidebar) {
   position: static;
   height: auto;

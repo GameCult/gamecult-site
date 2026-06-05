@@ -15,7 +15,18 @@ socialDeck: "A prepared Face makes a bounded request. Then the living person beh
 
 # The Small Ritual Of Reach
 
+<div class="ritual-paper-titleblock">
+  <p class="ritual-paper-series">GameCult Working Paper GC-SOCIAL-2026-06-05</p>
+  <p class="ritual-paper-subtitle">A Half-Satirical Structured Meta-Analysis Of One Tiny Outreach Message</p>
+  <p class="ritual-paper-author">Metacrat · Department of Overthinking The Obvious · Cult of the Sleeping Colossus</p>
+  <p class="ritual-paper-note">Preprint. Not peer reviewed, unless the peer is a Discord friend saying "lol, yeah, that's exactly how people work."</p>
+</div>
+
+<div class="ritual-paper-keyline" aria-hidden="true"></div>
+
 ## Abstract
+
+<div class="ritual-paper-abstract">
 
 I attempted to share one (1) personal essay about love, isolation, mental illness, AI agents, masks, and the increasingly non-optional problem of building a species-scale nervous system without turning everyone into content slurry.
 
@@ -32,6 +43,8 @@ After an overqualified investigation involving compliance psychology, self-discl
 The second message is not decoration. It is the ritual hinge.
 
 This paper-shaped blog post reports the findings with an amount of formality that is, frankly, medically concerning.
+
+</div>
 
 ## 1. Problem Statement
 
@@ -127,6 +140,11 @@ This is the moment where the bit becomes load-bearing. A ten-page paper with twe
 
 ### 4.3 Toy Dataset
 
+<div class="ritual-paper-method-card">
+  <p><strong>Dataset note.</strong> The figures below are seeded toy/simulation data. They are relevant enough to illuminate the social mechanics and fake enough to keep the Institutional Review Board asleep in its enclosure.</p>
+  <p><strong>Simulation seed:</strong> <code>20260605</code>. <strong>Trials:</strong> 6 outreach surfaces × 42 simulated trials. <strong>Primary dependent variable:</strong> whether the tiny social ritual escaped the content grinder with its dignity mostly attached.</p>
+</div>
+
 The figures below use a seeded toy simulation, not secret human-subjects research. The dataset is random but relevant: six outreach surfaces, forty-two simulated trials each, and variables based on the actual mechanisms under discussion.
 
 The data file is public here, because if I am going to fake a tiny dataset for a joke I am at least going to fake it reproducibly:
@@ -149,6 +167,13 @@ Do not cite this in court. Do cite it at parties if the party is already unsalva
   <img src="/static/interactive/small-ritual-of-reach/figure-3-spam-risk-connection-yield.svg" alt="Toy scatter chart of spam misclassification risk versus connection yield." />
   <figcaption>Figure 3. Public feeds have high spam-risk and low connection-yield. Warm direct messages occupy the "maybe a human can survive here" quadrant.</figcaption>
 </figure>
+
+<div class="ritual-paper-results-strip">
+  <span><strong>n</strong> = me</span>
+  <span><strong>figures</strong> = 3</span>
+  <span><strong>citations</strong> = 26</span>
+  <span><strong>social media posts explained</strong> = 1</span>
+</div>
 
 ## 5. Results
 
@@ -483,4 +508,3 @@ Not because autistic people are the only ones doing social machinery. Everyone i
 24. Tomasz Witkowski, ["Thirty-Five Years of Research on Neuro-Linguistic Programming"](https://www.researchgate.net/publication/228998967_Thirty-Five_Years_of_Research_on_Neuro-Linguistic_Programming_NLP_Research_Data_Base_State_of_the_Art_or_Pseudoscientifc_Decoration), 2010.
 25. Eliezer Yudkowsky, [*Harry Potter and the Methods of Rationality*, Chapter 7: "Reciprocation"](https://hpmor.com/chapter/7).
 26. Jamil Zaki and W. Craig Williams, ["Interpersonal Emotion Regulation"](https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c48d621cd8366102833e53c/1548277282864/zaki.williams.2013.pdf), 2013.
-

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 91,
+  "documentCount": 92,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -44,6 +44,13 @@
       "path": "docs/gamecult-quartz-extraction-plan.md",
       "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/gamecult-quartz-extraction-plan.md",
       "extension": "md"
+    },
+    {
+      "id": "gamecult-site:docs/gamecult-repo-swarm-organ-atlas.tex",
+      "title": "Gamecult Repo Swarm Organ Atlas",
+      "path": "docs/gamecult-repo-swarm-organ-atlas.tex",
+      "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/gamecult-repo-swarm-organ-atlas.tex",
+      "extension": "tex"
     },
     {
       "id": "gamecult-site:docs/portfolio-dossier/chapters/00-void-thesis.tex",

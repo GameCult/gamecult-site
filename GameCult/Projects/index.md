@@ -1,34 +1,30 @@
 ---
 title: Projects
-description: "The public GameCult repo atlas: experiments, site infrastructure, agent runtimes, shared libraries, and the projects that still have a live argument to make."
-socialDeck: "The repos that still justify explaining themselves in public."
+description: "The GameCult repo swarm as an organ hierarchy: harnesses, live precursors, substrate protocols, Verse sight, daemon surfaces, language, voice, creator tools, games, worlds, and publishing machinery."
+socialDeck: "Every current organ in the swarm, grouped by what it owns and what it feeds."
 sidebarGroups:
-  - title: Games and Worlds
-    links:
-      - label: CultPong
-        slug: ./CultPong
-  - title: Studio Systems
-    links:
-      - label: Heimdall
-        slug: ./Heimdall
-  - title: Shared Code
-    links:
-      - label: CultLib
-        slug: ./CultLib
-      - label: epiphany-graph-rs
-        slug: ./epiphany-graph-rs
-  - title: Agents and Interfaces
+  - title: Core Harness and Agents
     links:
       - label: Epiphany
         slug: ./Epiphany
-      - label: EpiphanyAquarium
-        slug: ./EpiphanyAquarium
-      - label: Ghostlight
-        slug: ./Ghostlight
       - label: VoidBot
         slug: ./VoidBot
-  - title: Visual Labs
+      - label: Ghostlight
+        slug: ./Ghostlight
+      - label: EpiphanyAquarium
+        slug: ./EpiphanyAquarium
+  - title: Substrate and Sight
     links:
+      - label: CultLib
+        slug: ./CultLib
+      - label: Heimdall
+        slug: ./Heimdall
+      - label: epiphany-graph-rs
+        slug: ./epiphany-graph-rs
+  - title: Games and Creator Tools
+    links:
+      - label: CultPong
+        slug: ./CultPong
       - label: repixelizer
         slug: ./repixelizer
       - label: VibeGeometry
@@ -37,52 +33,69 @@ sidebarGroups:
 
 # Projects
 
-*"The repo atlas, trimmed down to the projects that still have a point and the families that actually belong together."*
+*"The swarm, sorted by what each organ owns. Less trophy shelf, more nervous system diagram."*
 
-This section is the public workbench for the GameCult GitHub org. Some repos are live systems. Some are research bursts that still smell faintly of ozone. Some are support machinery for the support machinery. The point is not to pretend every public repository deserves the same amount of ceremony. The point is to make the shape of the work legible without building a second museum for our own breadcrumbs.
+GameCult is not one app pretending to be a platform. It is a repo swarm learning to share state, speech, identity, work, media, games, and public interfaces through one coherent machine. The projects below are grouped by authority: what each organ owns, what it emits, and what other organs become stronger because it exists.
 
-Aetheria already has its own site, so the Aetheria runtime and lore repos are not duplicated here as separate writeups. If you want the universe, the setting, or the larger thesis about humanity repeatedly inventing its own extinction event, go to [aetheria.gamecult.org](https://aetheria.gamecult.org). This page is for the rest of the studio's visible machinery.
+For the full document artifact, see the standalone TeX atlas: [`docs/gamecult-repo-swarm-organ-atlas.tex`](https://github.com/GameCult/gamecult-site/blob/main/docs/gamecult-repo-swarm-organ-atlas.tex). It is built to travel without the rest of the dossier around its ankles.
 
-Likewise, the CultCache and CultNet language ports are real repos, but they do not each need their own little throne room. They are folded into the [CultLib](/Projects/CultLib) page because they are one family of persistence and protocol work expressed in several runtimes, not six unrelated epics.
+## Core Harness and Persona Agents
 
-Below is the curated map: the repos with enough independent trajectory to merit a page, minus the infrastructure repos that only exist to explain other infrastructure repos and then make everyone sad.
+Epiphany is the core harness: the place where agent work gets forced through body maps, ownership boundaries, evidence, and verification instead of free-climbing on transcript vibes. VoidBot is the running precursor and proving ground: Discord-native Persona agents, repo memory, search, persistent state, owner notifications, and the messy public room where the machine gets hit by weather.
 
-<div class="gamecult-project-groups">
-  <section class="gamecult-project-group">
-    <h2>Games and Worlds</h2>
-    <ul>
-      <li><a href="/Projects/CultPong">CultPong</a></li>
-    </ul>
-  </section>
-  <section class="gamecult-project-group">
-    <h2>Studio Systems</h2>
-    <ul>
-      <li><a href="/Projects/Heimdall">Heimdall</a></li>
-    </ul>
-  </section>
-  <section class="gamecult-project-group">
-    <h2>Shared Code</h2>
-    <ul>
-      <li><a href="/Projects/CultLib">CultLib</a></li>
-      <li><a href="/Projects/epiphany-graph-rs">epiphany-graph-rs</a></li>
-    </ul>
-  </section>
-  <section class="gamecult-project-group">
-    <h2>Agents and Interfaces</h2>
-    <ul>
-      <li><a href="/Projects/Epiphany">Epiphany</a></li>
-      <li><a href="/Projects/EpiphanyAquarium">EpiphanyAquarium</a></li>
-      <li><a href="/Projects/Ghostlight">Ghostlight</a></li>
-      <li><a href="/Projects/VoidBot">VoidBot</a></li>
-    </ul>
-  </section>
-  <section class="gamecult-project-group">
-    <h2>Visual Labs</h2>
-    <ul>
-      <li><a href="/Projects/repixelizer">repixelizer</a></li>
-      <li><a href="/Projects/VibeGeometry">VibeGeometry</a></li>
-    </ul>
-  </section>
-</div>
+Ghostlight carries persistent social state for characters, Faces, and communities. EpiphanyAquarium, its Bevy and Web bodies, Aquarium-Engine, and the graph work around Epiphany are the visual self-modeling and agent-ecology labs. Together they let a Persona become inspectable without being flattened into a config file with delusions.
 
-If you are here for the actual public-facing studio argument rather than the repo roll call, the relevant context still lives in [Open Source Model](/Open-Source-Model), [A Place for Everyone](/a-place-for-everyone), [Games as a Service](/games-as-a-service), and [Why Aetheria Went Quiet](/Blog/why-aetheria-went-quiet).
+## Substrate, Protocol, and Mesh
+
+CultLib is the nervous system family. CultCache persists typed state. CultNet carries typed communication. CultMesh networks daemons, service surfaces, schema catalogs, and interface projections. The language ports, including CultCacheTS, cultcache-rs, cultcache-py, CultNetTS, and cultnet-rs, exist so every runtime can participate without inventing its own private state religion.
+
+CultMath, Norn, norn-rs, Perlines, vg-csg, and VibeGeometry are the math, graph, line, and geometry organs that make structure inspectable. They give the swarm spatial and formal handles for things that would otherwise become prose fog.
+
+## Verse Sight and Daemon Stewardship
+
+Odin is the all-seer: Verse discovery, schema awareness, translation routes, provider surfaces, and interface aggregation. Odin does not replace provider truth. It accepts and exposes it.
+
+Gjallar is Odin's herald display organ. It presents a composite of Odin's sight so dense operator views can be lowered without turning every renderer into a little dashboard tyrant. Idunn is the keepalive organ. It uses Odin's accepted map to bring daemons back after reboots or crashes, watch freshness, and escalate through the right operator path when the swarm needs human hands.
+
+Heimdall owns identity, grants, consent, revocation, and boundary inspection. Bifrost owns crossings: work, patronage, receipts, owner/public notifications, and the bridges where action becomes accountable state.
+
+## Interfaces and Lowering Runtimes
+
+Eve is the surface system: daemon dashboards lowered from Eve's UI DSL, CultUI, into multiple GUI and TUI runtimes. A daemon publishes the interface it owns; Eve lowers it. The renderer does not become the source of truth just because it has pixels.
+
+Fensalir, Sai, gamecult-site, GameCult-Quartz, and gamecult-grav are the presentation and publishing bodies. Sai turns the portfolio and compound into a visual-novel stage. The site and Quartz stack publish the public atlas. Fensalir is the native/runtime body for higher-performance surfaces.
+
+## Language, Voice, and Alien Culture
+
+Weksa is the language engine: it lowers utterance intent through arbitrary linguistic, cultural, and personal ontologies into spoken words. AquaSynth is the voice, both instrumental and tracheal, with a Rust sibling for the lower-level body. It can turn Weksa's utterance embeddings into speech through arbitrary vocal morphologies.
+
+Together Weksa and AquaSynth make alien language more than a word list. They let a culture shape what can be meant, let anatomy shape how it can be sounded, and let the listener hear the result without the usual fantasy-language cardboard taped over English.
+
+## Media, Streams, and Creator Tools
+
+Mimir handles room intelligence, media observation, and creator production surfaces. StreamPixels is the more ambitious stream-interactivity platform: overlays, real-time controls, and audience participation that can feed the same state mesh instead of living as isolated stream gimmicks.
+
+Repixelizer is the fun service wedge: a useful hosted tool for visual transformation and pixel-art workflows. Bokusho, LunaMosaic, Spotiverse, Stonks, Luxidland, and related visual or media experiments are small organs with sharper local jobs: brush, mosaic, listening, market play, mood, and style machinery that can feed the larger creator stack when they earn it.
+
+## Games, Worlds, and Story Pressure
+
+CultPong is the small playable proof. Aetheria, AetheriaLore, Eusocial Interbeing, and the Zyphos material are the larger world and story pressure vessels. They test whether the substrate can carry play, culture, factions, languages, memory, and governance without becoming a spreadsheet wearing a cape.
+
+The point of the worlds is not lore storage. The point is pressure. Games make the machine prove it can survive contact with players.
+
+## Operations and Publication
+
+gamecult-ops carries inventory, deployment memory, runbooks, and operational history. gamecult-site and GameCult-Quartz carry the public projection. The generated compound repo-doc tree is the current public swarm inventory, and the TeX atlas above turns that inventory into a coherent organ map.
+
+## Cross-Project Synergies
+
+- Epiphany gives agents a harness; VoidBot proves Persona state in a live Discord room; Ghostlight preserves social continuity.
+- CultLib, CultCache, CultNet, and CultMesh let every runtime share state without turning JSON sidecars into accidental doctrine.
+- Odin sees provider-owned Verse truth; Gjallar composes that sight; Idunn keeps the daemon swarm alive.
+- Eve lowers daemon-owned CultUI surfaces into GUI and TUI bodies; Sai and the site turn the same machinery into public narrative.
+- Weksa makes culturally grounded utterance intent; AquaSynth gives that intent a body and a voice.
+- Mimir and StreamPixels turn rooms and streams into stateful media surfaces.
+- Repixelizer and the visual labs give creators useful tools now while feeding capability back into the larger surface web.
+- Aetheria, Zyphos, and CultPong keep the architecture honest by making it answer to play, story, and audience pressure.
+
+This is the live thesis: a coherent swarm where each organ owns a narrow truth, emits typed state, and makes the neighboring organs more capable. Anything that cannot explain its authority gets sharpened, folded into the right owner, or taken outside and introduced to the shovel.

@@ -1,0 +1,430 @@
+\documentclass[11pt,oneside]{article}
+
+\usepackage[margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\definecolor{cultblack}{HTML}{05070B}
+\definecolor{cultpanel}{HTML}{101820}
+\definecolor{cultblue}{HTML}{2F80ED}
+\definecolor{cultgold}{HTML}{D48A1F}
+\definecolor{cultgreen}{HTML}{2F9E6D}
+\definecolor{cultred}{HTML}{B43A3A}
+\definecolor{cultmuted}{HTML}{4B5B68}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cultblue,
+  urlcolor=cultgold,
+  pdftitle={GameCult Repo Swarm Organ Atlas},
+  pdfauthor={GameCult},
+  pdfsubject={Categorized hierarchy of GameCult projects and cross-project synergies},
+  pdfkeywords={GameCult, Epiphany, VoidBot, CultLib, CultCache, CultNet, CultMesh, Eve, Odin, Weksa, AquaSynth}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small GameCult Repo Swarm Organ Atlas}
+\fancyhead[R]{\small current public swarm}
+\fancyfoot[C]{\small \thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\setlist[itemize]{topsep=3pt,itemsep=2pt,leftmargin=1.35em}
+\setlist[enumerate]{topsep=3pt,itemsep=2pt,leftmargin=1.6em}
+\renewcommand{\arraystretch}{1.16}
+\emergencystretch=2em
+\titleformat{\section}{\Large\bfseries\color{cultblue}}{}{0pt}{}
+\titleformat{\subsection}{\large\bfseries\color{cultgold}}{}{0pt}{}
+
+\newcommand{\Organ}[3]{\textbf{#1} & #2 & #3\\}
+\newcommand{\Signal}[1]{\textbf{\color{cultblue}#1}}
+\newcommand{\Term}[1]{\textbf{\color{cultgold}#1}}
+\newcommand{\Verdict}[1]{%
+  \vspace{5pt}
+  \noindent\fcolorbox{cultgold}{cultpanel}{%
+    \parbox{0.94\linewidth}{\color{white}\textbf{Swarm reading:} #1}%
+  }
+  \vspace{8pt}
+}
+
+\begin{document}
+
+\pagenumbering{roman}
+\begin{titlepage}
+\pagecolor{cultblack}\color{white}
+\centering
+\vspace*{0.8in}
+{\Huge\bfseries GameCult Repo Swarm Organ Atlas\par}
+\vspace{0.18in}
+{\Large A categorized hierarchy of the current organ swarm\par}
+\vspace{0.45in}
+\fcolorbox{cultblue}{cultpanel}{%
+  \parbox{0.84\linewidth}{\Large
+  Epiphany is the harness. VoidBot is the live precursor. CultLib is the nervous system.
+  Eve lowers daemon-owned CultUI surfaces. Odin sees every Verse. Weksa gives intent
+  language. AquaSynth gives language a body and a voice.
+  }%
+}
+\vfill
+{\large Standalone TeX artifact for the GameCult site projects revamp.\par}
+{\small Source inventory: current GameCult repo-doc tree plus Odin indexed organ notes.\par}
+\end{titlepage}
+\nopagecolor
+\color{black}
+\setcounter{page}{2}
+
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\section{Prime Shape}
+
+GameCult is a repo swarm, not a product list. The useful question is not
+``which repository is exciting this week?'' The useful question is which organ
+owns which truth, what typed state it emits, and which neighboring organs become
+more capable because it exists.
+
+\Verdict{The coherent machine is a loop: agents act through Epiphany and VoidBot;
+state persists through CultCache and travels through CultNet and CultMesh; Odin
+discovers the Verse; Eve lowers provider-owned interfaces; Weksa and AquaSynth
+make culture speak; games, worlds, creator tools, and public sites keep the
+whole system honest by making it touch people.}
+
+\subsection{Top-Level Organ Hierarchy}
+
+\begin{longtable}{>{\bfseries}p{0.24\linewidth}p{0.30\linewidth}p{0.38\linewidth}}
+\toprule
+Category & Primary organs & What the category owns\\
+\midrule
+Core harness and Persona agents & Epiphany, VoidBot, Ghostlight, EpiphanyAquarium & Agent work, persistent Persona state, social memory, visual self-modeling, room-native retrieval.\\
+Substrate and mesh & CultLib, CultCache ports, CultNet ports, CultMesh, CultMath & Typed state, cache files, protocol contracts, cross-runtime networking, math support.\\
+Verse sight and stewardship & Odin, Gjallar, Idunn, Heimdall, Bifrost & Discovery, schema awareness, composite sight, daemon lifecycle, consent, identity, crossings, receipts.\\
+Interfaces and lowering & Eve, Fensalir, Sai, gamecult-site, GameCult-Quartz, gamecult-grav & CultUI lowering, native and web surfaces, public projection, site publishing.\\
+Language and voice & Weksa, AquaSynth, aquasynth-rs & Ontology-aware utterance lowering, vocal morphology, procedural voice and instrumental synthesis.\\
+Media and creator tools & Mimir, StreamPixels, repixelizer, Bokusho, LunaMosaic, Spotiverse, Stonks, Luxidland & Room intelligence, stream interactivity, pixel tools, brush and mosaic experiments, creator-facing utilities.\\
+Games and worlds & CultPong, Aetheria, AetheriaLore, Eusocial Interbeing, Aquarium-Engine & Playable proofs, world pressure, lore, society simulation, runtime pressure tests.\\
+Graph, geometry, and inspection & Norn, norn-rs, epiphany-graph-rs, Perlines, VibeGeometry, vg-csg, \_vg\_csg\_history\_full & Graph layout, evidence maps, line and geometry tools, shape reasoning, historical CSG evidence.\\
+Operations and inventory & gamecult-ops, repo-doc-tree artifacts & Runbooks, deployment memory, indexed repo inventory, operational truth that keeps the swarm from gaslighting itself.\\
+\bottomrule
+\end{longtable}
+
+\section{Core Harness and Persona Agents}
+
+\subsection{Epiphany}
+
+\Signal{Role:} core harness. Epiphany is the repo and agent work body where
+models are expected to understand the machine they touch. It pressures work
+through body maps, authority maps, persistent memory, and verification instead
+of letting every task become a confident little cliff dive.
+
+\begin{itemize}
+  \item Owns: agent harness behavior, work execution posture, Persona-state schema pressure, verification discipline.
+  \item Feeds: VoidBot, repo Faces, Ghostlight, the public Persona system, and any future worker that needs memory with spine.
+  \item Needs: CultCache for durable state, CultNet and CultMesh for typed crossings, Eve for inspection surfaces.
+\end{itemize}
+
+\subsection{VoidBot}
+
+\Signal{Role:} running precursor. VoidBot is the Discord-native proving ground
+for Persona agents with persistent state. It searches archives, indexed repos,
+and lore, speaks through room surfaces, and hands deeper work off to heavier
+tools when the room needs more than chat.
+
+\begin{itemize}
+  \item Owns: Discord-native retrieval, room memory, repo source search, owner notification compatibility, live Persona pressure.
+  \item Feeds: Epiphany's design lessons, Ghostlight social continuity, Bifrost crossing patterns, repo-Face state.
+  \item Demotion line: delivery mechanisms are actuators, not sovereign truth. Bifrost should own public and owner-facing crossings when those crossings become formal.
+\end{itemize}
+
+\subsection{Ghostlight and EpiphanyAquarium}
+
+Ghostlight carries persistent social state for characters, agents, and Faces.
+EpiphanyAquarium, EpiphanyAquarium-Bevy, EpiphanyAquarium-Web, and
+Aquarium-Engine are the visual and runtime labs for agent ecology,
+self-modeling, and character surfaces.
+
+\begin{itemize}
+  \item Ghostlight owns social continuity and character state pressure.
+  \item EpiphanyAquarium owns the aquarium metaphor made inspectable: visible agent ecology, not hidden prompt soup.
+  \item The Bevy and Web bodies prove that the same agent ecology can be lowered into different runtimes.
+\end{itemize}
+
+\section{Substrate, Protocol, and Mesh}
+
+\subsection{CultLib, CultCache, CultNet, and CultMesh}
+
+CultLib is the nervous system family. Its job is to make state, protocol, and
+cross-runtime behavior boring enough that the exciting layers stop using local
+folklore as infrastructure.
+
+\begin{itemize}
+  \item \Term{CultCache} persists typed state in cache files. It is the durable memory substrate.
+  \item \Term{CultNet} carries typed communication between peers and services.
+  \item \Term{CultMesh} networks daemons, state catalogs, discovery, schema surfaces, and provider-owned interfaces.
+  \item \Term{CultLib} is the reference family and shared runtime pressure that keeps the ports aligned.
+\end{itemize}
+
+\begin{longtable}{>{\bfseries}p{0.23\linewidth}p{0.24\linewidth}p{0.45\linewidth}}
+\toprule
+Organ & Runtime family & Job\\
+\midrule
+\Organ{CultLib}{C\# anchor}{Shared runtime and protocol family, including schema, persistence, and interop pressure.}
+\Organ{CultCacheTS}{TypeScript}{Web and Node-side typed cache body.}
+\Organ{cultcache-rs}{Rust}{Rust typed cache crate for daemon and performance-sensitive bodies.}
+\Organ{cultcache-py}{Python}{Control-plane and bootstrap cache body.}
+\Organ{CultNetTS}{TypeScript}{TypeScript CultNet client and contract surface.}
+\Organ{cultnet-rs}{Rust}{Rust peer and schema-aware transport body.}
+\Organ{CultMath}{Shared math}{Math support for geometry, simulation, layout, and reasoning organs.}
+\bottomrule
+\end{longtable}
+
+\section{Verse Sight, Keepalive, Identity, and Crossings}
+
+\subsection{Odin, Gjallar, and Idunn}
+
+Odin is the all-seer. It accepts Verse discovery, schema catalogs, translation
+routes, provider surfaces, and observation projections. It preserves provider
+ownership: Odin sees truth that other daemons deliberately publish; it does not
+replace those daemons with a secret central registry.
+
+\begin{itemize}
+  \item \Term{Odin} owns accepted Verse sight, schema awareness, translation planning, and interface aggregation.
+  \item \Term{Gjallar} presents a composite of Odin's sight. It owns overview composition, not provider truth and not terminal glyph rendering.
+  \item \Term{Idunn} keeps the daemons alive. It reads Odin's accepted map, watches health, performs restart intent, and escalates operator-needed failures through the right crossing.
+\end{itemize}
+
+\subsection{Heimdall and Bifrost}
+
+Heimdall owns identity, grants, claims, consent, revocation, and gatekeeping
+boundaries. Bifrost owns crossings: patronage, work records, receipts, motions,
+operator notifications, and owner/public routes where an action must become
+accountable typed state.
+
+\begin{itemize}
+  \item Heimdall protects who may act.
+  \item Bifrost records why the action is legitimate, who requested it, what happened, and where the receipt lives.
+  \item Odin may see these surfaces, Eve may lower them, but neither becomes their owner.
+\end{itemize}
+
+\section{Interfaces, CultUI, and Public Projection}
+
+\subsection{Eve}
+
+Eve is daemon dashboard lowering. A daemon publishes an Eve UI DSL composition,
+also called CultUI. Eve lowers that composition into GUI, TUI, browser, native,
+overlay, or future room surfaces.
+
+\Verdict{The renderer does not become truth because it has pixels. The daemon
+owns the interface composition. Eve lowers it. Odin discovers it. Gjallar may
+summarize it. That authority split is the difference between a dashboard and a
+little state monarchy with a nice font.}
+
+\subsection{Fensalir, Sai, and the Site Stack}
+
+\begin{longtable}{>{\bfseries}p{0.25\linewidth}p{0.67\linewidth}}
+\toprule
+Organ & Job\\
+\midrule
+Fensalir & Native and high-performance runtime body for local surfaces and future mesh-native tools.\\
+Sai & Visual novel stage for portfolio, onboarding, project tours, and narrative surfaces.\\
+gamecult-site & Public root site: projects, docs, blog, studio pitch, and published atlas.\\
+GameCult-Quartz & Shared Quartz engine used by the site projection.\\
+gamecult-grav & Legacy site and publication body whose surviving lessons feed the current stack.\\
+\bottomrule
+\end{longtable}
+
+\section{Language, Voice, and Alien Culture}
+
+\subsection{Weksa}
+
+Weksa is the language engine. It lowers utterance intent through arbitrary
+linguistic, cultural, and personal ontologies into words. The important part is
+not vocabulary generation. The important part is that meaning passes through a
+culture and a speaker model before it becomes language.
+
+\subsection{AquaSynth}
+
+AquaSynth is the voice, both instrumental and tracheal. It can take Weksa's
+utterance embeddings and realize them through arbitrary vocal morphologies.
+aquasynth-rs is the lower-level Rust body for pushing the sound machinery closer
+to daemon and runtime use.
+
+\subsection{Combined Capability}
+
+Together Weksa and AquaSynth let GameCult create alien languages embedded in
+their native cultures and then hear those languages spoken by bodies that do
+not need to be human. The pipeline is:
+
+\begin{enumerate}
+  \item Culture and speaker state constrain intent.
+  \item Weksa lowers intent through ontology and grammar.
+  \item AquaSynth maps the utterance into a vocal morphology.
+  \item Eve, Sai, games, streams, or worlds present the result to people.
+\end{enumerate}
+
+\section{Media, Streams, and Creator Tools}
+
+\begin{longtable}{>{\bfseries}p{0.24\linewidth}p{0.26\linewidth}p{0.42\linewidth}}
+\toprule
+Organ & Category & Job\\
+\midrule
+\Organ{Mimir}{Room intelligence}{Media observation, creator production surfaces, room signals, and stream-adjacent intelligence.}
+\Organ{StreamPixels}{Stream platform}{Interactive overlays, real-time controls, and audience participation as stateful surfaces.}
+\Organ{repixelizer}{Hosted visual tool}{Fun service wedge for pixel workflows and visual transformation.}
+\Organ{Bokusho}{Brush and visual lab}{Drawing, brush, and expression experiments that can feed public creator surfaces.}
+\Organ{LunaMosaic}{Mosaic and visual lab}{Large visual corpus and mosaic-style experiments.}
+\Organ{Spotiverse}{Listening experiment}{Music and playlist-adjacent surface pressure.}
+\Organ{Stonks}{Market play}{Financial and market-flavored experiment space.}
+\Organ{Luxidland}{Mood and world texture}{Visual mood, place, and style experiment body.}
+\bottomrule
+\end{longtable}
+
+\section{Games, Worlds, and Story Pressure}
+
+\begin{longtable}{>{\bfseries}p{0.24\linewidth}p{0.26\linewidth}p{0.42\linewidth}}
+\toprule
+Organ & Category & Job\\
+\midrule
+\Organ{CultPong}{Playable proof}{Small game proving governed patronage and public play can share the same machinery.}
+\Organ{Aetheria}{World body}{Large setting and game-world pressure vessel.}
+\Organ{AetheriaLore}{Lore memory}{Canonical and archival world memory for Aetheria.}
+\Organ{Eusocial Interbeing}{Zyphos pressure vessel}{Alien society, eusocial cognition, and culture design pressure.}
+\Organ{Aquarium-Engine}{Runtime support}{Game and simulation engine pressure from the aquarium side of the swarm.}
+\bottomrule
+\end{longtable}
+
+The worlds matter because they impose consequences. A service diagram can lie
+beautifully. A game has to answer to players, timing, emotion, UI, memory, and
+the glorious indignity of people clicking things in the wrong order.
+
+\section{Graph, Geometry, and Inspection}
+
+\begin{longtable}{>{\bfseries}p{0.25\linewidth}p{0.67\linewidth}}
+\toprule
+Organ & Job\\
+\midrule
+Norn & Graph loom for work, evidence, architecture, and readable relationship maps.\\
+norn-rs & Rust body for Norn graph and layout work.\\
+epiphany-graph-rs & Graph extraction and visualization support for Epiphany-shaped evidence.\\
+Perlines & Line and path experiment body.\\
+VibeGeometry & Inspectable shape and transformation tooling.\\
+vg-csg & Constructive solid geometry experiment body.\\
+\_vg\_csg\_history\_full & Historical CSG evidence archive, useful as memory rather than live authority.\\
+\bottomrule
+\end{longtable}
+
+\section{Operations and Publication}
+
+\begin{longtable}{>{\bfseries}p{0.25\linewidth}p{0.67\linewidth}}
+\toprule
+Organ & Job\\
+\midrule
+gamecult-ops & Inventory, runbooks, deployment memory, server notes, and operational decisions.\\
+repo-doc-tree artifacts & Generated inventory that lets the site and Sai compound see what repos exist and what documents they expose.\\
+docs and portfolio dossier & TeX, PDF, figures, pitch structure, and project arguments that make the swarm discussable.\\
+\bottomrule
+\end{longtable}
+
+\section{Cross-Project Synergy Map}
+
+\begin{longtable}{p{0.30\linewidth}p{0.62\linewidth}}
+\toprule
+Synergy & Result\\
+\midrule
+Epiphany + VoidBot + Ghostlight & Agent work becomes persistent, room-aware, socially legible, and verifiable instead of disposable chat foam.\\
+CultLib + CultCache + CultNet + CultMesh & Every runtime can persist state, communicate, discover schemas, and publish surfaces without smuggling in local JSON doctrine.\\
+Odin + Gjallar + Idunn & The swarm can know what exists, show the operator a composite view, and keep services alive after failure.\\
+Heimdall + Bifrost & Consent, identity, claims, work, patronage, notifications, and receipts become inspectable crossings.\\
+Eve + Odin + daemon providers & Provider-owned UI compositions can be discovered and lowered into many runtimes without moving truth into the renderer.\\
+Sai + gamecult-site + GameCult-Quartz & The public face can explain the same machine through pages, tours, visual-novel staging, and durable docs.\\
+Weksa + AquaSynth & Intent becomes culture-shaped language, then body-shaped speech. This is the alien-language engine with teeth.\\
+Mimir + StreamPixels & Room intelligence can feed stream overlays and interactive media surfaces in real time.\\
+repixelizer + Bokusho + LunaMosaic + VibeGeometry & Creator-friendly visual tools become service wedges and reusable visual capability.\\
+Aetheria + Zyphos + CultPong & Worlds and games test the architecture against play, story, culture, and public pressure.\\
+Norn + epiphany-graph-rs + Eve & Evidence and architecture can become spatial maps and then inspectable surfaces.\\
+\bottomrule
+\end{longtable}
+
+\section{Canonical Current Repo Swarm}
+
+This list names the current public repo-doc tree organs represented by the
+site-side inventory. Temporary agent snapshot indexes and duplicated check
+workspaces are not treated as sovereign organs; they are evidence trails unless
+promoted into an explicit owner.
+
+\begin{longtable}{>{\bfseries}p{0.28\linewidth}p{0.62\linewidth}}
+\toprule
+Repo identity & Organ reading\\
+\midrule
+Aetheria & World body and game setting pressure vessel.\\
+AetheriaLore & Lore memory and canonical setting archive.\\
+Aquarium-Engine & Runtime support for aquarium-style simulation and game bodies.\\
+AquaSynth & Voice, instrumental synthesis, and vocal morphology research.\\
+aquasynth-rs & Rust voice body and lower-level synthesis path.\\
+Bifrost & Work, patronage, receipts, notifications, and public or owner crossings.\\
+bokusho & Brush and expression lab.\\
+CultCacheTS & TypeScript typed cache body.\\
+cultcache-rs & Rust typed cache body.\\
+cultcache-py & Python typed cache body.\\
+CultLib & Shared runtime and protocol anchor.\\
+CultMath & Math support organ.\\
+CultNetTS & TypeScript CultNet client body.\\
+cultnet-rs & Rust CultNet peer body.\\
+EpiphanyAgent & Core harness and Persona-state pressure.\\
+EpiphanyAquarium & Agent ecology and visual self-modeling lab.\\
+EpiphanyAquarium-Bevy & Bevy runtime body for the aquarium.\\
+EpiphanyAquarium-Web & Web runtime body for the aquarium.\\
+Eusocial Interbeing & Zyphos and alien society pressure vessel.\\
+Eve & CultUI lowering and daemon dashboard surface system.\\
+Fensalir & Native or high-performance runtime body.\\
+gamecult-grav & Legacy publishing body and migration memory.\\
+gamecult-ops & Operations inventory, runbooks, and deployment memory.\\
+GameCult-Quartz & Shared Quartz engine.\\
+gamecult-site & Public root site and repo atlas.\\
+Ghostlight & Persistent social state for characters, Faces, and communities.\\
+Heimdall & Identity, grants, consent, claims, and revocation.\\
+LunaMosaic & Visual mosaic corpus and experiment body.\\
+Luxidland & Visual mood, place, and style experiment body.\\
+Mimir & Room intelligence and creator production surfaces.\\
+Norn & Graph loom and readable relationship maps.\\
+norn-rs & Rust graph and layout body.\\
+Odin & All-seer for Verse discovery, schema awareness, translation, and interface aggregation.\\
+Perlines & Line and path experiment body.\\
+repixelizer & Hosted pixel and visual transformation service.\\
+Sai & Visual novel stage and public portfolio tour surface.\\
+Spotiverse & Listening and playlist-adjacent experiment body.\\
+Stonks & Market-flavored experiment body.\\
+StreamPixels & Stream interactivity platform.\\
+vg-csg & Constructive solid geometry experiment body.\\
+VibeGeometry & Inspectable shape and transformation tooling.\\
+VoidBot & Discord-native Persona precursor and retrieval runtime.\\
+weksa & Ontology-aware language engine.\\
+\_vg\_csg\_history\_full & CSG historical evidence archive.\\
+\bottomrule
+\end{longtable}
+
+\section{Design Rule}
+
+Each organ should be defended in one sentence:
+
+\begin{quote}
+\textbf{X owns Y so that Z remains true.}
+\end{quote}
+
+If the sentence sounds false, awkward, or suspiciously padded, the organ is not
+yet coherent. Fold it into the right owner, split the hidden responsibility, or
+cut the dead authority. The swarm does not need more little thrones. It needs
+clean nerves.
+
+\end{document}

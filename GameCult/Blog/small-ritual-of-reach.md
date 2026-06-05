@@ -170,7 +170,7 @@ Do not cite this in court. Do cite it at parties if the party is already unsalva
 
 <div class="ritual-paper-results-strip">
   <span><strong>n</strong> = me</span>
-  <span><strong>figures</strong> = 3</span>
+  <span><strong>figures</strong> = 4</span>
   <span><strong>citations</strong> = 26</span>
   <span><strong>social media posts explained</strong> = 1</span>
 </div>
@@ -357,6 +357,62 @@ The boring true claim is:
 Boring enough to be true.
 
 Useful enough to matter.
+
+### 5.7 Ablation Study: Removing Pieces Of The Tiny Machine
+
+Obviously we also need an ablation study.
+
+Otherwise how would the reader know this is a serious scientific document and not merely one woman's attempt to put a lab coat on a needy Discord message?
+
+The full ritual has three parts:
+
+1. Ask them to read.
+2. Ask them to discuss it with me.
+3. Ask them to send it to one person who might be touched.
+4. Send the separate humility/awkwardness follow-up.
+
+Yes, that is four parts. The study is called "small ritual" for branding reasons, not because the organism respects arithmetic.
+
+The plausible alternatives were:
+
+- drop the share ask and only ask them to discuss the article with me;
+- drop the discussion ask and only ask them to pass it along;
+- ask them only to read;
+- keep the full read/discuss/share loop;
+- vary the level of ritual goofiness in the follow-up.
+
+The follow-up variants were:
+
+| Follow-up condition | Example | Expected failure mode |
+| --- | --- | --- |
+| none | *(no second message)* | The Face remains too smooth; no tiny reassurance affordance appears. |
+| clinical humility | "Unusual ask, I know." | Dignified, but possibly too institutional. The soul is wearing a blazer. |
+| weird way to reach out | "Weird way to reach out, I know." | Best observed balance of vulnerability and non-melodrama. |
+| small ritual named | "Weird little outreach ritual, I know." | Stronger thesis signal; slightly more self-aware. |
+| full cathedral footnote | "This is a liminal rite of re-entry into the social body." | Too much incense. The friend may need goggles. |
+
+<figure class="gamecult-media-card">
+  <img src="/static/interactive/small-ritual-of-reach/figure-4-ablation-ask-goofiness.svg" alt="Ablation heatmap comparing ask variants and ritual goofiness levels." />
+  <figcaption>Figure 4. Removing the share ask improves immediate intimacy but weakens propagation. Share-only creates social load. The combined read/discuss/share ask performs best when paired with visible but not episcopal weirdness.</figcaption>
+</figure>
+
+The toy result says what the social body already knows:
+
+> Discuss-only is warmer.
+>
+> Share-only is colder.
+>
+> Read/discuss/share is the actual propagation loop.
+>
+> The follow-up works best when it is humble enough to show the throat and short enough not to start a monastery.
+
+This is why "weird way to reach out, I know" beats both silence and liturgy.
+
+Silence leaves the request too polished.
+
+Liturgy makes the recipient wonder whether they have accidentally become a junior priest in your emotional infrastructure.
+
+The sweet spot is tiny, sincere, and socially cheap to answer.
 
 ## 6. Discussion
 

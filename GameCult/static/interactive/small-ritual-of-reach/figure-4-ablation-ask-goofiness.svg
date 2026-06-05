@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" role="img" aria-label="Ablation heatmap of ask variants and ritual goofiness levels">
+<rect width="100%" height="100%" fill="#10141d"/>
+<text x="205" y="34" fill="#f4edf8" font-family="Georgia, serif" font-size="25" font-weight="700">Figure 4. Ablation Study: Ask Shape × Ritual Goofiness</text>
+<text x="205" y="58" fill="#b9aeca" font-family="Arial, sans-serif" font-size="14">Toy connection yield after removing pieces of the ritual and turning the weirdness dial.</text>
+<text x="193" y="128.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">read only</text>
+<rect x="205.0" y="92.0" width="144.0" height="60.0" rx="5" fill="rgb(98,80,125)" opacity="0.92"/>
+<text x="278.5" y="128.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.06</text>
+<rect x="352.0" y="92.0" width="144.0" height="60.0" rx="5" fill="rgb(111,91,124)" opacity="0.92"/>
+<text x="425.5" y="128.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.12</text>
+<rect x="499.0" y="92.0" width="144.0" height="60.0" rx="5" fill="rgb(136,111,122)" opacity="0.92"/>
+<text x="572.5" y="128.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.22</text>
+<rect x="646.0" y="92.0" width="144.0" height="60.0" rx="5" fill="rgb(135,110,122)" opacity="0.92"/>
+<text x="719.5" y="128.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.22</text>
+<rect x="793.0" y="92.0" width="144.0" height="60.0" rx="5" fill="rgb(118,96,123)" opacity="0.92"/>
+<text x="866.5" y="128.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.14</text>
+<text x="193" y="191.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">discuss only</text>
+<rect x="205.0" y="155.0" width="144.0" height="60.0" rx="5" fill="rgb(111,90,124)" opacity="0.92"/>
+<text x="278.5" y="191.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.12</text>
+<rect x="352.0" y="155.0" width="144.0" height="60.0" rx="5" fill="rgb(138,113,122)" opacity="0.92"/>
+<text x="425.5" y="191.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.23</text>
+<rect x="499.0" y="155.0" width="144.0" height="60.0" rx="5" fill="rgb(167,137,119)" opacity="0.92"/>
+<text x="572.5" y="191.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.35</text>
+<rect x="646.0" y="155.0" width="144.0" height="60.0" rx="5" fill="rgb(168,138,119)" opacity="0.92"/>
+<text x="719.5" y="191.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.36</text>
+<rect x="793.0" y="155.0" width="144.0" height="60.0" rx="5" fill="rgb(144,118,121)" opacity="0.92"/>
+<text x="866.5" y="191.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.26</text>
+<text x="193" y="254.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">share only</text>
+<rect x="205.0" y="218.0" width="144.0" height="60.0" rx="5" fill="rgb(91,74,126)" opacity="0.92"/>
+<text x="278.5" y="254.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.03</text>
+<rect x="352.0" y="218.0" width="144.0" height="60.0" rx="5" fill="rgb(102,83,125)" opacity="0.92"/>
+<text x="425.5" y="254.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.08</text>
+<rect x="499.0" y="218.0" width="144.0" height="60.0" rx="5" fill="rgb(120,98,123)" opacity="0.92"/>
+<text x="572.5" y="254.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.16</text>
+<rect x="646.0" y="218.0" width="144.0" height="60.0" rx="5" fill="rgb(123,101,123)" opacity="0.92"/>
+<text x="719.5" y="254.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.17</text>
+<rect x="793.0" y="218.0" width="144.0" height="60.0" rx="5" fill="rgb(104,85,124)" opacity="0.92"/>
+<text x="866.5" y="254.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.09</text>
+<text x="193" y="317.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">read + discuss</text>
+<rect x="205.0" y="281.0" width="144.0" height="60.0" rx="5" fill="rgb(132,108,122)" opacity="0.92"/>
+<text x="278.5" y="317.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.20</text>
+<rect x="352.0" y="281.0" width="144.0" height="60.0" rx="5" fill="rgb(157,129,120)" opacity="0.92"/>
+<text x="425.5" y="317.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.31</text>
+<rect x="499.0" y="281.0" width="144.0" height="60.0" rx="5" fill="rgb(193,159,117)" opacity="0.92"/>
+<text x="572.5" y="317.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.46</text>
+<rect x="646.0" y="281.0" width="144.0" height="60.0" rx="5" fill="rgb(194,160,117)" opacity="0.92"/>
+<text x="719.5" y="317.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.47</text>
+<rect x="793.0" y="281.0" width="144.0" height="60.0" rx="5" fill="rgb(168,138,119)" opacity="0.92"/>
+<text x="866.5" y="317.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.36</text>
+<text x="193" y="380.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">read + share one person</text>
+<rect x="205.0" y="344.0" width="144.0" height="60.0" rx="5" fill="rgb(115,94,124)" opacity="0.92"/>
+<text x="278.5" y="380.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.13</text>
+<rect x="352.0" y="344.0" width="144.0" height="60.0" rx="5" fill="rgb(139,114,122)" opacity="0.92"/>
+<text x="425.5" y="380.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.24</text>
+<rect x="499.0" y="344.0" width="144.0" height="60.0" rx="5" fill="rgb(171,141,119)" opacity="0.92"/>
+<text x="572.5" y="380.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.37</text>
+<rect x="646.0" y="344.0" width="144.0" height="60.0" rx="5" fill="rgb(169,139,119)" opacity="0.92"/>
+<text x="719.5" y="380.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.36</text>
+<rect x="793.0" y="344.0" width="144.0" height="60.0" rx="5" fill="rgb(144,118,121)" opacity="0.92"/>
+<text x="866.5" y="380.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.26</text>
+<text x="193" y="443.5" text-anchor="end" fill="#d9cedf" font-family="Arial, sans-serif" font-size="13">read + discuss + share one</text>
+<rect x="205.0" y="407.0" width="144.0" height="60.0" rx="5" fill="rgb(153,126,120)" opacity="0.92"/>
+<text x="278.5" y="443.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.30</text>
+<rect x="352.0" y="407.0" width="144.0" height="60.0" rx="5" fill="rgb(187,154,118)" opacity="0.92"/>
+<text x="425.5" y="443.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.44</text>
+<rect x="499.0" y="407.0" width="144.0" height="60.0" rx="5" fill="rgb(229,189,115)" opacity="0.92"/>
+<text x="572.5" y="443.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.61</text>
+<rect x="646.0" y="407.0" width="144.0" height="60.0" rx="5" fill="rgb(225,186,115)" opacity="0.92"/>
+<text x="719.5" y="443.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.60</text>
+<rect x="793.0" y="407.0" width="144.0" height="60.0" rx="5" fill="rgb(192,158,117)" opacity="0.92"/>
+<text x="866.5" y="443.5" text-anchor="middle" fill="#081018" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" font-weight="700">0.46</text>
+<text x="278.5" y="496" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">none</text>
+<text x="425.5" y="496" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">clinical</text>
+<text x="425.5" y="511" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">humility</text>
+<text x="572.5" y="496" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">weird</text>
+<text x="572.5" y="511" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">way</text>
+<text x="572.5" y="526" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">to</text>
+<text x="572.5" y="541" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">reach</text>
+<text x="572.5" y="556" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">out</text>
+<text x="719.5" y="496" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">small</text>
+<text x="719.5" y="511" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">ritual</text>
+<text x="719.5" y="526" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">named</text>
+<text x="866.5" y="496" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">full</text>
+<text x="866.5" y="511" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">cathedral</text>
+<text x="866.5" y="526" text-anchor="middle" fill="#d9cedf" font-family="Arial, sans-serif" font-size="12">footnote</text>
+<text x="572.5" y="544" text-anchor="middle" fill="#786d82" font-family="Arial, sans-serif" font-size="11">Interpretation: discuss-only is intimate but stalls propagation; share-only is socially expensive; combined ask works best when the weirdness is visible but not wearing episcopal robes.</text>
+</svg>

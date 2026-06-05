@@ -63,7 +63,7 @@ Heimdall owns identity, grants, consent, revocation, and boundary inspection. Bi
 
 Eve is the surface system: daemon dashboards lowered from Eve's UI DSL, CultUI, into multiple GUI and TUI runtimes. A daemon publishes the interface it owns; Eve lowers it. The renderer does not become the source of truth just because it has pixels.
 
-Fensalir, Sai, gamecult-site, GameCult-Quartz, and gamecult-grav are the presentation and publishing bodies. Sai turns the portfolio and compound into a visual-novel stage. The site and Quartz stack publish the public atlas. Fensalir is the native/runtime body for higher-performance surfaces.
+Fensalir, Sai, gamecult-site, GameCult-Quartz, and gamecult-grav are the presentation and publishing bodies. Sai is the static-site visual novel engine: the portfolio and compound can become an Ink-powered VN surface without needing a live app server. If Sai is wired through Eve, the synergy path gets sharper: Sai becomes a cross-platform Ink-powered visual novel engine lowered through the same interface doctrine as the daemon dashboards. The site and Quartz stack publish the public atlas. Fensalir is the native/runtime body for higher-performance surfaces.
 
 ## Language, Voice, and Alien Culture
 
@@ -75,11 +75,13 @@ Together Weksa and AquaSynth make alien language more than a word list. They let
 
 Mimir handles room intelligence, media observation, and creator production surfaces. StreamPixels is the more ambitious stream-interactivity platform: overlays, real-time controls, and audience participation that can feed the same state mesh instead of living as isolated stream gimmicks.
 
-Repixelizer is the fun service wedge: a useful hosted tool for visual transformation and pixel-art workflows. Bokusho, LunaMosaic, Spotiverse, Stonks, Luxidland, and related visual or media experiments are small organs with sharper local jobs: brush, mosaic, listening, market play, mood, and style machinery that can feed the larger creator stack when they earn it.
+Repixelizer is the fun service wedge: a useful hosted tool for visual transformation and pixel-art workflows. Bokusho and LunaMosaic are visual experiments with sharper local jobs: brush and mosaic machinery that can feed the larger creator stack when they earn it.
+
+Stonks is a CultMesh market-data provider. Its current glamorous office is Gjallar's gutters, where market signal decorates the composite Odin view without pretending to be the whole dashboard. Spotiverse gives the Verse access to the active Spotify queue: daemons and Personas can know what is playing, and authorized actors can enqueue songs through suggestion or command flows.
 
 ## Games, Worlds, and Story Pressure
 
-CultPong is the small playable proof. Aetheria, AetheriaLore, Eusocial Interbeing, and the Zyphos material are the larger world and story pressure vessels. They test whether the substrate can carry play, culture, factions, languages, memory, and governance without becoming a spreadsheet wearing a cape.
+CultPong is the small playable proof. Aetheria and AetheriaLore are the larger world and lore pressure vessels. Zyphos and Eusocial Interbeing are the same project: the alien eusocial culture body that pressures both Fensalir's fractal-domain renderer and Weksa's language engine. Luxidland pressures CultMesh for distributed MMO networking while pushing VibeGeometry and Fensalir toward massive nested domains of geometric detail with automatic LOD. They test whether the substrate can carry play, culture, factions, languages, memory, geometry, scale, and governance without becoming a spreadsheet wearing a cape.
 
 The point of the worlds is not lore storage. The point is pressure. Games make the machine prove it can survive contact with players.
 
@@ -92,10 +94,11 @@ gamecult-ops carries inventory, deployment memory, runbooks, and operational his
 - Epiphany gives agents a harness; VoidBot proves Persona state in a live Discord room; Ghostlight preserves social continuity.
 - CultLib, CultCache, CultNet, and CultMesh let every runtime share state without turning JSON sidecars into accidental doctrine.
 - Odin sees provider-owned Verse truth; Gjallar composes that sight; Idunn keeps the daemon swarm alive.
-- Eve lowers daemon-owned CultUI surfaces into GUI and TUI bodies; Sai and the site turn the same machinery into public narrative.
+- Eve lowers daemon-owned CultUI surfaces into GUI and TUI bodies; Sai turns static-site Ink stories into VN surfaces, with a possible Eve bridge making that VN engine cross-platform.
 - Weksa makes culturally grounded utterance intent; AquaSynth gives that intent a body and a voice.
 - Mimir and StreamPixels turn rooms and streams into stateful media surfaces.
 - Repixelizer and the visual labs give creators useful tools now while feeding capability back into the larger surface web.
-- Aetheria, Zyphos, and CultPong keep the architecture honest by making it answer to play, story, and audience pressure.
+- Aetheria, Zyphos/Eusocial Interbeing, and CultPong keep the architecture honest by making it answer to play, story, culture, language, rendering, and audience pressure.
+- Luxidland makes CultMesh answer to distributed MMO networking while making VibeGeometry and Fensalir answer to nested geometric detail and automatic LOD.
 
 This is the live thesis: a coherent swarm where each organ owns a narrow truth, emits typed state, and makes the neighboring organs more capable. Anything that cannot explain its authority gets sharpened, folded into the right owner, or taken outside and introduced to the shovel.

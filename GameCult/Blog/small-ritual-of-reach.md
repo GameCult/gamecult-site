@@ -13,6 +13,8 @@ tags:
 socialDeck: "A prepared Face makes a bounded request. Then the living person behind it briefly becomes visible."
 ---
 
+<section class="ritual-paper-page ritual-paper-page-cover">
+
 # The Small Ritual Of Reach
 
 <div class="ritual-paper-titleblock">
@@ -114,6 +116,18 @@ We test the following hypotheses:
 
 **H5:** My autistic social pathfinding engine will absolutely turn a DM strategy into a ten-page paper if left unattended.
 
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>1</sup> The opening model borrows from social-penetration theory, facework, reciprocity, and computer-mediated communication before immediately using them to justify one awkward second message.</p>
+    <p><sup>2</sup> "Prepared Face" is used in the ordinary Goffman-adjacent sense: the version of the self made legible enough to survive public handling.</p>
+  </div>
+  <span class="ritual-paper-page-number">1</span>
+</footer>
+
+</section>
+
+<section class="ritual-paper-page">
+
 ## 4. Methods
 
 ### 4.1 Corpus
@@ -203,9 +217,21 @@ Do not cite this in court. Do cite it at parties if the party is already unsalva
 <div class="ritual-paper-results-strip">
   <span><strong>n</strong> = me</span>
   <span><strong>figures</strong> = 4</span>
-  <span><strong>citations</strong> = 26</span>
+  <span><strong>citations</strong> = 27</span>
   <span><strong>social media posts explained</strong> = 1</span>
 </div>
+
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>3</sup> GOAP is cited to Orkin's game AI work, because "I think like a behavior planner" deserves better than acronym folklore.</p>
+    <p><sup>4</sup> Figures are illustrative simulations: diagrams wearing statistics clothing, not measured human-subject outcomes.</p>
+  </div>
+  <span class="ritual-paper-page-number">2</span>
+</footer>
+
+</section>
+
+<section class="ritual-paper-page">
 
 ## 5. Results
 
@@ -317,6 +343,18 @@ Concealed extraction is the sin.
 Love is not the absence of manipulation.
 
 Love is influence with consent, truth, memory, proportion, and care for the other mind's agency.
+
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>5</sup> Sequential-request effects are real but modest. The ethical move is not escalation pressure; it is making help small enough to refuse cleanly.</p>
+    <p><sup>6</sup> The HPMOR citation is included as a compromised literary case study, not as moral authority. Draco can see the machinery. That does not make him safe.</p>
+  </div>
+  <span class="ritual-paper-page-number">3</span>
+</footer>
+
+</section>
+
+<section class="ritual-paper-page">
 
 ### 5.4 Result Four: Vulnerability Is A Status Signal
 
@@ -451,6 +489,18 @@ Silence leaves the request too polished.
 Liturgy makes the recipient wonder whether they have accidentally become a junior priest in your emotional infrastructure.
 
 The sweet spot is tiny, sincere, and socially cheap to answer.
+
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>7</sup> NLP is treated here as a cautionary brand label. The defensible claim is narrower: sequence, medium, autonomy, disclosure, and facework change interpretation.</p>
+    <p><sup>8</sup> The ablation table is a toy model. It is not a secret clinical trial hiding under a monocle.</p>
+  </div>
+  <span class="ritual-paper-page-number">4</span>
+</footer>
+
+</section>
+
+<section class="ritual-paper-page">
 
 ## 6. Discussion
 
@@ -598,6 +648,18 @@ And yes, apparently this is a field manual for autists.
 
 Not because autistic people are the only ones doing social machinery. Everyone is doing social machinery. We are just less likely to survive on the factory defaults, so sometimes we have to open the panel, read the labels, and admit which wires are carrying the current.
 
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>9</sup> A non-response is a complete outcome, not a failed conversion. Consent includes silence staying unpunished.</p>
+    <p><sup>10</sup> The autobiographical claim is methodological, not ornamental: explicit social modeling is the engine that produced the ritual.</p>
+  </div>
+  <span class="ritual-paper-page-number">5</span>
+</footer>
+
+</section>
+
+<section class="ritual-paper-page ritual-paper-page-references">
+
 ## References
 
 1. Irwin Altman and Dalmas A. Taylor, *Social Penetration: The Development of Interpersonal Relationships*, 1973.
@@ -627,3 +689,12 @@ Not because autistic people are the only ones doing social machinery. Everyone i
 25. Tomasz Witkowski, ["Thirty-Five Years of Research on Neuro-Linguistic Programming"](https://www.researchgate.net/publication/228998967_Thirty-Five_Years_of_Research_on_Neuro-Linguistic_Programming_NLP_Research_Data_Base_State_of_the_Art_or_Pseudoscientifc_Decoration), 2010.
 26. Eliezer Yudkowsky, [*Harry Potter and the Methods of Rationality*, Chapter 7: "Reciprocation"](https://hpmor.com/chapter/7).
 27. Jamil Zaki and W. Craig Williams, ["Interpersonal Emotion Regulation"](https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c48d621cd8366102833e53c/1548277282864/zaki.williams.2013.pdf), 2013.
+
+<footer class="ritual-paper-page-footer">
+  <div class="ritual-paper-footnotes">
+    <p><sup>11</sup> References are kept in full at the end because civilization has produced some useful rituals and this is one of them.</p>
+  </div>
+  <span class="ritual-paper-page-number">6</span>
+</footer>
+
+</section>

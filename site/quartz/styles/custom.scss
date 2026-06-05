@@ -99,21 +99,24 @@ body {
 }
 
 body[data-slug="Blog/small-ritual-of-reach"] {
-  --ritual-paper-bg: #090b10;
-  --ritual-paper-sheet: #10141d;
-  --ritual-paper-sheet-2: #141923;
-  --ritual-paper-ink: #e8edf4;
-  --ritual-paper-muted: #a9b2c3;
-  --ritual-paper-faint: #738093;
-  --ritual-paper-rule: rgba(174, 189, 210, 0.22);
-  --ritual-paper-blue: #7eb7ff;
-  --ritual-paper-green: #86d4aa;
-  --ritual-paper-gold: #e5bd73;
+  --ritual-paper-bg: #050614;
+  --ritual-paper-sheet: #0b1028;
+  --ritual-paper-sheet-2: #14113b;
+  --ritual-paper-ink: #f1f4ff;
+  --ritual-paper-muted: #bac4ff;
+  --ritual-paper-faint: #7a84c5;
+  --ritual-paper-rule: rgba(96, 119, 255, 0.26);
+  --ritual-paper-cobalt: #3158ff;
+  --ritual-paper-violet: #5b36b8;
+  --ritual-paper-orange: #dc5524;
+  --ritual-paper-yellow: #ffb21e;
+  --ritual-paper-glow: #e9f5ff;
 
   background:
-    radial-gradient(circle at 18% 4%, rgba(126, 183, 255, 0.09), transparent 28rem),
-    radial-gradient(circle at 84% 18%, rgba(229, 189, 115, 0.07), transparent 26rem),
-    linear-gradient(180deg, #07090d, #0c1018 42%, #080a0f);
+    radial-gradient(circle at 78% 8%, rgba(255, 178, 30, 0.15), transparent 24rem),
+    radial-gradient(circle at 18% 4%, rgba(49, 88, 255, 0.22), transparent 30rem),
+    radial-gradient(circle at 44% 20%, rgba(91, 54, 184, 0.19), transparent 34rem),
+    linear-gradient(180deg, #030414, #070b24 42%, #040514);
 
   .page > #quartz-body {
     grid-template-columns: minmax(0, 1fr) 280px;
@@ -133,7 +136,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   }
 
   .page > #quartz-body .center {
-    max-width: 1180px;
+    max-width: 1120px;
     margin: 0 auto;
   }
 
@@ -143,20 +146,13 @@ body[data-slug="Blog/small-ritual-of-reach"] {
 
   .page > #quartz-body .center > article {
     position: relative;
-    max-width: 1080px;
+    max-width: 980px;
     margin: 2rem auto 4rem;
-    padding: clamp(1.6rem, 4vw, 4.2rem);
+    padding: 0;
     color: var(--ritual-paper-ink);
-    border: 1px solid rgba(174, 189, 210, 0.2);
-    border-radius: 8px;
-    background:
-      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-      linear-gradient(180deg, var(--ritual-paper-sheet), var(--ritual-paper-sheet-2));
-    background-size: 32px 32px, auto;
-    box-shadow:
-      0 34px 90px rgba(0, 0, 0, 0.46),
-      0 0 0 1px rgba(255, 255, 255, 0.03) inset,
-      0 1px 0 rgba(255, 255, 255, 0.06) inset;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.04rem;
     line-height: 1.72;
@@ -171,7 +167,8 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     border: 1px solid rgba(174, 189, 210, 0.18);
     border-radius: 8px;
     background:
-      linear-gradient(180deg, rgba(16, 20, 29, 0.96), rgba(9, 12, 18, 0.94));
+      radial-gradient(circle at 100% 0%, rgba(255, 178, 30, 0.12), transparent 42%),
+      linear-gradient(180deg, rgba(11, 16, 40, 0.97), rgba(5, 6, 20, 0.95));
     box-shadow:
       0 24px 58px rgba(0, 0, 0, 0.36),
       inset 0 1px 0 rgba(255, 255, 255, 0.04);
@@ -194,28 +191,57 @@ body[data-slug="Blog/small-ritual-of-reach"] {
 
   .page > #quartz-body > .right.sidebar .toc a:hover,
   .page > #quartz-body > .right.sidebar .toc a.in-view {
-    color: var(--ritual-paper-blue);
+    color: var(--ritual-paper-yellow);
   }
 
-  .page > #quartz-body .center > article::before {
+  .ritual-paper-page {
+    position: relative;
+    margin: 0 0 2rem;
+    padding: clamp(1.45rem, 3.4vw, 3.25rem);
+    border: 1px solid rgba(174, 189, 210, 0.2);
+    border-radius: 8px;
+    background:
+      linear-gradient(90deg, rgba(233, 245, 255, 0.028) 1px, transparent 1px),
+      radial-gradient(circle at 92% 8%, rgba(255, 178, 30, 0.075), transparent 22rem),
+      radial-gradient(circle at 12% 12%, rgba(49, 88, 255, 0.12), transparent 24rem),
+      linear-gradient(180deg, var(--ritual-paper-sheet), var(--ritual-paper-sheet-2));
+    background-size: 32px 32px, auto;
+    box-shadow:
+      0 28px 72px rgba(0, 0, 0, 0.42),
+      0 0 0 1px rgba(255, 255, 255, 0.03) inset,
+      0 1px 0 rgba(255, 255, 255, 0.06) inset;
+  }
+
+  .ritual-paper-page-cover {
+    padding-top: clamp(1.8rem, 3.6vw, 4rem);
+  }
+
+  .ritual-paper-page::before {
     content: "PREPRINT";
     position: absolute;
     top: 1rem;
     right: 1rem;
     padding: 0.24rem 0.55rem;
-    color: rgba(229, 189, 115, 0.86);
-    border: 1px solid rgba(229, 189, 115, 0.28);
+    color: rgba(255, 178, 30, 0.92);
+    border: 1px solid rgba(255, 178, 30, 0.36);
     border-radius: 999px;
-    background: rgba(229, 189, 115, 0.06);
+    background: rgba(220, 85, 36, 0.12);
     font-family: "IBM Plex Mono", Consolas, monospace;
     font-size: 0.68rem;
     letter-spacing: 0.18em;
   }
 
-  article > h1 {
+  .ritual-paper-page:not(.ritual-paper-page-cover)::before {
+    content: "WORKING PAPER";
+    color: rgba(233, 245, 255, 0.9);
+    border-color: rgba(49, 88, 255, 0.36);
+    background: rgba(49, 88, 255, 0.12);
+  }
+
+  article h1 {
     max-width: 760px;
     margin: 0 auto 0.55rem;
-    color: #f5f8fc;
+    color: var(--ritual-paper-glow);
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(2.35rem, 5vw, 4.1rem);
     font-weight: 600;
@@ -267,20 +293,21 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(126, 183, 255, 0.52),
-      rgba(229, 189, 115, 0.42),
+      rgba(49, 88, 255, 0.62),
+      rgba(255, 178, 30, 0.58),
+      rgba(220, 85, 36, 0.5),
       transparent
     );
   }
 
-  article > h2,
-  article > h3 {
+  article h2,
+  article h3 {
     color: #f2f5fa;
     font-family: Georgia, "Times New Roman", serif;
     letter-spacing: 0;
   }
 
-  article > h2 {
+  article h2 {
     margin-top: 3.1rem;
     padding-top: 1.25rem;
     border-top: 1px solid var(--ritual-paper-rule);
@@ -288,11 +315,18 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     font-weight: 600;
   }
 
-  article > h2#abstract {
+  .ritual-paper-page > h2:first-child,
+  .ritual-paper-page > h3:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  article h2#abstract {
     margin-top: 1.3rem;
   }
 
-  article > h3 {
+  article h3 {
     margin-top: 2.1rem;
     color: rgba(232, 237, 244, 0.92);
     font-size: 1.13rem;
@@ -305,7 +339,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   }
 
   article a {
-    color: var(--ritual-paper-blue);
+    color: var(--ritual-paper-yellow);
     text-decoration-thickness: 0.08em;
     text-underline-offset: 0.18em;
   }
@@ -315,8 +349,8 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   }
 
   article code {
-    color: #d5f4ff;
-    border: 1px solid rgba(126, 183, 255, 0.18);
+    color: #fbe6b2;
+    border: 1px solid rgba(255, 178, 30, 0.2);
     border-radius: 4px;
     background: rgba(6, 10, 16, 0.7);
     font-family: "IBM Plex Mono", Consolas, monospace;
@@ -326,8 +360,8 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     position: relative;
     margin: 1.35rem 0;
     padding: 1rem 1.2rem 1rem 1.35rem;
-    border: 1px solid rgba(126, 183, 255, 0.17);
-    border-left: 0.22rem solid rgba(126, 183, 255, 0.72);
+    border: 1px solid rgba(49, 88, 255, 0.2);
+    border-left: 0.22rem solid rgba(220, 85, 36, 0.82);
     border-radius: 6px;
     background: rgba(7, 12, 19, 0.62);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
@@ -358,16 +392,16 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   }
 
   article li::marker {
-    color: var(--ritual-paper-gold);
+    color: var(--ritual-paper-yellow);
   }
 
   .ritual-paper-abstract {
     margin: 0.9rem 0 2rem;
     padding: 1.2rem 1.35rem;
-    border: 1px solid rgba(134, 212, 170, 0.2);
+    border: 1px solid rgba(49, 88, 255, 0.32);
     border-radius: 6px;
     background:
-      linear-gradient(180deg, rgba(134, 212, 170, 0.07), rgba(126, 183, 255, 0.035)),
+      linear-gradient(135deg, rgba(49, 88, 255, 0.12), rgba(91, 54, 184, 0.1), rgba(220, 85, 36, 0.05)),
       rgba(7, 12, 19, 0.56);
   }
 
@@ -379,9 +413,9 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   .ritual-paper-method-card,
   .ritual-paper-results-strip {
     margin: 1.35rem 0;
-    border: 1px solid rgba(229, 189, 115, 0.24);
+    border: 1px solid rgba(255, 178, 30, 0.28);
     border-radius: 6px;
-    background: rgba(229, 189, 115, 0.055);
+    background: rgba(220, 85, 36, 0.075);
   }
 
   .ritual-paper-method-card {
@@ -402,7 +436,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
   .ritual-paper-results-strip span {
     padding: 0.85rem 0.65rem;
     color: rgba(232, 237, 244, 0.88);
-    border-right: 1px solid rgba(229, 189, 115, 0.18);
+    border-right: 1px solid rgba(255, 178, 30, 0.2);
     font-family: "IBM Plex Mono", Consolas, monospace;
     font-size: 0.76rem;
     line-height: 1.45;
@@ -443,22 +477,69 @@ body[data-slug="Blog/small-ritual-of-reach"] {
     margin: 1.15rem 0;
     padding: 0.8rem 1rem;
     overflow-x: auto;
-    border: 1px solid rgba(126, 183, 255, 0.14);
+    border: 1px solid rgba(49, 88, 255, 0.22);
     border-radius: 6px;
     background: rgba(5, 9, 15, 0.7);
   }
 
+  .ritual-paper-page-footer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 1rem;
+    margin: 2rem 0 0;
+    padding-top: 0.95rem;
+    border-top: 1px solid rgba(174, 189, 210, 0.2);
+    column-span: all;
+  }
+
+  .ritual-paper-footnotes {
+    display: grid;
+    gap: 0.45rem;
+  }
+
+  .ritual-paper-footnotes p {
+    margin: 0;
+    color: rgba(169, 178, 195, 0.86);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.7rem;
+    line-height: 1.48;
+  }
+
+  .ritual-paper-footnotes sup {
+    color: var(--ritual-paper-yellow);
+    margin-right: 0.28rem;
+    font-size: 0.72rem;
+  }
+
+  .ritual-paper-page-number {
+    min-width: 2.25rem;
+    padding: 0.32rem 0.5rem;
+    color: #080712;
+    border: 1px solid rgba(255, 178, 30, 0.62);
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--ritual-paper-orange), var(--ritual-paper-yellow));
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.74rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    box-shadow:
+      0 0 22px rgba(255, 178, 30, 0.24),
+      0 0 34px rgba(49, 88, 255, 0.12);
+  }
+
   @media all and (min-width: 1120px) {
-    .page > #quartz-body .center > article {
+    .ritual-paper-page {
       column-count: 2;
       column-gap: 2.6rem;
-      column-rule: 1px solid rgba(174, 189, 210, 0.16);
+      column-rule: 1px solid rgba(49, 88, 255, 0.2);
     }
 
-    article > h1,
+    article h1,
     .ritual-paper-titleblock,
     .ritual-paper-keyline,
-    article > h2,
+    article h2,
     .ritual-paper-abstract,
     .ritual-paper-method-card,
     .ritual-paper-results-strip,
@@ -467,7 +548,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
       column-span: all;
     }
 
-    article > h3,
+    article h3,
     article blockquote,
     article table,
     article ol,
@@ -475,7 +556,7 @@ body[data-slug="Blog/small-ritual-of-reach"] {
       break-inside: avoid;
     }
 
-    article > h3 {
+    article h3 {
       break-after: avoid;
     }
   }
@@ -496,18 +577,22 @@ body[data-slug="Blog/small-ritual-of-reach"] {
 
     .page > #quartz-body .center > article {
       margin-top: 0.8rem;
-      padding: 1.25rem;
-      border-radius: 0;
       font-size: 0.98rem;
     }
 
-    .page > #quartz-body .center > article::before {
+    .ritual-paper-page {
+      margin-bottom: 1.15rem;
+      padding: 1.25rem;
+      border-radius: 0;
+    }
+
+    .ritual-paper-page::before {
       position: static;
       display: inline-block;
       margin-bottom: 1rem;
     }
 
-    article > h1,
+    article h1,
     .ritual-paper-titleblock {
       text-align: left;
     }
@@ -519,6 +604,14 @@ body[data-slug="Blog/small-ritual-of-reach"] {
 
     .ritual-paper-results-strip {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .ritual-paper-page-footer {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .ritual-paper-page-number {
+      justify-self: start;
     }
   }
 }

@@ -95,6 +95,15 @@ GameCult is a repo swarm, not a product list. The useful question is not
 owns which truth, what typed state it emits, and which neighboring organs become
 more capable because it exists.
 
+\subsection{Grounding Standard}
+
+This atlas is grounded in repo-local READMEs, AGENTS notes, architecture docs,
+package metadata, and generated site/workflow files where those surfaces exist.
+Claims that only describe a plausible synergy are written as target paths, not
+as completed integration. If a future edit cannot name the source repo and
+surface behind a claim, it should either be cut or explicitly marked as design
+intent.
+
 \Verdict{The coherent machine is a loop: agents act through Epiphany and VoidBot;
 state persists through CultCache and travels through CultNet and CultMesh; Odin
 discovers the Verse; Eve lowers provider-owned interfaces; Weksa and AquaSynth
@@ -110,10 +119,10 @@ Category & Primary organs & What the category owns\\
 Core harness and Persona agents & Epiphany, VoidBot, Ghostlight, EpiphanyAquarium & Agent work, persistent Persona state, social memory, visual self-modeling, room-native retrieval.\\
 Substrate and mesh & CultLib, CultCache ports, CultNet ports, CultMesh, CultMath & Typed state, cache files, protocol contracts, cross-runtime networking, math support.\\
 Verse sight and stewardship & Odin, Gjallar, Idunn, Heimdall, Bifrost & Discovery, schema awareness, composite sight, daemon lifecycle, consent, identity, crossings, receipts.\\
-Interfaces and lowering & Eve, Fensalir, Sai, gamecult-site, GameCult-Quartz, gamecult-grav & CultUI lowering, native and web surfaces, static-site Ink visual novels, public projection, site publishing.\\
+Interfaces and lowering & Eve, Fensalir, Sai, gamecult-site, GameCult-Quartz, gamecult-grav & CultUI lowering, native and web surfaces, static-site Ink embeds, portable Eve visual-novel projection, public projection, shared site publishing.\\
 Language and voice & Weksa, AquaSynth, aquasynth-rs & Ontology-aware utterance lowering, vocal morphology, procedural voice and instrumental synthesis.\\
 Media and creator tools & Mimir, StreamPixels, repixelizer, Bokusho, LunaMosaic, Spotiverse, Stonks & Room intelligence, stream interactivity, pixel tools, brush and mosaic experiments, market data, queue-aware music control, creator-facing utilities.\\
-Games and worlds & CultPong, Aetheria, AetheriaLore, Zyphos / Eusocial Interbeing, Luxidland, Aquarium-Engine & Playable proofs, world pressure, lore, eusocial culture, MMO networking pressure, fractal-domain rendering pressure, language-engine pressure, geometric detail, automatic LOD, runtime tests.\\
+Games and worlds & CultPong, Aetheria, AetheriaLore, Zyphos / Eusocial Interbeing, Luxidland, Aquarium-Engine & Playable proofs, world pressure, lore, eusocial culture, open-world sharding, deterministic simulation, fractal-domain rendering pressure, language-engine pressure, runtime tests.\\
 Graph, geometry, and inspection & Norn, norn-rs, epiphany-graph-rs, Perlines, VibeGeometry, vg-csg, \_vg\_csg\_history\_full & Graph layout, evidence maps, line and geometry tools, shape reasoning, historical CSG evidence.\\
 Operations and inventory & gamecult-ops, repo-doc-tree artifacts & Runbooks, deployment memory, indexed repo inventory, operational truth that keeps the swarm from gaslighting itself.\\
 \bottomrule
@@ -237,9 +246,9 @@ little state monarchy with a nice font.}
 Organ & Job\\
 \midrule
 Fensalir & Native and high-performance runtime body for local surfaces and future mesh-native tools.\\
-Sai & Static-site visual novel engine for Ink-powered portfolio, onboarding, project tour, and narrative surfaces; if connected through Eve, the same body becomes a cross-platform Ink VN engine.\\
+Sai & Static-site Ink embedder for interactive fiction and visual-novel surfaces; ships an Eve projection module that turns Sai VN state into `gamecult.eve.surface.v1` for portable renderers.\\
 gamecult-site & Public root site: projects, docs, blog, studio pitch, and published atlas.\\
-GameCult-Quartz & Shared Quartz engine used by the site projection.\\
+GameCult-Quartz & Shared Quartz engine and Pages workflow used by `gamecult-site`, `AetheriaLore`, and `Mimir` site overlays.\\
 gamecult-grav & Legacy site and publication body whose surviving lessons feed the current stack.\\
 \bottomrule
 \end{longtable}
@@ -284,9 +293,9 @@ Organ & Category & Job\\
 \Organ{repixelizer}{Hosted visual tool}{Fun service wedge for pixel workflows and visual transformation.}
 \Organ{Bokusho}{Brush and visual lab}{Drawing, brush, and expression experiments that can feed public creator surfaces.}
 \Organ{LunaMosaic}{Mosaic and visual lab}{Large visual corpus and mosaic-style experiments.}
-\Organ{Spotiverse}{Verse music control}{Spotify queue access so daemons and Personas can know what is playing and enqueue new songs through authorized suggestions or commands.}
-\Organ{Stonks}{CultMesh market data}{Market-data provider currently used by Gjallar to decorate Odin composite gutters without owning the dashboard.}
-\Organ{Luxidland}{MMO world-scale pressure}{Distributed MMO networking pressure for CultMesh, plus massive nested geometric-detail and automatic-LOD pressure for VibeGeometry and Fensalir.}
+\Organ{Spotiverse}{Spotify Verse adapter}{Spotify playback, device, queue, search, and add-to-queue command boundary for the CultMesh Verse; agents use commands and do not receive raw token custody.}
+\Organ{Stonks}{CultMesh market adapter}{Market-data adapter daemon: polls public endpoints, normalizes CultCache-backed market state, and publishes provider-owned Eve/CultUI surfaces for Odin/renderers.}
+\Organ{Luxidland}{Open-world simulation pressure}{Unity open-world prototype with deterministic simulation, geographic world-cell sharding, route overlays, proximity clusters, quorum/witness logic, and CultMesh contract shapes.}
 \bottomrule
 \end{longtable}
 
@@ -299,7 +308,7 @@ Organ & Category & Job\\
 \Organ{CultPong}{Playable proof}{Small game proving governed patronage and public play can share the same machinery.}
 \Organ{Aetheria}{World body}{Large setting and game-world pressure vessel.}
 \Organ{AetheriaLore}{Lore memory}{Canonical and archival world memory for Aetheria.}
-\Organ{Zyphos / Eusocial Interbeing}{Culture and renderer pressure vessel}{One project identity: alien eusocial culture built to pressure Fensalir's fractal-domain renderer and Weksa's language engine.}
+\Organ{Zyphos / Eusocial Interbeing}{Culture and renderer pressure vessel}{Zyphos vault/site identity inside `Eusocial Interbeing`; docs pressure Aquarium/Fensalir rendering and raise Weksa naming/domain-language questions.}
 \Organ{Aquarium-Engine}{Runtime support}{Game and simulation engine pressure from the aquarium side of the swarm.}
 \bottomrule
 \end{longtable}
@@ -347,13 +356,13 @@ CultLib + CultCache + CultNet + CultMesh & Every runtime can persist state, comm
 Odin + Gjallar + Idunn & The swarm can know what exists, show the operator a composite view, and keep services alive after failure.\\
 Heimdall + Bifrost & Consent, identity, claims, work, patronage, notifications, and receipts become inspectable crossings.\\
 Eve + Odin + daemon providers & Provider-owned UI compositions can be discovered and lowered into many runtimes without moving truth into the renderer.\\
-Sai + gamecult-site + GameCult-Quartz & The public face can explain the same machine through pages, durable docs, and static-site Ink visual novels.\\
-Sai + Eve & If wired together, Sai's Ink-powered VN body can lower across platforms instead of remaining only a static-site surface.\\
+Sai + gamecult-site + GameCult-Quartz & The public face can explain the same machine through pages, durable docs, static-site Ink visual novels, and a shared engine used across the GameCult static-site fleet.\\
+Sai + Eve & Sai already ships an Eve projection module, so Ink-powered story state can be represented as portable `gamecult.eve.surface.v1` instead of only browser DOM.\\
 Weksa + AquaSynth & Intent becomes culture-shaped language, then body-shaped speech. This is the alien-language engine with teeth.\\
 Mimir + StreamPixels & Room intelligence can feed stream overlays and interactive media surfaces in real time.\\
 repixelizer + Bokusho + LunaMosaic + VibeGeometry & Creator-friendly visual tools become service wedges and reusable visual capability.\\
 Aetheria + Zyphos/Eusocial Interbeing + CultPong & Worlds and games test the architecture against play, story, culture, Weksa language pressure, Fensalir fractal-domain rendering pressure, and public use.\\
-Luxidland + CultMesh + VibeGeometry + Fensalir & Distributed MMO networking, nested geometric domains, and automatic LOD become one pressure test instead of three disconnected research toys.\\
+Luxidland + CultMesh & Open-world sharding, deterministic simulation frames, route/cell/vehicle facts, proximity clusters, and quorum/witness logic give CultMesh MMO-shaped pressure. VibeGeometry/Fensalir nested-detail and LOD remain the renderer synergy path until wired source says more.\\
 Norn + epiphany-graph-rs + Eve & Evidence and architecture can become spatial maps and then inspectable surfaces.\\
 \bottomrule
 \end{longtable}
@@ -387,26 +396,26 @@ EpiphanyAgent & Core harness and Persona-state pressure.\\
 EpiphanyAquarium & Agent ecology and visual self-modeling lab.\\
 EpiphanyAquarium-Bevy & Bevy runtime body for the aquarium.\\
 EpiphanyAquarium-Web & Web runtime body for the aquarium.\\
-Eusocial Interbeing & Same project identity as Zyphos: alien eusocial culture pressure for Fensalir's fractal-domain renderer and Weksa's language engine.\\
+Eusocial Interbeing & Zyphos vault/site identity and alien eusocial design; docs pressure Aquarium/Fensalir rendering and raise Weksa domain-language questions.\\
 Eve & CultUI lowering and daemon dashboard surface system.\\
 Fensalir & Native or high-performance runtime body.\\
 gamecult-grav & Legacy publishing body and migration memory.\\
 gamecult-ops & Operations inventory, runbooks, and deployment memory.\\
-GameCult-Quartz & Shared Quartz engine.\\
+GameCult-Quartz & Shared Quartz engine and Pages workflow used by `gamecult-site`, `AetheriaLore`, and `Mimir` site overlays.\\
 gamecult-site & Public root site and repo atlas.\\
 Ghostlight & Persistent social state for characters, Faces, and communities.\\
 Heimdall & Identity, grants, consent, claims, and revocation.\\
 LunaMosaic & Visual mosaic corpus and experiment body.\\
-Luxidland & MMO-scale world body that pressures CultMesh distributed networking and VibeGeometry/Fensalir nested geometric detail with automatic LOD.\\
+Luxidland & Unity open-world prototype with deterministic simulation, world-cell sharding, proximity clusters, quorum/witness logic, and CultMesh contract shapes; renderer LOD synergy remains a target path, not a confirmed integration.\\
 Mimir & Room intelligence and creator production surfaces.\\
 Norn & Graph loom and readable relationship maps.\\
 norn-rs & Rust graph and layout body.\\
 Odin & All-seer for Verse discovery, schema awareness, translation, and interface aggregation.\\
 Perlines & Line and path experiment body.\\
 repixelizer & Hosted pixel and visual transformation service.\\
-Sai & Static-site Ink-powered visual novel engine; possible Eve synergy turns it into a cross-platform VN lowering body.\\
-Spotiverse & Spotify queue provider for the Verse: current-track awareness plus authorized enqueue flows for Persona suggestions and commands.\\
-Stonks & CultMesh market-data provider, currently consumed by Gjallar as gutter decoration around Odin's composite sight.\\
+Sai & Static-site Ink embedder and visual-novel surface with an Eve projection module for portable `gamecult.eve.surface.v1` output.\\
+Spotiverse & Spotify adapter daemon for the Verse: playback/queue/device polling, search, and `add-to-queue` through a command boundary and receipts.\\
+Stonks & Market-data adapter daemon for the CultMesh Verse: public endpoint polling, normalized market snapshots, request events, and provider-owned Eve/CultUI surface.\\
 StreamPixels & Stream interactivity platform.\\
 vg-csg & Constructive solid geometry experiment body.\\
 VibeGeometry & Inspectable shape and transformation tooling.\\

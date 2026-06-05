@@ -63,7 +63,7 @@ Heimdall owns identity, grants, consent, revocation, and boundary inspection. Bi
 
 Eve is the surface system: daemon dashboards lowered from Eve's UI DSL, CultUI, into multiple GUI and TUI runtimes. A daemon publishes the interface it owns; Eve lowers it. The renderer does not become the source of truth just because it has pixels.
 
-Fensalir, Sai, gamecult-site, GameCult-Quartz, and gamecult-grav are the presentation and publishing bodies. Sai is the static-site visual novel engine: the portfolio and compound can become an Ink-powered VN surface without needing a live app server. If Sai is wired through Eve, the synergy path gets sharper: Sai becomes a cross-platform Ink-powered visual novel engine lowered through the same interface doctrine as the daemon dashboards. The site and Quartz stack publish the public atlas. Fensalir is the native/runtime body for higher-performance surfaces.
+Fensalir, Sai, gamecult-site, GameCult-Quartz, and gamecult-grav are the presentation and publishing bodies. Sai is the static-site Ink embedder and visual-novel surface; it already ships an Eve projection module for portable `gamecult.eve.surface.v1` output. GameCult-Quartz is the shared Quartz engine for the static-site fleet: `gamecult-site`, `AetheriaLore`, and `Mimir` all have shared-Quartz wiring. Fensalir is the native/runtime body for high-performance surfaces.
 
 ## Language, Voice, and Alien Culture
 
@@ -77,17 +77,17 @@ Mimir handles room intelligence, media observation, and creator production surfa
 
 Repixelizer is the fun service wedge: a useful hosted tool for visual transformation and pixel-art workflows. Bokusho and LunaMosaic are visual experiments with sharper local jobs: brush and mosaic machinery that can feed the larger creator stack when they earn it.
 
-Stonks is a CultMesh market-data provider. Its current glamorous office is Gjallar's gutters, where market signal decorates the composite Odin view without pretending to be the whole dashboard. Spotiverse gives the Verse access to the active Spotify queue: daemons and Personas can know what is playing, and authorized actors can enqueue songs through suggestion or command flows.
+Stonks is a market-data adapter daemon for the CultMesh Verse. It polls public market endpoints, normalizes them into CultCache-backed state, and publishes a provider-owned Eve/CultUI surface for Odin and renderers. Spotiverse is the Spotify adapter daemon: it exposes playback, devices, queue state, search, and `add-to-queue` through an inspectable command boundary. Agents do not get raw Spotify token custody. They propose or send commands through Spotiverse.
 
 ## Games, Worlds, and Story Pressure
 
-CultPong is the small playable proof. Aetheria and AetheriaLore are the larger world and lore pressure vessels. Zyphos and Eusocial Interbeing are the same project: the alien eusocial culture body that pressures both Fensalir's fractal-domain renderer and Weksa's language engine. Luxidland pressures CultMesh for distributed MMO networking while pushing VibeGeometry and Fensalir toward massive nested domains of geometric detail with automatic LOD. They test whether the substrate can carry play, culture, factions, languages, memory, geometry, scale, and governance without becoming a spreadsheet wearing a cape.
+CultPong is the small playable proof. Aetheria and AetheriaLore are the larger world and lore pressure vessels. The `Eusocial Interbeing` repo carries the Zyphos vault and site identity; its design docs pressure Aquarium/Fensalir rendering and explicitly ask whether Weksa can supply stable domain terms for route, archive, contract, and contamination states. Luxidland is a Unity open-world prototype with deterministic simulation, geographic world-cell sharding, proximity clustering, quorum/witness logic, and CultMesh contract shapes for world, route, vehicle, cluster, and event facts. Its natural renderer synergy is VibeGeometry/Fensalir nested detail and LOD, but the current repo-grounded claim is the CultMesh/open-world simulation pressure. These worlds test whether the substrate can carry play, culture, factions, languages, memory, geometry, scale, and governance without becoming a spreadsheet wearing a cape.
 
 The point of the worlds is not lore storage. The point is pressure. Games make the machine prove it can survive contact with players.
 
 ## Operations and Publication
 
-gamecult-ops carries inventory, deployment memory, runbooks, and operational history. gamecult-site and GameCult-Quartz carry the public projection. The generated compound repo-doc tree is the current public swarm inventory, and the TeX atlas above turns that inventory into a coherent organ map.
+gamecult-ops carries inventory, deployment memory, runbooks, and operational history. gamecult-site carries the main public projection; GameCult-Quartz carries the shared static-site engine used by the GameCult site fleet. The generated compound repo-doc tree is the current public swarm inventory, and the TeX atlas above turns that inventory into a coherent organ map.
 
 ## Cross-Project Synergies
 
@@ -99,6 +99,6 @@ gamecult-ops carries inventory, deployment memory, runbooks, and operational his
 - Mimir and StreamPixels turn rooms and streams into stateful media surfaces.
 - Repixelizer and the visual labs give creators useful tools now while feeding capability back into the larger surface web.
 - Aetheria, Zyphos/Eusocial Interbeing, and CultPong keep the architecture honest by making it answer to play, story, culture, language, rendering, and audience pressure.
-- Luxidland makes CultMesh answer to distributed MMO networking while making VibeGeometry and Fensalir answer to nested geometric detail and automatic LOD.
+- Luxidland makes CultMesh answer to open-world sharding, deterministic simulation observations, and MMO-shaped authority pressure; VibeGeometry/Fensalir LOD is the renderer synergy path, not yet claimed as wired repo fact here.
 
 This is the live thesis: a coherent swarm where each organ owns a narrow truth, emits typed state, and makes the neighboring organs more capable. Anything that cannot explain its authority gets sharpened, folded into the right owner, or taken outside and introduced to the shovel.

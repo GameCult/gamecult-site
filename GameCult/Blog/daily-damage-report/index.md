@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-06-04
+date: 2026-06-05
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,12 +14,12 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 07 - 30 May 2026 onward](/Blog/daily-damage-report/week-07)  
-  The current open week: the public org roster just climbed to 38, the local bench only resolves to 37 real GameCult remotes, Odin finally escaped the off-roster penalty box, and June 4 spent itself on semantic service addresses, Bifrost-routed moderation, and one more coordinated VN continue-prompt redeploy.
+  The current open week: the public org roster climbed again to 39, the local bench only resolves to 38 real GameCult remotes, Gjallar escaped Odin's ribcage and hit the public wall, and June 5 burned itself on compositor extraction, Huginn demotion, Persona-memory tooling, and one more essay-sized site sermon.
 
 ## Archive
 
 - [Week 06 - 23 May 2026 to 29 May 2026](/Blog/daily-damage-report/week-06)  
-  The repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-face folklore.
+  The repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-persona folklore.
 
 - [Week 05 - 16 May 2026 to 22 May 2026](/Blog/daily-damage-report/week-05)  
   Repo-face governance became a real operating surface, Zyphos kept compacting the graph shell, Quartz finally stopped hand-rolling one more index, and the swarm continued its public self-surgery without developing shame.

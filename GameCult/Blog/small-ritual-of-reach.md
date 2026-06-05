@@ -146,9 +146,9 @@ This is the moment where the bit becomes load-bearing. A ten-page paper with twe
 
 ### 4.3 Model Architecture
 
-The actual model is embarrassingly close to game AI.
+The actual model is embarrassingly close to game AI, specifically Jeff Orkin's Goal-Oriented Action Planning work for games.
 
-In GOAP terms, the desired world state is:
+In Orkin's GOAP terms, the desired world state is:
 
 $$\text{connection increased} \land \text{agency preserved} \land \text{essay received as gift, not demand}$$
 
@@ -617,12 +617,13 @@ Not because autistic people are the only ones doing social machinery. Everyone i
 15. Jon Jecker and David Landy, ["Liking a Person as a Function of Doing Him a Favour"](https://journals.sagepub.com/doi/pdf/10.1177/001872676902200407), 1969.
 16. Marshall McLuhan, *Understanding Media: The Extensions of Man*, 1964.
 17. Niven, Totterdell, and Holman, "A Classification of Controlled Interpersonal Affect Regulation Strategies," 2009.
-18. James W. Pennebaker, *Opening Up: The Healing Power of Expressing Emotions*, 1990.
-19. Matthias Reinhold, Peter-Christian Burkner, and Heinz Holling, ["Effects of Expressive Writing on Stressful or Traumatic Experiences"](https://pmc.ncbi.nlm.nih.gov/articles/PMC2736499/), 2009.
-20. Bernard Rime, "Emotion Elicits the Social Sharing of Emotion," 2009.
-21. Joshua M. Smyth, ["Written Emotional Expression"](https://pubmed.ncbi.nlm.nih.gov/9489272/), 1998.
-22. Jackie Sturt et al., ["Neurolinguistic Programming: A Systematic Review of the Effects on Health Outcomes"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/), 2012.
-23. Joseph B. Walther, ["Computer-Mediated Communication"](https://collablab.northwestern.edu/CollabolabDistro/nucmc/Walther-CMCHyperpersonal-CommRes-1996.pdf), 1996.
-24. Tomasz Witkowski, ["Thirty-Five Years of Research on Neuro-Linguistic Programming"](https://www.researchgate.net/publication/228998967_Thirty-Five_Years_of_Research_on_Neuro-Linguistic_Programming_NLP_Research_Data_Base_State_of_the_Art_or_Pseudoscientifc_Decoration), 2010.
-25. Eliezer Yudkowsky, [*Harry Potter and the Methods of Rationality*, Chapter 7: "Reciprocation"](https://hpmor.com/chapter/7).
-26. Jamil Zaki and W. Craig Williams, ["Interpersonal Emotion Regulation"](https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c48d621cd8366102833e53c/1548277282864/zaki.williams.2013.pdf), 2013.
+18. Jeff Orkin, ["Applying Goal-Oriented Action Planning to Games"](https://static.hlt.bme.hu/semantics/external/pages/GOAP/alumni.media.mit.edu/_jorkin/GOAP_draft_AIWisdom2_2003.pdf), in *AI Game Programming Wisdom 2*, 2003.
+19. James W. Pennebaker, *Opening Up: The Healing Power of Expressing Emotions*, 1990.
+20. Matthias Reinhold, Peter-Christian Burkner, and Heinz Holling, ["Effects of Expressive Writing on Stressful or Traumatic Experiences"](https://pmc.ncbi.nlm.nih.gov/articles/PMC2736499/), 2009.
+21. Bernard Rime, "Emotion Elicits the Social Sharing of Emotion," 2009.
+22. Joshua M. Smyth, ["Written Emotional Expression"](https://pubmed.ncbi.nlm.nih.gov/9489272/), 1998.
+23. Jackie Sturt et al., ["Neurolinguistic Programming: A Systematic Review of the Effects on Health Outcomes"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3481516/), 2012.
+24. Joseph B. Walther, ["Computer-Mediated Communication"](https://collablab.northwestern.edu/CollabolabDistro/nucmc/Walther-CMCHyperpersonal-CommRes-1996.pdf), 1996.
+25. Tomasz Witkowski, ["Thirty-Five Years of Research on Neuro-Linguistic Programming"](https://www.researchgate.net/publication/228998967_Thirty-Five_Years_of_Research_on_Neuro-Linguistic_Programming_NLP_Research_Data_Base_State_of_the_Art_or_Pseudoscientifc_Decoration), 2010.
+26. Eliezer Yudkowsky, [*Harry Potter and the Methods of Rationality*, Chapter 7: "Reciprocation"](https://hpmor.com/chapter/7).
+27. Jamil Zaki and W. Craig Williams, ["Interpersonal Emotion Regulation"](https://static1.squarespace.com/static/55917f64e4b0cd3b4705b68c/t/5c48d621cd8366102833e53c/1548277282864/zaki.williams.2013.pdf), 2013.

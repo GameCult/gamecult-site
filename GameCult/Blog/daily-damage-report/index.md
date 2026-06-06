@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-06-05
+date: 2026-06-06
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -13,10 +13,13 @@ This is the running index for the public work log across GameCult's repos. Each 
 
 ## Current Week
 
-- [Week 07 - 30 May 2026 onward](/Blog/daily-damage-report/week-07)  
-  The current open week: the public org roster climbed again to 39, the local bench only resolves to 38 real GameCult remotes, Gjallar escaped Odin's ribcage and hit the public wall, and June 5 burned itself on compositor extraction, Huginn demotion, Persona-memory tooling, and one more essay-sized site sermon.
+- [Week 08 - 06 Jun 2026 onward](/Blog/daily-damage-report/week-08)  
+  The current open week: the public org wall is still parked at 39, the local bench still resolves to 38 real GameCult remotes, GitHub has not admitted a fresh June 6 public push yet, and the shelves spent the day on Eve parity surfaces, Gjallar signal cleanup, Odin provider exposure, VoidBot stress-state surgery, and one more off-roster ops receipt.
 
 ## Archive
+
+- [Week 07 - 30 May 2026 to 05 Jun 2026](/Blog/daily-damage-report/week-07)  
+  The public org roster climbed again to 39, the local bench only resolves to 38 real GameCult remotes, Gjallar escaped Odin's ribcage and hit the public wall, and June 5 burned itself on compositor extraction, Huginn demotion, Persona-memory tooling, and one more essay-sized site sermon.
 
 - [Week 06 - 23 May 2026 to 29 May 2026](/Blog/daily-damage-report/week-06)  
   The repo census stabilized at 35 public bodies, Fensalir and Mimir turned TubeField replay into something probeable, AquaSynth built an IPA evidence harness, and PersonaState started becoming shared law instead of repo-persona folklore.

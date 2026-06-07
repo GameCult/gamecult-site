@@ -1,6 +1,6 @@
 ---
 title: Portfolio Pitch
-description: "Interactive GameCult portfolio pitch: Faces sell the absurd upside of their favourite projects while Void keeps the receipts in reach."
+description: "Interactive GameCult portfolio pitch: Personas sell the absurd upside of their favourite projects while Void keeps the receipts in reach."
 enableToc: false
 showCompositeJump: false
 cssclasses:

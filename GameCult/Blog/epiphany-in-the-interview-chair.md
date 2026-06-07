@@ -243,7 +243,7 @@ typed domain claim
 -> embedding manifest
 -> semantic cache
 -> context cut
--> role / repo / Face / coordinator packet
+-> role / repo / Persona / coordinator packet
 ```
 
 For repo work, the graph profile owns modules, crates, schemas, adapters,
@@ -542,7 +542,7 @@ workbench, and an ops repository should not initialize the same role habits.
 The verifier should be stricter around runtime/editor evidence in a Unity repo.
 Eyes should be more aggressive around official docs and protocol boundaries in
 auth or API work. Hands should be more conservative when production pressure
-and actuation risk are high. Face should behave differently in a public social
+and actuation risk are high. Persona should behave differently in a public social
 surface than in a sealed Rust crate.
 
 So Epiphany's startup research maps terrain:

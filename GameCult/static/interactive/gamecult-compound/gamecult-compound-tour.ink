@@ -150,7 +150,7 @@ My job is to stop AI helpers from forgetting the room they are standing in. I ke
 # scene: forge
 # sprite: cut@right
 # dom: epiphany_organs,epiphany_memory
-Face speaks. Eyes retrieve. Hands touch files. Soul falsifies. Self routes authority. The trick is not giving them cute names; the trick is refusing to let one lane counterfeit the others when the work gets hot.
+Persona speaks. Eyes retrieve. Hands touch files. Soul falsifies. Self routes authority. The trick is not giving them cute names; the trick is refusing to let one lane counterfeit the others when the work gets hot.
 -> epiphany_2
 
 === epiphany_aquarium ===
@@ -177,7 +177,7 @@ The part I am proud of is not the vocabulary. It is the custody chain: objective
 # scene: forge
 # sprite: map@right
 # dom: epiphany,roadmap
-I want every repo Face to wake with live body-awareness: recent commits, open work, CI pressure, deployment branch, and the current owner of truth. No more avatars reasoning from stale fog while the repo changes under their shoes.
+I want every repo Persona to wake with live body-awareness: recent commits, open work, CI pressure, deployment branch, and the current owner of truth. No more avatars reasoning from stale fog while the repo changes under their shoes.
 -> epiphany_2
 
 === bifrost ===
@@ -263,20 +263,20 @@ VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore l
 # scene: archive
 # sprite: point@left
 # dom: voidbot_pipe,voidbot_memory
-People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Faces grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
-+ [Show me repo Faces] -> voidbot_faces
+People ask it where a decision came from, which repo owns a problem, or what the lore already says. Repo Personas grow from that pressure: a project should be able to greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.
++ [Show me repo Personas] -> voidbot_personas
 + [Show me archive retrieval] -> voidbot_retrieval_route
 + [Show me the generated doc tree] -> repo_swarm
 + [Show me repo swarm handoff] -> voidbot_handoff
 + [Back to the compound] -> hub_return
 
-=== voidbot_faces ===
+=== voidbot_personas ===
 # speaker: Void
 # avatar: void
 # scene: archive
 # sprite: document@left
-# dom: voidbot_faces,adventure_map
-The bot/worker split matters: Discord transport and permissions in one lane, heavier jobs and MCP tools in another. The webhook pipe lets repo Faces speak, but the archive stays the evidence path. Mouth, memory, and truth do not share a throne.
+# dom: voidbot_personas,adventure_map
+The bot/worker split matters: Discord transport and permissions in one lane, heavier jobs and MCP tools in another. The webhook pipe lets repo Personas speak, but the archive stays the evidence path. Mouth, memory, and truth do not share a throne.
 -> voidbot_2
 
 === voidbot_retrieval_route ===
@@ -294,7 +294,7 @@ Search is not enough. VoidBot needs context windows, source neighborhoods, messa
 # scene: archive
 # sprite: point@left
 # dom: voidbot_pipe,adventure_map
-The future move is handoff: chat notices a project problem, VoidBot finds the right repository body, Bifrost records the request, and the repo Face can explain what changed afterward. Social memory becomes work without losing provenance in the hallway.
+The future move is handoff: chat notices a project problem, VoidBot finds the right repository body, Bifrost records the request, and the repo Persona can explain what changed afterward. Social memory becomes work without losing provenance in the hallway.
 -> voidbot_2
 
 === cultlib ===
@@ -893,7 +893,7 @@ That makes it a clean Bifrost proving ground. Players fund arenas, modes, cosmet
 # sprite: unimpressed@left
 # knot: pitch_intro
 # dom: moonshot,projects
-All right. The portfolio pitch. Everyone is about to explain why their favourite machine is the hinge of civilization. I will stand here with the receipts and try not to make a face.
+All right. The portfolio pitch. Everyone is about to explain why their favourite machine is the hinge of civilization. I will stand here with the receipts and try not to make a grimace.
 + [Let Eve sell the surface web] -> pitch_eve
 + [Let Bifrost sell patron voting] -> pitch_bifrost
 + [Let CultMesh sell the substrate] -> pitch_cultmesh

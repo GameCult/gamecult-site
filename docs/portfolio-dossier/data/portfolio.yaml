@@ -76,7 +76,7 @@ projects:
     name: Ghostlight
     family: social-state
     room: Ghost Hall
-    thesis: Persistent social state for characters, agents, and Faces.
+    thesis: Persistent social state for characters, agents, and Personas.
     mythic_case: Living interface layer for communities.
   - id: aetheria-zyphos
     name: Aetheria / Zyphos

@@ -136,7 +136,7 @@ Outputs: effective point balances, voting weights, motion totals, project influe
 
 Derived state: voting share is derived from recorded value and the active voting curve. Patron tier, contributor tier, project standing, and payout eligibility are also derived unless a deployment explicitly says otherwise.
 
-Forbidden writers: Discord opinion, private founder memory, GitHub stars, raw donation totals, agent enthusiasm, repo Face taste, investor preference, and opaque game monetization counters do not directly mutate voting weight. They may create proposals, evidence, support events, purchase receipts, or review pressure. They do not become authority by being loud or profitable.
+Forbidden writers: Discord opinion, private founder memory, GitHub stars, raw donation totals, agent enthusiasm, repo Persona taste, investor preference, and opaque game monetization counters do not directly mutate voting weight. They may create proposals, evidence, support events, purchase receipts, or review pressure. They do not become authority by being loud or profitable.
 
 Shared paths: web app votes, Discord-native votes, Eve-rendered dashboard actions, agent-submitted motions, patron support webhooks, game purchase receipts, accepted PRs, manual ledger adjustments, decay jobs, and project-specific governance flows all have to pass through the same ledger and motion primitives.
 
@@ -185,7 +185,7 @@ Button(command: "open-provider")
 Slider(binding: "camera.exposure")
 Toggle(binding: "node.visible")
 Enum(binding: "renderer.mode")
-Inspector(object: "selectedFace.state")
+Inspector(object: "selectedPersona.state")
 Graph(nodes: "work.frontier")
 Ledger(entries: "project.credits")
 MotionVote(motionId: "...")
@@ -219,7 +219,7 @@ That could serve:
 - StreamPixels creator controls
 - CultMesh peer/Verse inspection
 - Epiphany work frontier maps
-- repo Face dashboards
+- repo Persona dashboards
 - game server control rooms
 - creator overlays
 - mobile patron/project views

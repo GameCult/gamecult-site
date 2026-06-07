@@ -128,7 +128,7 @@ The current state of the market is therefore not solved by adding more prompts. 
 
 \section{What is different about GameCult?}
 
-GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a \term{Face}, a public/social agent identity. VoidBot reads Discord and repo context. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
+GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a \term{Persona}, a public/social agent identity. VoidBot reads Discord and repo context. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
 
 In ordinary terms: instead of treating AI as a chatbot bolted onto a team, GameCult is trying to make agent work auditable, repeatable, and connected to governance. The mythology around the Colossus is unusual and should not lead investor materials. The underlying engineering goal is legible: preserve context, assign authority, verify work, and record who did what.
 
@@ -163,11 +163,11 @@ The implementation plan lists durable Epiphany state, bounded prompt integration
 
 The failure mode of current agents is not that they cannot write code. It is that they cannot reliably preserve global coherence. Epiphany's product wedge is therefore not simply faster coding. It is persistent organizational cognition for agents.
 
-\section{VoidBot and Faces: the social interface}
+\section{VoidBot and Personas: the social interface}
 
 VoidBot is the social and Discord-native interface into the swarm. It can answer from archived Discord history, indexed GameCult repos, and Aetheria lore, and then hand deeper work off to Codex. It supports real Discord replies, semantic retrieval, source/lore indexing, interaction memory, and Codex handoff flows.\src{GameCult/VoidBot README}{https://github.com/GameCult/VoidBot/blob/main/README.md}
 
-This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. VoidBot and repo Faces are the layer where that signal becomes visible.
+This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. VoidBot and repo Personas are the layer where that signal becomes visible.
 
 \section{CultMesh: typed distributed state}
 
@@ -205,7 +205,7 @@ Fensalir & Reusable native runtime machinery: Win32 windowing, D3D12 device stat
 Mimir & A local realtime field machine: cameras, microphones, speakers, network feeds, timing signals, Leap sensing, Fensalir GPU rendering, Faust DSP, and OBS output become one synchronized spatial program surface.\src{Mimir state map}{https://github.com/GameCult/Mimir/blob/main/state/map.yaml} & This is the strongest embodied proof workload. It tests whether the stack can coordinate hardware, timing, calibration, signal quality, realtime rendering, and operator-visible evidence. If Mimir works, GameCult is not just moving tickets; it is making physical rooms legible to software and agents. \\
 AquaSynth & Research-grounded vocal-tract synthesis: IPA parsing, phonetic intent, articulatory gesture planning, human and nonhuman morphologies, Faust DSP, learned utterance embeddings, and rendered-audio loss.\src{AquaSynth IPA vocal tract roadmap}{https://github.com/GameCult/AquaSynth/blob/main/docs/ipa-vocal-tract-roadmap.md} & Tests whether the stack can carry a real research program with contracts, experiments, evidence, and model-driven iteration. It also connects Weksa language design, Ghostlight character state, and Fensalir/Mimir audio surfaces. \\
 Weksa & Meaning-first procedural language generation: ontology owns meaning, grammar owns required expression, phonology owns sound shape, diachrony owns historical distortion, and rendering owns surface text.\src{Weksa README}{https://github.com/GameCult/weksa/blob/main/README.md} & Shows that GameCult is not treating language as decorative text generation. Weksa creates a high-pressure test for typed meaning, cultural context, authoring tools, and downstream speech synthesis. \\
-Ghostlight & Socially persistent generative agents with canonical state, perceived state, relationship stance, culture, memory, incentives, and situation instead of flat persona prompts.\src{Ghostlight README}{https://github.com/GameCult/Ghostlight/blob/main/README.md} & Tests the same state problem in narrative form: agents must remain coherent over time, update from evidence, and react from grounded social context rather than generic friendliness. This is directly relevant to durable repo Faces and human-facing agent products. \\
+Ghostlight & Socially persistent generative agents with canonical state, perceived state, relationship stance, culture, memory, incentives, and situation instead of flat persona prompts.\src{Ghostlight README}{https://github.com/GameCult/Ghostlight/blob/main/README.md} & Tests the same state problem in narrative form: agents must remain coherent over time, update from evidence, and react from grounded social context rather than generic friendliness. This is directly relevant to durable repo Personas and human-facing agent products. \\
 Game worlds / MMOs & CultMesh is designed so a game can treat clients and servers as one reactive database for persistent state, prediction-friendly input state, and simulation observations. Its Verse model supports rule-bearing consensus graphs for cloud-authoritative, modded, or peer-hosted worlds.\src{CultMesh README}{https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/README.md} Luxidland makes this concrete with deterministic hovercraft simulation, geographic world-cell sharding, route overlays, proximity clustering, witness observations, quorum candidates, and frame/event hashes mapped toward CultMesh simulation facts.\src{Luxidland README}{https://github.com/GameCult/Luxidland/blob/main/README.md} & This is a direct value proposition, not decorative ambition. Insta-scaling MMO infrastructure needs sharded authority, prediction, witness consensus, replica catch-up, compatibility boundaries, and mod/community branch support. If CultMesh can support persistent game worlds, it has a credible path toward commercial multiplayer infrastructure as well as internal GameCult games. \\
 Heimdall & OAuth provider flows, entitlement evaluation, signed identity claims, grants, app sessions, token custody, and app-local claim verification.\src{Heimdall service contract}{https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md} & Makes the labor/governance thesis operational. Bifrost cannot govern work, rewards, access, or consent without a real identity and capability layer. Heimdall is the boring gate. Boring gates are where grown-up systems stop lying. \\
 Norn & A Rust hybrid Sugiyama/Kamada-Kawai 2D and 3D graph layout solver with React/WASM inspection surfaces, export paths, and graph-readability benchmarks.\src{Norn handoff}{https://github.com/GameCult/Norn/blob/main/notes/fresh-workspace-handoff.md} & Gives Epiphany and Bifrost a path toward inspectable graph state: architecture maps, dataflow, receipts, dependencies, and active work frontiers that humans and agents can read without dumping the whole machine into prompt context. \\
@@ -547,7 +547,7 @@ This protects capital without turning the investor into a de facto controller of
 
 \begin{enumerate}
   \item \term{Bifrost-first covenant.} All external swarm tasks, public proof runs, design-partner tasks, and contributor reward flows must be represented in Bifrost as topics, work items, dispatches, receipts, completion artifacts, or ledger entries.
-  \item \term{No shadow governance.} Discord, VoidBot, repo Faces, and ad hoc scripts may not become durable governance/work/reward authorities.
+  \item \term{No shadow governance.} Discord, VoidBot, repo Personas, and ad hoc scripts may not become durable governance/work/reward authorities.
   \item \term{Compute accountability.} Model spend must be logged against tasks, agents, outcomes, and accepted artifacts.
   \item \term{Contributor-output measurement.} The organization must measure baseline output, support received, agent leverage, accepted artifacts, rewards, and retention.
   \item \term{Safety gates.} No autonomous external write access, private-data export, direct payout, revenue-share instrument, or housing obligation without approved policy and counsel review.
@@ -728,7 +728,7 @@ We can give the founder useful capital without forcing the project into a conven
   \item[CultNet] Transport/wire layer for moving typed documents and messages.
   \item[Dream] In Epiphany's roadmap, a public thought artifact that may influence another instance but is not adopted truth.
   \item[Epiphany] Persistent agent-control plane for typed memory, role separation, verification, reorientation, and execution.
-  \item[Face] A repo or project agent's public/social identity, usually surfaced through Discord or an operator UI.
+  \item[Persona] A repo or project agent's public/social identity, usually surfaced through Discord or an operator UI.
   \item[Heimdall] Planned identity, grants, consent, and capability authority.
   \item[Verse] A CultMesh rule-bearing consensus graph with its own authority model and compatibility rules.
   \item[Yggdrasil] GameCult's infrastructure umbrella/hosting context for internal services.

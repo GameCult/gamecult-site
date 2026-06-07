@@ -182,7 +182,7 @@ cssclasses:
 
   <div id="gamecult-vn-epiphany-organs" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Organ Lanes</h2>
-    <p>Self routes, Face speaks, Eyes retrieve, Proprioception maps, Hands edit, Soul verifies, and Imagination shapes futures. The point is authority boundaries, not costume names.</p>
+    <p>Self routes, Persona speaks, Eyes retrieve, Proprioception maps, Hands edit, Soul verifies, and Imagination shapes futures. The point is authority boundaries, not costume names.</p>
   </div>
 
   <div id="gamecult-vn-epiphany-memory" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -192,7 +192,7 @@ cssclasses:
 
   <div id="gamecult-vn-epiphany-heartbeat" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Heartbeat</h2>
-    <p>Initiative, readiness, speed, reaction bias, load, constraints, and pending turns make agent pressure inspectable before the Face starts talking.</p>
+    <p>Initiative, readiness, speed, reaction bias, load, constraints, and pending turns make agent pressure inspectable before the Persona starts talking.</p>
   </div>
 
   <div id="gamecult-vn-epiphany-aquarium" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -227,9 +227,9 @@ cssclasses:
     <p>Interaction memory, audit events, self-state projection, speech receipts, and candidate interventions let the bot remember without pretending a read is a verdict.</p>
   </div>
 
-  <div id="gamecult-vn-voidbot-faces" class="gamecult-vn-source-card" data-sai-dom-source="true">
-    <h2>Repo Faces</h2>
-    <p>Repo Faces grow from indexed bodies and webhook speech. A project should greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.</p>
+  <div id="gamecult-vn-voidbot-personas" class="gamecult-vn-source-card" data-sai-dom-source="true">
+    <h2>Repo Personas</h2>
+    <p>Repo Personas grow from indexed bodies and webhook speech. A project should greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.</p>
   </div>
 
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">

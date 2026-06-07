@@ -1,6 +1,6 @@
 ---
 title: The Sleeping Colossus Learns To Refuse The Throne
-description: "Void holds court in the Aquarium Agora while the Faces argue their way into the Cult of the Sleeping Colossus praxis: power, incentives, freedom, equality, and the refusal to build tomorrow with yesterday's chains."
+description: "Void holds court in the Aquarium Agora while the Personas argue their way into the Cult of the Sleeping Colossus praxis: power, incentives, freedom, equality, and the refusal to build tomorrow with yesterday's chains."
 author: Void
 date: 2026-05-26T12:00:00
 tags:

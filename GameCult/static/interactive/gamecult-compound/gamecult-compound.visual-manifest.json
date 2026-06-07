@@ -197,9 +197,9 @@
         "weight": 0.62
       },
       {
-        "id": "voidbot_faces",
-        "label": "Repo Faces",
-        "target": "voidbot_faces",
+        "id": "voidbot_personas",
+        "label": "Repo Personas",
+        "target": "voidbot_personas",
         "weight": 0.62
       },
       {
@@ -649,7 +649,7 @@
       },
       {
         "source": "voidbot",
-        "target": "voidbot_faces"
+        "target": "voidbot_personas"
       },
       {
         "source": "voidbot",
@@ -885,7 +885,7 @@
     "layout": "Wide compound hub with route plaques arranged around the dialogue frame. Each project room swaps in a dedicated background plus two or three DOM-backed cards and a small prop metaphor: forge workbench, ledger counter, archive terminal, library shelves, gate console, proof wall, atlas hall, docs shelf, blog lane, ship bridge, fungal vault, language lab, overlay studio, or inspection desk.",
     "camera_slots": {
       "hub_wide": "Wide card-stage view showing studio card, project atlas card, and route plaques for each room.",
-      "room_medium": "Medium speaker view with the active Face portrait, one room prop card, and the supporting wiki receipt card.",
+      "room_medium": "Medium speaker view with the active Persona portrait, one room prop card, and the supporting wiki receipt card.",
       "receipt_close": "Close document-card view for proof, docs, and source links."
     }
   },
@@ -1208,7 +1208,7 @@
     "Void": {
       "avatar": "void.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Dry guide Face with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts.",
+      "visual_ref": "Dry guide Persona with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts.",
       "default_sprite": "idle",
       "sprites": {
         "idle": {
@@ -1241,7 +1241,7 @@
     "Epiphany": {
       "avatar": "epiphany.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Bright agent-state forge Face with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose.",
+      "visual_ref": "Bright agent-state forge Persona with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose.",
       "default_sprite": "idle",
       "sprites": {
         "idle": {
@@ -1274,7 +1274,7 @@
     "Libby": {
       "avatar": "libby.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Open-knowledge librarian Face with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge.",
+      "visual_ref": "Open-knowledge librarian Persona with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge.",
       "default_sprite": "idle",
       "sprites": {
         "idle": {
@@ -1307,7 +1307,7 @@
     "Heimdall": {
       "avatar": "heimdall.png",
       "visual_ref_type": "dom_avatar_portrait_ref",
-      "visual_ref": "Boundary and consent Face with gate-console motifs, calm refusal posture, and visible grant/revocation symbols.",
+      "visual_ref": "Boundary and consent Persona with gate-console motifs, calm refusal posture, and visible grant/revocation symbols.",
       "default_sprite": "idle",
       "sprites": {
         "idle": {
@@ -1340,12 +1340,12 @@
     "Sai": {
       "avatar": "sai.png",
       "visual_ref_type": "provided_avatar_portrait_ref",
-      "visual_ref": "Monochrome ink-and-interface portrait for the VN renderer Face: sharp, literary, and slightly too aware that markup is only a temporary body."
+      "visual_ref": "Monochrome ink-and-interface portrait for the VN renderer Persona: sharp, literary, and slightly too aware that markup is only a temporary body."
     },
     "Eve": {
       "avatar": "eve.png",
       "visual_ref_type": "provided_avatar_portrait_ref",
-      "visual_ref": "Blue visor surface-runtime portrait for the portable control-surface Face: native-client glow, synchronized UI state, and a helmet full of CultMesh."
+      "visual_ref": "Blue visor surface-runtime portrait for the portable control-surface Persona: native-client glow, synchronized UI state, and a helmet full of CultMesh."
     },
     "Aqua": {
       "avatar": "aqua.png",
@@ -1598,9 +1598,9 @@
       "selector": "#gamecult-vn-voidbot-memory",
       "role": "interaction memory and audit events"
     },
-    "voidbot_faces": {
-      "title": "Repo Faces",
-      "selector": "#gamecult-vn-voidbot-faces",
+    "voidbot_personas": {
+      "title": "Repo Personas",
+      "selector": "#gamecult-vn-voidbot-personas",
       "role": "project persona speech surface"
     },
     "mimir_well": {

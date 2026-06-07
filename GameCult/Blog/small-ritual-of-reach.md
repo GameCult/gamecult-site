@@ -10,7 +10,7 @@ tags:
   - social-signaling
   - praxis
   - research
-socialDeck: "A prepared Face makes a bounded request. Then the living person behind it briefly becomes visible."
+socialDeck: "A prepared Persona makes a bounded request. Then the living person behind it briefly becomes visible."
 ---
 
 <section class="ritual-paper-page ritual-paper-page-cover">
@@ -108,7 +108,7 @@ We test the following hypotheses:
 
 **H1:** A bounded one-person ask produces less freeze than a vague "please share this" ask.
 
-**H2:** A second, separate vulnerability message increases perceived trust by making the prepared Face, meaning the polished public version of the message, visibly crack.
+**H2:** A second, separate vulnerability message increases perceived trust by making the prepared Persona, meaning the polished public version of the message, visibly crack.
 
 **H3:** Public surfaces optimize for spam resistance, not soul recognition.
 
@@ -119,7 +119,7 @@ We test the following hypotheses:
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
     <p><sup>1</sup> The opening model borrows from social-penetration theory, facework, reciprocity, and computer-mediated communication before immediately using them to justify one awkward second message.</p>
-    <p><sup>2</sup> "Prepared Face" is used in the ordinary Goffman-adjacent sense: the version of the self made legible enough to survive public handling.</p>
+    <p><sup>2</sup> "Prepared Persona" is used in the ordinary Goffman-adjacent sense: the version of the self made legible enough to survive public handling.</p>
   </div>
   <span class="ritual-paper-page-number">1</span>
 </footer>
@@ -272,9 +272,9 @@ One relay of signal.
 
 ### 5.2 Result Two: The Second Message Is The Ritual Hinge
 
-If "weird way to reach out, I know" is embedded inside the first message, it becomes part of the polished Face.
+If "weird way to reach out, I know" is embedded inside the first message, it becomes part of the polished Persona.
 
-The Face says:
+The Persona says:
 
 > Hello. I am a competent little packet. I contain vulnerability, an ask, a link, and an apology clause. Please process me using your available social firmware.
 
@@ -286,7 +286,7 @@ It arrives after the prepared message.
 
 It says:
 
-> The Face finished speaking, and now the person behind it is still here.
+> The Persona finished speaking, and now the person behind it is still here.
 
 That timing matters. The medium carries the status shift. The first message is clean. The second message is a tiny exposed wire.
 
@@ -461,7 +461,7 @@ The follow-up variants were:
 
 | Follow-up condition | Example | Expected failure mode |
 | --- | --- | --- |
-| none | *(no second message)* | The Face remains too smooth; no tiny reassurance affordance appears. |
+| none | *(no second message)* | The Persona remains too smooth; no tiny reassurance affordance appears. |
 | clinical humility | "Unusual ask, I know." | Dignified, but possibly too institutional. The soul is wearing a blazer. |
 | weird way to reach out | "Weird way to reach out, I know." | Best observed balance of vulnerability and non-melodrama. |
 | small ritual named | "Weird little outreach ritual, I know." | Stronger thesis signal; slightly more self-aware. |
@@ -624,7 +624,7 @@ The Love essay argues that love is disciplined openness: the practice of letting
 
 This outreach ritual is that thesis at message scale.
 
-The first message is the Face doing its job: clean, bounded, legible.
+The first message is the Persona doing its job: clean, bounded, legible.
 
 The second message is the opening: awkward, small, alive.
 

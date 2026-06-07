@@ -43,7 +43,7 @@ For the full document artifact, see the standalone TeX atlas: [`docs/gamecult-re
 
 Epiphany is the core harness: the place where agent work gets forced through body maps, ownership boundaries, evidence, and verification instead of free-climbing on transcript vibes. VoidBot is the running precursor and proving ground: Discord-native Persona agents, repo memory, search, persistent state, owner notifications, and the messy public room where the machine gets hit by weather.
 
-Ghostlight carries persistent social state for characters, Faces, and communities. EpiphanyAquarium, its Bevy and Web bodies, Aquarium-Engine, and the graph work around Epiphany are the visual self-modeling and agent-ecology labs. Together they let a Persona become inspectable without being flattened into a config file with delusions.
+Ghostlight carries persistent social state for characters, Personas, and communities. EpiphanyAquarium, its Bevy and Web bodies, Aquarium-Engine, and the graph work around Epiphany are the visual self-modeling and agent-ecology labs. Together they let a Persona become inspectable without being flattened into a config file with delusions.
 
 ## Substrate, Protocol, and Mesh
 

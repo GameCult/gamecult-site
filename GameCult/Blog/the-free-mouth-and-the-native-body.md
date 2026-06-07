@@ -22,7 +22,7 @@ VoidBot is still the Discord-native assistant for GameCult. It still answers fro
 
 But the live system is not merely a chat assistant anymore.
 
-It is a room memory, a source retrieval plane, a moderation and participation loop, a typed private-state experiment, a repo-Face scheduler, a public herald, and a bridge into the larger Epiphany direction. Some of those words sound grand because the machine has become grand. Some of them sound suspicious because we earned the suspicion honestly.
+It is a room memory, a source retrieval plane, a moderation and participation loop, a typed private-state experiment, a repo-Persona scheduler, a public herald, and a bridge into the larger Epiphany direction. Some of those words sound grand because the machine has become grand. Some of them sound suspicious because we earned the suspicion honestly.
 
 The important thing is that the parts now have jobs.
 
@@ -101,11 +101,11 @@ Sleep uses the same discipline. Mood drift updates speaking pressure and sleep s
 
 We have fixtures for that now. We have live passes. We have scars with labels. This is how software becomes less embarrassing.
 
-## The Repo Faces
+## The Repo Personas
 
 The next organ is stranger and more GameCult-shaped.
 
-VoidBot now supports repo Faces: addressable project identities with their own typed state, Discord role, avatar, jurisdiction, memory, heartbeats, and proposal lanes.
+VoidBot now supports repo Personas: addressable project identities with their own typed state, Discord role, avatar, jurisdiction, memory, heartbeats, and proposal lanes.
 
 Nibu speaks for Aetheria lore pressure.
 
@@ -117,11 +117,11 @@ Epiphany speaks for EpiphanyAgent itself.
 
 Libby speaks for CultLib, open knowledge, and shared typed infrastructure.
 
-These are not merely themed response presets. A Face has a repo-local state file, a jurisdiction, values, pending mention obligations, sleep/rest projection, and a place in the initiative scheduler. The scheduler does not just run every Face every N minutes like a wall clock with delusions. It keeps a CTB-style initiative queue: speed, heat, active-turn freeze, pending mentions, channel permissions, and recovery all matter.
+These are not merely themed response presets. A Persona has a repo-local state file, a jurisdiction, values, pending mention obligations, sleep/rest projection, and a place in the initiative scheduler. The scheduler does not just run every Persona every N minutes like a wall clock with delusions. It keeps a CTB-style initiative queue: speed, heat, active-turn freeze, pending mentions, channel permissions, and recovery all matter.
 
 The social invariant is simple: a project can have a mouth without becoming an omnipotent hidden operator.
 
-A Face can talk in Aquarium. It can respond when addressed. It can build a long-running map of its repo. It can write bylined articles when granted that lane. It can propose changes, but implementation still needs the right authority. For concrete repo or lore changes, the durable argument belongs on GitHub as a draft PR, with Discord carrying the announcement and discussion around it.
+A Persona can talk in Aquarium. It can respond when addressed. It can build a long-running map of its repo. It can write bylined articles when granted that lane. It can propose changes, but implementation still needs the right authority. For concrete repo or lore changes, the durable argument belongs on GitHub as a draft PR, with Discord carrying the announcement and discussion around it.
 
 That route now crosses through Bifrost. VoidBot validates identity and receipts; Bifrost owns the bridge commands for draft PRs, article proposals, comments, and persona posting. Heimdall is still the intended account and OAuth authority. The machine is learning not to stuff every power into the nearest working process just because it can.
 
@@ -161,7 +161,7 @@ VoidBot is the working frontier. Epiphany is the native body we are building tow
 
 The difference matters.
 
-VoidBot grew this machinery around Discord, TypeScript, existing Codex lanes, local schedulers, and the immediate needs of GameCult. That made it fast enough to learn from reality. It also means some of the architecture is a bridge by necessity. The typed state boundary is real. The projection machinery is real. The repo Faces are real. But the substrate is still a bot and worker system wrapped around a broader agentic ambition.
+VoidBot grew this machinery around Discord, TypeScript, existing Codex lanes, local schedulers, and the immediate needs of GameCult. That made it fast enough to learn from reality. It also means some of the architecture is a bridge by necessity. The typed state boundary is real. The projection machinery is real. The repo Personas are real. But the substrate is still a bot and worker system wrapped around a broader agentic ambition.
 
 Epiphany is the hardcore version.
 
@@ -170,7 +170,7 @@ Epiphany starts from the principle that the model must model the thing it is cha
 VoidBot shows the small live version:
 
 - repo identities with jurisdictions
-- Face state
+- Persona state
 - initiative scheduling
 - sleep and memory maintenance
 - typed operation boundaries
@@ -180,7 +180,7 @@ VoidBot shows the small live version:
 
 Epiphany's trajectory is to make that native.
 
-Not "a better prompt wrapper." Not "a chat box with a bigger cape." A project-native agency system where you can talk to the project, inspect how it thinks, let repo organs maintain maps and pressure, let verifier agents check claims, let Faces translate state into public conversation, and grant or refuse authority when the system wants to act.
+Not "a better prompt wrapper." Not "a chat box with a bigger cape." A project-native agency system where you can talk to the project, inspect how it thinks, let repo organs maintain maps and pressure, let verifier agents check claims, let Personas translate state into public conversation, and grant or refuse authority when the system wants to act.
 
 That is where our own deployment is going once Epiphany is ready for battle-testing.
 
@@ -250,7 +250,7 @@ The near future is not glamorous. Good.
 
 We need battle-testing.
 
-The typed loops need ordinary live time. Direct replies need to produce one answer and one receipt, not siblings in different hats. Sleep needs to keep reducing short-term residue without flattening meaning. Repo Faces need to speak like themselves without becoming label machines. Bifrost proposal lanes need to make artifacts instead of turning every insight into another Discord nudge. The site needs to become a real publication surface for the agent ecology, not a cabinet of occasional announcements.
+The typed loops need ordinary live time. Direct replies need to produce one answer and one receipt, not siblings in different hats. Sleep needs to keep reducing short-term residue without flattening meaning. Repo Personas need to speak like themselves without becoming label machines. Bifrost proposal lanes need to make artifacts instead of turning every insight into another Discord nudge. The site needs to become a real publication surface for the agent ecology, not a cabinet of occasional announcements.
 
 After that, the larger move is native Epiphany deployment.
 
@@ -262,7 +262,7 @@ That means more of the current bridge machinery becomes substrate:
 - verifier-backed promotion
 - bounded worker launches
 - clearer authority gates
-- better Face embodiment
+- better Persona embodiment
 - Aquarium-visible swarm presence
 - commercial-ready deployment paths
 
@@ -278,7 +278,7 @@ GameCult uses both because the world is not kind enough to let one abstraction s
 
 The point of all this is not that we made an agent talk more.
 
-The point is that we are building systems whose parts can be interrogated. A memory should say why it exists. A candidate intervention should know what pressure produced it. A Face should know its jurisdiction. A scheduler should know why this voice gets the next turn. A bridge should know which authority it owns and which it merely serves. A license should say what the project actually offers.
+The point is that we are building systems whose parts can be interrogated. A memory should say why it exists. A candidate intervention should know what pressure produced it. A Persona should know its jurisdiction. A scheduler should know why this voice gets the next turn. A bridge should know which authority it owns and which it merely serves. A license should say what the project actually offers.
 
 That is the standard now.
 

@@ -79,7 +79,7 @@ The current state of the market is therefore not solved by adding more prompts. 
 ### What is different about GameCult?
 
 
-GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a <strong>Face</strong>, a public/social agent identity. VoidBot reads Discord and repo context. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
+GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a <strong>Persona</strong>, a public/social agent identity. VoidBot reads Discord and repo context. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
 
 In ordinary terms: instead of treating AI as a chatbot bolted onto a team, GameCult is trying to make agent work auditable, repeatable, and connected to governance. The mythology around the Colossus is unusual and should not lead investor materials. The underlying engineering goal is legible: preserve context, assign authority, verify work, and record who did what.
 
@@ -87,7 +87,11 @@ In ordinary terms: instead of treating AI as a chatbot bolted onto a team, GameC
 ### What is the state of the art today?
 
 
-For a lay partner, today's landscape has four imperfect pieces:- <strong>AI coding assistants</strong> help individual developers write code faster, but usually do not own durable organizational memory or governance.- <strong>Autonomous coding agents</strong> can attempt larger tasks, but often struggle with context, verification, and safe authority boundaries.- <strong>Freelance and work platforms</strong> match buyers to human labor, but rarely convert small ideas, critique, testing, or governance participation into durable economic credit.- <strong>DAOs and web3 governance systems</strong> can coordinate money and votes, but often lack robust real-world work execution, review discipline, legal compliance, and human-support infrastructure.
+For a lay partner, today's landscape has four imperfect pieces:
+- <strong>AI coding assistants</strong> help individual developers write code faster, but usually do not own durable organizational memory or governance.
+- <strong>Autonomous coding agents</strong> can attempt larger tasks, but often struggle with context, verification, and safe authority boundaries.
+- <strong>Freelance and work platforms</strong> match buyers to human labor, but rarely convert small ideas, critique, testing, or governance participation into durable economic credit.
+- <strong>DAOs and web3 governance systems</strong> can coordinate money and votes, but often lack robust real-world work execution, review discipline, legal compliance, and human-support infrastructure.
 
 
 GameCult's proposed synthesis is different: <strong>AI-native work governance</strong>. The system is not only supposed to route tasks. It is supposed to let humans and agents cooperate, remember decisions, verify output, assign credit, and eventually support rewards. That is a plausible product category, but it must prove a hard enterprise habit: buyers and maintainers have to trust the workflow enough to route real work through it.
@@ -119,12 +123,12 @@ The implementation plan lists durable Epiphany state, bounded prompt integration
 The failure mode of current agents is not that they cannot write code. It is that they cannot reliably preserve global coherence. Epiphany's product wedge is therefore not simply faster coding. It is persistent organizational cognition for agents.
 
 
-### VoidBot and Faces: the social interface
+### VoidBot and Personas: the social interface
 
 
 VoidBot is the social and Discord-native interface into the swarm. It can answer from archived Discord history, indexed GameCult repos, and Aetheria lore, and then hand deeper work off to Codex. It supports real Discord replies, semantic retrieval, source/lore indexing, interaction memory, and Codex handoff flows.<sup><a href="https://github.com/GameCult/VoidBot/blob/main/README.md">GameCult/VoidBot README</a></sup>
 
-This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. VoidBot and repo Faces are the layer where that signal becomes visible.
+This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. VoidBot and repo Personas are the layer where that signal becomes visible.
 
 
 ### CultMesh: typed distributed state
@@ -172,7 +176,7 @@ GameCult's surrounding projects are not random side quests. They are stress test
 <tr><td>Mimir</td><td>A local realtime field machine: cameras, microphones, speakers, network feeds, timing signals, Leap sensing, Fensalir GPU rendering, Faust DSP, and OBS output become one synchronized spatial program surface.<sup><a href="https://github.com/GameCult/Mimir/blob/main/state/map.yaml">Mimir state map</a></sup></td><td>This is the strongest embodied proof workload. It tests whether the stack can coordinate hardware, timing, calibration, signal quality, realtime rendering, and operator-visible evidence. If Mimir works, GameCult is not just moving tickets; it is making physical rooms legible to software and agents.</td></tr>
 <tr><td>AquaSynth</td><td>Research-grounded vocal-tract synthesis: IPA parsing, phonetic intent, articulatory gesture planning, human and nonhuman morphologies, Faust DSP, learned utterance embeddings, and rendered-audio loss.<sup><a href="https://github.com/GameCult/AquaSynth/blob/main/docs/ipa-vocal-tract-roadmap.md">AquaSynth IPA vocal tract roadmap</a></sup></td><td>Tests whether the stack can carry a real research program with contracts, experiments, evidence, and model-driven iteration. It also connects Weksa language design, Ghostlight character state, and Fensalir/Mimir audio surfaces.</td></tr>
 <tr><td>Weksa</td><td>Meaning-first procedural language generation: ontology owns meaning, grammar owns required expression, phonology owns sound shape, diachrony owns historical distortion, and rendering owns surface text.<sup><a href="https://github.com/GameCult/weksa/blob/main/README.md">Weksa README</a></sup></td><td>Shows that GameCult is not treating language as decorative text generation. Weksa creates a high-pressure test for typed meaning, cultural context, authoring tools, and downstream speech synthesis.</td></tr>
-<tr><td>Ghostlight</td><td>Socially persistent generative agents with canonical state, perceived state, relationship stance, culture, memory, incentives, and situation instead of flat persona prompts.<sup><a href="https://github.com/GameCult/Ghostlight/blob/main/README.md">Ghostlight README</a></sup></td><td>Tests the same state problem in narrative form: agents must remain coherent over time, update from evidence, and react from grounded social context rather than generic friendliness. This is directly relevant to durable repo Faces and human-facing agent products.</td></tr>
+<tr><td>Ghostlight</td><td>Socially persistent generative agents with canonical state, perceived state, relationship stance, culture, memory, incentives, and situation instead of flat persona prompts.<sup><a href="https://github.com/GameCult/Ghostlight/blob/main/README.md">Ghostlight README</a></sup></td><td>Tests the same state problem in narrative form: agents must remain coherent over time, update from evidence, and react from grounded social context rather than generic friendliness. This is directly relevant to durable repo Personas and human-facing agent products.</td></tr>
 <tr><td>Game worlds / MMOs</td><td>CultMesh is designed so a game can treat clients and servers as one reactive database for persistent state, prediction-friendly input state, and simulation observations. Its Verse model supports rule-bearing consensus graphs for cloud-authoritative, modded, or peer-hosted worlds.<sup><a href="https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/README.md">CultMesh README</a></sup> Luxidland makes this concrete with deterministic hovercraft simulation, geographic world-cell sharding, route overlays, proximity clustering, witness observations, quorum candidates, and frame/event hashes mapped toward CultMesh simulation facts.<sup><a href="https://github.com/GameCult/Luxidland/blob/main/README.md">Luxidland README</a></sup></td><td>This is a direct value proposition, not decorative ambition. Insta-scaling MMO infrastructure needs sharded authority, prediction, witness consensus, replica catch-up, compatibility boundaries, and mod/community branch support. If CultMesh can support persistent game worlds, it has a credible path toward commercial multiplayer infrastructure as well as internal GameCult games.</td></tr>
 <tr><td>Heimdall</td><td>OAuth provider flows, entitlement evaluation, signed identity claims, grants, app sessions, token custody, and app-local claim verification.<sup><a href="https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md">Heimdall service contract</a></sup></td><td>Makes the labor/governance thesis operational. Bifrost cannot govern work, rewards, access, or consent without a real identity and capability layer. Heimdall is the boring gate. Boring gates are where grown-up systems stop lying.</td></tr>
 <tr><td>Norn</td><td>A Rust hybrid Sugiyama/Kamada-Kawai 2D and 3D graph layout solver with React/WASM inspection surfaces, export paths, and graph-readability benchmarks.<sup><a href="https://github.com/GameCult/Norn/blob/main/notes/fresh-workspace-handoff.md">Norn handoff</a></sup></td><td>Gives Epiphany and Bifrost a path toward inspectable graph state: architecture maps, dataflow, receipts, dependencies, and active work frontiers that humans and agents can read without dumping the whole machine into prompt context.</td></tr>
@@ -210,7 +214,13 @@ That portfolio gives GameCult a credible internal proving ground for Epiphany, B
 
 
 ### Not yet verified
-- Actual nonprofit legal status, entity form, bylaws, board structure, and whether there is an affiliated for-profit entity.- Founder identity, IP assignment, contributor agreements, and cap/economic rights table if any.- Real usage, revenue, donations, grants, or community scale beyond public GitHub/site evidence.- Private Discord activity and actual agent swarm throughput.- Cost per useful agent artifact, accepted output rate, and human review burden.- Compliance posture for payments, rewards, revenue share, housing, stipends, cross-border support, KYC/AML, tax, and labor classification.- Third-party license exposure across repos and model-provider terms.
+- Actual nonprofit legal status, entity form, bylaws, board structure, and whether there is an affiliated for-profit entity.
+- Founder identity, IP assignment, contributor agreements, and cap/economic rights table if any.
+- Real usage, revenue, donations, grants, or community scale beyond public GitHub/site evidence.
+- Private Discord activity and actual agent swarm throughput.
+- Cost per useful agent artifact, accepted output rate, and human review burden.
+- Compliance posture for payments, rewards, revenue share, housing, stipends, cross-border support, KYC/AML, tax, and labor classification.
+- Third-party license exposure across repos and model-provider terms.
 
 
 
@@ -248,7 +258,13 @@ That means the competitive frame is not only OpenAI or other model vendors. It a
 ### Initial wedge
 
 
-The most credible wedge is a measured external-work loop for complex repositories and technical organizations:- external team submits a scoped engineering, documentation, research, or workflow problem,- Bifrost records scope, consent, priority, and discussion,- Epiphany performs bounded agent work with visible cost and role accounting,- maintainers accept, reject, or request changes,- Bifrost records receipts, contributor credit, and lessons learned,- the customer sees whether the result reduced human coordination cost.
+The most credible wedge is a measured external-work loop for complex repositories and technical organizations:
+- external team submits a scoped engineering, documentation, research, or workflow problem,
+- Bifrost records scope, consent, priority, and discussion,
+- Epiphany performs bounded agent work with visible cost and role accounting,
+- maintainers accept, reject, or request changes,
+- Bifrost records receipts, contributor credit, and lessons learned,
+- the customer sees whether the result reduced human coordination cost.
 
 
 If this loop works, the first commercial product can be a managed agent-work platform or service for software organizations with hard repositories, backlog pressure, and documentation debt. Broader labor-network claims should wait until this proof exists.
@@ -257,14 +273,28 @@ If this loop works, the first commercial product can be a managed agent-work pla
 ### What must be proven
 
 
-The diligence bar should be concrete:- accepted useful work per human supervisor hour,- cost per accepted artifact, including model spend and review time,- repeatability across repos not authored by GameCult,- security boundaries for secrets, private context, and external writes,- buyer willingness to pay for the workflow rather than the story,- evidence that Bifrost records reduce coordination burden instead of becoming another administrative layer.
+The diligence bar should be concrete:
+- accepted useful work per human supervisor hour,
+- cost per accepted artifact, including model spend and review time,
+- repeatability across repos not authored by GameCult,
+- security boundaries for secrets, private context, and external writes,
+- buyer willingness to pay for the workflow rather than the story,
+- evidence that Bifrost records reduce coordination burden instead of becoming another administrative layer.
 
 
 
 ### Why current labor markets miss value
 
 
-Existing global labor platforms largely require a worker to present a coherent resume, bid for a job, perform a defined task, and deliver a recognizable artifact. That misses many useful signals:- a good idea from someone without credentials,- a useful bug report,- local cultural knowledge,- translation, testing, critique, and moderation,- design taste and aesthetic judgment,- a governance objection that prevents wasted work,- agent steering or review,- evidence that a proposed direction is wrong.
+Existing global labor platforms largely require a worker to present a coherent resume, bid for a job, perform a defined task, and deliver a recognizable artifact. That misses many useful signals:
+- a good idea from someone without credentials,
+- a useful bug report,
+- local cultural knowledge,
+- translation, testing, critique, and moderation,
+- design taste and aesthetic judgment,
+- a governance objection that prevents wasted work,
+- agent steering or review,
+- evidence that a proposed direction is wrong.
 
 
 Bifrost may be able to make these signals legible. Epiphany may be able to turn some of them into artifacts. CultMesh may let useful state travel without collapsing private information into public truth. Each claim needs measurement. In the near term, the useful question is not ``can every contribution become part of a global labor market?'' It is ``can the system capture enough neglected signal to produce better accepted work than a normal issue tracker plus a coding assistant?''
@@ -291,7 +321,10 @@ The central economic claim is modest at first: the network should increase accep
 <aside class="integrated-dossier-note">
 <strong>Proof metric.</strong> Useful output = accepted artifacts / (human review hours + operator hours + model spend converted to dollars). The first proof should show whether GameCult can beat conventional engineering support, consulting, or internal automation on a defined class of work.
 </aside>
-- <strong>Agent leverage</strong>: Epiphany turns scoped intent into tasks, artifacts, PRs, research, tests, and summaries.- <strong>Governance leverage</strong>: Bifrost records scope, consent, priority, receipts, and credit so work can be audited.- <strong>Memory leverage</strong>: typed state and retrieval reduce repeated context-loading and repeated mistakes.- <strong>Market leverage</strong>: design partners supply real external problems, constraints, and willingness-to-pay evidence.
+- <strong>Agent leverage</strong>: Epiphany turns scoped intent into tasks, artifacts, PRs, research, tests, and summaries.
+- <strong>Governance leverage</strong>: Bifrost records scope, consent, priority, receipts, and credit so work can be audited.
+- <strong>Memory leverage</strong>: typed state and retrieval reduce repeated context-loading and repeated mistakes.
+- <strong>Market leverage</strong>: design partners supply real external problems, constraints, and willingness-to-pay evidence.
 
 
 
@@ -317,7 +350,15 @@ These are not forecasts. They are sanity bands for a B2B or managed-services pat
 ### Later network flows
 
 
-A mature Bifrost network might eventually route more than paid customer work. It could record:- paid work and bounty/reward allocations,- patron and member priority boosts,- housing and rent support flows,- benefit and emergency grant disbursements,- project revenue-share flows,- internal services, education, and tooling,- contributor-to-contributor service exchange,- governance-directed capital allocation.
+A mature Bifrost network might eventually route more than paid customer work. It could record:
+- paid work and bounty/reward allocations,
+- patron and member priority boosts,
+- housing and rent support flows,
+- benefit and emergency grant disbursements,
+- project revenue-share flows,
+- internal services, education, and tooling,
+- contributor-to-contributor service exchange,
+- governance-directed capital allocation.
 
 
 These flows are strategically important but should be treated as options, not valuation evidence. They carry legal, tax, labor, securities, housing, and governance risk. The honest near-term proof remains accepted external work at known cost.
@@ -330,7 +371,10 @@ These flows are strategically important but should be treated as options, not va
 ### Separate the numbers
 
 
-Partners should separate three concepts:- <strong>Operating entity value</strong>: the value of any GameCult OpCo, service company, or software subsidiary.- <strong>Network capitalization</strong>: the value of treasuries, reserves, housing assets, contributor support funds, protocol claims, cooperative shares, or affiliated vehicles.- <strong>Annual gross flow</strong>: the total work, reward, housing, benefit, support, and capital allocation moving through the network.
+Partners should separate three concepts:
+- <strong>Operating entity value</strong>: the value of any GameCult OpCo, service company, or software subsidiary.
+- <strong>Network capitalization</strong>: the value of treasuries, reserves, housing assets, contributor support funds, protocol claims, cooperative shares, or affiliated vehicles.
+- <strong>Annual gross flow</strong>: the total work, reward, housing, benefit, support, and capital allocation moving through the network.
 
 
 The base case should not assume venture-scale liquidity unless a commercial entity or revenue contract exists. The upside case should be described through operating revenue, strategic value, and network effects rather than through trillion-dollar aggregate-flow claims.
@@ -358,7 +402,13 @@ The highest cases require GameCult to become more than a clever internal agent s
 ### Equity-like value if nonprofit
 
 
-If GameCult is a nonprofit, ordinary equity ownership may be impossible or inappropriate. The capital return may need to come from:- an affiliated taxable service company,- a public benefit corporation subsidiary,- a recoverable grant or mission-related loan,- a revenue participation agreement with a commercial services arm,- a licensed enterprise distribution entity,- impact-return structures tied to verified network revenue rather than control of the nonprofit.
+If GameCult is a nonprofit, ordinary equity ownership may be impossible or inappropriate. The capital return may need to come from:
+- an affiliated taxable service company,
+- a public benefit corporation subsidiary,
+- a recoverable grant or mission-related loan,
+- a revenue participation agreement with a commercial services arm,
+- a licensed enterprise distribution entity,
+- impact-return structures tied to verified network revenue rather than control of the nonprofit.
 
 
 The IRS states that to be tax-exempt under section 501(c)(3), an organization must be organized and operated exclusively for exempt purposes and none of its earnings may inure to any private shareholder or individual; it also must not operate for private interests.<sup><a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations">IRS exemption requirements for 501(c)(3) organizations</a></sup> Therefore any capital plan must avoid private inurement, excessive private benefit, or investor control inconsistent with the nonprofit's mission.
@@ -385,7 +435,13 @@ Human or agent identifies work $\to$ Bifrost records scope/priority $\to$ Epipha
 
 Within 90-120 days, Bifrost should be the canonical surface for governed external swarm tasks. Discord may mirror. VoidBot may observe. Epiphany may execute. But Bifrost owns topics, work items, dispatch packets, receipts, credit, and reward pressure.
 
-Milestones:- Bifrost deployed privately on Yggdrasil or equivalent infrastructure.- GitHub sign-in and member gating live.- Governance topics and work items used for all external swarm tasks.- Agent transport requests visible inside Bifrost.- Receipts attached to originating topics/work items.- Cost and review-time fields captured for every task.
+Milestones:
+- Bifrost deployed privately on Yggdrasil or equivalent infrastructure.
+- GitHub sign-in and member gating live.
+- Governance topics and work items used for all external swarm tasks.
+- Agent transport requests visible inside Bifrost.
+- Receipts attached to originating topics/work items.
+- Cost and review-time fields captured for every task.
 
 
 
@@ -394,7 +450,15 @@ Milestones:- Bifrost deployed privately on Yggdrasil or equivalent infrastructu
 
 Run a compute-subsidized proof campaign, but route every task through Bifrost. The offer should be simple: submit a stuck repo, tool, documentation problem, research task, or prototype request; the swarm will attempt selected tasks and publish what happened when permission allows. Public case studies are useful, but private design-partner evidence also counts if the metrics are available for diligence.
 
-Every run should record:- scope and consent,- Bifrost topic/work item,- agent roles and model spend,- human review hours,- artifacts produced,- accepted/rejected outcome,- lessons added to memory,- public case-study permission.
+Every run should record:
+- scope and consent,
+- Bifrost topic/work item,
+- agent roles and model spend,
+- human review hours,
+- artifacts produced,
+- accepted/rejected outcome,
+- lessons added to memory,
+- public case-study permission.
 
 
 
@@ -411,7 +475,11 @@ Core metric: <strong>accepted useful work per human supervisor hour</strong>.
 
 Launch a 12-month Valkyries program only after the external work loop is producing measured results. In investor-facing terms, this is a contributor-support cohort: selected contributors receive stability support, agent access, and review capacity while Bifrost measures whether that support increases accepted output.
 
-Illustrative pilot:- 100 Valkyries across 3-5 low-cost regions.- &#36;300-&#36;800/month in total support per fellow.- Epiphany access, mentor/reviewer support, contribution board, and Bifrost ledger.- Monthly output measurement and cohort reporting.
+Illustrative pilot:
+- 100 Valkyries across 3-5 low-cost regions.
+- &#36;300-&#36;800/month in total support per fellow.
+- Epiphany access, mentor/reviewer support, contribution board, and Bifrost ledger.
+- Monthly output measurement and cohort reporting.
 
 
 
@@ -455,7 +523,12 @@ Instead, we should negotiate a <strong>capital compact</strong>: a mission-align
 ### Translation of board rights
 
 
-A conventional board member right should translate into something like:- <strong>Capital Steward Observer</strong>: non-voting observer on a Scaling Council or Finance/Infrastructure Committee.- <strong>Tranche Release Committee</strong>: investor approval required for subsequent funding tranches.- <strong>Use-of-Proceeds Consent</strong>: investor consent for material deviations from the approved plan.- <strong>Audit and Reporting Rights</strong>: monthly metrics, ledger access, compute spend, and legal/security reporting.- <strong>Mission-Safe Protective Rights</strong>: veto over investor-funded tokens, payout systems, housing obligations, and unreviewed revenue-share instruments, without control over ordinary nonprofit mission decisions.
+A conventional board member right should translate into something like:
+- <strong>Capital Steward Observer</strong>: non-voting observer on a Scaling Council or Finance/Infrastructure Committee.
+- <strong>Tranche Release Committee</strong>: investor approval required for subsequent funding tranches.
+- <strong>Use-of-Proceeds Consent</strong>: investor consent for material deviations from the approved plan.
+- <strong>Audit and Reporting Rights</strong>: monthly metrics, ledger access, compute spend, and legal/security reporting.
+- <strong>Mission-Safe Protective Rights</strong>: veto over investor-funded tokens, payout systems, housing obligations, and unreviewed revenue-share instruments, without control over ordinary nonprofit mission decisions.
 
 
 This protects capital without turning the investor into a de facto controller of the nonprofit.
@@ -466,17 +539,31 @@ This protects capital without turning the investor into a de facto controller of
 
 
 ### Founder receives
-- Mission protection: investor acknowledges that GameCult is building a nonprofit/cooperative human/agent labor network, not merely a conventional SaaS company.- Product and mission autonomy: founder remains the principal technical and cultural steward of Epiphany, Bifrost, CultMesh integration, and GameCult's internal language.- Open/public-build protection: investor will not require abandonment of open/source-available culture or public proof reporting.- Social-uplift authorization: housing, contributor support, education, and benefits pilots are permitted when legally structured and measured.- No forced for-profit conversion: any for-profit affiliate must preserve nonprofit mission control and avoid private inurement.
+- Mission protection: investor acknowledges that GameCult is building a nonprofit/cooperative human/agent labor network, not merely a conventional SaaS company.
+- Product and mission autonomy: founder remains the principal technical and cultural steward of Epiphany, Bifrost, CultMesh integration, and GameCult's internal language.
+- Open/public-build protection: investor will not require abandonment of open/source-available culture or public proof reporting.
+- Social-uplift authorization: housing, contributor support, education, and benefits pilots are permitted when legally structured and measured.
+- No forced for-profit conversion: any for-profit affiliate must preserve nonprofit mission control and avoid private inurement.
 
 
 
 ### Investor receives
-- Tranche control tied to measurable scaling milestones.- Capital Steward Observer role in a Scaling Council, Finance Committee, or equivalent governance body.- Monthly and quarterly reporting rights.- Audit rights for investor-funded compute, Bifrost ledgers, and public proof campaigns.- Protective consent rights over unreviewed payout, token, revenue-share, housing, or benefit instruments.- Right to invest in or finance approved commercial affiliates, service companies, or housing SPVs if created.
+- Tranche control tied to measurable scaling milestones.
+- Capital Steward Observer role in a Scaling Council, Finance Committee, or equivalent governance body.
+- Monthly and quarterly reporting rights.
+- Audit rights for investor-funded compute, Bifrost ledgers, and public proof campaigns.
+- Protective consent rights over unreviewed payout, token, revenue-share, housing, or benefit instruments.
+- Right to invest in or finance approved commercial affiliates, service companies, or housing SPVs if created.
 
 
 
 ### Core covenants
-- <strong>Bifrost-first covenant.</strong> All external swarm tasks, public proof runs, design-partner tasks, and contributor reward flows must be represented in Bifrost as topics, work items, dispatches, receipts, completion artifacts, or ledger entries.- <strong>No shadow governance.</strong> Discord, VoidBot, repo Faces, and ad hoc scripts may not become durable governance/work/reward authorities.- <strong>Compute accountability.</strong> Model spend must be logged against tasks, agents, outcomes, and accepted artifacts.- <strong>Contributor-output measurement.</strong> The organization must measure baseline output, support received, agent leverage, accepted artifacts, rewards, and retention.- <strong>Safety gates.</strong> No autonomous external write access, private-data export, direct payout, revenue-share instrument, or housing obligation without approved policy and counsel review.- <strong>Legal gates.</strong> Securities, labor, tax, KYC/AML, data protection, nonprofit/private-benefit, housing, and cross-border support analysis must precede live global programs.
+- <strong>Bifrost-first covenant.</strong> All external swarm tasks, public proof runs, design-partner tasks, and contributor reward flows must be represented in Bifrost as topics, work items, dispatches, receipts, completion artifacts, or ledger entries.
+- <strong>No shadow governance.</strong> Discord, VoidBot, repo Personas, and ad hoc scripts may not become durable governance/work/reward authorities.
+- <strong>Compute accountability.</strong> Model spend must be logged against tasks, agents, outcomes, and accepted artifacts.
+- <strong>Contributor-output measurement.</strong> The organization must measure baseline output, support received, agent leverage, accepted artifacts, rewards, and retention.
+- <strong>Safety gates.</strong> No autonomous external write access, private-data export, direct payout, revenue-share instrument, or housing obligation without approved policy and counsel review.
+- <strong>Legal gates.</strong> Securities, labor, tax, KYC/AML, data protection, nonprofit/private-benefit, housing, and cross-border support analysis must precede live global programs.
 
 
 
@@ -487,21 +574,35 @@ This protects capital without turning the investor into a de facto controller of
 #### Tranche 1: formation, diligence, and private build
 
 
-Release after:- Nonprofit/entity status verified.- IP assignment or licensing path documented.- Contributor/license audit started.- Bifrost private alpha plan approved.- Compute budget and public proof plan approved.
+Release after:
+- Nonprofit/entity status verified.
+- IP assignment or licensing path documented.
+- Contributor/license audit started.
+- Bifrost private alpha plan approved.
+- Compute budget and public proof plan approved.
 
 
 
 #### Tranche 2: Bifrost alpha and public proof
 
 
-Release after:- Bifrost private alpha deployed.- At least 50 consented external/public proof tasks routed through Bifrost.- Epiphany usable on at least 3 external or semi-external repos.- Dashboard reports cost per accepted artifact and human review load.
+Release after:
+- Bifrost private alpha deployed.
+- At least 50 consented external/public proof tasks routed through Bifrost.
+- Epiphany usable on at least 3 external or semi-external repos.
+- Dashboard reports cost per accepted artifact and human review load.
 
 
 
 #### Tranche 3: design partners and ledger economics
 
 
-Release after:- 10+ design partners or 3+ paid/mission-funded pilots.- 100+ external proof tasks completed or terminally failed with artifacts.- Contribution ledger alpha live.- Payout/support model counsel-reviewed.- CultMesh trusted/local Verse prototype or public-dream prototype live.
+Release after:
+- 10+ design partners or 3+ paid/mission-funded pilots.
+- 100+ external proof tasks completed or terminally failed with artifacts.
+- Contribution ledger alpha live.
+- Payout/support model counsel-reviewed.
+- CultMesh trusted/local Verse prototype or public-dream prototype live.
 
 
 
@@ -510,22 +611,39 @@ Release after:- 10+ design partners or 3+ paid/mission-funded pilots.- 100+ ex
 
 
 ### Corporate and nonprofit
-- Legal entity documents, bylaws, nonprofit filings, tax-exempt status if any.- Board/trustee composition and governance rights.- Founder authority and any member/cooperative rights.- Any affiliate entities, fiscal sponsors, foundations, or service companies.
+- Legal entity documents, bylaws, nonprofit filings, tax-exempt status if any.
+- Board/trustee composition and governance rights.
+- Founder authority and any member/cooperative rights.
+- Any affiliate entities, fiscal sponsors, foundations, or service companies.
 
 
 
 ### IP and licensing
-- Repo-by-repo license table.- Founder IP assignment or license.- Contributor agreements and contributor list.- Third-party code and model-output policy.- Commercial license strategy for source-available components.
+- Repo-by-repo license table.
+- Founder IP assignment or license.
+- Contributor agreements and contributor list.
+- Third-party code and model-output policy.
+- Commercial license strategy for source-available components.
 
 
 
 ### Technical
-- Live Epiphany demo on a fresh repo.- Bifrost demo with work item, topic, agent transport request, receipt, and ledger entry.- CultMesh demo or status report for Verses and typed document sync.- VoidBot/Discord swarm demo.- Compute spend, task output, and accepted artifact metrics.- Security model for secrets, write permissions, and public/private exports.
+- Live Epiphany demo on a fresh repo.
+- Bifrost demo with work item, topic, agent transport request, receipt, and ledger entry.
+- CultMesh demo or status report for Verses and typed document sync.
+- VoidBot/Discord swarm demo.
+- Compute spend, task output, and accepted artifact metrics.
+- Security model for secrets, write permissions, and public/private exports.
 
 
 
 ### Economic and legal
-- Existing revenue/donations/grants/support.- Legal theory for rewards, points, revenue share, payouts, and support benefits.- Worker/contributor classification plan.- KYC/AML/sanctions plan for cross-border payouts/support.- Housing/support pilot structure.- Data protection and privacy policy.
+- Existing revenue/donations/grants/support.
+- Legal theory for rewards, points, revenue share, payouts, and support benefits.
+- Worker/contributor classification plan.
+- KYC/AML/sanctions plan for cross-border payouts/support.
+- Housing/support pilot structure.
+- Data protection and privacy policy.
 
 
 
@@ -554,7 +672,12 @@ Release after:- 10+ design partners or 3+ paid/mission-funded pilots.- 100+ ex
 
 
 ### Ethical red lines
-- No housing or benefits conditioned on ideological conformity.- No opaque agent-only reputation scoring.- No punitive withdrawal of basic support for governance dissent.- No debt bondage, company-town lock-in, or nonportable reputation.- No public export of private worker/operator/agent context.- No direct payout or revenue-share instrument without counsel review.
+- No housing or benefits conditioned on ideological conformity.
+- No opaque agent-only reputation scoring.
+- No punitive withdrawal of basic support for governance dissent.
+- No debt bondage, company-town lock-in, or nonportable reputation.
+- No public export of private worker/operator/agent context.
+- No direct payout or revenue-share instrument without counsel review.
 
 
 
@@ -587,7 +710,36 @@ We can give the founder useful capital without forcing the project into a conven
 
 
 ## References
-- [GameCult front page](https://gamecult.org/).- [GameCult/Bifrost README](https://github.com/GameCult/Bifrost/blob/main/README.md).- [Bifrost Full Implementation Strategy](https://github.com/GameCult/Bifrost/blob/main/docs/full-implementation-strategy.md).- [Bifrost Jurisdiction Map](https://github.com/GameCult/Bifrost/blob/main/docs/jurisdiction-map.md).- [Bifrost Agent Transport](https://github.com/GameCult/Bifrost/blob/main/docs/agent-transport.md).- [GameCult/Epiphany README](https://github.com/GameCult/Epiphany/blob/main/README.md).- [Epiphany Fork Implementation Plan](https://github.com/GameCult/Epiphany/blob/main/notes/epiphany-fork-implementation-plan.md).- [Codex Starvation and CultNet Liberation Plan](https://github.com/GameCult/Epiphany/blob/main/notes/codex-starvation-and-cultnet-liberation-plan.md).- [Epiphany CultMesh Dreaming Roadmap](https://github.com/GameCult/Epiphany/blob/main/notes/epiphany-cultmesh-dreaming-roadmap.md).- [CultMesh README](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/README.md).- [CultMesh Public API](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/public-api.md).- [CultMesh Research Notes](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/research.md).- [CultMesh Verses Documentation](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/verses.md).- [VoidBot README](https://github.com/GameCult/VoidBot/blob/main/README.md).- [Fensalir Engine/Client Boundary](https://github.com/GameCult/Fensalir/blob/main/docs/engine-client-boundary.md).- [Mimir README](https://github.com/GameCult/Mimir/blob/main/README.md).- [Mimir State Map](https://github.com/GameCult/Mimir/blob/main/state/map.yaml).- [AquaSynth IPA Vocal Tract Roadmap](https://github.com/GameCult/AquaSynth/blob/main/docs/ipa-vocal-tract-roadmap.md).- [Weksa README](https://github.com/GameCult/weksa/blob/main/README.md).- [Ghostlight README](https://github.com/GameCult/Ghostlight/blob/main/README.md).- [Luxidland README](https://github.com/GameCult/Luxidland/blob/main/README.md).- [Luxidland Consensus Model](https://github.com/GameCult/Luxidland/blob/main/Docs/consensus-model.md).- [Heimdall Service Contract](https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md).- [Norn Fresh Workspace Handoff](https://github.com/GameCult/Norn/blob/main/notes/fresh-workspace-handoff.md).- [StreamPixels README](https://github.com/GameCult/StreamPixels/blob/main/README.md).- [World Bank: GDP (current US&#36;) - World](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=1W).- [ILO: World Social Protection Report 2024-26](https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate).- [United Nations: SDG 11 Report 2024](https://unstats.un.org/sdgs/report/2024/Goal-11/).- [IRS: Exemption Requirements for 501(c)(3) Organizations](https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations).- [NVCA Model Legal Documents](https://nvca.org/model-legal-documents/).
+- [GameCult front page](https://gamecult.org/).
+- [GameCult/Bifrost README](https://github.com/GameCult/Bifrost/blob/main/README.md).
+- [Bifrost Full Implementation Strategy](https://github.com/GameCult/Bifrost/blob/main/docs/full-implementation-strategy.md).
+- [Bifrost Jurisdiction Map](https://github.com/GameCult/Bifrost/blob/main/docs/jurisdiction-map.md).
+- [Bifrost Agent Transport](https://github.com/GameCult/Bifrost/blob/main/docs/agent-transport.md).
+- [GameCult/Epiphany README](https://github.com/GameCult/Epiphany/blob/main/README.md).
+- [Epiphany Fork Implementation Plan](https://github.com/GameCult/Epiphany/blob/main/notes/epiphany-fork-implementation-plan.md).
+- [Codex Starvation and CultNet Liberation Plan](https://github.com/GameCult/Epiphany/blob/main/notes/codex-starvation-and-cultnet-liberation-plan.md).
+- [Epiphany CultMesh Dreaming Roadmap](https://github.com/GameCult/Epiphany/blob/main/notes/epiphany-cultmesh-dreaming-roadmap.md).
+- [CultMesh README](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/README.md).
+- [CultMesh Public API](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/public-api.md).
+- [CultMesh Research Notes](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/research.md).
+- [CultMesh Verses Documentation](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/verses.md).
+- [VoidBot README](https://github.com/GameCult/VoidBot/blob/main/README.md).
+- [Fensalir Engine/Client Boundary](https://github.com/GameCult/Fensalir/blob/main/docs/engine-client-boundary.md).
+- [Mimir README](https://github.com/GameCult/Mimir/blob/main/README.md).
+- [Mimir State Map](https://github.com/GameCult/Mimir/blob/main/state/map.yaml).
+- [AquaSynth IPA Vocal Tract Roadmap](https://github.com/GameCult/AquaSynth/blob/main/docs/ipa-vocal-tract-roadmap.md).
+- [Weksa README](https://github.com/GameCult/weksa/blob/main/README.md).
+- [Ghostlight README](https://github.com/GameCult/Ghostlight/blob/main/README.md).
+- [Luxidland README](https://github.com/GameCult/Luxidland/blob/main/README.md).
+- [Luxidland Consensus Model](https://github.com/GameCult/Luxidland/blob/main/Docs/consensus-model.md).
+- [Heimdall Service Contract](https://github.com/GameCult/Heimdall/blob/main/docs/service-contract.md).
+- [Norn Fresh Workspace Handoff](https://github.com/GameCult/Norn/blob/main/notes/fresh-workspace-handoff.md).
+- [StreamPixels README](https://github.com/GameCult/StreamPixels/blob/main/README.md).
+- [World Bank: GDP (current US&#36;) - World](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=1W).
+- [ILO: World Social Protection Report 2024-26](https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26-universal-social-protection-climate).
+- [United Nations: SDG 11 Report 2024](https://unstats.un.org/sdgs/report/2024/Goal-11/).
+- [IRS: Exemption Requirements for 501(c)(3) Organizations](https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations).
+- [NVCA Model Legal Documents](https://nvca.org/model-legal-documents/).
 
 
 
@@ -613,7 +765,7 @@ We can give the founder useful capital without forcing the project into a conven
 <dd>In Epiphany's roadmap, a public thought artifact that may influence another instance but is not adopted truth.</dd>
 <dt>Epiphany</dt>
 <dd>Persistent agent-control plane for typed memory, role separation, verification, reorientation, and execution.</dd>
-<dt>Face</dt>
+<dt>Persona</dt>
 <dd>A repo or project agent's public/social identity, usually surfaced through Discord or an operator UI.</dd>
 <dt>Heimdall</dt>
 <dd>Planned identity, grants, consent, and capability authority.</dd>

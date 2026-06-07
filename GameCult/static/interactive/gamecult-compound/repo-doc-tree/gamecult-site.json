@@ -11,20 +11,6 @@
       "extension": "md"
     },
     {
-      "id": "gamecult-site:docs/face-artifacts/character-sheet-provenance.md",
-      "title": "Character Sheet Provenance",
-      "path": "docs/face-artifacts/character-sheet-provenance.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/face-artifacts/character-sheet-provenance.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:docs/face-artifacts/vn-space-map.md",
-      "title": "Vn Space Map",
-      "path": "docs/face-artifacts/vn-space-map.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/face-artifacts/vn-space-map.md",
-      "extension": "md"
-    },
-    {
       "id": "gamecult-site:docs/gamecult_integrated_dossier.tex",
       "title": "Gamecult Integrated Dossier",
       "path": "docs/gamecult_integrated_dossier.tex",
@@ -51,6 +37,20 @@
       "path": "docs/gamecult-repo-swarm-organ-atlas.tex",
       "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/gamecult-repo-swarm-organ-atlas.tex",
       "extension": "tex"
+    },
+    {
+      "id": "gamecult-site:docs/persona-artifacts/character-sheet-provenance.md",
+      "title": "Character Sheet Provenance",
+      "path": "docs/persona-artifacts/character-sheet-provenance.md",
+      "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/persona-artifacts/character-sheet-provenance.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:docs/persona-artifacts/vn-space-map.md",
+      "title": "Vn Space Map",
+      "path": "docs/persona-artifacts/vn-space-map.md",
+      "href": "https://github.com/GameCult/gamecult-site/blob/main/docs/persona-artifacts/vn-space-map.md",
+      "extension": "md"
     },
     {
       "id": "gamecult-site:docs/portfolio-dossier/chapters/00-void-thesis.tex",

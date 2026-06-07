@@ -30,6 +30,7 @@ const ignoredDirectories = new Set([
   ".git",
   ".pytest_cache",
   ".quartz-build",
+  ".voidbot/tmp",
   ".npm-cache",
   ".tools",
   "bin",
@@ -44,8 +45,10 @@ const ignoredDirectories = new Set([
 ]);
 
 function isIgnoredPath(relativePath) {
-  return relativePath
-    .split(/[\\/]+/)
+  const normalized = relativePath.split(/[\\/]+/).join("/");
+  if (ignoredDirectories.has(normalized)) return true;
+  return normalized
+    .split("/")
     .some((part) => ignoredDirectories.has(part) || part.startsWith(".cache"));
 }
 

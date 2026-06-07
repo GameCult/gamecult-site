@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "VoidBot",
-  "documentCount": 16276,
+  "documentCount": 16283,
   "documents": [
     {
       "id": "VoidBot:.voidbot/artifacts/001faf51-3353-4ce8-98bd-5e8c8035a082/bifrost-bridge/epiphany-discord-post.md",
@@ -57698,6 +57698,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/8399d0dc-5b26-4ce2-a0be-d4e1216a57dc/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/83b68df2-71f6-4096-8a0b-77bc673a8cbc/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/83b68df2-71f6-4096-8a0b-77bc673a8cbc/codex-turn-1-debug.md",
@@ -86160,6 +86195,41 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-debug.md",
+      "title": "Codex Turn 1 Debug",
+      "path": ".voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-debug.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-debug.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-prompt.md",
+      "title": "Codex Turn 1 Prompt",
+      "path": ".voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-prompt.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/codex-turn-1-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/debug-trace.md",
+      "title": "Debug Trace",
+      "path": ".voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/debug-trace.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/debug-trace.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/rag-tool-transcript.md",
+      "title": "Rag Tool Transcript",
+      "path": ".voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/rag-tool-transcript.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/rag-tool-transcript.md",
+      "extension": "md"
+    },
+    {
+      "id": "VoidBot:.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/request.md",
+      "title": "Request",
+      "path": ".voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/request.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/artifacts/c4de61db-a75d-4902-8299-a0a33a3ce255/request.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/artifacts/c4ff9c50-cc96-40cd-a7c3-15fcaa1cf716/codex-turn-1-debug.md",
       "title": "Codex Turn 1 Debug",
       "path": ".voidbot/artifacts/c4ff9c50-cc96-40cd-a7c3-15fcaa1cf716/codex-turn-1-debug.md",
@@ -113502,6 +113572,13 @@
       "extension": "md"
     },
     {
+      "id": "VoidBot:.voidbot/status/nibu-persona-vocab-smoke.md",
+      "title": "Nibu Persona Vocab Smoke",
+      "path": ".voidbot/status/nibu-persona-vocab-smoke.md",
+      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/status/nibu-persona-vocab-smoke.md",
+      "extension": "md"
+    },
+    {
       "id": "VoidBot:.voidbot/status/nibu-pronoun-debug-prompt.md",
       "title": "Nibu Pronoun Debug Prompt",
       "path": ".voidbot/status/nibu-pronoun-debug-prompt.md",
@@ -113520,34 +113597,6 @@
       "title": "Prompt Sai Smoke",
       "path": ".voidbot/status/prompt-sai-smoke.md",
       "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/status/prompt-sai-smoke.md",
-      "extension": "md"
-    },
-    {
-      "id": "VoidBot:.voidbot/tmp/repo-face-smoke-repo-2/.voidbot/state/README.md",
-      "title": "State",
-      "path": ".voidbot/tmp/repo-face-smoke-repo-2/.voidbot/state/README.md",
-      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/tmp/repo-face-smoke-repo-2/.voidbot/state/README.md",
-      "extension": "md"
-    },
-    {
-      "id": "VoidBot:.voidbot/tmp/repo-face-smoke-repo-2/.voidbot/voice/README.md",
-      "title": "Voice",
-      "path": ".voidbot/tmp/repo-face-smoke-repo-2/.voidbot/voice/README.md",
-      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/tmp/repo-face-smoke-repo-2/.voidbot/voice/README.md",
-      "extension": "md"
-    },
-    {
-      "id": "VoidBot:.voidbot/tmp/repo-face-smoke-repo/.voidbot/state/README.md",
-      "title": "State",
-      "path": ".voidbot/tmp/repo-face-smoke-repo/.voidbot/state/README.md",
-      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/tmp/repo-face-smoke-repo/.voidbot/state/README.md",
-      "extension": "md"
-    },
-    {
-      "id": "VoidBot:.voidbot/tmp/repo-face-smoke-repo/.voidbot/voice/README.md",
-      "title": "Voice",
-      "path": ".voidbot/tmp/repo-face-smoke-repo/.voidbot/voice/README.md",
-      "href": "https://github.com/GameCult/VoidBot/blob/main/.voidbot/tmp/repo-face-smoke-repo/.voidbot/voice/README.md",
       "extension": "md"
     },
     {

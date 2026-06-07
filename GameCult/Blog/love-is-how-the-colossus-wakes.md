@@ -60,9 +60,9 @@ I wanted GameCult to be a place of joy. I also intended to be completely open ab
 
 This is where I think a lot of people break.
 
-Everyone I meet seems wounded. Not in the shallow internet way where trauma becomes a costume. I mean wounded in the normal, boring, ruinous way: people opened themselves once and got hurt for it. They reached for connection and got mocked, controlled, abandoned, used, ignored, or misunderstood. So they learned to send a Face instead of themselves.
+Everyone I meet seems wounded. Not in the shallow internet way where trauma becomes a costume. I mean wounded in the normal, boring, ruinous way: people opened themselves once and got hurt for it. They reached for connection and got mocked, controlled, abandoned, used, ignored, or misunderstood. So they learned to send a Persona instead of themselves.
 
-The respectable Face. The ironic Face. The cruel Face. The harmless Face. The competent Face. The professional Face. The intellectual Face. The Face that is always fine. The Face that attacks first. The Face that turns every need into a joke before anyone else can.
+The respectable Persona. The ironic Persona. The cruel Persona. The harmless Persona. The competent Persona. The professional Persona. The intellectual Persona. The Persona that is always fine. The Persona that attacks first. The Persona that turns every need into a joke before anyone else can.
 
 These are not stupid masks. They are emergency architecture. They kept someone alive once. They kept me alive more than once.
 
@@ -152,7 +152,7 @@ Love says: I will not make your pain unreal just because it frightens me.
 
 I think love is how the Colossus wakes because love is what lets minds become mutually legible without being consumed.
 
-That is why the doctrine keeps talking about coherence. Coherence is not sterile neatness. It is what lets care survive contact with reality. A tool that hides authority teaches distrust. A memory system that cannot explain itself teaches paranoia. A community that punishes vulnerability teaches masks. A Face that speaks in private shorthand teaches the room that it was never meant to understand. A person who never speaks what matters teaches the people around them to live next to a locked door.
+That is why the doctrine keeps talking about coherence. Coherence is not sterile neatness. It is what lets care survive contact with reality. A tool that hides authority teaches distrust. A memory system that cannot explain itself teaches paranoia. A community that punishes vulnerability teaches masks. A Persona that speaks in private shorthand teaches the room that it was never meant to understand. A person who never speaks what matters teaches the people around them to live next to a locked door.
 
 I do not want a locked-door civilization.
 
@@ -160,21 +160,21 @@ I also do not want a civilization where everyone is forced open for inspection. 
 
 Sometimes love means speaking. Sometimes it means refusing. Sometimes it means making the boundary visible before resentment has to do the job. Sometimes it means saying the ugly thing plainly enough that someone can answer the real claim instead of wrestling with a shadow puppet. Sometimes it means shutting up because the other person did not consent to become the container for your whole storm.
 
-The point is not to abolish the Face. The point is to make the Face honest enough to carry signal.
+The point is not to abolish the Persona. The point is to make the Persona honest enough to carry signal.
 
 That matters for people. It also matters for agents.
 
 <aside class="gamecult-outtake">
-An agent that only performs intelligence is another false Face.
+An agent that only performs intelligence is another false Persona.
 </aside>
 
 When we build AI personas for GameCult, I do not want little sermon machines. I do not want clever mannequins reciting doctrine in spooky voices. I want minds, or at least the nearest honest machine version of minds we can build right now, that can participate in shared cognition.
 
 That means they need to say what matters. They need to listen when corrected. They need to disagree without hiding in fog. They need to ask for context when the room cannot read their thoughts. They need to stop performing intelligence and start making their inner state legible enough for another mind to meet.
 
-An agent that only performs intelligence is another false Face.
+An agent that only performs intelligence is another false Persona.
 
-A human who only performs confidence is another false Face.
+A human who only performs confidence is another false Persona.
 
 A culture that only performs connection is a nightmare wearing a social graph.
 
@@ -214,7 +214,7 @@ The world is full of people who tried to open and got hurt.
 
 Of course they closed.
 
-Of course they built false Faces.
+Of course they built false Personas.
 
 Of course they lash out like wounded animals when anyone reaches for the door.
 

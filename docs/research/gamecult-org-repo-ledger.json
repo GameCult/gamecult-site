@@ -339,7 +339,7 @@
         "localPath":  "E:\\Projects\\EpiphanyAgent",
         "rootEntries":  [
                             ".epiphany-dogfood",
-                            ".epiphany-face",
+                            ".epiphany-persona",
                             ".epiphany-gui",
                             ".epiphany-heartbeats",
                             ".epiphany-rumination",

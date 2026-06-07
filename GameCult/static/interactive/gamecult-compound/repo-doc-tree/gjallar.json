@@ -1,0 +1,35 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Gjallar",
+  "documentCount": 4,
+  "documents": [
+    {
+      "id": "Gjallar:AGENTS.md",
+      "title": "AGENTS",
+      "path": "AGENTS.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Gjallar:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Gjallar:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Gjallar:state/gjallar-state.md",
+      "title": "Gjallar State",
+      "path": "state/gjallar-state.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/state/gjallar-state.md",
+      "extension": "md"
+    }
+  ]
+}

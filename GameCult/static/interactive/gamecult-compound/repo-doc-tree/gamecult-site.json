@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 92,
+  "documentCount": 96,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -291,6 +291,13 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/borrowed-witness-priced-risk.md",
+      "title": "Borrowed Witness Priced Risk",
+      "path": "GameCult/Blog/borrowed-witness-priced-risk.md",
+      "href": "/Blog/borrowed-witness-priced-risk",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/cat-and-the-chocolate-factory/index.md",
       "title": "Index",
       "path": "GameCult/Blog/cat-and-the-chocolate-factory/index.md",
@@ -361,6 +368,13 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-08.md",
+      "title": "Week 08",
+      "path": "GameCult/Blog/daily-damage-report/week-08.md",
+      "href": "/Blog/daily-damage-report/week-08",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/epiphany-in-the-interview-chair.md",
       "title": "Epiphany In The Interview Chair",
       "path": "GameCult/Blog/epiphany-in-the-interview-chair.md",
@@ -424,10 +438,24 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/persona-reward-is-personality-projected-into-state-space.md",
+      "title": "Persona Reward Is Personality Projected Into State Space",
+      "path": "GameCult/Blog/persona-reward-is-personality-projected-into-state-space.md",
+      "href": "/Blog/persona-reward-is-personality-projected-into-state-space",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/rain.md",
       "title": "Rain",
       "path": "GameCult/Blog/rain.md",
       "href": "/Blog/rain",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/small-ritual-of-reach.md",
+      "title": "Small Ritual Of Reach",
+      "path": "GameCult/Blog/small-ritual-of-reach.md",
+      "href": "/Blog/small-ritual-of-reach",
       "extension": "md"
     },
     {

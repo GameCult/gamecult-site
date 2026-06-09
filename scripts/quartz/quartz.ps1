@@ -37,6 +37,7 @@ if (-not (Test-Path $sharedQuartzRoot)) {
 
 $buildScript = Join-Path $sharedQuartzRoot "scripts\build-site.mjs"
 $docTreeScript = Join-Path $repoRoot "scripts\generate-vn-repo-doc-tree.mjs"
+$eveSurfaceScript = Join-Path $repoRoot "scripts\generate-vn-eve-surface.mjs"
 
 if (-not (Test-Path $buildScript)) {
     throw "GameCult-Quartz build script was not found at '$buildScript'."
@@ -44,6 +45,10 @@ if (-not (Test-Path $buildScript)) {
 
 if (Test-Path $docTreeScript) {
     & $node $docTreeScript
+}
+
+if (Test-Path $eveSurfaceScript) {
+    & $node $eveSurfaceScript
 }
 
 $scriptArgs = @(

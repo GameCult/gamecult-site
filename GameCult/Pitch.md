@@ -35,6 +35,7 @@ sidebarGroups:
   data-ink-story="/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json"
   data-ink-start-path="pitch_intro"
   data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
+  data-eve-gui="/static/interactive/gamecult-compound/gamecult-compound.eve-gui.json"
 ></div>
 
 <section class="gamecult-vn-source" aria-label="GameCult public wiki doors and portfolio pitch cards">

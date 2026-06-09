@@ -1,0 +1,3678 @@
+{
+  "type": "surface-state",
+  "schema": "gamecult.eve.surface.v1",
+  "providerId": "gamecult.site.sai.compound",
+  "providerKind": "sai.visual_novel",
+  "title": "GameCult Compound Sai VN",
+  "version": 1,
+  "updatedAt": "2026-06-07T00:06:56.429Z",
+  "provenance": {
+    "generatedBy": "scripts/generate-vn-eve-surface.mjs",
+    "story": "GameCult/static/interactive/gamecult-compound/gamecult-compound-tour.ink",
+    "storyJson": "/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json",
+    "visualManifest": "GameCult/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
+  },
+  "surface": {
+    "root": {
+      "id": "sai.vn.surface",
+      "kind": "surface",
+      "props": {
+        "domain": "sai.visual_novel",
+        "title": "GameCult Compound Sai VN",
+        "authority": {
+          "story": "Ink owns story flow and choices.",
+          "manifest": "Visual manifest owns scene, actor, DOM-card, graph, and space metadata.",
+          "provider": "Sai publishes accepted state and command effects.",
+          "eve": "Eve lowers this retained CultUI tree and emits command intent."
+        }
+      },
+      "children": [
+        {
+          "id": "layout.main",
+          "kind": "partition",
+          "props": {
+            "orientation": "horizontal",
+            "ratio": [
+              0.68,
+              0.32
+            ]
+          },
+          "children": [
+            {
+              "id": "stage",
+              "kind": "vn.stage",
+              "props": {
+                "bind": "state.currentScene",
+                "story": "/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json",
+                "manifest": "/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json",
+                "startPath": "welcome",
+                "scene": "compound",
+                "background": "/static/interactive/cotsc-praxis/backgrounds/compound.png",
+                "capabilities": [
+                  "background",
+                  "sprite",
+                  "avatar",
+                  "dialogue",
+                  "choices",
+                  "dom_cards",
+                  "adventure_graph",
+                  "embedded_surfaces",
+                  "wiki_exits",
+                  "transcript"
+                ]
+              },
+              "children": [
+                {
+                  "id": "stage.background",
+                  "kind": "image.background",
+                  "props": {
+                    "bind": "state.currentScene.background",
+                    "assetBase": "/static/interactive/cotsc-praxis/"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "stage.sprites",
+                  "kind": "layer.sprites",
+                  "props": {
+                    "bind": "state.actors",
+                    "actorCatalog": {
+                      "Void": {
+                        "avatar": "void.png",
+                        "visual_ref_type": "dom_avatar_portrait_ref",
+                        "visual_ref": "Dry guide Persona with dark interface palette, alert eyes, and document-host posture; appears as the host who keeps exits visible and points back to receipts.",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": {
+                            "image": "sprites/void/idle.png",
+                            "position": "left",
+                            "scale": 1.15
+                          },
+                          "welcome": {
+                            "image": "sprites/void/welcome.png",
+                            "position": "left",
+                            "scale": 1.15
+                          },
+                          "document": {
+                            "image": "sprites/void/document.png",
+                            "position": "left",
+                            "scale": 1.12
+                          },
+                          "point": {
+                            "image": "sprites/void/point.png",
+                            "position": "left",
+                            "scale": 1.12
+                          },
+                          "unimpressed": {
+                            "image": "sprites/void/unimpressed.png",
+                            "position": "left",
+                            "scale": 1.12
+                          }
+                        }
+                      },
+                      "Epiphany": {
+                        "avatar": "epiphany.png",
+                        "visual_ref_type": "dom_avatar_portrait_ref",
+                        "visual_ref": "Bright agent-state forge Persona with workshop confidence, map-and-ledger motifs, and a slightly pushy expression that reads as useful pressure rather than generic audit prose.",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": {
+                            "image": "sprites/epiphany/idle.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "map": {
+                            "image": "sprites/epiphany/map.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "evidence": {
+                            "image": "sprites/epiphany/evidence.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "cut": {
+                            "image": "sprites/epiphany/cut.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "stop": {
+                            "image": "sprites/epiphany/stop.png",
+                            "position": "right",
+                            "scale": 1.08
+                          }
+                        }
+                      },
+                      "Libby": {
+                        "avatar": "libby.png",
+                        "visual_ref_type": "dom_avatar_portrait_ref",
+                        "visual_ref": "Open-knowledge librarian Persona with shelf, stamp, and catalog motifs; warm enough to invite visitors in, sharp enough to reject untyped sludge.",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": {
+                            "image": "sprites/libby/idle.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "stamp": {
+                            "image": "sprites/libby/stamp.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "schema": {
+                            "image": "sprites/libby/schema.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "shush": {
+                            "image": "sprites/libby/shush.png",
+                            "position": "right",
+                            "scale": 1.08
+                          },
+                          "research": {
+                            "image": "sprites/libby/research.png",
+                            "position": "right",
+                            "scale": 1.08
+                          }
+                        }
+                      },
+                      "Heimdall": {
+                        "avatar": "heimdall.png",
+                        "visual_ref_type": "dom_avatar_portrait_ref",
+                        "visual_ref": "Boundary and consent Persona with gate-console motifs, calm refusal posture, and visible grant/revocation symbols.",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": {
+                            "image": "sprites/heimdall/idle.png",
+                            "position": "right",
+                            "scale": 1.1
+                          },
+                          "badge": {
+                            "image": "sprites/heimdall/badge.png",
+                            "position": "right",
+                            "scale": 1.1
+                          },
+                          "barrier": {
+                            "image": "sprites/heimdall/barrier.png",
+                            "position": "right",
+                            "scale": 1.1
+                          },
+                          "revoke": {
+                            "image": "sprites/heimdall/revoke.png",
+                            "position": "right",
+                            "scale": 1.1
+                          },
+                          "protect": {
+                            "image": "sprites/heimdall/protect.png",
+                            "position": "right",
+                            "scale": 1.1
+                          }
+                        }
+                      },
+                      "Sai": {
+                        "avatar": "sai.png",
+                        "visual_ref_type": "provided_avatar_portrait_ref",
+                        "visual_ref": "Monochrome ink-and-interface portrait for the VN renderer Persona: sharp, literary, and slightly too aware that markup is only a temporary body."
+                      },
+                      "Eve": {
+                        "avatar": "eve.png",
+                        "visual_ref_type": "provided_avatar_portrait_ref",
+                        "visual_ref": "Blue visor surface-runtime portrait for the portable control-surface Persona: native-client glow, synchronized UI state, and a helmet full of CultMesh."
+                      },
+                      "Aqua": {
+                        "avatar": "aqua.png",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": "sprites/aqua/idle.png",
+                          "conduct": "sprites/aqua/conduct.png",
+                          "patch": "sprites/aqua/patch.png",
+                          "listen": "sprites/aqua/listen.png",
+                          "boundary": "sprites/aqua/boundary.png"
+                        }
+                      },
+                      "Nibu": {
+                        "avatar": "nibu.png",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": "sprites/nibu/idle.png",
+                          "sarcastic": "sprites/nibu/sarcastic.png",
+                          "console": "sprites/nibu/console.png",
+                          "glitch": "sprites/nibu/glitch.png",
+                          "lore": "sprites/nibu/lore.png",
+                          "triumph": "sprites/nibu/triumph.png"
+                        }
+                      },
+                      "Weksa": {
+                        "avatar": "weksa.png",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": "sprites/weksa/idle.png",
+                          "map": "sprites/weksa/map.png",
+                          "argue": "sprites/weksa/argue.png",
+                          "fieldwork": "sprites/weksa/fieldwork.png",
+                          "interlingua": "sprites/weksa/interlingua.png",
+                          "contract": "sprites/weksa/contract.png"
+                        }
+                      },
+                      "Kiko": {
+                        "avatar": "kiko.png",
+                        "default_sprite": "overlay",
+                        "sprites": {
+                          "overlay": "sprites/kiko/overlay.png",
+                          "sprint": "sprites/kiko/sprint.png",
+                          "tinker": "sprites/kiko/tinker.png",
+                          "boundary": "sprites/kiko/boundary.png",
+                          "confetti": "sprites/kiko/confetti.png",
+                          "debug": "sprites/kiko/debug.png"
+                        }
+                      },
+                      "Druzkai": {
+                        "avatar": "druzkai.png",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": "sprites/druzkai/idle.png",
+                          "tablet": "sprites/druzkai/tablet.png",
+                          "road": "sprites/druzkai/road.png",
+                          "contract": "sprites/druzkai/contract.png",
+                          "warning": "sprites/druzkai/warning.png",
+                          "memory": "sprites/druzkai/memory.png"
+                        }
+                      },
+                      "Huginn": {
+                        "avatar": "huginn.png",
+                        "default_sprite": "idle",
+                        "sprites": {
+                          "idle": "sprites/huginn/idle.png",
+                          "return": "sprites/huginn/return.png",
+                          "validate": "sprites/huginn/validate.png",
+                          "lens": "sprites/huginn/lens.png",
+                          "refuse": "sprites/huginn/refuse.png",
+                          "envelope": "sprites/huginn/envelope.png"
+                        }
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "stage.embedded_surfaces",
+                  "kind": "layer.embedded-surfaces",
+                  "props": {
+                    "bind": "state.currentScene.embeddedSurfaces",
+                    "placementContract": "scene placement, perspective, skew, keystone, and chromakey belong to the manifest/style state"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "stage.dom_cards",
+                  "kind": "grid.dom_cards",
+                  "props": {
+                    "bind": "state.currentScene.domCards"
+                  },
+                  "children": [
+                    {
+                      "id": "dom_card.studio",
+                      "kind": "card.dom",
+                      "props": {
+                        "sourceId": "studio",
+                        "title": "Studio",
+                        "selector": "#gamecult-vn-studio",
+                        "role": "central public-studio orientation card",
+                        "binding": {
+                          "source": "visual_manifest.dom_cards",
+                          "path": "dom_cards.studio"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "side.rail",
+              "kind": "stack",
+              "props": {
+                "gap": "sm"
+              },
+              "children": [
+                {
+                  "id": "dialogue",
+                  "kind": "panel.dialogue",
+                  "props": {
+                    "speaker": "Void",
+                    "avatar": "void",
+                    "bind": "state.currentLine"
+                  },
+                  "children": [
+                    {
+                      "id": "dialogue.speaker",
+                      "kind": "text",
+                      "props": {
+                        "role": "speaker",
+                        "text": "Void"
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "dialogue.line",
+                      "kind": "text.dialogue",
+                      "props": {
+                        "text": "Welcome to GameCult: an open game studio building strange worlds, public tools, and the receipts needed to make creative work inspectable."
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "choices",
+                  "kind": "rail.actions",
+                  "props": {
+                    "bind": "state.availableChoices",
+                    "command": "vn.choose"
+                  },
+                  "children": []
+                },
+                {
+                  "id": "navigation",
+                  "kind": "toolbar",
+                  "props": {},
+                  "children": [
+                    {
+                      "id": "nav.back",
+                      "kind": "control.button",
+                      "props": {
+                        "label": "Back",
+                        "command": {
+                          "id": "vn.back"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "nav.restart",
+                      "kind": "control.button",
+                      "props": {
+                        "label": "Restart",
+                        "command": {
+                          "id": "vn.restart"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "nav.transcript",
+                      "kind": "control.button",
+                      "props": {
+                        "label": "Transcript",
+                        "command": {
+                          "id": "vn.toggle_transcript"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "nav.wiki",
+                      "kind": "control.button",
+                      "props": {
+                        "label": "Open canonical page",
+                        "command": {
+                          "id": "vn.open_exit"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "scene.select",
+                  "kind": "control.select",
+                  "props": {
+                    "label": "Scene",
+                    "bind": "state.currentScene.id",
+                    "options": [
+                      {
+                        "id": "compound",
+                        "label": "compound"
+                      },
+                      {
+                        "id": "forge",
+                        "label": "forge"
+                      },
+                      {
+                        "id": "ledger",
+                        "label": "ledger"
+                      },
+                      {
+                        "id": "archive",
+                        "label": "archive"
+                      },
+                      {
+                        "id": "library",
+                        "label": "library"
+                      },
+                      {
+                        "id": "gate",
+                        "label": "gate"
+                      },
+                      {
+                        "id": "receipts",
+                        "label": "receipts"
+                      },
+                      {
+                        "id": "project_atlas",
+                        "label": "project_atlas"
+                      },
+                      {
+                        "id": "docs_shelf",
+                        "label": "docs_shelf"
+                      },
+                      {
+                        "id": "blog_lane",
+                        "label": "blog_lane"
+                      },
+                      {
+                        "id": "nibu_ship",
+                        "label": "nibu_ship"
+                      },
+                      {
+                        "id": "zyphos_vault",
+                        "label": "zyphos_vault"
+                      },
+                      {
+                        "id": "weksa_lab",
+                        "label": "weksa_lab"
+                      },
+                      {
+                        "id": "overlay_studio",
+                        "label": "overlay_studio"
+                      },
+                      {
+                        "id": "inspection_desk",
+                        "label": "inspection_desk"
+                      },
+                      {
+                        "id": "graph_loom",
+                        "label": "graph_loom"
+                      },
+                      {
+                        "id": "vn_stage",
+                        "label": "vn_stage"
+                      },
+                      {
+                        "id": "surface_web",
+                        "label": "surface_web"
+                      },
+                      {
+                        "id": "machine_room",
+                        "label": "machine_room"
+                      },
+                      {
+                        "id": "ghost_hall",
+                        "label": "ghost_hall"
+                      },
+                      {
+                        "id": "synth_lab",
+                        "label": "synth_lab"
+                      },
+                      {
+                        "id": "pixel_workshop",
+                        "label": "pixel_workshop"
+                      },
+                      {
+                        "id": "geometry_bench",
+                        "label": "geometry_bench"
+                      },
+                      {
+                        "id": "arena",
+                        "label": "arena"
+                      }
+                    ],
+                    "command": "vn.set_scene"
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "knowledge",
+          "kind": "partition",
+          "props": {
+            "orientation": "horizontal",
+            "ratio": [
+              0.5,
+              0.5
+            ]
+          },
+          "children": [
+            {
+              "id": "route.map",
+              "kind": "panel",
+              "props": {
+                "title": "Adventure Graph"
+              },
+              "children": [
+                {
+                  "id": "graph.adventure",
+                  "kind": "embed.norn",
+                  "props": {
+                    "engine": {
+                      "id": "norn-rs",
+                      "contract": "gamecult.norn.surface.v1",
+                      "web": {
+                        "wasm": "/static/interactive/norn/norn-rs.wasm"
+                      }
+                    },
+                    "graph": {
+                      "nodes": [
+                        {
+                          "id": "front_gate",
+                          "label": "Front Gate",
+                          "target": "welcome",
+                          "core": true,
+                          "weight": 1.35
+                        },
+                        {
+                          "id": "hub",
+                          "label": "Hub",
+                          "target": "hub",
+                          "core": true,
+                          "weight": 1.4
+                        },
+                        {
+                          "id": "norn",
+                          "label": "Norn",
+                          "target": "norn",
+                          "core": true,
+                          "weight": 1.3
+                        },
+                        {
+                          "id": "sai",
+                          "label": "Sai",
+                          "target": "sai",
+                          "weight": 1.1
+                        },
+                        {
+                          "id": "eve",
+                          "label": "Eve",
+                          "target": "eve",
+                          "weight": 1.1
+                        },
+                        {
+                          "id": "epiphany",
+                          "label": "Epiphany",
+                          "target": "epiphany",
+                          "weight": 1.1
+                        },
+                        {
+                          "id": "bifrost",
+                          "label": "Bifrost",
+                          "target": "bifrost",
+                          "weight": 1.1
+                        },
+                        {
+                          "id": "voidbot",
+                          "label": "VoidBot",
+                          "target": "voidbot",
+                          "weight": 1
+                        },
+                        {
+                          "id": "cultlib",
+                          "label": "Libby",
+                          "target": "cultlib",
+                          "weight": 1
+                        },
+                        {
+                          "id": "heimdall",
+                          "label": "Heimdall",
+                          "target": "heimdall",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "mimir",
+                          "label": "Mimir",
+                          "target": "mimir",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "ghostlight",
+                          "label": "Ghostlight",
+                          "target": "ghostlight",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "worlds",
+                          "label": "Worlds",
+                          "target": "worlds",
+                          "core": true,
+                          "weight": 1.25
+                        },
+                        {
+                          "id": "kiko",
+                          "label": "Kiko",
+                          "target": "kiko",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "aqua",
+                          "label": "Aqua",
+                          "target": "aqua",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "visual_tools",
+                          "label": "Visual Tools",
+                          "target": "visual_tools",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "cultpong",
+                          "label": "CultPong",
+                          "target": "cultpong",
+                          "weight": 0.95
+                        },
+                        {
+                          "id": "proof",
+                          "label": "Proof",
+                          "target": "proof",
+                          "weight": 1
+                        },
+                        {
+                          "id": "pitch",
+                          "label": "Pitch",
+                          "target": "pitch_intro",
+                          "weight": 1
+                        },
+                        {
+                          "id": "norn_threads",
+                          "label": "Threads",
+                          "target": "norn_threads",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "norn_solver",
+                          "label": "Solver",
+                          "target": "norn_solver",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "norn_future",
+                          "label": "Future",
+                          "target": "norn_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "epiphany_organs",
+                          "label": "Organs",
+                          "target": "epiphany_organs",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "epiphany_aquarium",
+                          "label": "Aquarium",
+                          "target": "epiphany_aquarium",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "epiphany_evidence",
+                          "label": "Evidence",
+                          "target": "epiphany_evidence",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "epiphany_future",
+                          "label": "Future",
+                          "target": "epiphany_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "bifrost_labor",
+                          "label": "Labor Loop",
+                          "target": "bifrost_labor",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "bifrost_patronage",
+                          "label": "Patronage",
+                          "target": "bifrost_patronage",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "bifrost_log_power",
+                          "label": "Log Power",
+                          "target": "bifrost_log_power",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "bifrost_gamers",
+                          "label": "Gamer Patrons",
+                          "target": "bifrost_gamers",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "voidbot_personas",
+                          "label": "Repo Personas",
+                          "target": "voidbot_personas",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "voidbot_retrieval_route",
+                          "label": "Retrieval",
+                          "target": "voidbot_retrieval_route",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "voidbot_handoff",
+                          "label": "Handoff",
+                          "target": "voidbot_handoff",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultlib_cache_net",
+                          "label": "Cache/Net",
+                          "target": "cultlib_cache_net",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultlib_mesh",
+                          "label": "CultMesh",
+                          "target": "cultlib_mesh",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultlib_schema",
+                          "label": "Schemas",
+                          "target": "cultlib_schema",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "heimdall_claims",
+                          "label": "Claims",
+                          "target": "heimdall_claims",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "heimdall_custody",
+                          "label": "Custody",
+                          "target": "heimdall_custody",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "heimdall_eve",
+                          "label": "Eve Gate",
+                          "target": "heimdall_eve",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "sai_formats",
+                          "label": "Formats",
+                          "target": "sai_formats",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "sai_quartz",
+                          "label": "Quartz",
+                          "target": "sai_quartz",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "sai_eve_surface",
+                          "label": "Eve Export",
+                          "target": "sai_eve_surface",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "sai_scene_surfaces",
+                          "label": "Scene Surfaces",
+                          "target": "sai_scene_surfaces",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "sai_future",
+                          "label": "Future",
+                          "target": "sai_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_cultui",
+                          "label": "CultUI",
+                          "target": "eve_cultui",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_backends",
+                          "label": "Backends",
+                          "target": "eve_backends",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_norn_backends",
+                          "label": "Norn Native",
+                          "target": "eve_norn_backends",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_tex_surfaces",
+                          "label": "TeX",
+                          "target": "eve_tex_surfaces",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_diegetic_surfaces",
+                          "label": "Diegetic UI",
+                          "target": "eve_diegetic_surfaces",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "eve_future",
+                          "label": "Future",
+                          "target": "eve_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "mimir_sensors",
+                          "label": "Sensors",
+                          "target": "mimir_sensors",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "mimir_future",
+                          "label": "Reservoir",
+                          "target": "mimir_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "mimir_sync",
+                          "label": "Sync Custody",
+                          "target": "mimir_sync",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "mimir_eve",
+                          "label": "Eve Field",
+                          "target": "mimir_eve",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "ghostlight_state",
+                          "label": "State",
+                          "target": "ghostlight_state",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "ghostlight_branch",
+                          "label": "Compiler",
+                          "target": "ghostlight_branch",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "ghostlight_memory",
+                          "label": "Memory",
+                          "target": "ghostlight_memory",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "ghostlight_future",
+                          "label": "Future",
+                          "target": "ghostlight_future",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "nibu_wound",
+                          "label": "Nibu",
+                          "target": "nibu_wound",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "zyphos",
+                          "label": "Zyphos",
+                          "target": "zyphos",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "weksa_route",
+                          "label": "Weksa",
+                          "target": "weksa_route",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "kiko_architecture",
+                          "label": "Architecture",
+                          "target": "kiko_architecture",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "kiko_patronage",
+                          "label": "Patrons",
+                          "target": "kiko_patronage",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "kiko_eve",
+                          "label": "Eve Bridge",
+                          "target": "kiko_eve",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "aqua_voice",
+                          "label": "Voice",
+                          "target": "aqua_voice",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "aqua_faust",
+                          "label": "Faust",
+                          "target": "aqua_faust",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "aqua_weksa",
+                          "label": "Weksa Voice",
+                          "target": "aqua_weksa",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "geometry_tools",
+                          "label": "Geometry",
+                          "target": "geometry_tools",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "visual_repixelizer",
+                          "label": "Repixelizer",
+                          "target": "visual_repixelizer",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "visual_geometry_runtime",
+                          "label": "Runtime Geo",
+                          "target": "visual_geometry_runtime",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultpong_thesis",
+                          "label": "Thesis",
+                          "target": "cultpong_thesis",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultpong_mechanics",
+                          "label": "Mechanics",
+                          "target": "cultpong_mechanics",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "cultpong_patronage",
+                          "label": "Patron Loop",
+                          "target": "cultpong_patronage",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "pitch_eve",
+                          "label": "Pitch Eve",
+                          "target": "pitch_eve",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "pitch_bifrost",
+                          "label": "Pitch Bifrost",
+                          "target": "pitch_bifrost",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "pitch_cultmesh",
+                          "label": "Pitch CultMesh",
+                          "target": "pitch_cultmesh",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "pitch_epiphany",
+                          "label": "Pitch Epiphany",
+                          "target": "pitch_epiphany",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "pitch_games",
+                          "label": "Pitch Games",
+                          "target": "pitch_games",
+                          "weight": 0.62
+                        },
+                        {
+                          "id": "repo_swarm",
+                          "label": "Repo Docs",
+                          "target": "repo_swarm",
+                          "core": true,
+                          "weight": 1.2
+                        },
+                        {
+                          "id": "pitch_assets",
+                          "label": "Pitch Assets",
+                          "target": "pitch_intro",
+                          "weight": 0.82
+                        }
+                      ],
+                      "edges": [
+                        {
+                          "source": "front_gate",
+                          "target": "hub"
+                        },
+                        {
+                          "source": "hub",
+                          "target": "norn"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "sai"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "eve"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "epiphany"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "bifrost"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "epiphany"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "mimir"
+                        },
+                        {
+                          "source": "mimir",
+                          "target": "ghostlight"
+                        },
+                        {
+                          "source": "ghostlight",
+                          "target": "epiphany"
+                        },
+                        {
+                          "source": "epiphany",
+                          "target": "voidbot"
+                        },
+                        {
+                          "source": "voidbot",
+                          "target": "cultlib"
+                        },
+                        {
+                          "source": "cultlib",
+                          "target": "bifrost"
+                        },
+                        {
+                          "source": "bifrost",
+                          "target": "heimdall"
+                        },
+                        {
+                          "source": "heimdall",
+                          "target": "eve"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "kiko"
+                        },
+                        {
+                          "source": "kiko",
+                          "target": "cultpong"
+                        },
+                        {
+                          "source": "cultpong",
+                          "target": "worlds"
+                        },
+                        {
+                          "source": "worlds",
+                          "target": "aqua"
+                        },
+                        {
+                          "source": "aqua",
+                          "target": "visual_tools"
+                        },
+                        {
+                          "source": "visual_tools",
+                          "target": "voidbot"
+                        },
+                        {
+                          "source": "worlds",
+                          "target": "proof"
+                        },
+                        {
+                          "source": "proof",
+                          "target": "pitch"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "eve"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "bifrost"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "worlds"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "norn_threads"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "norn_solver"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "norn_future"
+                        },
+                        {
+                          "source": "epiphany",
+                          "target": "epiphany_organs"
+                        },
+                        {
+                          "source": "epiphany",
+                          "target": "epiphany_aquarium"
+                        },
+                        {
+                          "source": "epiphany",
+                          "target": "epiphany_evidence"
+                        },
+                        {
+                          "source": "epiphany",
+                          "target": "epiphany_future"
+                        },
+                        {
+                          "source": "bifrost",
+                          "target": "bifrost_labor"
+                        },
+                        {
+                          "source": "bifrost",
+                          "target": "bifrost_patronage"
+                        },
+                        {
+                          "source": "bifrost",
+                          "target": "bifrost_log_power"
+                        },
+                        {
+                          "source": "bifrost",
+                          "target": "bifrost_gamers"
+                        },
+                        {
+                          "source": "voidbot",
+                          "target": "voidbot_personas"
+                        },
+                        {
+                          "source": "voidbot",
+                          "target": "voidbot_retrieval_route"
+                        },
+                        {
+                          "source": "voidbot",
+                          "target": "voidbot_handoff"
+                        },
+                        {
+                          "source": "cultlib",
+                          "target": "cultlib_cache_net"
+                        },
+                        {
+                          "source": "cultlib",
+                          "target": "cultlib_mesh"
+                        },
+                        {
+                          "source": "cultlib",
+                          "target": "cultlib_schema"
+                        },
+                        {
+                          "source": "heimdall",
+                          "target": "heimdall_claims"
+                        },
+                        {
+                          "source": "heimdall",
+                          "target": "heimdall_custody"
+                        },
+                        {
+                          "source": "heimdall",
+                          "target": "heimdall_eve"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "sai_formats"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "sai_quartz"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "sai_eve_surface"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "sai_scene_surfaces"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "sai_future"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_cultui"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_backends"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_norn_backends"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_tex_surfaces"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_diegetic_surfaces"
+                        },
+                        {
+                          "source": "eve",
+                          "target": "eve_future"
+                        },
+                        {
+                          "source": "mimir",
+                          "target": "mimir_sensors"
+                        },
+                        {
+                          "source": "mimir",
+                          "target": "mimir_future"
+                        },
+                        {
+                          "source": "mimir",
+                          "target": "mimir_sync"
+                        },
+                        {
+                          "source": "mimir",
+                          "target": "mimir_eve"
+                        },
+                        {
+                          "source": "ghostlight",
+                          "target": "ghostlight_state"
+                        },
+                        {
+                          "source": "ghostlight",
+                          "target": "ghostlight_branch"
+                        },
+                        {
+                          "source": "ghostlight",
+                          "target": "ghostlight_memory"
+                        },
+                        {
+                          "source": "ghostlight",
+                          "target": "ghostlight_future"
+                        },
+                        {
+                          "source": "worlds",
+                          "target": "nibu_wound"
+                        },
+                        {
+                          "source": "worlds",
+                          "target": "zyphos"
+                        },
+                        {
+                          "source": "worlds",
+                          "target": "weksa_route"
+                        },
+                        {
+                          "source": "kiko",
+                          "target": "kiko_architecture"
+                        },
+                        {
+                          "source": "kiko",
+                          "target": "kiko_patronage"
+                        },
+                        {
+                          "source": "kiko",
+                          "target": "kiko_eve"
+                        },
+                        {
+                          "source": "aqua",
+                          "target": "aqua_voice"
+                        },
+                        {
+                          "source": "aqua",
+                          "target": "aqua_faust"
+                        },
+                        {
+                          "source": "aqua",
+                          "target": "aqua_weksa"
+                        },
+                        {
+                          "source": "visual_tools",
+                          "target": "geometry_tools"
+                        },
+                        {
+                          "source": "visual_tools",
+                          "target": "visual_repixelizer"
+                        },
+                        {
+                          "source": "visual_tools",
+                          "target": "visual_geometry_runtime"
+                        },
+                        {
+                          "source": "cultpong",
+                          "target": "cultpong_thesis"
+                        },
+                        {
+                          "source": "cultpong",
+                          "target": "cultpong_mechanics"
+                        },
+                        {
+                          "source": "cultpong",
+                          "target": "cultpong_patronage"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "pitch_eve"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "pitch_bifrost"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "pitch_cultmesh"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "pitch_epiphany"
+                        },
+                        {
+                          "source": "pitch",
+                          "target": "pitch_games"
+                        },
+                        {
+                          "source": "hub",
+                          "target": "repo_swarm"
+                        },
+                        {
+                          "source": "norn",
+                          "target": "repo_swarm"
+                        },
+                        {
+                          "source": "sai",
+                          "target": "repo_swarm"
+                        },
+                        {
+                          "source": "voidbot",
+                          "target": "repo_swarm"
+                        },
+                        {
+                          "source": "repo_swarm",
+                          "target": "pitch_assets"
+                        },
+                        {
+                          "source": "repo_swarm",
+                          "target": "pitch"
+                        },
+                        {
+                          "source": "repo_swarm",
+                          "target": "voidbot_retrieval_route"
+                        },
+                        {
+                          "source": "repo_swarm",
+                          "target": "sai_scene_surfaces"
+                        }
+                      ]
+                    },
+                    "layout": {
+                      "iterations": 360,
+                      "rankGap": 215,
+                      "nodeGap": 138,
+                      "edgeLength": 192
+                    },
+                    "interaction": {
+                      "nodeAction": "vn.goto"
+                    },
+                    "binding": {
+                      "source": "visual_manifest.adventure_graph",
+                      "path": "adventure_graph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "route.tree",
+              "kind": "tree",
+              "props": {
+                "title": "Ink Routes",
+                "bind": "story.knots"
+              },
+              "children": [
+                {
+                  "id": "route.welcome",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "welcome",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "studio"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "welcome"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.welcome_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "welcome_2",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "studio",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "welcome_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.hub",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "hub",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "projects"
+                    ],
+                    "choices": [
+                      "Show me the Norn adventure graph",
+                      "Open the full repository documentation tree",
+                      "How do agents remember work? Meet Epiphany at the forge",
+                      "How does public labor become a receipt? Visit Bifrost",
+                      "Where did that lore or decision come from? Find VoidBot",
+                      "How do records stay findable and typed? Ask Libby",
+                      "Who is allowed to cross a boundary? Ask Heimdall",
+                      "How does the VN stage work? Ask Sai",
+                      "What is Eve trying to turn the web into?",
+                      "What is Mimir measuring in the machine room?",
+                      "What does Ghostlight do with social state?",
+                      "Open the World Vault with Nibu, Druzkai, and Weksa",
+                      "Visit Kiko's StreamPixels overlay studio",
+                      "Hear AquaSynth explain the voice lab",
+                      "Inspect the pixel and geometry workshop",
+                      "Revive the CultPong arena",
+                      "What proof exists, and what is still risky? Show me receipts",
+                      "Show me the impossible portfolio pitch",
+                      "I just need the normal wiki"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "hub"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.norn",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "norn",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "norn_map"
+                    ],
+                    "choices": [
+                      "Show me architecture versus dataflow",
+                      "Show me the solver body",
+                      "Open the generated repo documentation tree",
+                      "Show me what Norn wants to become",
+                      "Return to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "norn"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.norn_threads",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "norn_threads",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "norn_architecture",
+                      "norn_dataflow"
+                    ],
+                    "choices": [
+                      "What happens when you zoom in?",
+                      "Back to Norn's graph"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "norn_threads"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.norn_zoom",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "norn_zoom",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "norn_focus",
+                      "norn_map"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "norn_zoom"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.norn_solver",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "norn_solver",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "norn_solver",
+                      "norn_map"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "norn_solver"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.norn_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "norn_future",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "norn_future",
+                      "value_orbit"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "norn_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "epiphany",
+                      "epiphany_organs"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany_2",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "epiphany_memory",
+                      "epiphany_heartbeat"
+                    ],
+                    "choices": [
+                      "Show me the organ lanes",
+                      "Show me the Aquarium surface",
+                      "Show me the evidence trail",
+                      "What should Epiphany become?",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany_organs",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany_organs",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "epiphany_organs",
+                      "epiphany_memory"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany_organs"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany_aquarium",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany_aquarium",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "epiphany_aquarium",
+                      "epiphany_heartbeat"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany_aquarium"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany_evidence",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany_evidence",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "proof",
+                      "epiphany_memory"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany_evidence"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.epiphany_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "epiphany_future",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "epiphany",
+                      "roadmap"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "epiphany_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "bifrost",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost_2",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "bifrost"
+                    ],
+                    "choices": [
+                      "Show me the labor loop",
+                      "Show me patron voting",
+                      "Show me log-power governance",
+                      "Show me the gamer patron pitch",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost_labor",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost_labor",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "bifrost",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost_labor"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost_patronage",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost_patronage",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "patronage_furnace",
+                      "roadmap"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost_patronage"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost_log_power",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost_log_power",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "patronage_furnace",
+                      "bifrost"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost_log_power"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.bifrost_gamers",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "bifrost_gamers",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "patronage_furnace",
+                      "cultpong"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "bifrost_gamers"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.voidbot",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "voidbot",
+                    "speaker": "Void",
+                    "scene": "archive",
+                    "domCards": [
+                      "voidbot",
+                      "voidbot_retrieval"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "voidbot"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.voidbot_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "voidbot_2",
+                    "speaker": "Void",
+                    "scene": "archive",
+                    "domCards": [
+                      "voidbot_pipe",
+                      "voidbot_memory"
+                    ],
+                    "choices": [
+                      "Show me repo Personas",
+                      "Show me archive retrieval",
+                      "Show me the generated doc tree",
+                      "Show me repo swarm handoff",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "voidbot_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.voidbot_personas",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "voidbot_personas",
+                    "speaker": "Void",
+                    "scene": "archive",
+                    "domCards": [
+                      "voidbot_personas",
+                      "adventure_map"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "voidbot_personas"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.voidbot_retrieval_route",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "voidbot_retrieval_route",
+                    "speaker": "Void",
+                    "scene": "archive",
+                    "domCards": [
+                      "voidbot_retrieval",
+                      "voidbot_memory"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "voidbot_retrieval_route"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.voidbot_handoff",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "voidbot_handoff",
+                    "speaker": "Void",
+                    "scene": "archive",
+                    "domCards": [
+                      "voidbot_pipe",
+                      "adventure_map"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "voidbot_handoff"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultlib",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultlib",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "cultlib",
+                      "docs"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultlib"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultlib_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultlib_2",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "cultlib"
+                    ],
+                    "choices": [
+                      "Show me CultCache and CultNet",
+                      "Show me CultMesh",
+                      "Show me schema discipline",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultlib_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultlib_cache_net",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultlib_cache_net",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "cultlib",
+                      "value_orbit"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultlib_cache_net"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultlib_mesh",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultlib_mesh",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "value_orbit",
+                      "cultlib"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultlib_mesh"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultlib_schema",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultlib_schema",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "cultlib",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultlib_schema"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.heimdall",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "heimdall",
+                    "speaker": "Heimdall",
+                    "scene": "gate",
+                    "domCards": [
+                      "heimdall",
+                      "bifrost"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "heimdall"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.heimdall_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "heimdall_2",
+                    "speaker": "Heimdall",
+                    "scene": "gate",
+                    "domCards": [
+                      "heimdall"
+                    ],
+                    "choices": [
+                      "Show me signed claims",
+                      "Show me custody boundaries",
+                      "Show me Eve command boundaries",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "heimdall_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.heimdall_claims",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "heimdall_claims",
+                    "speaker": "Heimdall",
+                    "scene": "gate",
+                    "domCards": [
+                      "heimdall",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "heimdall_claims"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.heimdall_custody",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "heimdall_custody",
+                    "speaker": "Heimdall",
+                    "scene": "gate",
+                    "domCards": [
+                      "heimdall",
+                      "bifrost"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "heimdall_custody"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.heimdall_eve",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "heimdall_eve",
+                    "speaker": "Heimdall",
+                    "scene": "gate",
+                    "domCards": [
+                      "eve_commands",
+                      "heimdall"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "heimdall_eve"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.proof",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "proof",
+                    "speaker": "Void",
+                    "scene": "receipts",
+                    "domCards": [
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "proof"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.proof_2",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "proof_2",
+                    "speaker": "Void",
+                    "scene": "receipts",
+                    "domCards": [
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "proof_2"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.repo_swarm",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "repo_swarm",
+                    "speaker": "Norn",
+                    "scene": "graph_loom",
+                    "domCards": [
+                      "repo_doc_tree",
+                      "adventure_map"
+                    ],
+                    "choices": [
+                      "Let Sai explain how this enters the VN",
+                      "Let VoidBot explain retrieval over the same body",
+                      "Let the pitch hall pull from these assets",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "repo_swarm"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "sai_embed",
+                      "sai_dom_cards"
+                    ],
+                    "choices": [
+                      "Show me the three masks",
+                      "Show me the Quartz swap trick",
+                      "Show me the repository documentation tree",
+                      "Show me Eve surface export",
+                      "Show me Norn and TeX on the stage",
+                      "What should Sai become?",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai_formats",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai_formats",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "sai_formats",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai_formats"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai_quartz",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai_quartz",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "sai_quartz",
+                      "sai_links"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai_quartz"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai_eve_surface",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai_eve_surface",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "eve_surface_pipeline",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai_eve_surface"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai_scene_surfaces",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai_scene_surfaces",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "norn_map",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai_scene_surfaces"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.sai_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "sai_future",
+                    "speaker": "Sai",
+                    "scene": "vn_stage",
+                    "domCards": [
+                      "sai_embed",
+                      "adventure_map"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "sai_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "surface_stack",
+                      "eve_surface_pipeline"
+                    ],
+                    "choices": [
+                      "Show me why this is not remote DOM",
+                      "Show me the many bodies",
+                      "Show me embedded Norn",
+                      "Show me TeX surfaces",
+                      "Show me diegetic placement",
+                      "What should Eve become?",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_cultui",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_cultui",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "eve_cultui",
+                      "eve_commands"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_cultui"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_backends",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_backends",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "eve_backends",
+                      "eve_canvas"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_backends"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_norn_backends",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_norn_backends",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "norn_map",
+                      "eve_backends"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_norn_backends"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_tex_surfaces",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_tex_surfaces",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "eve_cultui",
+                      "patronage_furnace"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_tex_surfaces"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_diegetic_surfaces",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_diegetic_surfaces",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "eve_canvas",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_diegetic_surfaces"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.eve_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "eve_future",
+                    "speaker": "Eve",
+                    "scene": "surface_web",
+                    "domCards": [
+                      "value_orbit",
+                      "eve_surface_pipeline"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "eve_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.mimir",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "mimir",
+                    "speaker": "Mimir",
+                    "scene": "machine_room",
+                    "domCards": [
+                      "mimir_well",
+                      "mimir_reservoir"
+                    ],
+                    "choices": [
+                      "Show me the sensor array",
+                      "Show me the future reservoir",
+                      "Show me synchronization custody",
+                      "Show me Eve drinking the field",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "mimir"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.mimir_sensors",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "mimir_sensors",
+                    "speaker": "Mimir",
+                    "scene": "machine_room",
+                    "domCards": [
+                      "mimir_sensors",
+                      "mimir_confidence"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "mimir_sensors"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.mimir_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "mimir_future",
+                    "speaker": "Mimir",
+                    "scene": "machine_room",
+                    "domCards": [
+                      "mimir_confidence",
+                      "value_orbit"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "mimir_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.mimir_sync",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "mimir_sync",
+                    "speaker": "Mimir",
+                    "scene": "machine_room",
+                    "domCards": [
+                      "mimir_confidence",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "mimir_sync"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.mimir_eve",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "mimir_eve",
+                    "speaker": "Mimir",
+                    "scene": "machine_room",
+                    "domCards": [
+                      "eve_surface_pipeline",
+                      "mimir_well"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "mimir_eve"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.ghostlight",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "ghostlight",
+                    "speaker": "Ghostlight",
+                    "scene": "ghost_hall",
+                    "domCards": [
+                      "ghostlight_state",
+                      "ghostlight_branch"
+                    ],
+                    "choices": [
+                      "Show me canonical and perceived state",
+                      "Show me the branch compiler",
+                      "Show me persona memory",
+                      "What should Ghostlight become?",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "ghostlight"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.ghostlight_state",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "ghostlight_state",
+                    "speaker": "Ghostlight",
+                    "scene": "ghost_hall",
+                    "domCards": [
+                      "ghostlight_state",
+                      "ghostlight_sidecar"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "ghostlight_state"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.ghostlight_branch",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "ghostlight_branch",
+                    "speaker": "Ghostlight",
+                    "scene": "ghost_hall",
+                    "domCards": [
+                      "ghostlight_branch",
+                      "ghostlight_reviewer"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "ghostlight_branch"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.ghostlight_memory",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "ghostlight_memory",
+                    "speaker": "Ghostlight",
+                    "scene": "ghost_hall",
+                    "domCards": [
+                      "ghostlight_sidecar",
+                      "voidbot_memory"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "ghostlight_memory"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.ghostlight_future",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "ghostlight_future",
+                    "speaker": "Ghostlight",
+                    "scene": "ghost_hall",
+                    "domCards": [
+                      "ghostlight_reviewer",
+                      "value_orbit"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "ghostlight_future"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.worlds",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "worlds",
+                    "speaker": "Nibu",
+                    "scene": "nibu_ship",
+                    "domCards": [
+                      "aetheria",
+                      "projects"
+                    ],
+                    "choices": [
+                      "Let Nibu talk about the wound",
+                      "Let Druzkai open Zyphos",
+                      "Let Weksa explain language research",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "worlds"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.nibu_wound",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "nibu_wound",
+                    "speaker": "Nibu",
+                    "scene": "nibu_ship",
+                    "domCards": [
+                      "aetheria",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "nibu_wound"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.zyphos",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "zyphos",
+                    "speaker": "Druzkai",
+                    "scene": "zyphos_vault",
+                    "domCards": [
+                      "zyphos",
+                      "weksa"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "zyphos"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.weksa_route",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "weksa_route",
+                    "speaker": "Weksa",
+                    "scene": "weksa_lab",
+                    "domCards": [
+                      "weksa",
+                      "docs"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "weksa_route"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.kiko",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "kiko",
+                    "speaker": "Kiko",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "streampixels",
+                      "heimdall"
+                    ],
+                    "choices": [
+                      "Show me the architecture",
+                      "Show me the viewer patron loop",
+                      "Show me the Eve bridge",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "kiko"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.kiko_architecture",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "kiko_architecture",
+                    "speaker": "Kiko",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "streampixels",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "kiko_architecture"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.kiko_patronage",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "kiko_patronage",
+                    "speaker": "Kiko",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "streampixels",
+                      "patronage_furnace"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "kiko_patronage"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.kiko_eve",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "kiko_eve",
+                    "speaker": "Kiko",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "surface_stack",
+                      "eve_backends"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "kiko_eve"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.aqua",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "aqua",
+                    "speaker": "Aqua",
+                    "scene": "synth_lab",
+                    "domCards": [
+                      "aquasynth",
+                      "weksa"
+                    ],
+                    "choices": [
+                      "Show me the voice research",
+                      "Show me Faust lowering",
+                      "Show me Weksa as an audio body",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "aqua"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.aqua_voice",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "aqua_voice",
+                    "speaker": "Aqua",
+                    "scene": "synth_lab",
+                    "domCards": [
+                      "aquasynth",
+                      "weksa"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "aqua_voice"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.aqua_faust",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "aqua_faust",
+                    "speaker": "Aqua",
+                    "scene": "synth_lab",
+                    "domCards": [
+                      "aquasynth",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "aqua_faust"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.aqua_weksa",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "aqua_weksa",
+                    "speaker": "Aqua",
+                    "scene": "synth_lab",
+                    "domCards": [
+                      "weksa",
+                      "aquasynth"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "aqua_weksa"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.visual_tools",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "visual_tools",
+                    "speaker": "Void",
+                    "scene": "pixel_workshop",
+                    "domCards": [
+                      "repixelizer",
+                      "vibegeometry"
+                    ],
+                    "choices": [
+                      "Show me geometry",
+                      "Show me Repixelizer",
+                      "Show me runtime geometry",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "visual_tools"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.geometry_tools",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "geometry_tools",
+                    "speaker": "Void",
+                    "scene": "geometry_bench",
+                    "domCards": [
+                      "vibegeometry",
+                      "visual_tools"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "geometry_tools"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.visual_repixelizer",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "visual_repixelizer",
+                    "speaker": "Void",
+                    "scene": "pixel_workshop",
+                    "domCards": [
+                      "repixelizer",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "visual_repixelizer"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.visual_geometry_runtime",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "visual_geometry_runtime",
+                    "speaker": "Void",
+                    "scene": "geometry_bench",
+                    "domCards": [
+                      "vibegeometry",
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "visual_geometry_runtime"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultpong",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultpong",
+                    "speaker": "Nibu",
+                    "scene": "arena",
+                    "domCards": [
+                      "cultpong",
+                      "patronage_furnace"
+                    ],
+                    "choices": [
+                      "Why is it on this map?",
+                      "Show me the mechanics",
+                      "Show me the patronage loop",
+                      "Back to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultpong"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultpong_thesis",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultpong_thesis",
+                    "speaker": "Void",
+                    "scene": "arena",
+                    "domCards": [
+                      "cultpong",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultpong_thesis"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultpong_mechanics",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultpong_mechanics",
+                    "speaker": "Nibu",
+                    "scene": "arena",
+                    "domCards": [
+                      "cultpong",
+                      "visual_tools"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultpong_mechanics"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.cultpong_patronage",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "cultpong_patronage",
+                    "speaker": "Void",
+                    "scene": "arena",
+                    "domCards": [
+                      "cultpong",
+                      "patronage_furnace"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "cultpong_patronage"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_intro",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_intro",
+                    "speaker": "Void",
+                    "scene": "project_atlas",
+                    "domCards": [
+                      "moonshot",
+                      "projects"
+                    ],
+                    "choices": [
+                      "Let Eve sell the surface web",
+                      "Let Bifrost sell patron voting",
+                      "Let CultMesh sell the substrate",
+                      "Let Epiphany sell agent labour",
+                      "Let the games sell the moonshot",
+                      "Return to the compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_intro"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_eve",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_eve",
+                    "speaker": "Kiko",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "surface_stack",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_eve"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_eve_void",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_eve_void",
+                    "speaker": "Void",
+                    "scene": "overlay_studio",
+                    "domCards": [
+                      "surface_stack"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_eve_void"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_bifrost",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_bifrost",
+                    "speaker": "Heimdall",
+                    "scene": "ledger",
+                    "domCards": [
+                      "patronage_furnace",
+                      "bifrost"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_bifrost"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_bifrost_void",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_bifrost_void",
+                    "speaker": "Void",
+                    "scene": "ledger",
+                    "domCards": [
+                      "patronage_furnace"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_bifrost_void"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_cultmesh",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_cultmesh",
+                    "speaker": "Libby",
+                    "scene": "library",
+                    "domCards": [
+                      "value_orbit",
+                      "cultlib"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_cultmesh"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_cultmesh_void",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_cultmesh_void",
+                    "speaker": "Void",
+                    "scene": "library",
+                    "domCards": [
+                      "value_orbit"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_cultmesh_void"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_epiphany",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_epiphany",
+                    "speaker": "Epiphany",
+                    "scene": "forge",
+                    "domCards": [
+                      "moonshot",
+                      "epiphany"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_epiphany"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_epiphany_void",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_epiphany_void",
+                    "speaker": "Void",
+                    "scene": "forge",
+                    "domCards": [
+                      "moonshot"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_epiphany_void"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_games",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_games",
+                    "speaker": "Nibu",
+                    "scene": "nibu_ship",
+                    "domCards": [
+                      "patronage_furnace",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_games"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_games_void",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_games_void",
+                    "speaker": "Void",
+                    "scene": "nibu_ship",
+                    "domCards": [
+                      "patronage_furnace",
+                      "proof"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_games_void"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.pitch_return",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "pitch_return",
+                    "speaker": "Void",
+                    "scene": "project_atlas",
+                    "domCards": [
+                      "moonshot",
+                      "value_orbit"
+                    ],
+                    "choices": [
+                      "Eve: surface web",
+                      "Bifrost: patron voting",
+                      "CultMesh: value orbit",
+                      "Epiphany: governed agents",
+                      "Games: players as patrons",
+                      "Back to the main compound"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "pitch_return"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.wiki",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "wiki",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "docs",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "wiki"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.hub_return",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "hub_return",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "projects"
+                    ],
+                    "choices": [
+                      "{visited_norn: Revisit Norn: adventure graph | Show me the Norn adventure graph}",
+                      "{visited_epiphany: Revisit Epiphany: agent memory | How do agents remember work? Meet Epiphany}",
+                      "{visited_bifrost: Revisit Bifrost: work receipts | How does public labor become a receipt? Visit Bifrost}",
+                      "{visited_voidbot: Revisit VoidBot: archive search | Where did that lore or decision come from? Find VoidBot}",
+                      "{visited_cultlib: Revisit Libby: typed records | How do records stay findable and typed? Ask Libby}",
+                      "{visited_heimdall: Revisit Heimdall: consent gate | Who is allowed to cross a boundary? Ask Heimdall}",
+                      "{visited_sai: Revisit Sai: VN renderer | How does the VN stage work? Ask Sai}",
+                      "{visited_eve: Revisit Eve: surface web | What is Eve trying to turn the web into?}",
+                      "{visited_mimir: Revisit Mimir: realtime field | What is Mimir measuring in the machine room?}",
+                      "{visited_ghostlight: Revisit Ghostlight: social state | What does Ghostlight do with social state?}",
+                      "{visited_worlds: Revisit the World Vault | Open the World Vault with Nibu, Druzkai, and Weksa}",
+                      "{visited_kiko: Revisit Kiko: overlay studio | Visit Kiko's StreamPixels overlay studio}",
+                      "{visited_aqua: Revisit AquaSynth: voice lab | Hear AquaSynth explain the voice lab}",
+                      "{visited_visual_tools: Revisit visual tools | Inspect the pixel and geometry workshop}",
+                      "{visited_cultpong: Revisit CultPong arena | Revive the CultPong arena}",
+                      "{visited_proof: Revisit proof and roadmap | What proof exists, and what is still risky? Show me receipts}",
+                      "{visited_pitch: Revisit the over-the-top portfolio pitch | Show me the impossible portfolio pitch}",
+                      "Enough tour; show me the links"
+                    ],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "hub_return"
+                      }
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "route.done",
+                  "kind": "card.route",
+                  "props": {
+                    "title": "done",
+                    "speaker": "Void",
+                    "scene": "compound",
+                    "domCards": [
+                      "docs",
+                      "projects"
+                    ],
+                    "choices": [],
+                    "command": {
+                      "id": "vn.goto",
+                      "payload": {
+                        "knot": "done"
+                      }
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "styles": {
+      "tokens": {
+        "colorBackground": "#07111a",
+        "colorPanel": "rgba(7, 17, 26, 0.82)",
+        "colorAccent": "#ffb63f",
+        "colorSignal": "#59b7ff",
+        "radius": 8
+      }
+    }
+  },
+  "commands": [
+    {
+      "id": "vn.choose",
+      "payload": {
+        "index": "number",
+        "target": "string"
+      }
+    },
+    {
+      "id": "vn.goto",
+      "payload": {
+        "knot": "string"
+      }
+    },
+    {
+      "id": "vn.back",
+      "payload": {}
+    },
+    {
+      "id": "vn.restart",
+      "payload": {}
+    },
+    {
+      "id": "vn.set_scene",
+      "payload": {
+        "scene": "string"
+      }
+    },
+    {
+      "id": "vn.toggle_transcript",
+      "payload": {}
+    },
+    {
+      "id": "vn.open_exit",
+      "payload": {
+        "href": "string?"
+      }
+    },
+    {
+      "id": "vn.open_dom_card",
+      "payload": {
+        "cardId": "string"
+      }
+    }
+  ],
+  "stateSchema": {
+    "currentKnot": "string",
+    "currentScene": "scene derived from Ink tags and manifest.scenes",
+    "currentLine": "dialogue line emitted by Ink",
+    "availableChoices": "Ink choice list",
+    "actors": "manifest actors plus Ink sprite/avatar tags",
+    "domCards": "manifest dom_cards selected by Ink # dom tag",
+    "transcript": "ordered emitted lines and choices"
+  }
+}

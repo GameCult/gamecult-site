@@ -68,6 +68,7 @@ cssclasses:
   data-ink-title="GameCult Compound Tour"
   data-ink-story="/static/interactive/gamecult-compound/gamecult-compound-tour.ink.json"
   data-visual-manifest="/static/interactive/gamecult-compound/gamecult-compound.visual-manifest.json"
+  data-eve-gui="/static/interactive/gamecult-compound/gamecult-compound.eve-gui.json"
 ></div>
 
 <script src="/static/interactive/gamecult-compound/repo-doc-tree.js" defer></script>

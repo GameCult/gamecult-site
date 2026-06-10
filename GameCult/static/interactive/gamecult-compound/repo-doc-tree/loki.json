@@ -1,0 +1,21 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Loki",
+  "documentCount": 2,
+  "documents": [
+    {
+      "id": "Loki:docs/architecture.md",
+      "title": "Architecture",
+      "path": "docs/architecture.md",
+      "href": "https://github.com/GameCult/Loki/blob/main/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Loki:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Loki/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

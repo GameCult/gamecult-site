@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "EpiphanyAgent",
-  "documentCount": 28501,
+  "documentCount": 28504,
   "documents": [
     {
       "id": "EpiphanyAgent:.epiphany-dogfood/aetheria-supervised/codex-home/.tmp/plugins/.agents/skills/plugin-creator/references/plugin-json-spec.md",
@@ -86948,6 +86948,13 @@
       "title": "Local 20260605 002026",
       "path": ".epiphany-run/local-20260605-002026/README.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260605-002026/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260609-140351/README.md",
+      "title": "Local 20260609 140351",
+      "path": ".epiphany-run/local-20260609-140351/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260609-140351/README.md",
       "extension": "md"
     },
     {
@@ -198139,6 +198146,13 @@
       "extension": "md"
     },
     {
+      "id": "EpiphanyAgent:docs/epiphany_body_whitepaper.tex",
+      "title": "Epiphany Body Whitepaper",
+      "path": "docs/epiphany_body_whitepaper.tex",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/docs/epiphany_body_whitepaper.tex",
+      "extension": "tex"
+    },
+    {
       "id": "EpiphanyAgent:epiphany-core/src/prompts/repo_memory_distiller.md",
       "title": "Repo Memory Distiller",
       "path": "epiphany-core/src/prompts/repo_memory_distiller.md",
@@ -198297,6 +198311,13 @@
       "title": "Epiphany Anatomy",
       "path": "notes/epiphany-anatomy.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/epiphany-anatomy.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:notes/epiphany-body-proprioception-pass.md",
+      "title": "Epiphany Body Proprioception Pass",
+      "path": "notes/epiphany-body-proprioception-pass.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/epiphany-body-proprioception-pass.md",
       "extension": "md"
     },
     {

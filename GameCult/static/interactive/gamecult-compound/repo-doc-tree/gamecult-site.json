@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 96,
+  "documentCount": 97,
   "documents": [
     {
       "id": "gamecult-site:AGENTS.md",
@@ -470,6 +470,13 @@
       "title": "The Sleeping Colossus Refuses The Throne",
       "path": "GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
       "href": "/Blog/the-sleeping-colossus-refuses-the-throne",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/week-of-nonconsensual-access.md",
+      "title": "Week Of Nonconsensual Access",
+      "path": "GameCult/Blog/week-of-nonconsensual-access.md",
+      "href": "/Blog/week-of-nonconsensual-access",
       "extension": "md"
     },
     {

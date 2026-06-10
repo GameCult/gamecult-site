@@ -1,0 +1,84 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "SmartElectricHammer",
+  "documentCount": 11,
+  "documents": [
+    {
+      "id": "SmartElectricHammer:docs/authority-map.md",
+      "title": "Authority Map",
+      "path": "docs/authority-map.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/docs/authority-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:docs/diagrams.md",
+      "title": "Diagrams",
+      "path": "docs/diagrams.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/docs/diagrams.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:firmware/README.md",
+      "title": "Firmware",
+      "path": "firmware/README.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/firmware/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:hardware/bom.md",
+      "title": "Bom",
+      "path": "hardware/bom.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/hardware/bom.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:hardware/breadboard-test-plan.md",
+      "title": "Breadboard Test Plan",
+      "path": "hardware/breadboard-test-plan.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/hardware/breadboard-test-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:hardware/system-spec.md",
+      "title": "System Spec",
+      "path": "hardware/system-spec.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/hardware/system-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:LICENSE.md",
+      "title": "LICENSE",
+      "path": "LICENSE.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:mechanical/fixture-spec.md",
+      "title": "Fixture Spec",
+      "path": "mechanical/fixture-spec.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/mechanical/fixture-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:software/README.md",
+      "title": "Software",
+      "path": "software/README.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/software/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "SmartElectricHammer:tests/verification-plan.md",
+      "title": "Verification Plan",
+      "path": "tests/verification-plan.md",
+      "href": "https://github.com/GameCult/SmartElectricHammer/blob/main/tests/verification-plan.md",
+      "extension": "md"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "gamecult-bifrost",
+  "documentCount": 1,
+  "documents": [
+    {
+      "id": "gamecult-bifrost:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/gamecult-bifrost/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-ops",
-  "documentCount": 26,
+  "documentCount": 27,
   "documents": [
     {
       "id": "gamecult-ops:AGENTS.md",
@@ -78,6 +78,13 @@
       "title": "Gamecult Pages Cutover",
       "path": "runbooks/gamecult-pages-cutover.md",
       "href": "https://github.com/GameCult/gamecult-ops/blob/main/runbooks/gamecult-pages-cutover.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:runbooks/gamecult-wireguard-mesh.md",
+      "title": "Gamecult Wireguard Mesh",
+      "path": "runbooks/gamecult-wireguard-mesh.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/runbooks/gamecult-wireguard-mesh.md",
       "extension": "md"
     },
     {

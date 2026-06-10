@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 219,
+  "documentCount": 317,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -795,34 +795,6 @@
       "extension": "md"
     },
     {
-      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-002313.md",
-      "title": "Complex Contour Live 20260528 002313",
-      "path": "calibration/bioacoustic/complex-contour-live-20260528-002313.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-002313.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-080604.md",
-      "title": "Complex Contour Live 20260528 080604",
-      "path": "calibration/bioacoustic/complex-contour-live-20260528-080604.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-080604.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:calibration/bioacoustic/complex-contour-live-20260528-080727.md",
-      "title": "Complex Contour Live 20260528 080727",
-      "path": "calibration/bioacoustic/complex-contour-live-20260528-080727.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-live-20260528-080727.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
-      "title": "Complex Contour Monitor Split 20260528 081813",
-      "path": "calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
-      "extension": "md"
-    },
-    {
       "id": "Mimir:docs/architecture.md",
       "title": "Architecture",
       "path": "docs/architecture.md",
@@ -865,34 +837,6 @@
       "extension": "md"
     },
     {
-      "id": "Mimir:docs/eve-dashboard.md",
-      "title": "Eve Dashboard",
-      "path": "docs/eve-dashboard.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/eve-dashboard.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/eve-program-output.md",
-      "title": "Eve Program Output",
-      "path": "docs/eve-program-output.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/eve-program-output.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/fensalir-rendering-rebuild-migration.md",
-      "title": "Fensalir Rendering Rebuild Migration",
-      "path": "docs/fensalir-rendering-rebuild-migration.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-rendering-rebuild-migration.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/fensalir-reservoir-daemon.md",
-      "title": "Fensalir Reservoir Daemon",
-      "path": "docs/fensalir-reservoir-daemon.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/fensalir-reservoir-daemon.md",
-      "extension": "md"
-    },
-    {
       "id": "Mimir:docs/fensalir-spatial-audio.md",
       "title": "Fensalir Spatial Audio",
       "path": "docs/fensalir-spatial-audio.md",
@@ -907,6 +851,13 @@
       "extension": "md"
     },
     {
+      "id": "Mimir:docs/mimir-face.md",
+      "title": "Mimir Face",
+      "path": "docs/mimir-face.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/mimir-face.md",
+      "extension": "md"
+    },
+    {
       "id": "Mimir:docs/mimir-persona.md",
       "title": "Mimir Persona",
       "path": "docs/mimir-persona.md",
@@ -914,10 +865,10 @@
       "extension": "md"
     },
     {
-      "id": "Mimir:docs/move-controller-stream.md",
-      "title": "Move Controller Stream",
-      "path": "docs/move-controller-stream.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/move-controller-stream.md",
+      "id": "Mimir:docs/mimir-program-composition.md",
+      "title": "Mimir Program Composition",
+      "path": "docs/mimir-program-composition.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/mimir-program-composition.md",
       "extension": "md"
     },
     {
@@ -942,13 +893,6 @@
       "extension": "md"
     },
     {
-      "id": "Mimir:docs/network-display-sync.md",
-      "title": "Network Display Sync",
-      "path": "docs/network-display-sync.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/network-display-sync.md",
-      "extension": "md"
-    },
-    {
       "id": "Mimir:docs/obs-receiver-setup.md",
       "title": "Obs Receiver Setup",
       "path": "docs/obs-receiver-setup.md",
@@ -960,13 +904,6 @@
       "title": "Obs Spout Streaming",
       "path": "docs/obs-spout-streaming.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-spout-streaming.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/obs-stem-plugin.md",
-      "title": "Obs Stem Plugin",
-      "path": "docs/obs-stem-plugin.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/obs-stem-plugin.md",
       "extension": "md"
     },
     {
@@ -1005,34 +942,6 @@
       "extension": "md"
     },
     {
-      "id": "Mimir:docs/program-control-surface.md",
-      "title": "Program Control Surface",
-      "path": "docs/program-control-surface.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/program-control-surface.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/raven-eve-ingest.md",
-      "title": "Raven Eve Ingest",
-      "path": "docs/raven-eve-ingest.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/raven-eve-ingest.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/scene-editor-control-surface.md",
-      "title": "Scene Editor Control Surface",
-      "path": "docs/scene-editor-control-surface.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/scene-editor-control-surface.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/self-hosted-live-edge.md",
-      "title": "Self Hosted Live Edge",
-      "path": "docs/self-hosted-live-edge.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/self-hosted-live-edge.md",
-      "extension": "md"
-    },
-    {
       "id": "Mimir:docs/sensor-fusion-architecture.md",
       "title": "Sensor Fusion Architecture",
       "path": "docs/sensor-fusion-architecture.md",
@@ -1044,13 +953,6 @@
       "title": "Typed Visual State",
       "path": "docs/typed-visual-state.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/typed-visual-state.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:docs/verse-service-contract.md",
-      "title": "Verse Service Contract",
-      "path": "docs/verse-service-contract.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/docs/verse-service-contract.md",
       "extension": "md"
     },
     {
@@ -1142,13 +1044,6 @@
       "title": "Summary",
       "path": "research/chirplet-sync-decoder/summary.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/research/chirplet-sync-decoder/summary.md",
-      "extension": "md"
-    },
-    {
-      "id": "Mimir:research/d3d12-stereo-depth-provenance-2026-05-29.md",
-      "title": "D3d12 Stereo Depth Provenance 2026 05 29",
-      "path": "research/d3d12-stereo-depth-provenance-2026-05-29.md",
-      "href": "https://github.com/GameCult/Mimir/blob/main/research/d3d12-stereo-depth-provenance-2026-05-29.md",
       "extension": "md"
     },
     {
@@ -1520,6 +1415,797 @@
       "title": "Summary",
       "path": "research/visual-spatial-map/summary.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/research/visual-spatial-map/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/.voidbot/state/README.md",
+      "title": "State",
+      "path": "scratch/raven-daemon-build/.voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": "scratch/raven-daemon-build/.voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/AGENTS.md",
+      "title": "AGENTS",
+      "path": "scratch/raven-daemon-build/AGENTS.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/assets/branding/mimir-face-prompts.md",
+      "title": "Mimir Face Prompts",
+      "path": "scratch/raven-daemon-build/assets/branding/mimir-face-prompts.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/assets/branding/mimir-face-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/assets/branding/mimir-icon-prompts.md",
+      "title": "Mimir Icon Prompts",
+      "path": "scratch/raven-daemon-build/assets/branding/mimir-icon-prompts.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/assets/branding/mimir-icon-prompts.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "title": "Complex Contour Live 20260525 063229",
+      "path": "scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260525-063229.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "title": "Complex Contour Live 20260528 002313",
+      "path": "scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-002313.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "title": "Complex Contour Live 20260528 080604",
+      "path": "scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080604.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "title": "Complex Contour Live 20260528 080727",
+      "path": "scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-live-20260528-080727.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "title": "Complex Contour Monitor Split 20260528 081813",
+      "path": "scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/calibration/bioacoustic/complex-contour-monitor-split-20260528-081813.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/architecture.md",
+      "title": "Architecture",
+      "path": "scratch/raven-daemon-build/docs/architecture.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/audio-field.md",
+      "title": "Audio Field",
+      "path": "scratch/raven-daemon-build/docs/audio-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/audio-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/bioacoustic-timeline-watermark.md",
+      "title": "Bioacoustic Timeline Watermark",
+      "path": "scratch/raven-daemon-build/docs/bioacoustic-timeline-watermark.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/bioacoustic-timeline-watermark.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/bioacoustic-training-harness.md",
+      "title": "Bioacoustic Training Harness",
+      "path": "scratch/raven-daemon-build/docs/bioacoustic-training-harness.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/bioacoustic-training-harness.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/calibration.md",
+      "title": "Calibration",
+      "path": "scratch/raven-daemon-build/docs/calibration.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/calibration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/code-algorithm-map.md",
+      "title": "Code Algorithm Map",
+      "path": "scratch/raven-daemon-build/docs/code-algorithm-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/code-algorithm-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/eve-dashboard.md",
+      "title": "Eve Dashboard",
+      "path": "scratch/raven-daemon-build/docs/eve-dashboard.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/eve-dashboard.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/eve-program-output.md",
+      "title": "Eve Program Output",
+      "path": "scratch/raven-daemon-build/docs/eve-program-output.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/eve-program-output.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/fensalir-rendering-rebuild-migration.md",
+      "title": "Fensalir Rendering Rebuild Migration",
+      "path": "scratch/raven-daemon-build/docs/fensalir-rendering-rebuild-migration.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/fensalir-rendering-rebuild-migration.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/fensalir-reservoir-daemon.md",
+      "title": "Fensalir Reservoir Daemon",
+      "path": "scratch/raven-daemon-build/docs/fensalir-reservoir-daemon.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/fensalir-reservoir-daemon.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/fensalir-spatial-audio.md",
+      "title": "Fensalir Spatial Audio",
+      "path": "scratch/raven-daemon-build/docs/fensalir-spatial-audio.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/fensalir-spatial-audio.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/implementation-plan.md",
+      "title": "Implementation Plan",
+      "path": "scratch/raven-daemon-build/docs/implementation-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/implementation-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/mimir-face.md",
+      "title": "Mimir Face",
+      "path": "scratch/raven-daemon-build/docs/mimir-face.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/mimir-face.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/move-controller-stream.md",
+      "title": "Move Controller Stream",
+      "path": "scratch/raven-daemon-build/docs/move-controller-stream.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/move-controller-stream.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/native-capture-cadence.md",
+      "title": "Native Capture Cadence",
+      "path": "scratch/raven-daemon-build/docs/native-capture-cadence.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/native-capture-cadence.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/native-rebuild-plan.md",
+      "title": "Native Rebuild Plan",
+      "path": "scratch/raven-daemon-build/docs/native-rebuild-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/native-rebuild-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/neighbor-sender-setup.md",
+      "title": "Neighbor Sender Setup",
+      "path": "scratch/raven-daemon-build/docs/neighbor-sender-setup.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/neighbor-sender-setup.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/network-display-sync.md",
+      "title": "Network Display Sync",
+      "path": "scratch/raven-daemon-build/docs/network-display-sync.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/network-display-sync.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/obs-receiver-setup.md",
+      "title": "Obs Receiver Setup",
+      "path": "scratch/raven-daemon-build/docs/obs-receiver-setup.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/obs-receiver-setup.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/obs-spout-streaming.md",
+      "title": "Obs Spout Streaming",
+      "path": "scratch/raven-daemon-build/docs/obs-spout-streaming.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/obs-spout-streaming.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/obs-stem-plugin.md",
+      "title": "Obs Stem Plugin",
+      "path": "scratch/raven-daemon-build/docs/obs-stem-plugin.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/obs-stem-plugin.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/obs-v1-smoke-test.md",
+      "title": "Obs V1 Smoke Test",
+      "path": "scratch/raven-daemon-build/docs/obs-v1-smoke-test.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/obs-v1-smoke-test.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/perfect-machine-domain-index.md",
+      "title": "Perfect Machine Domain Index",
+      "path": "scratch/raven-daemon-build/docs/perfect-machine-domain-index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/perfect-machine-domain-index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/perfect-machine-full-field.md",
+      "title": "Perfect Machine Full Field",
+      "path": "scratch/raven-daemon-build/docs/perfect-machine-full-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/perfect-machine-full-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/perfect-machine-module-library.md",
+      "title": "Perfect Machine Module Library",
+      "path": "scratch/raven-daemon-build/docs/perfect-machine-module-library.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/perfect-machine-module-library.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/perfect-machine.md",
+      "title": "Perfect Machine",
+      "path": "scratch/raven-daemon-build/docs/perfect-machine.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/perfect-machine.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/program-control-surface.md",
+      "title": "Program Control Surface",
+      "path": "scratch/raven-daemon-build/docs/program-control-surface.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/program-control-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/raven-capture-mux-daemon.md",
+      "title": "Raven Capture Mux Daemon",
+      "path": "scratch/raven-daemon-build/docs/raven-capture-mux-daemon.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/raven-capture-mux-daemon.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/raven-eve-ingest.md",
+      "title": "Raven Eve Ingest",
+      "path": "scratch/raven-daemon-build/docs/raven-eve-ingest.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/raven-eve-ingest.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/scene-editor-control-surface.md",
+      "title": "Scene Editor Control Surface",
+      "path": "scratch/raven-daemon-build/docs/scene-editor-control-surface.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/scene-editor-control-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/self-hosted-live-edge.md",
+      "title": "Self Hosted Live Edge",
+      "path": "scratch/raven-daemon-build/docs/self-hosted-live-edge.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/self-hosted-live-edge.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/sensor-fusion-architecture.md",
+      "title": "Sensor Fusion Architecture",
+      "path": "scratch/raven-daemon-build/docs/sensor-fusion-architecture.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/sensor-fusion-architecture.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/typed-visual-state.md",
+      "title": "Typed Visual State",
+      "path": "scratch/raven-daemon-build/docs/typed-visual-state.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/typed-visual-state.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "scratch/raven-daemon-build/docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/verse-service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/docs/viable-stream-app.md",
+      "title": "Viable Stream App",
+      "path": "scratch/raven-daemon-build/docs/viable-stream-app.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/docs/viable-stream-app.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/index.md",
+      "title": "Index",
+      "path": "scratch/raven-daemon-build/index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/Mimir Vault.md",
+      "title": "Mimir Vault",
+      "path": "scratch/raven-daemon-build/Mimir Vault.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/Mimir Vault.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/native/README.md",
+      "title": "Native",
+      "path": "scratch/raven-daemon-build/native/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/native/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/notes/current-system-map.md",
+      "title": "Current System Map",
+      "path": "scratch/raven-daemon-build/notes/current-system-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/notes/current-system-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/notes/fresh-workspace-handoff.md",
+      "title": "Fresh Workspace Handoff",
+      "path": "scratch/raven-daemon-build/notes/fresh-workspace-handoff.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/notes/fresh-workspace-handoff.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/README.md",
+      "title": "Raven Daemon Build",
+      "path": "scratch/raven-daemon-build/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/ambisonic-aquasynth/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/ambisonic-aquasynth/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/ambisonic-aquasynth/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/ambisonic-aquasynth/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/ambisonic-aquasynth/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/ambisonic-aquasynth/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/bioacoustic-contestants-2026-05-24.md",
+      "title": "Bioacoustic Contestants 2026 05 24",
+      "path": "scratch/raven-daemon-build/research/bioacoustic-contestants-2026-05-24.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/bioacoustic-contestants-2026-05-24.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/chirplet-sync-decoder/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/chirplet-sync-decoder/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/chirplet-sync-decoder/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "title": "Mpact Readme",
+      "path": "scratch/raven-daemon-build/research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/chirplet-sync-decoder/mirrors/mpact-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/chirplet-sync-decoder/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/chirplet-sync-decoder/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/chirplet-sync-decoder/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "title": "D3d12 Stereo Depth Provenance 2026 05 29",
+      "path": "scratch/raven-daemon-build/research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/d3d12-stereo-depth-provenance-2026-05-29.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/feedback-calibration/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/feedback-calibration/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/feedback-calibration/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/feedback-calibration/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/feedback-calibration/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/feedback-calibration/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/gpu-fusion-splatting/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/gpu-fusion-splatting/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/gpu-fusion-splatting/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "title": "Graphdeco Gaussian Splatting Readme",
+      "path": "scratch/raven-daemon-build/research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/gpu-fusion-splatting/mirrors/graphdeco-gaussian-splatting-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/gpu-fusion-splatting/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/gpu-fusion-splatting/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/gpu-fusion-splatting/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/live-adaptive-sync/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/live-adaptive-sync/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/live-adaptive-sync/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/live-adaptive-sync/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/live-adaptive-sync/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/live-adaptive-sync/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-hypotheses/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-hypotheses/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-hypotheses/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "title": "Acoustic Field Models",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/acoustic-field-models.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "title": "Architecture Rumination",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/architecture-rumination.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "title": "Benchmark Plan",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/benchmark-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "title": "Calibration Session Spec",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/calibration-session-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "title": "Chirplet Transform Deep Dive",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/chirplet-transform-deep-dive.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "title": "Current Hotspot Audit",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/current-hotspot-audit.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "title": "Data Dictionary",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/data-dictionary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "title": "Decoder Architecture Options",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/decoder-architecture-options.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "title": "Distributed Receiver Spec",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/distributed-receiver-spec.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "title": "Failure Mode Ledger",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/failure-mode-ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "title": "Fensalir Integration Map",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/fensalir-integration-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/glossary.md",
+      "title": "Glossary",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/glossary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/glossary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "title": "Hot Path Pseudocode",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/hot-path-pseudocode.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "title": "Implementation Roadmap",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/implementation-roadmap.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/index.md",
+      "title": "Index",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/index.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/index.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "title": "Low Level Implementation Notes",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/low-level-implementation-notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "title": "Microsecond Sync Math",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/microsecond-sync-math.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "title": "Native Boundary Map",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/native-boundary-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "title": "Open Implementation Catalog",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/open-implementation-catalog.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "title": "Optimization Ledger",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/optimization-ledger.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "title": "Option Matrix",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/option-matrix.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "title": "Prior Research Synthesis",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/prior-research-synthesis.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "title": "Questions And Hypotheses",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/questions-and-hypotheses.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "title": "Reading Guide",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/reading-guide.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/references.md",
+      "title": "References",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/references.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/references.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "title": "Research Claims Digest",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/research-claims-digest.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/samples/README.md",
+      "title": "Samples",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/samples/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/samples/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "title": "State Machine Invariants",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/state-machine-invariants.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "title": "Visual Fusion 4dgs Study",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/visual-fusion-4dgs-study.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "title": "Volumetric Audio Field",
+      "path": "scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/perfect-machine-study-2026-05-23/volumetric-audio-field.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/playback-calibration/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/playback-calibration/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/playback-calibration/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/playback-calibration/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/playback-calibration/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/playback-calibration/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/README.md",
+      "title": "Research",
+      "path": "scratch/raven-daemon-build/research/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "title": "Sonar Dsp Recursive Refinement 2026 05 25",
+      "path": "scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "title": "Liquid Dsp Readme",
+      "path": "scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/liquid-dsp-readme.rst",
+      "extension": "rst"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "title": "Open Echo Readme",
+      "path": "scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/open-echo-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "title": "Pyapril Readme",
+      "path": "scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/mirrors/pyapril-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "title": "Sources",
+      "path": "scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/sonar-dsp-recursive-refinement-2026-05-25/sources.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/spout-obs-bridge/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/spout-obs-bridge/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/spout-obs-bridge/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/spout-obs-bridge/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/spout-obs-bridge/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/spout-obs-bridge/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/visual-spatial-map/bibliography.md",
+      "title": "Bibliography",
+      "path": "scratch/raven-daemon-build/research/visual-spatial-map/bibliography.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/visual-spatial-map/bibliography.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "title": "Brushstroke Fusion Rendering",
+      "path": "scratch/raven-daemon-build/research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/visual-spatial-map/brushstroke-fusion-rendering.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "title": "Inspirit Ps3eyedriver Readme",
+      "path": "scratch/raven-daemon-build/research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/visual-spatial-map/mirrors/inspirit-ps3eyedriver-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "title": "Leapuvc Readme",
+      "path": "scratch/raven-daemon-build/research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/visual-spatial-map/mirrors/leapuvc-readme.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/research/visual-spatial-map/summary.md",
+      "title": "Summary",
+      "path": "scratch/raven-daemon-build/research/visual-spatial-map/summary.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/research/visual-spatial-map/summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/site/README.md",
+      "title": "Site",
+      "path": "scratch/raven-daemon-build/site/README.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/site/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:scratch/raven-daemon-build/state/scratch.md",
+      "title": "Scratch",
+      "path": "scratch/raven-daemon-build/state/scratch.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/scratch/raven-daemon-build/state/scratch.md",
       "extension": "md"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Heimdall",
-  "documentCount": 25,
+  "documentCount": 26,
   "documents": [
     {
       "id": "Heimdall:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -99,6 +99,13 @@
       "title": "AGENTS",
       "path": "AGENTS.md",
       "href": "https://github.com/GameCult/Heimdall/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "Heimdall:docs/app-profiles/bifrost.md",
+      "title": "Bifrost",
+      "path": "docs/app-profiles/bifrost.md",
+      "href": "https://github.com/GameCult/Heimdall/blob/main/docs/app-profiles/bifrost.md",
       "extension": "md"
     },
     {

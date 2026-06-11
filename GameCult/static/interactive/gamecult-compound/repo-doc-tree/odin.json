@@ -1,8 +1,15 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Odin",
-  "documentCount": 23,
+  "documentCount": 24,
   "documents": [
+    {
+      "id": "Odin:crates/muninn-move-tracker/README.md",
+      "title": "Muninn Move Tracker",
+      "path": "crates/muninn-move-tracker/README.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/crates/muninn-move-tracker/README.md",
+      "extension": "md"
+    },
     {
       "id": "Odin:docs/architecture.md",
       "title": "Architecture",

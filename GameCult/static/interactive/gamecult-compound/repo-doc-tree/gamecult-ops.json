@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-ops",
-  "documentCount": 27,
+  "documentCount": 45,
   "documents": [
     {
       "id": "gamecult-ops:AGENTS.md",
@@ -184,6 +184,132 @@
       "path": "runbooks/yggdrasil-wireguard-cultmesh.md",
       "href": "https://github.com/GameCult/gamecult-ops/blob/main/runbooks/yggdrasil-wireguard-cultmesh.md",
       "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/AGENTS.md",
+      "title": "AGENTS",
+      "path": "scratch/bifrost-deploy-634f187/AGENTS.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/agent-transport.md",
+      "title": "Agent Transport",
+      "path": "scratch/bifrost-deploy-634f187/docs/agent-transport.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/agent-transport.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/bifrost-mvp-plan.md",
+      "title": "Bifrost Mvp Plan",
+      "path": "scratch/bifrost-deploy-634f187/docs/bifrost-mvp-plan.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/bifrost-mvp-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/bridge.md",
+      "title": "Bridge",
+      "path": "scratch/bifrost-deploy-634f187/docs/bridge.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/bridge.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/context.md",
+      "title": "Context",
+      "path": "scratch/bifrost-deploy-634f187/docs/context.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/context.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/full-implementation-strategy.md",
+      "title": "Full Implementation Strategy",
+      "path": "scratch/bifrost-deploy-634f187/docs/full-implementation-strategy.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/full-implementation-strategy.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/jurisdiction-map.md",
+      "title": "Jurisdiction Map",
+      "path": "scratch/bifrost-deploy-634f187/docs/jurisdiction-map.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/jurisdiction-map.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/paypal-patronage.md",
+      "title": "Paypal Patronage",
+      "path": "scratch/bifrost-deploy-634f187/docs/paypal-patronage.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/paypal-patronage.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/reddit.md",
+      "title": "Reddit",
+      "path": "scratch/bifrost-deploy-634f187/docs/reddit.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/reddit.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "scratch/bifrost-deploy-634f187/docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/docs/verse-service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "title": "SKILL",
+      "path": "scratch/bifrost-deploy-634f187/plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/plugins/bifrost-intake/skills/bifrost-intake/SKILL.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation/LICENSE.md",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation/LICENSE.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery-validation/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery/LICENSE.txt",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/publish/wwwroot/lib/jquery/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/README.md",
+      "title": "Bifrost Deploy 634f187",
+      "path": "scratch/bifrost-deploy-634f187/README.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "extension": "txt"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-ops:scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "title": "LICENSE",
+      "path": "scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "href": "https://github.com/GameCult/gamecult-ops/blob/main/scratch/bifrost-deploy-634f187/src/Bifrost.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "extension": "txt"
     },
     {
       "id": "gamecult-ops:scripts/README.md",

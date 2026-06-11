@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "weksa",
-  "documentCount": 64,
+  "documentCount": 212,
   "documents": [
     {
       "id": "weksa:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -102,6 +102,650 @@
       "extension": "md"
     },
     {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/conversation-before.md",
+      "title": "Conversation Before",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/conversation-before.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/conversation-before.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r1/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r2/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w0-r3/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r1/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r2/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase1/phase1-w1-r3/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r1/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r2/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w0-r3/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r1/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r2/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-full/phase2/phase2-w1-r3/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/conversation-before.md",
+      "title": "Conversation Before",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/conversation-before.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/conversation-before.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase1/phase1-w0-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/memory-surface.md",
+      "title": "Memory Surface",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": ".weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/.weksa-runs/metame-swarm/dry-swarm-smoke/phase2/phase2-w0-r0/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
       "id": "weksa:.weksa/cultural-ontology/README.md",
       "title": "Cultural Ontology",
       "path": ".weksa/cultural-ontology/README.md",
@@ -113,6 +757,13 @@
       "title": "AGENTS",
       "path": "AGENTS.md",
       "href": "https://github.com/GameCult/weksa/blob/main/AGENTS.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:data/cultural-ontology/README.md",
+      "title": "Cultural Ontology",
+      "path": "data/cultural-ontology/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/data/cultural-ontology/README.md",
       "extension": "md"
     },
     {
@@ -193,6 +844,13 @@
       "extension": "md"
     },
     {
+      "id": "weksa:docs/persona-finetuning-dataset-exploration.md",
+      "title": "Persona Finetuning Dataset Exploration",
+      "path": "docs/persona-finetuning-dataset-exploration.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/docs/persona-finetuning-dataset-exploration.md",
+      "extension": "md"
+    },
+    {
       "id": "weksa:docs/project-model.md",
       "title": "Project Model",
       "path": "docs/project-model.md",
@@ -232,6 +890,20 @@
       "title": "Verse Service Contract",
       "path": "docs/verse-service-contract.md",
       "href": "https://github.com/GameCult/weksa/blob/main/docs/verse-service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/cultcache-lowering/nibu-proof-001/critique/README.md",
+      "title": "Critique",
+      "path": "examples/cultcache-lowering/nibu-proof-001/critique/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/cultcache-lowering/nibu-proof-001/critique/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/cultcache-lowering/nibu-proof-001/critique/summary.md",
+      "title": "Summary",
+      "path": "examples/cultcache-lowering/nibu-proof-001/critique/summary.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/cultcache-lowering/nibu-proof-001/critique/summary.md",
       "extension": "md"
     },
     {
@@ -284,10 +956,374 @@
       "extension": "md"
     },
     {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/lowering-prompt.md",
+      "title": "Lowering Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/lowering-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/lowering-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/persona-interlingua-prompt.md",
+      "title": "Persona Interlingua Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/persona-interlingua-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/persona-interlingua-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/README.md",
+      "title": "Metame Casual Pre2025",
+      "path": "examples/persona-lowering/metame-casual-pre2025/README.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-2/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke-stack/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/dry-smoke/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/base/assembled.md",
+      "title": "Assembled",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/base/assembled.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/base/assembled.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "title": "Assembled",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/base/assembled.md",
+      "title": "Assembled",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/base/assembled.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/base/assembled.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "title": "Assembled",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/_tmp/engineer-vibes/assembled.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-002/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-001/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-002/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/conversation-surface.md",
+      "title": "Conversation Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/conversation-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/conversation-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/memory-surface.md",
+      "title": "Memory Surface",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/memory-surface.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/memory-surface.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/persona-interlingua-request.md",
+      "title": "Persona Interlingua Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/persona-interlingua-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/persona-interlingua-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/voidbot-assembled-prompt.md",
+      "title": "Voidbot Assembled Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/voidbot-assembled-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/voidbot-assembled-prompt.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/weksa-lowering-request.md",
+      "title": "Weksa Lowering Request",
+      "path": "examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/weksa-lowering-request.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/runs/real-stack-engineer-vibes-redacted-003/engineer-vibes/weksa-lowering-request.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:examples/persona-lowering/metame-casual-pre2025/weksa-lowering-prompt.md",
+      "title": "Weksa Lowering Prompt",
+      "path": "examples/persona-lowering/metame-casual-pre2025/weksa-lowering-prompt.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/examples/persona-lowering/metame-casual-pre2025/weksa-lowering-prompt.md",
+      "extension": "md"
+    },
+    {
       "id": "weksa:examples/speech-training/tiny-panphon-v0.1/README.md",
       "title": "Tiny Panphon V0.1",
       "path": "examples/speech-training/tiny-panphon-v0.1/README.md",
       "href": "https://github.com/GameCult/weksa/blob/main/examples/speech-training/tiny-panphon-v0.1/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "weksa:prompts/nibu-cultcache-target-critic.md",
+      "title": "Nibu Cultcache Target Critic",
+      "path": "prompts/nibu-cultcache-target-critic.md",
+      "href": "https://github.com/GameCult/weksa/blob/main/prompts/nibu-cultcache-target-critic.md",
       "extension": "md"
     },
     {

@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "bokusho",
-  "documentCount": 16,
+  "documentCount": 20,
   "documents": [
     {
       "id": "bokusho:AGENTS.md",
@@ -32,10 +32,31 @@
       "extension": "md"
     },
     {
+      "id": "bokusho:docs/studies/bokusho-cuda-brush-study-20260610.tex",
+      "title": "Bokusho Cuda Brush Study 20260610",
+      "path": "docs/studies/bokusho-cuda-brush-study-20260610.tex",
+      "href": "https://github.com/GameCult/bokusho/blob/main/docs/studies/bokusho-cuda-brush-study-20260610.tex",
+      "extension": "tex"
+    },
+    {
       "id": "bokusho:licenses/KanjiVG.md",
       "title": "KanjiVG",
       "path": "licenses/KanjiVG.md",
       "href": "https://github.com/GameCult/bokusho/blob/main/licenses/KanjiVG.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:native/bokusho-cuda/README.md",
+      "title": "Bokusho Cuda",
+      "path": "native/bokusho-cuda/README.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/native/bokusho-cuda/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:native/bokusho-cuda/vendor/cultcache-rs/README.md",
+      "title": "Cultcache Rs",
+      "path": "native/bokusho-cuda/vendor/cultcache-rs/README.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/native/bokusho-cuda/vendor/cultcache-rs/README.md",
       "extension": "md"
     },
     {
@@ -113,6 +134,13 @@
       "title": "Xkcd Color Survey Results.Blog.Notes",
       "path": "Research/20260603-youtube-xkcd-color-eyes-001/xkcd-color-survey-results.blog.notes.md",
       "href": "https://github.com/GameCult/bokusho/blob/main/Research/20260603-youtube-xkcd-color-eyes-001/xkcd-color-survey-results.blog.notes.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:tools/Bokusho.Fensalir.BristleField/README.md",
+      "title": "Bokusho.Fensalir.BristleField",
+      "path": "tools/Bokusho.Fensalir.BristleField/README.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/tools/Bokusho.Fensalir.BristleField/README.md",
       "extension": "md"
     }
   ]

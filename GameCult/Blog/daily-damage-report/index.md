@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-06-11
+date: 2026-06-12
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 08 - 06 Jun 2026 onward](/Blog/daily-damage-report/week-08)  
-  The current open week: the last live public wall still sits at 41 repos while the local bench lands on 40 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and June 11 narrowed the action into shader tooling, Muninn marker custody, Move tracking witnesses, Bifrost identity migration debris, and one more font fight in the overview organ.
+  The current open week: the public wall still sits at 41 repos while the local bench lands on 40 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and June 12 pushed the visible action into Weksa registration, Mimir face-heartbeat custody, Gjallar font tightening, and quieter Persona intake exports.
 
 ## Archive
 

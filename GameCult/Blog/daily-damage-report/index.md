@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-06-12
+date: 2026-06-13
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -13,10 +13,13 @@ This is the running index for the public work log across GameCult's repos. Each 
 
 ## Current Week
 
-- [Week 08 - 06 Jun 2026 onward](/Blog/daily-damage-report/week-08)  
-  The current open week: the public wall counts to 43 while the local bench resolves to 42 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and June 12 shoved the visible motion into lore drafting, migration mapping, CultCache happy-path work, Persona voice pressure, telemetry evidence, Quest access, face upkeep, and resident generation.
+- [Week 09 - 13 Jun 2026 onward](/Blog/daily-damage-report/week-09)  
+  The current open week: the public wall still counts to 43 while the local bench resolves to 42 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and June 13 carved through typed-state rebuild law, Bokusho brush compute, Soul evidence custody, listener-gated Persona speech, a Blender target surface, active-tab capture, and one more CultCache storage cut.
 
 ## Archive
+
+- [Week 08 - 06 Jun 2026 to 12 Jun 2026](/Blog/daily-damage-report/week-08)  
+  The public wall counts to 43 while the local bench resolves to 42 unique GameCult remotes, four public bodies are still missing locally, three local strays still squat off the visible wall, and the week dragged itself from census correction into deployment custody, Reddit bridge plumbing, capture composition, Persona memory surgery, shader tooling, Muninn tracker cuts, and then a June 12 burst of lore drafting, migration mapping, CultCache happy-path work, Persona pressure, telemetry evidence, Quest access, face upkeep, and resident generation.
 
 - [Week 07 - 30 May 2026 to 05 Jun 2026](/Blog/daily-damage-report/week-07)  
   The public org roster climbed again to 39, the local bench only resolves to 38 real GameCult remotes, Gjallar escaped Odin's ribcage and hit the public wall, and June 5 burned itself on compositor extraction, Huginn demotion, Persona-memory tooling, and one more essay-sized site sermon.

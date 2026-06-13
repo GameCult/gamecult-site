@@ -49,7 +49,12 @@ function isIgnoredPath(relativePath) {
   if (ignoredDirectories.has(normalized)) return true;
   return normalized
     .split("/")
-    .some((part) => ignoredDirectories.has(part) || part.startsWith(".cache"));
+    .some(
+      (part) =>
+        ignoredDirectories.has(part) ||
+        part.startsWith(".cache") ||
+        part.startsWith(".del--"),
+    );
 }
 
 function titleFromPath(filePath) {
@@ -85,7 +90,11 @@ function collectDocuments(repoPath, repoName) {
     try {
       entries = fs.readdirSync(current, { withFileTypes: true });
     } catch (error) {
-      if (error?.code === "EPERM" || error?.code === "EACCES") {
+      if (
+        error?.code === "EPERM" ||
+        error?.code === "EACCES" ||
+        error?.code === "ENOENT"
+      ) {
         const relativeCurrent = path.relative(repoPath, current).split(path.sep).join("/") || ".";
         console.warn(
           `Skipping unreadable directory in ${repoName}: ${relativeCurrent} (${error.code})`,

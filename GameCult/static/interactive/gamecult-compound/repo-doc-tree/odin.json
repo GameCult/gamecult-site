@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Odin",
-  "documentCount": 24,
+  "documentCount": 26,
   "documents": [
     {
       "id": "Odin:crates/muninn-move-tracker/README.md",
@@ -169,6 +169,20 @@
       "title": "Idunn",
       "path": "src/Idunn/README.md",
       "href": "https://github.com/GameCult/Odin/blob/main/src/Idunn/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Odin:vendor/cultcache-rs/README.md",
+      "title": "Cultcache Rs",
+      "path": "vendor/cultcache-rs/README.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/vendor/cultcache-rs/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Odin:vendor/cultnet-rs/README.md",
+      "title": "Cultnet Rs",
+      "path": "vendor/cultnet-rs/README.md",
+      "href": "https://github.com/GameCult/Odin/blob/main/vendor/cultnet-rs/README.md",
       "extension": "md"
     }
   ]

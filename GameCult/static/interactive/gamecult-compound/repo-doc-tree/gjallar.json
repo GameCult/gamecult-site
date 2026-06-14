@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Gjallar",
-  "documentCount": 4,
+  "documentCount": 6,
   "documents": [
     {
       "id": "Gjallar:AGENTS.md",
@@ -22,6 +22,20 @@
       "title": ".",
       "path": "README.md",
       "href": "https://github.com/GameCult/Gjallar/blob/main/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Gjallar:scratch/third_party/shinonome-font/README.ja.md",
+      "title": "README.Ja",
+      "path": "scratch/third_party/shinonome-font/README.ja.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/scratch/third_party/shinonome-font/README.ja.md",
+      "extension": "md"
+    },
+    {
+      "id": "Gjallar:scratch/third_party/shinonome-font/README.md",
+      "title": "Shinonome Font",
+      "path": "scratch/third_party/shinonome-font/README.md",
+      "href": "https://github.com/GameCult/Gjallar/blob/main/scratch/third_party/shinonome-font/README.md",
       "extension": "md"
     },
     {

@@ -1,8 +1,43 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Aetheria",
-  "documentCount": 973,
+  "documentCount": 981,
   "documents": [
+    {
+      "id": "Aetheria:.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "title": "Repo Personality Scout Summary",
+      "path": ".voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/.voidbot/birth/terrain/repo-personality-scout-summary.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:.voidbot/README.md",
+      "title": ".Voidbot",
+      "path": ".voidbot/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/.voidbot/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:.voidbot/state/README.md",
+      "title": "State",
+      "path": ".voidbot/state/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/.voidbot/state/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:.voidbot/voice/README.md",
+      "title": "Voice",
+      "path": ".voidbot/voice/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/.voidbot/voice/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:Aetheria.State/README.md",
+      "title": "Aetheria.State",
+      "path": "Aetheria.State/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/Aetheria.State/README.md",
+      "extension": "md"
+    },
     {
       "id": "Aetheria:Assets/Plugins/Playdead/LICENSE.txt",
       "title": "LICENSE",
@@ -23,6 +58,13 @@
       "path": "Assets/Scripts/ServerShared/NIH/LinqFaster/readme.txt",
       "href": "https://github.com/GameCult/Aetheria/blob/main/Assets/Scripts/ServerShared/NIH/LinqFaster/readme.txt",
       "extension": "txt"
+    },
+    {
+      "id": "Aetheria:docs/aetheria-perfect-machine-map.md",
+      "title": "Aetheria Perfect Machine Map",
+      "path": "docs/aetheria-perfect-machine-map.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/docs/aetheria-perfect-machine-map.md",
+      "extension": "md"
     },
     {
       "id": "Aetheria:Library/PackageCache/com.unity.2d.sprite@929df5adbb1f/CHANGELOG.md",
@@ -5804,6 +5846,20 @@
       "title": "Third Party Notices",
       "path": "Library/PackageCache/com.unity.xr.legacyinputhelpers@3f62d634f63b/Third Party Notices.md",
       "href": "https://github.com/GameCult/Aetheria/blob/main/Library/PackageCache/com.unity.xr.legacyinputhelpers@3f62d634f63b/Third Party Notices.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:Packages/org.gamecult.aetheria.eve-runtime/README.md",
+      "title": "Org.Gamecult.Aetheria.Eve Runtime",
+      "path": "Packages/org.gamecult.aetheria.eve-runtime/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/Packages/org.gamecult.aetheria.eve-runtime/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "Aetheria:Packages/org.gamecult.eve.unity-uitoolkit/README.md",
+      "title": "Org.Gamecult.Eve.Unity Uitoolkit",
+      "path": "Packages/org.gamecult.eve.unity-uitoolkit/README.md",
+      "href": "https://github.com/GameCult/Aetheria/blob/main/Packages/org.gamecult.eve.unity-uitoolkit/README.md",
       "extension": "md"
     },
     {

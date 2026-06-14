@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "bokusho",
-  "documentCount": 20,
+  "documentCount": 23,
   "documents": [
     {
       "id": "bokusho:AGENTS.md",
@@ -22,6 +22,27 @@
       "title": "Brush Dynamics Plan",
       "path": "docs/brush-dynamics-plan.md",
       "href": "https://github.com/GameCult/bokusho/blob/main/docs/brush-dynamics-plan.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:docs/brush-profile-schema.md",
+      "title": "Brush Profile Schema",
+      "path": "docs/brush-profile-schema.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/docs/brush-profile-schema.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:docs/jenga-proprioception-2026-06-13.md",
+      "title": "Jenga Proprioception 2026 06 13",
+      "path": "docs/jenga-proprioception-2026-06-13.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/docs/jenga-proprioception-2026-06-13.md",
+      "extension": "md"
+    },
+    {
+      "id": "bokusho:docs/primitive-fixture-ledger.md",
+      "title": "Primitive Fixture Ledger",
+      "path": "docs/primitive-fixture-ledger.md",
+      "href": "https://github.com/GameCult/bokusho/blob/main/docs/primitive-fixture-ledger.md",
       "extension": "md"
     },
     {

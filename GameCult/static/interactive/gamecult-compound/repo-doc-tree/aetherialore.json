@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "AetheriaLore",
-  "documentCount": 265,
+  "documentCount": 266,
   "documents": [
     {
       "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/repo-trajectory/prompt.md",
@@ -379,6 +379,13 @@
       "title": "Narrative And Missions",
       "path": "Aetheria/Game Design/Narrative and Missions.md",
       "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Narrative and Missions.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Game Design/Nibu Attached Shuttle Story.md",
+      "title": "Nibu Attached Shuttle Story",
+      "path": "Aetheria/Game Design/Nibu Attached Shuttle Story.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Game Design/Nibu Attached Shuttle Story.md",
       "extension": "md"
     },
     {

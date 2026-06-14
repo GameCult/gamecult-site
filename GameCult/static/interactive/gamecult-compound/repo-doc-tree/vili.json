@@ -1,0 +1,21 @@
+{
+  "schema": "gamecult.vn.repoDocTree.repo.v1",
+  "repo": "Vili",
+  "documentCount": 2,
+  "documents": [
+    {
+      "id": "Vili:docs/verse-service-contract.md",
+      "title": "Verse Service Contract",
+      "path": "docs/verse-service-contract.md",
+      "href": "https://github.com/GameCult/Vili/blob/main/docs/verse-service-contract.md",
+      "extension": "md"
+    },
+    {
+      "id": "Vili:README.md",
+      "title": ".",
+      "path": "README.md",
+      "href": "https://github.com/GameCult/Vili/blob/main/README.md",
+      "extension": "md"
+    }
+  ]
+}

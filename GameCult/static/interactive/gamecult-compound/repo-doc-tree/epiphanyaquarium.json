@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "EpiphanyAquarium",
-  "documentCount": 21,
+  "documentCount": 20,
   "documents": [
     {
       "id": "EpiphanyAquarium:.epiphany-aquarium/precomputed_atmospheric_scattering/platform/windows/README.txt",
@@ -29,13 +29,6 @@
       "title": "AGENTS",
       "path": "AGENTS.md",
       "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/AGENTS.md",
-      "extension": "md"
-    },
-    {
-      "id": "EpiphanyAquarium:bevy-aquarium/README.md",
-      "title": "Bevy Aquarium",
-      "path": "bevy-aquarium/README.md",
-      "href": "https://github.com/GameCult/EpiphanyAquarium/blob/main/bevy-aquarium/README.md",
       "extension": "md"
     },
     {

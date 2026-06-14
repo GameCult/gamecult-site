@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "EpiphanyAgent",
-  "documentCount": 28504,
+  "documentCount": 28564,
   "documents": [
     {
       "id": "EpiphanyAgent:.epiphany-dogfood/aetheria-supervised/codex-home/.tmp/plugins/.agents/skills/plugin-creator/references/plugin-json-spec.md",
@@ -86955,6 +86955,426 @@
       "title": "Local 20260609 140351",
       "path": ".epiphany-run/local-20260609-140351/README.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260609-140351/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-125824/README.md",
+      "title": "Local 20260612 125824",
+      "path": ".epiphany-run/local-20260612-125824/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-125824/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-132151/README.md",
+      "title": "Local 20260612 132151",
+      "path": ".epiphany-run/local-20260612-132151/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-132151/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-132220/README.md",
+      "title": "Local 20260612 132220",
+      "path": ".epiphany-run/local-20260612-132220/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-132220/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-132436/README.md",
+      "title": "Local 20260612 132436",
+      "path": ".epiphany-run/local-20260612-132436/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-132436/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-132518/README.md",
+      "title": "Local 20260612 132518",
+      "path": ".epiphany-run/local-20260612-132518/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-132518/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-133920/README.md",
+      "title": "Local 20260612 133920",
+      "path": ".epiphany-run/local-20260612-133920/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-133920/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-134707/README.md",
+      "title": "Local 20260612 134707",
+      "path": ".epiphany-run/local-20260612-134707/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-134707/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-141434/README.md",
+      "title": "Local 20260612 141434",
+      "path": ".epiphany-run/local-20260612-141434/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-141434/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-142343/README.md",
+      "title": "Local 20260612 142343",
+      "path": ".epiphany-run/local-20260612-142343/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-142343/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-153952/README.md",
+      "title": "Local 20260612 153952",
+      "path": ".epiphany-run/local-20260612-153952/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-153952/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-154843/README.md",
+      "title": "Local 20260612 154843",
+      "path": ".epiphany-run/local-20260612-154843/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-154843/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-161710/README.md",
+      "title": "Local 20260612 161710",
+      "path": ".epiphany-run/local-20260612-161710/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-161710/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-161906/README.md",
+      "title": "Local 20260612 161906",
+      "path": ".epiphany-run/local-20260612-161906/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-161906/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-163510/README.md",
+      "title": "Local 20260612 163510",
+      "path": ".epiphany-run/local-20260612-163510/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-163510/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-164149/README.md",
+      "title": "Local 20260612 164149",
+      "path": ".epiphany-run/local-20260612-164149/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-164149/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-173929/README.md",
+      "title": "Local 20260612 173929",
+      "path": ".epiphany-run/local-20260612-173929/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-173929/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-180002/README.md",
+      "title": "Local 20260612 180002",
+      "path": ".epiphany-run/local-20260612-180002/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-180002/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-185036/README.md",
+      "title": "Local 20260612 185036",
+      "path": ".epiphany-run/local-20260612-185036/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-185036/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-190619/README.md",
+      "title": "Local 20260612 190619",
+      "path": ".epiphany-run/local-20260612-190619/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-190619/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-191149/README.md",
+      "title": "Local 20260612 191149",
+      "path": ".epiphany-run/local-20260612-191149/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-191149/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-192326/README.md",
+      "title": "Local 20260612 192326",
+      "path": ".epiphany-run/local-20260612-192326/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-192326/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260612-192803/README.md",
+      "title": "Local 20260612 192803",
+      "path": ".epiphany-run/local-20260612-192803/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260612-192803/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-012152/README.md",
+      "title": "Local 20260613 012152",
+      "path": ".epiphany-run/local-20260613-012152/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-012152/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-013850/README.md",
+      "title": "Local 20260613 013850",
+      "path": ".epiphany-run/local-20260613-013850/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-013850/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-015426/README.md",
+      "title": "Local 20260613 015426",
+      "path": ".epiphany-run/local-20260613-015426/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-015426/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-015726/README.md",
+      "title": "Local 20260613 015726",
+      "path": ".epiphany-run/local-20260613-015726/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-015726/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-020303/README.md",
+      "title": "Local 20260613 020303",
+      "path": ".epiphany-run/local-20260613-020303/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-020303/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-023235/README.md",
+      "title": "Local 20260613 023235",
+      "path": ".epiphany-run/local-20260613-023235/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-023235/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-025125/README.md",
+      "title": "Local 20260613 025125",
+      "path": ".epiphany-run/local-20260613-025125/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-025125/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-030901/README.md",
+      "title": "Local 20260613 030901",
+      "path": ".epiphany-run/local-20260613-030901/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-030901/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-035913/README.md",
+      "title": "Local 20260613 035913",
+      "path": ".epiphany-run/local-20260613-035913/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-035913/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-040858/README.md",
+      "title": "Local 20260613 040858",
+      "path": ".epiphany-run/local-20260613-040858/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-040858/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-041313/README.md",
+      "title": "Local 20260613 041313",
+      "path": ".epiphany-run/local-20260613-041313/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-041313/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-043826/README.md",
+      "title": "Local 20260613 043826",
+      "path": ".epiphany-run/local-20260613-043826/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-043826/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-044207/README.md",
+      "title": "Local 20260613 044207",
+      "path": ".epiphany-run/local-20260613-044207/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-044207/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-050151/README.md",
+      "title": "Local 20260613 050151",
+      "path": ".epiphany-run/local-20260613-050151/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-050151/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-051055/README.md",
+      "title": "Local 20260613 051055",
+      "path": ".epiphany-run/local-20260613-051055/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-051055/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-051554/README.md",
+      "title": "Local 20260613 051554",
+      "path": ".epiphany-run/local-20260613-051554/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-051554/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-053138/README.md",
+      "title": "Local 20260613 053138",
+      "path": ".epiphany-run/local-20260613-053138/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-053138/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-055132/README.md",
+      "title": "Local 20260613 055132",
+      "path": ".epiphany-run/local-20260613-055132/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-055132/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-055758/README.md",
+      "title": "Local 20260613 055758",
+      "path": ".epiphany-run/local-20260613-055758/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-055758/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-060504/README.md",
+      "title": "Local 20260613 060504",
+      "path": ".epiphany-run/local-20260613-060504/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-060504/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-061954/README.md",
+      "title": "Local 20260613 061954",
+      "path": ".epiphany-run/local-20260613-061954/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-061954/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-062634/README.md",
+      "title": "Local 20260613 062634",
+      "path": ".epiphany-run/local-20260613-062634/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-062634/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-095431/README.md",
+      "title": "Local 20260613 095431",
+      "path": ".epiphany-run/local-20260613-095431/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-095431/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-114717/README.md",
+      "title": "Local 20260613 114717",
+      "path": ".epiphany-run/local-20260613-114717/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-114717/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-115609/README.md",
+      "title": "Local 20260613 115609",
+      "path": ".epiphany-run/local-20260613-115609/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-115609/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-120151/README.md",
+      "title": "Local 20260613 120151",
+      "path": ".epiphany-run/local-20260613-120151/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-120151/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-122655/README.md",
+      "title": "Local 20260613 122655",
+      "path": ".epiphany-run/local-20260613-122655/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-122655/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-125737/README.md",
+      "title": "Local 20260613 125737",
+      "path": ".epiphany-run/local-20260613-125737/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-125737/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-130800/README.md",
+      "title": "Local 20260613 130800",
+      "path": ".epiphany-run/local-20260613-130800/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-130800/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-131438/README.md",
+      "title": "Local 20260613 131438",
+      "path": ".epiphany-run/local-20260613-131438/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-131438/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-131845/README.md",
+      "title": "Local 20260613 131845",
+      "path": ".epiphany-run/local-20260613-131845/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-131845/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-202834/README.md",
+      "title": "Local 20260613 202834",
+      "path": ".epiphany-run/local-20260613-202834/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-202834/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-204055/README.md",
+      "title": "Local 20260613 204055",
+      "path": ".epiphany-run/local-20260613-204055/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-204055/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-204521/README.md",
+      "title": "Local 20260613 204521",
+      "path": ".epiphany-run/local-20260613-204521/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-204521/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-210717/README.md",
+      "title": "Local 20260613 210717",
+      "path": ".epiphany-run/local-20260613-210717/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-210717/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-211442/README.md",
+      "title": "Local 20260613 211442",
+      "path": ".epiphany-run/local-20260613-211442/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-211442/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-212601/README.md",
+      "title": "Local 20260613 212601",
+      "path": ".epiphany-run/local-20260613-212601/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-212601/README.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:.epiphany-run/local-20260613-213147/README.md",
+      "title": "Local 20260613 213147",
+      "path": ".epiphany-run/local-20260613-213147/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/.epiphany-run/local-20260613-213147/README.md",
       "extension": "md"
     },
     {
@@ -198153,6 +198573,20 @@
       "extension": "tex"
     },
     {
+      "id": "EpiphanyAgent:docs/epiphany_investor_brief.md",
+      "title": "Epiphany Investor Brief",
+      "path": "docs/epiphany_investor_brief.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/docs/epiphany_investor_brief.md",
+      "extension": "md"
+    },
+    {
+      "id": "EpiphanyAgent:docs/README.md",
+      "title": "Docs",
+      "path": "docs/README.md",
+      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/docs/README.md",
+      "extension": "md"
+    },
+    {
       "id": "EpiphanyAgent:epiphany-core/src/prompts/repo_memory_distiller.md",
       "title": "Repo Memory Distiller",
       "path": "epiphany-core/src/prompts/repo_memory_distiller.md",
@@ -198314,13 +198748,6 @@
       "extension": "md"
     },
     {
-      "id": "EpiphanyAgent:notes/epiphany-body-proprioception-pass.md",
-      "title": "Epiphany Body Proprioception Pass",
-      "path": "notes/epiphany-body-proprioception-pass.md",
-      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/epiphany-body-proprioception-pass.md",
-      "extension": "md"
-    },
-    {
       "id": "EpiphanyAgent:notes/epiphany-cultmesh-dreaming-roadmap.md",
       "title": "Epiphany Cultmesh Dreaming Roadmap",
       "path": "notes/epiphany-cultmesh-dreaming-roadmap.md",
@@ -198444,13 +198871,6 @@
       "title": "Substrate Gate Cultnet Contracts",
       "path": "notes/substrate-gate-cultnet-contracts.md",
       "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/substrate-gate-cultnet-contracts.md",
-      "extension": "md"
-    },
-    {
-      "id": "EpiphanyAgent:notes/verse-service-contract.md",
-      "title": "Verse Service Contract",
-      "path": "notes/verse-service-contract.md",
-      "href": "https://github.com/GameCult/EpiphanyAgent/blob/main/notes/verse-service-contract.md",
       "extension": "md"
     },
     {

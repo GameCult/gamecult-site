@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "Mimir",
-  "documentCount": 317,
+  "documentCount": 318,
   "documents": [
     {
       "id": "Mimir:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -869,6 +869,13 @@
       "title": "Mimir Program Composition",
       "path": "docs/mimir-program-composition.md",
       "href": "https://github.com/GameCult/Mimir/blob/main/docs/mimir-program-composition.md",
+      "extension": "md"
+    },
+    {
+      "id": "Mimir:docs/move-calibration-protocol.md",
+      "title": "Move Calibration Protocol",
+      "path": "docs/move-calibration-protocol.md",
+      "href": "https://github.com/GameCult/Mimir/blob/main/docs/move-calibration-protocol.md",
       "extension": "md"
     },
     {

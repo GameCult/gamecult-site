@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "AetheriaLore",
-  "documentCount": 266,
+  "documentCount": 270,
   "documents": [
     {
       "id": "AetheriaLore:.epiphany/artifacts/repo-birth-runner/repo-trajectory/prompt.md",
@@ -505,6 +505,27 @@
       "title": "Rain",
       "path": "Aetheria/Stories/Rain.md",
       "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Rain.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Sel Veyra Thread.md",
+      "title": "Sel Veyra Thread",
+      "path": "Aetheria/Stories/Sel Veyra Thread.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Sel Veyra Thread.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Sel Veyra Thread/Branch Map.md",
+      "title": "Branch Map",
+      "path": "Aetheria/Stories/Sel Veyra Thread/Branch Map.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Sel Veyra Thread/Branch Map.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Stories/Sel Veyra Thread/Coordinator Strategy.md",
+      "title": "Coordinator Strategy",
+      "path": "Aetheria/Stories/Sel Veyra Thread/Coordinator Strategy.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Stories/Sel Veyra Thread/Coordinator Strategy.md",
       "extension": "md"
     },
     {
@@ -1170,6 +1191,13 @@
       "title": "Orbital Forge",
       "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Orbital Forge.md",
       "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Orbital Forge.md",
+      "extension": "md"
+    },
+    {
+      "id": "AetheriaLore:Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Portia Line.md",
+      "title": "Portia Line",
+      "path": "Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Portia Line.md",
+      "href": "https://github.com/GameCult/AetheriaLore/blob/main/Aetheria/Worldbuilding/Pre-Elysium/Factions/Powers/Minor/Portia Line.md",
       "extension": "md"
     },
     {

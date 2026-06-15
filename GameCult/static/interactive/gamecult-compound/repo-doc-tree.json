@@ -2,7 +2,7 @@
   "schema": "gamecult.vn.repoDocTree.v1",
   "sourceRoot": "E:\\Projects",
   "repoCount": 55,
-  "documentCount": 60512,
+  "documentCount": 60325,
   "repos": [
     {
       "name": "_vg_csg_history_full",
@@ -11,12 +11,12 @@
     },
     {
       "name": "Aetheria",
-      "documentCount": 981,
+      "documentCount": 785,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/aetheria.json"
     },
     {
       "name": "AetheriaLore",
-      "documentCount": 266,
+      "documentCount": 270,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/aetherialore.json"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "name": "AquaSynth",
-      "documentCount": 3209,
+      "documentCount": 3211,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/aquasynth.json"
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "name": "CultLib",
-      "documentCount": 632,
+      "documentCount": 635,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultlib.json"
     },
     {

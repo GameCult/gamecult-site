@@ -1,7 +1,7 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "AquaSynth",
-  "documentCount": 3209,
+  "documentCount": 3211,
   "documents": [
     {
       "id": "AquaSynth:.voidbot/birth/runner/repo-memory/prompt.md",
@@ -22096,6 +22096,13 @@
       "extension": "md"
     },
     {
+      "id": "AquaSynth:docs/daemonic-swarm-prior-work.md",
+      "title": "Daemonic Swarm Prior Work",
+      "path": "docs/daemonic-swarm-prior-work.md",
+      "href": "https://github.com/GameCult/AquaSynth/blob/main/docs/daemonic-swarm-prior-work.md",
+      "extension": "md"
+    },
+    {
       "id": "AquaSynth:docs/dx7-calibration-plan.md",
       "title": "Dx7 Calibration Plan",
       "path": "docs/dx7-calibration-plan.md",
@@ -22107,6 +22114,13 @@
       "title": "Faust Toolchain Boundary",
       "path": "docs/faust-toolchain-boundary.md",
       "href": "https://github.com/GameCult/AquaSynth/blob/main/docs/faust-toolchain-boundary.md",
+      "extension": "md"
+    },
+    {
+      "id": "AquaSynth:docs/gamecult-daemonic-swarm.md",
+      "title": "Gamecult Daemonic Swarm",
+      "path": "docs/gamecult-daemonic-swarm.md",
+      "href": "https://github.com/GameCult/AquaSynth/blob/main/docs/gamecult-daemonic-swarm.md",
       "extension": "md"
     },
     {

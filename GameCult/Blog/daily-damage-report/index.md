@@ -2,7 +2,7 @@
 title: Daily Damage Report
 description: "The repo swarm police blotter: weekly writeups of what shipped, mutated, forked, or caught fire across GameCult's public work."
 socialDeck: "A weekly field report from the studio's repo swarm."
-date: 2026-06-14
+date: 2026-06-15
 hideFromBlogIndex: true
 showFolderListing: false
 ---
@@ -14,7 +14,7 @@ This is the running index for the public work log across GameCult's repos. Each 
 ## Current Week
 
 - [Week 09 - 13 Jun 2026 onward](/Blog/daily-damage-report/week-09)  
-  The current open week: the public wall still counts to 43 while the local bench resolves to 42 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and the June 13 to June 14 band has already chewed through typed-state rebuild law, Bokusho brush physics, Soul evidence custody, sync-contract/editor UX, room-routing cuts, Bluetooth move claims, face upkeep, lore masthead surgery, and one more little site self-inflicted receipt.
+  The current open week: the public wall now counts to 44 while the local bench resolves to 43 unique GameCult remotes, four public bodies are still missing locally, three local strays still loiter off-roster, and the June 13 to June 15 band has already chewed through typed-state rebuild law, Bokusho brush physics, Soul evidence custody, sync-contract/editor UX, room-routing cuts, Bluetooth move claims, branch-side RUDP health work, live-session daemon state, one repo public-coming-out, and one more little site self-inflicted receipt.
 
 ## Archive
 

@@ -1241,6 +1241,126 @@ article > h6 {
   }
 }
 
+body[data-slug="Blog/purge-the-heretek-from-our-daemonic-swarm"] {
+  .page > #quartz-body .center > article {
+    overflow: visible;
+  }
+
+  .elixir-poetry-rail {
+    float: right;
+    display: grid;
+    gap: 1rem;
+    width: min(24rem, 42vw);
+    margin: 0.25rem -23rem 1.5rem 1.6rem;
+    pointer-events: none;
+  }
+
+  .elixir-poetry-card {
+    position: relative;
+    box-sizing: border-box;
+    width: 11.5rem;
+    min-height: 13.5rem;
+    padding: 1rem 0.75rem 0.85rem;
+    border: 1px solid rgba(222, 197, 139, 0.34);
+    border-radius: 4px;
+    background:
+      linear-gradient(90deg, rgba(72, 45, 26, 0.055) 1px, transparent 1px),
+      radial-gradient(circle at 30% 10%, rgba(242, 216, 154, 0.16), transparent 40%),
+      linear-gradient(180deg, rgba(245, 231, 190, 0.94), rgba(210, 180, 126, 0.86));
+    background-size: 18px 18px, auto, auto;
+    box-shadow:
+      0 14px 30px rgba(0, 0, 0, 0.24),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+    color: #1b120b;
+  }
+
+  .elixir-poetry-card:nth-child(1) {
+    justify-self: start;
+    transform: translateX(1.2rem) rotate(-1.4deg);
+  }
+
+  .elixir-poetry-card:nth-child(2) {
+    justify-self: center;
+    transform: translateX(5.2rem) rotate(1.2deg);
+  }
+
+  .elixir-poetry-card:nth-child(3) {
+    justify-self: end;
+    transform: translateX(0.2rem) rotate(-0.45deg);
+  }
+
+  .elixir-poetry-card::before {
+    content: "";
+    position: absolute;
+    inset: 0.42rem;
+    border: 1px solid rgba(93, 56, 28, 0.16);
+    pointer-events: none;
+  }
+
+  .elixir-poetry-card p {
+    display: block;
+    width: 100%;
+    min-height: 9rem;
+    margin: 0;
+    color: rgba(28, 18, 10, 0.92);
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+    font-size: clamp(1.1rem, 1.65vw, 1.46rem);
+    font-weight: 600;
+    line-height: 1.9;
+    letter-spacing: 0.08em;
+    text-align: start;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .elixir-poetry-card span {
+    display: block;
+    margin-top: 0.75rem;
+    color: rgba(66, 41, 24, 0.72);
+    font-family: "IBM Plex Mono", Consolas, monospace;
+    font-size: 0.62rem;
+    line-height: 1.25;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 1320px) {
+  body[data-slug="Blog/purge-the-heretek-from-our-daemonic-swarm"] {
+    .elixir-poetry-rail {
+      float: none;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      width: 100%;
+      margin: 1.1rem 0 1.4rem;
+    }
+
+    .elixir-poetry-card,
+    .elixir-poetry-card:nth-child(1),
+    .elixir-poetry-card:nth-child(2),
+    .elixir-poetry-card:nth-child(3) {
+      justify-self: center;
+      width: min(100%, 11rem);
+      transform: none;
+    }
+  }
+}
+
+@media all and (max-width: 760px) {
+  body[data-slug="Blog/purge-the-heretek-from-our-daemonic-swarm"] {
+    .elixir-poetry-rail {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .elixir-poetry-card,
+    .elixir-poetry-card:nth-child(1),
+    .elixir-poetry-card:nth-child(2),
+    .elixir-poetry-card:nth-child(3) {
+      width: min(100%, 15rem);
+      min-height: 9rem;
+    }
+  }
+}
+
 body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
   .page > #quartz-body {
     grid-template-columns: minmax(0, 1fr);

@@ -31,6 +31,8 @@ socialDeck: "Server-authoritative networking made games honest. Witness-authorit
 
 <div class="ritual-paper-abstract">
 
+Plainly: CultMesh lets online worlds scale by turning nearby players' devices into part of the system that helps agree on what happened.
+
 Server-authoritative networking is the modern gold standard for serious online games because it makes one machine responsible for truth. The client sends intent. The server validates, simulates, resolves conflicts, and distributes canonical state. That model is legible, secure, debuggable, and effective at preventing clients from authoring their own reality.
 
 It is also expensive when the world gets large, fast, and crowded.
@@ -52,6 +54,8 @@ It is not ordinary peer-to-peer lockstep. It is not "trust the client." It is no
 The claim is practical: if a game is implemented in terms of CultMesh state, then the work of observation, resimulation, and local agreement can move to the players already present. The operator no longer has to provision centralized simulation capacity for every fast-changing fact in the world. Infrastructure becomes a coordination and finality layer rather than the only place where meaningful state can be observed.
 
 </div>
+
+For readers outside networking: a normal online game often asks the server to be referee, security camera, court transcript, and scoreboard at the same time. CultMesh keeps the referee, but lets the cameras already in the room help establish what happened.
 
 ## 1. Problem Statement
 
@@ -91,6 +95,8 @@ client intent
 The difference is not that CultMesh abolishes authority.
 
 The difference is that authority no longer has to do all the seeing.
+
+That distinction is the article's central claim. The rest of the paper explains why it is technically plausible, where it differs from prior work, and what CultMesh already provides as implementation substrate.
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
@@ -254,6 +260,8 @@ authoritative server trust
 
 ## 4. Architectural Claims
 
+The shortest version is this: CultMesh does not make peers trusted. It makes peer observations admissible only when they are scoped, reproducible, and accepted through policy.
+
 ### 4.1 Authority Is Not Observation
 
 Server-authoritative networking collapses observation and authority into one trusted machine. That is the point. It is why the model works.
@@ -292,6 +300,8 @@ The product implication is direct:
 That shifts "dashboard" from product category to rendering target.
 
 ## 5. Definition
+
+The word "witness" is literal but constrained. A witness is not any random client; it is a compatible runtime that was in a position to observe or re-simulate a specific fact under the correct Verse rules.
 
 Witness-authoritative networking is a multiplayer authority model in which canonical state is derived from observations submitted by the peers that were present, eligible, and able to re-simulate or observe the relevant event, then committed through a typed authority path.
 
@@ -362,6 +372,8 @@ Commit is authority.
 CultMesh exists because peer-to-peer transport alone is not an authority model.
 
 The primitives are deliberately named.
+
+Each primitive answers one plain question: what is the state, who can see it, who can speak about it, who can commit it, and how does everyone else catch up?
 
 ### 6.1 CultCache Documents
 
@@ -530,6 +542,8 @@ That is a stronger trust boundary.
 
 ## 10. Cost Model
 
+This is the business argument in plain terms: in a central model, more nearby players usually mean more server load. In a witness-authoritative model, more nearby players can also mean more nearby evidence.
+
 Server authority makes trust operationally expensive:
 
 ```text
@@ -562,6 +576,8 @@ Server authority treats density as load.
 Witness authority treats density as evidence.
 
 ## 11. Offering Compared
+
+CultMesh is easiest to misunderstand if it is compared only to hosting, dashboards, or engine netcode. Those products help run servers. CultMesh changes where realtime state can be observed, validated, surfaced, and committed.
 
 Most multiplayer vendors improve the conventional shape:
 

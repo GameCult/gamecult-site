@@ -20,9 +20,9 @@ socialDeck: "Server-authoritative networking made games honest. Witness-authorit
 
 <div class="ritual-paper-titleblock">
   <p class="ritual-paper-series">GameCult Working Paper GC-NET-2026-06-21</p>
-  <p class="ritual-paper-subtitle">CultMesh, Peer Consensus, And The End Of Treating One Server As The Only Possible Witness</p>
-  <p class="ritual-paper-author">Metacrat - Department of Distributed State, Expensive Packets, and The Usual Refusal To Let A Useful Machine Stay Small</p>
-  <p class="ritual-paper-note">Preprint. Not peer reviewed, unless the peer is a client that re-simulated the frame and brought receipts.</p>
+  <p class="ritual-paper-subtitle">CultMesh, Peer Consensus, And Distributed Authority For Realtime Worlds</p>
+  <p class="ritual-paper-author">Metacrat - GameCult</p>
+  <p class="ritual-paper-note">Preprint. Architecture whitepaper for CultMesh and witness-authoritative networking.</p>
 </div>
 
 <div class="ritual-paper-keyline" aria-hidden="true"></div>
@@ -31,11 +31,11 @@ socialDeck: "Server-authoritative networking made games honest. Witness-authorit
 
 <div class="ritual-paper-abstract">
 
-Server-authoritative networking is the modern gold standard for serious online games because it makes one machine responsible for truth. The client sends intent. The server validates, simulates, resolves conflicts, and distributes canonical state. That model is legible, secure, debuggable, and extremely good at stopping the client from becoming a tiny fraud engine with shaders.
+Server-authoritative networking is the modern gold standard for serious online games because it makes one machine responsible for truth. The client sends intent. The server validates, simulates, resolves conflicts, and distributes canonical state. That model is legible, secure, debuggable, and effective at preventing clients from authoring their own reality.
 
 It is also expensive when the world gets large, fast, and crowded.
 
-If every relevant fact must cross a central authority before it can become real, then every densely populated battle, city, market, raid, convoy, dogfight, and player-made disaster becomes an infrastructure bill. Implemented naively at MMO scale, server authority turns concurrency into a tax on imagination.
+If every relevant fact must cross a central authority before it can become real, then every densely populated battle, city, market, raid, convoy, dogfight, and player-made event becomes an infrastructure bill. Implemented naively at MMO scale, server authority turns concurrency into a direct operating cost.
 
 CultMesh proposes a different authority shape:
 
@@ -47,9 +47,9 @@ CultMesh proposes a different authority shape:
 
 I call this witness-authoritative networking.
 
-It is not ordinary peer-to-peer lockstep. It is not "trust the client." It is not a blockchain wearing a cape. It is a distributed realtime database and simulation-consensus layer built on CultCache documents, CultNet reliable UDP, Verse policy, peer discovery, authority leases, shard logs, prediction scopes, immutable simulation observations, quorum candidates, and committed facts.
+It is not ordinary peer-to-peer lockstep. It is not "trust the client." It is not a blockchain. It is a distributed realtime database and simulation-consensus layer built on CultCache documents, CultNet reliable UDP, Verse policy, peer discovery, authority leases, shard logs, prediction scopes, immutable simulation observations, quorum candidates, and committed facts.
 
-The claim is practical: if a game is implemented in terms of CultMesh state, then the work of observation, resimulation, and local agreement can move to the players already present. The operator no longer has to provision a central machine for every hot fact in the universe. Infrastructure becomes a coordination spine rather than the only body allowed to move.
+The claim is practical: if a game is implemented in terms of CultMesh state, then the work of observation, resimulation, and local agreement can move to the players already present. The operator no longer has to provision centralized simulation capacity for every fast-changing fact in the world. Infrastructure becomes a coordination and finality layer rather than the only place where meaningful state can be observed.
 
 </div>
 
@@ -59,13 +59,11 @@ MMO scale is not just "more players."
 
 It is more simultaneously relevant players.
 
-That word, relevant, is where the whole monster lives. Ten thousand players logged into a world are cheap if nine thousand nine hundred of them are staring at different walls. One thousand players trying to update the same fight at 60Hz are a very different animal. If the architecture says that one server must receive, validate, simulate, arbitrate, and broadcast every important fact, then the fight has a central nervous system with a credit card attached.
+That word, relevant, carries the scaling problem. Ten thousand players logged into a world are cheap if nine thousand nine hundred of them are looking at unrelated state. One thousand players trying to update the same fight at 60Hz are different. If one server must receive, validate, simulate, arbitrate, and broadcast every important fact, then the hot region becomes the infrastructure bottleneck.
 
-Server-authoritative networking earned its crown honestly. Valve's Source networking model, for example, uses a server as the authoritative simulation while clients predict locally and receive corrections through snapshots and lag compensation.<sup>1</sup> Gabriel Gambetta's classic explanation phrases the same basic architecture cleanly: clients send inputs, the server runs the game, and clients receive the resulting state.<sup>2</sup>
+Server-authoritative networking is well established for good reasons. Valve's Source networking model, for example, uses a server as the authoritative simulation while clients predict locally and receive corrections through snapshots and lag compensation.<sup>1</sup> Gabriel Gambetta's classic explanation phrases the same basic architecture cleanly: clients send inputs, the server runs the game, and clients receive the resulting state.<sup>2</sup>
 
-This is correct.
-
-It is also a bottleneck by design.
+That model is correct. It is also a bottleneck by design.
 
 The server-authoritative model says:
 
@@ -94,32 +92,6 @@ The difference is not that CultMesh abolishes authority.
 
 The difference is that authority no longer has to do all the seeing.
 
-## 2. Hypotheses
-
-Let:
-
-$$S = \text{server simulation load}$$
-
-$$W = \text{admissible witness count}$$
-
-$$C = \text{canonicalization confidence}$$
-
-$$D = \text{daemon surface portability}$$
-
-where `D` is the number of useful interface bodies a daemon can publish without turning its internal state into bespoke dashboard soup.
-
-We test the following claims:
-
-**H1:** Server-authoritative networking remains the cleanest default for adversarial trust, but its cost curve becomes hostile when many relevant players update fast in the same region.
-
-**H2:** Interest-managed witness sets can turn player density from pure load into usable observation capacity.
-
-**H3:** A typed observation pipeline is safer than ordinary peer-to-peer because candidates and commits are separate states.
-
-**H4:** CultMesh's real product boundary is not "netcode." It is typed state law: documents, transport, Verse policy, authority leases, observations, quorum candidates, and shard logs.
-
-**H5:** Eve and CultUI make the operating surface part of the daemon body, so a hosted admin console becomes one possible lowering rather than the center of the platform.
-
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
     <p><sup>1</sup> Server-authoritative networking is treated here as the baseline to respect, not the straw target to defeat.</p>
@@ -132,11 +104,11 @@ We test the following claims:
 
 <section class="ritual-paper-page">
 
-## 3. Methods
+## 2. Research Basis
 
-### 3.1 Corpus
+### 2.1 Sources
 
-The corpus consisted of:
+This paper draws from:
 
 1. The live CultMesh API and docs in CultLib.
 2. The newly promoted CultNet RUDP transport parity work.
@@ -146,9 +118,9 @@ The corpus consisted of:
 6. State-machine replication, PBFT, and CRDT literature.
 7. The current Eve/CultUI daemon-surface model from the GameCult MultiVerse stack.
 
-### 3.2 Literature Families
+### 2.2 Literature Families
 
-I reviewed work on:
+The relevant literature families are:
 
 - authoritative client/server game networking;
 - deterministic lockstep;
@@ -160,9 +132,7 @@ I reviewed work on:
 - CRDT convergence;
 - GameCult's own CultMesh, Eve, and CultUI surface documents.
 
-This is not a "we invented distributed systems in a shed" paper. That would be embarrassing, and the shed deserves better.
-
-The paper's claim is narrower and stronger: CultMesh composes known distributed-systems and game-networking primitives around a game-specific unit of authority:
+The paper's claim is narrower and stronger than novelty for its own sake: CultMesh composes known distributed-systems and game-networking primitives around a game-specific unit of authority:
 
 ```text
 who could see this fact,
@@ -171,9 +141,9 @@ with which authority scope,
 and through which committed state path?
 ```
 
-### 3.3 Interpretive Model
+### 2.3 Authority Models
 
-The model compares three authority shapes:
+The comparison uses three authority shapes:
 
 ```text
 server-authoritative
@@ -186,31 +156,24 @@ witness-authoritative
   eligible witnesses publish observations; policy commits candidates
 ```
 
-The comparison is qualitative. No live production MMO was harmed in the making of this argument, which is fortunate because live production MMOs usually have lawyers and pager rotations.
+The comparison is qualitative and architectural. It identifies where CultMesh changes the authority boundary, not where production-scale proof already exists.
 
 <div class="ritual-paper-method-card">
-  <p><strong>Interpretive status.</strong> This paper is a positioning and architecture synthesis. It does not claim production-scale adversarial proof yet. It claims a coherent substrate, a plausible cost inversion, and a concrete implementation path already visible in CultLib.</p>
+  <p><strong>Status.</strong> This paper is a positioning and architecture synthesis. It does not claim production-scale adversarial proof yet. It claims a coherent substrate, a plausible cost inversion, and a concrete implementation path already visible in CultLib.</p>
   <p><strong>Primary unit of analysis:</strong> <code>Verse + shard + epoch + frame/window + subject + claim kind</code>. <strong>Core dependent variable:</strong> how much canonicalization work must remain centralized when eligible peers can witness the event.</p>
 </div>
 
-<div class="ritual-paper-results-strip">
-  <span><strong>authority models</strong> = 3</span>
-  <span><strong>primitives</strong> = 9</span>
-  <span><strong>citations</strong> = 12</span>
-  <span><strong>hosted dashboards required</strong> = 0</span>
-</div>
+## 3. Prior Work
 
-## 4. Prior Work
+The useful prior work comes from several adjacent fields.
 
-The useful prior work comes from several tribes that do not always invite each other to the same conference dinner.
-
-### 4.1 Authoritative Client-Server
+### 3.1 Authoritative Client-Server
 
 The authoritative server model solves the most obvious trust problem: never let the client decide what happened. The client can predict, interpolate, and present. The server decides. This is why serious competitive games still orbit dedicated servers, reconciliation, snapshots, tick rates, and lag compensation.<sup>1</sup><sup>2</sup>
 
 The price is central load. You buy trust by concentrating simulation and arbitration.
 
-### 4.2 Deterministic Lockstep
+### 3.2 Deterministic Lockstep
 
 Deterministic lockstep is the old peer-friendly trick: everyone exchanges inputs, everyone simulates the same frame, and if determinism holds, everyone arrives at the same state. Glenn Fiedler's game networking overview describes why this worked for RTS-style games and why fast action games exposed its limitations over the internet.<sup>3</sup> Deterministic lockstep minimizes bandwidth because input is smaller than state. It also demands strict determinism and makes latency everyone else's problem.
 
@@ -222,19 +185,19 @@ The lesson CultMesh refuses:
 
 > Every participant in the whole game must wait for every other participant before time may move.
 
-### 4.3 Rollback
+### 3.3 Rollback
 
 Rollback networking, popularized by GGPO, lets clients predict remote input, advance immediately, then roll back and replay if later input disagrees.<sup>4</sup> It is beautiful because it preserves local responsiveness while still converging on the correct input history.
 
 The lesson CultMesh keeps:
 
-> Prediction is not a sin if correction is explicit and replayable.
+> Prediction is acceptable when correction is explicit and replayable.
 
 The lesson CultMesh refuses:
 
-> The whole architecture must be shaped around a tiny fixed peer set.
+> The whole architecture must be shaped around a small fixed peer set.
 
-### 4.4 Interest Management
+### 3.4 Interest Management
 
 Massive games already know that broadcasting everything to everyone does not scale. Area-of-interest and interest-management work exists because players only need state relevant to their location, senses, subscriptions, role, and gameplay context. Research on MMOG interest management states the core fact plainly: broadcasting all changes to all players is not viable at massive scale.<sup>5</sup>
 
@@ -248,7 +211,7 @@ The lesson CultMesh adds:
 
 > Relevance should govern not only who receives state, but who is allowed to witness and help canonicalize it.
 
-### 4.5 Replicated State And Consensus
+### 3.5 Replicated State And Consensus
 
 State-machine replication says that replicas can remain consistent if they process the same deterministic operations in the same order.<sup>7</sup> Byzantine fault tolerance work, especially Castro and Liskov's PBFT, shows how systems can tolerate arbitrary faulty or malicious nodes, at a cost.<sup>8</sup>
 
@@ -262,9 +225,9 @@ The lesson CultMesh keeps:
 >
 > Some state requires adversarial quorum.
 >
-> These are different laws and should not be laundered into one cheerful sync primitive.
+> These are different consistency models and should not be collapsed into one generic sync primitive.
 
-That is the prior-work map. CultMesh is not pretending the world lacked ideas. It is composing the useful ones around game-state authority:
+CultMesh composes these ideas around game-state authority:
 
 ```text
 authoritative server trust
@@ -279,7 +242,7 @@ authoritative server trust
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
-    <p><sup>3</sup> The method card is doing the same job as a lab's "limitations" paragraph, except it has better manners and fewer grant acronyms.</p>
+    <p><sup>3</sup> The scope note states the interpretive limits of the paper.</p>
     <p><sup>4</sup> This is a synthesis claim, not a novelty claim. The novelty is the productized composition around CultCache/CultNet/CultMesh primitives.</p>
   </div>
   <span class="ritual-paper-page-number">2</span>
@@ -289,9 +252,9 @@ authoritative server trust
 
 <section class="ritual-paper-page">
 
-## 5. Results
+## 4. Architectural Claims
 
-### 5.1 Result One: Authority Is Not Observation
+### 4.1 Authority Is Not Observation
 
 Server-authoritative networking collapses observation and authority into one trusted machine. That is the point. It is why the model works.
 
@@ -306,9 +269,9 @@ observation
 -> commit
 ```
 
-This is the first important result. Authority does not have to perform all observation in order to retain finality. It only has to define which observations are admissible, how candidates are formed, and when a candidate earns a commit.
+Authority does not have to perform all observation in order to retain finality. It only has to define which observations are admissible, how candidates are formed, and when a candidate earns a commit.
 
-### 5.2 Result Two: Density Can Become Evidence
+### 4.2 Density Can Become Evidence
 
 In a naive central model, density means more input, more simulation, more arbitration, more fanout, and more infrastructure.
 
@@ -316,19 +279,19 @@ In a witness-authoritative model, density also means more local witnesses.
 
 That is not automatically good. More witnesses can mean more spam, collusion, partition noise, or bandwidth. But with interest-managed eligibility and Verse-scoped rules, the additional peers in a hot region can contribute observation capacity instead of merely adding load.
 
-### 5.3 Result Three: UI Surfaces Are Part Of The Runtime Body
+### 4.3 UI Surfaces Are Part Of The Runtime Body
 
 The dashboard question is where normal platform comparisons quietly go wrong.
 
 CultMesh does not need to imitate a hosted SaaS admin panel as the primary interface. Eve and CultUI let each daemon publish a typed surface with the state it owns. Any compatible runtime can lower that surface into GUI, TUI, web, native, overlay, or agent-facing form.
 
-The result is blunt:
+The product implication is direct:
 
 > A frontend is just another CultMesh client.
 
 That shifts "dashboard" from product category to rendering target.
 
-## 6. Definition
+## 5. Definition
 
 Witness-authoritative networking is a multiplayer authority model in which canonical state is derived from observations submitted by the peers that were present, eligible, and able to re-simulate or observe the relevant event, then committed through a typed authority path.
 
@@ -352,7 +315,7 @@ The witnesses must answer:
 - what weight, role, or authority scope their observation carries;
 - whether their runtime and schema are compatible with the Verse.
 
-In CultMesh terms, the observation is not a paragraph of vibes. It is typed state.
+In CultMesh terms, the observation is not informal testimony. It is typed state.
 
 ```text
 CultNetSimulationObservation
@@ -386,7 +349,7 @@ CultMeshSimulationFact
   Replicated to followers
 ```
 
-That separation is the moral center of the machine.
+That separation is the core authority boundary.
 
 Observation is not authority.
 
@@ -394,49 +357,49 @@ Consensus candidate is not authority.
 
 Commit is authority.
 
-## 7. CultMesh Primitives
+## 6. CultMesh Primitives
 
-CultMesh exists because "just use peer-to-peer" is how architecture gets teeth marks on it.
+CultMesh exists because peer-to-peer transport alone is not an authority model.
 
 The primitives are deliberately named.
 
-### 7.1 CultCache Documents
+### 6.1 CultCache Documents
 
 CultCache owns typed documents, `.cc` persistence, record keys, schema compatibility, local indexes, managed documents, and SoA-friendly memory shape. A player transform, inventory item, simulation fact, shard cursor, Verse descriptor, peer card, stream descriptor, or authority lease is not an ad hoc packet. It is a typed object with a stable persistence and wire story.
 
-### 7.2 CultNet RUDP
+### 6.2 CultNet RUDP
 
 CultNet owns schema-v0 messages and transport. The native RUDP pipe gives GameCult runtimes a shared reliable UDP substrate across C#, Rust, Kotlin, Python, and TypeScript. LiteNetLib can remain an adapter. TCP and WebSocket can remain useful lanes. But the portable transport semantics belong to CultNet, not to one runtime's favorite socket wrapper.
 
-### 7.3 Verses
+### 6.3 Verses
 
 A Verse is a rule-bearing consensus graph.
 
 That dry phrase is doing work.
 
-A Verse declares the rules hash, transport compatibility, authority model, plugin requirements, discovery endpoints, parent Verse, and compatible branches. Aetheria Main, a modded Skylands branch, a peer-hosted arena, and a subscribed overlay can share transport without pretending they share law.
+A Verse declares the rules hash, transport compatibility, authority model, plugin requirements, discovery endpoints, parent Verse, and compatible branches. Aetheria Main, a modded Skylands branch, a peer-hosted arena, and a subscribed overlay can share transport without claiming the same rule set.
 
-### 7.4 Peer Cards
+### 6.4 Peer Cards
 
 Peer exchange tells the mesh who can currently serve, observe, replicate, or discover parts of a Verse. A peer card is a contact hint. It is not authority.
 
 This matters because gossip is fast and trust is expensive.
 
-### 7.5 Authority Leases
+### 6.5 Authority Leases
 
 Authority leases bind a peer to a Verse, role, shard scope, issuer, validity window, and signature. They are the bridge between discovery and trust. A peer can be known without being allowed to commit. A peer can observe without being allowed to author. A peer can help route without being allowed to decide.
 
-### 7.6 Shard Logs
+### 6.6 Shard Logs
 
 Current CultMesh uses primary-shard authority for committed state. Writes are ordered. Followers pull logs. Replicas keep cursors. Durable shard logs survive restart. Compaction returns explicit resync requirements instead of letting a replica mistake a partial history for truth.
 
-This is the part where the machine stays boring on purpose.
+This is deliberately conservative: committed state remains ordered, durable, and auditable.
 
-### 7.7 Prediction Scopes
+### 6.7 Prediction Scopes
 
 Players can predict their own input documents inside explicit authority scopes. Prediction emits local state now. Reconciliation arrives later through the committed log. That is the old rollback/prediction wisdom, expressed as typed database behavior instead of one more gameplay special case.
 
-### 7.8 Witness Observations
+### 6.8 Witness Observations
 
 Witnesses publish immutable observations about simulation facts. The hub aggregates observations into deterministic candidates. Candidates become facts only when policy commits them.
 
@@ -454,7 +417,7 @@ This is where the name comes from.
 
 <section class="ritual-paper-page">
 
-## 8. The Frame
+## 7. The Frame
 
 A witness-authoritative frame looks like this:
 
@@ -506,11 +469,11 @@ More players are not only more load.
 
 More players are more witnesses.
 
-## 9. Why This Scales
+## 8. Why This Scales
 
 CultMesh scales because it refuses to make global consensus the default answer.
 
-Global consensus is expensive. Global consensus over every simulation fact in a fast game is a lovely way to recreate a central server with more messages and worse debugging.
+Global consensus is expensive. Global consensus over every simulation fact in a fast game recreates central-server cost with more messages and worse debugging.
 
 Witness authority is local by construction:
 
@@ -536,9 +499,9 @@ Small enough to route.
 
 Small enough to test.
 
-Small enough to let the players standing near the fire help prove what burned.
+Small enough for nearby players to help establish what happened.
 
-## 10. Why This Is Not "Trust The Client"
+## 9. Why This Is Not "Trust The Client"
 
 "Trust the client" means the client sends a claim and the game accepts it.
 
@@ -563,9 +526,9 @@ Witness-authoritative networking does not make cheating impossible.
 
 It changes the fraud surface from "one client lies to the server" to "a claim must survive witnesses, replay, quorum, and logs."
 
-That is a better fight.
+That is a stronger trust boundary.
 
-## 11. Cost Model
+## 10. Cost Model
 
 Server authority makes trust operationally expensive:
 
@@ -598,7 +561,7 @@ Server authority treats density as load.
 
 Witness authority treats density as evidence.
 
-## 12. Offering Compared
+## 11. Offering Compared
 
 Most multiplayer vendors improve the conventional shape:
 
@@ -625,11 +588,11 @@ daemon
 
 The dashboard is not missing.
 
-The dashboard is demoted from product center to one possible lowering.
+The dashboard becomes one possible lowering rather than the product center.
 
 Every daemon in the MultiVerse can publish its own typed UI surface. A frontend is just a CultMesh client in any supported runtime, including the web, consuming the daemon's published state and interface contract. The same daemon can expose a native GUI, a terminal UI, an Eve operator surface, a web view, or an agent-readable control plane without inventing a separate SaaS console for each one.
 
-This is the sharper product claim:
+This is the product claim:
 
 > Competitors sell hosted dashboards for their backend.
 >
@@ -648,37 +611,37 @@ The current work is packaging the proof:
 
 That is why CultMesh belongs beside Eve and CultUI, not merely beside netcode and hosting. The mesh owns state and authority. Eve and CultUI make that state visible and operable wherever a compatible runtime can stand.
 
-## 13. Failure Modes
+## 12. Failure Modes
 
-The architecture is not magic. Good. Magic has terrible incident response.
+The architecture does not remove failure modes. It makes them explicit and policy-visible.
 
-### 13.1 Colluding Witnesses
+### 12.1 Colluding Witnesses
 
-If a shard's witnesses are all malicious, quorum can lie. The answer is not prayer. The answer is policy: authority leases, identity cost, operator witnesses, reputation, challenge simulation, random audits, stake or consequence for high-value claims, and different rules for casual physics versus durable ownership.
+If a shard's witnesses are all malicious, quorum can lie. The answer is policy: authority leases, identity cost, operator witnesses, reputation, challenge simulation, random audits, stake or consequence for high-value claims, and different rules for casual physics versus durable ownership.
 
-### 13.2 Nondeterministic Simulation
+### 12.2 Nondeterministic Simulation
 
-If peers cannot reproduce the claim under the same rules, their observations cannot mean the same thing. Verse rules hashes, deterministic claim construction, fixed-step simulation, stable codecs, and test fixtures are not optional decoration. They are the ceremony that stops the mesh from becoming gossip.
+If peers cannot reproduce the claim under the same rules, their observations cannot mean the same thing. Verse rules hashes, deterministic claim construction, fixed-step simulation, stable codecs, and test fixtures are required to keep observations comparable.
 
-### 13.3 Network Partitions
+### 12.3 Network Partitions
 
 A partition can produce local candidate facts that cannot safely commit globally. CultMesh already separates candidates from committed facts. Partitioned candidates can remain local, provisional, or rejected according to Verse policy.
 
-### 13.4 Hot Spot Capture
+### 12.4 Hot Spot Capture
 
 A dense region can be captured by a coordinated group. This is an old MMO problem wearing new clothes. The defense is layered: outside observers, operator-cluster witnesses, random challenge windows, delayed finality for valuable state, and rollbackable provisional facts.
 
-### 13.5 Over-Broad Witness Sets
+### 12.5 Over-Broad Witness Sets
 
 Too many witnesses recreate broadcast. Witness eligibility must be interest-managed: location, visibility, sensory range, subscription, role, and shard scope.
 
-### 13.6 Under-Broad Witness Sets
+### 12.6 Under-Broad Witness Sets
 
 Too few witnesses turn the system back into host authority. The machine needs minimum witness thresholds, fallback operator arbitration, and explicit "not enough evidence" states.
 
-## 14. Field Manual
+## 13. Field Manual
 
-If you want a game to benefit from CultMesh, do not start by writing a bespoke networking layer and then asking the mesh to bless it afterward.
+If you want a game to benefit from CultMesh, do not start by writing a bespoke networking layer and then asking the mesh to wrap it afterward.
 
 Start with state.
 
@@ -687,7 +650,7 @@ Start with state.
 3. Define Verse rules and compatibility.
 4. Define shards and epochs.
 5. Define claim kinds for simulation facts.
-6. Make claim hashes deterministic and boring.
+6. Make claim hashes deterministic and stable.
 7. Declare who can witness each claim.
 8. Declare quorum policy.
 9. Commit facts through CultMesh, not side channels.
@@ -709,15 +672,15 @@ document shape
 
 This is why Aetheria could move toward co-op quickly. The machine already had a place for durable state, prediction, transport, observation, and canonicalization. The instruction could be short because the substrate had names.
 
-## 15. What CultMesh Is Not
+## 14. What CultMesh Is Not
 
-CultMesh is not a claim that every MMO should be anarchic peer-to-peer soup.
+CultMesh is not a claim that every MMO should be unbounded peer-to-peer state sharing.
 
 CultMesh is not a claim that dedicated servers are obsolete.
 
 CultMesh is not a claim that consensus is free.
 
-CultMesh is not a blockchain, though it respects the old distributed-systems wounds that blockchains commercialized into a theater district.
+CultMesh is not a blockchain, though it shares the broader distributed-systems concern with verifiable agreement under partial trust.
 
 CultMesh is not CRDT-everything.
 
@@ -745,7 +708,7 @@ It says the server was never the only possible witness. It was the only witness 
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
-    <p><sup>7</sup> Most failure modes here are old distributed-systems and MMO problems. CultMesh makes them typed and policy-visible rather than pretending sync erased them.</p>
+    <p><sup>7</sup> Most failure modes here are old distributed-systems and MMO problems. CultMesh makes them typed and policy-visible rather than treating sync as a complete solution.</p>
     <p><sup>8</sup> The phrase "networking is state law" is the actual product thesis. Packets matter because they move admissible state.</p>
   </div>
   <span class="ritual-paper-page-number">4</span>
@@ -755,7 +718,7 @@ It says the server was never the only possible witness. It was the only witness 
 
 <section class="ritual-paper-page">
 
-## 16. Implementation Spine
+## 15. Implementation Spine
 
 The current CultMesh implementation is already shaped for this:
 
@@ -814,9 +777,9 @@ typed state
 
 Games provide the rules.
 
-CultMesh provides the nervous system that lets the rules travel.
+CultMesh provides the distributed state substrate that lets the rules travel.
 
-Eve and CultUI provide the body language that lets the nervous system be touched.
+Eve and CultUI provide the interface layer that makes daemon state operable.
 
 ```text
 daemon state
@@ -825,23 +788,23 @@ daemon state
 -> human or agent operation
 ```
 
-That is not cosmetic. A distributed system without inspection surfaces is a distributed superstition. CultMesh makes state and authority travel; Eve and CultUI make the traveling state legible where it arrives.
+That is not cosmetic. A distributed system without inspection surfaces is difficult to operate safely. CultMesh makes state and authority travel; Eve and CultUI make that state legible where it arrives.
 
-## 17. Threats To Validity
+## 16. Limits And Validation Work
 
-First, the cost model is architectural rather than measured production evidence. The claim needs load tests, adversarial tests, and actual game telemetry before anyone should let it near a budget meeting without adult supervision.
+First, the cost model is architectural rather than measured production evidence. The claim needs load tests, adversarial tests, and game telemetry before it should be used for capacity planning.
 
-Second, witness-authoritative networking depends on deterministic claim construction. If the game cannot produce compatible local observations under the same Verse rules, the mesh cannot launder that disagreement into truth.
+Second, witness-authoritative networking depends on deterministic claim construction. If the game cannot produce compatible local observations under the same Verse rules, the mesh cannot turn that disagreement into canonical state.
 
-Third, peer resources are not free. They are already present, which is different. Good policy must respect bandwidth, battery, CPU, thermals, NAT weirdness, player churn, and the sacred right of someone's laptop not to become a regional authority because it accidentally stood near a boss fight.
+Third, peer resources are not free. They are already present, which is different. Good policy must respect bandwidth, battery, CPU, thermals, NAT traversal, player churn, and explicit consent for any role that increases local resource use.
 
-Fourth, the Eve/CultUI surface claim is a capability claim, not a polished third-party onboarding claim. The next product work is recipes and proof surfaces that make daemon-published UI obvious to someone who did not grow up inside this machinery.
+Fourth, the Eve/CultUI surface claim is a capability claim, not a polished third-party onboarding claim. The next product work is recipes and proof surfaces that make daemon-published UI obvious to new integrators.
 
-## 18. Conclusion
+## 17. Conclusion
 
 Server-authoritative networking made online games honest by putting truth in one place.
 
-Witness-authoritative networking makes honesty distributable by asking the machines already present to testify under typed law.
+Witness-authoritative networking makes honesty distributable by asking the runtimes already present to testify under typed law.
 
 That is the real contrast.
 
@@ -869,7 +832,7 @@ The world scales because everyone present helps carry reality.
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
-    <p><sup>9</sup> "Everyone present helps carry reality" is not a trust policy. It is the poetic version of a typed, scoped, quorum-gated state pipeline. Please do not implement the poetic version.</p>
+    <p><sup>9</sup> "Everyone present helps carry reality" refers to a typed, scoped, quorum-gated state pipeline, not an unbounded trust policy.</p>
   </div>
   <span class="ritual-paper-page-number">5</span>
 </footer>
@@ -895,7 +858,7 @@ The world scales because everyone present helps carry reality.
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">
-    <p><sup>10</sup> Prior work is cited as lineage, not decoration. CultMesh is a synthesis machine with receipts.</p>
+    <p><sup>10</sup> Prior work is cited as lineage, not decoration. CultMesh is a synthesis of established distributed-systems and game-networking ideas around typed realtime state.</p>
   </div>
   <span class="ritual-paper-page-number">6</span>
 </footer>

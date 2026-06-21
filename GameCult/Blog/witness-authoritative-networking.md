@@ -465,35 +465,85 @@ Server authority treats density as load.
 
 Witness authority treats density as evidence.
 
-## 9. Failure Modes
+## 9. Offering Compared
+
+Most multiplayer vendors improve the conventional shape:
+
+```text
+game server binary
+-> orchestration layer
+-> hosted dashboard
+-> backend services
+-> web admin panel
+```
+
+That is useful. It is also not the same offering.
+
+Dedicated-server platforms help place and scale authoritative servers. Backend platforms help with accounts, matchmaking, economies, player data, social graphs, and live operations. Engine netcode helps replicate objects, inputs, snapshots, and RPCs inside a chosen runtime. P2P services help peers find and reach each other through hostile network plumbing.
+
+CultMesh is aiming at the layer underneath the usual purchasing category:
+
+```text
+daemon
+-> CultCache/CultMesh state
+-> Eve/CultUI surface contract
+-> GUI, TUI, web, native, overlay, or agent view
+```
+
+The dashboard is not missing.
+
+The dashboard is demoted from product center to one possible lowering.
+
+Every daemon in the MultiVerse can publish its own typed UI surface. A frontend is just a CultMesh client in any supported runtime, including the web, consuming the daemon's published state and interface contract. The same daemon can expose a native GUI, a terminal UI, an Eve operator surface, a web view, or an agent-readable control plane without inventing a separate SaaS console for each one.
+
+This is the sharper product claim:
+
+> Competitors sell hosted dashboards for their backend.
+>
+> CultMesh lets every daemon carry its own interface and publish it into the MultiVerse.
+
+That matters because observability, admin, gameplay tooling, moderation, simulation inspection, stream control, agent operation, and user-facing panels stop being separate vertical products. They become surfaces over typed state.
+
+The current work, then, is not "build a dashboard."
+
+The current work is packaging the proof:
+
+- web, native, and TUI clients consuming the same daemon-published Eve/CultUI surface;
+- recipes for exposing a CultMesh daemon's state safely;
+- examples where an operator view, an agent view, and a player-facing view all lower from the same typed surface;
+- deployment paths where the central service coordinates discovery and authority while the daemons carry their own bodies.
+
+That is why CultMesh belongs beside Eve and CultUI, not merely beside netcode and hosting. The mesh owns state and authority. Eve and CultUI make that state visible and operable wherever a compatible runtime can stand.
+
+## 10. Failure Modes
 
 The architecture is not magic. Good. Magic has terrible incident response.
 
-### 9.1 Colluding Witnesses
+### 10.1 Colluding Witnesses
 
 If a shard's witnesses are all malicious, quorum can lie. The answer is not prayer. The answer is policy: authority leases, identity cost, operator witnesses, reputation, challenge simulation, random audits, stake or consequence for high-value claims, and different rules for casual physics versus durable ownership.
 
-### 9.2 Nondeterministic Simulation
+### 10.2 Nondeterministic Simulation
 
 If peers cannot reproduce the claim under the same rules, their observations cannot mean the same thing. Verse rules hashes, deterministic claim construction, fixed-step simulation, stable codecs, and test fixtures are not optional decoration. They are the ceremony that stops the mesh from becoming gossip.
 
-### 9.3 Network Partitions
+### 10.3 Network Partitions
 
 A partition can produce local candidate facts that cannot safely commit globally. CultMesh already separates candidates from committed facts. Partitioned candidates can remain local, provisional, or rejected according to Verse policy.
 
-### 9.4 Hot Spot Capture
+### 10.4 Hot Spot Capture
 
 A dense region can be captured by a coordinated group. This is an old MMO problem wearing new clothes. The defense is layered: outside observers, operator-cluster witnesses, random challenge windows, delayed finality for valuable state, and rollbackable provisional facts.
 
-### 9.5 Over-Broad Witness Sets
+### 10.5 Over-Broad Witness Sets
 
 Too many witnesses recreate broadcast. Witness eligibility must be interest-managed: location, visibility, sensory range, subscription, role, and shard scope.
 
-### 9.6 Under-Broad Witness Sets
+### 10.6 Under-Broad Witness Sets
 
 Too few witnesses turn the system back into host authority. The machine needs minimum witness thresholds, fallback operator arbitration, and explicit "not enough evidence" states.
 
-## 10. Field Manual
+## 11. Field Manual
 
 If you want a game to benefit from CultMesh, do not start by writing a bespoke networking layer and then asking the mesh to bless it afterward.
 
@@ -526,7 +576,7 @@ document shape
 
 This is why Aetheria could move toward co-op quickly. The machine already had a place for durable state, prediction, transport, observation, and canonicalization. The instruction could be short because the substrate had names.
 
-## 11. What CultMesh Is Not
+## 12. What CultMesh Is Not
 
 CultMesh is not a claim that every MMO should be anarchic peer-to-peer soup.
 
@@ -572,7 +622,7 @@ It says the server was never the only possible witness. It was the only witness 
 
 <section class="ritual-paper-page">
 
-## 12. Implementation Spine
+## 13. Implementation Spine
 
 The current CultMesh implementation is already shaped for this:
 
@@ -633,7 +683,18 @@ Games provide the rules.
 
 CultMesh provides the nervous system that lets the rules travel.
 
-## 13. Conclusion
+Eve and CultUI provide the body language that lets the nervous system be touched.
+
+```text
+daemon state
+-> typed surface
+-> runtime lowering
+-> human or agent operation
+```
+
+That is not cosmetic. A distributed system without inspection surfaces is a distributed superstition. CultMesh makes state and authority travel; Eve and CultUI make the traveling state legible where it arrives.
+
+## 14. Conclusion
 
 Server-authoritative networking made online games honest by putting truth in one place.
 

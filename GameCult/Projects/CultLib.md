@@ -14,6 +14,8 @@ The three big pieces are CultCache, CultNet, and CultMesh. CultCache owns typed 
 
 That is the practical reason Aetheria could move from single-player toward co-op in days. CultLib turns "make this a distributed MMO" from an open-ended networking rewrite into a question the stack already knows how to answer: persist the world, move the documents, discover the Verse, gather witness observations, reconcile state, and let the UI/runtime surface follow.
 
+The same principle applies to tooling. CultLib does not need every daemon to wait for a hosted admin console before it can be operated. A daemon can publish its own Eve/CultUI surface through the MultiVerse, and any compatible runtime can lower that surface into a GUI, TUI, web client, native panel, overlay, or agent-facing control view. Competitors sell dashboards for their platform. CultLib lets every daemon carry its own interface.
+
 <div class="gamecult-repo-links">
   <a class="gamecult-repo-link" href="https://github.com/GameCult/CultLib">GitHub Repo</a>
   <a class="gamecult-repo-link" href="https://github.com/GameCult/cultcache-ts">cultcache-ts</a>
@@ -49,9 +51,9 @@ CultLib is not just a package. It is a capability layer for projects that need t
 - CultCache gives every runtime a shared document and persistence model.
 - CultNet moves those documents through authenticated schema-aware transports, including GameCult's native cross-runtime RUDP pipe.
 - CultMesh turns the document stream into distributed state: shard replication, peer exchange, Verse discovery, authority leases, prediction, and witness-authoritative consensus.
-- CultUI and Eve-facing surfaces let the same state become inspectable native GUI or operator UI instead of another debug-only side channel.
+- Eve and CultUI let every daemon publish typed GUI/TUI surfaces into the MultiVerse, so the same state can lower into native, web, terminal, overlay, or agent-facing clients instead of being trapped behind a vendor dashboard.
 
-This is the nervous system behind the "Perfect Machine" instruction: spin up a multiplatform app, keep the data typed, keep the wire format honest, let the mesh decide where authority lives, and make the state visible to humans and agents.
+This is the nervous system behind the "Perfect Machine" instruction: spin up a multiplatform app, keep the data typed, keep the wire format honest, let the mesh decide where authority lives, and let every daemon bring its own operable body.
 
 ## Founding Idea
 

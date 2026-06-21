@@ -575,7 +575,37 @@ Server authority treats density as load.
 
 Witness authority treats density as evidence.
 
-## 11. Offering Compared
+## 11. Case Study: Aetheria In Metamorphosis
+
+Aetheria is the hard-mode proof case, not a hypothetical demo.
+
+The current [`codex/aetheria-state-rebuild`](https://github.com/GameCult/Aetheria/tree/codex/aetheria-state-rebuild) branch is moving Aetheria from a single-player Unity game toward a daemon-owned distributed multiplayer game with multiple frontends. The old shape treated Unity as the natural owner of local game state. The new shape makes the Aetheria Verse daemon the owner of simulation state, typed command application, health publication, command boundaries, provider advertisement, and provider-owned Eve GUI/TUI surfaces.
+
+In plain terms: Unity is becoming one client of the world, not the world itself.
+
+That makes Aetheria the scariest useful example of the value proposition. A greenfield game can be designed around CultMesh from the first document and command boundary. Aetheria cannot. It is a large existing Unity game with years of state ownership embedded in renderer code, UI flows, save paths, physics hooks, inventory behavior, and gameplay objects. That is exactly why the case matters: many developers will not be asking whether CultMesh can support a clean new project. They will be asking whether an existing game can survive the migration.
+
+The branch makes that boundary concrete in several ways:
+
+- `Aetheria.State` becomes the replacement owner for durable Aetheria game state, using CultCache and CultMesh instead of bespoke Unity save files.
+- `Aetheria.State.Daemon` publishes daemon frames, SoA views, health, command boundaries, provider advertisements, and game/editor GUI/TUI surfaces.
+- `Packages/org.gamecult.aetheria.eve-runtime` mounts daemon-owned Eve surfaces into Unity UI Toolkit, proving that a frontend can be a lowering of daemon state rather than a private UI stack.
+- Unity rendering is being rewritten around daemon snapshots, contacts, render queries, entity observations, and projection caches instead of direct authority over the simulation.
+- Verification rules now explicitly reject Unity-owned simulation authority: Unity must not tick local simulation as truth, shared simulation ticks must not be called from the renderer, Unity physics must not become gameplay authority, and gameplay actions such as weapon groups, loot pickup, inventory transfer, loadout save/restore, trade purchase, and entity destruction must pass through typed authority requests.
+
+This is exactly the transition the Aetheria dream implied: the game is not being rebuilt as "single-player plus networking." It is being split into a distributed state owner and multiple surfaces that can observe, present, command, and eventually witness the same Verse.
+
+This is what "moving a game to CultMesh" looks like in practice. It is a dirty process because Unity owned a lot of state: saves, menus, runtime objects, local projections, physics hooks, renderer caches, and gameplay commands were tangled together. The work is not to sprinkle networking over that shape. The work is to name each ownership boundary, move durable state into typed documents, turn gameplay actions into typed command records, demote renderer state into observation/projection, and publish the daemon's surfaces so other runtimes can stand beside Unity.
+
+That is the part that makes the agent workflow relevant. A human can describe the target doctrine; an agent can grind through the migration cuts, verification rules, and call-site rewrites. The current Aetheria branch is still dirty and unfinished, but it shows the leverage: a serious single-player Unity codebase can start becoming a distributed multiplayer system in about a week when the destination architecture already exists.
+
+The important lesson is not that Aetheria already proves MMO-scale witness consensus. It does not. The important lesson is that the architecture is changing in the right order. First, state stops belonging to the renderer. Then commands become typed records. Then surfaces become daemon-published. Then Unity, web, terminal, editor, agent, or another runtime can stand around the same world without each inventing its own private source of truth.
+
+That is what it looks like when a single-player game begins becoming a distributed multiplayer world.
+
+It also establishes the migration playbook for other games. Aetheria is the daunting case. Smaller projects can move faster because they have fewer hidden ownership boundaries to cut. CultPong is the obvious next test: a simpler arena game where the same state, command, surface, and authority pattern can be applied with less archaeology. The question is not whether every game has to become Aetheria-scale. The question is how quickly CultMesh can turn an existing game into a distributed arena once the doctrine and tooling have been proven on the hard case.
+
+## 12. Offering Compared
 
 CultMesh is easiest to misunderstand if it is compared only to hosting, dashboards, or engine netcode. Those products help run servers. CultMesh changes where realtime state can be observed, validated, surfaced, and committed.
 
@@ -627,35 +657,35 @@ The current work is packaging the proof:
 
 That is why CultMesh belongs beside Eve and CultUI, not merely beside netcode and hosting. The mesh owns state and authority. Eve and CultUI make that state visible and operable wherever a compatible runtime can stand.
 
-## 12. Failure Modes
+## 13. Failure Modes
 
 The architecture does not remove failure modes. It makes them explicit and policy-visible.
 
-### 12.1 Colluding Witnesses
+### 13.1 Colluding Witnesses
 
 If a shard's witnesses are all malicious, quorum can lie. The answer is policy: authority leases, identity cost, operator witnesses, reputation, challenge simulation, random audits, stake or consequence for high-value claims, and different rules for casual physics versus durable ownership.
 
-### 12.2 Nondeterministic Simulation
+### 13.2 Nondeterministic Simulation
 
 If peers cannot reproduce the claim under the same rules, their observations cannot mean the same thing. Verse rules hashes, deterministic claim construction, fixed-step simulation, stable codecs, and test fixtures are required to keep observations comparable.
 
-### 12.3 Network Partitions
+### 13.3 Network Partitions
 
 A partition can produce local candidate facts that cannot safely commit globally. CultMesh already separates candidates from committed facts. Partitioned candidates can remain local, provisional, or rejected according to Verse policy.
 
-### 12.4 Hot Spot Capture
+### 13.4 Hot Spot Capture
 
 A dense region can be captured by a coordinated group. This is an old MMO problem wearing new clothes. The defense is layered: outside observers, operator-cluster witnesses, random challenge windows, delayed finality for valuable state, and rollbackable provisional facts.
 
-### 12.5 Over-Broad Witness Sets
+### 13.5 Over-Broad Witness Sets
 
 Too many witnesses recreate broadcast. Witness eligibility must be interest-managed: location, visibility, sensory range, subscription, role, and shard scope.
 
-### 12.6 Under-Broad Witness Sets
+### 13.6 Under-Broad Witness Sets
 
 Too few witnesses turn the system back into host authority. The machine needs minimum witness thresholds, fallback operator arbitration, and explicit "not enough evidence" states.
 
-## 13. Field Manual
+## 14. Field Manual
 
 If you want a game to benefit from CultMesh, do not start by writing a bespoke networking layer and then asking the mesh to wrap it afterward.
 
@@ -686,9 +716,9 @@ document shape
 -> operator surface
 ```
 
-This is why Aetheria could move toward co-op quickly. The machine already had a place for durable state, prediction, transport, observation, and canonicalization. The instruction could be short because the substrate had names.
+This is why Aetheria can move toward co-op and distributed play without beginning from a blank networking layer. The machine already has a place for durable state, prediction, transport, observation, and canonicalization. The instruction can be short because the substrate has names.
 
-## 14. What CultMesh Is Not
+## 15. What CultMesh Is Not
 
 CultMesh is not a claim that every MMO should be unbounded peer-to-peer state sharing.
 
@@ -734,7 +764,7 @@ It says the server was never the only possible witness. It was the only witness 
 
 <section class="ritual-paper-page">
 
-## 15. Implementation Spine
+## 16. Implementation Spine
 
 The current CultMesh implementation is already shaped for this:
 
@@ -806,7 +836,7 @@ daemon state
 
 That is not cosmetic. A distributed system without inspection surfaces is difficult to operate safely. CultMesh makes state and authority travel; Eve and CultUI make that state legible where it arrives.
 
-## 16. Limits And Validation Work
+## 17. Limits And Validation Work
 
 First, the cost model is architectural rather than measured production evidence. The claim needs load tests, adversarial tests, and game telemetry before it should be used for capacity planning.
 
@@ -816,7 +846,7 @@ Third, peer resources are not free. They are already present, which is different
 
 Fourth, the Eve/CultUI surface claim is a capability claim, not a polished third-party onboarding claim. The next product work is recipes and proof surfaces that make daemon-published UI obvious to new integrators.
 
-## 17. Conclusion
+## 18. Conclusion
 
 Server-authoritative networking made online games honest by putting truth in one place.
 
@@ -871,6 +901,7 @@ The world scales because everyone present helps carry reality.
 10. GameCult, [CultMesh Public API](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/public-api.md).
 11. GameCult, [CultMesh Verse Model](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/verses.md).
 12. GameCult, [CultMesh Research Notes](https://github.com/GameCult/CultLib/blob/main/src/GameCult.Mesh/docs/research.md).
+13. GameCult, [Aetheria `codex/aetheria-state-rebuild` branch](https://github.com/GameCult/Aetheria/tree/codex/aetheria-state-rebuild), especially `Aetheria.State/README.md`, `Aetheria.State/docs/verse-daemon-shape.md`, `Aetheria.State.Daemon/Program.cs`, `Aetheria.State.Verify/Program.cs`, and `Packages/org.gamecult.aetheria.eve-runtime/README.md`.
 
 <footer class="ritual-paper-page-footer">
   <div class="ritual-paper-footnotes">

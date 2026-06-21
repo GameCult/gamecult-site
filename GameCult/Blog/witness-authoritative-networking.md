@@ -583,7 +583,7 @@ The current [`codex/aetheria-state-rebuild`](https://github.com/GameCult/Aetheri
 
 In plain terms: Unity is becoming one client of the world, not the world itself.
 
-That makes Aetheria the scariest useful example of the value proposition. A greenfield game can be designed around CultMesh from the first document and command boundary. Aetheria cannot. It is a large existing Unity game with years of state ownership embedded in renderer code, UI flows, save paths, physics hooks, inventory behavior, and gameplay objects. That is exactly why the case matters: many developers will not be asking whether CultMesh can support a clean new project. They will be asking whether an existing game can survive the migration.
+That makes Aetheria the scariest useful example of the value proposition. A greenfield game can be designed around CultMesh from the first document and command boundary. Aetheria cannot. It is a large existing Unity game with years of state ownership embedded in renderer code, UI flows, save paths, physics hooks, inventory behavior, and gameplay objects. The branch is more than five hundred commits deep and still mid-migration. That is exactly why the case matters: many developers will not be asking whether CultMesh can support a clean new project. They will be asking whether an existing game can survive the migration.
 
 The branch makes that boundary concrete in several ways:
 
@@ -597,11 +597,11 @@ This is exactly the transition the Aetheria dream implied: the game is not being
 
 This is what "moving a game to CultMesh" looks like in practice. It is a dirty process because Unity owned a lot of state: saves, menus, runtime objects, local projections, physics hooks, renderer caches, and gameplay commands were tangled together. The work is not to sprinkle networking over that shape. The work is to name each ownership boundary, move durable state into typed documents, turn gameplay actions into typed command records, demote renderer state into observation/projection, and publish the daemon's surfaces so other runtimes can stand beside Unity.
 
-That is the part that makes the agent workflow relevant. A human can describe the target doctrine; an agent can grind through the migration cuts, verification rules, and call-site rewrites. The current Aetheria branch is still dirty and unfinished, but it shows the leverage: a serious single-player Unity codebase can start becoming a distributed multiplayer system in about a week when the destination architecture already exists.
+That is the part that makes the agent workflow relevant. A human can describe the target doctrine; an agent can grind through the migration cuts, verification rules, and call-site rewrites. The current Aetheria branch is still dirty, unfinished, and only partway through its metamorphosis, but it shows the leverage: a serious single-player Unity codebase can start becoming a distributed multiplayer system in about a week when the destination architecture already exists.
 
 The important lesson is not that Aetheria already proves MMO-scale witness consensus. It does not. The important lesson is that the architecture is changing in the right order. First, state stops belonging to the renderer. Then commands become typed records. Then surfaces become daemon-published. Then Unity, web, terminal, editor, agent, or another runtime can stand around the same world without each inventing its own private source of truth.
 
-That is what it looks like when a single-player game begins becoming a distributed multiplayer world.
+That is what it looks like when a single-player game begins becoming a mesh-scaling persistent world simulation with multiple frontend experiences.
 
 It also establishes the migration playbook for other games. Aetheria is the daunting case. Smaller projects can move faster because they have fewer hidden ownership boundaries to cut. CultPong is the obvious next test: a simpler arena game where the same state, command, surface, and authority pattern can be applied with less archaeology. The question is not whether every game has to become Aetheria-scale. The question is how quickly CultMesh can turn an existing game into a distributed arena once the doctrine and tooling have been proven on the hard case.
 

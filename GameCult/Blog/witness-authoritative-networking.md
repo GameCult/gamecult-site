@@ -51,11 +51,48 @@ I call this witness-authoritative networking.
 
 It is not ordinary peer-to-peer lockstep. It is not "trust the client." It is not a blockchain. It is a distributed realtime database and simulation-consensus layer built on CultCache documents, CultNet reliable UDP, Verse policy, peer discovery, authority leases, shard logs, prediction scopes, immutable simulation observations, quorum candidates, and committed facts.
 
-The claim is practical: if a game is implemented in terms of CultMesh state, then the work of observation, resimulation, and local agreement can move to the players already present. The operator no longer has to provision centralized simulation capacity for every fast-changing fact in the world. Infrastructure becomes a coordination and finality layer rather than the only place where meaningful state can be observed.
+The claim is practical: if a game is implemented in terms of CultMesh state, then the work of observation, resimulation, and local agreement can move to the players already present for the classes of facts whose policy permits it. The operator still owns identity, high-value authority, audit, contested facts, and finality. Infrastructure becomes a coordination and finality layer rather than the only place where meaningful state can be observed.
 
 </div>
 
 For readers outside networking: a normal online game often asks the server to be referee, security camera, court transcript, and scoreboard at the same time. CultMesh keeps the referee, but lets the cameras already in the room help establish what happened.
+
+## A Doorway Example
+
+Imagine a crowded siege. A fireball crosses a doorway at almost the same moment a defender raises a shield.
+
+In the server-authoritative version, every client sends intent to the server. The server validates the caster, validates the shield, simulates the timing, decides whether the fireball crossed first, writes the result, and tells everyone what happened.
+
+That is clean. It is also the expensive shape: the hot place in the world is exactly where the operator must do the most seeing.
+
+In the witness-authoritative version, the caster still predicts locally and the authority still commits the final fact. The difference is that nearby runtimes which could legitimately see or re-simulate that doorway publish typed observations under the same Verse rules. Three witnesses agree that the fireball crossed the threshold before the shield became active. One client disagrees, but its claim hash does not match the rule version for that frame. The mesh forms a candidate. Policy decides whether that candidate is admissible. The shard authority commits the fact. Everyone reconciles.
+
+That is the whole idea in human terms:
+
+```text
+nearby event
+-> eligible witnesses
+-> matching observations
+-> policy candidate
+-> committed fact
+```
+
+The rest of this paper names the machinery that makes that sentence safe enough to build on.
+
+## Executive Decision
+
+Use CultMesh when a game has dense local realtime state, can express important facts as deterministic claims, needs multiple runtimes or surfaces over the same world state, or is hitting strategic risk because the engine currently owns too much durable state.
+
+Do not treat witness authority as a magic replacement for dedicated servers. Ranked competitive integrity, high-value markets, irreversible ownership, anti-cheat audits, and contested facts may still require operator authority or operator witnesses. CultMesh is interesting because those stricter paths can coexist with peer observations instead of forcing every fact in the world through the most expensive path by default.
+
+For studios, the practical offer is not "throw away your game and rewrite it around our network stack." The practical offer is a porting path:
+
+- map state ownership, save paths, simulation loops, authority leaks, UI dependencies, and backend assumptions;
+- choose one gameplay loop as a pilot slice;
+- move durable state and commands into typed CultMesh documents;
+- keep the existing client while lowering daemon-owned state back into engine UI;
+- add verification rules that prevent old local-authority paths from returning;
+- introduce prediction, shard logs, observations, and witness policy only where the game actually needs them.
 
 ## 1. Problem Statement
 
@@ -367,6 +404,27 @@ Consensus candidate is not authority.
 
 Commit is authority.
 
+Different claims can use different policy. A Verse should not pretend that a projectile graze, a marketplace transfer, a ranked match result, and an ownership grant have the same risk profile.
+
+```text
+low-value projectile contact
+  eligible local witnesses + matching deterministic claim hash
+  operator audit sampling
+
+temporary physics impulse
+  witness quorum inside a short frame window
+  expires or reconciles through committed state
+
+inventory transfer
+  typed request to operator or shard authority
+  witness observations may inform UI, not ownership
+
+ranked or irreversible fact
+  stricter authority path, challenge window, replay log, operator witness
+```
+
+That is why witness-authoritative networking is a policy family, not one quorum rule stamped onto every system. The safe question is always: which fact, under which threat model, with which eligibility rule, and with what finality delay?
+
 ## 6. CultMesh Primitives
 
 CultMesh exists because peer-to-peer transport alone is not an authority model.
@@ -553,7 +611,7 @@ operator pays for hot-region scaling
 operator pays for every disputed fact
 ```
 
-Witness authority lets the mesh borrow the resources already present:
+Witness authority lets the mesh borrow the resources already present for facts whose Verse policy allows peer observation:
 
 ```text
 players simulate what they can see
@@ -573,11 +631,11 @@ This is the line that makes the model economically interesting:
 
 Server authority treats density as load.
 
-Witness authority treats density as evidence.
+Witness authority treats density as evidence when the witnesses are eligible, diverse enough, compatible with the Verse, and bound by a policy that can reject spam, collusion, and disagreement.
 
 ## 11. Case Study: Aetheria In Metamorphosis
 
-Aetheria is the hard-mode proof case, not a hypothetical demo.
+Aetheria is the hard-mode migration proof case, not a hypothetical demo.
 
 The current [`codex/aetheria-state-rebuild`](https://github.com/GameCult/Aetheria/tree/codex/aetheria-state-rebuild) branch is moving Aetheria from a single-player Unity game toward a daemon-owned distributed multiplayer game with multiple frontends. The old shape treated Unity as the natural owner of local game state. The new shape makes the Aetheria Verse daemon the owner of simulation state, typed command application, health publication, command boundaries, provider advertisement, and provider-owned Eve GUI/TUI surfaces.
 
@@ -664,6 +722,21 @@ The current work is packaging the proof:
 - deployment paths where the central service coordinates discovery and authority while the daemons carry their own bodies.
 
 That is why CultMesh belongs beside Eve and CultUI, not merely beside netcode and hosting. The mesh owns state and authority. Eve and CultUI make that state visible and operable wherever a compatible runtime can stand.
+
+For a studio evaluating GameCult, the smallest useful engagement is a migration map, not a blank-check rewrite. The useful first deliverable is specific:
+
+```text
+current state owners
+current authority leaks
+first gameplay loop to port
+daemon boundary
+typed document set
+frontend bridge
+verification gates
+risks that make CultMesh a bad fit
+```
+
+Good fits include existing games with valuable worlds, tangled single-player state, co-op ambitions, modding or community-server pressure, multi-client tooling needs, or high-density simulation goals. Bad fits include tiny games that only need conventional engine netcode, launch-critical PvP games with no time for architecture migration, games whose important facts cannot be made deterministic enough to witness, or teams that do not want to expose state boundaries.
 
 ## 13. Failure Modes
 
@@ -844,6 +917,25 @@ daemon state
 
 That is not cosmetic. A distributed system without inspection surfaces is difficult to operate safely. CultMesh makes state and authority travel; Eve and CultUI make that state legible where it arrives.
 
+The current maturity picture is intentionally mixed:
+
+```text
+Capability                         Status
+typed CultCache documents           implemented
+.cc persistence and shard logs       implemented
+cross-runtime wire-format parity     implemented across core runtimes
+CultNet RUDP pipe                    current work
+daemon-owned Eve/CultUI surfaces     current work
+Aetheria state migration             active migration proof case
+authority leases                     implementation spine / emerging
+observation hub and candidates       implementation spine / needs validation
+witness quorum policies              design path / needs adversarial testing
+production MMO load evidence         not claimed yet
+third-party onboarding recipes       current work
+```
+
+That table is part of the claim. CultMesh is not being presented as a production-proven MMO silver bullet. It is a serious substrate with enough implemented machinery to migrate real state ownership now, and enough remaining validation work to deserve honest benchmarks before anyone uses it for capacity planning.
+
 ## 17. Limits And Validation Work
 
 First, the cost model is architectural rather than measured production evidence. The claim needs load tests, adversarial tests, and game telemetry before it should be used for capacity planning.
@@ -853,6 +945,16 @@ Second, witness-authoritative networking depends on deterministic claim construc
 Third, peer resources are not free. They are already present, which is different. Good policy must respect bandwidth, battery, CPU, thermals, NAT traversal, player churn, and explicit consent for any role that increases local resource use.
 
 Fourth, the Eve/CultUI surface claim is a capability claim, not a polished third-party onboarding claim. The next product work is recipes and proof surfaces that make daemon-published UI obvious to new integrators.
+
+The next proof artifacts are concrete:
+
+- deterministic replay compatibility across runtimes;
+- colluding-witness simulations;
+- hot-region benchmarks at increasing player density;
+- churn and partition behavior under real network loss;
+- client CPU, bandwidth, battery, and thermal budgets;
+- operator-witness fallback paths;
+- a small-game migration case after Aetheria, such as CultPong, to show the same pattern without Aetheria's archaeology.
 
 ## 18. Conclusion
 

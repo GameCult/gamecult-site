@@ -17,7 +17,7 @@ socialDeck: "One base. One crew. One player sees the whole war. The others are i
 
 Aetheria has always pulled toward too much at once: fast ships, strategic maps, a living economy, faction pressure, salvage stories, and the MMO-sized dream behind them.
 
-The current direction is **Aetheria: Starbridge**: a 2-5 player asymmetric co-op defense game, built as a tiny public proof of CultMesh running Aetheria state in trusted co-op mode.
+The current direction is [**Aetheria: Starbridge**](https://aetheria.gamecult.org/Game-Design/Aetheria-Starbridge): a 2-5 player asymmetric co-op defense game, built as a tiny public proof of CultMesh running Aetheria state in trusted co-op mode.
 
 One player commands a frontier base from a browser RTS interface. The other players fly ships in the Unity client. Everyone is inside the same battle from a different seat.
 

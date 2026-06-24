@@ -19,7 +19,7 @@ Aetheria has always pulled toward too much at once: fast ships, strategic maps, 
 
 The current direction is **Aetheria: Starbridge**: a 2-5 player asymmetric co-op defense game, built as a tiny public proof of CultMesh running Aetheria state in trusted co-op mode.
 
-One player commands a frontier base from a browser RTS interface. The other players fly ships in the Unity client. Everyone is inside the same battle, but not inside the same interface.
+One player commands a frontier base from a browser RTS interface. The other players fly ships in the Unity client. Everyone is inside the same battle from a different seat.
 
 > One base. One crew. One player sees the whole war. The others are in it.
 
@@ -27,9 +27,9 @@ The commander routes power, expands infrastructure, fabricates weapons, assigns 
 
 The pilots thrust, dodge, shoot, overheat, dock, refit, recover salvage, anchor field structures, cool overloaded systems, repair exposed modules, and make the urgent close-range saves the commander cannot make from the chair.
 
-The base survives only if both games cooperate. Starbridge is not "RTS player plus spectators" or "pilots with a commander-themed UI bolted on." It is two different games strapped to the same war machine.
+The base survives only if both games cooperate. Starbridge puts two games on the same war machine: the command map with its power routes and fabrication queues, and the cockpit view where somebody has to fly through the mess.
 
-The commander sees the shape of the battle without hands on the field. The pilots have hands on the field without the full picture. Communication is not flavor. It is the main mechanic.
+The commander sees the shape of the battle without hands on the field. The pilots have hands on the field without the full picture. Communication becomes the main mechanic.
 
 The best Starbridge moments should sound like this:
 
@@ -65,19 +65,19 @@ role
 -> shared battle
 ```
 
-The demo does not need to be adversarial to be meaningful. Unity is not the whole world anymore. The browser is not a side dashboard. They are both playing the same state.
+Trusted co-op is already enough to prove the important boundary. Unity no longer owns the whole world, and the browser is more than a side dashboard. Both clients are playing the same state.
 
 ## The Bridge Between Interfaces
 
 Starbridge means the fantasy and the architecture at once: a bridge crew split across interfaces, joined by shared Verse state.
 
-This matters because Aetheria's old impossible-feeling dream was not simply "make the game multiplayer." Starbridge turns that multi-paradigm world into something with edges: one base, one arena, one shared state model.
+Starbridge gives Aetheria's old multi-paradigm dream edges: one base, one arena, one shared state model.
 
-The first public proof does not need a galaxy. It needs one base, one arena, a small build set, salvage, docking, support gear, drones, construction ghosts, and post-wave technology choices.
+The first public proof can leave the galaxy offscreen. One base, one arena, a small build set, salvage, docking, support gear, drones, construction ghosts, and post-wave technology choices are enough to test the shape.
 
 The commander places a projected turret frame. A pilot flies into danger and anchors it. The fabricator spends salvage someone risked a ship to recover. A shield node overheats because the commander overclocked it to survive a bomber wave. A pilot docks, gives up a weapon slot for a coolant beam, and comes back as the person who can keep the machine alive.
 
-It is readable. It is asymmetric. It is small enough to build. And it exercises the exact state boundaries Aetheria needs for the larger dream.
+It is readable, asymmetric, small enough to build, and pointed straight at the state boundaries Aetheria needs for the larger dream.
 
 ## Why This Is The Right Demo
 
@@ -91,6 +91,6 @@ Instead of asking, "How do we rewrite Aetheria as an MMO?" Starbridge asks:
 
 It gives the big dream a testable body. If Starbridge works, we learn how Aetheria state crosses runtime boundaries, what must belong to the daemon, and what feels good when the architecture is invisible to players.
 
-Players do not need to know about CultMesh. They only need the moment where the commander drops a turret frame, a pilot anchors it under fire, and the turret becomes real for everyone.
+Players can meet the architecture through the moment where the commander drops a turret frame, a pilot anchors it under fire, and the turret becomes real for everyone.
 
-Starbridge is not the whole Aetheria dream. It is the first version small enough to build and strong enough to prove the rest.
+Starbridge gives the larger Aetheria dream a version small enough to build and strong enough to put weight on.

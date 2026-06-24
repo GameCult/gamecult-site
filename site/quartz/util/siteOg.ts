@@ -1,4 +1,5 @@
 import { QuartzPluginData } from "../plugins/vfile"
+import { mergeHierarchicalSocialMetadata, socialMetadataSlug } from "./siteSocialOverrides"
 
 export type SocialImageRef =
   | {
@@ -24,6 +25,17 @@ export type SiteSocialMetadata = {
 }
 
 type SectionKey = "studio" | "projects" | "blog" | "docs"
+
+const socialMetadataOverrides: Record<string, SiteSocialMetadata> = {
+  "Blog/aetheria-starbridge-cultmesh-demo": {
+    section: "Aetheria",
+    image: {
+      kind: "static",
+      path: "social/starbridge-promo-outward-panorama.png",
+      alt: "Aetheria Starbridge panorama.",
+    },
+  },
+}
 
 const sectionMetadata: Record<SectionKey, SiteSocialMetadata> = {
   studio: {
@@ -81,11 +93,12 @@ function sectionForSlug(slug: string): SectionKey {
 }
 
 export function resolveSiteSocialMetadata(fileData: QuartzPluginData): SiteSocialMetadata {
-  const slug = typeof fileData.slug === "string" ? fileData.slug : "index"
+  const slug = socialMetadataSlug(fileData)
+  const baseMetadata = sectionMetadata[sectionForSlug(slug)]
 
   if (slug === "Projects/CultPong") {
     return {
-      ...sectionMetadata.projects,
+      ...baseMetadata,
       image: {
         kind: "static",
         path: "social/cultpong-cover.png",
@@ -94,5 +107,5 @@ export function resolveSiteSocialMetadata(fileData: QuartzPluginData): SiteSocia
     }
   }
 
-  return sectionMetadata[sectionForSlug(slug)]
+  return mergeHierarchicalSocialMetadata(baseMetadata, slug, socialMetadataOverrides)
 }

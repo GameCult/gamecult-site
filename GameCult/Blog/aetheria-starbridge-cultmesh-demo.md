@@ -11,6 +11,7 @@ tags:
   - co-op
   - unity
 socialDeck: "One base. One crew. One player sees the whole war. The others are in it."
+socialImage: "social/starbridge-promo-outward-panorama.png"
 ---
 
 # Aetheria Starbridge Is The Small Door Into The Big Dream

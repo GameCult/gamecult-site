@@ -15,6 +15,8 @@ socialDeck: "One base. One crew. One player sees the whole war. The others are i
 
 # Aetheria Starbridge Is The Small Door Into The Big Dream
 
+![Aetheria Starbridge panorama](https://aetheria.gamecult.org/media/aetheria/starbridge-promo-outward-panorama.png)
+
 Aetheria has always pulled toward too much at once: fast ships, strategic maps, a living economy, faction pressure, salvage stories, and the MMO-sized dream behind them.
 
 The current direction is [**Aetheria: Starbridge**](https://aetheria.gamecult.org/Game-Design/Aetheria-Starbridge): a 2-5 player asymmetric co-op defense game, built as a tiny public proof of CultMesh running Aetheria state in trusted co-op mode.

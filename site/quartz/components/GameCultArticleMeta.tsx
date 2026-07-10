@@ -36,9 +36,30 @@ export default (() => {
     })
 
     return (
-      <div class={`${displayClass ?? ""} gamecult-article-meta`}>
-        <span class="gamecult-article-meta-author">{authorLabel(fileData.frontmatter)}</span>
-        <p show-comma="true" class="content-meta gamecult-article-meta-details">
+      <div
+        class={`${displayClass ?? ""} gamecult-article-meta`}
+        style={{
+          display: "flex",
+          alignItems: "baseline",
+          justifyContent: "space-between",
+          gap: "1rem",
+        }}
+      >
+        <span class="gamecult-article-meta-author" style={{ minWidth: 0 }}>
+          {authorLabel(fileData.frontmatter)}
+        </span>
+        <p
+          show-comma="true"
+          class="content-meta gamecult-article-meta-details"
+          style={{
+            display: "inline-flex",
+            flex: "0 0 auto",
+            justifyContent: "flex-end",
+            margin: 0,
+            marginLeft: "auto",
+            textAlign: "right",
+          }}
+        >
           {fileData.dates && <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />}
           <span>{displayedTime}</span>
         </p>

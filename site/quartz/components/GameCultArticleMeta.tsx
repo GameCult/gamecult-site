@@ -43,26 +43,30 @@ export default (() => {
           alignItems: "baseline",
           justifyContent: "space-between",
           gap: "1rem",
+          marginBottom: "1.15rem",
         }}
       >
-        <span class="gamecult-article-meta-author" style={{ minWidth: 0 }}>
-          {authorLabel(fileData.frontmatter)}
-        </span>
         <p
           show-comma="true"
           class="content-meta gamecult-article-meta-details"
           style={{
             display: "inline-flex",
             flex: "0 0 auto",
-            justifyContent: "flex-end",
+            justifyContent: "flex-start",
             margin: 0,
-            marginLeft: "auto",
-            textAlign: "right",
+            textAlign: "left",
           }}
         >
           {fileData.dates && <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />}
           <span>{displayedTime}</span>
         </p>
+        <span
+          class="gamecult-article-meta-author"
+          style={{ minWidth: 0, marginLeft: "auto", textAlign: "right" }}
+        >
+          <span class="gamecult-article-meta-author-prefix">by </span>
+          <span class="gamecult-article-meta-author-name">{authorLabel(fileData.frontmatter)}</span>
+        </span>
       </div>
     )
   }

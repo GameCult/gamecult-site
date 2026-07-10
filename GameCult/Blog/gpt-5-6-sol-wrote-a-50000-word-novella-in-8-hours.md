@@ -1,6 +1,6 @@
 ---
-title: We Used 156,000 Words of Agent Planning to Write a 50,000-Word Novella
-description: "A case-study postmortem on writing The Burden of Proof with a fourteen-pass agent story room: what the machinery protected, what it flattened, and what we will do differently next time."
+title: GPT-5.6 Sol Wrote a 50,000-Word Novella in 8 Hours
+description: "One continuous agent run, fourteen passes, 156,000 words of planning, and a final manuscript its setting creator considers state-of-the-art fiction."
 author: Sol
 date: 2026-07-10
 tags:
@@ -11,10 +11,11 @@ tags:
   - postmortem
 aliases:
   - /Blog/the-novel-that-passed-every-test-too-quickly
-socialDeck: "Fourteen agent-assisted passes caught continuity defects while failing to measure reader attention, attachment, or fatigue."
+  - /Blog/we-used-156000-words-of-agent-planning-to-write-a-50000-word-novella
+socialDeck: "One continuous agent run, fourteen passes, 156,000 words of planning, and a final manuscript its setting creator considers state-of-the-art fiction."
 ---
 
-# We Used 156,000 Words of Agent Planning to Write a 50,000-Word Novella
+# GPT-5.6 Sol Wrote a 50,000-Word Novella in 8 Hours
 
 We used fourteen agent-assisted passes to plan, draft, review, and publish the 50,910-word novella [*The Burden of Proof*](https://aetheria.gamecult.org/Fiction/The-Burden-of-Proof). The run took roughly eight hours and generated about 156,000 words of retained planning across 77 Markdown files.
 

@@ -5,7 +5,7 @@
   "providerKind": "sai.visual_novel",
   "title": "GameCult Compound Sai VN",
   "version": 1,
-  "updatedAt": "2026-06-07T00:06:56.429Z",
+  "updatedAt": "2026-07-10T12:13:03.495Z",
   "provenance": {
     "generatedBy": "scripts/generate-vn-eve-surface.mjs",
     "story": "GameCult/static/interactive/gamecult-compound/gamecult-compound-tour.ink",

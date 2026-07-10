@@ -414,7 +414,7 @@ Eve can advertise a gorgeous control surface across five bodies. Beautiful. The 
 # sprite: document@left
 # knot: proof
 # dom: proof
-The proof wall starts with current evidence: project pages, repo links, site graph, damage reports, and a receipt checklist for what the future ledger must show. It is not enough yet. That is the point of making the gap visible.
+The proof wall starts with current evidence: project pages, repo links, site graph, a source-grounded chronicle, and a receipt checklist for what the future ledger must show. It is not enough yet. That is the point of making the gap visible.
 -> proof_2
 
 === proof_2 ===

@@ -53,6 +53,7 @@ function isIgnoredPath(relativePath) {
       (part) =>
         ignoredDirectories.has(part) ||
         part.startsWith(".cache") ||
+        part.startsWith(".quartz-") ||
         part.startsWith(".del--"),
     );
 }

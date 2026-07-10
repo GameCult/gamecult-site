@@ -247,8 +247,8 @@ cssclasses:
 
   <div id="gamecult-vn-proof" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Public Proof</h2>
-    <p>The proof surface is still young. Today it starts with repo links, damage reports, graph visibility, and a receipt checklist for future Bifrost work records.</p>
-    <p><a href="/Blog/daily-damage-report/">Daily Damage Report</a> | <a href="/Graph">Site graph</a></p>
+    <p>The proof surface is still young. Today it starts with repo links, a source-grounded chronicle, graph visibility, and a receipt checklist for future Bifrost work records.</p>
+    <p><a href="/Blog/the-last-few-months/">The Last Few Months</a> | <a href="/Graph">Site graph</a></p>
   </div>
 
   <div id="gamecult-vn-roadmap" class="gamecult-vn-source-card" data-sai-dom-source="true">

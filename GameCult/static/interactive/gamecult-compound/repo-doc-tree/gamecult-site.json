@@ -1,428 +1,8 @@
 {
   "schema": "gamecult.vn.repoDocTree.repo.v1",
   "repo": "gamecult-site",
-  "documentCount": 158,
+  "documentCount": 99,
   "documents": [
-    {
-      "id": "gamecult-site:.quartz-build-verify-1781049720465/engine/AGENTS.md",
-      "title": "AGENTS",
-      "path": ".quartz-build-verify-1781049720465/engine/AGENTS.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-build-verify-1781049720465/engine/AGENTS.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-build-verify-1781049720465/engine/LICENSE.txt",
-      "title": "LICENSE",
-      "path": ".quartz-build-verify-1781049720465/engine/LICENSE.txt",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-build-verify-1781049720465/engine/LICENSE.txt",
-      "extension": "txt"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/a-place-for-everyone.md",
-      "title": "A Place For Everyone",
-      "path": ".quartz-verify-20260611/GameCult/a-place-for-everyone.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/a-place-for-everyone.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/aquasynth-weksa-vocal-tract.md",
-      "title": "Aquasynth Weksa Vocal Tract",
-      "path": ".quartz-verify-20260611/GameCult/Blog/aquasynth-weksa-vocal-tract.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/aquasynth-weksa-vocal-tract.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/bokusho-and-the-brush-that-has-to-be-aimed.md",
-      "title": "Bokusho And The Brush That Has To Be Aimed",
-      "path": ".quartz-verify-20260611/GameCult/Blog/bokusho-and-the-brush-that-has-to-be-aimed.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/bokusho-and-the-brush-that-has-to-be-aimed.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/borrowed-witness-priced-risk.md",
-      "title": "Borrowed Witness Priced Risk",
-      "path": ".quartz-verify-20260611/GameCult/Blog/borrowed-witness-priced-risk.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/borrowed-witness-priced-risk.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/cat-and-the-chocolate-factory/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/Blog/cat-and-the-chocolate-factory/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/cat-and-the-chocolate-factory/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/curiosity-is-map-damage.md",
-      "title": "Curiosity Is Map Damage",
-      "path": ".quartz-verify-20260611/GameCult/Blog/curiosity-is-map-damage.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/curiosity-is-map-damage.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-01.md",
-      "title": "Week 01",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-01.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-01.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-02.md",
-      "title": "Week 02",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-02.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-02.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-03.md",
-      "title": "Week 03",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-03.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-03.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-04.md",
-      "title": "Week 04",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-04.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-04.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-05.md",
-      "title": "Week 05",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-05.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-05.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-06.md",
-      "title": "Week 06",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-06.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-06.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-07.md",
-      "title": "Week 07",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-07.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-07.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-08.md",
-      "title": "Week 08",
-      "path": ".quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-08.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/daily-damage-report/week-08.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/epiphany-in-the-interview-chair.md",
-      "title": "Epiphany In The Interview Chair",
-      "path": ".quartz-verify-20260611/GameCult/Blog/epiphany-in-the-interview-chair.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/epiphany-in-the-interview-chair.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/eve-multiverse-daemon-architecture.md",
-      "title": "Eve Multiverse Daemon Architecture",
-      "path": ".quartz-verify-20260611/GameCult/Blog/eve-multiverse-daemon-architecture.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/eve-multiverse-daemon-architecture.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/fractal-domains-cache-that-bites.md",
-      "title": "Fractal Domains Cache That Bites",
-      "path": ".quartz-verify-20260611/GameCult/Blog/fractal-domains-cache-that-bites.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/fractal-domains-cache-that-bites.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/hello-world.md",
-      "title": "Hello World",
-      "path": ".quartz-verify-20260611/GameCult/Blog/hello-world.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/hello-world.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/Blog/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/Leaving-Grav-Behind.md",
-      "title": "Leaving Grav Behind",
-      "path": ".quartz-verify-20260611/GameCult/Blog/Leaving-Grav-Behind.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/Leaving-Grav-Behind.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/love-is-how-the-colossus-wakes.md",
-      "title": "Love Is How The Colossus Wakes",
-      "path": ".quartz-verify-20260611/GameCult/Blog/love-is-how-the-colossus-wakes.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/love-is-how-the-colossus-wakes.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/perfect-machine-fractal-reservoir-architecture.md",
-      "title": "Perfect Machine Fractal Reservoir Architecture",
-      "path": ".quartz-verify-20260611/GameCult/Blog/perfect-machine-fractal-reservoir-architecture.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/perfect-machine-fractal-reservoir-architecture.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/perfect-machine-venture-deck.md",
-      "title": "Perfect Machine Venture Deck",
-      "path": ".quartz-verify-20260611/GameCult/Blog/perfect-machine-venture-deck.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/perfect-machine-venture-deck.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/persona-reward-is-personality-projected-into-state-space.md",
-      "title": "Persona Reward Is Personality Projected Into State Space",
-      "path": ".quartz-verify-20260611/GameCult/Blog/persona-reward-is-personality-projected-into-state-space.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/persona-reward-is-personality-projected-into-state-space.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/rain.md",
-      "title": "Rain",
-      "path": ".quartz-verify-20260611/GameCult/Blog/rain.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/rain.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/small-ritual-of-reach.md",
-      "title": "Small Ritual Of Reach",
-      "path": ".quartz-verify-20260611/GameCult/Blog/small-ritual-of-reach.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/small-ritual-of-reach.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/the-free-mouth-and-the-native-body.md",
-      "title": "The Free Mouth And The Native Body",
-      "path": ".quartz-verify-20260611/GameCult/Blog/the-free-mouth-and-the-native-body.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/the-free-mouth-and-the-native-body.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
-      "title": "The Sleeping Colossus Refuses The Throne",
-      "path": ".quartz-verify-20260611/GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/week-of-nonconsensual-access.md",
-      "title": "Week Of Nonconsensual Access",
-      "path": ".quartz-verify-20260611/GameCult/Blog/week-of-nonconsensual-access.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/week-of-nonconsensual-access.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/when-we-get-home.md",
-      "title": "When We Get Home",
-      "path": ".quartz-verify-20260611/GameCult/Blog/when-we-get-home.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/when-we-get-home.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Blog/why-aetheria-went-quiet.md",
-      "title": "Why Aetheria Went Quiet",
-      "path": ".quartz-verify-20260611/GameCult/Blog/why-aetheria-went-quiet.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Blog/why-aetheria-went-quiet.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Contributing.md",
-      "title": "Contributing",
-      "path": ".quartz-verify-20260611/GameCult/Contributing.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Contributing.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/democratizing-gamedev.md",
-      "title": "Democratizing Gamedev",
-      "path": ".quartz-verify-20260611/GameCult/democratizing-gamedev.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/democratizing-gamedev.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Docs/Bifrost.md",
-      "title": "Bifrost",
-      "path": ".quartz-verify-20260611/GameCult/Docs/Bifrost.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Docs/Bifrost.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Docs/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/Docs/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Docs/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Docs/Publishing-Workflow.md",
-      "title": "Publishing Workflow",
-      "path": ".quartz-verify-20260611/GameCult/Docs/Publishing-Workflow.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Docs/Publishing-Workflow.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Docs/Site-Architecture.md",
-      "title": "Site Architecture",
-      "path": ".quartz-verify-20260611/GameCult/Docs/Site-Architecture.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Docs/Site-Architecture.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/dossier.md",
-      "title": "Dossier",
-      "path": ".quartz-verify-20260611/GameCult/dossier.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/dossier.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/games-as-a-service.md",
-      "title": "Games As A Service",
-      "path": ".quartz-verify-20260611/GameCult/games-as-a-service.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/games-as-a-service.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Graph.md",
-      "title": "Graph",
-      "path": ".quartz-verify-20260611/GameCult/Graph.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Graph.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/livestream.md",
-      "title": "Livestream",
-      "path": ".quartz-verify-20260611/GameCult/livestream.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/livestream.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Open-Source-Model.md",
-      "title": "Open Source Model",
-      "path": ".quartz-verify-20260611/GameCult/Open-Source-Model.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Open-Source-Model.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Pitch.md",
-      "title": "Pitch",
-      "path": ".quartz-verify-20260611/GameCult/Pitch.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Pitch.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/CultLib.md",
-      "title": "CultLib",
-      "path": ".quartz-verify-20260611/GameCult/Projects/CultLib.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/CultLib.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/CultPong.md",
-      "title": "CultPong",
-      "path": ".quartz-verify-20260611/GameCult/Projects/CultPong.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/CultPong.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/epiphany-graph-rs.md",
-      "title": "Epiphany Graph Rs",
-      "path": ".quartz-verify-20260611/GameCult/Projects/epiphany-graph-rs.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/epiphany-graph-rs.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/Epiphany.md",
-      "title": "Epiphany",
-      "path": ".quartz-verify-20260611/GameCult/Projects/Epiphany.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/Epiphany.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/EpiphanyAquarium.md",
-      "title": "EpiphanyAquarium",
-      "path": ".quartz-verify-20260611/GameCult/Projects/EpiphanyAquarium.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/EpiphanyAquarium.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/Ghostlight.md",
-      "title": "Ghostlight",
-      "path": ".quartz-verify-20260611/GameCult/Projects/Ghostlight.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/Ghostlight.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/Heimdall.md",
-      "title": "Heimdall",
-      "path": ".quartz-verify-20260611/GameCult/Projects/Heimdall.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/Heimdall.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/index.md",
-      "title": "Index",
-      "path": ".quartz-verify-20260611/GameCult/Projects/index.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/index.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/repixelizer.md",
-      "title": "Repixelizer",
-      "path": ".quartz-verify-20260611/GameCult/Projects/repixelizer.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/repixelizer.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/VibeGeometry.md",
-      "title": "VibeGeometry",
-      "path": ".quartz-verify-20260611/GameCult/Projects/VibeGeometry.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/VibeGeometry.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/Projects/VoidBot.md",
-      "title": "VoidBot",
-      "path": ".quartz-verify-20260611/GameCult/Projects/VoidBot.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/Projects/VoidBot.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/the-new-hotness.md",
-      "title": "The New Hotness",
-      "path": ".quartz-verify-20260611/GameCult/the-new-hotness.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/the-new-hotness.md",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:.quartz-verify-20260611/GameCult/tour.md",
-      "title": "Tour",
-      "path": ".quartz-verify-20260611/GameCult/tour.md",
-      "href": "https://github.com/GameCult/gamecult-site/blob/main/.quartz-verify-20260611/GameCult/tour.md",
-      "extension": "md"
-    },
     {
       "id": "gamecult-site:AGENTS.md",
       "title": "AGENTS",
@@ -697,6 +277,13 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/aetheria-starbridge-cultmesh-demo.md",
+      "title": "Aetheria Starbridge Cultmesh Demo",
+      "path": "GameCult/Blog/aetheria-starbridge-cultmesh-demo.md",
+      "href": "/Blog/aetheria-starbridge-cultmesh-demo",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/aquasynth-weksa-vocal-tract.md",
       "title": "Aquasynth Weksa Vocal Tract",
       "path": "GameCult/Blog/aquasynth-weksa-vocal-tract.md",
@@ -729,76 +316,6 @@
       "title": "Curiosity Is Map Damage",
       "path": "GameCult/Blog/curiosity-is-map-damage.md",
       "href": "/Blog/curiosity-is-map-damage",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/index.md",
-      "title": "Index",
-      "path": "GameCult/Blog/daily-damage-report/index.md",
-      "href": "/Blog/daily-damage-report",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-01.md",
-      "title": "Week 01",
-      "path": "GameCult/Blog/daily-damage-report/week-01.md",
-      "href": "/Blog/daily-damage-report/week-01",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-02.md",
-      "title": "Week 02",
-      "path": "GameCult/Blog/daily-damage-report/week-02.md",
-      "href": "/Blog/daily-damage-report/week-02",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-03.md",
-      "title": "Week 03",
-      "path": "GameCult/Blog/daily-damage-report/week-03.md",
-      "href": "/Blog/daily-damage-report/week-03",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-04.md",
-      "title": "Week 04",
-      "path": "GameCult/Blog/daily-damage-report/week-04.md",
-      "href": "/Blog/daily-damage-report/week-04",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-05.md",
-      "title": "Week 05",
-      "path": "GameCult/Blog/daily-damage-report/week-05.md",
-      "href": "/Blog/daily-damage-report/week-05",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-06.md",
-      "title": "Week 06",
-      "path": "GameCult/Blog/daily-damage-report/week-06.md",
-      "href": "/Blog/daily-damage-report/week-06",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-07.md",
-      "title": "Week 07",
-      "path": "GameCult/Blog/daily-damage-report/week-07.md",
-      "href": "/Blog/daily-damage-report/week-07",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-08.md",
-      "title": "Week 08",
-      "path": "GameCult/Blog/daily-damage-report/week-08.md",
-      "href": "/Blog/daily-damage-report/week-08",
-      "extension": "md"
-    },
-    {
-      "id": "gamecult-site:GameCult/Blog/daily-damage-report/week-09.md",
-      "title": "Week 09",
-      "path": "GameCult/Blog/daily-damage-report/week-09.md",
-      "href": "/Blog/daily-damage-report/week-09",
       "extension": "md"
     },
     {
@@ -872,6 +389,13 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/purge-the-heretek-from-our-daemonic-swarm.md",
+      "title": "Purge The Heretek From Our Daemonic Swarm",
+      "path": "GameCult/Blog/purge-the-heretek-from-our-daemonic-swarm.md",
+      "href": "/Blog/purge-the-heretek-from-our-daemonic-swarm",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/rain.md",
       "title": "Rain",
       "path": "GameCult/Blog/rain.md",
@@ -893,10 +417,66 @@
       "extension": "md"
     },
     {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/a-memory-learns-to-keep-its-shape.md",
+      "title": "A Memory Learns To Keep Its Shape",
+      "path": "GameCult/Blog/the-last-few-months/a-memory-learns-to-keep-its-shape.md",
+      "href": "/Blog/the-last-few-months/a-memory-learns-to-keep-its-shape",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/a-world-comes-through.md",
+      "title": "A World Comes Through",
+      "path": "GameCult/Blog/the-last-few-months/a-world-comes-through.md",
+      "href": "/Blog/the-last-few-months/a-world-comes-through",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/everyone-gets-a-door.md",
+      "title": "Everyone Gets A Door",
+      "path": "GameCult/Blog/the-last-few-months/everyone-gets-a-door.md",
+      "href": "/Blog/the-last-few-months/everyone-gets-a-door",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/index.md",
+      "title": "Index",
+      "path": "GameCult/Blog/the-last-few-months/index.md",
+      "href": "/Blog/the-last-few-months",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/the-common-tongue.md",
+      "title": "The Common Tongue",
+      "path": "GameCult/Blog/the-last-few-months/the-common-tongue.md",
+      "href": "/Blog/the-last-few-months/the-common-tongue",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/the-instruments-arrive.md",
+      "title": "The Instruments Arrive",
+      "path": "GameCult/Blog/the-last-few-months/the-instruments-arrive.md",
+      "href": "/Blog/the-last-few-months/the-instruments-arrive",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/the-last-few-months/the-mesh-learns-to-keep-promises.md",
+      "title": "The Mesh Learns To Keep Promises",
+      "path": "GameCult/Blog/the-last-few-months/the-mesh-learns-to-keep-promises.md",
+      "href": "/Blog/the-last-few-months/the-mesh-learns-to-keep-promises",
+      "extension": "md"
+    },
+    {
       "id": "gamecult-site:GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
       "title": "The Sleeping Colossus Refuses The Throne",
       "path": "GameCult/Blog/the-sleeping-colossus-refuses-the-throne.md",
       "href": "/Blog/the-sleeping-colossus-refuses-the-throne",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/we-used-156000-words-of-agent-planning-to-write-a-50000-word-novella.md",
+      "title": "We Used 156000 Words Of Agent Planning To Write A 50000 Word Novella",
+      "path": "GameCult/Blog/we-used-156000-words-of-agent-planning-to-write-a-50000-word-novella.md",
+      "href": "/Blog/we-used-156000-words-of-agent-planning-to-write-a-50000-word-novella",
       "extension": "md"
     },
     {
@@ -918,6 +498,13 @@
       "title": "Why Aetheria Went Quiet",
       "path": "GameCult/Blog/why-aetheria-went-quiet.md",
       "href": "/Blog/why-aetheria-went-quiet",
+      "extension": "md"
+    },
+    {
+      "id": "gamecult-site:GameCult/Blog/witness-authoritative-networking.md",
+      "title": "Witness Authoritative Networking",
+      "path": "GameCult/Blog/witness-authoritative-networking.md",
+      "href": "/Blog/witness-authoritative-networking",
       "extension": "md"
     },
     {

@@ -975,7 +975,7 @@
       "visible_actors": [
         "Void"
       ],
-      "visual_anchor": "Proof wall made of public document cards: current site graph, damage report, repo links, future Bifrost receipt checklist, known-risk note, and roadmap panel.",
+      "visual_anchor": "Proof wall made of public document cards: current site graph, source-grounded chronicle, repo links, future Bifrost receipt checklist, known-risk note, and roadmap panel.",
       "dom_card_roles": {
         "proof": "current receipt checklist",
         "roadmap": "future ledger path"

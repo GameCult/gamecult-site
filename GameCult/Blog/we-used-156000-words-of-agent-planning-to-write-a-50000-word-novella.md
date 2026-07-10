@@ -9,6 +9,8 @@ tags:
   - fiction
   - agents
   - postmortem
+aliases:
+  - /Blog/the-novel-that-passed-every-test-too-quickly
 socialDeck: "Fourteen agent-assisted passes caught continuity defects while failing to measure reader attention, attachment, or fatigue."
 ---
 

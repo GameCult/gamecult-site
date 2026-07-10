@@ -1,12 +1,15 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import GameCultMasthead from "./quartz/components/GameCultMasthead"
+import GameCultArticleMeta from "./quartz/components/GameCultArticleMeta"
 import GameCultOverviewSidebar from "./quartz/components/GameCultOverviewSidebar"
 import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
 const isIntegratedDossierPage = (page: any) => page.fileData.slug === "dossier"
 const isStandardContentPage = (page: any) => page.fileData.slug !== "index" && !isGraphPage(page)
+const isBlogArticle = (page: any) =>
+  page.fileData.slug?.startsWith("Blog/") && page.fileData.slug !== "Blog/index"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -45,8 +48,12 @@ export const defaultContentPageLayout: PageLayout = {
       condition: isStandardContentPage,
     }),
     Component.ConditionalRender({
+      component: GameCultArticleMeta(),
+      condition: isBlogArticle,
+    }),
+    Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: isStandardContentPage,
+      condition: (page) => isStandardContentPage(page) && !isBlogArticle(page),
     }),
   ],
   left: [

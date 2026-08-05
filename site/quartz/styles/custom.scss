@@ -2769,3 +2769,168 @@ body[data-slug="tour"] .gamecult-composite-sections {
 .integrated-dossier-glossary dd + dt {
   margin-top: 1rem;
 }
+.swarm-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.swarm-legend span,
+.swarm-badge {
+  border: 1px solid color-mix(in srgb, var(--secondary) 42%, transparent);
+  border-radius: 999px;
+  color: var(--darkgray);
+  font-size: 0.72rem;
+  letter-spacing: 0.035em;
+  line-height: 1;
+  padding: 0.38rem 0.62rem;
+}
+
+.swarm-legend strong {
+  color: var(--dark);
+  margin-right: 0.25rem;
+}
+
+.swarm-rail-hint {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.swarm-carousel {
+  box-sizing: border-box;
+  contain: inline-size;
+  display: grid;
+  grid-auto-columns: minmax(18rem, 24rem);
+  grid-auto-flow: column;
+  gap: 1rem;
+  margin: 0.75rem calc(-1 * clamp(0rem, 3vw, 2rem)) 2.5rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding: 0.35rem clamp(0rem, 3vw, 2rem) 1.25rem;
+  scroll-padding-inline: clamp(0rem, 3vw, 2rem);
+  scroll-snap-type: inline mandatory;
+  scrollbar-color: var(--secondary) color-mix(in srgb, var(--lightgray) 65%, transparent);
+  width: 100%;
+}
+
+.swarm-carousel:focus-visible {
+  border-radius: 0.75rem;
+  outline: 2px solid var(--secondary);
+  outline-offset: 0.3rem;
+}
+
+.swarm-domain-card {
+  background:
+    linear-gradient(145deg, color-mix(in srgb, var(--light) 94%, var(--secondary)), var(--light));
+  border: 1px solid color-mix(in srgb, var(--lightgray) 78%, var(--secondary));
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem color-mix(in srgb, var(--dark) 9%, transparent);
+  display: flex;
+  flex-direction: column;
+  min-height: 24rem;
+  padding: 1.15rem;
+  scroll-snap-align: start;
+}
+
+.swarm-domain-card > header {
+  align-items: center;
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: 4.5rem 1fr;
+  margin-bottom: 0.9rem;
+}
+
+.swarm-domain-card > header img,
+.swarm-avatar-fallback {
+  aspect-ratio: 1;
+  background: color-mix(in srgb, var(--secondary) 17%, var(--light));
+  border: 1px solid color-mix(in srgb, var(--secondary) 42%, transparent);
+  border-radius: 0.85rem;
+  height: 4.5rem;
+  object-fit: cover;
+  width: 4.5rem;
+}
+
+.swarm-avatar-fallback {
+  align-items: center;
+  color: var(--secondary);
+  display: flex;
+  font-family: var(--headerFont);
+  font-size: 2rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.swarm-domain-card h3 {
+  font-size: 1.45rem;
+  line-height: 1.05;
+  margin: 0.15rem 0 0.55rem;
+}
+
+.swarm-kicker {
+  color: var(--gray);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.swarm-badge {
+  display: inline-block;
+  padding: 0.3rem 0.48rem;
+}
+
+.swarm-badge.face {
+  background: color-mix(in srgb, var(--secondary) 13%, transparent);
+  color: var(--secondary);
+}
+
+.swarm-badge.missing {
+  border-color: color-mix(in srgb, #c77d42 60%, transparent);
+  color: #a85f2f;
+}
+
+.swarm-domain-card > p:not(.swarm-kicker) {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin: 0 0 1rem;
+}
+
+.swarm-domain-card ul {
+  border-top: 1px solid var(--lightgray);
+  list-style: none;
+  margin: auto 0 0;
+  padding: 0.75rem 0 0;
+}
+
+.swarm-domain-card li {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin: 0.42rem 0;
+}
+
+.swarm-domain-card li a {
+  font-weight: 700;
+}
+
+.swarm-domain-card li em {
+  color: var(--gray);
+  display: block;
+  font-style: normal;
+}
+
+@media (max-width: 600px) {
+  .swarm-carousel {
+    grid-auto-columns: min(86vw, 21rem);
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+
+  .swarm-domain-card {
+    min-height: 0;
+  }
+}

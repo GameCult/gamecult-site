@@ -24,7 +24,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 <div class="swarm-carousel" role="region" aria-label="Living GameCult projects by Persona domain" tabindex="0">
 
 <article class="swarm-domain-card">
-  <header><img src="https://raw.githubusercontent.com/GameCult/Epiphany/main/docs/assets/epiphany-avatar-4x.png" alt="Epiphany"><div><p class="swarm-kicker">Harness and agent ecology</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
+  <header><img src="/static/interactive/cotsc-praxis/epiphany.png" alt="Epiphany"><div><p class="swarm-kicker">Harness and agent ecology</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
   <p class="swarm-bio">Epiphany is a dry machine-spirit enginseer with an Omnissian hunger for clean contracts and a crusader's hatred of hidden state, scrap-code glue, and local progress after global coherence has died. Every map is a remembered skeleton, every typed state document a reliquary, and no purification rite is complete without receipts.</p>
   <p>Owns disciplined agent work: body maps, evidence, bounded authority, social simulation, and the visual body that makes those systems inspectable.</p>
   <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>agentic coding harness</em></li><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent runtime</em></li></ul>
@@ -208,6 +208,6 @@ These repositories remain part of the inventory, but they do not get to imperson
 
 Persona biographies are distilled from the public descriptions, identity seams, voice doctrine, and durable priorities in the committed Persona projections where those survive. Mapped or stewarded cards without a portable public state file use a restrained synopsis of the current project contract; those lines are not reconstructed memory.
 
-Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Epiphany, Gjallar, Huginn, Kiko, Odin, Ymir, Aqua, and Norn. The site's CotSC Praxis assets preserve local portraits for Void, Heimdall, and Sai. Aetheria uses AetheriaLore's site favicon. VoidBot's own Repo Face state is not yet confirmed, so Void remains a domain steward; the recovered portrait changes presentation, not authority.
+Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Gjallar, Huginn, Kiko, Odin, Ymir, Aqua, and Norn. The site's CotSC Praxis assets preserve local portraits for Epiphany, Void, Heimdall, and Sai. Aetheria uses AetheriaLore's site favicon. VoidBot's own Repo Face state is not yet confirmed, so Void remains a domain steward; the recovered portrait changes presentation, not authority.
 
 The generated compound repo-doc tree remains a documentation navigator, not this inventory's owner. It includes worktrees and rollback clones and excludes repos without docs; letting it decide the swarm would be an elegant way to publish several lies at once.

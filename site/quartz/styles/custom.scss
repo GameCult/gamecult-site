@@ -2900,6 +2900,16 @@ body[data-slug="tour"] .gamecult-composite-sections {
   margin: 0 0 1rem;
 }
 
+.swarm-domain-card > .swarm-bio {
+  border-left: 2px solid color-mix(in srgb, var(--secondary) 50%, transparent);
+  color: var(--dark);
+  font-family: var(--headerFont);
+  font-size: 0.94rem;
+  font-style: italic;
+  line-height: 1.5;
+  padding-left: 0.75rem;
+}
+
 .swarm-domain-card ul {
   border-top: 1px solid var(--lightgray);
   list-style: none;

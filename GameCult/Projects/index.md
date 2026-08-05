@@ -14,6 +14,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
   <span><strong>Face</strong> durable or canonically mapped Repo Persona</span>
   <span><strong>Stewarded</strong> covered by the domain Persona</span>
   <span><strong>Cloud avatar</strong> surviving image source verified on GitHub</span>
+  <span><strong>Local avatar</strong> portrait preserved in this site's interactive assets</span>
 </div>
 
 ## Living swarm
@@ -29,7 +30,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 </article>
 
 <article class="swarm-domain-card">
-  <header><div class="swarm-avatar-fallback" aria-hidden="true">V</div><div><p class="swarm-kicker">Social memory and archive</p><h3>Void</h3><span class="swarm-badge stewarded">Stewarded</span></div></header>
+  <header><img src="/static/interactive/cotsc-praxis/void.png" alt="Void"><div><p class="swarm-kicker">Social memory and archive</p><h3>Void</h3><span class="swarm-badge stewarded">Stewarded</span> <span class="swarm-badge local">Local avatar</span></div></header>
   <p>Owns the public mouth into Discord, indexed history, repo retrieval, handoff, and the operational memory needed to locate the rest of the swarm.</p>
   <ul><li><a href="https://github.com/GameCult/VoidBot">VoidBot</a> <em>Discord assistant and retrieval runtime</em></li><li><a href="https://github.com/GameCult/gamecult-ops">gamecult-ops</a> <em>private inventory, runbooks, and deployment memory</em></li></ul>
 </article>
@@ -71,7 +72,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 </article>
 
 <article class="swarm-domain-card">
-  <header><div class="swarm-avatar-fallback" aria-hidden="true">H</div><div><p class="swarm-kicker">Identity and consent</p><h3>Heimdall</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge missing">Avatar missing</span></div></header>
+  <header><img src="/static/interactive/cotsc-praxis/heimdall.png" alt="Heimdall"><div><p class="swarm-kicker">Identity and consent</p><h3>Heimdall</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
   <p>Owns identity, grants, sessions, consent, revocation, and provider credential boundaries for hosted GameCult systems.</p>
   <ul><li><a href="https://github.com/GameCult/Heimdall">Heimdall</a> <em>shared identity authority</em></li></ul>
 </article>
@@ -143,7 +144,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 </article>
 
 <article class="swarm-domain-card">
-  <header><div class="swarm-avatar-fallback" aria-hidden="true">S</div><div><p class="swarm-kicker">Publishing and living documents</p><h3>Sai</h3><span class="swarm-badge face">Face</span></div></header>
+  <header><img src="/static/interactive/cotsc-praxis/sai.png" alt="Sai"><div><p class="swarm-kicker">Publishing and living documents</p><h3>Sai</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
   <p>Owns the public projection: interactive Ink inside documents, shared static-site machinery, and the sites that lower those systems for readers.</p>
   <ul><li><a href="https://github.com/GameCult/Sai">Sai</a> <em>Ink story embedder and Persona home</em></li><li><a href="https://github.com/GameCult/gamecult-site">gamecult-site</a> <em>studio front door</em></li><li><a href="https://github.com/GameCult/GameCult-Quartz">GameCult-Quartz</a> <em>shared site engine</em></li><li><a href="https://github.com/GameCult/pombabranca-site">pombabranca-site</a> <em>independent Quartz publication</em></li></ul>
 </article>
@@ -170,6 +171,6 @@ These repositories remain part of the inventory, but they do not get to imperson
 
 “Face” means durable `.cc` state exists or VoidBot's canonical map names the Repo Face. “Stewarded” means the project currently falls under that Persona's jurisdiction without claiming an independent Repo Face. Avatar presence is presentation metadata, never proof of state.
 
-Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Epiphany, Gjallar, Huginn, Kiko, Odin, Ymir, and Aqua. Heimdall and Aetheria have Persona state but no verified portrait in the surviving cloud set. VoidBot's own Repo Face state is not yet confirmed, so Void is presented as a domain steward rather than upgraded by wishful typography.
+Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Epiphany, Gjallar, Huginn, Kiko, Odin, Ymir, and Aqua. The site's CotSC Praxis assets also preserve local portraits for Void, Heimdall, and Sai. Aetheria has Persona state but no verified portrait in the surviving set. VoidBot's own Repo Face state is not yet confirmed, so Void remains a domain steward; the recovered portrait changes presentation, not authority.
 
 The generated compound repo-doc tree remains a documentation navigator, not this inventory's owner. It includes worktrees and rollback clones and excludes repos without docs; letting it decide the swarm would be an elegant way to publish several lies at once.

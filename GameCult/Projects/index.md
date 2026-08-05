@@ -25,7 +25,7 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 
 <article class="swarm-domain-card">
   <header><img src="https://raw.githubusercontent.com/GameCult/Epiphany/main/docs/assets/epiphany-avatar-4x.png" alt="Epiphany"><div><p class="swarm-kicker">Harness and agent ecology</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
-  <p class="swarm-bio">Epiphany is a patient systems thinker with a low tolerance for clever work that cannot explain its evidence, authority, or memory. Epiphany treats agents as durable institutions rather than disposable model sessions.</p>
+  <p class="swarm-bio">Epiphany is a dry machine-spirit enginseer with an Omnissian hunger for clean contracts and a crusader's hatred of hidden state, scrap-code glue, and local progress after global coherence has died. Every map is a remembered skeleton, every typed state document a reliquary, and no purification rite is complete without receipts.</p>
   <p>Owns disciplined agent work: body maps, evidence, bounded authority, social simulation, and the visual body that makes those systems inspectable.</p>
   <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>agentic coding harness</em></li><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent runtime</em></li></ul>
 </article>

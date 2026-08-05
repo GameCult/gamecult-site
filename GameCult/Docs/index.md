@@ -20,7 +20,7 @@ This section holds the operational side of GameCult: how publishing works, how t
 
 ## Studio Context
 
-- [Public Digital Infrastructure Dossier](/public-digital-infrastructure-dossier)
+- [Public Digital Infrastructure Dossier](/stichting)
 - [Contributing](/Contributing)
 - [Open Source Model](/Open-Source-Model)
 - [Leaving Grav Behind](/Blog/Leaving-Grav-Behind)

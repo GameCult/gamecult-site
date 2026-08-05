@@ -25,7 +25,7 @@ from reportlab.platypus import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "GameCult" / "public-digital-infrastructure-dossier.md"
+SOURCE = ROOT / "GameCult" / "stichting.md"
 OUTPUT = ROOT / "docs" / "gamecult_public_digital_infrastructure_dossier.pdf"
 
 INK = colors.HexColor("#10182A")

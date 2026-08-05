@@ -2,6 +2,8 @@
 title: Public Digital Infrastructure Dossier
 description: "A proposal for a Dutch stichting to steward GameCult as an open digital common, sustained by services and accountable public-interest partnerships."
 enableToc: true
+aliases:
+  - /public-digital-infrastructure-dossier
 cssclasses:
   - integrated-dossier-page
 ---

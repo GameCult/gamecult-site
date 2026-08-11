@@ -65,11 +65,13 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.ConditionalRender({
       component: GameCultOverviewSidebar(),
-      condition: (page) => !isGraphPage(page) && !isIntegratedDossierPage(page),
+      condition: (page) =>
+        !isGraphPage(page) && !isIntegratedDossierPage(page) && !isBlogArticle(page),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: (page) => isStandardContentPage(page) && !isIntegratedDossierPage(page),
+      condition: (page) =>
+        isStandardContentPage(page) && !isIntegratedDossierPage(page) && !isBlogArticle(page),
     }),
   ],
 }

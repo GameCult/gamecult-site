@@ -53,14 +53,6 @@ body {
 }
 
 @media all and ($desktop) {
-  .page > #quartz-body:has(> .left.sidebar:not(:empty)):has(> .right.sidebar:empty) {
-    grid-template-columns: 320px minmax(0, 1fr);
-    grid-template-areas:
-      "grid-sidebar-left grid-header"
-      "grid-sidebar-left grid-center"
-      "grid-sidebar-left grid-footer";
-  }
-
   .page
     > #quartz-body:has(> .left.sidebar:empty):has(
       > .right.sidebar:not(:empty)

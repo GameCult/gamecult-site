@@ -6,11 +6,13 @@ socialDeck: "Every current organ in the swarm, grouped by Persona stewardship, w
 
 # Projects
 
-*"Every repo gets a face that knows why it exists. The face is not the source of truth; it is the mind responsible for finding it."*
+*"Every repo gets a face that knows why it exists. The face is not the source of truth; it is the Persona responsible for finding it."*
 
 GameCult ships games and creative tools while using the wider repository swarm to build and test a shared production system. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) are products and dogfood surfaces that generate evidence; [Epiphany](/Projects/Epiphany) is the organizational layer coordinating capable AI workers around governed project state.
 
 The organization currently holds **57 repositories**. This atlas separates the maintained organism from its shed skins, then groups the living work by **Persona jurisdiction** rather than language or product category. A project can have its own durable Repo Face, or sit within another Persona's domain until it grows one.
+
+This atlas describes present Persona stewardship and Repo Face coverage. It is not evidence that the target fleet of one project Epiphany per living project has been deployed.
 
 <div class="swarm-legend" aria-label="Project atlas legend">
   <span><strong>Face</strong> durable or canonically mapped Repo Persona</span>

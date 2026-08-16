@@ -60,6 +60,7 @@ sidebarGroups:
   <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Epiphany</h2>
     <p>Epiphany is the organizational layer above frontier AI workers: governed shared state, bounded authority, coordinated action, and inspectable receipts. Humans keep judgment instead of becoming prompt operators.</p>
+    <p>The target body is one repo-owned project Epiphany per living project, collaborating through governed surfaces and meeting visitors through consent-bound public Personas.</p>
     <p><a href="/Projects/Epiphany">Project page</a></p>
   </div>
 
@@ -95,7 +96,7 @@ sidebarGroups:
 
   <div id="gamecult-vn-roadmap" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Roadmap Shape</h2>
-    <p>Supervised GameCult dogfood, attributable Bifrost work, then supervised co-development pilots on one repository and one repeatable workflow. Larger claims wait for the receipts.</p>
+    <p>Supervised GameCult dogfood, attributable Bifrost work, then supervised co-development pilots on one repository and one repeatable workflow. The project fleet, public rooms, durable social governance, and complete attribution remain gated. Larger claims wait for the receipts.</p>
     <p><a href="/Docs/Bifrost">Current Bifrost rollout</a></p>
   </div>
 

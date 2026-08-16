@@ -75,22 +75,22 @@ compositeSections:
 
 GameCult is a distributed studio shipping games and creative tools through a supervised, increasingly agent-assisted, inspectable production system. The products have to be worth using. The machine that builds them has to preserve human judgment, contributor dignity, and receipts when the work gets complicated.
 
-The studio and the production system are one bet. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) create value and put real pressure on the same shared infrastructure. [Epiphany](/Projects/Epiphany) is the organizational layer above the frontier AI workers helping us build them.
+The studio and production system are one bet. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) create value while putting real pressure on the shared infrastructure. [Epiphany](/Projects/Epiphany) is the organizational layer each project organism will use to coordinate frontier AI workers.
 
 <div class="gamecult-home-hero">
   <section class="gamecult-hero-panel">
     <p class="gamecult-kicker">Products generate the evidence.</p>
     <p>Frontier agents can keep producing plausible local progress after the architecture has stopped making sense. GameCult is building around that failure: shared project state, bounded authority, visible decisions, review, and execution receipts instead of a row of private prompt boxes.</p>
     <p>Epiphany is being built so an organization can delegate bounded work to capable AI without turning every employee into an AI operator. Humans keep the work that is actually human: purpose, taste, authority, disagreement, exceptions, and acceptance. Agents take bounded work and return with artifacts and evidence.</p>
-    <p>We are not claiming the autonomous studio is finished. Epiphany is a supervised engineering alpha, and GameCult is its longitudinal test. Releases, bad assumptions, reversals, review burden, cost, and recovery all belong in the evidence.</p>
+    <p>We are not claiming that fleet already exists. Epiphany is a supervised engineering alpha, and GameCult is its longitudinal forge: releases, bad assumptions, reversals, review burden, cost, and recovery all belong in the evidence.</p>
     <div class="gamecult-feature-grid">
       <div class="gamecult-feature-card">
         <h3>Products that ship</h3>
         <p>Aetheria, StreamPixels, CultPong, Repixelizer, and the wider studio are products first and dogfood surfaces second. Nobody benefits from a beautiful production theory that cannot survive a release.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>One learning machine</h3>
-        <p>Games, realtime services, art tools, identity, deployment, and community memory put different pressure on shared infrastructure. Every honest lesson should strengthen the next project.</p>
+        <h3>A swarm of swarms</h3>
+        <p>Each project will keep its own Mind and authority. Offers, claims, requests, evidence, and receipts will cross the studio without turning visibility into permission.</p>
       </div>
       <div class="gamecult-feature-card">
         <h3>Humans keep judgment</h3>

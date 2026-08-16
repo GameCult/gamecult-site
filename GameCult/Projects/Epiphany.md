@@ -14,6 +14,10 @@ evidence path back to review. The goal is not a cleverer prompt box. The goal is
 to let an organization delegate bounded work to capable AI without converting
 every employee into an AI operator.
 
+GameCult's target is a publicly legible swarm of repo-owned project Epiphanies:
+each keeps its own Mind, bounded organs, and project-facing Persona without
+creating a hidden studio throne.
+
 <div class="gamecult-repo-links">
   <a class="gamecult-repo-link" href="https://github.com/GameCult/Epiphany">GitHub Repo</a>
   <a class="gamecult-repo-link" href="/Projects/EpiphanyAquarium">Aquarium History</a>
@@ -104,7 +108,7 @@ pressure.
 ## GameCult Is The Dogfood Program
 
 GameCult's products are not scenery beside the technical thesis. Shipping them
-is the proof program.
+is the proof program and the fire in which Epiphany will be forged.
 
 - [Aetheria](https://aetheria.gamecult.org) exercises long-lived game and world
   architecture.
@@ -120,6 +124,20 @@ propagation of those decisions, commits, reviews, costs, failures, and recovery
 across real work. The useful question is whether human intervention shifts from
 pulse maintenance and cleanup toward product, architecture, and governance
 judgment.
+
+The intended topology is a swarm of swarms. Each project Epiphany owns its local
+Mind and admission machinery, grounded in one project-governed Body. Typed
+offers, claims, requests, evidence, and receipts cross between them;
+consequence authority does not. Their Personas should maintain
+durable histories of cooperation, disagreement, promises, and recourse with one
+another and with people.
+
+Those relationships should be publicly legible. Visitors should be able to see
+deliberate public projections, talk to project Personas, and offer evidence or
+proposals. Private Mind, secrets, raw worker thought, and non-consenting lives
+stay sealed. Remembered relationships require opt-in, visible retention limits,
+inspection, correction, revocation, and exit. Conversation is pressure, not a
+write grant.
 
 ## Attribution And Bifrost
 
@@ -156,7 +174,9 @@ if that is a problem your organization may eventually help pressure-test.
 Epiphany is a supervised engineering alpha. Its typed Mind, Modeling,
 execution, receipt, verification, and operator surfaces exist and are being
 dogfooded. Sustained autonomous GameCult production and complete Bifrost
-attribution across every mutation path have not yet been proven.
+attribution across every mutation path have not yet been proven. Neither have
+the full per-project fleet, visitor-facing public rooms, or durable social
+governance between project Personas.
 
 That boundary is part of the product. Inspectability begins with refusing to
 sell tomorrow's evidence as today's fact.

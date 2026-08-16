@@ -41,7 +41,7 @@ sidebarGroups:
 <section class="gamecult-vn-source" aria-label="GameCult public wiki doors and portfolio pitch cards">
   <div id="gamecult-vn-studio" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>GameCult</h2>
-    <p>GameCult is a distributed game studio building open worlds, experiments, fiction, and the public machinery required to make creative work inspectable.</p>
+    <p>GameCult ships games and creative tools through a supervised, increasingly agent-assisted, inspectable production system. The products create value; building them generates the evidence.</p>
     <p><a href="/Open-Source-Model">Open Source Model</a> | <a href="/Contributing">Contributing</a></p>
   </div>
 
@@ -59,7 +59,7 @@ sidebarGroups:
 
   <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Epiphany</h2>
-    <p>Epiphany keeps maps, evidence, and role lanes outside the chat fog so future work can argue with the past.</p>
+    <p>Epiphany is the organizational layer above frontier AI workers: governed shared state, bounded authority, coordinated action, and inspectable receipts. Humans keep judgment instead of becoming prompt operators.</p>
     <p><a href="/Projects/Epiphany">Project page</a></p>
   </div>
 
@@ -89,13 +89,13 @@ sidebarGroups:
 
   <div id="gamecult-vn-proof" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Public Proof</h2>
-    <p>The proof surface starts with repo links, a source-grounded chronicle, graph visibility, and a receipt checklist for future Bifrost records.</p>
+    <p>The proof is longitudinal: real work across GameCult products, including questions, human decisions, artifacts, commits, review burden, cost, failures, and recovery. A victory reel would be easier. It would also prove less.</p>
     <p><a href="/Blog/the-last-few-months/">The Last Few Months</a> | <a href="/Graph">Site graph</a></p>
   </div>
 
   <div id="gamecult-vn-roadmap" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Roadmap Shape</h2>
-    <p>Bifrost-first private alpha, proof sprint, design partners, support pilots, then larger support machinery under legal review.</p>
+    <p>Supervised GameCult dogfood, attributable Bifrost work, then supervised co-development pilots on one repository and one repeatable workflow. Larger claims wait for the receipts.</p>
     <p><a href="/Docs/Bifrost">Current Bifrost rollout</a></p>
   </div>
 

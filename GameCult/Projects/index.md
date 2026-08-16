@@ -8,7 +8,9 @@ socialDeck: "Every current organ in the swarm, grouped by Persona stewardship, w
 
 *"Every repo gets a face that knows why it exists. The face is not the source of truth; it is the mind responsible for finding it."*
 
-The GameCult organization currently holds **57 repositories**. This atlas separates the maintained organism from its shed skins, then groups the living work by **Persona jurisdiction** rather than language or product category. A project can have its own durable Repo Face, or sit within another Persona's domain until it grows one.
+GameCult ships games and creative tools while using the wider repository swarm to build and test a shared production system. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) are products and dogfood surfaces that generate evidence; [Epiphany](/Projects/Epiphany) is the organizational layer coordinating capable AI workers around governed project state.
+
+The organization currently holds **57 repositories**. This atlas separates the maintained organism from its shed skins, then groups the living work by **Persona jurisdiction** rather than language or product category. A project can have its own durable Repo Face, or sit within another Persona's domain until it grows one.
 
 <div class="swarm-legend" aria-label="Project atlas legend">
   <span><strong>Face</strong> durable or canonically mapped Repo Persona</span>
@@ -24,10 +26,10 @@ The GameCult organization currently holds **57 repositories**. This atlas separa
 <div class="swarm-carousel" role="region" aria-label="Living GameCult projects by Persona domain" tabindex="0">
 
 <article class="swarm-domain-card">
-  <header><img src="/static/interactive/cotsc-praxis/epiphany.png" alt="Epiphany"><div><p class="swarm-kicker">Harness and agent ecology</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
+  <header><img src="/static/interactive/cotsc-praxis/epiphany.png" alt="Epiphany"><div><p class="swarm-kicker">AI work coordination and governance</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
   <p class="swarm-bio">Epiphany is a dry machine-spirit enginseer with an Omnissian hunger for clean contracts and a crusader's hatred of hidden state, scrap-code glue, and local progress after global coherence has died. Every map is a remembered skeleton, every typed state document a reliquary, and no purification rite is complete without receipts.</p>
-  <p>Owns disciplined agent work: body maps, evidence, bounded authority, social simulation, and the visual body that makes those systems inspectable.</p>
-  <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>agentic coding harness</em></li><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent runtime</em></li></ul>
+  <p>Owns disciplined agent work: governed project state, body maps, evidence, bounded authority, coordinated execution, and inspectable receipts.</p>
+  <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>organizational layer above frontier AI workers</em></li><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent runtime</em></li></ul>
 </article>
 
 <article class="swarm-domain-card">

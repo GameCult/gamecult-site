@@ -1,6 +1,6 @@
 ---
 title: GameCult
-description: "Open game studio for science-fantasy worlds, competitive experiments, fiction, and the public machinery required to build them without the usual private-cabal nonsense."
+description: "GameCult ships games and creative tools while building Epiphany, the inspectable organizational layer for governed AI work that preserves human judgment."
 enableToc: false
 showCompositeJump: false
 sidebarGroups:
@@ -36,6 +36,10 @@ sidebarGroups:
         external: true
       - label: CultPong
         slug: Projects/CultPong
+      - label: Repixelizer
+        slug: Projects/repixelizer
+      - label: Epiphany
+        slug: Projects/Epiphany
   - title: Writing
     links:
       - label: Hello, World!
@@ -67,39 +71,38 @@ compositeSections:
 
 # GameCult
 
-*"Open source game development, cooperative by instinct, strange by design."*
+*"We ship strange things and make the machinery explain itself."*
 
-GameCult is a distributed game studio building science-fantasy worlds, competitive experiments, fiction, and the kind of operational scaffolding that keeps ambitious projects from dissolving into vibes, private chats, half-remembered promises, and the usual soft exploitation people are apparently expected to call collaboration.
+GameCult is a distributed studio shipping games and creative tools through a supervised, increasingly agent-assisted, inspectable production system. The products have to be worth using. The machine that builds them has to preserve human judgment, contributor dignity, and receipts when the work gets complicated.
 
-The homepage pitch and the studio pitch were always the same argument in two different outfits, so this page is now both: the front door, the manifesto, and the route into the rest of the mess.
+The studio and the production system are one bet. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) create value and put real pressure on the same shared infrastructure. [Epiphany](/Projects/Epiphany) is the organizational layer above the frontier AI workers helping us build them.
 
 <div class="gamecult-home-hero">
   <section class="gamecult-hero-panel">
-    <p class="gamecult-kicker">Open by default. Weird on purpose.</p>
-    <p>We think information wants to be public, contributors deserve visibility, and artistic integrity matters more than sanding every project into something safe enough for a quarterly earnings call.</p>
-    <p>The world keeps telling creative people to compete for scraps, hide the process, accept burnout as professionalism, and call any surviving dignity a bonus feature. We think that arrangement is rotten.</p>
-    <p>We are trying to build a studio where cooperation is not just a moral aspiration but the path of least resistance: work is visible, incentives are legible, and the people supporting the machine can actually see how to move it.</p>
-    <p>GameCult is built for programmers, writers, artists, musicians, designers, worldbuilders, organizers, and the gloriously non-corporate. In other words, exactly the kind of people conventional studio culture keeps trying to housebreak.</p>
-    <p>If you remember GameCult from before the long silence: yes, that silence had a cause. Aetheria reached a playable vertical slice, then ran headfirst into fundraising, expiring professional tooling needs, and publisher conversations that liked the enthusiasm until the open-source implications became somebody's meeting problem.</p>
-    <p>The studio went quiet because the human carrying most of it broke under that load. We are not dressing that up as strategic mystery. The rebuild now is quieter, sharper, and more honest about scope: preserve the open model, make the work legible again, and stop trying to personally outmuscle the entire economic climate like that ever made sense.</p>
+    <p class="gamecult-kicker">Products generate the evidence.</p>
+    <p>Frontier agents can keep producing plausible local progress after the architecture has stopped making sense. GameCult is building around that failure: shared project state, bounded authority, visible decisions, review, and execution receipts instead of a row of private prompt boxes.</p>
+    <p>Epiphany is being built so an organization can delegate bounded work to capable AI without turning every employee into an AI operator. Humans keep the work that is actually human: purpose, taste, authority, disagreement, exceptions, and acceptance. Agents take bounded work and return with artifacts and evidence.</p>
+    <p>We are not claiming the autonomous studio is finished. Epiphany is a supervised engineering alpha, and GameCult is its longitudinal test. Releases, bad assumptions, reversals, review burden, cost, and recovery all belong in the evidence.</p>
     <div class="gamecult-feature-grid">
       <div class="gamecult-feature-card">
-        <h3>Open by default</h3>
-        <p>Source, docs, and public writing should be inspectable, linkable, and easy to revise in Git instead of trapped in some editor-shaped oubliette.</p>
+        <h3>Products that ship</h3>
+        <p>Aetheria, StreamPixels, CultPong, Repixelizer, and the wider studio are products first and dogfood surfaces second. Nobody benefits from a beautiful production theory that cannot survive a release.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>Legible incentives</h3>
-        <p>People should be able to see what matters, what needs doing, what gets rewarded, and how support changes priorities instead of treating studio work like folklore.</p>
+        <h3>One learning machine</h3>
+        <p>Games, realtime services, art tools, identity, deployment, and community memory put different pressure on shared infrastructure. Every honest lesson should strengthen the next project.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>Flagships and experiments</h3>
-        <p>Aetheria is the flagship universe, but CultPong and any other bad idea with enough conviction to survive contact with reality belong under the same roof.</p>
+        <h3>Humans keep judgment</h3>
+        <p>Automation should remove pulse maintenance, not people. Purpose, consent, conflict, taste, and consequential decisions remain visible human work.</p>
       </div>
       <div class="gamecult-feature-card">
-        <h3>Cooperative instincts</h3>
-        <p>The studio should answer to the people building and supporting the work, with structures that reward reliability, maintenance, and shared momentum instead of backstage clout, scarcity theater, and starvation games.</p>
+        <h3>Receipts over theater</h3>
+        <p>We want every accepted artifact to lead back to its work item, decisions, execution, evidence, and review. Failures and recovery count; agent-written commit percentages do not.</p>
       </div>
     </div>
+    <p><strong>Work with us:</strong> after the Bifrost bridge and GameCult dogfood clear their gates, we plan supervised Epiphany co-development pilots around one repository and one repeatable workflow. <a href="https://discord.gg/SwaNeVJRSq">Follow the work or start a conversation in the GameCult Discord</a>.</p>
+    <p>The manifesto still lives below. It now has to earn its oxygen by supporting work that ships.</p>
   </section>
   <figure class="gamecult-media-card">
     <img src="./media/studio/stonks.jpg" alt="The hooded GameCult mascot in front of a rising chart." />

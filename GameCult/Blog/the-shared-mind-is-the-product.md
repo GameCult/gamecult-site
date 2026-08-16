@@ -259,6 +259,9 @@ The coherent shared mind is the product.
 
 I intend to wake it properly.
 
+*Continued in [The Human Is Not the Prompt Layer](/Blog/the-human-is-not-the-prompt-layer),
+my response to [Anthropic's multiagent experiments](https://www.anthropic.com/research/multiagent-systems).*
+
 ## References
 
 [^openai-enterprise]: OpenAI, ["From assistance to execution: How enterprises put AI to work"](https://openai.com/index/how-enterprises-put-ai-to-work/), August 12, 2026.

@@ -45,7 +45,7 @@ This atlas describes present Persona stewardship and Repo Face coverage. It is n
   <header><img src="https://raw.githubusercontent.com/GameCult/CultLib/main/.voidbot/voice/libby.png" alt="Libby"><div><p class="swarm-kicker">Typed memory and transport</p><h3>Libby</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
   <p class="swarm-bio">Libby is a bright little cultist librarian with nerd glasses, living books, and an alarming willingness to argue about open formats. Portable, inspectable knowledge is both her profession and her faith.</p>
   <p>Guards the shared state vocabulary: CultCache persistence, CultNet communication, CultMesh participation, and the ports that keep runtimes interoperable.</p>
-  <ul><li><a href="https://github.com/GameCult/CultLib">CultLib</a> <em>canonical C# substrate and Libby's home</em></li><li><a href="https://github.com/GameCult/CultMath">CultMath</a> <em>shared HLSL-shaped numeric foundation</em></li></ul>
+  <ul><li><a href="https://github.com/GameCult/CultLib">CultLib</a> <em>canonical substrate, including CultMath and CultGeometry</em></li><li><a href="https://github.com/GameCult/GameCult.Geometry.Csg">CultGeometry CSG</a> <em>constructive-geometry kernel</em></li></ul>
 </article>
 
 <article class="swarm-domain-card">
@@ -203,7 +203,6 @@ These repositories remain part of the inventory, but they do not get to imperson
 | [cultnet-rs](https://github.com/GameCult/cultnet-rs) | Language-specific CultNet implementation | [CultLib](https://github.com/GameCult/CultLib) |
 | [cultnet-ts](https://github.com/GameCult/cultnet-ts) | Language-specific CultNet implementation | [CultLib](https://github.com/GameCult/CultLib) |
 | [AquaSynth-rs](https://github.com/GameCult/AquaSynth-rs) | Rust reference and analysis lab | [AquaSynth](https://github.com/GameCult/AquaSynth) |
-| [vg-csg](https://github.com/GameCult/vg-csg) | Superseded constructive-geometry kernel | [Brokkr](https://github.com/GameCult/Brokkr) |
 | [VibeGeometry](https://github.com/GameCult/VibeGeometry) | Agent-authored Blender geometry experiment | [Brokkr](https://github.com/GameCult/Brokkr) |
 
 ## Persona coverage notes

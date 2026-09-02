@@ -41,14 +41,14 @@ sidebarGroups:
 <section class="gamecult-vn-source" aria-label="GameCult public wiki doors and portfolio pitch cards">
   <div id="gamecult-vn-studio" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>GameCult</h2>
-    <p>GameCult ships games and creative tools through a supervised, increasingly agent-assisted, inspectable production system. The products create value; building them generates the evidence.</p>
+    <p>GameCult ships games and creative tools while building an AI-native federation of project minds with bounded local authority, shared typed infrastructure, public Personas, and inspectable receipts. The products create value; building them generates the evidence.</p>
     <p><a href="/Open-Source-Model">Open Source Model</a> | <a href="/Contributing">Contributing</a></p>
   </div>
 
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Project Atlas</h2>
-    <p>The repo atlas groups the public work by actual function: games and worlds, shared code, agent interfaces, visual labs, and studio systems.</p>
-    <p><a href="/Projects/">Visit the repo atlas</a></p>
+    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Eve connect their Bodies, and which jurisdictions still need a public face.</p>
+    <p><a href="/Projects/">Visit the project atlas</a> | <a href="/Docs/Architecture-and-Evidence">Inspect the architecture and evidence</a></p>
   </div>
 
   <div id="gamecult-vn-docs" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -59,7 +59,8 @@ sidebarGroups:
 
   <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Epiphany</h2>
-    <p>Epiphany is the organizational layer above frontier AI workers: governed shared state, bounded authority, coordinated action, and inspectable receipts. Humans keep judgment instead of becoming prompt operators.</p>
+    <p>Each project Epiphany is the bounded mind responsible for its Body: it keeps governed state, routes organ work, makes the final local operational decision, and publishes inspectable receipts.</p>
+    <p>Humans remain legally accountable and contribute purpose, evidence, dissent, consent, and judgment without becoming a mandatory technical or product approval queue.</p>
     <p>The target body is one repo-owned project Epiphany per living project, collaborating through governed surfaces and meeting visitors through consent-bound public Personas.</p>
     <p><a href="/Projects/Epiphany">Project page</a></p>
   </div>

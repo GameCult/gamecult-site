@@ -6,7 +6,10 @@ title: Docs
 
 *"Process should survive memory, turnover, and sleep deprivation."*
 
-This section holds the operational side of GameCult: how publishing works, how the root site is structured, and how Bifrost is being built without turning studio governance into an occult spreadsheet ritual.
+This section holds the operational side of GameCult: how the repo swarm is
+governed, how evidence reaches the mind responsible for a project, how
+publishing works, and how Bifrost is being built without turning studio
+governance into an occult spreadsheet ritual.
 
 ## Site Docs
 
@@ -15,6 +18,7 @@ This section holds the operational side of GameCult: how publishing works, how t
 
 ## Platform Docs
 
+- [Architecture and Evidence](/Docs/Architecture-and-Evidence)
 - [Bifrost](/Docs/Bifrost)
 - [The Eve MultiVerse And The Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture)
 

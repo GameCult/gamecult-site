@@ -727,21 +727,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   align-items: flex-start;
 }
 
-.gamecult-nav-dropdown {
-  position: relative;
-}
-
-.gamecult-nav-dropdown > summary {
-  list-style: none;
-  cursor: pointer;
-}
-
-.gamecult-nav-dropdown > summary::-webkit-details-marker,
-.gamecult-nav-dropdown > summary::marker {
-  display: none;
-  content: "";
-}
-
 .gamecult-nav-chip {
   display: inline-flex;
   align-items: center;
@@ -762,89 +747,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 .gamecult-nav-chip.active {
   background: rgba(255, 138, 42, 0.16);
   border-color: rgba(255, 138, 42, 0.42);
-  color: #fff3e8;
-}
-
-.gamecult-nav-caret {
-  font-size: 0.75rem;
-  line-height: 1;
-  opacity: 0.72;
-}
-
-.gamecult-nav-dropdown[open] > .gamecult-nav-chip .gamecult-nav-caret {
-  opacity: 1;
-}
-
-.gamecult-nav-dropdown-panel {
-  position: absolute;
-  top: calc(100% + 0.65rem);
-  left: 0;
-  z-index: 30;
-  display: none;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem 1.2rem;
-  min-width: min(92vw, 38rem);
-  padding: 1rem 1.1rem 1.05rem;
-  border: 1px solid rgba(89, 183, 255, 0.16);
-  border-radius: 22px;
-  background:
-    radial-gradient(
-      circle at 86% 14%,
-      rgba(255, 138, 42, 0.12),
-      transparent 20%
-    ),
-    linear-gradient(180deg, rgba(8, 13, 21, 0.98), rgba(10, 17, 27, 0.96));
-  box-shadow:
-    0 20px 48px rgba(0, 0, 0, 0.34),
-    inset 0 1px 0 rgba(255, 255, 255, 0.03);
-}
-
-.gamecult-nav-dropdown:hover > .gamecult-nav-dropdown-panel,
-.gamecult-nav-dropdown:focus-within > .gamecult-nav-dropdown-panel,
-.gamecult-nav-dropdown[open] > .gamecult-nav-dropdown-panel {
-  display: grid;
-}
-
-.gamecult-nav-dropdown-overview {
-  grid-column: 1 / -1;
-  color: rgba(255, 243, 232, 0.92);
-  font-family: var(--titleFont);
-  font-size: 0.9rem;
-  font-weight: 300;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.gamecult-nav-dropdown-group {
-  min-width: 0;
-}
-
-.gamecult-nav-dropdown-group h3 {
-  margin: 0 0 0.4rem;
-  color: rgba(255, 138, 42, 0.88);
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.gamecult-nav-dropdown-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.gamecult-nav-dropdown-link {
-  color: rgba(220, 231, 246, 0.94);
-  font-size: 0.9rem;
-  line-height: 1.35;
-}
-
-.gamecult-nav-dropdown-link:hover,
-.gamecult-nav-dropdown-overview:hover {
   color: #fff3e8;
 }
 
@@ -1512,22 +1414,6 @@ a:hover,
   .gamecult-titlebar-nav {
     gap: 0.75rem;
     justify-content: flex-start;
-  }
-
-  .gamecult-nav-dropdown {
-    width: 100%;
-  }
-
-  .gamecult-nav-dropdown-panel {
-    position: static;
-    min-width: 0;
-    width: 100%;
-    margin-top: 0.7rem;
-    grid-template-columns: 1fr;
-  }
-
-  .gamecult-nav-dropdown-overview {
-    grid-column: auto;
   }
 
   .gamecult-titlebar-top {
@@ -2232,6 +2118,99 @@ body[data-slug="tour"] .gamecult-composite-sections {
   text-transform: uppercase;
 }
 
+.gamecult-hero-title {
+  margin: 0 0 0.85rem;
+  color: var(--dark);
+  font-family: var(--titleFont);
+  font-size: clamp(1.65rem, 4vw, 2.7rem);
+  font-weight: 200;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+
+.gamecult-action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0;
+}
+
+.gamecult-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.35rem;
+  padding: 0.46rem 0.85rem;
+  border: 1px solid rgba(89, 183, 255, 0.3);
+  border-radius: 999px;
+  background: rgba(89, 183, 255, 0.08);
+  color: rgba(220, 231, 246, 0.96);
+  font-family: var(--titleFont);
+  font-size: 0.84rem;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.gamecult-action:hover,
+.gamecult-action.primary {
+  border-color: rgba(255, 138, 42, 0.48);
+  background: rgba(255, 138, 42, 0.14);
+  color: #fff3e8;
+}
+
+.gamecult-evidence-note {
+  margin: 1rem 0 0;
+  padding: 0.8rem 0.9rem;
+  border-left: 2px solid rgba(255, 138, 42, 0.62);
+  background: rgba(255, 138, 42, 0.06);
+  color: rgba(183, 199, 217, 0.88);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.gamecult-flow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.15rem 0 1.4rem;
+}
+
+.gamecult-flow-step {
+  min-width: 0;
+  padding: 0.9rem;
+  border: 1px solid rgba(89, 183, 255, 0.12);
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(89, 183, 255, 0.08), transparent 32%),
+    rgba(8, 13, 21, 0.72);
+}
+
+.gamecult-flow-step > span {
+  display: block;
+  margin-bottom: 0.55rem;
+  color: rgba(255, 138, 42, 0.86);
+  font-family: var(--titleFont);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+}
+
+.gamecult-flow-step h3 {
+  margin: 0 0 0.35rem;
+  color: var(--dark);
+  font-family: var(--titleFont);
+  font-size: 0.94rem;
+  font-weight: 300;
+}
+
+.gamecult-flow-step p {
+  margin: 0;
+  color: rgba(183, 199, 217, 0.86);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
 .gamecult-feature-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2339,6 +2318,10 @@ body[data-slug="tour"] .gamecult-composite-sections {
   .gamecult-home-hero {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .gamecult-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media all and ($mobile) {
@@ -2369,6 +2352,10 @@ body[data-slug="tour"] .gamecult-composite-sections {
   }
 
   .gamecult-feature-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gamecult-flow {
     grid-template-columns: minmax(0, 1fr);
   }
 
@@ -2769,6 +2756,50 @@ body[data-slug="tour"] .gamecult-composite-sections {
 .integrated-dossier-glossary dd + dt {
   margin-top: 1rem;
 }
+
+.swarm-boundary {
+  margin: 1.1rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--secondary) 32%, transparent);
+  border-left: 3px solid var(--secondary);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--secondary) 6%, var(--light));
+  color: var(--darkgray);
+  line-height: 1.55;
+}
+
+.swarm-system-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.swarm-system-grid article {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--secondary) 20%, var(--lightgray));
+  border-radius: 0.9rem;
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--light) 95%, var(--secondary)),
+    var(--light)
+  );
+}
+
+.swarm-system-grid h3 {
+  margin: 0.15rem 0 0.4rem;
+  color: var(--dark);
+  font-size: 1.05rem;
+}
+
+.swarm-system-grid article > p:last-child {
+  margin: 0;
+  color: var(--darkgray);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
 .swarm-legend {
   display: flex;
   flex-wrap: wrap;
@@ -2888,6 +2919,12 @@ body[data-slug="tour"] .gamecult-composite-sections {
   color: var(--secondary);
 }
 
+.swarm-badge.forming {
+  border-color: color-mix(in srgb, #ff8a2a 58%, transparent);
+  background: color-mix(in srgb, #ff8a2a 9%, transparent);
+  color: color-mix(in srgb, #ff8a2a 82%, var(--dark));
+}
+
 .swarm-badge.missing {
   border-color: color-mix(in srgb, #c77d42 60%, transparent);
   color: #a85f2f;
@@ -2934,6 +2971,10 @@ body[data-slug="tour"] .gamecult-composite-sections {
 }
 
 @media (max-width: 600px) {
+  .swarm-system-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .swarm-carousel {
     grid-auto-columns: min(86vw, 21rem);
     margin-inline: 0;

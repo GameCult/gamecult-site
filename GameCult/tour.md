@@ -83,8 +83,8 @@ cssclasses:
 
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Project Atlas</h2>
-    <p>The curated repo atlas groups the public work by actual function: games and worlds, shared code, agent interfaces, visual labs, and studio systems.</p>
-    <p><a href="/Pitch">Play the over-the-top portfolio pitch</a> | <a href="/Projects/">Visit the repo atlas</a></p>
+    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Eve connect their Bodies, and which jurisdictions still need a public face.</p>
+    <p><a href="/Projects/">Visit the project atlas</a> | <a href="/Docs/Architecture-and-Evidence">Inspect the architecture and evidence</a></p>
   </div>
 
   <div id="gamecult-vn-norn-map" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -177,7 +177,7 @@ cssclasses:
 
   <div id="gamecult-vn-epiphany" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Epiphany</h2>
-    <p>Epiphany helps coding agents remember the job outside the chat transcript: explicit maps, evidence, role lanes, and verification before the next tool swing.</p>
+    <p>Each project Epiphany is the bounded mind responsible for its Body: it keeps explicit maps and evidence, routes organ work, makes the final local decision, and publishes inspectable receipts.</p>
     <p><a href="/Projects/Epiphany">Project page</a> | <a href="https://github.com/GameCult/Epiphany">GitHub repo</a></p>
   </div>
 

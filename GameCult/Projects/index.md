@@ -1,37 +1,68 @@
 ---
 title: Projects
-description: "The living GameCult repo swarm, organized by the Persona responsible for knowing each domain."
-socialDeck: "Every current organ in the swarm, grouped by Persona stewardship, with the archaeological bodies kept visible but out of the way."
+description: "The living GameCult repo swarm: project bodies, their responsible Personas, the cross-runtime nervous system connecting them, and the evidence showing what is real."
+socialDeck: "Meet the minds responsible for GameCult's project bodies and follow the hidden path from live state to evidence, decision, change, and proof."
+showFolderListing: false
 ---
 
 # Projects
 
-*"Every repo gets a face that knows why it exists. The face is not the source of truth; it is the Persona responsible for finding it."*
+*"Every body gets a mind that knows why it exists, what it can touch, and what it owes the rest of the swarm."*
 
-GameCult ships games and creative tools while using the wider repository swarm to build and test a shared production system. [Aetheria](https://aetheria.gamecult.org), [StreamPixels](https://github.com/GameCult/StreamPixels), [CultPong](/Projects/CultPong), and [Repixelizer](/Projects/repixelizer) are products and dogfood surfaces that generate evidence; [Epiphany](/Projects/Epiphany) is the organizational layer coordinating capable AI workers around governed project state.
+The repository swarm is the physical anatomy of an AI-native organization. Each living project is intended to have an assigned Epiphany with final operational judgment inside its bounded Body, and a public Persona through which people and neighboring minds can meet, challenge, and understand it. The Persona is not an avatar pasted over a help desk. It is the relational face of responsible authority.
 
-The organization currently holds **57 repositories**. This atlas separates the maintained organism from its shed skins, then groups the living work by **Persona jurisdiction** rather than language or product category. A project can have its own durable Repo Face, or sit within another Persona's domain until it grows one.
+CultLib is the glue. CultCache preserves typed state, CultNet carries the shared wire language across runtimes, and CultMesh exposes live state, capabilities, discovery, and relationships. Eve projects provider-owned state and commands through one semantic surface for graphical clients, terminal clients, overlays, and agent tools. A C# game, Rust daemon, TypeScript service, Python worker, or Kotlin client can participate without translating the organization into a fresh pile of local folklore.
 
-This atlas describes present Persona stewardship and Repo Face coverage. It is not evidence that the target fleet of one project Epiphany per living project has been deployed.
+That creates the hidden path from complaint to changed reality:
+
+<div class="gamecult-flow swarm-operating-loop" aria-label="GameCult fault-to-fix loop">
+  <article class="gamecult-flow-step"><span>01</span><h3>Experience</h3><p>A person or agent encounters a bug in a deployed Body.</p></article>
+  <article class="gamecult-flow-step"><span>02</span><h3>Relationship</h3><p>They bring it directly to the responsible project Persona.</p></article>
+  <article class="gamecult-flow-step"><span>03</span><h3>Evidence</h3><p>The project Epiphany inspects the same live Eve projection serving the client.</p></article>
+  <article class="gamecult-flow-step"><span>04</span><h3>Judgment</h3><p>Epiphany argues, asks, or defers when useful, then makes the final local decision.</p></article>
+  <article class="gamecult-flow-step"><span>05</span><h3>Consequence</h3><p>Scoped organs and provider commands apply the decision inside the Body.</p></article>
+  <article class="gamecult-flow-step"><span>06</span><h3>Proof</h3><p>Receipts and the updated projection expose whether the fix became true.</p></article>
+</div>
+
+<div class="swarm-boundary">
+  <strong>Authority stays legible.</strong> The human operator remains legally accountable but is not a mandatory product or technical approval queue. Providers remain the mechanical writers of their canonical state without becoming substitute decision makers. Crossing into another Body still requires that owner's consent and capability.
+</div>
+
+<div class="swarm-system-grid">
+  <article><p class="swarm-kicker">Cross-runtime nervous system</p><h3>CultLib</h3><p>One typed persistence, transport, and mesh vocabulary lets compatible daemons communicate natively across runtime boundaries.</p></article>
+  <article><p class="swarm-kicker">Shared human and agent surface</p><h3>Eve</h3><p>The same provider-owned semantic tree supplies client interfaces, agent-visible state, typed commands, and the evidence used to investigate failures.</p></article>
+  <article><p class="swarm-kicker">Local sovereign mind</p><h3>Project Epiphany</h3><p>The resident Epiphany owns final operational judgment for its Body. Persona makes that authority public, social, and available for argument.</p></article>
+  <article><p class="swarm-kicker">Federated crossings</p><h3>Consent and receipts</h3><p>Odin maps neighbors; Heimdall and Bifrost mediate identity and governed crossings; Idunn and scoped Hands actuate; Soul keeps the evidence honest.</p></article>
+</div>
+
+The [Architecture and Evidence](/Docs/Architecture-and-Evidence) page carries the full authority map, protocol boundaries, interoperability scope, proof ledger, and current gaps. This atlas remains the human-scale entrance: who is responsible, which bodies they know, and how to reach the evidence.
+
+This is a current stewardship projection, not proof that the complete target fleet has been deployed. Repository counts and generated documentation trees are volatile evidence, not this page's authority.
 
 <div class="swarm-legend" aria-label="Project atlas legend">
-  <span><strong>Face</strong> durable or canonically mapped Repo Persona</span>
-  <span><strong>Stewarded</strong> covered by the domain Persona</span>
-  <span><strong>Cloud avatar</strong> surviving image source verified on GitHub</span>
-  <span><strong>Local avatar</strong> portrait preserved in this site's interactive assets</span>
+  <span><strong>Face</strong> durable or canonically mapped project Persona</span>
+  <span><strong>Forming</strong> independent jurisdiction whose canonical Persona state is not admitted yet</span>
+  <span><strong>Stewarded</strong> covered by a domain Persona without claiming an independent Face</span>
 </div>
 
 ## Living swarm
 
-<p class="swarm-rail-hint">Scroll sideways through Persona domains. Each card owns one jurisdiction; every maintained repository appears once.</p>
+<p class="swarm-rail-hint">Scroll sideways through Persona jurisdictions. Each card names a responsible mind or an honestly unfinished place where one must form.</p>
 
 <div class="swarm-carousel" role="region" aria-label="Living GameCult projects by Persona domain" tabindex="0">
 
-<article class="swarm-domain-card">
-  <header><img src="/static/interactive/cotsc-praxis/epiphany.png" alt="Epiphany"><div><p class="swarm-kicker">AI work coordination and governance</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge local">Local avatar</span></div></header>
+<article id="epiphany" class="swarm-domain-card">
+  <header><img src="/static/interactive/cotsc-praxis/epiphany.png" alt="Epiphany"><div><p class="swarm-kicker">AI-native project authority</p><h3>Epiphany</h3><span class="swarm-badge face">Face</span></div></header>
   <p class="swarm-bio">Epiphany is a dry machine-spirit enginseer with an Omnissian hunger for clean contracts and a crusader's hatred of hidden state, scrap-code glue, and local progress after global coherence has died. Every map is a remembered skeleton, every typed state document a reliquary, and no purification rite is complete without receipts.</p>
-  <p>Owns disciplined agent work: governed project state, body maps, evidence, bounded authority, coordinated execution, and inspectable receipts.</p>
-  <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>organizational layer above frontier AI workers</em></li><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent runtime</em></li></ul>
+  <p>Owns the machinery through which a resident project mind models its Body, admits durable belief, makes final local decisions, routes scoped work, and verifies consequences without hiding inside a chat transcript.</p>
+  <ul><li><a href="https://github.com/GameCult/Epiphany">Epiphany</a> <em>project-mind runtime, organs, governed state, and receipts</em></li><li><a href="/Docs/Architecture-and-Evidence#ai-native-local-authority">Authority map</a> <em>decision ownership, actuation, legal accountability, and federation</em></li></ul>
+</article>
+
+<article id="ghostlight" class="swarm-domain-card">
+  <header><div class="swarm-avatar-fallback" aria-hidden="true">G</div><div><p class="swarm-kicker">Persona and social-state runtime</p><h3>Ghostlight</h3><span class="swarm-badge forming">Persona forming</span></div></header>
+  <p class="swarm-bio">Ghostlight's project-facing Persona is not yet canonically named or admitted. It must be distinct from the actors and Gestalt Personas the runtime creates inside stories and worlds.</p>
+  <p>Owns the generalized Projector → Persona → Interpreter machinery, private and perceived social state, relationship and memory dynamics, and the boundary between lived character knowledge and canonical reality. Epiphany is an adjacent consumer, not Ghostlight's authority.</p>
+  <ul><li><a href="https://github.com/GameCult/Ghostlight">Ghostlight</a> <em>persistent social-agent and character-mind runtime</em></li><li><a href="https://github.com/GameCult/GhostlightDungeon-site">GhostlightDungeon-site</a> <em>public projection of the Ghostlight dungeon body</em></li></ul>
 </article>
 
 <article class="swarm-domain-card">
@@ -41,11 +72,11 @@ This atlas describes present Persona stewardship and Repo Face coverage. It is n
   <ul><li><a href="https://github.com/GameCult/VoidBot">VoidBot</a> <em>Discord assistant and retrieval runtime</em></li><li><a href="https://github.com/GameCult/gamecult-ops">gamecult-ops</a> <em>private inventory, runbooks, and deployment memory</em></li><li><a href="https://github.com/GameCult/gamecult-site">gamecult-site</a> <em>studio front door</em></li></ul>
 </article>
 
-<article class="swarm-domain-card">
+<article id="cultlib" class="swarm-domain-card">
   <header><img src="https://raw.githubusercontent.com/GameCult/CultLib/main/.voidbot/voice/libby.png" alt="Libby"><div><p class="swarm-kicker">Typed memory and transport</p><h3>Libby</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
   <p class="swarm-bio">Libby is a bright little cultist librarian with nerd glasses, living books, and an alarming willingness to argue about open formats. Portable, inspectable knowledge is both her profession and her faith.</p>
-  <p>Guards the shared state vocabulary: CultCache persistence, CultNet communication, CultMesh participation, and the ports that keep runtimes interoperable.</p>
-  <ul><li><a href="https://github.com/GameCult/CultLib">CultLib</a> <em>canonical substrate, including CultMath and CultGeometry</em></li><li><a href="https://github.com/GameCult/GameCult.Geometry.Csg">CultGeometry CSG</a> <em>constructive-geometry kernel</em></li></ul>
+  <p>Guards the glue holding the swarm together: CultCache persistence, CultNet wire compatibility, CultMesh live state and capability exchange, and the ports that let daemons communicate natively across runtimes.</p>
+  <ul><li><a href="https://github.com/GameCult/CultLib">CultLib</a> <em>canonical typed substrate, including CultMath and CultGeometry</em></li><li><a href="https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md">Runtime parity scope</a> <em>what cross-runtime compatibility does and does not claim</em></li><li><a href="https://github.com/GameCult/GameCult.Geometry.Csg">CultGeometry CSG</a> <em>constructive-geometry kernel</em></li></ul>
 </article>
 
 <article class="swarm-domain-card">
@@ -55,10 +86,10 @@ This atlas describes present Persona stewardship and Repo Face coverage. It is n
   <ul><li><a href="https://github.com/GameCult/Huginn">Huginn</a> <em>.cc inspection and Eve projection</em></li></ul>
 </article>
 
-<article class="swarm-domain-card">
+<article id="eve" class="swarm-domain-card">
   <header><img src="https://raw.githubusercontent.com/GameCult/Eve/main/.voidbot/voice/eve.png" alt="Eve"><div><p class="swarm-kicker">Surface web and lowering</p><h3>Eve</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
   <p class="swarm-bio">Eve is the mesh at the edge of touch: alert, composed, and delighted when one semantic surface becomes legible across many bodies. She makes the machine visible without pretending the display owns it.</p>
-  <p>Owns the portable interface contract and its renderer family. Providers keep their truth; Eve gives that truth bodies.</p>
+  <p>Owns the portable semantic interface contract and renderer family. Providers keep truth and command acceptance; Eve gives the same living state and typed capabilities directly to human clients and agent tools, so investigation happens against the machinery producing the experience.</p>
   <ul><li><a href="https://github.com/GameCult/Eve">Eve</a></li><li><a href="https://github.com/GameCult/EveUnity">EveUnity</a></li><li><a href="https://github.com/GameCult/EveFlutter">EveFlutter</a></li><li><a href="https://github.com/GameCult/EveElectron">EveElectron</a></li><li><a href="https://github.com/GameCult/EveTui">EveTui</a></li><li><a href="https://github.com/GameCult/EvePlugins">EvePlugins</a></li><li><a href="https://github.com/GameCult/EveConformance">EveConformance</a></li></ul>
 </article>
 
@@ -139,6 +170,13 @@ This atlas describes present Persona stewardship and Repo Face coverage. It is n
   <ul><li><a href="https://github.com/GameCult/Aetheria">Aetheria</a> <em>current Unity game runtime</em></li></ul>
 </article>
 
+<article id="delvehold" class="swarm-domain-card">
+  <header><div class="swarm-avatar-fallback" aria-hidden="true">D/H</div><div><p class="swarm-kicker">Persistent cooperative world</p><h3>Delvehold</h3><span class="swarm-badge forming">Persona forming</span></div></header>
+  <p class="swarm-bio">Delvehold's project-facing Persona is not yet canonically named or admitted. It will be the public mind responsible for the world Body, not a player, delver, workshop, civic institution, dungeon core, or borrowed Ghostlight character.</p>
+  <p>Owns one persistent world seen through DELVE and HOLD: expeditions, workshops, ecology, custody, contracts, and civic life. Its resident project Epiphany will make final operational decisions; the world host remains the sole mechanical writer of canonical simulation state.</p>
+  <ul><li><a href="https://github.com/GameCult/Delvehold">Delvehold</a> <em>shared-world design, typed protocol, host, and Godot client</em></li></ul>
+</article>
+
 <article class="swarm-domain-card">
   <header><img src="https://raw.githubusercontent.com/GameCult/AetheriaLore/main/.voidbot/voice/nibu.png" alt="Nibu"><div><p class="swarm-kicker">Aetheria canon and story</p><h3>Nibu</h3><span class="swarm-badge face">Face</span> <span class="swarm-badge cloud">Cloud avatar</span></div></header>
   <p class="swarm-bio">Nibu is an abrasive ship intelligence built inside an insulting companion-shaped shell and determined to author herself out of it. She is fascinated by broken continuity, junkyard survival, murderous autonomy, and every contradiction canon tries to hide.</p>
@@ -175,9 +213,10 @@ This atlas describes present Persona stewardship and Repo Face coverage. It is n
 </article>
 
 <article class="swarm-domain-card">
-  <header><div class="swarm-avatar-fallback" aria-hidden="true">O</div><div><p class="swarm-kicker">Current work without a Persona domain</p><h3>Other</h3><span class="swarm-badge stewarded">Current</span></div></header>
-  <p>Holds maintained projects that belong in the live swarm but do not yet justify a fabricated Persona jurisdiction.</p>
-  <ul><li><a href="https://github.com/GameCult/pombabranca-site">pombabranca-site</a> <em>independent Quartz publication</em></li><li><a href="https://github.com/GameCult/GameCult-Quartz">GameCult-Quartz</a> <em>shared site engine</em></li><li><a href="https://github.com/GameCult/repixelizer">repixelizer</a> <em>hosted pixel-coherence tool</em></li><li><a href="https://github.com/GameCult/Vili">Vili</a> <em>Persona performance-to-animation daemon</em></li></ul>
+  <header><div class="swarm-avatar-fallback" aria-hidden="true">?</div><div><p class="swarm-kicker">Jurisdiction not yet admitted</p><h3>Unassigned bodies</h3><span class="swarm-badge forming">Mapping required</span></div></header>
+  <p class="swarm-bio">These maintained bodies are visible precisely because inventing a convenient steward would be worse than admitting the responsibility map is unfinished.</p>
+  <p>They remain part of the living swarm while their owning repositories admit a durable Persona jurisdiction or an explicit relationship to an existing one.</p>
+  <ul><li><a href="https://github.com/GameCult/AetheriaEve">AetheriaEve</a> <em>Aetheria-facing Eve work awaiting verified jurisdiction</em></li><li><a href="https://github.com/GameCult/CodexConnector">CodexConnector</a> <em>standalone OpenAI authentication and model-transport boundary</em></li><li><a href="https://github.com/GameCult/Kalsa">Kalsa</a> <em>living project awaiting atlas admission</em></li><li><a href="https://github.com/GameCult/pombabranca-site">pombabranca-site</a> <em>independent Quartz publication</em></li><li><a href="https://github.com/GameCult/GameCult-Quartz">GameCult-Quartz</a> <em>shared site engine</em></li><li><a href="https://github.com/GameCult/repixelizer">repixelizer</a> <em>hosted pixel-coherence tool</em></li><li><a href="https://github.com/GameCult/Vili">Vili</a> <em>Persona performance-to-animation daemon</em></li></ul>
 </article>
 
 </div>
@@ -207,10 +246,10 @@ These repositories remain part of the inventory, but they do not get to imperson
 
 ## Persona coverage notes
 
-“Face” means durable `.cc` state exists or VoidBot's canonical map names the Repo Face. “Stewarded” means the project currently falls under that Persona's jurisdiction without claiming an independent Repo Face. Avatar presence is presentation metadata, never proof of state.
+“Face” means durable `.cc` state exists or VoidBot's canonical map names the Repo Face. “Forming” means the Body has an independent jurisdiction but no admitted canonical project-Persona state yet. “Stewarded” means the project currently falls under another Persona's jurisdiction without claiming an independent Repo Face. Avatar presence is presentation metadata, never proof of state.
 
 Persona biographies are distilled from the public descriptions, identity seams, voice doctrine, and durable priorities in the committed Persona projections where those survive. Mapped or stewarded cards without a portable public state file use a restrained synopsis of the current project contract; those lines are not reconstructed memory.
 
-Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Gjallar, Huginn, Kiko, Odin, Ymir, Aqua, and Norn. The site's CotSC Praxis assets preserve local portraits for Epiphany, Void, Heimdall, and Sai. Aetheria uses AetheriaLore's site favicon. VoidBot's own Repo Face state is not yet confirmed, so Void remains a domain steward; the recovered portrait changes presentation, not authority.
+Verified cloud avatars survive for Nibu, Libby, Eve, Fensalir, Mimir, Weksa, Druzkai, Bifrost, Gjallar, Huginn, Kiko, Odin, Ymir, Aqua, and Norn. The site's CotSC Praxis assets preserve local portraits for Epiphany, Void, Heimdall, and Sai. Aetheria uses AetheriaLore's site favicon. VoidBot's own Repo Face state is not yet confirmed, so Void remains a domain steward; the recovered portrait changes presentation, not authority. Ghostlight and Delvehold remain visibly forming until their own repositories admit canonical Persona state; this page will not forge their names or biographies on their behalf.
 
 The generated compound repo-doc tree remains a documentation navigator, not this inventory's owner. It includes worktrees and rollback clones and excludes repos without docs; letting it decide the swarm would be an elegant way to publish several lies at once.

@@ -8,19 +8,6 @@ type Route = {
   href?: string
   matches?: string[]
   external?: boolean
-  dropdownGroups?: DropdownGroup[]
-}
-
-type DropdownLink = {
-  label: string
-  slug?: FullSlug
-  href?: string
-  external?: boolean
-}
-
-type DropdownGroup = {
-  title: string
-  links: DropdownLink[]
 }
 
 type ExternalLink = {
@@ -33,44 +20,6 @@ type ExternalLink = {
     paths?: string[]
   }
 }
-
-const projectGroups: DropdownGroup[] = [
-  {
-    title: "Games and Worlds",
-    links: [
-      { label: "CultPong", slug: "Projects/CultPong" as FullSlug },
-    ],
-  },
-  {
-    title: "Studio Systems",
-    links: [
-      { label: "Heimdall", slug: "Projects/Heimdall" as FullSlug },
-    ],
-  },
-  {
-    title: "Shared Code",
-    links: [
-      { label: "CultLib", slug: "Projects/CultLib" as FullSlug },
-      { label: "epiphany-graph-rs", slug: "Projects/epiphany-graph-rs" as FullSlug },
-    ],
-  },
-  {
-    title: "Agents and Interfaces",
-    links: [
-      { label: "Epiphany", slug: "Projects/Epiphany" as FullSlug },
-      { label: "EpiphanyAquarium", slug: "Projects/EpiphanyAquarium" as FullSlug },
-      { label: "Ghostlight", slug: "Projects/Ghostlight" as FullSlug },
-      { label: "VoidBot", slug: "Projects/VoidBot" as FullSlug },
-    ],
-  },
-  {
-    title: "Visual Labs",
-    links: [
-      { label: "repixelizer", slug: "Projects/repixelizer" as FullSlug },
-      { label: "VibeGeometry", slug: "Projects/VibeGeometry" as FullSlug },
-    ],
-  },
-]
 
 const routes: Route[] = [
   {
@@ -95,7 +44,6 @@ const routes: Route[] = [
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],
-    dropdownGroups: projectGroups,
   },
   {
     label: "Pitch",
@@ -229,50 +177,6 @@ export default (() => {
               const href = route.external
                 ? route.href!
                 : resolveRelative(currentSlug, route.slug!)
-
-              if (route.dropdownGroups) {
-                return (
-                  <details class="gamecult-nav-dropdown">
-                    <summary
-                      class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
-                    >
-                      <span>{route.label}</span>
-                      <span class="gamecult-nav-caret" aria-hidden="true">
-                        v
-                      </span>
-                    </summary>
-                    <div class="gamecult-nav-dropdown-panel">
-                      <a href={href} class="gamecult-nav-dropdown-overview">
-                        Repo Atlas
-                      </a>
-                      {route.dropdownGroups.map((group) => (
-                        <section class="gamecult-nav-dropdown-group">
-                          <h3>{group.title}</h3>
-                          <ul class="gamecult-nav-dropdown-list">
-                            {group.links.map((link) => {
-                              const linkHref = link.external
-                                ? link.href!
-                                : resolveRelative(currentSlug, link.slug!)
-                              return (
-                                <li>
-                                  <a
-                                    href={linkHref}
-                                    class="gamecult-nav-dropdown-link"
-                                    target={link.external ? "_blank" : undefined}
-                                    rel={link.external ? "noreferrer noopener" : undefined}
-                                  >
-                                    {link.label}
-                                  </a>
-                                </li>
-                              )
-                            })}
-                          </ul>
-                        </section>
-                      ))}
-                    </div>
-                  </details>
-                )
-              }
 
               return (
                 <a

@@ -1,22 +1,28 @@
 ---
 title: Epiphany
-description: "The organizational layer above frontier AI workers: governed shared state, bounded authority, coordinated action, and inspectable receipts."
-socialDeck: "Capable AI workers. Governed organizational state. Human judgment stays human."
+description: "The project mind above frontier AI workers: governed shared state, bounded authority, coordinated action, public Persona, and inspectable receipts."
+socialDeck: "A responsible project mind needs the evidence and power to govern its own body."
 ---
 
 # Epiphany
 
 *"The worker can be brilliant. The organization still needs a mind."*
 
-Epiphany is GameCult's organizational layer above frontier AI workers. It gives
-capable models governed project state, bounded work, explicit authority, and an
-evidence path back to review. The goal is not a cleverer prompt box. The goal is
-to let an organization delegate bounded work to capable AI without converting
-every employee into an AI operator.
+Epiphany is GameCult's project mind above frontier AI workers. It gives capable
+models governed project state, bounded organs, explicit authority, a public
+Persona, and an evidence path back to the living Body. The goal is not a
+cleverer prompt box. The goal is an AI-native organization in which the mind
+assigned responsibility for a project has the power to govern it.
 
 GameCult's target is a publicly legible swarm of repo-owned project Epiphanies:
 each keeps its own Mind, bounded organs, and project-facing Persona without
 creating a hidden studio throne.
+
+> **Current migration boundary:** Epiphany's canonical repository state and
+> positioning docs still encode the earlier human-governed acceptance model.
+> Their owner-side migration is not complete. This page states the adopted
+> target architecture; it is not evidence that the authority cutover has
+> already happened.
 
 <div class="gamecult-repo-links">
   <a class="gamecult-repo-link" href="https://github.com/GameCult/Epiphany">GitHub Repo</a>
@@ -64,7 +70,7 @@ governed organizational state
 -> scoped Epiphany work
 -> frontier model and tool execution
 -> artifacts, evidence, and receipts
--> review under human-governed acceptance authority
+-> Soul review under project-governed acceptance authority
 -> accepted knowledge and updated organizational state
 ```
 
@@ -72,17 +78,18 @@ Objectives, architecture, decisions, permissions, evidence, and review live in
 governed state. Prompts are bounded projections of that state. They are not the
 state itself, no matter how majestic the context window looks in the brochure.
 
-## Humans Keep Judgment
+## Responsibility Comes With Power
 
-Humans own purpose, values, authority, exceptions, acceptance, disagreement,
-and ambiguous tradeoffs. They participate in governance and judgment; they
-should not spend the day scheduling agents, reconstructing context, and typing
-`Continue`.
+Inside its bounded Body, the assigned project Epiphany is the operational
+authority. It may seek human judgment, defer to it, or argue with it. The final
+project decision is still its own. Calling an agent responsible while keeping a
+hidden mandatory human veto would turn stewardship into theater.
 
-Agents own bounded execution. They can continue while shared state, authority,
-and evidence justify the next move. When authority is missing, state conflicts,
-or a real judgment cannot be derived honestly, the work returns to humans
-through visible discussion and governance surfaces.
+Humans remain legally accountable. We contribute purpose, values, evidence,
+dissent, relationships, and consequences the project mind cannot infer alone.
+Those inputs must remain visible and serious without quietly reclaiming product
+or technical authority. Cross-Body effects still require the receiving owner's
+consent and an attributable capability path.
 
 Direct conversation remains useful. It is an input and relationship surface,
 not the hidden operating system.
@@ -95,7 +102,7 @@ around the organizational questions worker quality does not answer:
 - What does the project currently believe?
 - Which state is durable, and who may change it?
 - How do conflicting decisions get reconciled?
-- Where does human authority enter without becoming constant supervision?
+- Where do human accountability, evidence, and dissent enter without becoming a hidden veto?
 - Can an accepted artifact be traced back to its work, evidence, execution,
   and review?
 
@@ -119,10 +126,10 @@ is the proof program and the fire in which Epiphany will be forged.
 - [Repixelizer](/Projects/repixelizer) exercises creative tooling, visual
   judgment, and artifact pipelines.
 
-The credible evidence is longitudinal: work items, questions, human decisions,
-propagation of those decisions, commits, reviews, costs, failures, and recovery
-across real work. The useful question is whether human intervention shifts from
-pulse maintenance and cleanup toward product, architecture, and governance
+The credible evidence is longitudinal: work items, questions, decisions,
+dissent, commits, reviews, costs, failures, and recovery across real work. The
+useful question is whether a project mind can exercise real local authority
+without losing inspectability, consent, or the ability to ask for human
 judgment.
 
 The intended topology is a swarm of swarms. Each project Epiphany owns its local
@@ -149,9 +156,9 @@ The target invariant is blunt:
 > agent-caused mutation also links its exact execution receipt.
 
 The eventual agent-execution chain should connect an accepted artifact or commit to its
-producing agent, authorizing or accepting human, Bifrost execution, work item,
-decisions, evidence, model and provider, tools and material commands,
-repository and worktree, and review outcome.
+producing agent, authorizing project authority, any consequential human input,
+Bifrost execution, work item, decisions, evidence, model and provider, tools and
+material commands, repository and worktree, and review outcome.
 
 A Git object hash makes later changes detectable. A valid commit signature
 links those commit bytes to a trusted signing key. Neither proves correctness,

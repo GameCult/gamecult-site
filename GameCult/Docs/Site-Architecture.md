@@ -5,14 +5,23 @@ description: "How the root site is laid out now: content in `GameCult/`, shared 
 
 # Site Architecture
 
-The new root site is split in two:
+The root site has three live layers:
 
 - `GameCult/` holds the content
-- `quartz-site/` holds the vendored Quartz implementation and site-specific code
+- `site/` holds the GameCult-specific Quartz configuration, components, and styles
+- `.quartz-build/engine/` stages the shared `GameCult-Quartz` engine during a build;
+  `quartz-site/public/` is generated output
 
-That mirrors what already works in `AetheriaLore`, where the content and the presentation layer are clearly separated.
+Quartz is shared machinery, not a vendored authority inside this repository.
+The local overlay owns this site's presentation decisions while the reusable
+engine remains independently maintained.
 
-The root site is intentionally not the same thing as `aetheria.gamecult.org`. The root should explain the studio and point readers toward projects. The Aetheria subsite should remain the denser home for lore, stories, and Aetheria-specific publishing as its structure evolves.
+The root site is intentionally not the same thing as `aetheria.gamecult.org`.
+The homepage carries the philosophical thesis, the [Project Atlas](/Projects/)
+makes the Persona-led organization legible, and [Architecture and
+Evidence](/Docs/Architecture-and-Evidence) publishes the machinery and current
+proof boundaries. The Aetheria subsite remains the denser home for lore,
+stories, and Aetheria-specific publishing as its structure evolves.
 
 ## Architecture Writing
 

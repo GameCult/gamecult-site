@@ -50,7 +50,7 @@ sidebarGroups:
       - label: Bifrost
         slug: Docs/Bifrost
 cssclasses:
-  - gamecult-composite-overview
+  - gamecult-home-page
 ---
 
 # GameCult

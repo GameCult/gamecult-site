@@ -2,7 +2,7 @@
 
 `gamecult-site` is the public `gamecult.org` root site: studio pitch, projects, docs, blog, and the usual pile of ambitions trying to look organized in public.
 
-The site now builds against the shared `GameCult-Quartz` engine instead of vendoring its own Quartz fork. That means this repo mostly owns content plus a site overlay, not an entire second copy of the machinery.
+The site builds against the shared `GameCult-Quartz` engine. This repo owns published content and the GameCult overlay.
 
 ## Repo Shape
 
@@ -11,7 +11,7 @@ The site now builds against the shared `GameCult-Quartz` engine instead of vendo
   - `quartz.config.ts`
   - `quartz.layout.ts`
   - custom components
-  - custom styles
+  - custom styles in `site/quartz/styles/custom.scss`
   - static assets
 - `quartz-site/public/`: generated static output
 - `scripts/quartz/quartz.ps1`: local build/dev launcher
@@ -21,13 +21,13 @@ The site now builds against the shared `GameCult-Quartz` engine instead of vendo
 
 Local builds expect the shared engine repo to exist either:
 
-- as a sibling checkout at `E:\\Projects\\GameCult-Quartz`, or
+- as a sibling checkout named `GameCult-Quartz`, or
 - at the path provided through `GAMECULT_QUARTZ_ROOT`
 
 Install dependencies in `GameCult-Quartz` first:
 
 ```powershell
-cd E:\Projects\GameCult-Quartz
+cd ..\GameCult-Quartz
 npm ci
 ```
 

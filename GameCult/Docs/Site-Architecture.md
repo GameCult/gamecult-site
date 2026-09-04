@@ -23,6 +23,30 @@ Evidence](/Docs/Architecture-and-Evidence) publishes the machinery and current
 proof boundaries. The Aetheria subsite remains the denser home for lore,
 stories, and Aetheria-specific publishing as its structure evolves.
 
+## Studio Pages
+
+The homepage introduces the studio, selected work, and the Sleeping Colossus.
+Projects provides the stewardship directory. Architecture and Evidence owns
+the detailed authority map and proof boundaries.
+
+- `GameCult/index.md` and `GameCult/Projects/index.md` own copy and links.
+  `site/quartz/styles/custom.scss` owns their shared presentation through
+  `.gamecult-studio-page`; `site/quartz.layout.ts` places page metadata.
+- Markdown, authored HTML, assets, and Quartz-generated link classes become
+  static pages with shared typography, spacing, hero panels, and action links.
+- `.gamecult-action` owns button padding and chrome for both internal and
+  external links. The generic internal-link reset excludes these controls.
+- Projects uses a two-column directory, becoming one column below 800px.
+  Descriptions and links stay visible; native `details` owns biography disclosure.
+  Portraits and coverage badges describe stewardship, not autonomous operation.
+- Generated output and repository documentation are derived surfaces. They do
+  not decide directory membership, ownership, or the source styles.
+
+Verify changes in the rendered DOM: computed button padding, grid tracks,
+horizontal overflow, disclosure, and keyboard focus at desktop and mobile
+widths. Check the served revision when comparing deployed behavior. Both pages
+publish through the existing `main` GitHub Pages workflow.
+
 ## Architecture Writing
 
 Longer architecture notes belong in `GameCult/Blog/` when they are public-facing

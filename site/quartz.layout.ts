@@ -53,7 +53,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => isStandardContentPage(page) && !isBlogArticle(page),
+      condition: (page) => isStandardContentPage(page) && !isBlogArticle(page) && page.fileData.slug !== "Projects/index",
     }),
   ],
   left: [
@@ -89,7 +89,7 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Projects/index",
     }),
   ],
   left: [GameCultOverviewSidebar()],

@@ -1,6 +1,6 @@
 # VN Space Map
 
-The GameCult homepage VN is becoming the primary spatial navigation layer for the site, not a decorative prelude.
+The guided VN tour at `/tour` provides spatial navigation through the site. The homepage at `/` introduces the studio and links to the tour.
 
 The authority split is:
 
@@ -8,7 +8,7 @@ The authority split is:
 - The visual manifest owns the website-compound map: spaces, scenes, hosts, sprite assets, and DOM card bindings.
 - Ink owns guided conversation, pacing, and temporary visited-state.
 - Sai owns rendering: background, sprites, dialogue, choices, and DOM-card staging.
-- `scripts/generate-vn-repo-doc-tree.mjs` owns the generated repository documentation substrate. It scans local GameCult repos, writes the lightweight index at `GameCult/static/interactive/gamecult-compound/repo-doc-tree.json`, and shards per-repo document lists under `repo-doc-tree/` so the homepage does not fetch the whole archive before a visitor asks for it.
+- `scripts/generate-vn-repo-doc-tree.mjs` owns the generated repository documentation substrate. It scans local GameCult repos, writes the lightweight index at `GameCult/static/interactive/gamecult-compound/repo-doc-tree.json`, and shards per-repo document lists under `repo-doc-tree/` so the tour does not fetch the whole archive before a visitor asks for it.
 
 Current first-ring spaces:
 
@@ -19,7 +19,7 @@ Current first-ring spaces:
 | Docs Shelf | docs shelf | Void | docs_shelf | `/Docs/` |
 | Blog Lane | blog lane | Void | blog_lane | `/Blog/` |
 | Norn Graph Loom | graph/map host | Norn | graph_loom | `https://github.com/GameCult/Norn` |
-| Sai VN Stage | public interface | Sai | vn_stage | `/` |
+| Sai VN Stage | public interface | Sai | vn_stage | `/tour` |
 | Eve Surface Web Atrium | surface web | Eve | surface_web | `https://github.com/GameCult/Eve` |
 | EpiphanyAgent Forge | repo/tool | Epiphany | forge | `/Projects/EpiphanyAgent/` |
 | Bifrost Ledger Hall | repo/tool | Void | ledger | `/Projects/Bifrost/` |

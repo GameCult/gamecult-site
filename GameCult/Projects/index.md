@@ -218,13 +218,13 @@ Older experiments, retired services, and their successors.
 | [geometry-script](https://github.com/GameCult/geometry-script) | Upstream Blender dependency fork | Not a GameCult organ |
 | EpiphanyAquarium (removed) | Original React/Tauri aquarium body | [Aquarium](https://github.com/GameCult/Aquarium) + [Fensalir](https://github.com/GameCult/Fensalir) |
 | EpiphanyAquarium-Bevy (removed) | Frozen Rust/Bevy renderer prototype | [Fensalir](https://github.com/GameCult/Fensalir) |
-| [EpiphanyAquarium-Web](https://github.com/GameCult/EpiphanyAquarium-Web) | Preserved WebGL prototype client | [Aquarium](https://github.com/GameCult/Aquarium) + [Fensalir](https://github.com/GameCult/Fensalir) |
+| EpiphanyAquarium-Web (removed) | Preserved WebGL prototype client | [Aquarium](https://github.com/GameCult/Aquarium) + [Fensalir](https://github.com/GameCult/Fensalir) |
 | [epiphany-graph-rs](https://github.com/GameCult/epiphany-graph-rs) | Superseded Rust graph-layout experiment | [Norn](https://github.com/GameCult/Norn) |
 | cultcache-rs (removed) | Language-specific CultCache implementation | [CultLib](https://github.com/GameCult/CultLib) |
 | cultcache-py (removed) | Language-specific CultCache implementation | [CultLib](https://github.com/GameCult/CultLib) |
 | cultnet-rs (removed) | Language-specific CultNet implementation | [CultLib](https://github.com/GameCult/CultLib) |
 | cultnet-ts (removed) | Language-specific CultNet implementation | [CultLib](https://github.com/GameCult/CultLib) |
-| [AquaSynth-rs](https://github.com/GameCult/AquaSynth-rs) | Rust reference and analysis lab | [AquaSynth](https://github.com/GameCult/AquaSynth) |
+| AquaSynth-rs (removed) | Rust reference and analysis lab | [AquaSynth](https://github.com/GameCult/AquaSynth) |
 | [VibeGeometry](https://github.com/GameCult/VibeGeometry) | Agent-authored Blender geometry experiment | [Brokkr](https://github.com/GameCult/Brokkr) |
 
 <details class="swarm-notes">

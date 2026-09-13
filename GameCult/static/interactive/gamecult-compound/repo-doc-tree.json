@@ -1,8 +1,8 @@
 {
   "schema": "gamecult.vn.repoDocTree.v1",
   "sourceRoot": "E:\\Projects",
-  "repoCount": 55,
-  "documentCount": 60325,
+  "repoCount": 48,
+  "documentCount": 60272,
   "repos": [
     {
       "name": "_vg_csg_history_full",
@@ -50,21 +50,6 @@
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/brokkr.json"
     },
     {
-      "name": "cultcache-py",
-      "documentCount": 1,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcache-py.json"
-    },
-    {
-      "name": "cultcache-rs",
-      "documentCount": 1,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcache-rs.json"
-    },
-    {
-      "name": "CultCacheTS",
-      "documentCount": 14,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultcachets.json"
-    },
-    {
       "name": "CultLib",
       "documentCount": 635,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultlib.json"
@@ -80,29 +65,9 @@
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultmath.json"
     },
     {
-      "name": "cultnet-rs",
-      "documentCount": 1,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultnet-rs.json"
-    },
-    {
-      "name": "CultNetTS",
-      "documentCount": 1,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/cultnetts.json"
-    },
-    {
       "name": "EpiphanyAgent",
       "documentCount": 28564,
       "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyagent.json"
-    },
-    {
-      "name": "EpiphanyAquarium",
-      "documentCount": 20,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyaquarium.json"
-    },
-    {
-      "name": "EpiphanyAquarium-Bevy",
-      "documentCount": 15,
-      "src": "/static/interactive/gamecult-compound/repo-doc-tree/epiphanyaquarium-bevy.json"
     },
     {
       "name": "EpiphanyAquarium-Web",

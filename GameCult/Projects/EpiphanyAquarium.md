@@ -11,7 +11,6 @@ socialDeck: "An aquarium UI for steering the machine."
 EpiphanyAquarium is the fullscreen interface layer for Epiphany: React, Tauri, WebGL2, fluid simulation, local option petals, focus surfaces, and interaction audio. It exists so the harness can develop an actual operator-facing body instead of forcing every coordination decision to arrive wearing terminal clothes.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/EpiphanyAquarium">GitHub Repo</a>
   <a class="gamecult-repo-link" href="/Projects/Epiphany">Epiphany</a>
 </div>
 

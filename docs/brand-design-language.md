@@ -139,15 +139,15 @@ body[data-slug="Blog/witness-authoritative-networking"]
 ```
 
 Inside that scope the identity changes deliberately: **Georgia serif** for
-article body at `1.04rem / 1.72`, a near-black-violet ground, and its own
-cobalt-and-amber accent set. Its ground radials' alphas are base values
+article body at `1.04rem / 1.72`, and its own cobalt-and-amber accent set.
+The essays sit on their own near-black-violet ground with no sheet; sections
+are separated by cobalt and amber rules; PREPRINT, WORKING PAPER and the page
+number are mono labels. Its ground radials' alphas are base values
 multiplied by `--gamecult-wash`, like the site ground's.
 
 | Token | Value |
 |---|---|
 | `--ritual-paper-bg` | `#050614` |
-| `--ritual-paper-sheet` | `#06091d` |
-| `--ritual-paper-panel` | `#111a49` |
 | `--ritual-paper-ink` | `#f1f4ff` |
 | `--ritual-paper-muted` | `#bac4ff` |
 | `--ritual-paper-faint` | `#7a84c5` |

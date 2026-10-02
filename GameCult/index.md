@@ -2,7 +2,6 @@
 title: GameCult
 description: "GameCult builds games, creative tools, and AI systems with memory, agency, and someone you can argue with."
 enableToc: false
-showCompositeJump: false
 sidebarGroups:
   - title: Studio
     links:

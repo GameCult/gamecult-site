@@ -2,7 +2,6 @@
 title: GameCult Tour
 description: "A full-screen visual novel tour through GameCult's public wiki, project rooms, repo swarm, and serious machinery."
 enableToc: false
-showCompositeJump: false
 sidebarGroups:
   - title: Studio
     links:
@@ -58,8 +57,6 @@ sidebarGroups:
         slug: Docs/Site-Architecture
       - label: Bifrost
         slug: Docs/Bifrost
-cssclasses:
-  - gamecult-composite-overview
 ---
 
 <div

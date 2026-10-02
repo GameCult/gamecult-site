@@ -909,14 +909,8 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 }
 
 .gamecult-repo-fact {
-  padding: 0.85rem 0.95rem 0.92rem;
-  border: 1px solid rgba(89, 183, 255, 0.12);
-  border-radius: 18px;
-  background: linear-gradient(
-    180deg,
-    rgba(11, 18, 28, 0.96),
-    rgba(8, 13, 21, 0.94)
-  );
+  padding: 0.6rem 0 0;
+  border-top: 1px solid var(--gamecult-rule);
 }
 
 .gamecult-repo-fact-label {
@@ -1929,8 +1923,7 @@ body[data-slug="tour"] .gamecult-composite-sections {
   align-items: start;
 }
 
-.gamecult-media-card,
-.gamecult-embed-frame {
+.gamecult-media-card {
   border-radius: 20px;
   border: 1px solid rgba(89, 183, 255, 0.1);
   background: linear-gradient(
@@ -2168,8 +2161,6 @@ body[data-slug="tour"] .gamecult-composite-sections {
 
 .gamecult-embed-frame {
   margin: 1.2rem 0 1.4rem;
-  padding: 0.8rem;
-  overflow: hidden;
 }
 
 .gamecult-embed-frame iframe {

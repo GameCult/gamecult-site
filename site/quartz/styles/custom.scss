@@ -1126,6 +1126,8 @@ body[data-slug="Thing"] {
     --thing-inset: 1.7rem;
   }
 
+  --thing-frame: calc(1680px + 2 * var(--thing-inset));
+
   .page {
     max-width: none;
     padding: 0;
@@ -1149,12 +1151,15 @@ body[data-slug="Thing"] {
     align-self: start;
     justify-self: center;
     width: 100%;
+    max-width: var(--thing-frame);
     box-sizing: border-box;
     padding: 0 var(--thing-inset);
   }
 
   .page > #quartz-body > footer {
     width: 100%;
+    max-width: var(--thing-frame);
+    min-width: 0;
     margin-inline: auto;
     box-sizing: border-box;
     padding-inline: var(--thing-inset);

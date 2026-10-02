@@ -23,32 +23,9 @@ type ExternalLink = {
 
 const routes: Route[] = [
   {
-    label: "Studio",
-    slug: "index" as FullSlug,
-    matches: [
-      "index",
-      "Open-Source-Model",
-      "Contributing",
-      "democratizing-gamedev",
-      "a-place-for-everyone",
-      "games-as-a-service",
-      "the-new-hotness",
-    ],
-  },
-  {
-    label: "Tour",
-    slug: "tour" as FullSlug,
-    matches: ["tour"],
-  },
-  {
     label: "Projects",
     slug: "Projects/index" as FullSlug,
     matches: ["Projects"],
-  },
-  {
-    label: "Pitch",
-    slug: "Pitch" as FullSlug,
-    matches: ["Pitch"],
   },
   {
     label: "Blog",
@@ -56,25 +33,9 @@ const routes: Route[] = [
     matches: ["Blog"],
   },
   {
-    label: "Graph",
-    slug: "Graph" as FullSlug,
-    matches: ["Graph"],
-  },
-  {
-    label: "Docs",
-    slug: "Docs/index" as FullSlug,
-    matches: ["Docs"],
-  },
-  {
     label: "Aetheria",
     href: "https://aetheria.gamecult.org",
     matches: ["Aetheria"],
-    external: true,
-  },
-  {
-    label: "Zyphos",
-    href: "https://zyphos.gamecult.org",
-    matches: ["Zyphos"],
     external: true,
   },
 ]

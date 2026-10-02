@@ -105,20 +105,19 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   }
 
   .ritual-paper-page {
-    position: relative;
     margin: 0 0 2.6rem;
     padding: 0;
   }
 
   .ritual-paper-page::before {
     content: "PREPRINT";
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    display: block;
+    margin: 0 0 0.9rem;
     color: rgba(255, 178, 30, 0.92);
     font-family: "IBM Plex Mono", Consolas, monospace;
     font-size: 0.68rem;
     letter-spacing: 0.18em;
+    text-align: right;
   }
 
   .ritual-paper-page:not(.ritual-paper-page-cover)::before {
@@ -409,6 +408,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
       column-rule: 1px solid rgba(49, 88, 255, 0.2);
     }
 
+    .ritual-paper-page::before,
     article h1,
     .ritual-paper-titleblock,
     .ritual-paper-keyline,
@@ -442,12 +442,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 
     .ritual-paper-page {
       margin-bottom: 1.15rem;
-    }
-
-    .ritual-paper-page::before {
-      position: static;
-      display: inline-block;
-      margin-bottom: 1rem;
     }
 
     article h1,

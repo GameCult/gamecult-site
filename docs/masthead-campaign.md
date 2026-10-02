@@ -1,6 +1,6 @@
 # Masthead campaign: the masthead on the ground, the pills gone
 
-Imagination map, revision 2, written 2026-10-02 against `gamecult-site@6d9daf7`
+Imagination map, revision 2, written 2026-10-02 against `gamecult-site@90c2d94`
 and `GameCult-Quartz@ef43df0`. Revision 1 put three options to the operator;
 the operator dismissed the questions and ruled the nav direction, so this
 revision carries rulings, not forks. The Self admits the campaign, target and
@@ -55,7 +55,7 @@ beside the Thing map).
 `margin 0 0 1rem`, padding `1rem 1.15rem 1.05rem`, a 1px sky border at .12,
 radius 22px, a gradient fill (orange radial at 82% 50% over a 135deg navy
 gradient at .95-.98 alpha), a 20px/44px drop shadow and an inset hairline.
-The mobile variant at `1439-1441` only changes the padding. Nothing else on the
+The mobile variant at `1473-1475` only changes the padding. Nothing else on the
 site styles `.page-header > header`; the ritual-paper essays, the colossus post,
 `Graph` and `Thing` all inherit this one rule. `tour` and `Pitch` hide the
 header entirely (`1600-1603`) and are untouched by this campaign.
@@ -73,7 +73,7 @@ phones they wrap into three rows of pills. Active-route selection
 
 **B3. The same pill recipe elsewhere.** `.gamecult-repo-link`
 (`custom.scss:960`, the per-repo links on project cards) and
-`.gamecult-action` (`custom.scss:2172`, the home page's call-to-action row,
+`.gamecult-action` (`custom.scss:2206`, the home page's call-to-action row,
 `GameCult/index.md:66-68, 105-107`) use the identical border, fill and radius.
 The ritual-paper `PREPRINT` badge and page number (`225`, `525`) are mono
 badges inside a scoped variant, not nav. Out of this cut under
@@ -281,7 +281,7 @@ lands.
   the engine's `Header`; `/Thing` uses the same slug-block mechanism as the
   Graph and colossus pages; deploy is the same `Deploy Quartz` workflow.
 - **Deletion line.** The card rule (`646-665`), the mobile card padding
-  (`1439-1441` at `6d9daf7`; shifts with `deck-page-fixes`) and the chip rules
+  (`1473-1475`) and the chip rules
   (`730-751`) are deleted before any nav rule is written; the
   `gamecult-nav-chip` class is renamed in the component in the same commit.
 
@@ -309,11 +309,11 @@ ruled the nav direction directly; the Self recorded the defaults as
 
 1. `thing` / `deck-page-fixes` (`F:\Projects\Eve\docs\thing-cut-deck-page-fixes.spec.json`):
    the stacking, the inset, the header-leak guard. Independent of the masthead.
-   Not landed at `6d9daf7`; Hands is on it.
+   Landed: `8fb3dff` and `90c2d94`.
 2. `site-masthead` / `flat-nav` (`docs/masthead-cut-flat-nav.spec.json`, r2):
-   card and pills deleted, Ubuntu links in, brand doc amended. Lands after 1 so
-   the two edits to the Thing block in `custom.scss` do not collide; the spec
-   carries `depends_on: ["deck-page-fixes"]`.
+   card and pills deleted, Ubuntu links in, brand doc amended. Spec r2 is based on
+   `90c2d94`, after 1, so the two edits to the Thing block in `custom.scss`
+   do not collide; no dependency remains.
 3. After the operator has seen 2 live: the other-pills cut
    (`.gamecult-repo-link`, `.gamecult-action`) under `self-masthead-pills-first`,
    mapped then; the engine `width: 100vw` cut if `scrollbar-fix-home` is ruled

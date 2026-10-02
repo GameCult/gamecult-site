@@ -3,7 +3,6 @@ title: Projects
 description: "GameCult's games, tools, shared infrastructure, and the Personas looking after them."
 socialDeck: "Find the work, meet its stewards, and get to the source."
 showFolderListing: false
-enableToc: false
 cssclasses:
   - gamecult-studio-page
   - gamecult-projects-page

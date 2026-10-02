@@ -1,30 +1,8 @@
 ---
 title: Portfolio Pitch
 description: "Interactive GameCult portfolio pitch: Personas sell the absurd upside of their favourite projects while Void keeps the receipts in reach."
-enableToc: false
 cssclasses:
   - gamecult-pitch-route
-sidebarGroups:
-  - title: Pitch
-    links:
-      - label: Portfolio Pitch
-        slug: Pitch
-      - label: Repo Atlas
-        slug: Projects/index
-      - label: Bifrost
-        slug: Docs/Bifrost
-      - label: Site Graph
-        slug: Graph
-  - title: Core Projects
-    links:
-      - label: Epiphany
-        slug: Projects/Epiphany
-      - label: CultLib
-        slug: Projects/CultLib
-      - label: Heimdall
-        slug: Projects/Heimdall
-      - label: VoidBot
-        slug: Projects/VoidBot
 ---
 
 <div

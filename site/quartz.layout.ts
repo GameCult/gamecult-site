@@ -2,11 +2,9 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import GameCultMasthead from "./quartz/components/GameCultMasthead"
 import GameCultArticleMeta from "./quartz/components/GameCultArticleMeta"
-import GameCultOverviewSidebar from "./quartz/components/GameCultOverviewSidebar"
 import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
-const isIntegratedDossierPage = (page: any) => page.fileData.slug === "dossier"
 const isThingPage = (page: any) => page.fileData.slug === "Thing"
 const isStandardContentPage = (page: any) =>
   page.fileData.slug !== "index" && !isGraphPage(page) && !isThingPage(page)
@@ -58,27 +56,8 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => isStandardContentPage(page) && !isBlogArticle(page) && page.fileData.slug !== "Projects/index",
     }),
   ],
-  left: [
-    Component.ConditionalRender({
-      component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: (page) => !isGraphPage(page),
-    }),
-  ],
-  right: [
-    Component.ConditionalRender({
-      component: GameCultOverviewSidebar(),
-      condition: (page) =>
-        !isGraphPage(page) &&
-        !isIntegratedDossierPage(page) &&
-        !isBlogArticle(page) &&
-        !isThingPage(page),
-    }),
-    Component.ConditionalRender({
-      component: Component.Backlinks(),
-      condition: (page) =>
-        isStandardContentPage(page) && !isIntegratedDossierPage(page) && !isBlogArticle(page),
-    }),
-  ],
+  left: [],
+  right: [],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -97,6 +76,6 @@ export const defaultListPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index" && page.fileData.slug !== "Projects/index",
     }),
   ],
-  left: [GameCultOverviewSidebar()],
+  left: [],
   right: [],
 }

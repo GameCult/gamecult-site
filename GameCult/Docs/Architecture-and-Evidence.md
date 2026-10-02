@@ -1,32 +1,7 @@
 ---
 title: Architecture and Evidence
 description: "The authority map behind GameCult's AI-native organization: project Epiphanies, Personas, CultLib, Eve, scoped actuators, typed receipts, and the evidence separating live machinery from target architecture."
-enableToc: true
 showFolderListing: false
-sidebarGroups:
-  - title: Architecture
-    links:
-      - label: Project Atlas
-        slug: Projects/index
-      - label: Architecture and Evidence
-        slug: Docs/Architecture-and-Evidence
-      - label: Site Architecture
-        slug: Docs/Site-Architecture
-      - label: Eve MultiVerse Essay
-        slug: Blog/eve-multiverse-daemon-architecture
-  - title: Proof
-    links:
-      - label: CultLib
-        href: https://github.com/GameCult/CultLib
-        external: true
-      - label: Eve
-        href: https://github.com/GameCult/Eve
-        external: true
-      - label: Epiphany
-        href: https://github.com/GameCult/Epiphany
-        external: true
-      - label: Bifrost
-        slug: Docs/Bifrost
 ---
 
 # Architecture and Evidence

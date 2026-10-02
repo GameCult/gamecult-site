@@ -1,7 +1,6 @@
 ---
 title: Graph
 description: "A graph-style view of the GameCult site: notes as nodes, wiki links as edges, and folders as section clusters."
-enableToc: false
 ---
 
 # Graph

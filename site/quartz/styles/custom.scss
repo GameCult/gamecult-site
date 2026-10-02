@@ -55,55 +55,23 @@ body[data-slug="index"] {
   opacity: 0.7;
 }
 
-.page > #quartz-body > .left.sidebar:empty,
-.page > #quartz-body > .right.sidebar:empty {
+/* The site is one column; the engine still renders the two side divs, empty on every page. */
+.page > #quartz-body {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "grid-header"
+    "grid-center"
+    "grid-footer";
+}
+
+.page > #quartz-body > .left.sidebar,
+.page > #quartz-body > .right.sidebar {
   display: none;
-}
-
-@media all and ($desktop) {
-  .page
-    > #quartz-body:has(> .left.sidebar:empty):has(
-      > .right.sidebar:not(:empty)
-    ) {
-    grid-template-columns: minmax(0, 1fr) 300px;
-    grid-template-areas:
-      "grid-header grid-sidebar-right"
-      "grid-center grid-sidebar-right"
-      "grid-footer grid-sidebar-right";
-  }
-
-  .page > #quartz-body:has(> .left.sidebar:empty):has(> .right.sidebar:empty) {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
-  }
-}
-
-@media all and not ($desktop) {
-  .page > #quartz-body:has(> .left.sidebar:empty) {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-sidebar-right"
-      "grid-footer";
-  }
 }
 
 .page > #quartz-body .center,
 .page > #quartz-body footer {
   max-width: none;
-}
-
-.page > #quartz-body .left.sidebar {
-  gap: 0;
-  padding: 2.4rem 1rem 0 0;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  backdrop-filter: none;
 }
 
 body[data-slug="Blog/small-ritual-of-reach"],
@@ -130,23 +98,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
     radial-gradient(circle at 44% 20%, rgb(91 54 184 / calc(0.19 * var(--gamecult-wash))), transparent 34rem),
     linear-gradient(180deg, #030414, #070b24 42%, #040514);
 
-  .page > #quartz-body {
-    grid-template-columns: minmax(0, 1fr) 280px;
-    grid-template-areas:
-      "grid-header grid-sidebar-right"
-      "grid-center grid-sidebar-right"
-      "grid-footer grid-sidebar-right";
-  }
-
-  .page > #quartz-body > .left.sidebar {
-    display: none;
-  }
-
-  .page > #quartz-body > .right.sidebar {
-    display: block;
-    padding-top: 2rem;
-  }
-
   .page > #quartz-body .center > .page-header > .popover-hint {
     display: none;
   }
@@ -159,44 +110,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.04rem;
     line-height: 1.72;
-  }
-
-  .page > #quartz-body > .right.sidebar .toc {
-    position: sticky;
-    top: 1.2rem;
-    max-height: calc(100vh - 2.4rem);
-    padding: 0.95rem 0 0.95rem 0.2rem;
-    overflow: visible;
-    border: 0;
-    border-radius: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .page > #quartz-body > .right.sidebar .toc-content.overflow {
-    max-height: calc(100vh - 5rem);
-    padding-right: 0.4rem;
-    overflow-y: auto;
-  }
-
-  .page > #quartz-body > .right.sidebar .toc h3 {
-    color: rgba(232, 237, 244, 0.92);
-    font-family: "IBM Plex Mono", Consolas, monospace;
-    font-size: 0.68rem;
-    letter-spacing: 0.11em;
-    text-transform: uppercase;
-  }
-
-  .page > #quartz-body > .right.sidebar .toc a {
-    color: rgba(232, 237, 244, 0.72);
-    font-family: "IBM Plex Mono", Consolas, monospace;
-    font-size: 0.72rem;
-    line-height: 1.35;
-  }
-
-  .page > #quartz-body > .right.sidebar .toc a:hover,
-  .page > #quartz-body > .right.sidebar .toc a.in-view {
-    color: var(--ritual-paper-yellow);
   }
 
   .ritual-paper-page {
@@ -574,19 +487,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   }
 
   @media all and (max-width: 760px) {
-    .page > #quartz-body {
-      grid-template-columns: minmax(0, 1fr);
-      grid-template-areas:
-        "grid-header"
-        "grid-center"
-        "grid-sidebar-right"
-        "grid-footer";
-    }
-
-    .page > #quartz-body > .right.sidebar {
-      display: none;
-    }
-
     .page > #quartz-body .center > article {
       margin-top: 0.8rem;
       font-size: 0.98rem;
@@ -626,12 +526,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
       justify-self: start;
     }
   }
-}
-
-.page > #quartz-body .left.sidebar:has(.gamecult-overview-sidebar) {
-  position: static;
-  height: auto;
-  min-height: 0;
 }
 
 .page > #quartz-body .center > .page-header {
@@ -1105,19 +999,6 @@ body[data-slug="Thing"] {
 }
 
 body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
-  .page > #quartz-body {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-footer";
-  }
-
-  .page > #quartz-body > .left.sidebar,
-  .page > #quartz-body > .right.sidebar {
-    display: none;
-  }
-
   .page > #quartz-body .center > .page-header > .popover-hint {
     display: none;
   }
@@ -1131,154 +1012,6 @@ body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
     height: min(720px, calc(100vh - 17.5rem));
     min-height: 360px;
   }
-}
-
-.page > #quartz-body .right.sidebar {
-  gap: 1rem;
-  padding: 2.4rem 0 0 1rem;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  backdrop-filter: none;
-}
-
-.toc,
-.backlinks {
-  border-radius: 18px;
-  border: 1px solid rgba(89, 183, 255, 0.08);
-  background: linear-gradient(
-    180deg,
-    rgba(12, 19, 29, 0.9),
-    rgba(8, 14, 22, 0.86)
-  );
-  padding: 0.95rem 1rem;
-  box-shadow:
-    0 18px 36px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.02);
-}
-
-.toc h3,
-.backlinks h3 {
-  margin-top: 0;
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.gamecult-overview-sidebar {
-  position: static;
-  width: 100%;
-  align-self: start;
-  max-height: none;
-  overflow: visible;
-}
-
-.gamecult-overview-sidebar-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-  padding: 1rem 1rem 1.1rem;
-  border-radius: 22px;
-  border: 1px solid rgba(89, 183, 255, 0.08);
-  background: linear-gradient(
-    180deg,
-    rgba(10, 16, 24, 0.95),
-    rgba(8, 13, 21, 0.93)
-  );
-  box-shadow:
-    0 18px 34px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.02);
-}
-
-.gamecult-overview-branch,
-.gamecult-overview-tagline,
-.gamecult-overview-summary,
-.gamecult-overview-group-title {
-  margin: 0;
-}
-
-.gamecult-overview-branch,
-.gamecult-overview-branch a {
-  color: var(--dark);
-  font-family: var(--titleFont);
-  font-size: 1.05rem;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.gamecult-overview-tagline {
-  color: rgba(215, 226, 240, 0.92);
-  font-family: var(--titleFont);
-  font-size: 0.84rem;
-  font-weight: 200;
-  line-height: 1.45;
-}
-
-.gamecult-overview-summary {
-  color: rgba(175, 192, 211, 0.88);
-  font-size: 0.93rem;
-  line-height: 1.55;
-}
-
-.gamecult-overview-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 0.95rem;
-}
-
-.gamecult-overview-group {
-  padding-top: 0.85rem;
-  border-top: 1px solid rgba(89, 183, 255, 0.08);
-}
-
-.gamecult-overview-group:first-child {
-  padding-top: 0;
-  border-top: none;
-}
-
-.gamecult-overview-group-title {
-  color: rgba(255, 138, 42, 0.96);
-  font-family: var(--titleFont);
-  font-size: 0.72rem;
-  font-weight: 300;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.gamecult-overview-links {
-  list-style: none;
-  margin: 0.45rem 0 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.18rem;
-}
-
-.gamecult-overview-links li {
-  margin: 0;
-}
-
-.gamecult-overview-links a {
-  display: block;
-  padding: 0.18rem 0 0.18rem 0.72rem;
-  border-left: 2px solid transparent;
-  color: rgba(220, 231, 246, 0.84);
-  font-family: "Ubuntu", var(--bodyFont), sans-serif;
-  font-size: 0.94rem;
-  font-weight: 300;
-  line-height: 1.4;
-}
-
-.gamecult-overview-links a:hover,
-.gamecult-overview-links a.active {
-  color: #fff3e8;
-}
-
-.gamecult-overview-links li.active > a,
-.gamecult-overview-links a.active {
-  border-left-color: rgba(255, 138, 42, 0.9);
 }
 
 .page-listing .section-li {
@@ -1317,36 +1050,7 @@ a:hover,
   color: var(--tertiary);
 }
 
-@media all and not ($desktop) {
-  .page > #quartz-body .left.sidebar {
-    position: initial;
-    height: auto;
-    padding: 0;
-    margin-top: 0.3rem;
-  }
-
-  .gamecult-overview-sidebar {
-    max-height: none;
-    overflow: visible;
-    padding-right: 0;
-  }
-
-  .page > #quartz-body .right.sidebar {
-    padding: 0;
-    margin-top: 0.25rem;
-  }
-}
-
 @media all and ($mobile) {
-  .page > #quartz-body {
-    grid-template-areas:
-      "grid-header"
-      "grid-center"
-      "grid-sidebar-left"
-      "grid-sidebar-right"
-      "grid-footer";
-  }
-
   .page {
     padding: 0 0.7rem 1.8rem;
   }
@@ -1388,10 +1092,6 @@ a:hover,
     > .breadcrumb-container {
     margin-bottom: 0.28rem;
   }
-
-  .gamecult-overview-sidebar-inner {
-    padding: 0.95rem 0.95rem 1rem;
-  }
 }
 
 body[data-slug="tour"],
@@ -1417,8 +1117,6 @@ body[data-slug="Pitch"] {
     overflow: hidden;
   }
 
-  .page > #quartz-body > .left.sidebar,
-  .page > #quartz-body > .right.sidebar,
   .page > #quartz-body > footer,
   .page > #quartz-body .center > .page-header,
   .page > #quartz-body .center > .page-footer {

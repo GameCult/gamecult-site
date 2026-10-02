@@ -1,7 +1,6 @@
 ---
 title: Integrated Investment Dossier
 description: "GameCult / Epiphany / Bifrost integrated diligence memo, product thesis, risk map, and staged proof plan."
-enableToc: true
 cssclasses:
   - integrated-dossier-page
 ---

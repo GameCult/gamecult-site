@@ -2,7 +2,6 @@
 title: Thing
 description: "The Project Thing board deck: a discussion document on renaming Eve to Thing."
 socialDeck: "Thing renders things."
-enableToc: false
 ---
 
 *"Thing renders things."*

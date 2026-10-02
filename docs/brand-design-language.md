@@ -105,6 +105,10 @@ Grouping is whitespace, type hierarchy and one hairline, `--gamecult-rule`
 the top edge of a section or row (`.gamecult-feature-card`, `.swarm-domain-card`)
 and named by the mono uppercase tracked label (`.gamecult-kicker`). An aside such
 as `.gamecult-evidence-note` is a left rule with no fill.
+List rows separate by the same top rule: each post on the blog index
+(`.gamecult-blog-card`) and each folder-listing row (`.page-listing .section-li >
+.section`) carries it, and a post's hover turns its title `--secondary` instead
+of filling the row.
 
 ## Ritual Paper — a scoped variant
 

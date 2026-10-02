@@ -30,6 +30,8 @@ body {
   --gamecult-rule: rgba(148, 163, 184, 0.22);
   /* The ground's radial intensity; 1 on the home page. */
   --gamecult-wash: 0.5;
+  /* The site's one column; .page's max-width; the masthead, article and footer share its edges. */
+  --gamecult-column: 72rem;
 }
 
 body[data-slug="index"] {
@@ -38,7 +40,7 @@ body[data-slug="index"] {
 
 .page {
   position: relative;
-  max-width: 1680px;
+  max-width: var(--gamecult-column);
   padding: 0 1.2rem 2.5rem;
 }
 
@@ -67,11 +69,6 @@ body[data-slug="index"] {
 .page > #quartz-body > .left.sidebar,
 .page > #quartz-body > .right.sidebar {
   display: none;
-}
-
-.page > #quartz-body .center,
-.page > #quartz-body footer {
-  max-width: none;
 }
 
 body[data-slug="Blog/small-ritual-of-reach"],
@@ -104,8 +101,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 
   .page > #quartz-body .center > article {
     position: relative;
-    max-width: 980px;
-    margin: 2rem auto 4rem;
+    margin: 2rem 0 4rem;
     color: var(--ritual-paper-ink);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.04rem;
@@ -944,7 +940,7 @@ body[data-slug="Thing"] {
     --thing-inset: 1.7rem;
   }
 
-  --thing-frame: calc(1680px + 2 * var(--thing-inset));
+  --thing-frame: calc(var(--gamecult-column) + 2 * var(--thing-inset));
 
   .page {
     max-width: none;
@@ -1565,8 +1561,6 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 .gamecult-studio-page {
   --gamecult-studio-copy: rgba(220, 225, 232, 0.9);
-  max-width: 72rem;
-  margin-inline: auto;
 }
 
 .gamecult-studio-page > h2 {

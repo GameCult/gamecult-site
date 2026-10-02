@@ -2,7 +2,7 @@
   "campaign": "site-masthead",
   "cut": "sidebars-gone",
   "revision": 1,
-  "title": "Sidebars gone: no layout places a sidebar; the overview component, sidebar data model, TOC transformer, sidebar frontmatter and every sidebar, TOC, backlinks and grid-override rule go; one grid rule stays",
+  "title": "Sidebars gone: no layout places a sidebar; the overview component, sidebar data model, TOC transformer, sidebar frontmatter and every sidebar and grid-override rule go; one grid rule stays",
   "repo": "GameCult/gamecult-site",
   "branch": "main",
   "base": "535d170",

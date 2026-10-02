@@ -1146,6 +1146,16 @@ article > h6 {
 }
 
 body[data-slug="Thing"] {
+  --thing-inset: 1.2rem;
+
+  @media all and not ($desktop) {
+    --thing-inset: 2.2rem;
+  }
+
+  @media all and ($mobile) {
+    --thing-inset: 1.7rem;
+  }
+
   .page {
     max-width: none;
     padding: 0;
@@ -1155,13 +1165,36 @@ body[data-slug="Thing"] {
     padding: 0;
   }
 
+  .page > #quartz-body .center {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "stack"
+      "foot";
+  }
+
   .page > #quartz-body .center > .page-header {
+    grid-area: stack;
+    z-index: 5;
+    align-self: start;
+    justify-self: center;
+    width: 100%;
+    max-width: 1680px;
+    box-sizing: border-box;
+    padding: 0 var(--thing-inset);
+  }
+
+  .page > #quartz-body > footer {
+    width: 100%;
     max-width: 1680px;
     margin-inline: auto;
-    padding: 0 1.2rem;
+    box-sizing: border-box;
+    padding-inline: var(--thing-inset);
   }
 
   .page > #quartz-body .center > article {
+    grid-area: stack;
+    min-width: 0;
     background: none;
     border: 0;
     border-radius: 0;
@@ -1174,6 +1207,7 @@ body[data-slug="Thing"] {
   }
 
   .page > #quartz-body .center > .page-footer {
+    grid-area: foot;
     margin-top: 0;
   }
 }

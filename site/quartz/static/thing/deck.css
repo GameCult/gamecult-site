@@ -34,7 +34,7 @@
 .thing-deck .hud-pill b{color:var(--paper);font-weight:500}
 
 /* HERO: one screen */
-.thing-deck .stage{position:relative;height:100vh;height:calc(100svh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow:hidden;display:flex;flex-direction:column;justify-content:center;background:var(--inv);color:var(--inv-ink)}
+.thing-deck .stage{position:relative;height:100vh;height:calc(100svh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding-top:var(--masthead-h,9rem);background:var(--inv);color:var(--inv-ink)}
 .thing-deck .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 55%, var(--accent), transparent 60%);opacity:.3;animation:pulse 3.2s ease-in-out 2s infinite}
 @keyframes pulse{50%{filter:brightness(1.35)}}
 .thing-deck .rays{position:absolute;left:50%;top:55%;width:220vmax;height:220vmax;margin:-110vmax 0 0 -110vmax;background:repeating-conic-gradient(from 0deg, var(--inv-accent) 0deg 4deg, transparent 4deg 15deg);-webkit-mask-image:radial-gradient(circle, #000 6%, transparent 42%);mask-image:radial-gradient(circle, #000 6%, transparent 42%);opacity:0;animation:rayin .9s ease-out 2s forwards, spin 70s linear 2s infinite}
@@ -236,7 +236,7 @@
 }
 
 /* reduced motion: everything in its finished, readable state */
-.thing-deck.rm .stage{height:auto;min-height:88vh;padding-block:96px 160px}
+.thing-deck.rm .stage{height:auto;min-height:88vh;padding-block:calc(var(--masthead-h,9rem) + 96px) 160px}
 .thing-deck.rm .in,.thing-deck.rm .li,.thing-deck.rm .strike::after,.thing-deck.rm .ticker,.thing-deck.rm .tk,.thing-deck.rm .flash,.thing-deck.rm .hero-bg,.thing-deck.rm .cue::after{animation:none!important}
 .thing-deck.rm .rays{animation:none;opacity:.12}
 .thing-deck.rm .flash{opacity:0}

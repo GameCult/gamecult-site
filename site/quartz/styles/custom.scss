@@ -11,23 +11,29 @@ body {
   background:
     radial-gradient(
       circle at 78% 14%,
-      rgba(255, 138, 42, 0.18),
+      rgb(255 138 42 / calc(0.18 * var(--gamecult-wash))),
       transparent 18%
     ),
     radial-gradient(
       circle at 18% 10%,
-      rgba(109, 96, 255, 0.16),
+      rgb(109 96 255 / calc(0.16 * var(--gamecult-wash))),
       transparent 24%
     ),
     radial-gradient(
       circle at 52% 0%,
-      rgba(89, 183, 255, 0.14),
+      rgb(89 183 255 / calc(0.14 * var(--gamecult-wash))),
       transparent 28%
     ),
     linear-gradient(180deg, #03070d 0%, #07111a 44%, #09141f 100%);
   color: var(--darkgray);
   /* The hairline the site groups with, on the top edge of a section or row. */
   --gamecult-rule: rgba(148, 163, 184, 0.22);
+  /* The ground's radial intensity; 1 on the home page. */
+  --gamecult-wash: 0.5;
+}
+
+body[data-slug="index"] {
+  --gamecult-wash: 1;
 }
 
 .page {
@@ -119,9 +125,9 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   --ritual-paper-glow: #e9f5ff;
 
   background:
-    radial-gradient(circle at 78% 8%, rgba(255, 178, 30, 0.15), transparent 24rem),
-    radial-gradient(circle at 18% 4%, rgba(49, 88, 255, 0.22), transparent 30rem),
-    radial-gradient(circle at 44% 20%, rgba(91, 54, 184, 0.19), transparent 34rem),
+    radial-gradient(circle at 78% 8%, rgb(255 178 30 / calc(0.15 * var(--gamecult-wash))), transparent 24rem),
+    radial-gradient(circle at 18% 4%, rgb(49 88 255 / calc(0.22 * var(--gamecult-wash))), transparent 30rem),
+    radial-gradient(circle at 44% 20%, rgb(91 54 184 / calc(0.19 * var(--gamecult-wash))), transparent 34rem),
     linear-gradient(180deg, #030414, #070b24 42%, #040514);
 
   .page > #quartz-body {

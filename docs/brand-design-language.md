@@ -72,11 +72,15 @@ background, so it does not borrow a host page's ground.
 three coloured radials over a vertical gradient:
 
 ```scss
-radial-gradient(circle at 78% 14%, rgba(255,138,42,.18), transparent 18%)  // orange
-radial-gradient(circle at 18% 10%, rgba(109,96,255,.16), transparent 24%)  // violet
-radial-gradient(circle at 52%  0%, rgba( 89,183,255,.14), transparent 28%) // blue
+radial-gradient(circle at 78% 14%, rgb(255 138 42 / calc(.18 * var(--gamecult-wash))), transparent 18%)  // orange
+radial-gradient(circle at 18% 10%, rgb(109 96 255 / calc(.16 * var(--gamecult-wash))), transparent 24%)  // violet
+radial-gradient(circle at 52%  0%, rgb( 89 183 255 / calc(.14 * var(--gamecult-wash))), transparent 28%) // blue
 linear-gradient(180deg, #03070d 0%, #07111a 44%, #09141f 100%)
 ```
+
+The radials' intensity is `--gamecult-wash` on `body`: 1 on `/` and 0.5
+elsewhere. A page never sets its own radial alpha; the CSS wash is the fallback
+ground if a shader ever paints it.
 
 Note the violet `#6d60ff` appears **only** here — it is not a config token, and
 it is the reason the top of the page reads warmer and more atmospheric than a

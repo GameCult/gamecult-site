@@ -26,6 +26,8 @@ body {
     ),
     linear-gradient(180deg, #03070d 0%, #07111a 44%, #09141f 100%);
   color: var(--darkgray);
+  /* The hairline the site groups with, on the top edge of a section or row. */
+  --gamecult-rule: rgba(148, 163, 184, 0.22);
 }
 
 .page {
@@ -2125,7 +2127,7 @@ body[data-slug="tour"] .gamecult-composite-sections {
 
 .gamecult-evidence-note {
   margin: 1rem 0 0;
-  padding: 0.8rem 0.9rem;
+  padding: 0 0 0 0.9rem;
   border-left: 2px solid rgba(255, 138, 42, 0.62);
   color: rgba(183, 199, 217, 0.88);
   font-size: 0.86rem;
@@ -2181,7 +2183,8 @@ body[data-slug="tour"] .gamecult-composite-sections {
 }
 
 .gamecult-feature-card {
-  padding: 0.95rem 1rem;
+  padding: 1.15rem 0 0;
+  border-top: 1px solid var(--gamecult-rule);
 }
 
 .gamecult-feature-card h3 {
@@ -2269,7 +2272,7 @@ body[data-slug="tour"] .gamecult-composite-sections {
 
 .gamecult-studio-page .gamecult-evidence-note {
   margin-top: 1.35rem;
-  padding: 1rem 1.1rem;
+  padding: 0 0 0 1rem;
   border-left-color: rgba(255, 138, 42, 0.5);
   color: rgba(206, 212, 220, 0.86);
   font-size: 0.95rem;
@@ -2861,7 +2864,7 @@ body[data-slug="tour"] .gamecult-composite-sections {
 .swarm-domain-card {
   min-width: 0;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.22);
+  border-top: 1px solid var(--gamecult-rule);
 }
 
 .swarm-domain-card > header {

@@ -1,7 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg";
 import * as Plugin from "./quartz/plugins";
 import * as Component from "./quartz/components";
-import GameCultCompositeContent from "./quartz/components/GameCultCompositeContent";
+import GameCultContent from "./quartz/components/GameCultContent";
 
 /**
  * Quartz 4 Configuration
@@ -89,10 +89,10 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage({
-        pageBody: GameCultCompositeContent({ fallback: "content" }),
+        pageBody: GameCultContent({ fallback: "content" }),
       }),
       Plugin.FolderPage({
-        pageBody: GameCultCompositeContent({ fallback: "folder" }),
+        pageBody: GameCultContent({ fallback: "folder" }),
       }),
       Plugin.ContentIndex({
         enableSiteMap: true,

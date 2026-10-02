@@ -73,7 +73,7 @@ export default ((opts?: Partial<Options>) => {
     sidebarSummary: (count) => `${count} public posts, newest trouble first.`,
   })
 
-  const GameCultCompositeContent: QuartzComponent = (props: QuartzComponentProps) => {
+  const GameCultContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { fileData, tree, allFiles } = props
     const renderSlug = fileData.slug as FullSlug | undefined
     const sourceFile = resolveGameCultSourceFile(fileData, allFiles) ?? fileData
@@ -113,5 +113,5 @@ export default ((opts?: Partial<Options>) => {
     return <article class={articleClass}>{baseContent}</article>
   }
 
-  return GameCultCompositeContent
+  return GameCultContent
 }) satisfies QuartzComponentConstructor<Partial<Options>>

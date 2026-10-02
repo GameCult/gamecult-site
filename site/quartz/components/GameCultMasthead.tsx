@@ -181,7 +181,8 @@ export default (() => {
               return (
                 <a
                   href={href}
-                  class={active ? "gamecult-nav-chip active" : "gamecult-nav-chip"}
+                  class={active ? "gamecult-nav-link active" : "gamecult-nav-link"}
+                  aria-current={active ? "page" : undefined}
                   target={route.external ? "_blank" : undefined}
                   rel={route.external ? "noreferrer noopener" : undefined}
                 >

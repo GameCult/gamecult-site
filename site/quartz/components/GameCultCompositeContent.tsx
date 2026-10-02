@@ -233,7 +233,7 @@ export default ((opts?: Partial<Options>) => {
             aria-label={`${fileData.frontmatter?.title ?? "Page"} sections`}
           >
             {sections.map((section) => (
-              <a href={`#${section.sectionId}`} class="gamecult-nav-chip">
+              <a href={`#${section.sectionId}`} class="gamecult-nav-link">
                 {section.title}
               </a>
             ))}

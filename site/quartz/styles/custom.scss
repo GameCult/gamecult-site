@@ -706,9 +706,23 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 .gamecult-titlebar-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.4rem 1.2rem;
   min-width: 0;
   align-items: flex-start;
+}
+
+.gamecult-nav-link {
+  color: var(--darkgray);
+  font-family: var(--bodyFont);
+  font-size: 0.92rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.gamecult-nav-link:hover,
+.gamecult-nav-link:focus-visible,
+.gamecult-nav-link.active {
+  color: var(--secondary);
 }
 
 .gamecult-titlebar-community {

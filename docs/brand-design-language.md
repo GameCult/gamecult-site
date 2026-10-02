@@ -114,6 +114,19 @@ List rows separate by the same top rule: each post on the blog index
 .section`) carries it, and a post's hover turns its title `--secondary` instead
 of filling the row.
 
+## Layout
+
+The site is one centred column. Its width is `--gamecult-column` (72rem),
+declared on `body` and applied once, as `.page`'s `max-width`. The masthead, the
+article and the site footer fill that column and share its left and right edges
+on every page; nothing is centred inside it, and no page places anything beside
+it. A full-bleed surface (the `/Thing` deck, the visual novel on `/tour` and
+`/Pitch`) may escape the column while its masthead and footer keep the column's
+frame. The remaining caps (760px on the Ritual Paper h1 and title block, 68ch on
+the masthead tagline) are type measures, not chrome. The pull quote
+(`.gamecult-outtake`) hangs into the space right of the column, less the gutter,
+never more than 14rem.
+
 ## Ritual Paper — a scoped variant
 
 Three long-form essays carry a distinct treatment, scoped by slug in
@@ -127,7 +140,8 @@ body[data-slug="Blog/witness-authoritative-networking"]
 
 Inside that scope the identity changes deliberately: **Georgia serif** for
 article body at `1.04rem / 1.72`, a near-black-violet ground, and its own
-cobalt-and-amber accent set.
+cobalt-and-amber accent set. Its ground radials' alphas are base values
+multiplied by `--gamecult-wash`, like the site ground's.
 
 | Token | Value |
 |---|---|

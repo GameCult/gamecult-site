@@ -3,43 +3,9 @@ import { toString } from "hast-util-to-string"
 import { QuartzPluginData } from "../plugins/vfile"
 import { FullSlug, simplifySlug, splitAnchor, stripSlashes } from "../util/path"
 import { clone } from "../util/clone"
-import { buildAutoIndexSidebarData } from "./AutoIndexFolder"
-
-export type GameCultSidebarLink = {
-  label: string
-  slug?: FullSlug
-  href?: string
-  external?: boolean
-}
-
-export type GameCultSidebarGroup = {
-  title: string
-  links: GameCultSidebarLink[]
-}
-
-export type GameCultSidebarData = {
-  title: string
-  slug: FullSlug
-  tagline?: string
-  summary?: string
-  groups: GameCultSidebarGroup[]
-}
 
 export type GameCultPageContext = {
   headerTagline?: string
-  sidebar?: GameCultSidebarData
-}
-
-type FrontmatterSidebarLink = {
-  label?: unknown
-  slug?: unknown
-  href?: unknown
-  external?: unknown
-}
-
-type FrontmatterSidebarGroup = {
-  title?: unknown
-  links?: unknown
 }
 
 type ExtractedTagline = {
@@ -131,10 +97,9 @@ function fileBySlug(allFiles: QuartzPluginData[]) {
 export function resolveGameCultSourceFile(
   currentFile: QuartzPluginData,
   allFiles: QuartzPluginData[],
-  field: "contentSource" | "sidebarSource" = "contentSource",
 ) {
   const currentSlug = currentFile.slug as FullSlug | undefined
-  const rawValue = currentFile.frontmatter?.[field]
+  const rawValue = currentFile.frontmatter?.contentSource
   if (!currentSlug || typeof rawValue !== "string") {
     return undefined
   }
@@ -149,23 +114,6 @@ export function resolveGameCultSourceFile(
 
 function isOverviewSlug(slug: string) {
   return slug === "index" || slug.endsWith("/index")
-}
-
-export function isSidebarLinkActive(currentSlug: FullSlug, targetSlug: FullSlug) {
-  const normalizedCurrent = normalizeGameCultSlug(currentSlug)
-  const normalizedTarget = normalizeGameCultSlug(targetSlug)
-
-  if (targetSlug === "index") {
-    return normalizedCurrent === "index"
-  }
-
-  if (isOverviewSlug(targetSlug)) {
-    return (
-      normalizedCurrent === normalizedTarget || normalizedCurrent.startsWith(`${normalizedTarget}/`)
-    )
-  }
-
-  return normalizedCurrent === normalizedTarget
 }
 
 export function extractTopTagline(root?: Root): ExtractedTagline | undefined {
@@ -226,187 +174,6 @@ export function stripTopHeading(root?: Root) {
   return undefined
 }
 
-function resolveLinkTarget(sourceSlug: FullSlug, node: Element) {
-  const href = node.properties?.href
-  if (typeof href === "string" && !href.startsWith("#") && !href.startsWith("http")) {
-    const sourceDir = stripSlashes(simplifySlug(sourceSlug), true)
-    const url = new URL(href, `https://base.com/${sourceDir}`)
-    let [targetPath] = splitAnchor(decodeURIComponent(url.pathname))
-    if (targetPath.endsWith("/")) {
-      targetPath += "index"
-    }
-
-    const full = stripSlashes(targetPath, true)
-    if (full.length > 0) {
-      return full as FullSlug
-    }
-  }
-
-  const slug = node.properties?.["data-slug"]
-  if (typeof slug === "string") {
-    return slug as FullSlug
-  }
-
-  return undefined
-}
-
-function collectLinks(
-  sourceSlug: FullSlug,
-  node: Element,
-  dedupe: Set<string>,
-  links: GameCultSidebarLink[],
-) {
-  if (node.tagName === "a") {
-    const slug = resolveLinkTarget(sourceSlug, node)
-    const label = normalizeText(toString(node))
-
-    if (slug && label.length > 0 && !dedupe.has(slug)) {
-      dedupe.add(slug)
-      links.push({
-        label,
-        slug,
-      })
-    }
-  }
-
-  for (const child of node.children) {
-    if (isElement(child)) {
-      collectLinks(sourceSlug, child, dedupe, links)
-    }
-  }
-}
-
-function extractOverviewSummary(root: Root, tagline?: ExtractedTagline) {
-  let titleSkipped = false
-
-  for (const { node, index } of topLevelElements(root)) {
-    if (!titleSkipped && node.tagName === "h1") {
-      titleSkipped = true
-      continue
-    }
-
-    if (tagline && index === tagline.nodeIndex) {
-      continue
-    }
-
-    if (node.tagName === "h2") {
-      return undefined
-    }
-
-    if (node.tagName === "p") {
-      const summary = normalizeText(toString(node))
-      if (summary.length > 0) {
-        return summary
-      }
-    }
-  }
-
-  return undefined
-}
-
-function extractOverviewGroups(root: Root, sourceSlug: FullSlug): GameCultSidebarGroup[] {
-  const groups: GameCultSidebarGroup[] = []
-  const entries = topLevelElements(root)
-
-  for (let i = 0; i < entries.length; i++) {
-    const current = entries[i].node
-    if (current.tagName !== "h2") {
-      continue
-    }
-
-    const title = normalizeText(toString(current))
-    if (title.length === 0) {
-      continue
-    }
-
-    const dedupe = new Set<string>()
-    const links: GameCultSidebarLink[] = []
-
-    for (let j = i + 1; j < entries.length; j++) {
-      const next = entries[j].node
-      if (next.tagName === "h1" || next.tagName === "h2") {
-        break
-      }
-
-      if (next.tagName === "ul" || next.tagName === "ol") {
-        collectLinks(sourceSlug, next, dedupe, links)
-      }
-    }
-
-    if (links.length > 0) {
-      groups.push({ title, links })
-    }
-  }
-
-  return groups
-}
-
-function extractFrontmatterOverviewGroups(file: QuartzPluginData): GameCultSidebarGroup[] | undefined {
-  if (!file.slug || !Array.isArray(file.frontmatter?.sidebarGroups)) {
-    return undefined
-  }
-
-  const groups = (file.frontmatter.sidebarGroups as FrontmatterSidebarGroup[])
-    .map((rawGroup) => {
-      if (
-        typeof rawGroup !== "object" ||
-        rawGroup === null ||
-        typeof rawGroup.title !== "string" ||
-        !Array.isArray(rawGroup.links)
-      ) {
-        return undefined
-      }
-
-      const links = (rawGroup.links as FrontmatterSidebarLink[])
-        .map((rawLink) => {
-          if (
-            typeof rawLink !== "object" ||
-            rawLink === null ||
-            typeof rawLink.label !== "string" ||
-            typeof rawLink.slug !== "string"
-          ) {
-            return undefined
-          }
-
-          let slug: FullSlug | undefined
-          let href: string | undefined
-          let external = false
-
-          if (typeof rawLink.slug === "string") {
-            slug = resolveGameCultReferenceSlug(file.slug as FullSlug, rawLink.slug)
-            if (!slug) {
-              return undefined
-            }
-          } else if (typeof rawLink.href === "string" && rawLink.href.trim().length > 0) {
-            href = rawLink.href.trim()
-            external = rawLink.external === true || /^https?:\/\//i.test(href)
-          } else {
-            return undefined
-          }
-
-          return {
-            label: rawLink.label,
-            slug,
-            href,
-            external,
-          }
-        })
-        .filter((link): link is GameCultSidebarLink => link !== undefined)
-
-      if (links.length === 0) {
-        return undefined
-      }
-
-      return {
-        title: rawGroup.title,
-        links,
-      }
-    })
-    .filter((group): group is GameCultSidebarGroup => group !== undefined)
-
-  return groups.length > 0 ? groups : undefined
-}
-
 function overviewCandidates(currentSlug: FullSlug, includeCurrent = true) {
   if (currentSlug === "index") {
     return includeCurrent ? (["index"] as FullSlug[]) : []
@@ -431,37 +198,18 @@ function overviewCandidates(currentSlug: FullSlug, includeCurrent = true) {
   return [...new Set(candidates)]
 }
 
-export function findSidebarOverviewNote(currentSlug: FullSlug, allFiles: QuartzPluginData[]) {
+export function findSectionNote(currentSlug: FullSlug, allFiles: QuartzPluginData[]) {
   const filesBySlug = fileBySlug(allFiles)
 
   const includeCurrent = isOverviewSlug(currentSlug) && currentSlug !== "index"
   for (const candidate of overviewCandidates(currentSlug, includeCurrent)) {
     const match = filesBySlug.get(candidate)
     if (match?.htmlAst) {
-      return resolveGameCultSourceFile(match, allFiles, "sidebarSource") ??
-        resolveGameCultSourceFile(match, allFiles, "contentSource") ??
-        match
+      return resolveGameCultSourceFile(match, allFiles) ?? match
     }
   }
 
   return undefined
-}
-
-function extractOverviewData(file: QuartzPluginData): GameCultSidebarData | undefined {
-  if (!file.slug || !file.htmlAst) {
-    return undefined
-  }
-
-  const tagline = extractTopTagline(file.htmlAst)
-  const frontmatterGroups = extractFrontmatterOverviewGroups(file)
-
-  return {
-    title: file.frontmatter?.title ?? "GameCult",
-    slug: file.slug,
-    tagline: tagline?.text,
-    summary: extractOverviewSummary(file.htmlAst, tagline),
-    groups: frontmatterGroups ?? extractOverviewGroups(file.htmlAst, file.slug),
-  }
 }
 
 export function buildGameCultPageContext(
@@ -488,21 +236,9 @@ export function buildGameCultPageContext(
     stripTopHeading(currentRoot)
   }
 
-  const overviewNote = findSidebarOverviewNote(currentFile.slug, allFiles)
-  const sidebar = overviewNote
-    ? overviewNote.slug === ("Blog/index" as FullSlug)
-      ? buildAutoIndexSidebarData(overviewNote, allFiles, {
-          rootSlug: "Blog",
-          hideFrontmatterKey: "hideFromBlogIndex",
-          defaultAuthor: "GameCult",
-          sidebarTagline: "Recent notes, fiction, experiments, and other escaped materials.",
-          sidebarSummary: (count) => `${count} public posts, newest trouble first.`,
-        })
-      : extractOverviewData(overviewNote)
-    : undefined
+  const sectionNote = findSectionNote(currentFile.slug, allFiles)
 
   return {
-    headerTagline: currentTaglineText ?? sidebar?.tagline,
-    sidebar,
+    headerTagline: currentTaglineText ?? extractTopTagline(sectionNote?.htmlAst)?.text,
   }
 }

@@ -69,8 +69,6 @@ export default ((opts?: Partial<Options>) => {
     defaultAuthor: "GameCult",
     emptyDescription: "This post exists, which is already more than many ideas manage.",
     showDescriptionIntro: true,
-    sidebarTagline: "Recent notes, fiction, experiments, and other escaped materials.",
-    sidebarSummary: (count) => `${count} public posts, newest trouble first.`,
   })
 
   const GameCultContent: QuartzComponent = (props: QuartzComponentProps) => {

@@ -1,8 +1,10 @@
 # Masthead campaign: the masthead on the ground, the pills gone
 
-Imagination map, revision 1, written 2026-10-02 against `gamecult-site@e906f04`
-and `GameCult-Quartz@ef43df0`. The Self admits the campaign, target, questions
-and rulings; this file is the long form the cut specs point at.
+Imagination map, revision 2, written 2026-10-02 against `gamecult-site@6d9daf7`
+and `GameCult-Quartz@ef43df0`. Revision 1 put three options to the operator;
+the operator dismissed the questions and ruled the nav direction, so this
+revision carries rulings, not forks. The Self admits the campaign, target and
+rulings; this file is the long form the cut specs point at.
 
 ## The operator's words, verbatim
 
@@ -19,30 +21,32 @@ card on `/Thing`, no card site-wide, keep it):
 > no card site-wide and let's get rid of those overused pill buttons while we're
 > at it
 
-Two rulings follow, for the Self to admit: **ground-behind-masthead** (the
-masthead has no ground of its own; whatever the page paints runs up behind it,
-and on `/Thing` that is the deck's hero) and **no-card-no-pills** (no masthead
-card on any page; the nav is not pill buttons).
+Asked what replaces the pills (revision 1 offered mono labels, Montserrat links
+with a rule, or one typeset row):
 
-## Where the campaign lives (question `campaign-home`)
+> Ubuntu text links with brand orange hover, we've already done this with the
+> Delvehold site
 
-The masthead change is site-wide and has nothing to do with renaming Eve. The
-`thing` campaign is homed in the Eve repo (`operator-home-eve-repo`) and its
-target is the rename; folding a site redesign into it would make that target
-lie about what the campaign protects.
+## Rulings in force (`site-masthead`)
 
-Options:
+- **`operator-ground-behind-masthead`.** The masthead has no background
+  separate from the page; on `/Thing` the hero's ground and rays run up behind
+  it, masthead plus hero one screen.
+- **`operator-no-card-no-pills`.** The masthead card is removed on every page
+  and the pill buttons are retired.
+- **`operator-nav-ubuntu-links`.** Nav links are Ubuntu text links with brand
+  orange (`#ff8a2a`) hover and active state, following the Delvehold site's
+  `.delvehold-nav` layout (Delvehold `c43d504`, `custom.scss:115-131`).
+  Delvehold sets its links in the header font; the operator named Ubuntu, so
+  Ubuntu it is.
+- **`self-masthead-pills-first`** (Standing, reversible). The campaign is homed
+  here, in `GameCult/gamecult-site`; the Thing target stays the rename. The
+  first cut retires the masthead's pills only; `.gamecult-repo-link` and
+  `.gamecult-action` follow in a later cut once the operator has seen the
+  masthead live.
 
-- **new-campaign** (recommended): campaign `site-masthead`, homed in
-  `GameCult/gamecult-site`, target doc this file. Target, short: the masthead
-  sits directly on the page ground on every page; its nav is typeset, not
-  buttons; `/Thing`'s hero runs up behind it. Two cuts at most.
-- **fold-into-thing**: the masthead cut becomes a cut of `thing`. Cheaper to
-  admit, but the Thing campaign's target and repo list then carry a site
-  redesign, and its Soul passes verify the brand on pages Eve never touched.
-
-The `/Thing` fixes stay in `thing` either way (cut `deck-page-fixes`, spec in
-the Eve repo beside the Thing map).
+The `/Thing` fixes stay in `thing` (cut `deck-page-fixes`, spec in the Eve repo
+beside the Thing map).
 
 ## Body facts
 
@@ -56,29 +60,34 @@ site styles `.page-header > header`; the ritual-paper essays, the colossus post,
 `Graph` and `Thing` all inherit this one rule. `tour` and `Pitch` hide the
 header entirely (`1600-1603`) and are untouched by this campaign.
 
-**B2. The pills.** `site/quartz/components/GameCultMasthead.tsx:321-329`
-renders each route as `<a class="gamecult-nav-chip">` (`active` appended);
-styles at `custom.scss:730-751`: 999px radius, 1px sky border at .16, sky fill
-at .06, Montserrat 300 at .92rem, min-height 2.15rem; hover and active share
-one state: orange fill .16, orange border .42, `#fff3e8` text. The nine routes
+**B2. The pills.** `site/quartz/components/GameCultMasthead.tsx:181-188`
+renders each route as `<a class="gamecult-nav-chip">` (`active` appended at
+`184`; external routes get `target="_blank"` and `rel` at `185-186`); styles at
+`custom.scss:730-751`: 999px radius, 1px sky border at .16, sky fill at .06,
+Montserrat 300 at .92rem, min-height 2.15rem; hover and active share one
+state: orange fill .16, orange border .42, `#fff3e8` text. The nine routes
 (Studio, Tour, Projects, Pitch, Blog, Graph, Docs, Aetheria, Zyphos) sit in
-`.gamecult-titlebar-links` (`flex-wrap: wrap; gap .6rem`), so on phones they
-wrap into three rows of pills. Active-route selection (`pickActiveRoute`,
-longest matching slug prefix) is sound and is kept.
+`.gamecult-titlebar-links` (`722-728`: `flex-wrap: wrap; gap .6rem`), so on
+phones they wrap into three rows of pills. Active-route selection
+(`pickActiveRoute`, longest matching slug prefix) is sound and is kept.
 
 **B3. The same pill recipe elsewhere.** `.gamecult-repo-link`
 (`custom.scss:960`, the per-repo links on project cards) and
-`.gamecult-action` (`custom.scss:2168`, the home page's call-to-action row,
+`.gamecult-action` (`custom.scss:2172`, the home page's call-to-action row,
 `GameCult/index.md:66-68, 105-107`) use the identical border, fill and radius.
 The ritual-paper `PREPRINT` badge and page number (`225`, `525`) are mono
-badges inside a scoped variant, not nav. See question `pill-scope`.
+badges inside a scoped variant, not nav. Out of this cut under
+`self-masthead-pills-first`.
 
 **B4. The brand doc.** `docs/brand-design-language.md` names neither the card
-nor the pills as deliberate; it names Montserrat-thin-at-scale, Ubuntu 300, the
-IBM Plex Mono uppercase tracked label as "a signature of the identity", the
-wash, and one accent. It warns that Montserrat 100 at 18px "produces grey
-mush" and says to drop to a heavier weight when a heading must be small. The
-pills set Montserrat 300 at .92rem, on the wrong side of that warning.
+nor the pills as deliberate; it names Montserrat-thin-at-scale, Ubuntu 300 for
+prose with `font-weight: 500` as "the emphasis step", the IBM Plex Mono
+uppercase tracked label, the wash, and one accent. It warns that Montserrat 100
+at 18px "produces grey mush" and says to drop to a heavier weight when a
+heading must be small. The pills set Montserrat 300 at .92rem, on the wrong
+side of that warning. Ubuntu 500 at .92rem, the ruled nav, is on the right
+side of it and is a weight the site already loads (`quartz.config.ts:36`:
+Ubuntu 300 400 500 700).
 
 **B5. The masthead's other parts.** Title `GameCult` (Montserrat 200,
 `clamp(2.1rem,4vw,3.3rem)`, uppercase, tracked .08em), tagline (Montserrat
@@ -123,6 +132,15 @@ sites through `quartz-pages.yml@main` (gamecult-site, AetheriaLore, Delvehold,
 GhostlightDungeon-site, Kalsa, Mimir, Zyphos, pombabranca-site, the engine's
 own); an engine fix ships to all of them on their next deploy.
 
+**B9. The precedent.** Delvehold `c43d504`, `site/quartz/styles/custom.scss:
+115-131`, `.delvehold-nav`: a flex row that wraps, `gap: 0.4rem 1.2rem`; links
+`color: var(--darkgray)`, `font-family: var(--headerFont)` (Montserrat there),
+`font-size: 0.92rem`, `font-weight: 500`, `white-space: nowrap`; `a:hover` and
+`a.active` take the accent colour (`--hold-purple`) and nothing else: no rule,
+no underline, no fill. `DelveholdMasthead.tsx:27-32` computes `active` per
+route and sets `class="active"` and `aria-current="page"` on it. Delvehold does
+not set `text-decoration`; the engine's base `a` rule already has it `none`.
+
 ## The shape
 
 ### The masthead without the card
@@ -141,7 +159,7 @@ Page types this touches, and what each looks like after:
   radius, unchanged). The tagline is the home sidebar's.
 - **Projects (`/Projects`)**: masthead on the wash above the breadcrumb-less
   title and the overview sidebar on the left. The repo-link pills on the cards
-  are question `pill-scope`.
+  stay for now (`self-masthead-pills-first`).
 - **Essays and other content pages**: masthead on the wash, then breadcrumbs,
   title, meta, article card. The three ritual-paper essays paint their own
   ground (`custom.scss:101-124`) and the masthead now sits on that ground
@@ -153,87 +171,57 @@ Page types this touches, and what each looks like after:
 - **`/Thing`**: masthead over the hero (below).
 - **`tour`, `Pitch`**: header hidden; nothing changes.
 
-### What replaces the pills (question `nav-treatment`)
+### The nav: Ubuntu text links, orange on hover and active (ruled)
 
-Three options, each in the brand's own terms. All keep `pickActiveRoute` and
-the route list; all rename the class `gamecult-nav-chip` to `gamecult-nav-link`
-so no "chip" survives in the DOM; all keep `aria-current="page"` as the
-accessible active mark (new; the pills had only a class).
-
-**A. Mono labels** (recommended). The brand doc's signature device: IBM Plex
-Mono, uppercase, tracked, as a row of structural labels.
+The Delvehold recipe (B9) with two substitutions, both named by the ruling:
+the face is Ubuntu (`var(--bodyFont)`) instead of the header font, and the
+accent is GameCult's orange `var(--secondary)` instead of Delvehold's purple.
+Everything else is carried as is: wrap, gaps, size, weight, nowrap, the
+colour-only active mark. `gamecult-nav-chip` is renamed `gamecult-nav-link` so
+no "chip" survives in the DOM, and the active anchor gains
+`aria-current="page"` as Delvehold's does (new here; the pills had only a
+class).
 
 ```scss
-.gamecult-titlebar-links { display: flex; flex-wrap: wrap; gap: 0.45rem 1.5rem; }
+.gamecult-titlebar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  min-width: 0;
+  align-items: flex-start;
+}
+
 .gamecult-nav-link {
-  padding: 0.35rem 0;
-  border-bottom: 1px solid transparent;
-  color: rgba(183, 199, 217, 0.84);
-  font-family: var(--codeFont);
-  font-size: 0.78rem;
+  color: var(--darkgray);
+  font-family: var(--bodyFont);
+  font-size: 0.92rem;
   font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  text-decoration: none;
+  white-space: nowrap;
 }
-.gamecult-nav-link:hover { color: var(--tertiary); }
-.gamecult-nav-link.active { color: var(--secondary); border-bottom-color: var(--secondary); }
-.gamecult-nav-link[target="_blank"]::after { content: " \2197"; }   // ↗ on Aetheria, Zyphos
-```
 
-Active page: orange text with a 1px orange rule under the label. Hover: sky.
-External routes carry a small ↗ so leaving the site is honest. Mobile: the row
-wraps as today, into two or three rows of labels with a .45rem row gap; at
-375px roughly four labels fit a row. Nothing is hidden, no scroll affordance
-is needed. Why it is recommended: it is the one device the brand doc calls a
-signature; it reads at small size by design, which Montserrat thin does not;
-and it separates the nav from the Montserrat title above it so the masthead
-has two voices (display title, mono labels) instead of one voice at two sizes.
-
-**B. Montserrat text links with an orange rule.** The pills' type kept,
-the pill removed.
-
-```scss
-.gamecult-titlebar-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.4rem; }
-.gamecult-nav-link {
-  padding: 0.3rem 0;
-  color: #dce7f6;
-  font-family: var(--titleFont);
-  font-size: 1rem;
-  font-weight: 300;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.gamecult-nav-link:hover,
+.gamecult-nav-link:focus-visible,
+.gamecult-nav-link.active {
+  color: var(--secondary);
 }
-.gamecult-nav-link:hover { color: var(--tertiary); }
-.gamecult-nav-link.active { color: var(--dark); box-shadow: inset 0 -2px 0 var(--secondary); }
 ```
 
-Active page: heading-white text over a 2px orange rule. Mobile: wraps. Risk:
-Montserrat 300 at 16px is the size the brand doc says to avoid for the thin
-face; the pills carried it at .92rem and the result was already soft.
-
-**C. One typeset row under a hairline.** The nav becomes the masthead's bottom
-edge, Montserrat 200 at 1.1rem on one line, with a 1px sky hairline above it
-standing in for the card's edge.
-
-```scss
-.gamecult-titlebar-nav { border-top: 1px solid rgba(89, 183, 255, 0.12); padding-top: 0.6rem; }
-.gamecult-titlebar-links { display: flex; flex-wrap: nowrap; gap: 0 1.25rem; overflow-x: auto; scrollbar-width: none; }
-.gamecult-nav-link { flex: 0 0 auto; margin-top: -0.6rem; padding-top: 0.6rem; border-top: 2px solid transparent;
-  color: #dce7f6; font-family: var(--titleFont); font-size: 1.1rem; font-weight: 200; text-decoration: none; }
-.gamecult-nav-link.active { color: var(--secondary); border-top-color: var(--secondary); }
-```
-
-Active page: a 2px orange rule sitting on the hairline above the label. Mobile:
-no wrap; the row scrolls sideways, so Docs, Aetheria and Zyphos are off-screen
-at 375px until the user drags, and a fade or chevron is needed to say so. Risk:
-hidden routes on phones, and a hairline is a quiet return of "its own
-background".
+Weight: Ubuntu 500 is loaded (`quartz.config.ts:36`) and is the brand doc's
+emphasis step, so Delvehold's 500 carries over unchanged. Active mark: colour
+only, as Delvehold; `:focus-visible` is added so keyboard users see the same
+orange that mouse users do. Mobile: the row wraps as today, with a .4rem row
+gap; at 375px Ubuntu 500 at .92rem fits four to five labels a row, so the nine
+routes take two or three rows. Nothing is hidden, no scroll affordance is
+needed. Nothing marks external routes; Delvehold marks none and the ruling asks
+for none.
 
 ### `/Thing`: the hero runs up behind the masthead
 
 Mechanism, all inside the existing `body[data-slug="Thing"]` block and the
-deck's own files; the engine is not edited:
+deck's own files; the engine is not edited. This is cut `deck-page-fixes` of
+the `thing` campaign, not this campaign's cut; it is mapped here because the
+masthead's target (ground-behind-masthead) is only met on `/Thing` once it
+lands.
 
 - `.center` becomes a two-row grid, `grid-template-areas: "stack" "foot"`.
   `.page-header` and `article` both take `grid-area: stack`; the header gets
@@ -262,8 +250,8 @@ deck's own files; the engine is not edited:
   reach-in guards gain `.thing-deck h1 { font-size: inherit }`.
 - The HUD pill on phones (top-right, fixed) overlaps the masthead's community
   icons until the first scroll; accepted in the Thing map r4 and unchanged.
-- `body-under-scrollbar` is question `scrollbar-fix-home` below; it is not
-  in the `deck-page-fixes` file changes unless ruled `site-override`.
+- `body-under-scrollbar` is deferred (below); it is not in the
+  `deck-page-fixes` file changes.
 
 ## The authority map
 
@@ -274,8 +262,8 @@ deck's own files; the engine is not edited:
   hero) owns what is behind the masthead. On `/Thing`, the slug block owns the
   stacking and the inset, and `deck.css`/`deck.js` own the hero's clearance.
 - **Inputs.** The route list and current slug; the page's tagline; the
-  brand tokens in `quartz.config.ts`; on `/Thing`, the measured masthead
-  height.
+  brand tokens in `quartz.config.ts` (`--bodyFont`, `--darkgray`,
+  `--secondary`); on `/Thing`, the measured masthead height.
 - **Outputs.** One masthead DOM on every page; `aria-current="page"` on the
   active route.
 - **Derived state.** The active route is derived from the slug (unchanged).
@@ -284,55 +272,49 @@ deck's own files; the engine is not edited:
   gutters; it decides nothing on other pages.
 - **Forbidden writers.** No rule paints a ground, border, radius or shadow on
   `.page-header > header` or `.gamecult-titlebar`; no `.gamecult-nav-chip`
-  class or `999px` radius in the masthead; no slug-scoped masthead variant
-  (the ritual-paper essays, colossus post, Graph and Thing all get the one
-  masthead); no engine edit for the stacking (`renderPage.tsx`, `Header.tsx`
-  untouched); no site rule inside `.thing-deck`.
+  class, `999px` radius, border or fill in the masthead nav; no slug-scoped
+  masthead variant (the ritual-paper essays, colossus post, Graph and Thing all
+  get the one masthead); no engine edit for the stacking (`renderPage.tsx`,
+  `Header.tsx` untouched); no site rule inside `.thing-deck`; no change to
+  `.gamecult-repo-link` or `.gamecult-action` in this cut.
 - **Shared paths.** Every page renders the one `GameCultMasthead` through
   the engine's `Header`; `/Thing` uses the same slug-block mechanism as the
   Graph and colossus pages; deploy is the same `Deploy Quartz` workflow.
 - **Deletion line.** The card rule (`646-665`), the mobile card padding
-  (`1439-1441`) and the chip rules (`730-751`) are deleted before any nav
-  rule is written; the `gamecult-nav-chip` class is renamed in the component
-  in the same commit.
+  (`1439-1441` at `6d9daf7`; shifts with `deck-page-fixes`) and the chip rules
+  (`730-751`) are deleted before any nav rule is written; the
+  `gamecult-nav-chip` class is renamed in the component in the same commit.
 
-## Questions (one fork each; the Self admits them)
+## Questions
 
-### `campaign-home`
-Options: **new-campaign** (`site-masthead`, homed in gamecult-site) or
-**fold-into-thing**. Recommended: new-campaign (reasons above).
+Revision 1 put four forks to the operator. The operator dismissed them and
+ruled the nav direction directly; the Self recorded the defaults as
+`self-masthead-pills-first`. Their state:
 
-### `nav-treatment`
-Options: **mono-labels** (A), **montserrat-rule** (B), **typeset-row** (C).
-Recommended: mono-labels. The spec `docs/masthead-cut-flat-nav.spec.json`
-assumes A; under B or C the same deletions apply and the `adds` entry for the
-nav rules is replaced by that option's block above.
-
-### `pill-scope`
-The operator pointed at the masthead. The same pill recipe also dresses
-`.gamecult-repo-link` (project cards) and `.gamecult-action` (home CTAs).
-Options: **masthead-only** (this cut) or **all-pill-recipe** (repo links
-become mono labels in the card's own row; the CTAs become Montserrat 300 text
-links with an orange rule, the primary one orange-filled square-cornered).
-Recommended: masthead-only now, and `all-pill-recipe` as a second cut of the
-same campaign once the masthead is seen live, since "overused" is a judgment
-best made against the new masthead rather than the old one.
-
-### `scrollbar-fix-home`
-`html { width: 100vw }` is the engine's. Options: **engine** (delete the line
-in `GameCult-Quartz/quartz/styles/base.scss:11`; one commit; ships to nine
-sites on their next deploy) or **site-override** (`html { width: auto }` in
-`custom.scss`; gamecult-site only; the other eight keep the bug). Recommended:
-engine; the owner of the rule is the right place to fix it and the fix is a
-deletion. Under `engine` the fix is its own one-line cut on the engine repo,
-not part of `deck-page-fixes`.
+- **`campaign-home`**: ruled, `self-masthead-pills-first`. The campaign is
+  `site-masthead`, homed in `GameCult/gamecult-site`.
+- **`nav-treatment`**: ruled, `operator-nav-ubuntu-links`. None of revision
+  1's three options; Ubuntu text links on the Delvehold recipe (above).
+- **`pill-scope`**: ruled, `self-masthead-pills-first`. Masthead only in this
+  cut; `.gamecult-repo-link` and `.gamecult-action` in a later cut once the
+  masthead is seen live.
+- **`scrollbar-fix-home`**: deferred, unruled. `html { width: 100vw }` is the
+  engine's (`GameCult-Quartz/quartz/styles/base.scss:11`). Options remain
+  **engine** (delete the line; one commit; ships to nine sites on their next
+  deploy) or **site-override** (`html { width: auto }` in `custom.scss`;
+  gamecult-site only). Recommended: engine. Not in `flat-nav` and not in
+  `deck-page-fixes`; it waits for a ruling.
 
 ## Cut order
 
 1. `thing` / `deck-page-fixes` (`F:\Projects\Eve\docs\thing-cut-deck-page-fixes.spec.json`):
    the stacking, the inset, the header-leak guard. Independent of the masthead.
-2. `site-masthead` / `flat-nav` (`docs/masthead-cut-flat-nav.spec.json`): card
-   and pills deleted, mono labels in, brand doc amended. Lands after 1 so the
-   two edits to the Thing block in `custom.scss` do not collide.
-3. Optional, after the operator has seen 2 live: `all-pill-recipe` if so ruled;
-   the engine `width: 100vw` cut if ruled `engine`.
+   Not landed at `6d9daf7`; Hands is on it.
+2. `site-masthead` / `flat-nav` (`docs/masthead-cut-flat-nav.spec.json`, r2):
+   card and pills deleted, Ubuntu links in, brand doc amended. Lands after 1 so
+   the two edits to the Thing block in `custom.scss` do not collide; the spec
+   carries `depends_on: ["deck-page-fixes"]`.
+3. After the operator has seen 2 live: the other-pills cut
+   (`.gamecult-repo-link`, `.gamecult-action`) under `self-masthead-pills-first`,
+   mapped then; the engine `width: 100vw` cut if `scrollbar-fix-home` is ruled
+   `engine`.

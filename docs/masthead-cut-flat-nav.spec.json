@@ -1,18 +1,19 @@
 {
   "campaign": "site-masthead",
   "cut": "flat-nav",
-  "revision": 1,
-  "title": "The masthead sits on the page ground on every page: the card and its shadow deleted, the nav pills replaced by IBM Plex Mono tracked labels with an orange active rule, the brand doc amended",
+  "revision": 2,
+  "title": "The masthead sits on the page ground on every page: the card and its shadow deleted, the nav pills replaced by Ubuntu text links with orange hover and active, as on Delvehold; the brand doc amended",
   "repo": "GameCult/gamecult-site",
   "branch": "main",
-  "base": "e906f0445b5e05c5b892af122a09bd786b49875f",
+  "base": "90c2d94",
   "depends_on": [],
   "first": [
-    "Map: docs/masthead-campaign.md, sections 'The operator's words', 'Body facts' B1-B5, 'The shape' > 'The masthead without the card' and 'What replaces the pills', 'The authority map'. The operator's words, verbatim: 'no card site-wide and let's get rid of those overused pill buttons while we're at it'. Rulings assumed: site-masthead:ruling:operator-ground-behind-masthead and site-masthead:ruling:operator-no-card-no-pills.",
-    "Questions assumed: campaign-home = new-campaign (this spec's campaign slug); nav-treatment = mono-labels (option A in the map); pill-scope = masthead-only (.gamecult-repo-link and .gamecult-action are not touched here). Under nav-treatment B or C the deletions below stand and the nav rules in adds are replaced by that option's block in the map.",
-    "Land after thing/deck-page-fixes so the two edits to the body[data-slug=\"Thing\"] block in custom.scss do not collide; rebase onto its landing head and re-read the line numbers below (they are from e906f04 and shift by that cut's delta inside the Thing block only; everything this cut edits is above line 1148 or in another file).",
-    "Brand sources are canonical: site/quartz.config.ts configuration.theme (codeFont IBM Plex Mono, titleFont Montserrat; secondary #ff8a2a, tertiary #59b7ff, darkgray #b7c7d9, dark #eef5ff) and custom.scss. The brand doc docs/brand-design-language.md is a guide and is amended by this cut because it will otherwise be silent on a decision the operator made.",
-    "The masthead component is site/quartz/components/GameCultMasthead.tsx; the nav anchors are rendered at lines 321-329 with class gamecult-nav-chip and active appended. The engine's Header.css sets header { display:flex; align-items:center; margin:2rem 0; gap:1.5rem }, which the site must still beat for the masthead with display:block and its own margin.",
+    "Map: docs/masthead-campaign.md r2, sections 'The operator's words', 'Rulings in force', 'Body facts' B1-B5 and B9, 'The shape' > 'The masthead without the card' and 'The nav', 'The authority map'. The operator's words, verbatim: 'no card site-wide and let's get rid of those overused pill buttons while we're at it' and 'Ubuntu text links with brand orange hover, we've already done this with the Delvehold site'.",
+    "Rulings in force: operator-ground-behind-masthead, operator-no-card-no-pills, operator-nav-ubuntu-links, self-masthead-pills-first (masthead pills only; .gamecult-repo-link and .gamecult-action are not touched here). No question is open for this cut; scrollbar-fix-home is deferred and is not in this cut.",
+    "deck-page-fixes (thing campaign) landed at 8fb3dff and 90c2d94, so this cut has no dependency; the line numbers below are read from 90c2d94. That cut grew the body[data-slug=\"Thing\"] block (1148-) by 34 lines, which is why the $mobile numbers differ from r1. If main moves again before Hands starts, re-read by selector.",
+    "Precedent: Delvehold c43d504, site/quartz/styles/custom.scss:115-131 (.delvehold-nav: flex wrap, gap 0.4rem 1.2rem; a { color: var(--darkgray); font-size: 0.92rem; font-weight: 500; white-space: nowrap }; a:hover, a.active { color: accent }) and site/quartz/components/DelveholdMasthead.tsx:27-32 (class active and aria-current=\"page\" on the active route). Two substitutions, both ruled: font-family var(--bodyFont) (Ubuntu) for Delvehold's header font, and var(--secondary) #ff8a2a for Delvehold's purple. Ubuntu 500 is loaded (site/quartz.config.ts:36). Delvehold does not set text-decoration; the engine's base a rule has it none, so this cut does not set it either.",
+    "Brand sources are canonical: site/quartz.config.ts configuration.theme (body Ubuntu 300 400 500 700; secondary #ff8a2a, tertiary #59b7ff, darkgray #b7c7d9, dark #eef5ff) and custom.scss. The brand doc docs/brand-design-language.md is a guide and is amended by this cut because it will otherwise be silent on a decision the operator made.",
+    "The masthead component is site/quartz/components/GameCultMasthead.tsx; the nav anchor is rendered at lines 181-188 with class gamecult-nav-chip (active appended) at 184 and target/rel for external routes at 185-186. The engine's Header.css sets header { display:flex; align-items:center; margin:2rem 0; gap:1.5rem }, which the site must still beat for the masthead with display:block and its own margin.",
     "Deploy is push to main -> workflow 'Deploy Quartz' -> GitHub Pages at gamecult.org; small commits; CI is the verifier. A local .\\scripts\\quartz\\quartz.ps1 build is optional on Starfire."
   ],
   "deletes": [
@@ -24,26 +25,27 @@
     {
       "path": "site/quartz/styles/custom.scss",
       "lines": 22,
-      "note": "Lines 730-751, .gamecult-nav-chip and its :hover/.active rule: deleted whole (999px radius, sky border and fill, orange hover fill). Replaced by the .gamecult-nav-link rules in adds."
+      "note": "Lines 730-751, .gamecult-nav-chip and its :hover/.active rule: deleted whole (999px radius, sky border and fill, Montserrat 300, orange hover fill). Replaced by the .gamecult-nav-link rules in adds."
     },
     {
       "path": "site/quartz/styles/custom.scss",
       "lines": 3,
-      "note": "Lines 1439-1441 in the $mobile block, the card's phone padding: deleted; there is no card to pad."
+      "note": "The $mobile card padding rule, .page > #quartz-body .center > .page-header > header { padding: 0.95rem 0.95rem 1rem } (1473-1475): deleted; there is no card to pad."
     }
   ],
   "keeps_moves": [
-    "The masthead's structure and content are unchanged: title, tagline, community links (Patreon wordmark, GitHub, Discord with their sky glow), the nine routes and pickActiveRoute. Only the nav anchors' class and the surrounding styles change.",
-    ".gamecult-titlebar, -top, -copy, -title, -tagline, -nav, -community, -wordmark and -icon rules (custom.scss 667-729, 753-811) and their $mobile variants (1443-1485) are unchanged.",
-    "The page-header margin-top rules (638, 1435) are unchanged; the masthead's distance from the top of the page is theirs.",
+    "The masthead's structure and content are unchanged: title, tagline, community links (Patreon wordmark, GitHub, Discord with their sky glow), the nine routes, their external target/rel, and pickActiveRoute. Only the nav anchor's class and aria, and the surrounding styles, change.",
+    ".gamecult-titlebar, -top, -copy, -title, -tagline, -nav, -community, -wordmark and -icon rules (custom.scss 667-721, 753-811) and their $mobile variants are unchanged. .gamecult-titlebar-links (722-728) keeps its rule; only its gap changes.",
+    "The page-header margin-top rules (638, 1469) are unchanged; the masthead's distance from the top of the page is theirs.",
     "The ritual-paper essays, the colossus post, Graph, Thing, tour and Pitch keep their slug blocks; none of them styled the card or the chips, so none changes here.",
-    ".gamecult-repo-link (960) and .gamecult-action (2168) keep their pill recipe under pill-scope = masthead-only."
+    ".gamecult-repo-link (960) and .gamecult-action (2206) keep their pill recipe under self-masthead-pills-first."
   ],
   "adds": [
-    "GameCultMasthead.tsx lines 321-329: class becomes gamecult-nav-link (active appended as before), and the anchor carries aria-current={active ? \"page\" : undefined}. No other change to the component.",
-    "custom.scss, where the chip rules were (after .gamecult-titlebar-links at 722-728, whose gap becomes 0.45rem 1.5rem): .gamecult-nav-link { padding: 0.35rem 0; border-bottom: 1px solid transparent; color: rgba(183, 199, 217, 0.84); font-family: var(--codeFont); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; } .gamecult-nav-link:hover, .gamecult-nav-link:focus-visible { color: var(--tertiary); } .gamecult-nav-link.active { color: var(--secondary); border-bottom-color: var(--secondary); } .gamecult-nav-link[target=\"_blank\"]::after { content: \" \\2197\"; }",
+    "GameCultMasthead.tsx line 184: class becomes gamecult-nav-link (active appended as before), and the anchor carries aria-current={active ? \"page\" : undefined}. No other change to the component.",
+    "custom.scss 722-728: .gamecult-titlebar-links gap becomes 0.4rem 1.2rem (Delvehold's); display, flex-wrap, min-width, align-items stay.",
+    "custom.scss, where the chip rules were (730-751): .gamecult-nav-link { color: var(--darkgray); font-family: var(--bodyFont); font-size: 0.92rem; font-weight: 500; white-space: nowrap; } .gamecult-nav-link:hover, .gamecult-nav-link:focus-visible, .gamecult-nav-link.active { color: var(--secondary); } Nothing else: no padding, border, radius, fill, underline, transform or ::after.",
     "custom.scss 646: the surviving header rule reads .page > #quartz-body .center > .page-header > header { display: block; margin: 0 0 1.2rem; } and nothing else.",
-    "docs/brand-design-language.md, a new section '## Masthead' after the Palette section (after line 84): the masthead sits directly on the page ground on every page, no card, border, radius or shadow; the nav is the mono-uppercase-tracked label device, active page in the orange accent with a 1px orange rule, hover in sky, external routes marked with an arrow; the title stays Montserrat 200 uppercase tracked. Six to ten lines; reference the rules by selector, not line number. Update the 'Written' line to name this revision's date."
+    "docs/brand-design-language.md, a new section '## Masthead' inserted before the '## Ritual Paper' heading (line 86, after the Palette section's closing paragraph): the masthead sits directly on the page ground on every page, no card, border, radius or shadow; the nav is Ubuntu 500 at 0.92rem in --darkgray, hover and active in the orange accent and nothing else (no rule, fill or underline), after the Delvehold site's nav; the active route also carries aria-current=\"page\"; the title stays Montserrat 200 uppercase tracked. Six to ten lines; reference the rules by selector, not line number. The 'Written' line (15) gains ', revised 2026-10-02'."
   ],
   "file_changes": [
     {
@@ -60,31 +62,31 @@
         "line": 722,
         "end_line": 751
       },
-      "change": ".gamecult-titlebar-links gap becomes 0.45rem 1.5rem; the .gamecult-nav-chip rules are replaced by the .gamecult-nav-link rules."
+      "change": ".gamecult-titlebar-links gap becomes 0.4rem 1.2rem; the .gamecult-nav-chip rules are replaced by the .gamecult-nav-link rules."
     },
     {
       "location": {
         "path": "site/quartz/styles/custom.scss",
-        "line": 1439,
-        "end_line": 1441
+        "line": 1473,
+        "end_line": 1475
       },
       "change": "the $mobile card padding rule deleted."
     },
     {
       "location": {
         "path": "site/quartz/components/GameCultMasthead.tsx",
-        "line": 321,
-        "end_line": 329
+        "line": 181,
+        "end_line": 188
       },
       "change": "class gamecult-nav-link (+ active); aria-current=\"page\" on the active route."
     },
     {
       "location": {
         "path": "docs/brand-design-language.md",
-        "line": 84,
-        "end_line": 84
+        "line": 86,
+        "end_line": 86
       },
-      "change": "new '## Masthead' section inserted after the Palette section; the 'Written' line dated."
+      "change": "new '## Masthead' section inserted before '## Ritual Paper'; the 'Written' line (15) dated."
     }
   ],
   "authority_map": {
@@ -92,28 +94,29 @@
     "inputs": [
       "the route list and the current slug (GameCultMasthead.tsx)",
       "the page's tagline (gamecult.ts headerTagline)",
-      "the brand tokens: --codeFont, --titleFont, --secondary, --tertiary, --darkgray, --dark"
+      "the brand tokens: --bodyFont, --titleFont, --darkgray, --secondary"
     ],
     "outputs": [
       "one masthead DOM on every page with <a class=\"gamecult-nav-link\"> routes and aria-current=\"page\" on the active one",
       "the masthead's type sitting on the page ground on /, /Projects, /Blog/*, the three ritual-paper essays, /Graph, the colossus post and /Thing"
     ],
     "derived_state": [
-      "the active route, derived from the slug by pickActiveRoute (unchanged)",
-      "the external arrow, derived from target=_blank, which the component already sets for external routes"
+      "the active route, derived from the slug by pickActiveRoute (unchanged); its only marks are the active class and aria-current, both set in the component",
+      "the hover and active colour, derived from --secondary; no second orange is written"
     ],
     "forbidden_writers": [
       "no rule paints a background, border, border-radius or box-shadow on .page-header > header or on .gamecult-titlebar",
-      "no gamecult-nav-chip class in the component or the stylesheet; no 999px radius or sky fill in the .gamecult-nav-link rules",
+      "no gamecult-nav-chip class in the component or the stylesheet; no radius, border, fill, padding, underline or ::after in the .gamecult-nav-link rules",
       "no slug-scoped masthead variant: every page gets the one masthead",
-      "no engine edit (Header.tsx keeps its bare header rule; the site beats it with display:block and margin)",
-      "no change to .gamecult-repo-link or .gamecult-action under pill-scope = masthead-only"
+      "no engine edit (Header.tsx keeps its bare header rule; the site beats it with display:block and margin; the base a rule supplies text-decoration none)",
+      "no change to .gamecult-repo-link or .gamecult-action under self-masthead-pills-first",
+      "no scrollbar fix (html width) in this cut; scrollbar-fix-home is deferred"
     ],
     "shared_paths": [
       "every page renders the one GameCultMasthead through the engine's Header",
       "the same Deploy Quartz workflow and Pages origin"
     ],
-    "deletion_line": "the card declarations (646-665), the mobile card padding (1439-1441) and the chip rules (730-751) are deleted in the first commit, with the component's class rename in the same commit, before the .gamecult-nav-link rules and the brand doc section are written."
+    "deletion_line": "the card declarations (646-665), the mobile card padding (1473-1475) and the chip rules (730-751) are deleted in the first commit, with the component's class rename in the same commit, before the .gamecult-nav-link rules and the brand doc section are written."
   },
   "verification": {
     "builds": [
@@ -123,34 +126,34 @@
     "tests": [
       {
         "name": "computed style of .page-header > header on /, /Projects, /Blog/small-ritual-of-reach, /Graph, the colossus post and /Thing",
-        "pins": "Pins operator-no-card-no-pills on every page type, including the scoped variants. Expect: computed style of .page > #quartz-body .center > .page-header > header on /, /Projects, /Blog/small-ritual-of-reach, /Graph, /Blog/the-sleeping-colossus-refuses-the-throne and /Thing: background-image none, background-color transparent, border-style none, border-radius 0px, box-shadow none, display block. operator-no-card-no-pills: no masthead card on any page type, including the scoped variants."
+        "pins": "Pins operator-no-card-no-pills on every page type, including the scoped variants. Expect: computed style of .page > #quartz-body .center > .page-header > header on /, /Projects, /Blog/small-ritual-of-reach, /Graph, /Blog/the-sleeping-colossus-refuses-the-throne and /Thing: background-image none, background-color transparent, border-style none, border-radius 0px, box-shadow none, padding 0px, display block."
       },
       {
         "name": "screenshots of /, /Projects and /Blog/small-ritual-of-reach at 1440 and 375",
-        "pins": "Pins operator-ground-behind-masthead. Expect: screenshots of /, /Projects and /Blog/small-ritual-of-reach at 1440 and 375: the title, tagline, community icons and nav sit on the page's own wash (the ritual essay's violet ground shows through where the navy card was). operator-ground-behind-masthead: the page ground runs up behind the masthead."
+        "pins": "Pins operator-ground-behind-masthead. Expect: the title, tagline, community icons and nav sit on the page's own wash (the ritual essay's violet ground shows through where the navy card was); on /Thing, after deck-page-fixes, the hero's ground and rays run up behind the masthead."
       },
       {
         "name": "computed styles of the .gamecult-nav-link anchors on /Projects, active and inactive",
-        "pins": "Pins nav-treatment = mono-labels as specified; the active page is told in the accent and to assistive tech. Expect: computed style of a .gamecult-nav-link on /Projects: font-family starts with IBM Plex Mono, font-size 12.48px, text-transform uppercase, letter-spacing about 1.75px, border-radius 0px, background-color transparent; the Projects link has class active, aria-current=\"page\", color rgb(255, 138, 42) and border-bottom-color rgb(255, 138, 42); the Studio link's color is rgba(183, 199, 217, 0.84). nav-treatment = mono-labels as specified; the active page is told in the accent and to assistive tech."
+        "pins": "Pins operator-nav-ubuntu-links. Expect: computed style of a .gamecult-nav-link on /Projects: font-family starts with Ubuntu, font-size 14.72px, font-weight 500, white-space nowrap, text-transform none, text-decoration-line none, border-radius 0px, border-style none, background-color transparent, padding 0px; the Projects link has class active, aria-current=\"page\" and color rgb(255, 138, 42); the Studio link's color is rgb(183, 199, 217) and on :hover (emulated) rgb(255, 138, 42)."
       },
       {
-        "name": "document.querySelectorAll('.gamecult-nav-chip').length is 0 on every page sampled; '.gamecult-nav-link' is 9; the Aetheria and Zyphos links' ::after content is the arrow",
-        "pins": "no chip survives; external routes are marked."
+        "name": "document.querySelectorAll('.gamecult-nav-chip').length is 0 on every page sampled; '.gamecult-nav-link' is 9; exactly one carries aria-current on /Projects and none on /Thing",
+        "pins": "no chip survives; the active page is told to assistive tech the way Delvehold tells it."
       },
       {
-        "name": "at 375 wide on /Projects: the nav wraps into at most three rows, no link is clipped, no horizontal scrollbar; the title is 1.9rem as before",
-        "pins": "mobile behaviour: wrap, nothing hidden."
+        "name": "at 375 wide on /Projects: the nav wraps into at most three rows, no link is clipped or broken mid-word, no horizontal scrollbar; the title is 1.9rem as before",
+        "pins": "mobile behaviour: wrap, nowrap labels, nothing hidden."
       },
       {
         "name": "pickActiveRoute behaviour by sampling: / marks Studio, /Open-Source-Model marks Studio, /Projects/CultPong marks Projects, /Blog/project-thing marks Blog, /Thing marks nothing",
         "pins": "the active route is derived exactly as before; the component change is class and aria only."
       },
       {
-        "name": "git diff base..head --stat: only site/quartz/styles/custom.scss, site/quartz/components/GameCultMasthead.tsx and docs/brand-design-language.md; custom.scss net lines negative",
+        "name": "git diff base..head --stat for this cut's commits: only site/quartz/styles/custom.scss, site/quartz/components/GameCultMasthead.tsx and docs/brand-design-language.md; custom.scss net lines negative",
         "pins": "a subtraction cut: the card and chips leave, less comes back."
       },
       {
-        "name": "docs/brand-design-language.md has a '## Masthead' section that names the no-card and mono-label decisions and matches the live rules by selector",
+        "name": "docs/brand-design-language.md has a '## Masthead' section that names the no-card and Ubuntu-link decisions, the Delvehold precedent, and matches the live rules by selector",
         "pins": "the brand doc is not silent on a decision the operator made."
       }
     ],
@@ -161,15 +164,19 @@
       },
       {
         "pattern": "border-radius: 22px|box-shadow:\\s*\\n?\\s*0 20px 44px",
-        "scope": "site/quartz/styles/custom.scss: no match (the card's radius and shadow are gone; 22px elsewhere is .gamecult-overview-sidebar-inner at 1257 and stays)."
+        "scope": "site/quartz/styles/custom.scss: no match (the card's radius and shadow are gone; 22px elsewhere is .gamecult-overview-sidebar-inner at 1286 and stays)."
       },
       {
-        "pattern": "999px",
-        "scope": "the .gamecult-nav-link and .gamecult-titlebar* rules in site/quartz/styles/custom.scss: no match."
+        "pattern": "gamecult-nav-link[^{]*\\{[^}]*(border|background|padding|radius|text-transform|letter-spacing|::after|titleFont|codeFont)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match (the link is type and colour only, in the body font)."
       },
       {
         "pattern": "page-header > header\\s*\\{[^}]*(background|border|box-shadow|padding)",
         "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "gamecult-repo-link|gamecult-action|width: auto|100vw",
+        "scope": "git diff base..head of this cut's commits: no match (other pills and the scrollbar fix are out of this cut)."
       },
       {
         "pattern": "GameCult-Quartz|quartz/components/Header",
@@ -177,11 +184,11 @@
       }
     ],
     "operator": [
-      "look at https://gamecult.org/, /Projects and /Thing on a desktop and a phone and say whether the masthead on the ground reads as the site's, and whether the mono labels are the nav you meant when you said no pills"
+      "look at https://gamecult.org/, /Projects and /Thing on a desktop and a phone and say whether the masthead on the ground reads as the site's, and whether the Ubuntu links are the Delvehold treatment you meant"
     ]
   },
   "estimate": {
-    "lines_added": 30,
+    "lines_added": 22,
     "lines_removed": 43,
     "dependencies_added": [],
     "dependencies_removed": [],
@@ -192,11 +199,9 @@
   },
   "rulings": [
     "site-masthead:ruling:operator-ground-behind-masthead",
-    "site-masthead:ruling:operator-no-card-no-pills"
+    "site-masthead:ruling:operator-no-card-no-pills",
+    "site-masthead:ruling:operator-nav-ubuntu-links",
+    "site-masthead:ruling:self-masthead-pills-first"
   ],
-  "questions": [
-    "campaign-home: new-campaign (recommended, assumed by this spec's slug) or fold-into-thing.",
-    "nav-treatment: mono-labels (recommended, assumed) or montserrat-rule or typeset-row; see the map for each option's CSS, mobile behaviour and active mark.",
-    "pill-scope: masthead-only (recommended, assumed) or all-pill-recipe (.gamecult-repo-link and .gamecult-action in a second cut of this campaign)."
-  ]
+  "questions": []
 }

@@ -1711,24 +1711,22 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   }
 }
 
-.integrated-dossier-page {
+article.integrated-dossier-page {
   --integrated-blue: #59b7ff;
   --integrated-orange: #ff8a2a;
 
-  article {
-    font-family: "Ubuntu", var(--bodyFont), sans-serif;
-    font-weight: 300;
-  }
+  font-family: "Ubuntu", var(--bodyFont), sans-serif;
+  font-weight: 300;
 
-  article h1,
-  article h2,
-  article h3,
-  article h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-family: "Montserrat", var(--headerFont), sans-serif;
     letter-spacing: 0;
   }
 
-  article h2 {
+  h2 {
     margin-top: 3rem;
     padding-bottom: 0.48rem;
     border-bottom: 1px solid var(--gamecult-rule);
@@ -1736,24 +1734,24 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
     font-weight: 200;
   }
 
-  article h3 {
+  h3 {
     color: #d8e8f8;
     font-weight: 300;
   }
 
-  article h4 {
+  h4 {
     color: var(--integrated-orange);
     font-weight: 300;
   }
 
-  article p,
-  article li,
-  article td,
-  article dd {
+  p,
+  li,
+  td,
+  dd {
     line-height: 1.68;
   }
 
-  article sup a {
+  sup a {
     color: #ffd6ad;
     font-size: 0.72em;
     text-decoration: none;

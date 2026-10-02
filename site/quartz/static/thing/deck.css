@@ -16,7 +16,7 @@
 .thing-deck .wrap{width:100%;max-width:1160px;margin-inline:auto;padding-inline:clamp(16px,4vw,48px)}
 .thing-deck .eyebrow{font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .thing-deck .src{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin-top:28px;max-width:80ch}
-.thing-deck .xhead{display:flex;flex-direction:column;gap:14px;padding-bottom:22px;border-bottom:2px solid var(--ink);margin-bottom:clamp(28px,4vh,48px)}
+.thing-deck .xhead{display:flex;flex-direction:column;align-items:stretch;gap:14px;padding-bottom:22px;border-bottom:2px solid var(--ink);margin:0 0 clamp(28px,4vh,48px)}
 .thing-deck .xhead h2{font-family:var(--display);font-weight:200;color:var(--ink);font-size:clamp(24px,3.1vw,42px);line-height:1.22;max-width:30ch}
 .thing-deck .sec{position:relative;overflow-x:clip;padding-block:clamp(88px,14vh,170px)}
 .thing-deck b,.thing-deck strong{font-weight:500}
@@ -245,6 +245,7 @@
 .thing-deck a{color:inherit;font-weight:inherit;text-decoration:inherit}
 .thing-deck strong,.thing-deck b{font-weight:500}
 .thing-deck h1,.thing-deck h2,.thing-deck h3{margin:0;color:inherit}
+.thing-deck h1{font-size:inherit}
 .thing-deck p,.thing-deck li,.thing-deck tbody{margin:0;line-height:inherit}
 .thing-deck p,.thing-deck ul,.thing-deck li,.thing-deck tr,.thing-deck td{color:inherit}
 .thing-deck table{border-collapse:collapse}

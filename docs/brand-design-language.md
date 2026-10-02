@@ -120,9 +120,9 @@ The site is one centred column. Its width is `--gamecult-column` (72rem),
 declared on `body` and applied once, as `.page`'s `max-width`. The masthead, the
 article and the site footer fill that column and share its left and right edges
 on every page; nothing is centred inside it, and no page places anything beside
-it. A full-bleed surface (the `/Thing` deck, the visual novel on `/tour` and
-`/Pitch`) may escape the column while its masthead and footer keep the column's
-frame. The remaining caps (760px on the Ritual Paper h1 and title block, 68ch on
+it. On `/tour` and `/Pitch` the visual novel is the whole page and the masthead
+and footer are hidden; on `/Thing` the deck is full-bleed and the masthead and
+footer keep the column's frame. The remaining caps (760px on the Ritual Paper h1 and title block, 68ch on
 the masthead tagline) are type measures, not chrome. The pull quote
 (`.gamecult-outtake`) hangs into the space right of the column, less the gutter,
 never more than 14rem.

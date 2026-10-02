@@ -21,6 +21,8 @@ export const sharedPageComponents: SharedLayout = {
       GitHub: "https://github.com/GameCult",
       Aetheria: "https://aetheria.gamecult.org",
       Zyphos: "https://zyphos.gamecult.org",
+      Docs: "/Docs",
+      Dossier: "/dossier",
     },
   }),
 }

@@ -13,3 +13,5 @@ socialDeck: "Thing renders things."
 # Project Thing
 
 The Thing Transformation Office has prepared a board deck on the rename of Eve to Thing. Scroll to realise synergies.
+
+<a href="/Thing">Open the Thing page</a>.

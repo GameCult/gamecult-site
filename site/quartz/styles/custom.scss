@@ -1145,6 +1145,35 @@ article > h6 {
   }
 }
 
+body[data-slug="Thing"] {
+  .page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .page > #quartz-body .center > .page-header {
+    max-width: 1680px;
+    margin-inline: auto;
+    padding: 0 1.2rem;
+  }
+
+  .page > #quartz-body .center > article {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .page > #quartz-body .center > hr {
+    display: none;
+  }
+
+  .page > #quartz-body .center > .page-footer {
+    margin-top: 0;
+  }
+}
+
 body[data-slug="Blog/the-sleeping-colossus-refuses-the-throne"] {
   .page > #quartz-body {
     grid-template-columns: minmax(0, 1fr);

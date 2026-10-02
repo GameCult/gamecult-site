@@ -7,7 +7,9 @@ import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
 const isIntegratedDossierPage = (page: any) => page.fileData.slug === "dossier"
-const isStandardContentPage = (page: any) => page.fileData.slug !== "index" && !isGraphPage(page)
+const isThingPage = (page: any) => page.fileData.slug === "Thing"
+const isStandardContentPage = (page: any) =>
+  page.fileData.slug !== "index" && !isGraphPage(page) && !isThingPage(page)
 const isBlogArticle = (page: any) =>
   page.fileData.slug?.startsWith("Blog/") && page.fileData.slug !== "Blog/index"
 
@@ -66,7 +68,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: GameCultOverviewSidebar(),
       condition: (page) =>
-        !isGraphPage(page) && !isIntegratedDossierPage(page) && !isBlogArticle(page),
+        !isGraphPage(page) &&
+        !isIntegratedDossierPage(page) &&
+        !isBlogArticle(page) &&
+        !isThingPage(page),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),

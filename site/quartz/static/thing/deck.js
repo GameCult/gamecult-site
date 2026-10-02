@@ -141,7 +141,7 @@
     $('.tps').textContent=tps.toLocaleString();
   }
   var hdr=document.querySelector('.page-header');
-  function sizeHead(){if(hdr)root.style.setProperty('--masthead-h',hdr.offsetHeight+'px');}
+  function sizeHead(){if(hdr)root.style.setProperty('--masthead-h',hdr.offsetHeight+parseFloat(getComputedStyle(hdr).marginTop)+'px');}
   function req(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
   window.addEventListener('scroll',req,{passive:true});
   window.addEventListener('resize',function(){sizeHead();sizeCanvas();sizeBurst();req();});

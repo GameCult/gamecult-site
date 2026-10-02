@@ -318,3 +318,70 @@ ruled the nav direction directly; the Self recorded the defaults as
    (`.gamecult-repo-link`, `.gamecult-action`) under `self-masthead-pills-first`,
    mapped then; the engine `width: 100vw` cut if `scrollbar-fix-home` is ruled
    `engine`.
+
+## Soul's findings after flat-nav (2026-10-02, against `87f2942`)
+
+Soul's passes `thing:verdict:cut-deck-page-fixes.s1` and
+`site-masthead:verdict:cut-flat-nav.s1` hold every promise and file three
+findings. Two cuts resolve them; both specs sit in this folder. Each was
+re-measured live on `87f2942` before the mechanism was chosen, and in one case
+the measurement overturned the finding's stated cause.
+
+### Cut `deck-page-edges` (`thing`, `docs/thing-cut-deck-page-edges.spec.json`)
+
+**`chrome-edges-wide`** (Low). `/Projects` is `.page` content-box 1680px plus
+19.2px gutters, outer 1718.4px, so at 1920 its masthead and footer text start
+at x 120. The Thing block gives `.page-header` `max-width: 1680px` with the
+gutter inside the box (text at 139.2), and gives the footer a `max-width` and
+`margin-inline` that the engine's `footer { min-width: 100% }` nullifies (text
+at 19.2). Mechanism: one variable, `--thing-frame: calc(1680px + 2 *
+var(--thing-inset))`, is the outer width of `.page` everywhere else; the
+header and footer take it as `max-width`, and the footer adds `min-width: 0`
+so the engine's declaration decides nothing. The literal `1680px` leaves the
+two rules.
+
+**`phone-ticker-short`** (Medium). Measured at 375x667: masthead footprint
+219.8px, `.hero-in` 375px tall and flex-centred in the 447px below it
+(256-631), the ticker band absolute at `bottom: 56px` (565-618). At 360x740
+the subtitle wraps to four lines and the band lands 639-691 under a cue at
+674-694. Two owners place the hero's parts, flex centring for `.hero-in` and
+absolute offsets for the band and the confidentiality line, and nothing
+reconciles them. Mechanism: the stage's flow owns all of it. `.ticker-w` and
+`.conf` lose `position: absolute` and their offsets and become flow siblings
+after `.hero-in` (the markup order in `Thing.md` already matches); `.hero-in`
+is centred in the remaining space by `margin-block: auto`; the stage's
+`height` becomes `min-height`, so where the content fits (every desktop
+size, 375x812, 390x844) the hero is still one screen, and where it does not
+(375x667 by about 35px, 360x740 by about 15px) the stage grows and the band
+sits just under the fold instead of over the subtitle. Overlap is impossible
+by construction. Allowed by `thing:ruling:operator-deck-polish`; the
+re-measure `thing:ruling:self-phone-hero-waits` asked for is Soul's finding.
+Not a fork: whether the hero type should also tighten on short phones so the
+band stays above the fold is a taste call the operator makes after seeing it,
+listed as the spec's operator check, and is a separate two-line cut if wanted.
+
+### Cut `ritual-phone-width` (`site-masthead`, `docs/masthead-cut-ritual-phone-width.spec.json`)
+
+**`ritual-nav-offscreen`** (Medium, pre-existing; subsumes the follow-up
+`ritual-essay-phone-overflow`). The finding names the long `h1` as the cause.
+It is not: with the `h1` hidden, `.center`'s min-content on
+witness-authoritative-networking is still 709px. The culprits are the cover
+page's `figure > pre > code` blocks (`white-space: pre`, longest line about
+660px). Those exist on every content page and scroll inside their box
+everywhere else, because the engine sizes `.center` to its grid area
+(`max-width: 100%; min-width: 100%`). The ritual block's
+`.page > #quartz-body .center { max-width: 1120px; margin: 0 auto }`
+(`custom.scss:142-145`) replaces the `100%` cap and turns the grid item into
+shrink-to-fit, which is `max(min-content, available)`: 709 on witness, 452 on
+week-of-nonconsensual, 383 on small-ritual, in a 320px column. The masthead,
+a `.center` child, wraps to that width. The same rule is dead on desktop: at
+1920 `.center` is 1395px because the engine's `min-width: 100%` beats the
+1120px cap, and the paper is centred by `article { max-width: 980px }`, not
+by `.center`. Mechanism: delete the rule. Nothing is added; the masthead is
+not clipped, capped or scrolled; the `h1` is untouched.
+
+### Cut order
+
+4. `thing` / `deck-page-edges` and `site-masthead` / `ritual-phone-width`:
+   independent of each other and of the other-pills cut; either order. Both
+   are based on `87f2942`; they touch disjoint lines of `custom.scss`.

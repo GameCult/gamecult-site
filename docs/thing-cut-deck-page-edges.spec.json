@@ -1,0 +1,220 @@
+{
+  "campaign": "thing",
+  "cut": "deck-page-edges",
+  "revision": 1,
+  "title": "Thing page edges: the masthead and footer keep the site's gutters at every width including 1920, and the ticker band sits in the stage's flow below the hero content, never across it on short phones",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "87f29425f4a2ac038045ea759fc104f194e0195e",
+  "depends_on": [],
+  "first": [
+    "Map: gamecult-site docs/masthead-campaign.md, section 'Soul's findings after flat-nav' > 'Cut deck-page-edges'. It resolves thing:finding:cut-deck-page-fixes.s1.chrome-edges-wide (Low) and thing:finding:cut-deck-page-fixes.s1.phone-ticker-short (Medium), both from thing:verdict:cut-deck-page-fixes.s1. Line numbers below are read from 87f2942; if main moves, re-read by selector.",
+    "Rulings in force: operator-deck-polish ('no edits beyond the re-skin is awfully strict'; edits that fix the deck's behaviour are allowed), operator-deck-is-a-site-page (masthead kept, deck fills the screen), site-masthead operator-ground-behind-masthead (the hero runs up behind the masthead; unchanged here), self-phone-hero-waits (re-measure after flat-nav; Soul did, and the short phones are the result). No question is open for this cut.",
+    "Finding 1, measured live at 1920 on 87f2942: /Projects .page is content-box 1680px + 19.2px padding each side (outer 1718.4), so its masthead and footer text start at x 120. /Thing's .page-header is width 100%, max-width 1680px, box-sizing border-box with the inset inside, so its text starts at 139.2; the Thing footer rule's max-width 1680px and margin-inline auto are dead under the engine's .page > #quartz-body footer { min-width: 100% } (GameCult-Quartz base.scss 293-296), so the footer is 1920 wide and its text starts at 19.2. Below 1718.4 both pages are 100% wide with the same inset, which is why Hands's 1440/1000/375 checks held.",
+    "Finding 2, measured live on 87f2942 with scripts: at 375x667 the masthead footprint is 219.8px; .hero-in is 375px tall (eyebrow 40, was 64, h1 113, hero-sub 78, cue 20, four gaps of 14.7) and is flex-centred in the 447px below the masthead, so it spans 256-631; .ticker-w is absolute at bottom 56px (565-618) and .conf at bottom 16px (614-651). At 360x740: hero-in 266-694 (428 tall, the subtitle wraps to four lines), ticker 639-691. At 375x812 and 390x844 the band clears the cue. Two owners decide the hero's vertical layout today: flex centring places .hero-in, absolute positioning places the band and the confidentiality line, and nothing reconciles them.",
+    "The stage (deck.css 37) is height 100vh / calc(100svh - safe areas), overflow hidden, flex column, justify-content center, padding-top var(--masthead-h, 9rem). .hero-in (46) is position relative z-index 2. .ticker-w (74) is position absolute, left/right -4vw, bottom 56px, z-index 2, rotate(-2deg). .conf (80) is position absolute, left/right 0, bottom 16px, z-index 2, padding-inline 16px. The reduced-motion stage (239) is height auto, min-height 88vh, padding-block calc(var(--masthead-h, 9rem) + 96px) 160px. .hero-bg, .rays, #burst and .flash are absolute inset 0 (burst z 3, flash z 4) and stay. Markup order in GameCult/Thing.md 16-28: hero-bg, rays, .wrap.hero-in, .fade.ticker-w, .fade > p.conf, canvas#burst.",
+    "Deploy is push to main -> workflow 'Deploy Quartz' -> GitHub Pages at gamecult.org; small commits; CI is the verifier. A local .\\scripts\\quartz\\quartz.ps1 build is optional on Starfire. Measure with the browser pane's viewport emulation plus window.dispatchEvent(new Event('resize')) (the emulated resize fires no resize event, so --masthead-h is only re-measured by the listener when you dispatch one), or with iframes of the given sizes."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/static/thing/deck.css",
+      "lines": 1,
+      "note": "Line 37, .thing-deck .stage: the two height declarations (height:100vh; height:calc(100svh - ...)) become min-height, and justify-content:center is deleted. The stage no longer clips content that is taller than a screen; it grows."
+    },
+    {
+      "path": "site/quartz/static/thing/deck.css",
+      "lines": 1,
+      "note": "Line 74, .thing-deck .ticker-w: position:absolute; left:-4vw; right:-4vw; bottom:56px are deleted. The band is a flow child of the stage."
+    },
+    {
+      "path": "site/quartz/static/thing/deck.css",
+      "lines": 1,
+      "note": "Line 80, .thing-deck .conf: position:absolute; left:0; right:0; bottom:16px are deleted. The confidentiality line is a flow child after the band."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 2,
+      "note": "Thing block, lines 1151-1168: max-width: 1680px on .page-header (1157) and on the footer (1164) are replaced by the frame variable; nothing else in the two rules changes."
+    }
+  ],
+  "keeps_moves": [
+    "GameCult/Thing.md is not edited: the hero's markup order (hero-bg, rays, hero-in, ticker-w, conf, burst) already matches the flow order the stage needs. Soul diffs Thing.md against base and expects no change.",
+    "The ticker's content, rotation (-2deg), colours, marquee and slide-in animation (tkin, --d 2.1s), the HUD, the bursts, the flash and every exhibit below the hero are unchanged. The ticker's bleed past the viewport edge is kept as negative inline margins instead of negative left/right.",
+    "The masthead clearance mechanism is unchanged: deck.js sizeHead still writes --masthead-h (offsetHeight + margin-top) and the stage still pads by it. .hero-in still clears the masthead; it is centred in the stage's remaining height by auto block margins instead of by the stage's justify-content.",
+    "--thing-inset and its three breakpoint values (1124-1132) are unchanged; the new --thing-frame is derived from it and from the site's 1680px page width.",
+    "The HUD pill's phone position and its overlap with the community icons before first scroll stay accepted (Thing map r4)."
+  ],
+  "adds": [
+    "custom.scss, Thing block, beside --thing-inset (after line 1132, outside the media queries): --thing-frame: calc(1680px + 2 * var(--thing-inset)); the outer width of .page on every other page (content-box 1680px plus the gutters), so the Thing header and footer boxes are the same box .page is.",
+    "custom.scss 1157 (.page-header): max-width: var(--thing-frame) in place of max-width: 1680px. With width 100%, border-box and padding 0 var(--thing-inset), the titlebar text starts at x 120 at 1920, as on /Projects.",
+    "custom.scss 1164 (footer): max-width: var(--thing-frame) in place of max-width: 1680px, and one new declaration min-width: 0 so the engine's min-width: 100% no longer decides the footer's width; margin-inline auto then centres it and its text starts at x 120 at 1920.",
+    "deck.css 37, .thing-deck .stage: position:relative;min-height:100vh;min-height:calc(100svh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow:hidden;display:flex;flex-direction:column;padding-top:var(--masthead-h,9rem);background:var(--inv);color:var(--inv-ink). One screen where the content fits (every desktop size, 375x812, 390x844); taller than one screen only where it does not (375x667 by about 35px, 360x740 by about 15px), so the band and the confidentiality line are then just under the fold instead of over the subtitle.",
+    "deck.css 46, .thing-deck .hero-in: add margin-block:auto so the hero content is centred in the space between the masthead padding and the band, exactly as justify-content:center centred it when the band was out of flow.",
+    "deck.css 74, .thing-deck .ticker-w: position:relative;z-index:2;margin:0 -4vw 8px;transform:rotate(-2deg). position:relative keeps the band's z-index 2 above .hero-bg and .rays (absolute, z auto). The band can no longer overlap .hero-in because both are flow siblings.",
+    "deck.css 80, .thing-deck .conf: position:relative;z-index:2;text-align:center;font-family:var(--mono);font-size:12px;color:var(--ink-3);padding:0 16px 16px. On desktop the band's bottom lands about 43px above the stage's bottom edge (it was 56px); accepted.",
+    "deck.css 239, .thing-deck.rm .stage: padding-block becomes calc(var(--masthead-h,9rem) + 96px) 64px; the 160px bottom padding existed to leave room under the absolute band, and the band is now in flow."
+  ],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1124,
+        "end_line": 1168
+      },
+      "change": "--thing-frame defined beside --thing-inset; .page-header max-width var(--thing-frame); footer max-width var(--thing-frame) and min-width 0."
+    },
+    {
+      "location": {
+        "path": "site/quartz/static/thing/deck.css",
+        "line": 37,
+        "end_line": 37
+      },
+      "change": ".stage: height becomes min-height (both declarations); justify-content:center deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/static/thing/deck.css",
+        "line": 46,
+        "end_line": 46
+      },
+      "change": ".hero-in gains margin-block:auto."
+    },
+    {
+      "location": {
+        "path": "site/quartz/static/thing/deck.css",
+        "line": 74,
+        "end_line": 74
+      },
+      "change": ".ticker-w: in flow (position:relative; margin:0 -4vw 8px); left/right/bottom deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/static/thing/deck.css",
+        "line": 80,
+        "end_line": 80
+      },
+      "change": ".conf: in flow (position:relative; padding:0 16px 16px); left/right/bottom deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/static/thing/deck.css",
+        "line": 239,
+        "end_line": 239
+      },
+      "change": ".rm .stage bottom padding 160px becomes 64px."
+    }
+  ],
+  "authority_map": {
+    "owner": "The stage's flow owns the hero's vertical layout: masthead padding, then .hero-in centred by auto margins, then the ticker band, then the confidentiality line, and the stage is at least one screen tall. The Thing block in custom.scss owns the masthead's and footer's box on /Thing, and that box is one variable, --thing-frame, equal to the outer width of .page everywhere else.",
+    "inputs": [
+      "the measured masthead footprint (--masthead-h, written by deck.js sizeHead; unchanged)",
+      "the viewport height (100svh) and the hero content's own height",
+      "the site's page width (1680px) and --thing-inset per breakpoint"
+    ],
+    "outputs": [
+      "a hero stage that is one screen where the content fits and grows where it does not, with the band always below the cue",
+      "masthead and footer text on /Thing starting at the same x as on /Projects at every width, 1920 included"
+    ],
+    "derived_state": [
+      "--thing-frame is derived from 1680px and --thing-inset; it decides nothing on other pages",
+      "the band's and the confidentiality line's positions are derived from the flow; bottom offsets no longer exist",
+      ".hero-in's vertical position is derived from the stage's free space through margin-block:auto"
+    ],
+    "forbidden_writers": [
+      "no position:absolute, top, bottom, left or right on .ticker-w or .conf",
+      "no height on .thing-deck .stage (min-height only); no justify-content on .stage",
+      "no max-height media query, font-size change or gap change in the hero to force short phones onto one screen: a stage that grows is the mechanism, and whether the hero should also tighten on short phones is the operator's call after seeing it",
+      "no literal 1680px in the Thing block other than inside --thing-frame; no second max-width on .page-header or the footer",
+      "no engine edit (GameCult-Quartz base.scss keeps min-width: 100% on footer; the site rule beats it with min-width: 0)",
+      "no change to GameCult/Thing.md, deck.js, or any rule outside the Thing block of custom.scss and the five deck.css lines named"
+    ],
+    "shared_paths": [
+      "the same stage rule serves the scripted and the reduced-motion (.rm) deck; .rm only changes padding",
+      "the same --thing-frame serves the header and the footer",
+      "deploy is the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The absolute positioning of .ticker-w and .conf (position, left, right, bottom), the stage's fixed height and justify-content:center, and the two literal max-width: 1680px in the Thing block are deleted in the first commit, before margin-block:auto, --thing-frame and min-width: 0 are written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz on GameCult/gamecult-site green for the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "optional: .\\scripts\\quartz\\quartz.ps1 build succeeds locally"
+    ],
+    "tests": [
+      {
+        "name": "at 1920x900, /Thing vs /Projects: .gamecult-titlebar left, footer p left, footer a left",
+        "pins": "chrome-edges-wide. Expect /Thing: titlebar left 120, footer p left 120, footer used width 1718.4 and .page-header used width 1718.4; /Projects: titlebar 120, footer p 120. Computed footer min-width on /Thing is 0px."
+      },
+      {
+        "name": "at 1440x900, 1200, 1000, 800 and 375 wide: /Thing titlebar and footer p left equal /Projects",
+        "pins": "the gutters still match below the 1718.4 threshold (regression of deck-page-fixes's chrome-gutters promise)."
+      },
+      {
+        "name": "band below the cue at 375x667, 360x740, 375x812 and 390x844 on /Thing",
+        "pins": "phone-ticker-short at Soul's four sizes. With scripts, after dispatching a resize event and waiting 3s for the ticker: .ticker-w.getBoundingClientRect().top >= the .cue's bottom, .conf top >= .ticker-w bottom, .hero-in top >= .page-header bottom. Expect every inequality true at every size; no hero-in child's rect intersects the ticker's rect."
+      },
+      {
+        "name": "stage height at the four phone sizes",
+        "pins": "one screen where it fits; a bounded growth where it does not, with nothing clipped by the stage's overflow hidden. Expect at 375x812 and 390x844: .thing-deck .stage height == innerHeight; at 375x667 and 360x740: stage height >= innerHeight and <= innerHeight + 80, and the ticker fully inside the stage (ticker bottom <= stage bottom - 16)."
+      },
+      {
+        "name": "at 1440x900 /Thing: stage height == innerHeight; .hero-in vertically centred between the masthead padding and the band within 4px; ticker-w bottom between 36 and 50px above the stage's bottom",
+        "pins": "the desktop hero is unchanged to the eye: one screen, content centred, band near the bottom."
+      },
+      {
+        "name": "reduced motion (emulate prefers-reduced-motion: reduce) at 1440 and 375x667: .ticker-w top >= .cue bottom; the stage's bottom padding is 64px",
+        "pins": "the .rm stage shares the flow mechanism."
+      },
+      {
+        "name": "git diff base..head --stat for this cut's commits: only site/quartz/styles/custom.scss (Thing block) and site/quartz/static/thing/deck.css; GameCult/Thing.md and deck.js unchanged",
+        "pins": "no reach: the fix is two files, no markup, no script."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "\\.ticker-w\\{[^}]*(absolute|bottom:|left:|right:)",
+        "scope": "site/quartz/static/thing/deck.css: no match."
+      },
+      {
+        "pattern": "\\.conf\\{[^}]*(absolute|bottom:|left:|right:)",
+        "scope": "site/quartz/static/thing/deck.css: no match."
+      },
+      {
+        "pattern": "\\.thing-deck \\.stage\\{[^}]*(;height:|\\{height:|justify-content)",
+        "scope": "site/quartz/static/thing/deck.css: no match (min-height only, no justify-content)."
+      },
+      {
+        "pattern": "max-height",
+        "scope": "site/quartz/static/thing/deck.css, git diff base..head: no match (no short-phone type tightening in this cut)."
+      },
+      {
+        "pattern": "max-width: 1680px",
+        "scope": "site/quartz/styles/custom.scss inside body[data-slug=\"Thing\"]: no match (the width lives in --thing-frame only)."
+      },
+      {
+        "pattern": "Thing\\.md|deck\\.js|GameCult-Quartz",
+        "scope": "git diff --name-only base..head: no match."
+      }
+    ],
+    "operator": [
+      "look at https://gamecult.org/Thing on a short phone (375x667 or 360x740) and say whether the ticker band landing just under the first screen is fine, or whether the hero type should also tighten on short phones so the band stays above the fold; that is a separate small cut if wanted"
+    ]
+  },
+  "estimate": {
+    "lines_added": 3,
+    "lines_removed": 0,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "thing:ruling:operator-deck-polish",
+    "thing:ruling:operator-deck-is-a-site-page",
+    "thing:ruling:self-phone-hero-waits",
+    "site-masthead:ruling:operator-ground-behind-masthead"
+  ],
+  "questions": []
+}

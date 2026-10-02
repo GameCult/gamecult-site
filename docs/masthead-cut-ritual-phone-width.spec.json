@@ -1,0 +1,133 @@
+{
+  "campaign": "site-masthead",
+  "cut": "ritual-phone-width",
+  "revision": 1,
+  "title": "Ritual-paper essays on phones: the essays' .center rule is deleted so the page column is the engine's, bounded by the viewport; every masthead nav link is reachable and the paper fits the screen",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "87f29425f4a2ac038045ea759fc104f194e0195e",
+  "depends_on": [],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Soul's findings after flat-nav' > 'Cut ritual-phone-width'. It resolves site-masthead:finding:cut-flat-nav.s1.ritual-nav-offscreen (Medium, PreExisting) and subsumes site-masthead:follow_up:ritual-essay-phone-overflow. Line numbers are read from 87f2942.",
+    "The cause, measured live on 87f2942, is not the h1. With the h1 display:none the .center's min-content is still 709px on witness-authoritative-networking. The culprits are the figure > pre > code blocks on the cover page (white-space: pre, longest line about 660px at the essay's code size). Those blocks exist on every content page and scroll inside their box everywhere else because the engine sizes .center to its grid area: .page > #quartz-body .center { max-width: 100%; min-width: 100%; margin: auto } (GameCult-Quartz base.scss 291-296).",
+    "The ritual block (custom.scss 101-634) overrides that at 142-145 with .page > #quartz-body .center { max-width: 1120px; margin: 0 auto; }. Replacing max-width: 100% with 1120px makes the grid item shrink-to-fit, and shrink-to-fit is max(min-content, available): 709 on witness, 452 on week-of-nonconsensual, 383 on small-ritual, in a 320px grid area at 375 wide. The masthead, a .center child, wraps to that width and its last nav links land past x 375 under the engine's html { overflow-x: hidden }.",
+    "The same rule decides nothing on desktop: at 1920 the .center is 1395px (the 1fr column), because the engine's min-width: 100% beats max-width: 1120px; at 1440 the column is 1117px, under the cap. The paper is centred by article { max-width: 980px; margin: 2rem auto 4rem } (151-153), not by .center. So the rule is dead where it was meant to act and harmful where it was not.",
+    "Rulings in force: operator-nav-ubuntu-links (the nav is nine text links; all must be reachable), self-masthead-pills-first (scope: this cut does not touch .gamecult-repo-link or .gamecult-action). No question is open. The fix must be at the paper's width, not a clip or overflow rule on the masthead.",
+    "Deploy is push to main -> workflow 'Deploy Quartz' -> GitHub Pages at gamecult.org; small commits; CI is the verifier. Measure with the browser pane's viewport emulation or with iframes of the given sizes."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 4,
+      "note": "Lines 142-145 inside the ritual-paper body[data-slug] block: .page > #quartz-body .center { max-width: 1120px; margin: 0 auto; } deleted whole, with its blank line. The engine's .center rule then applies on these three essays as on every other page."
+    }
+  ],
+  "keeps_moves": [
+    "The essays' ground, grid (minmax(0, 1fr) 280px desktop; single column under 760px), hidden left sidebar, right sidebar, article max-width 980px and centring, the Georgia face, the paper sections, the WORKING PAPER label, titleblock, keyline, abstract, method cards, results strips, footnotes and page numbers are unchanged.",
+    "article h1 (247-256) is unchanged: no overflow-wrap, word-break or hyphens; it was not the cause.",
+    "The masthead (header rule 646, .gamecult-titlebar* rules, .gamecult-nav-link rules, GameCultMasthead.tsx) is unchanged: no overflow, clip, max-width, scroll affordance or hidden link.",
+    "The pre > code blocks in the essays keep the engine's own overflow-x: auto and scroll inside their 320px box on phones, as they do on every other content page."
+  ],
+  "adds": [],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 142,
+        "end_line": 145
+      },
+      "change": "the ritual .center rule (max-width 1120px; margin 0 auto) deleted."
+    }
+  ],
+  "authority_map": {
+    "owner": "The engine's .page > #quartz-body .center rule owns the page column's width on every page, the ritual essays included: the column is its grid area, never its content's min-content. The ritual block owns the essays' ground, grid and the paper's width through article { max-width: 980px; margin: auto }.",
+    "inputs": [
+      "the viewport width and the ritual grid's columns (minmax(0, 1fr) 280px; single column under 760px)",
+      "the article's own max-width 980px"
+    ],
+    "outputs": [
+      "a .center as wide as its grid area on the three essays at every width (1395 at 1920, 1117 at 1440, 320 at 375)",
+      "a masthead that wraps to the viewport on those pages, with all nine nav links on screen"
+    ],
+    "derived_state": [
+      "the paper's width is derived from article { max-width: 980px } and the column; .center contributes no cap of its own",
+      "long code lines scroll inside their pre, derived from the engine's overflow-x: auto on a bounded box"
+    ],
+    "forbidden_writers": [
+      "no .center rule in the ritual block (no max-width, width, min-width or margin on .page > #quartz-body .center under the three body[data-slug] selectors)",
+      "no overflow, overflow-x, clip, max-width, min-width, white-space or scroll rule on .page-header, header, .gamecult-titlebar, .gamecult-titlebar-nav or .gamecult-titlebar-links",
+      "no overflow-wrap, word-break or hyphens on article h1 (the h1 was not the cause)",
+      "no white-space or overflow change on code or pre in the ritual block",
+      "no engine edit; no change to .gamecult-repo-link or .gamecult-action"
+    ],
+    "shared_paths": [
+      "every page's .center is sized by the one engine rule; the essays stop being the exception",
+      "deploy is the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The ritual .center rule (142-145) is the whole cut; nothing is added after it."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz on GameCult/gamecult-site green for the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "optional: .\\scripts\\quartz\\quartz.ps1 build succeeds locally"
+    ],
+    "tests": [
+      {
+        "name": ".center and nav links inside the viewport on the three essays at 375x667, 360x740, 375x812 and 390x844",
+        "pins": "ritual-nav-offscreen and the subsumed ritual-essay-phone-overflow at Soul's four sizes, on /Blog/witness-authoritative-networking, /Blog/week-of-nonconsensual-access and /Blog/small-ritual-of-reach. Expect: .center width equals #quartz-body's resolved grid column; every .gamecult-nav-link's right <= innerWidth; document.documentElement.scrollWidth == innerWidth. At 375: .center 320.6; Docs, Aetheria and Zyphos rights < 375 on witness; Docs right < 375 on week; small-ritual .center 320.6 (was 383)."
+      },
+      {
+        "name": "code blocks scroll inside the column at 375 on the three essays",
+        "pins": "the cause is handled where it lives: the code blocks scroll inside a bounded column, as on every other content page. Expect every figure > pre clientWidth <= .center width, scrollWidth > clientWidth where a line is longer than the box, and the .ritual-paper-page section's right edge inside the viewport."
+      },
+      {
+        "name": "at 1920x900 and 1440x900 on witness: .center width 1395 and 1117 respectively (unchanged), article width 980 centred (left 328 at 1920, unchanged), .gamecult-titlebar left 120 at 1920 (unchanged)",
+        "pins": "the deleted rule decided nothing on desktop; the paper and masthead are pixel-identical there."
+      },
+      {
+        "name": "elementFromPoint at the centre of the Zyphos link on witness at 375x812 returns that link, and the link's href is the Zyphos route",
+        "pins": "reachable means tappable, not just inside the viewport."
+      },
+      {
+        "name": "git diff base..head --stat: only site/quartz/styles/custom.scss, net -4 or -5 lines; no other file",
+        "pins": "a pure subtraction cut."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "max-width: 1120px",
+        "scope": "site/quartz/styles/custom.scss lines 101-634 (the ritual block): no match."
+      },
+      {
+        "pattern": "(page-header|gamecult-titlebar[a-z-]*|\\.center > .page-header > header)[^{]*\\{[^}]*(overflow|clip|max-width|min-width|white-space|scroll)",
+        "scope": "git diff base..head of this cut, multiline: no match (the masthead is not clipped or capped)."
+      },
+      {
+        "pattern": "article h1[^{]*\\{[^}]*(overflow-wrap|word-break|hyphens)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "gamecult-repo-link|gamecult-action|GameCult-Quartz",
+        "scope": "git diff base..head and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "open https://gamecult.org/Blog/witness-authoritative-networking on a phone and say whether the paper reads as before with every nav link in reach"
+    ]
+  },
+  "estimate": {
+    "lines_added": 0,
+    "lines_removed": 5,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-nav-ubuntu-links",
+    "site-masthead:ruling:self-masthead-pills-first"
+  ],
+  "questions": []
+}

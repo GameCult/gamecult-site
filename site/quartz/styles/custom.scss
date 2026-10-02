@@ -1768,9 +1768,6 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .integrated-dossier-page {
-  --integrated-panel: rgba(9, 14, 22, 0.94);
-  --integrated-panel-soft: rgba(12, 19, 29, 0.82);
-  --integrated-border: rgba(89, 183, 255, 0.16);
   --integrated-blue: #59b7ff;
   --integrated-orange: #ff8a2a;
 
@@ -1790,7 +1787,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   article h2 {
     margin-top: 3rem;
     padding-bottom: 0.48rem;
-    border-bottom: 1px solid var(--integrated-border);
+    border-bottom: 1px solid var(--gamecult-rule);
     color: var(--integrated-blue);
     font-weight: 200;
   }
@@ -1821,15 +1818,8 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 .integrated-dossier-hero {
   margin: 0 0 2rem;
-  padding: clamp(1.35rem, 4vw, 3rem);
-  border: 1px solid rgba(89, 183, 255, 0.18);
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(5, 8, 13, 0.98), rgba(11, 18, 28, 0.96)),
-    radial-gradient(circle at 88% 12%, rgba(89, 183, 255, 0.12), transparent 28%);
-  box-shadow:
-    0 26px 62px rgba(0, 0, 0, 0.28),
-    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  padding: 0 0 1.6rem;
+  border-bottom: 1px solid var(--gamecult-rule);
 }
 
 .integrated-dossier-kicker,
@@ -1864,17 +1854,9 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
   margin: 1.25rem 0 1rem;
 }
 
-.integrated-dossier-hero dl div,
-.integrated-dossier-note,
-.integrated-dossier-table,
-.integrated-dossier-glossary {
-  border: 1px solid var(--integrated-border);
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--integrated-panel), var(--integrated-panel-soft));
-}
-
 .integrated-dossier-hero dl div {
-  padding: 0.8rem 0.9rem;
+  padding: 0.6rem 0 0;
+  border-top: 1px solid var(--gamecult-rule);
 }
 
 .integrated-dossier-hero dt,
@@ -1894,8 +1876,8 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 
 .integrated-dossier-note {
   margin: 1.2rem 0;
-  padding: 1rem 1.1rem;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+  padding: 0.1rem 0 0.1rem 1rem;
+  border-left: 2px solid var(--integrated-blue);
 }
 
 .integrated-dossier-note strong {
@@ -1903,7 +1885,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .integrated-dossier-lead {
-  border-color: rgba(255, 138, 42, 0.26);
+  border-left-color: var(--integrated-orange);
 }
 
 .integrated-dossier-table {
@@ -1941,11 +1923,16 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .integrated-dossier-glossary {
-  padding: 1rem;
+  padding: 0;
+}
+
+.integrated-dossier-glossary dt {
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--gamecult-rule);
 }
 
 .integrated-dossier-glossary dd + dt {
-  margin-top: 1rem;
+  margin-top: 0.6rem;
 }
 
 

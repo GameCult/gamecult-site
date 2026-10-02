@@ -1,0 +1,196 @@
+{
+  "campaign": "site-masthead",
+  "cut": "column-align",
+  "revision": 1,
+  "title": "Column align: one width token --gamecult-column (72rem) is .page's max-width everywhere; the studio-page and ritual caps that centred content inside the column go; /Thing's frame reads the token",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [
+    "sidebars-gone"
+  ],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'One column' (map revision 4), facts C1, C7, C8 and the paragraph 'One column'. Ruling: operator-chromeless-column ('aligned like it is on the pages with sidecars'). Follow-up: site-masthead:follow_up:full-width-content, which this cut resolves. Based on 535d170; after sidebars-gone every page is one grid column and custom.scss is about 300 lines shorter. Re-read by selector.",
+    "The misalignment (C1): .page is max-width 1680px (33-37) and .gamecult-studio-page centres the article at 72rem inside it (2013-2017), so on / and /Projects the masthead (full .center width) and the article (72rem, centred) have different left edges. The ritual essays do the same with article { max-width: 980px; margin: 2rem auto 4rem } (148-156). The fix is not to centre the masthead too; it is to make the column the content's width, so nothing is centred inside it.",
+    "Mechanism: body { --gamecult-column: 72rem; } (1152px, the studio pages' current measure). .page { max-width: var(--gamecult-column); } keeps its gutters (padding 0 1.2rem 2.5rem; the engine's #quartz-body padding below $desktop and the mobile 0.7rem stay). Then .page-header, article and the engine footer are each the column's full width and share its edges. .gamecult-studio-page loses max-width and margin-inline (its --gamecult-studio-copy token stays). The ritual article loses max-width: 980px and its margin becomes 2rem 0 4rem; the paper's measure is its own two text columns (column-count: 2 at 540) and the 760px caps on article h1 and .ritual-paper-titleblock stay as type measures. .page > #quartz-body .center, footer { max-width: none } (89-92) says what the engine's max-width: 100% already says in one column; delete it and confirm .center still equals the grid column.",
+    "/Thing: the deck stays full-bleed (.page { max-width: none; padding: 0 } in the Thing block is untouched); --thing-frame becomes calc(var(--gamecult-column) + 2 * var(--thing-inset)) so the masthead and footer boxes on /Thing are the same box as .page everywhere else. No other literal page width remains.",
+    "Why 72rem and not the engine's or 1680: the follow-up asks that content fill the width 'where reasonable'; 72rem is the measure the studio pages already chose for prose and media side by side, prose at 1152px is already wide, and the token makes the site's width one number to change after the operator sees it. Not a fork.",
+    "Brand doc: a '## Layout' section after '## Surfaces': the site is one centred column, --gamecult-column (72rem) on body, .page's max-width; the masthead, article and footer share its edges on every page; nothing is centred inside it; a full-bleed surface (the Thing deck, the VN on tour/Pitch) may escape the column while its masthead and footer keep the frame; the remaining caps (760px on the ritual h1 and title block, 68ch on the tagline) are type measures, not chrome. This is the Layout section the follow-up asked for."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": ".page max-width: 1680px (35) replaced by the token (counted as 1 removed, 1 added)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 4,
+      "note": ".page > #quartz-body .center, .page > #quartz-body footer { max-width: none } (89-92) deleted whole."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": "ritual article max-width: 980px (150) deleted; margin (151) becomes 2rem 0 4rem."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 2,
+      "note": ".gamecult-studio-page max-width: 72rem and margin-inline: auto (2015-2016) deleted; the rule keeps --gamecult-studio-copy."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": "--thing-frame: calc(1680px + ...) (1045) replaced by the token form (1 removed, 1 added)."
+    }
+  ],
+  "keeps_moves": [
+    ".page keeps position: relative and padding 0 1.2rem 2.5rem; the mobile .page padding 0 0.7rem 1.8rem stays; the engine's #quartz-body padding below $desktop stays.",
+    "The Thing block keeps --thing-inset, .page max-width none / padding 0, the stack grid, the header and footer rules; only the frame's literal changes.",
+    "article h1 and .ritual-paper-titleblock 760px, the tagline's 68ch, .gamecult-studio-page > p 76ch: type measures, unchanged.",
+    "The tour/Pitch block (.page max-width none, 100svh) is unchanged."
+  ],
+  "adds": [
+    "custom.scss body: --gamecult-column: 72rem; beside --gamecult-rule and --gamecult-wash, with a one-line comment: the site's one column; .page's max-width; the masthead, article and footer share its edges.",
+    "custom.scss .page: max-width: var(--gamecult-column);",
+    "custom.scss ritual article: margin: 2rem 0 4rem;",
+    "custom.scss Thing block: --thing-frame: calc(var(--gamecult-column) + 2 * var(--thing-inset));",
+    "docs/brand-design-language.md: '## Layout' section after '## Surfaces' (about 10 lines, content in first[5])."
+  ],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 10,
+        "end_line": 37
+      },
+      "change": "body declares --gamecult-column; .page max-width reads it."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 89,
+        "end_line": 92
+      },
+      "change": "center/footer max-width none deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 148,
+        "end_line": 156
+      },
+      "change": "ritual article: 980px cap deleted; margin block only."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1045,
+        "end_line": 1045
+      },
+      "change": "--thing-frame reads the token."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 2013,
+        "end_line": 2017
+      },
+      "change": "studio page cap and centring deleted."
+    },
+    {
+      "location": {
+        "path": "docs/brand-design-language.md",
+        "line": 111,
+        "end_line": 112
+      },
+      "change": "Layout section inserted after Surfaces."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss body owns the site's width through --gamecult-column; .page is the only rule that applies it as a width; the Thing block derives its frame from it.",
+    "inputs": [
+      "--gamecult-column",
+      "the gutters (.page padding; the engine's #quartz-body padding below $desktop; --thing-inset on /Thing)"
+    ],
+    "outputs": [
+      "on every page the masthead, the article and the site footer have the same left and right edges, the column's; on /Thing the deck is full-bleed and the masthead and footer keep the column's frame"
+    ],
+    "derived_state": [
+      "the masthead's, article's and footer's widths are derived from the column; .gamecult-studio-page and the ritual article are no longer owners of a width",
+      "--thing-frame is derived from --gamecult-column and --thing-inset; no literal page width exists",
+      "full-width-content is resolved: the column is the one width; the 760px and 68ch caps are type measures named in the brand doc"
+    ],
+    "forbidden_writers": [
+      "no max-width with an auto margin on an article, page class or .center (the Thing footer's margin-inline: auto centres the frame in the full-bleed page and is the one exception; the ritual h1 and title block centre a heading, not a box)",
+      "no literal 1680px or 72rem outside the token declaration; no second width token",
+      "no change to the grid rule, the sidebars (gone), the wash, the pills, the masthead markup or the engine"
+    ],
+    "shared_paths": [
+      "every page's .page reads the same token; /Thing reads it through --thing-frame; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The two caps, the centring, the center/footer override and the two literal widths are deleted in the first commit; the token and the three reads are written in the same commit so the build never has no width."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "at 1440 on nine page types the rects of .page-header, .center > article and #quartz-body > footer share left and right edges within 1px and are 1152px wide",
+        "pins": "Pages: /, /Projects, /Blog, /Blog/hello-world, /Docs/Architecture-and-Evidence, a ritual essay, the colossus post, /dossier, /Graph. the operator's complaint: masthead and content aligned on every page, the home and project pages included."
+      },
+      {
+        "name": "at 375 on the same pages: the same three rects share edges and scrollWidth equals innerWidth",
+        "pins": "one column on phones, no overflow."
+      },
+      {
+        "name": "at 1920 on /Thing: .center > article is viewport-wide (full-bleed deck); .page-header and #quartz-body > footer are 1152px plus two gutters wide and share edges with each other",
+        "pins": "the deck escapes the column; its chrome keeps the frame."
+      },
+      {
+        "name": "at 1440 on a ritual essay: article width equals .center width; the paper's two text columns render; article h1 is still centred at 760px",
+        "pins": "the 980px cap is gone; type measures stay."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss and docs/brand-design-language.md only; custom.scss net about -5",
+        "pins": "one token, three reads, two caps and one override deleted."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "1680px",
+        "scope": "site/quartz/styles/custom.scss: no match."
+      },
+      {
+        "pattern": "72rem",
+        "scope": "site/quartz/styles/custom.scss: exactly one match, the --gamecult-column declaration."
+      },
+      {
+        "pattern": "max-width:[^;]*;[^}]*margin(-inline)?:[^;]*auto",
+        "scope": "site/quartz/styles/custom.scss, multiline: matches only the Thing footer rule and the ritual article h1 / .ritual-paper-titleblock rules."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|gamecult-nav-link|GameCult-Quartz|sidebar|--gamecult-wash",
+        "scope": "git diff base..head changed lines: no match."
+      }
+    ],
+    "operator": [
+      "open / and /Projects and say whether the masthead now sits on the content; then say whether 72rem is the width you want (one number on body)"
+    ]
+  },
+  "estimate": {
+    "lines_added": 15,
+    "lines_removed": 9,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-chromeless-column"
+  ],
+  "questions": []
+}

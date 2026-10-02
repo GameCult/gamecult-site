@@ -1,0 +1,123 @@
+{
+  "campaign": "site-masthead",
+  "cut": "community-hit-gap",
+  "revision": 1,
+  "title": "Community hit gap: the community row's gap is never smaller than the distance that keeps neighbouring 44px hit areas apart, so no two hit areas cross at any title size",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [],
+  "first": [
+    "Finding: site-masthead:finding:cut-home-flat.s1.github-hit-overlap (Low). At 360 and 375 wide the title is 1.9rem, so each community box is 0.92em = 27.97px wide and the row gap 0.35em = 10.64px; neighbour centres are 38.6px apart while each ::after hit area is 44px wide, so Discord's hit area covers the right 5.4px of GitHub's and 22 of 121 sampled taps on GitHub open Discord.",
+    "Rules: .gamecult-titlebar-community (custom.scss 725-733: gap 0.35em, font-size var(--gamecult-title-size)); .gamecult-nav-wordmark::after, .gamecult-nav-icon::after (754-763: width and height max(100%, 44px), centred). --gamecult-title-size is clamp(2.1rem, 4vw, 3.3rem) (645) and 1.9rem under $mobile (1351).",
+    "Chosen: a gap floor, not clipped hit areas. Clipping each hit area to the midpoint keeps the row tight but makes the target smaller than 44px (WCAG 2.5.8's floor) exactly where fingers are, and it needs a second geometry (half-gap offsets) that must agree with the first. A gap floor keeps every target 44px square and states the invariant in one place: neighbouring centres are at least the hit size apart. One line changes.",
+    "Mechanism: the hit size becomes a token on the row, --gamecult-hit: 44px, read by the ::after rule (max(100%, var(--gamecult-hit))) and by the gap: gap: max(0.35em, calc(var(--gamecult-hit) + 1px - 0.92em)). At desktop sizes 0.92em exceeds 44px, the calc is negative and 0.35em wins, so nothing changes; at 1.9rem the gap becomes 17.03px, centres are 45px apart, and the hit areas do not touch. 0.92em is the box width named in .gamecult-nav-icon (750); the wordmark is wider, so its neighbour distance is larger still.",
+    "Not this cut: the glyph sizes, the glow, the title size, the wordmark's own width, and anything outside the community row."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": "gap: 0.35em (728) replaced by the floored gap (1 removed, 1 added)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 2,
+      "note": "width/height max(100%, 44px) (760-761) replaced by the token form (2 removed, 2 added)."
+    }
+  ],
+  "keeps_moves": [
+    "The community row's wrap, align-items, margin-left: auto, flex and em font-size: unchanged.",
+    "The ::after position, centring transform and content: unchanged; the comment above it gains the gap sentence.",
+    "The box and glyph sizes (0.92em, 0.62em, 2.44em x 0.34em) and the hover glow: unchanged."
+  ],
+  "adds": [
+    "custom.scss .gamecult-titlebar-community: --gamecult-hit: 44px; and gap: max(0.35em, calc(var(--gamecult-hit) + 1px - 0.92em));",
+    "custom.scss ::after: width: max(100%, var(--gamecult-hit)); height: max(100%, var(--gamecult-hit));",
+    "custom.scss comment above the ::after rule, one sentence: the row's gap is floored so neighbouring hit areas never cross (centres at least --gamecult-hit + 1px apart)."
+  ],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 721,
+        "end_line": 763
+      },
+      "change": "community row: hit token and floored gap; ::after reads the token; comment extended."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss .gamecult-titlebar-community owns the hit size and the neighbour distance; the ::after rule derives its box from the same token.",
+    "inputs": [
+      "--gamecult-title-size (the em base)",
+      "--gamecult-hit"
+    ],
+    "outputs": [
+      "at every width each community link has a 44px-square hit area and no two hit areas overlap"
+    ],
+    "derived_state": [
+      "the gap at small title sizes is derived from the hit size and the box width; at large sizes the em gap wins unchanged",
+      "the hit box is derived from --gamecult-hit; 44px appears once"
+    ],
+    "forbidden_writers": [
+      "no media query, no per-width gap literal, no clipping of the ::after boxes, no change to glyph or box sizes",
+      "no change outside .gamecult-titlebar-community and the two ::after lines"
+    ],
+    "shared_paths": [
+      "the same masthead on every page; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The literal 44px (twice) and the bare 0.35em gap are replaced in one commit; nothing else is added."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "at 360x740 and 375x812 on /: no two adjacent community links' ::after hit rects intersect, and each is at least 44px wide and tall",
+        "pins": "Rect from getComputedStyle(el, '::after') width/height around the element's centre. the finding: no cross, no shrink."
+      },
+      {
+        "name": "the finding's probe rerun: 121 points sampled across GitHub's hit area at 375 all elementFromPoint to the GitHub anchor",
+        "pins": "0 of 121 open Discord (was 22)."
+      },
+      {
+        "name": "at 1440 on /: the community row's computed gap equals 0.35em of the title size (the floor is inactive) and the row's width is unchanged from base",
+        "pins": "desktop byte-identical."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss only, net about +3",
+        "pins": "one token, one floored gap."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "44px",
+        "scope": "site/quartz/styles/custom.scss: exactly one match, the --gamecult-hit declaration."
+      },
+      {
+        "pattern": "gamecult-titlebar-community[^{]*\\{[^}]*gap: 0\\.35em;",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match (the gap is the floored expression)."
+      },
+      {
+        "pattern": "gamecult-nav-link|sidebar|composite|--gamecult-wash|--gamecult-column",
+        "scope": "git diff base..head changed lines: no match."
+      }
+    ],
+    "operator": []
+  },
+  "estimate": {
+    "lines_added": 5,
+    "lines_removed": 3,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-nav-three-links-quiet-icons"
+  ],
+  "questions": []
+}

@@ -1,0 +1,194 @@
+{
+  "campaign": "site-masthead",
+  "cut": "composite-delete",
+  "revision": 1,
+  "title": "Composite delete: the compositeSections branch of the page body, its CSS, the dead overview hider and the showCompositeJump frontmatter go; the file becomes GameCultContent.tsx",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'One column' (map revision 4), fact C5. Ruling: operator-chromeless-column ('nix the unused composite component'). Line numbers from 535d170; re-read by selector.",
+    "What is live: site/quartz/components/GameCultCompositeContent.tsx is the pageBody for ContentPage and FolderPage (site/quartz.config.ts 85-90). Its base path (resolveGameCultSourceFile, rebaseSharedSourceElement for contentSource pages, stripTopTagline, the Blog AutoIndexFolder, the folder fallback) renders every page and stays.",
+    "What is dead, prove each before cutting: (a) no file under GameCult/ sets compositeSections (rg -l compositeSections GameCult returns nothing), so getCompositeSections always returns [] and the sections.length > 0 branch (lines 228-266) never renders; (b) .gamecult-composite-* CSS (custom.scss 1744-1891 and the mobile block 2202-2223) styles only that branch, except .gamecult-composite-overview; (c) .gamecult-composite-overview > h2, > ul (1754-1757) hides nothing: tour.md carries the class (line 62) but its <h2>s sit inside .gamecult-vn-source-card divs and the file has no top-level ## heading or list, so in the built /tour HTML article.gamecult-composite-overview has zero direct h2 or ul children; (d) showCompositeJump is read only by the dead branch (index.md 5, Pitch.md 5, tour.md 5).",
+    "Rename: with the branch gone the file's name lies. git mv to GameCultContent.tsx, the component to GameCultContent, and the import in quartz.config.ts follows. The Options type (fallback: content | folder) stays.",
+    "Imports that become unused in the file and go with the branch: ComponentChildren stays (baseContent), normalizeHastElement and resolveGameCultReferenceSlug leave (used only by buildSectionContent/getCompositeSections). resolveGameCultReferenceSlug stays exported from gamecult.ts (resolveGameCultSourceFile uses it).",
+    "Not this cut: the AutoIndexFolder sidebarTagline/sidebarSummary options in the same file and anything sidebar; cut sidebars-gone takes them. .quartz-build/ is the ignored build staging; never edit it."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/components/GameCultCompositeContent.tsx",
+      "lines": 118,
+      "note": "CompositeSection type (28-34), buildSectionContent (69-137), getCompositeSections (139-166), the sections/showCompositeJump reads (203-204) and the sections.length > 0 render (228-266); imports normalizeHastElement and resolveGameCultReferenceSlug. The sections.length === 0 guard collapses: the three fallback returns become the body."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 148,
+      "note": "1744-1891 whole: body[data-slug=\"tour\"] .gamecult-composite-sections, .gamecult-composite-page, .gamecult-composite-overview (dead hider), -jump, -sections, -section, -divider, -shell, -shell.has-media, -media (4 rules), -copy, -header, -header h2, the min-width trio, -body rules, and the @container block."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 22,
+      "note": "2202-2223 inside @media ($mobile): the five .gamecult-composite-* rules deleted; .gamecult-feature-grid and the rules after it stay."
+    },
+    {
+      "path": "GameCult/tour.md",
+      "lines": 2,
+      "note": "cssclasses: - gamecult-composite-overview (61-62) deleted whole (the class has no other value)."
+    },
+    {
+      "path": "GameCult/index.md",
+      "lines": 1,
+      "note": "showCompositeJump: false (line 5)."
+    },
+    {
+      "path": "GameCult/Pitch.md",
+      "lines": 1,
+      "note": "showCompositeJump: false (line 5)."
+    },
+    {
+      "path": "GameCult/tour.md",
+      "lines": 1,
+      "note": "showCompositeJump: false (line 5)."
+    }
+  ],
+  "keeps_moves": [
+    "git mv site/quartz/components/GameCultCompositeContent.tsx site/quartz/components/GameCultContent.tsx; the default export's inner component is GameCultContent; quartz.config.ts line 4 imports GameCultContent and lines 85-90 call it.",
+    "rebaseSharedSourceElement, resolveGameCultSourceFile, stripTopTagline, the Blog AutoIndexFolder instance, the folder fallback and the article class list: unchanged.",
+    "docs/gamecult-quartz-extraction-plan.md mentions the composite page as history; untouched."
+  ],
+  "adds": [],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/components/GameCultCompositeContent.tsx",
+        "line": 1,
+        "end_line": 271
+      },
+      "change": "composite branch deleted; file renamed GameCultContent.tsx; component renamed."
+    },
+    {
+      "location": {
+        "path": "site/quartz.config.ts",
+        "line": 4,
+        "end_line": 90
+      },
+      "change": "import and the two pageBody calls use GameCultContent."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1744,
+        "end_line": 1891
+      },
+      "change": "all composite rules and the @container block deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 2202,
+        "end_line": 2223
+      },
+      "change": "mobile composite rules deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/tour.md",
+        "line": 5,
+        "end_line": 62
+      },
+      "change": "showCompositeJump and the cssclasses block deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/index.md",
+        "line": 5,
+        "end_line": 5
+      },
+      "change": "showCompositeJump deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/Pitch.md",
+        "line": 5,
+        "end_line": 5
+      },
+      "change": "showCompositeJump deleted."
+    }
+  ],
+  "authority_map": {
+    "owner": "GameCultContent.tsx owns the article body of every content and folder page; it has one shape, article.popover-hint around the page's own tree (or the Blog index, or the folder listing).",
+    "inputs": [
+      "the page's htmlAst, or its contentSource file's",
+      "the fallback option from quartz.config.ts"
+    ],
+    "outputs": [
+      "one article per page; no composite wrapper, jump nav, section shell or divider exists in any built page"
+    ],
+    "derived_state": [
+      "compositeSections and showCompositeJump are read by nothing and are deleted from content, not left inert",
+      "the class gamecult-composite-overview is emitted by nothing and styled by nothing"
+    ],
+    "forbidden_writers": [
+      "no composite string in site/ or GameCult/ after the cut (the extraction-plan doc under docs/ is history and exempt)",
+      "no change to the base render path, the Blog AutoIndexFolder options, the sidebar code, the masthead or the engine"
+    ],
+    "shared_paths": [
+      "ContentPage and FolderPage emitters share the one component; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The branch and its CSS are deleted in the first commit; the rename is the second; nothing is added."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "optional: .\\scripts\\quartz\\quartz.ps1 build succeeds locally"
+    ],
+    "tests": [
+      {
+        "name": "before the cut, on the built /tour: document.querySelectorAll('article.gamecult-composite-overview > h2, article.gamecult-composite-overview > ul').length is 0",
+        "pins": "the hider is proven dead before it is deleted."
+      },
+      {
+        "name": "after the cut, on /, /Projects, /tour, /Blog, /Docs/Architecture-and-Evidence, /Blog/hello-world: document.querySelector('[class*=\"composite\"]') is null and the article count is 1",
+        "pins": "no composite DOM survives and every page still renders one article."
+      },
+      {
+        "name": "/tour still plays: .sai-player is present and the VN source cards are in the DOM",
+        "pins": "the tour page did not depend on the class."
+      },
+      {
+        "name": "git diff base..head --stat: the rename, quartz.config.ts, custom.scss, tour.md, index.md, Pitch.md only; custom.scss net about -170, the component about -118",
+        "pins": "The diff shows GameCultCompositeContent.tsx renamed to GameCultContent.tsx with similarity. a subtraction cut with one rename."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "composite|Composite",
+        "scope": "rg -i over site/ and GameCult/ (not docs/, not .quartz-build/): no match."
+      },
+      {
+        "pattern": "showCompositeJump|compositeSections",
+        "scope": "rg over the whole repo except docs/ and .quartz-build/: no match."
+      },
+      {
+        "pattern": "sidebar|Sidebar|gamecult-titlebar|GameCult-Quartz",
+        "scope": "git diff base..head changed lines: no match (the sidebar options in the same file are the next cut's)."
+      }
+    ],
+    "operator": []
+  },
+  "estimate": {
+    "lines_added": 3,
+    "lines_removed": 293,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-chromeless-column"
+  ],
+  "questions": []
+}

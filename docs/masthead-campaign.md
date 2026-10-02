@@ -1,4 +1,4 @@
-# Masthead campaign: the masthead on the ground, the pills gone, no cards
+# Masthead campaign: the masthead on the ground, the pills gone, no cards, one column
 
 Imagination map, revision 2, written 2026-10-02 against `gamecult-site@90c2d94`
 and `GameCult-Quartz@ef43df0`. Revision 1 put three options to the operator;
@@ -8,6 +8,9 @@ rulings; this file is the long form the cut specs point at. Revision 3
 (2026-10-02, against `410485e`, after `lean-masthead`) is the section
 "Cards: inventory and cuts" at the end: the campaign's scope grew from the
 masthead to every card surface on the site.
+Revision 4 (2026-10-02, against `535d170`) is the section "One column" at the
+end: the sidebars go, the masthead aligns to one column, the wash dims off the
+home page and the composite branch is deleted.
 
 ## The operator's words, verbatim
 
@@ -579,3 +582,278 @@ resolution closing this one, and buys only a nicer name. Retitle instead: the
 campaign and target r2 titles become "Site chrome: the masthead on the ground,
 the pills gone, no cards", and this file's heading already reads so. If the
 Self prefers a clean slug, the cuts above are unchanged and move to it.
+
+## One column: sidebars gone, masthead aligned, wash dimmed, composite deleted (map revision 4, 2026-10-02, against `535d170`)
+
+Written after `home-flat`, `dead-card-css`, `sidebars-lists` (narrowed),
+`project-pages` and `blog-asides` landed; `dossier-flat` and `ritual-sheet` are
+admitted and may land beside these cuts. Line numbers are from `custom.scss` at
+`535d170` (2559 lines); every spec says to re-read by selector.
+
+### The operator's words, verbatim
+
+With screenshots of `/`, `/Blog` and `/Docs/Architecture-and-Evidence`:
+
+> nix the unused composite component. The masthead now feels misaligned on the
+> homepage and project page. I'd rather it be aligned like it is on the pages
+> with sidecars, except I also want those sidecars all gone, they're cramping
+> the style. Blog page elements should also be chromeless. Also that background
+> wash gets too bright on pages that aren't the homepage.
+
+Admitted as `site-masthead:ruling:operator-chromeless-column`. Also in force:
+`operator-no-cards-except-floats`, `operator-no-card-no-pills`,
+`self-masthead-pills-first`, and the follow-up `full-width-content` ("the
+masthead always fills the screen, and the content should do the same, where
+reasonable").
+
+The Self adds a heads-up, not a ruling: the operator is weighing a cheap WebGL
+shader (a subset of Aetheria's volumetric cloud shader) in place of the CSS
+wash. So the home-versus-elsewhere difference is one intensity value a shader
+could read as a uniform, no per-page wash rule is added, and the CSS wash stays
+as the no-WebGL and reduced-motion fallback.
+
+### Body facts
+
+**C1. Why the masthead is misaligned on `/` and `/Projects`.** Both pages carry
+`cssclasses: gamecult-studio-page`, and `.gamecult-studio-page { max-width:
+72rem; margin-inline: auto }` (`2013-2017`) centres the article inside
+`.center`, while `.page-header` (the masthead) spans `.center` whole. `.page`
+is `max-width: 1680px` (`33-37`), so at 1660 wide the article starts 240px in
+from the masthead. On pages with sidebars `.center` is a 300px-narrower grid
+column and the article has no cap of its own, so masthead and article share
+edges. The operator's "aligned like the pages with sidecars" is that: one
+column, nothing centred inside it.
+
+**C2. The sidebars.** `quartz.layout.ts` places, on content pages, left:
+`DesktopOnly(TableOfContents)`; right: `GameCultOverviewSidebar` and
+`Backlinks` under per-slug conditions; on folder pages, left:
+`GameCultOverviewSidebar`. The engine renders `<div class="left sidebar">` and
+`<div class="right sidebar">` regardless (`renderPage.tsx:247-262`), so with
+empty lists both divs are empty. The site already handles that with
+`:empty { display: none }` (`52-55`) and two `:has(... :empty)` grid blocks
+(`57-87`) that collapse the engine's three-column grid. After the cut every
+sidebar is empty on every page, so the conditional grid becomes one
+unconditional rule and the `:has` machinery is dead.
+
+**C3. What the sidebars carry.** The TOC: three pages set `enableToc: true`
+(Architecture-and-Evidence, dossier, stichting); the engine hid it below
+`$desktop` anyway. Backlinks: the engine's list of inbound links on standard
+content pages. The overview sidebar: `sidebarGroups` frontmatter on `index.md`
+(Studio, Praxis, Participate), `Docs/Architecture-and-Evidence.md`
+(Architecture, Proof), `Pitch.md`, `tour.md`; on `/Blog` a post list built by
+the engine's `buildAutoIndexSidebarData`. Everything the groups link is
+reachable from the masthead nav (Projects, Blog, Aetheria), the home page's
+action row and body links, and the Projects atlas. The `/Blog` post list is the
+blog index itself. Nothing moves inline; all of it drops.
+
+**C4. The masthead tagline rides on the sidebar code.** `gamecult.ts:467-508`
+builds `headerTagline: currentTaglineText ?? sidebar?.tagline`. Pages with
+their own quoted first line (19 of 67: home, Docs/index, Graph, Thing, ten
+project pages, Architecture-and-Evidence, Bifrost, two posts) show it; every
+other page shows the nearest section index's tagline through
+`findSidebarOverviewNote` (page, then `Section/index`, then `index`). Blog
+pages get the literal `"Recent notes, fiction, experiments, and other escaped
+materials."` from `buildAutoIndexSidebarData`'s `sidebarTagline` option,
+duplicated in `GameCultCompositeContent.tsx:177`. The tagline chain is masthead
+content and stays; only its carrier is renamed. The Blog literal becomes the
+quoted first line of `Blog/index.md`, so content owns it and both copies go.
+
+**C5. The composite branch.** `GameCultCompositeContent.tsx` is the page body
+for every content and folder page (`quartz.config.ts:85-90`); only its
+`compositeSections` branch (`buildSectionContent`, `getCompositeSections`, the
+`sections.length > 0` render, `showCompositeJump`) is dead: no content file sets
+`compositeSections`. Its CSS is `1744-1891` and the mobile block `2202-2223`.
+`.gamecult-composite-overview > h2, > ul { display: none }` (`1754-1757`) is
+also dead: `tour.md` carries the class, but its `<h2>`s are inside
+`.gamecult-vn-source-card` divs, never direct children of the article, and the
+file has no top-level `##` or list. `showCompositeJump: false` sits in
+`index.md`, `Pitch.md`, `tour.md`. `rebaseSharedSourceElement` is not
+composite: it serves `contentSource` pages and stays.
+
+**C6. The wash.** `body` (`10-29`) layers three radials, orange .18, violet
+.16, sky .14, over the navy gradient. The ritual essays paint their own ground
+(`119-124`): yellow .15, cobalt .22, violet .19, brighter than the site's.
+tour/Pitch cover the body with the VN and hide `.page::before`; `/Thing`'s hero
+paints its own `.hero-bg` in `deck.css` (Eve) and is not the site's wash.
+Removing the article card exposed more of the body wash on every page.
+
+**C7. `/Thing`'s frame.** `--thing-frame: calc(1680px + 2 * var(--thing-inset))`
+(`1045`) is the outer width of `.page` elsewhere, so the masthead and footer on
+`/Thing` are the same box as everywhere else while the deck is full-bleed
+(`.page { max-width: none; padding: 0 }`). The literal `1680px` is the only
+other copy of the page width.
+
+**C8. Other width caps.** Ritual essays: `article { max-width: 980px; margin:
+2rem auto 4rem }` (`148-156`), a second centred-inside-the-column cap of the
+C1 kind. `article h1` and `.ritual-paper-titleblock` 760px (`241`, `253`) and
+the tagline's `68ch` (`690`) are type measures on a heading and a one-liner,
+not body chrome. `.integrated-dossier-page` sets no width.
+
+### The shape
+
+**One column.** `body { --gamecult-column: 72rem }`, the studio pages' current
+measure (1152px), becomes `.page`'s `max-width`; `.page`'s gutters stay
+outside it. `#quartz-body` is one column at every width:
+
+```scss
+.page > #quartz-body {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "grid-header" "grid-center" "grid-footer";
+}
+.page > #quartz-body > .sidebar { display: none; }
+```
+
+The masthead (`.page-header`), the article and the site `footer` are each the
+column's full width on every page, so their edges meet at the column's edges
+with no centring inside it. `.gamecult-studio-page`'s cap and the ritual
+`980px` are deleted; the ritual paper takes the column (its two text columns
+are its measure). `/Thing` keeps the deck full-bleed and takes
+`--thing-frame: calc(var(--gamecult-column) + 2 * var(--thing-inset))` for its
+masthead and footer; tour/Pitch keep their full-screen block minus the two
+sidebar-hider lines. `full-width-content`: the column is the site's one width,
+content runs to its edges, and the brand doc gains `## Layout` naming the
+token; the remaining 760px and 68ch caps are type measures and are named there
+as such. Changing the site's width is then one number.
+
+**No sidebar.** `quartz.layout.ts` places nothing left or right;
+`GameCultOverviewSidebar.tsx` is deleted; `Plugin.TableOfContents()` leaves
+the transformers with the nine `enableToc` frontmatter lines; `sidebarGroups`
+blocks are deleted from the four files; the sidebar data model in
+`gamecult.ts` (link, group, data types, the group extractors, summary, active
+link, `sidebarSource`, `buildAutoIndexSidebarData`) is deleted and
+`findSidebarOverviewNote` becomes `findSectionNote`, feeding only the tagline.
+All sidebar, TOC, backlinks and overview CSS goes, including the slug blocks'
+grid overrides (ritual `127-141`, `570-583`; colossus `1100-1111`) that exist
+only to beat the engine's three-column grid.
+
+**Wash.** One token, `body { --gamecult-wash: 0.5 }` and
+`body[data-slug="index"] { --gamecult-wash: 1 }`; every radial alpha in the
+body ground and in the ritual ground is `calc(<its alpha> * var(--gamecult-wash))`
+(`rgb(255 138 42 / calc(0.18 * var(--gamecult-wash)))`). Sass emits a colour
+function whose argument is a `var()` as plain CSS; Hands confirms the calc
+survives in the built stylesheet. No other page rule touches the wash. The CSS
+wash is the fallback if a shader ever paints the ground; the shader would read
+`--gamecult-wash` as its intensity uniform. 0.5 is a first number for the
+operator to tune.
+
+**Composite.** The branch, its CSS, the dead overview hider and the
+`showCompositeJump` lines go; the file is renamed `GameCultContent.tsx` so its
+name stops claiming what it no longer does; `quartz.config.ts` imports the new
+name.
+
+### The authority map
+
+- **Owner.** `custom.scss` `body` owns the site's two layout tokens,
+  `--gamecult-column` and `--gamecult-wash`, and the one grid rule;
+  `quartz.layout.ts` owns what is placed on a page (nothing beside the
+  centre); `gamecult.ts` owns the tagline chain; content frontmatter owns a
+  page's own tagline (`Blog/index.md` now owns the blog's); `GameCultContent.tsx`
+  owns the article body.
+- **Inputs.** The slug (home or not, for the wash); the page's and its
+  section index's first quoted line (tagline); the two tokens.
+- **Outputs.** One centred column of `--gamecult-column` on every page, the
+  masthead, article and footer at its edges; the ground at full intensity on
+  `/` and half elsewhere.
+- **Derived state.** The masthead's width, the footer's width and the Thing
+  frame are derived from `--gamecult-column`; no rule centres content inside
+  the column (`.gamecult-studio-page` and the ritual `980px` are no longer
+  owners). The grid is no longer derived from sidebar emptiness (`:has`,
+  `:empty`); it is one rule. Every ground radial's alpha is derived from
+  `--gamecult-wash`. The tagline is derived from content, not from sidebar
+  data. `enableToc`, `sidebarGroups`, `sidebarSource`, `showCompositeJump`,
+  `compositeSections` are read by nothing and are deleted, not left inert.
+- **Forbidden writers.** No `left`/`right` entry in either layout; no
+  `max-width` with `margin: auto` on an article or page class; no literal
+  page width (`1680px`, `72rem`) outside the token; no `grid-template-*` for
+  `#quartz-body` outside the one rule and the tour/Pitch full-screen block;
+  no `:has(... sidebar ...)` or `:empty` grid rule; no radial alpha outside the
+  token's multiplication; no `data-slug` wash rule beyond the home line; no
+  `composite` string in the site source; no engine edit.
+- **Shared paths.** Every page type (home, Projects, posts, Docs, folder
+  listings, ritual essays, colossus post, dossier, Graph, Thing, tour/Pitch)
+  renders through the one grid rule and the same Deploy Quartz workflow;
+  `/Thing`'s masthead and footer use the same token through `--thing-frame`.
+- **Deletion line.** Per cut, the deletes land before any add: the composite
+  branch and its CSS; the sidebar placements, component, data model and CSS
+  with the slug-block grid overrides; the `:has`/`:empty` grid rules; the
+  studio-page and ritual caps and the literal page widths; the literal radial
+  alphas.
+
+### Questions
+
+None are forks. Two decisions the operator should see live rather than rule
+on: the column at 72rem (one token; the follow-up's "where reasonable" is
+answered by the studio pages' own measure) and the wash at 0.5 (one number).
+The information the sidebars carried drops (C3); nothing is moved inline.
+
+### Cut order (smallest risk first; all based on `535d170`)
+
+0. `community-hit-gap` and `doc-tree-flat` (below, Soul's findings): one rule
+   each, independent of everything; either order, any time.
+1. `wash-home-only` (`docs/masthead-cut-wash-home-only.spec.json`): the token
+   and the two grounds. Independent. Its ritual lines (`119-124`) sit beside
+   `ritual-sheet`'s token deletes (`104-117`); whichever lands second rebases
+   a few lines.
+2. `composite-delete` (`docs/masthead-cut-composite-delete.spec.json`): the
+   branch, rename, CSS, hider, frontmatter. Independent.
+3. `sidebars-gone` (`docs/masthead-cut-sidebars-gone.spec.json`): layouts,
+   component, data model, TOC transformer, frontmatter, all sidebar CSS and the
+   slug-block grid overrides, the one grid rule. After `composite-delete`
+   (same frontmatter blocks, same component file).
+4. `column-align` (`docs/masthead-cut-column-align.spec.json`): the column
+   token, `.page`, the two caps, `--thing-frame`, the brand doc's `## Layout`.
+   After `sidebars-gone` (the column only makes sense once nothing sits beside
+   it). Resolves `full-width-content`.
+
+### Target r3 proposal
+
+Keep r2's six invariants. Add:
+
+- `one-column`: every page is one centred column of `--gamecult-column`; the
+  masthead, article and site footer share its edges; no layout places a
+  sidebar and no rule centres a narrower box inside the column. A full-bleed
+  surface (the Thing deck, the VN on tour/Pitch) may escape the column; its
+  masthead and footer do not.
+- `wash-home-only`: the ground's radial intensity is one token,
+  `--gamecult-wash`, 1 on `/` and lower elsewhere; no page rule sets a radial
+  alpha of its own. The CSS wash is the fallback ground if a shader ever
+  paints it.
+
+`not_in_scope` r3: the pills (unchanged); the engine `pre`/`code` frame
+(unchanged); the Thing deck's and Sai player's own chrome (unchanged); the
+shader (a separate campaign if ruled); `scrollbar-fix-home`. The width-caps
+entry leaves `not_in_scope`: `column-align` resolves `full-width-content`.
+
+`canonical_implementations` r3 adds: the tokens `--gamecult-column` and
+`--gamecult-wash` on `body` in `custom.scss`; the one `#quartz-body` grid
+rule; `quartz.layout.ts` with empty `left`/`right`; `GameCultContent.tsx`;
+`docs/brand-design-language.md ## Layout`.
+
+### Soul's findings after home-flat and dead-card-css (two more cuts)
+
+**`github-hit-overlap`** (`site-masthead:finding:cut-home-flat.s1.github-hit-overlap`,
+Low). At 360 and 375 the title is 1.9rem, so each community box is 0.92em
+(27.97px) and the row gap 0.35em (10.64px): neighbour centres are 38.6px apart
+while each `::after` hit area is 44px wide, so Discord's hit area covers the
+right 5.4px of GitHub's (22 of 121 sampled taps on GitHub opened Discord).
+Cut `community-hit-gap` (`docs/masthead-cut-community-hit-gap.spec.json`):
+a gap floor, not clipped hit areas. Clipping to the midpoint would keep the
+row tight but shrink the target below 44px exactly where fingers are, and it
+needs a second geometry (half-gap offsets) that must agree with the first.
+The floor states the invariant once: `--gamecult-hit: 44px` on the row, read
+by the `::after` box and by `gap: max(0.35em, calc(var(--gamecult-hit) + 1px
+- 0.92em))`. At desktop sizes the calc is negative and the em gap wins
+unchanged; at 1.9rem the gap is 17px and centres are 45px apart. One line.
+
+**`doc-tree-cards-unowned`**
+(`site-masthead:finding:cut-dead-card-css.s1.doc-tree-cards-unowned`, Medium,
+pre-existing). Map r3 row 26 listed `.gamecult-doc-tree-*` as dead because no
+built page carries the classes; `repo-doc-tree.js` builds them at runtime into
+the tour's Sai card after the doc-tree choice: a filled, bordered pitch box and
+a grid of filled, bordered repo boxes. The map was wrong; they are live. Cut
+`doc-tree-flat` (`docs/masthead-cut-doc-tree-flat.spec.json`): under
+`no-cards` the pitch is an aside and takes a left rule in its own amber with no
+fill; the repo boxes are rows and each takes `border-top: 1px solid
+var(--gamecult-rule)`. The Sai card they sit in is the player's float chrome
+(row 23) and is untouched; a card inside a float is still a card. The one-rule
+and no-cards invariants are unchanged; this is the inventory corrected.

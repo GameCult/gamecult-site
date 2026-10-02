@@ -1,0 +1,347 @@
+{
+  "campaign": "site-masthead",
+  "cut": "sidebars-gone",
+  "revision": 1,
+  "title": "Sidebars gone: no layout places a sidebar; the overview component, sidebar data model, TOC transformer, sidebar frontmatter and every sidebar, TOC, backlinks and grid-override rule go; one grid rule stays",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [
+    "composite-delete"
+  ],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'One column' (map revision 4), facts C2, C3, C4 and the paragraph 'No sidebar'. Ruling: operator-chromeless-column ('I also want those sidecars all gone'). Based on 535d170; after composite-delete the page body is GameCultContent.tsx and tour.md's frontmatter is one line shorter. Re-read by selector.",
+    "Placements (site/quartz.layout.ts): content layout left = DesktopOnly(TableOfContents) (59-64), right = GameCultOverviewSidebar and Backlinks under slug conditions (65-80); list layout left = GameCultOverviewSidebar() (97). Both become left: [], right: []. isIntegratedDossierPage is then unused and goes; isGraphPage, isThingPage, isStandardContentPage, isBlogArticle stay (beforeBody uses them). Plugin.TableOfContents() leaves site/quartz.config.ts transformers (line 78): its only consumer was the TOC component.",
+    "The engine still renders <div class=\"left sidebar\"> and <div class=\"right sidebar\"> (GameCult-Quartz renderPage.tsx 247-262); both are empty on every page after this cut. The engine is not edited. The site's conditional grid (:empty display none 52-55; the two :has(... :empty) blocks 57-87) is replaced by one unconditional rule written where 52 was: .page > #quartz-body { grid-template-columns: minmax(0, 1fr); grid-template-areas: \"grid-header\" \"grid-center\" \"grid-footer\"; } and .page > #quartz-body > .left.sidebar, .page > #quartz-body > .right.sidebar { display: none; } (that selector, specificity (1,3,0), beats the engine's mobile .sidebar.left { display: flex }; the plain .sidebar form would not).",
+    "The tagline chain (gamecult.ts 467-508) stays: headerTagline is the page's own quoted first line, else the nearest section index's. Only the carrier changes: findSidebarOverviewNote becomes findSectionNote (same candidates, no sidebarSource lookup) and the context is { headerTagline } only. The Blog literal 'Recent notes, fiction, experiments, and other escaped materials.' moves into GameCult/Blog/index.md as its first body line, *\"...\"*, so extractTopTagline reads it for /Blog and every post; the two code copies (gamecult.ts 498 and the sidebarTagline/sidebarSummary options in GameCultContent.tsx) go. Verify the /Blog article does not also print the line (AutoIndexFolder renders the description intro and the list, not the body tree); if it does, stripTopTagline on the Blog tree is the fix, not a second literal.",
+    "Delete from gamecult.ts: the buildAutoIndexSidebarData import (6); GameCultSidebarLink, GameCultSidebarGroup, GameCultSidebarData (8-26); the sidebar field of GameCultPageContext (30); FrontmatterSidebarLink, FrontmatterSidebarGroup (33-43); isSidebarLinkActive (154-169); collectLinks (253-277); extractOverviewSummary (279-305); extractOverviewGroups (307-342); extractFrontmatterOverviewGroups (344-408); extractOverviewData (450-465); the sidebar build in buildGameCultPageContext (491-507). resolveGameCultSourceFile loses its field parameter (only contentSource remains; no content sets sidebarSource). isOverviewSlug and overviewCandidates stay under findSectionNote.",
+    "Content: delete the sidebarGroups blocks from GameCult/index.md (6-51), GameCult/Docs/Architecture-and-Evidence.md (6-29), GameCult/Pitch.md (8-28), GameCult/tour.md (6-60 at base; one less after composite-delete), and every enableToc line (nine files: rg -l enableToc GameCult). Nothing the groups linked moves inline: the masthead nav, the home action row and body links, and the Projects atlas already reach all of it, and /Blog is the post list (map C3).",
+    "CSS, all in custom.scss, by selector: the :empty and :has grid rules (52-87); .page > #quartz-body .left.sidebar (94-101); the ritual block's grid override and its left/right sidebar rules (127-141) and its five .right.sidebar .toc rules (158-195) and its max-width 760px grid override and right-sidebar hide (570-583); .left.sidebar:has(.gamecult-overview-sidebar) (625-629).",
+    "CSS, continued: the colossus block's grid override and sidebar hide (1100-1111); .page > #quartz-body .right.sidebar (1128-1135); .toc, .backlinks and their h3 (1137-1159); every .gamecult-overview-* rule (1161-1274); the @media not ($desktop) block holding the left sidebar, overview sidebar and right sidebar rules (1312-1330, the whole block); the .page > #quartz-body grid-template-areas rule inside @media ($mobile) (1333-1340); .gamecult-overview-sidebar-inner inside @media ($mobile) (1384-1386); the two sidebar lines of the tour/Pitch hider selector list (1412-1413). The tour/Pitch block's own grid-template-columns/rows/areas (1402-1409) stay: that block owns the full-screen page.",
+    "Pills, masthead markup, the engine, the wash and the width caps: untouched (column-align takes the caps)."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz.layout.ts",
+      "lines": 26,
+      "note": "import GameCultOverviewSidebar (5); isIntegratedDossierPage (10); content layout left (59-64) and right (65-80) blocks; list layout left entry (97). Replaced by left: [], right: [] in both layouts."
+    },
+    {
+      "path": "site/quartz.config.ts",
+      "lines": 1,
+      "note": "Plugin.TableOfContents(), (78)."
+    },
+    {
+      "path": "site/quartz/components/GameCultOverviewSidebar.tsx",
+      "lines": 61,
+      "note": "deleted whole (git rm)."
+    },
+    {
+      "path": "site/quartz/components/gamecult.ts",
+      "lines": 235,
+      "note": "the sidebar data model, extractors, active-link test, sidebarSource lookup and the sidebar build listed in first[5]; findSidebarOverviewNote rewritten as findSectionNote; the context returns { headerTagline }."
+    },
+    {
+      "path": "site/quartz/components/GameCultContent.tsx",
+      "lines": 2,
+      "note": "the sidebarTagline and sidebarSummary options of the Blog AutoIndexFolder instance (the engine's defaults are then unused by anything on this site)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 311,
+      "note": "the rules listed in first[7]: 52-87 (36), 94-101 (8), 127-141 (15), 158-195 (38), 570-583 (14), 625-629 (5), 1100-1111 (12), 1128-1135 (8), 1137-1159 (23), 1161-1274 (114), 1312-1330 (19), 1333-1340 (8), 1384-1386 (3), 1412-1413 (2); the tour/Pitch selector list keeps its footer, page-header and page-footer lines."
+    },
+    {
+      "path": "GameCult/index.md",
+      "lines": 47,
+      "note": "sidebarGroups block (6-51) and enableToc: false (4)."
+    },
+    {
+      "path": "GameCult/Docs/Architecture-and-Evidence.md",
+      "lines": 25,
+      "note": "sidebarGroups block (6-29) and enableToc: true (4)."
+    },
+    {
+      "path": "GameCult/Pitch.md",
+      "lines": 22,
+      "note": "sidebarGroups block (8-28) and enableToc: false (4)."
+    },
+    {
+      "path": "GameCult/tour.md",
+      "lines": 56,
+      "note": "sidebarGroups block (6-60 at base) and enableToc: false (4)."
+    },
+    {
+      "path": "GameCult",
+      "lines": 5,
+      "note": "the remaining enableToc lines: dossier.md, stichting.md and the three other files rg -l enableToc GameCult names."
+    }
+  ],
+  "keeps_moves": [
+    "gamecult.ts keeps: ExtractedTagline, taglinePattern, stripSurroundingQuotes, isElement, topLevelElements/normalizeText, normalizeGameCultSlug, resolveGameCultReferenceSlug, fileBySlug, resolveGameCultSourceFile (contentSource only), isOverviewSlug, overviewCandidates, extractTopTagline, stripTopTagline, stripTopHeading, buildGameCultPageContext.",
+    "The masthead reads gamecult.headerTagline exactly as before (GameCultMasthead.tsx 103); sitePageContext.ts is unchanged.",
+    "The engine's TableOfContents, Backlinks, DesktopOnly and AutoIndexFolder components and their styles: untouched in GameCult-Quartz; the site simply places none of the first three.",
+    "custom.scss keeps .page > #quartz-body .center, footer { max-width: none } (89-92) for column-align to judge; the tour/Pitch block keeps its full-screen grid; the Thing block is untouched.",
+    "Breadcrumbs, ArticleTitle, ContentMeta, GameCultArticleMeta in beforeBody: unchanged."
+  ],
+  "adds": [
+    "custom.scss at the old line 52, one rule: .page > #quartz-body { grid-template-columns: minmax(0, 1fr); grid-template-areas: \"grid-header\" \"grid-center\" \"grid-footer\"; } followed by .page > #quartz-body > .left.sidebar, .page > #quartz-body > .right.sidebar { display: none; } with a one-line comment: the site is one column; the engine renders empty sidebar divs that no layout fills.",
+    "quartz.layout.ts: left: [], right: [] in defaultContentPageLayout and defaultListPageLayout.",
+    "gamecult.ts: export function findSectionNote(currentSlug, allFiles) returning the first overviewCandidates match with an htmlAst, resolved through resolveGameCultSourceFile (contentSource); buildGameCultPageContext ends with return { headerTagline: currentTaglineText ?? extractTopTagline(sectionNote?.htmlAst)?.text }.",
+    "GameCult/Blog/index.md: the body line *\"Recent notes, fiction, experiments, and other escaped materials.\"* after the frontmatter (the tagline mechanism every other section index uses)."
+  ],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz.layout.ts",
+        "line": 1,
+        "end_line": 99
+      },
+      "change": "sidebar import, dossier predicate and all left/right placements deleted; left: [], right: []."
+    },
+    {
+      "location": {
+        "path": "site/quartz.config.ts",
+        "line": 78,
+        "end_line": 78
+      },
+      "change": "TableOfContents transformer deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/components/GameCultOverviewSidebar.tsx",
+        "line": 1,
+        "end_line": 61
+      },
+      "change": "file deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/components/gamecult.ts",
+        "line": 1,
+        "end_line": 509
+      },
+      "change": "sidebar data model and extractors deleted; findSectionNote; context is { headerTagline }."
+    },
+    {
+      "location": {
+        "path": "site/quartz/components/GameCultContent.tsx",
+        "line": 170,
+        "end_line": 180
+      },
+      "change": "Blog AutoIndexFolder loses sidebarTagline and sidebarSummary."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 52,
+        "end_line": 101
+      },
+      "change": ":empty, :has grid blocks and .left.sidebar deleted; the one grid rule and sidebar hide written."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 127,
+        "end_line": 195
+      },
+      "change": "ritual grid override, sidebar rules and toc rules deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 570,
+        "end_line": 583
+      },
+      "change": "ritual mobile grid override and right-sidebar hide deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 625,
+        "end_line": 629
+      },
+      "change": "overview :has rule deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1100,
+        "end_line": 1111
+      },
+      "change": "colossus grid override and sidebar hide deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1128,
+        "end_line": 1274
+      },
+      "change": "right sidebar, toc, backlinks and overview rules deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1312,
+        "end_line": 1340
+      },
+      "change": "not-desktop sidebar block and mobile grid areas deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1384,
+        "end_line": 1386
+      },
+      "change": "mobile overview inner padding deleted."
+    },
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1412,
+        "end_line": 1413
+      },
+      "change": "tour/Pitch sidebar hider lines deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/index.md",
+        "line": 4,
+        "end_line": 51
+      },
+      "change": "enableToc and sidebarGroups deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/Docs/Architecture-and-Evidence.md",
+        "line": 4,
+        "end_line": 29
+      },
+      "change": "enableToc and sidebarGroups deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/Pitch.md",
+        "line": 4,
+        "end_line": 28
+      },
+      "change": "enableToc and sidebarGroups deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/tour.md",
+        "line": 4,
+        "end_line": 60
+      },
+      "change": "enableToc and sidebarGroups deleted."
+    },
+    {
+      "location": {
+        "path": "GameCult/Blog/index.md",
+        "line": 5,
+        "end_line": 6
+      },
+      "change": "tagline body line added."
+    },
+    {
+      "location": {
+        "path": "GameCult/dossier.md",
+        "line": 4,
+        "end_line": 4
+      },
+      "change": "enableToc deleted (and in stichting.md and the other three files rg names)."
+    }
+  ],
+  "authority_map": {
+    "owner": "quartz.layout.ts owns what a page places: nothing beside the centre. custom.scss owns the page grid through one rule. gamecult.ts owns the masthead tagline chain; content owns each tagline, Blog/index.md the blog's.",
+    "inputs": [
+      "the page's and its section index's first quoted line",
+      "the engine's grid areas grid-header, grid-center, grid-footer"
+    ],
+    "outputs": [
+      "no sidebar, TOC, backlinks or overview DOM on any page; every page a single grid column at every width",
+      "the masthead tagline identical to today on every page"
+    ],
+    "derived_state": [
+      "the grid is no longer derived from sidebar emptiness (:has, :empty); it is one rule; the slug blocks no longer override it",
+      "the tagline is derived from content, never from sidebar data; the Blog tagline has one owner, Blog/index.md",
+      "enableToc, sidebarGroups, sidebarSource, sidebarTagline and sidebarSummary are read by nothing and are deleted, not left inert"
+    ],
+    "forbidden_writers": [
+      "no left or right entry in either layout; no component under site/quartz/components named or styled as a sidebar",
+      "no grid-template-* for #quartz-body outside the one rule and the tour/Pitch full-screen block; no :has or :empty grid rule",
+      "no change to the engine, the pills, the masthead markup, the wash, .page's width or any width cap"
+    ],
+    "shared_paths": [
+      "every page type renders through the one grid rule; ContentPage and FolderPage share GameCultContent; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The placements, the component, the data model, the TOC transformer, the frontmatter and all sidebar CSS are deleted first; the one grid rule, findSectionNote and the Blog tagline line are written after."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "optional: .\\scripts\\quartz\\quartz.ps1 build succeeds locally (TypeScript must compile with the removed exports)"
+    ],
+    "tests": [
+      {
+        "name": "on eleven page types at 1440 and 375: no element inside either .sidebar div, no .toc, .backlinks or .gamecult-overview-sidebar, and both .sidebar divs are display none",
+        "pins": "Pages: /, /Projects, /Blog, /Blog/hello-world, /Docs, /Docs/Architecture-and-Evidence, a ritual essay, the colossus post, /dossier, /Graph, /Thing. Probe: document.querySelectorAll('.sidebar > *, .toc, .backlinks, .gamecult-overview-sidebar').length is 0. nothing beside the centre on any page type."
+      },
+      {
+        "name": "on the same pages at 1440, 1000 and 375: getComputedStyle(#quartz-body).gridTemplateColumns is a single track and .center's width equals #quartz-body's content width",
+        "pins": "one column at every width, including the engine's tablet and mobile grids."
+      },
+      {
+        "name": "the masthead tagline text on /, /Projects, /Projects/CultLib, /Blog, /Blog/hello-world, /Docs, /Docs/Bifrost, /Graph and /Thing equals the text recorded from the deployed site before the cut",
+        "pins": "the tagline chain survived its carrier's rename; the Blog literal has one owner."
+      },
+      {
+        "name": "/Blog's article prints the tagline sentence zero times",
+        "pins": "the Blog/index.md body line is masthead content, not index content."
+      },
+      {
+        "name": "git diff base..head --stat: layout, config, the deleted component, gamecult.ts, GameCultContent.tsx, custom.scss, Blog/index.md and the nine enableToc files only",
+        "pins": "custom.scss net about -300, gamecult.ts net about -225. a subtraction cut with one rule and one function written."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "sidebar|Sidebar|\\.toc\\b|backlinks|TableOfContents|Backlinks|DesktopOnly",
+        "scope": "rg over site/ (not .quartz-build/): matches only the two selector lines of the new display-none rule and the tour/Pitch block's comment-free selector list, which no longer names sidebars; i.e. the only matches are the display-none rule."
+      },
+      {
+        "pattern": "enableToc|sidebarGroups|sidebarSource|sidebarTagline|sidebarSummary",
+        "scope": "rg over site/ and GameCult/: no match."
+      },
+      {
+        "pattern": "grid-template-areas",
+        "scope": "site/quartz/styles/custom.scss: exactly three matches, the one grid rule, the Thing block's stack/foot and the tour/Pitch block."
+      },
+      {
+        "pattern": ":has\\(|:empty",
+        "scope": "site/quartz/styles/custom.scss: no match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|gamecult-nav-link|GameCult-Quartz|1680px|72rem|--gamecult-wash",
+        "scope": "git diff base..head changed lines: no match."
+      }
+    ],
+    "operator": [
+      "open /Docs/Architecture-and-Evidence and /Blog on a laptop and say whether anything the sidebars carried is missed; the map recommends dropping all of it"
+    ]
+  },
+  "estimate": {
+    "lines_added": 24,
+    "lines_removed": 791,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-chromeless-column"
+  ],
+  "questions": []
+}

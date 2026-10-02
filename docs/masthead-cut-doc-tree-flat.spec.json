@@ -1,0 +1,119 @@
+{
+  "campaign": "site-masthead",
+  "cut": "doc-tree-flat",
+  "revision": 1,
+  "title": "Doc tree flat: the runtime-built pitch box and repo boxes inside the tour's Sai card become a left-ruled aside and top-ruled rows; map r3 wrongly listed them dead",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [],
+  "first": [
+    "Finding: site-masthead:finding:cut-dead-card-css.s1.doc-tree-cards-unowned (Medium, pre-existing). On /tour, after the player takes the doc-tree choice, the Sai DOM card shows a filled, bordered pitch box and a grid of filled, bordered repo boxes. GameCult/static/interactive/gamecult-compound/repo-doc-tree.js builds them at runtime into [data-gamecult-doc-tree] (element names at lines 23-99: section.gamecult-doc-tree-pitch, header.gamecult-doc-tree-header, div.gamecult-doc-tree-repos, details.gamecult-doc-tree-repo with a summary and div.gamecult-doc-tree-repo-body, ul.gamecult-doc-tree-list). Map r3 row 26 called the gamecult-doc-tree-* rules dead because no built page carries the classes; the script does. Ruling: operator-no-cards-except-floats.",
+    "Rules (custom.scss, by selector): .gamecult-doc-tree-pitch (1671-1677: margin, padding, 1px amber border, 8px radius, amber fill); .gamecult-doc-tree-pitch h3 (1679-1687, amber label); .gamecult-doc-tree-repos (1689-1696, the scrolling grid); .gamecult-doc-tree-repo (1698-1702: 1px sky border, 8px radius, dark fill); summary (1704-1711); count/path/overflow (1713-1718); list, li, a, path (1720-1742). Nothing in the Sai player's own CSS styles these classes.",
+    "Classification under no-cards: the pitch is an aside (text), so it takes the site's aside treatment, one left rule in its accent and no fill; the repo boxes are rows in a list, so each takes the top rule, like the blog index and the folder listing. The Sai card they sit in is the player's own float chrome (map r3 row 23) and is untouched; a card inside a float is still a card.",
+    "The amber rgba(255,198,120,...) is the pitch's own accent, kept on its h3 and its left rule; the repo rows take --gamecult-rule (inherited from body through the Sai card). No literal hairline survives (one-rule-token).",
+    "Not this cut: repo-doc-tree.js, the Sai player, the tour's VN source cards, anything outside the gamecult-doc-tree-* rules."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": ".gamecult-doc-tree-pitch: border (1674), border-radius (1675), background (1676) deleted; margin stays; padding becomes left-only."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": ".gamecult-doc-tree-repo: border (1699), border-radius (1700), background (1701) deleted whole, replaced by the top rule."
+    }
+  ],
+  "keeps_moves": [
+    ".gamecult-doc-tree-pitch keeps margin 0.85rem 0; its h3 rule is unchanged (the amber label names the aside).",
+    ".gamecult-doc-tree-repos keeps its grid, gap, max-height and scroll; summary keeps its flex row and cursor; count/path/overflow, list, li, a and path rules unchanged.",
+    "repo-doc-tree.js and the Sai player's CSS: untouched."
+  ],
+  "adds": [
+    "custom.scss .gamecult-doc-tree-pitch: padding: 0 0 0 0.85rem; border-left: 2px solid rgba(255, 198, 120, 0.62); (the aside treatment, as .gamecult-evidence-note).",
+    "custom.scss .gamecult-doc-tree-repo: border-top: 1px solid var(--gamecult-rule); (the list-row treatment, as .gamecult-blog-card). The grid's gap stays 0.45rem so rows read as separate rules in the two-column grid."
+  ],
+  "file_changes": [
+    {
+      "location": {
+        "path": "site/quartz/styles/custom.scss",
+        "line": 1671,
+        "end_line": 1702
+      },
+      "change": "pitch: box deleted, left rule and left padding written; repo: box deleted, top rule written."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss owns the doc tree's grouping through the aside left rule and --gamecult-rule; repo-doc-tree.js owns the markup.",
+    "inputs": [
+      "--gamecult-rule (inherited from body)",
+      "the script's class names"
+    ],
+    "outputs": [
+      "on /tour after the doc-tree choice: a left-ruled pitch aside and top-ruled repo rows inside the Sai card, no fill, border box or radius on either"
+    ],
+    "derived_state": [
+      "the repo rows' separator is derived from --gamecult-rule; the pitch's accent is its own amber, kept on the label and the rule"
+    ],
+    "forbidden_writers": [
+      "no background, border (other than the one left or top rule), border-radius or box-shadow on .gamecult-doc-tree-pitch or .gamecult-doc-tree-repo",
+      "no change to the script, the Sai player chrome, the VN source cards or anything outside the gamecult-doc-tree-* rules"
+    ],
+    "shared_paths": [
+      "the same aside and row treatments as the evidence note and the blog index; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The two boxes are deleted before the two rules are written, in one commit."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "on /tour at 1440 after the doc-tree choice: the pitch has only a 2px amber left rule and each repo row only a 1px top rule at --gamecult-rule; no fill, radius or other border on either",
+        "pins": "Computed: .gamecult-doc-tree-pitch border-left 2px, other borders 0, background-color transparent, border-radius 0; every .gamecult-doc-tree-repo border-top 1px at the token's colour, other borders 0, background-color transparent, border-radius 0. the finding's two boxes are gone; the aside and rows carry one rule each."
+      },
+      {
+        "name": "the repo details still open and close and the list scrolls inside .gamecult-doc-tree-repos",
+        "pins": "the script's behaviour did not depend on the boxes."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss only, net about -4",
+        "pins": "subtraction with two rules written in place."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "gamecult-doc-tree-(pitch|repo)\\s*\\{[^}]*(box-shadow|border-radius|background|border:)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "rgba\\(89, 183, 255, 0\\.1\\)",
+        "scope": "site/quartz/styles/custom.scss, the doc-tree rules: no match."
+      },
+      {
+        "pattern": "sai-|gamecult-vn-source|repo-doc-tree",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "play /tour to the doc tree and say whether the shelf still reads as a shelf without its boxes"
+    ]
+  },
+  "estimate": {
+    "lines_added": 3,
+    "lines_removed": 7,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": []
+}

@@ -1,0 +1,133 @@
+{
+  "campaign": "site-masthead",
+  "cut": "wash-home-only",
+  "revision": 1,
+  "title": "Wash home only: one intensity token --gamecult-wash multiplies every ground radial's alpha; 1 on / and 0.5 elsewhere; the ritual ground follows the same token",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "535d170",
+  "depends_on": [],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'One column' (map revision 4), facts C6 and the paragraph 'Wash'. Ruling: operator-chromeless-column ('that background wash gets too bright on pages that aren't the homepage'). Line numbers from 535d170; re-read by selector.",
+    "Surfaces: body (10-29) paints three radials over the navy gradient: orange rgba(255,138,42,.18), violet rgba(109,96,255,.16), sky rgba(89,183,255,.14). The three ritual essays' body block (103-124) paints its own ground: yellow rgba(255,178,30,.15), cobalt rgba(49,88,255,.22), violet rgba(91,54,184,.19) over its own gradient. tour/Pitch cover the body with the VN; /Thing's hero paints .hero-bg in the Eve deck.css and is not the site's wash; the .page::before grid overlay (39-50) is not the wash and is untouched.",
+    "Mechanism: one token on body, --gamecult-wash: 0.5, and one home override, body[data-slug=\"index\"] { --gamecult-wash: 1; }. Each radial's alpha becomes calc(<its literal> * var(--gamecult-wash)) in modern colour syntax, e.g. rgb(255 138 42 / calc(0.18 * var(--gamecult-wash))). The literals keep their current values so the home page is byte-for-byte the same wash and every other page is half.",
+    "The Self's heads-up (not a ruling): the operator may later paint the ground with a WebGL shader. The CSS wash stays as the fallback; the shader would read --gamecult-wash as its intensity. So: no per-page wash rule anywhere, no second token, no class toggled by script.",
+    "Sass: dart-sass emits rgb()/rgba() whose argument contains var() or calc() as plain CSS. Confirm in the built stylesheet (public/index.css after a build, or the deployed CSS) that the calc survives; if Sass rewrote it, use the rgb(... / calc()) form, which it never evaluates. Do not reach for Sass math or a mixin."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": "body 10-29: the three literal alphas .18, .16, .14 leave as literals; each radial is rewritten in one line with the calc alpha (counted as 3 removed, 3 added)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": "ritual body block 119-124: the three literal alphas .15, .22, .19 leave as literals; each radial rewritten with the calc alpha."
+    }
+  ],
+  "keeps_moves": [
+    "body keeps the navy linear-gradient, color, and --gamecult-rule; the ritual block keeps its own linear-gradient and every --ritual-paper-* token.",
+    ".page::before (the grid overlay), the tour/Pitch VN ground, the Thing deck's .hero-bg: untouched.",
+    "docs/brand-design-language.md 'The ground is a wash, not a flat fill' (69-84): the scss block is updated to the calc form and one sentence names the token."
+  ],
+  "adds": [
+    "custom.scss body: --gamecult-wash: 0.5; declared beside --gamecult-rule, with a one-line comment: the ground's radial intensity; 1 on the home page.",
+    "custom.scss, directly after the body rule: body[data-slug=\"index\"] { --gamecult-wash: 1; }",
+    "custom.scss body radials: rgb(255 138 42 / calc(0.18 * var(--gamecult-wash))), rgb(109 96 255 / calc(0.16 * var(--gamecult-wash))), rgb(89 183 255 / calc(0.14 * var(--gamecult-wash))).",
+    "custom.scss ritual radials: rgb(255 178 30 / calc(0.15 * var(--gamecult-wash))), rgb(49 88 255 / calc(0.22 * var(--gamecult-wash))), rgb(91 54 184 / calc(0.19 * var(--gamecult-wash))).",
+    "docs/brand-design-language.md, in 'The ground is a wash, not a flat fill': the code block shows the calc form, and one sentence: the radials' intensity is --gamecult-wash on body, 1 on / and 0.5 elsewhere; a page never sets its own radial alpha; the CSS wash is the fallback ground if a shader ever paints it."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 10, "end_line": 29 },
+      "change": "body: --gamecult-wash declared; three radial alphas become calc(literal * var(--gamecult-wash)); home override rule added after the body rule."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 119, "end_line": 124 },
+      "change": "ritual ground: three radial alphas become calc(literal * var(--gamecult-wash))."
+    },
+    {
+      "location": { "path": "docs/brand-design-language.md", "line": 69, "end_line": 84 },
+      "change": "wash section: calc form in the code block; one sentence naming --gamecult-wash and the fallback role."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss body owns the ground's intensity through --gamecult-wash; the slug decides only whether the page is home.",
+    "inputs": [
+      "body[data-slug] (index or not)",
+      "the six literal alphas, unchanged"
+    ],
+    "outputs": [
+      "the home ground exactly as today; every other page's radials at half alpha, the ritual essays included"
+    ],
+    "derived_state": [
+      "every radial alpha on the site is derived from --gamecult-wash; no page rule sets a radial alpha of its own",
+      "a future shader's intensity uniform would be derived from the same token; the CSS wash is its fallback"
+    ],
+    "forbidden_writers": [
+      "no body[data-slug=...] rule touching background or --gamecult-wash other than the one home line",
+      "no second wash token, no class, no script, no media query for the dimming",
+      "no change to .page::before, the tour/Pitch VN ground, the Thing deck, the masthead or the engine"
+    ],
+    "shared_paths": [
+      "the same body rule every page inherits; the ritual block inherits the token from body; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The six literal alphas are replaced in the same commit the token is declared; nothing else is added."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "the built stylesheet contains calc(0.18 * var(--gamecult-wash)) verbatim (Sass passed it through)"
+    ],
+    "tests": [
+      {
+        "name": "on / getComputedStyle(document.body).getPropertyValue('--gamecult-wash') is 1 and the first radial's resolved colour in background-image is rgba(255, 138, 42, 0.18)",
+        "pins": "the home page is unchanged."
+      },
+      {
+        "name": "on /Projects, /Blog, /Blog/hello-world, /Docs/Architecture-and-Evidence, /Graph and /Thing the token is 0.5 and the first radial resolves to rgba(255, 138, 42, 0.09)",
+        "pins": "one token dims every non-home page."
+      },
+      {
+        "name": "on a ritual essay the cobalt radial resolves to rgba(49, 88, 255, 0.11)",
+        "pins": "the scoped ground follows the same token."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss and docs/brand-design-language.md only; custom.scss net about +5",
+        "pins": "one token, one override, six rewritten lines."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "radial-gradient\\([^)]*rgba?\\([^)]*\\b0\\.(1[0-9]|2[0-9])\\)",
+        "scope": "site/quartz/styles/custom.scss, the body rule and the ritual body block: no match (every radial alpha goes through calc)."
+      },
+      {
+        "pattern": "data-slug=\"[^\"]*\"\\][^{]*\\{[^}]*--gamecult-wash",
+        "scope": "site/quartz/styles/custom.scss, multiline: exactly one match, the index override."
+      },
+      {
+        "pattern": "gamecult-titlebar|gamecult-nav-link|sidebar|composite|GameCult-Quartz",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "open / then /Blog and say whether 0.5 is the right dimming; it is one number on body"
+    ]
+  },
+  "estimate": {
+    "lines_added": 11,
+    "lines_removed": 6,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-chromeless-column"
+  ],
+  "questions": []
+}

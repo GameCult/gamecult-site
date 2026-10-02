@@ -94,6 +94,18 @@ The nav (`.gamecult-nav-link`) is plain Ubuntu text, weight 500 at 0.92rem, in
 with no rule, fill or underline. This follows the Delvehold site's nav. The active
 route also carries `aria-current="page"`, and there are no nav pills.
 
+## Surfaces
+
+The site has no cards. A content box carries no fill, border, radius or shadow of
+its own; the article (`.center > article`) sits on the page ground on every page.
+The exception is a box holding something that floats in the flow: a captioned
+image or figure (`.gamecult-media-card`), an embed's own edge, a popover.
+Grouping is whitespace, type hierarchy and one hairline, `--gamecult-rule`
+(declared on `body`), drawn as `border-top: 1px solid var(--gamecult-rule)` on
+the top edge of a section or row (`.gamecult-feature-card`, `.swarm-domain-card`)
+and named by the mono uppercase tracked label (`.gamecult-kicker`). An aside such
+as `.gamecult-evidence-note` is a left rule with no fill.
+
 ## Ritual Paper — a scoped variant
 
 Three long-form essays carry a distinct treatment, scoped by slug in
@@ -139,7 +151,7 @@ For artifacts, dashboards, decks, and documents that should read as GameCult:
 - Montserrat 100–200 for titles, carried large. Ubuntu 300 for prose.
 - IBM Plex Mono, uppercase, tracked, for every small structural label.
 - Ground `#07111a`; add the radial wash when the surface is large enough to
-  show it. Panels `#16212c`. Body `#b7c7d9`. Headings `#eef5ff`.
+  show it. Rules `rgba(148,163,184,.22)`, no panels. Body `#b7c7d9`. Headings `#eef5ff`.
 - One accent: `#ff8a2a`. `#59b7ff` for links and informational state.
 - Single dark theme. Paint every colour; set the background explicitly.
 

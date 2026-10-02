@@ -33,7 +33,7 @@ the detailed authority map and proof boundaries.
   `site/quartz/styles/custom.scss` owns their shared presentation through
   `.gamecult-studio-page`; `site/quartz.layout.ts` places page metadata.
 - Markdown, authored HTML, assets, and Quartz-generated link classes become
-  static pages with shared typography, spacing, hero panels, and action links.
+  static pages with shared typography, spacing, hero sections, and action links.
 - `.gamecult-action` owns button padding and chrome for both internal and
   external links. The generic internal-link reset excludes these controls.
 - Projects uses a two-column directory, becoming one column below 800px.

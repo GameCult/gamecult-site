@@ -84,6 +84,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   --ritual-paper-orange: #dc5524;
   --ritual-paper-yellow: #ffb21e;
   --ritual-paper-glow: #e9f5ff;
+  --ritual-paper-amber-rule: rgba(255, 178, 30, 0.42);
 
   background:
     radial-gradient(circle at 78% 8%, rgb(255 178 30 / calc(0.15 * var(--gamecult-wash))), transparent 24rem),
@@ -244,7 +245,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   }
 
   article blockquote {
-    position: relative;
     margin: 1.35rem 0;
     padding: 0.2rem 0 0.2rem 1.35rem;
     border-left: 0.22rem solid rgba(220, 85, 36, 0.82);
@@ -294,7 +294,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
 
   .ritual-paper-method-card {
     padding: 0.8rem 0 0;
-    border-top: 1px solid rgba(255, 178, 30, 0.42);
+    border-top: 1px solid var(--ritual-paper-amber-rule);
   }
 
   .ritual-paper-method-card p {
@@ -306,8 +306,8 @@ body[data-slug="Blog/witness-authoritative-networking"] {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0;
     overflow: hidden;
-    border-top: 1px solid rgba(255, 178, 30, 0.42);
-    border-bottom: 1px solid rgba(255, 178, 30, 0.42);
+    border-top: 1px solid var(--ritual-paper-amber-rule);
+    border-bottom: 1px solid var(--ritual-paper-amber-rule);
   }
 
   .ritual-paper-results-strip span {
@@ -1850,7 +1850,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 .integrated-dossier-table th,
 .integrated-dossier-table td {
   padding: 0.72rem 0.78rem;
-  border-bottom: 1px solid rgba(89, 183, 255, 0.1);
+  border-bottom: 1px solid var(--gamecult-rule);
   vertical-align: top;
   text-align: left;
 }

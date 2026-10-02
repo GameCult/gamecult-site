@@ -12,7 +12,7 @@ If this note and those files disagree, the files win and this note is stale. Wha
 follows is the part the config cannot express: which decisions were deliberate,
 what the Quartz token names actually mean, and where the exceptions live.
 
-Written 2026-09-04, from `gamecult-site@main`.
+Written 2026-09-04, from `gamecult-site@main`, revised 2026-10-02.
 
 ## Typography
 
@@ -82,6 +82,17 @@ Note the violet `#6d60ff` appears **only** here — it is not a config token, an
 it is the reason the top of the page reads warmer and more atmospheric than a
 flat navy would. Reproducing the brand with a flat `#07111a` background loses
 the thing that makes it recognisable.
+
+## Masthead
+
+The masthead sits directly on the page ground on every page: the header rule
+(`.page-header > header`) sets only `display: block` and its margin, with no card,
+border, radius or shadow, so the body wash, a scoped variant's ground or the
+`/Thing` hero shows behind it. The title stays Montserrat 200, uppercase and tracked.
+The nav (`.gamecult-nav-link`) is plain Ubuntu text, weight 500 at 0.92rem, in
+`--darkgray`. Hover, focus and the active route turn it the orange `--secondary`,
+with no rule, fill or underline. This follows the Delvehold site's nav. The active
+route also carries `aria-current="page"`, and there are no nav pills.
 
 ## Ritual Paper — a scoped variant
 

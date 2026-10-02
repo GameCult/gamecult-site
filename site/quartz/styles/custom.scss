@@ -791,45 +791,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   filter: drop-shadow(0 0 0.35rem rgba(255, 138, 42, 0.28));
 }
 
-.gamecult-project-groups {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1rem;
-  margin: 1.25rem 0 1.4rem;
-}
-
-.gamecult-project-group {
-  padding: 1rem 1.05rem 1.1rem;
-  border: 1px solid rgba(89, 183, 255, 0.12);
-  border-radius: 20px;
-  background: linear-gradient(
-    180deg,
-    rgba(11, 18, 28, 0.96),
-    rgba(8, 13, 21, 0.94)
-  );
-  box-shadow:
-    0 16px 36px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.02);
-}
-
-.gamecult-project-group h2 {
-  margin: 0 0 0.7rem;
-  font-family: var(--titleFont);
-  font-size: 1.12rem;
-  font-weight: 300;
-  letter-spacing: 0.03em;
-  text-transform: none;
-}
-
-.gamecult-project-group ul {
-  margin: 0;
-  padding-left: 1rem;
-}
-
-.gamecult-project-group li + li {
-  margin-top: 0.34rem;
-}
-
 .gamecult-blog-index {
   display: flex;
   flex-direction: column;
@@ -1480,63 +1441,6 @@ a:hover,
   }
 }
 
-.gamecult-link-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.9rem;
-  margin: 1.2rem 0 1.5rem;
-}
-
-.gamecult-link-card {
-  display: block;
-  padding: 1rem 1.05rem;
-  border-radius: 18px;
-  border: 1px solid rgba(89, 183, 255, 0.1);
-  background: linear-gradient(
-    180deg,
-    rgba(14, 21, 32, 0.92),
-    rgba(10, 16, 25, 0.9)
-  );
-  box-shadow:
-    0 18px 34px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.02);
-}
-
-.gamecult-link-card strong {
-  display: block;
-  color: var(--dark);
-  font-family: var(--titleFont);
-  font-size: 1rem;
-  font-weight: 300;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.gamecult-link-card span {
-  display: block;
-  margin-top: 0.45rem;
-  color: rgba(183, 199, 217, 0.86);
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-body[data-slug="tour"]
-  .gamecult-composite-overview
-  > h2:has(+ .gamecult-link-grid),
-body[data-slug="Pitch"]
-  .gamecult-composite-overview
-  > h2:has(+ .gamecult-link-grid),
-body[data-slug="tour"]
-  .gamecult-composite-overview
-  > h3:has(+ .gamecult-link-grid),
-body[data-slug="Pitch"]
-  .gamecult-composite-overview
-  > h3:has(+ .gamecult-link-grid),
-body[data-slug="tour"] .gamecult-composite-overview > .gamecult-link-grid,
-body[data-slug="Pitch"] .gamecult-composite-overview > .gamecult-link-grid {
-  display: none !important;
-}
-
 body[data-slug="tour"],
 body[data-slug="Pitch"] {
   overflow: hidden;
@@ -1599,19 +1503,6 @@ body[data-slug="Pitch"] {
     white-space: nowrap;
     pointer-events: none;
   }
-}
-
-body[data-slug="Pitch"] .gamecult-vn-source,
-body[data-slug="tour"] .gamecult-vn-source {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-  pointer-events: none;
 }
 
 body[data-slug="tour"] .gamecult-compound-vn.sai-player-speaker,
@@ -2148,47 +2039,6 @@ body[data-slug="tour"] .gamecult-composite-sections {
   line-height: 1.5;
 }
 
-.gamecult-flow {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin: 1.15rem 0 1.4rem;
-}
-
-.gamecult-flow-step {
-  min-width: 0;
-  padding: 0.9rem;
-  border: 1px solid rgba(89, 183, 255, 0.12);
-  border-radius: 16px;
-  background:
-    radial-gradient(circle at 90% 10%, rgba(89, 183, 255, 0.08), transparent 32%),
-    rgba(8, 13, 21, 0.72);
-}
-
-.gamecult-flow-step > span {
-  display: block;
-  margin-bottom: 0.55rem;
-  color: rgba(255, 138, 42, 0.86);
-  font-family: var(--titleFont);
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-}
-
-.gamecult-flow-step h3 {
-  margin: 0 0 0.35rem;
-  color: var(--dark);
-  font-family: var(--titleFont);
-  font-size: 0.94rem;
-  font-weight: 300;
-}
-
-.gamecult-flow-step p {
-  margin: 0;
-  color: rgba(183, 199, 217, 0.86);
-  font-size: 0.84rem;
-  line-height: 1.5;
-}
-
 .gamecult-feature-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2407,10 +2257,6 @@ body[data-slug="tour"] .gamecult-composite-sections {
   .gamecult-studio-page .gamecult-home-hero {
     grid-template-columns: minmax(0, 1fr);
   }
-
-  .gamecult-flow {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media all and ($mobile) {
@@ -2452,224 +2298,8 @@ body[data-slug="tour"] .gamecult-composite-sections {
     width: 100%;
   }
 
-  .gamecult-flow {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
   .gamecult-embed-frame iframe {
     min-height: 520px;
-  }
-}
-
-.portfolio-dossier-page {
-  --dossier-panel: rgba(8, 13, 21, 0.9);
-  --dossier-panel-strong: rgba(11, 17, 26, 0.96);
-  --dossier-border: rgba(89, 183, 255, 0.18);
-  --dossier-orange: #ff8a2a;
-  --dossier-blue: #59b7ff;
-
-  article {
-    font-family: "Ubuntu", var(--bodyFont), sans-serif;
-    font-weight: 300;
-  }
-
-  article h1,
-  article h2,
-  article h3,
-  article h4 {
-    font-family: "Montserrat", var(--headerFont), sans-serif;
-    font-weight: 100;
-    letter-spacing: 0;
-  }
-
-  article h2 {
-    margin-top: 3.2rem;
-    padding-bottom: 0.45rem;
-    border-bottom: 1px solid rgba(89, 183, 255, 0.14);
-    color: var(--dossier-blue);
-  }
-
-  article h3 {
-    color: var(--dossier-orange);
-  }
-
-  article h4 {
-    color: var(--dossier-blue);
-    font-weight: 300;
-  }
-
-  article p,
-  article li,
-  article td {
-    line-height: 1.68;
-  }
-}
-
-.portfolio-dossier-hero {
-  position: relative;
-  margin: 0 0 2.4rem;
-  padding: clamp(1.4rem, 4vw, 3.6rem);
-  border: 1px solid rgba(89, 183, 255, 0.2);
-  border-radius: 8px;
-  background:
-    linear-gradient(rgba(5, 7, 11, 0.84), rgba(5, 7, 11, 0.92)),
-    url("/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg") center / cover;
-  box-shadow:
-    0 28px 70px rgba(0, 0, 0, 0.34),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
-  overflow: hidden;
-}
-
-.portfolio-dossier-kicker,
-.portfolio-dossier-source {
-  margin: 0;
-  color: rgba(183, 199, 217, 0.78);
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.portfolio-dossier-hero h1 {
-  margin: 0.25rem 0 0.85rem;
-  color: #edf6ff;
-  font-size: clamp(2.4rem, 8vw, 5.8rem);
-  font-weight: 100 !important;
-  line-height: 0.95;
-}
-
-.portfolio-dossier-hero p:not(.portfolio-dossier-kicker, .portfolio-dossier-source) {
-  max-width: 48rem;
-  color: #edf6ff;
-  font-size: clamp(1rem, 1.6vw, 1.28rem);
-}
-
-.portfolio-dossier-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1.4rem 0 0.9rem;
-}
-
-.portfolio-dossier-actions a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.35rem;
-  padding: 0.48rem 0.78rem;
-  border: 1px solid rgba(255, 138, 42, 0.36);
-  border-radius: 6px;
-  background: rgba(5, 7, 11, 0.72);
-  color: #ffd6ad;
-  font-family: "Ubuntu", var(--bodyFont), sans-serif;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.portfolio-dossier-callout,
-.portfolio-dossier-card,
-.portfolio-dossier-project-meta,
-.portfolio-dossier-figure {
-  margin: 1.25rem 0;
-  border: 1px solid var(--dossier-border);
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, var(--dossier-panel-strong), var(--dossier-panel)),
-    radial-gradient(circle at 100% 0%, rgba(255, 138, 42, 0.12), transparent 32%);
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.2);
-}
-
-.portfolio-dossier-callout {
-  padding: 1rem 1.15rem;
-}
-
-.portfolio-dossier-callout strong {
-  display: block;
-  margin-bottom: 0.35rem;
-  color: var(--dossier-orange);
-  font-family: "Montserrat", var(--headerFont), sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.portfolio-dossier-callout.blue strong {
-  color: var(--dossier-blue);
-}
-
-.portfolio-dossier-card,
-.portfolio-dossier-project-meta {
-  padding: 1rem;
-}
-
-.portfolio-dossier-table {
-  width: 100%;
-  margin: 0;
-  border-collapse: collapse;
-}
-
-.portfolio-dossier-table th,
-.portfolio-dossier-table td {
-  padding: 0.72rem 0.4rem;
-  border-bottom: 1px solid rgba(89, 183, 255, 0.1);
-  vertical-align: top;
-}
-
-.portfolio-dossier-table th {
-  width: 10.5rem;
-  color: var(--dossier-blue);
-  font-family: "Montserrat", var(--headerFont), sans-serif;
-  font-weight: 300;
-  text-align: left;
-}
-
-.portfolio-dossier-table tr:last-child th,
-.portfolio-dossier-table tr:last-child td {
-  border-bottom: 0;
-}
-
-.portfolio-dossier-figure {
-  padding: 0.75rem;
-}
-
-.portfolio-dossier-figure img {
-  display: block;
-  width: 100%;
-  border-radius: 6px;
-  background: #05070b;
-}
-
-.portfolio-dossier-figure figcaption {
-  margin-top: 0.75rem;
-  color: #ffd6ad;
-  font-size: 0.95rem;
-}
-
-.portfolio-term {
-  color: var(--dossier-orange);
-  font-weight: 500;
-}
-
-.portfolio-signal {
-  color: var(--dossier-blue);
-  font-weight: 500;
-}
-
-@media (max-width: 720px) {
-  .portfolio-dossier-table,
-  .portfolio-dossier-table tbody,
-  .portfolio-dossier-table tr,
-  .portfolio-dossier-table th,
-  .portfolio-dossier-table td {
-    display: block;
-    width: 100%;
-  }
-
-  .portfolio-dossier-table th {
-    padding-bottom: 0.2rem;
-    border-bottom: 0;
-  }
-
-  .portfolio-dossier-table td {
-    padding-top: 0;
   }
 }
 

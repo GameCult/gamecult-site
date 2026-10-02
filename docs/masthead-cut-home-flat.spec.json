@@ -1,0 +1,231 @@
+{
+  "campaign": "site-masthead",
+  "cut": "home-flat",
+  "revision": 1,
+  "title": "Home flat: the article card deleted on every page; the home and Projects hero panels and feature cards become type on the ground with one hairline rule; only the captioned media card stays on /",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": [],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)'. Ruling in force: site-masthead:ruling:operator-no-cards-except-floats, operator's words: \"I would indeed prefer to get rid of cards, unless they're containing something that floats, like a captioned image\". A card is any box with its own fill, border, radius or shadow around content. Line numbers below are read from 410485e; re-read by selector before editing.",
+    "What the operator saw on a phone on /: the intro text in .gamecult-hero-panel (card, custom.scss 2084-2098 and 2100-2113) nested inside the article card (.page > #quartz-body .center > article, 1057-1067). Both go. The figure.gamecult-media-card beside the hero (index.md 72-75: an img and a caption) is the operator's own example of a card that stays.",
+    "The one replacement mechanism, site-wide: whitespace, typographic hierarchy, and the hairline rule, 1px solid var(--gamecult-rule), on the top edge of a section or row, with the existing mono/uppercase/tracked label (.gamecult-kicker, .gamecult-repo-fact-label) naming it. The site already uses this hairline in three places with two literal colours: .gamecult-studio-page .gamecult-feature-card 2353 and .swarm-domain-card 2932 (rgba(148,163,184,.22)), .gamecult-overview-group 1313 (rgba(89,183,255,.08)). This cut names the token and uses the grey value; later cuts switch the sky literal to it.",
+    "Pages after this cut: every page's article sits on the ground (body wash, a scoped variant's ground, or the Thing hero) with no box; / and /Projects show title, tagline, kicker, hero copy, action pills (untouched, pending) and the evidence note as a left-ruled aside; the two feature cards on / are ruled sections. The deleted card's padding (1.45rem 1.7rem) is not replaced: content runs to the column's edge, which is the full-width-content direction.",
+    "Pills (.gamecult-action, .gamecult-repo-link) are a separate pending item under self-masthead-pills-first; not touched here. The masthead is not touched. Deploy: push to main -> Deploy Quartz -> GitHub Pages; CI is the verifier; measure with the browser pane's viewport emulation."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 11,
+      "note": "1057-1067: the article card rule (.page > #quartz-body .center > article: background, border, border-radius, box-shadow, padding) deleted whole. 1069-1071 (> :first-child margin-top 0) stays."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 4,
+      "note": "1462-1465 inside @media ($mobile): the article's mobile padding and 20px radius, deleted whole."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 15,
+      "note": "The three unstylers that only existed to beat the article card, now dead: ritual block 150, 152-154 (padding: 0; border: 0; background: transparent; box-shadow: none; keep position, max-width, margin, color, font); Thing block 1169-1173 (background none, border 0, border-radius 0, box-shadow none, padding 0; keep grid-area and min-width); tour/Pitch block 1595-1599 (padding 0, border 0, border-radius 0, background transparent, box-shadow none; keep height, margin, overflow). Colossus block 1206 (padding: 1rem) deleted; margin-top and overflow stay."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 10,
+      "note": "2100-2109: the home hero's orange radial on .gamecult-hero-panel and .gamecult-media-card, deleted whole. The media card keeps the shared card fill from 2084."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 9,
+      "note": "The hero panel's three padding rules: 2111-2113 (.gamecult-hero-panel), 2293-2295 (.gamecult-studio-page .gamecult-hero-panel), 2486-2488 (@media mobile .gamecult-hero-panel). A section with no box has no inset."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "2350-2357: .gamecult-studio-page .gamecult-feature-card (the hairline override of the card). Its declarations move into the base .gamecult-feature-card rule; the override has nothing left to override."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 2,
+      "note": "2179 and 2328: the background fills on .gamecult-evidence-note and its studio variant. The orange left rule stays; the note is an aside like the engine's blockquote (base.scss: border-left 3px, no fill)."
+    }
+  ],
+  "keeps_moves": [
+    "figure.gamecult-media-card keeps its card (2084-2098 shared rule, 2375-2391): image plus caption is the ruled exception. .gamecult-embed-frame also stays in that selector list for now; it is cut in project-pages.",
+    ".gamecult-home-hero grid (2076-2082), .gamecult-kicker, .gamecult-hero-title, .gamecult-action-row, .gamecult-action (pills, pending), .gamecult-feature-grid, swarm directory rules: unchanged except the token swap at 2932.",
+    "The masthead rules (641-780) and GameCultMasthead.tsx: untouched.",
+    "The Thing block's grid stack, --thing-inset, --thing-frame; the tour/Pitch 100svh frame; the ritual essays' ground, grid and article width: unchanged apart from the dead declarations named in deletes.",
+    "The engine (GameCult-Quartz) is not edited."
+  ],
+  "adds": [
+    "custom.scss body (10-29): one token, --gamecult-rule: rgba(148, 163, 184, 0.22); the hairline the site groups with. Declared on body so every scoped variant inherits it.",
+    "custom.scss .gamecult-feature-card (2233-2235) becomes: padding: 1.15rem 0 0; border-top: 1px solid var(--gamecult-rule); (the moved declarations; border: 0, border-radius: 0, background: transparent, box-shadow: none are not written, there is no card to undo). Its h3/p rules at 2237-2253 and the studio h3/p variants at 2359-2373 stay.",
+    "custom.scss 2084-2098: the selector list loses .gamecult-hero-panel and .gamecult-feature-card and reads .gamecult-media-card, .gamecult-embed-frame { ... } with the same declarations.",
+    "custom.scss .gamecult-evidence-note (2175-2183): padding becomes 0 0 0 0.9rem; studio variant (2324-2332): padding becomes 0 0 0 1rem. Everything else in both rules stays.",
+    "custom.scss 2353 and 2932: the two literal rgba(148, 163, 184, 0.22) become var(--gamecult-rule).",
+    "docs/brand-design-language.md: a new section '## Surfaces' between '## Masthead' (ends 95) and '## Ritual Paper' (97): the site has no cards; a content box never carries its own fill, border, radius or shadow unless it holds something that floats in the flow (a captioned image or figure; an embed's own edge; a popover). Grouping is whitespace, type hierarchy and the hairline rule --gamecult-rule on the top edge of a section or row, named by the mono uppercase tracked label. Six to ten lines, by selector and token, no line numbers. In '## Applying this outside the site' (137-144) the 'Panels #16212c' phrase becomes 'rules rgba(148,163,184,.22), no panels'. The 'Written' line (15) already says revised 2026-10-02.",
+    "GameCult/Docs/Site-Architecture.md 32-33: 'hero panels' becomes 'hero sections' and the sentence no longer promises panels; one-line edit."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 10, "end_line": 29 },
+      "change": "--gamecult-rule declared on body."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 146, "end_line": 158 },
+      "change": "ritual article: padding 0, border 0, background transparent, box-shadow none deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1057, "end_line": 1071 },
+      "change": "article card rule deleted; the :first-child margin reset stays."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1166, "end_line": 1174 },
+      "change": "Thing article: the five card-undo declarations deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1204, "end_line": 1208 },
+      "change": "colossus article: padding 1rem deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1462, "end_line": 1465 },
+      "change": "mobile article padding and radius deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1592, "end_line": 1601 },
+      "change": "tour/Pitch article: the five card-undo declarations deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2084, "end_line": 2113 },
+      "change": "shared card selector reduced to media card and embed frame; home radial deleted; hero padding deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2175, "end_line": 2183 },
+      "change": "evidence note: fill deleted, padding left-only."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2233, "end_line": 2235 },
+      "change": "feature card becomes the ruled section."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2293, "end_line": 2357 },
+      "change": "studio hero padding, evidence fill and feature override deleted; studio evidence padding left-only."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2486, "end_line": 2488 },
+      "change": "mobile hero padding deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2932, "end_line": 2932 },
+      "change": "swarm card hairline uses the token."
+    },
+    {
+      "location": { "path": "docs/brand-design-language.md", "line": 96, "end_line": 97 },
+      "change": "'## Surfaces' section inserted; 'Panels' line amended."
+    },
+    {
+      "location": { "path": "GameCult/Docs/Site-Architecture.md", "line": 32, "end_line": 33 },
+      "change": "'hero panels' becomes 'hero sections'."
+    }
+  ],
+  "authority_map": {
+    "owner": "The page's ground owns what is behind content on every page (body wash, a scoped variant's ground, the Thing hero); custom.scss owns grouping through one token, --gamecult-rule, and the section rules that use it; index.md and Projects/index.md own the copy and the order of sections.",
+    "inputs": [
+      "the brand tokens in quartz.config.ts and the one new token --gamecult-rule",
+      "the studio pages' markup (hero section, feature grid, evidence note, media figure)"
+    ],
+    "outputs": [
+      "every page's article on the ground with no box, content at the column's edge",
+      "/ and /Projects: hero copy, ruled feature sections, a left-ruled evidence note, and one captioned media card"
+    ],
+    "derived_state": [
+      "the article's inset is derived from .page and #quartz-body gutters only; the card's padding is gone and not replaced",
+      "the feature card's rule colour is derived from --gamecult-rule; no literal hairline colour remains in the studio or swarm rules"
+    ],
+    "forbidden_writers": [
+      "no rule paints background, border, border-radius or box-shadow on .page > #quartz-body .center > article, .gamecult-hero-panel, .gamecult-feature-card or .gamecult-evidence-note (the evidence note keeps border-left only)",
+      "no scoped block (ritual, Thing, tour/Pitch, colossus) undoes a card that no longer exists: no border: 0, background: transparent/none or box-shadow: none on article in those blocks",
+      "no new padding, max-width or inset added to article to stand in for the card's padding",
+      "no change to .gamecult-action, .gamecult-repo-link, the masthead rules, the engine, or any content copy"
+    ],
+    "shared_paths": [
+      "every page renders article through the one engine .center > article rule; the three scoped blocks stop being exceptions to a card",
+      "deploy is the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The article card (1057-1067, 1462-1465), its three unstylers, the home radial, the hero paddings and the studio feature override are deleted in the first commit, before --gamecult-rule and the ruled feature-card rule are written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1",
+      "optional: .\\scripts\\quartz\\quartz.ps1 build succeeds locally"
+    ],
+    "tests": [
+      {
+        "name": "no painted ancestor between body and the hero copy on / and /Projects at 1440 and 375",
+        "pins": "the operator's screenshot: walk from .gamecult-hero-title up to body; expect no element with a computed background-image other than none, background-color other than transparent/rgba(0,0,0,0), border-width other than 0 or box-shadow other than none, except body's own wash."
+      },
+      {
+        "name": "article has no box on /, /Projects, /Blog/hello-world, /Projects/CultPong, /Docs, /Graph, the three ritual essays, the colossus post and /Thing at 1440 and 375",
+        "pins": "computed style of .center > article: background-image none, background-color transparent, border 0, border-radius 0, box-shadow none, padding 0 (colossus and ritual included)."
+      },
+      {
+        "name": "figure.gamecult-media-card on / keeps its card",
+        "pins": "the ruled exception: computed border-width 1px, border-radius 20px, a background-image; its img keeps 16px radius."
+      },
+      {
+        "name": "the two .gamecult-feature-card on / have border-top 1px rgb(148,163,184) at .22 and no other border, fill or shadow; .swarm-domain-card border-top matches",
+        "pins": "the one mechanism: getComputedStyle(...).borderTopColor equals the token's resolved rgba on both; --gamecult-rule resolves on body."
+      },
+      {
+        "name": ".gamecult-evidence-note on / and /Projects: border-left 2px orange, background transparent, padding-left 0.9rem (1rem on the studio page), no top/bottom padding",
+        "pins": "an aside, not a card."
+      },
+      {
+        "name": "at 375x812 on /: no horizontal overflow (scrollWidth == innerWidth) and the article's left edge equals .center's left edge",
+        "pins": "content at the column's edge; nothing stands in for the card's padding."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss, docs/brand-design-language.md and GameCult/Docs/Site-Architecture.md only; custom.scss net about -45",
+        "pins": "a subtraction cut with one token and one moved rule."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "\\.center > article\\s*\\{[^}]*(background|border|box-shadow|padding)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match outside the Thing block's grid-area/min-width rule and the colossus block's margin-top/overflow rule (those two rules match none of the four words)."
+      },
+      {
+        "pattern": "gamecult-hero-panel[^{]*\\{[^}]*(background|border|box-shadow|padding)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "rgba\\(148, 163, 184, 0\\.22\\)",
+        "scope": "site/quartz/styles/custom.scss: exactly one match, the --gamecult-rule declaration on body."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|gamecult-nav-link|GameCult-Quartz",
+        "scope": "git diff base..head: no match in changed lines; --name-only has no engine or component file."
+      }
+    ],
+    "operator": [
+      "look at / on a phone and say whether the intro now reads as one page instead of a box in a box"
+    ]
+  },
+  "estimate": {
+    "lines_added": 14,
+    "lines_removed": 59,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats",
+    "site-masthead:ruling:operator-no-card-no-pills",
+    "site-masthead:ruling:self-masthead-pills-first"
+  ],
+  "questions": []
+}

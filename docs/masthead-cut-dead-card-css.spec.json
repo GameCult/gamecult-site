@@ -1,0 +1,176 @@
+{
+  "campaign": "site-masthead",
+  "cut": "dead-card-css",
+  "revision": 1,
+  "title": "Dead card CSS deleted: portfolio-dossier block, project groups, link cards, flow steps, composite shell and header, hidden VN source cards; each class proven absent from the built site first",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)', class 'dead'. These card rules have no element on the built site: no content file, component or generator emits the class. Deleting them is pure subtraction, so this cut is second; it has no visual outcome if the proof holds. Line numbers are from 410485e and shift after home-flat; re-read by selector.",
+    "Proof before deletion, per class: grep -rn <class> GameCult site/quartz scripts (excluding custom.scss) is empty, and after a local build (.\\scripts\\quartz\\quartz.ps1 build) grep -rl <class> public is empty. A class with a hit stays and is reported as a deviation. Expected dead at 410485e: gamecult-project-groups, gamecult-project-group, gamecult-link-grid, gamecult-link-card, gamecult-flow, gamecult-flow-step, gamecult-composite-page, gamecult-composite-jump, gamecult-composite-sections, gamecult-composite-section, gamecult-composite-divider, gamecult-composite-shell, gamecult-composite-media, gamecult-composite-copy, gamecult-composite-header, gamecult-composite-body, portfolio-dossier-page and every portfolio-dossier-* and portfolio-* class, gamecult-doc-tree-* (the generator writes repo-doc-tree.js/json under static, not markup).",
+    "gamecult-composite-overview is live: GameCult/tour.md 62 sets it in cssclasses, so the rule at 1937-1940 (> h2, > ul hidden) stays. The composite branch of site/quartz/components/GameCultCompositeContent.tsx (compositeSections) is reached by no content file; it is not cut here and is listed as a follow-up for the Self, since removing a component is a product decision, not a card.",
+    "The VN source cards on /tour and /Pitch (GameCult/tour.md 76-140, Pitch.md): section.gamecult-vn-source is clipped to 1px by custom.scss 1607-1617 (inside the tour/Pitch block) and again, identically, by 1620-1631 outside it. The Sai player clones each [data-sai-dom-source] node into its overlay (.sai-dom-card). Hands checks the live DOM on /tour after the player has shown a DOM card: if a .sai-dom-card descendant carries class gamecult-vn-source-card, the rule at 1808-1814 is a card inside Sai's floating card and is flattened (border, border-radius, background deleted; padding stays; h2/p/img rules stay); if not, 1801-1925 is dead on screen and is deleted whole. Either way the duplicate clip rule 1620-1631 is deleted.",
+    "Rulings: operator-no-cards-except-floats. Pills untouched. Masthead untouched. The engine is not edited."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 38,
+      "note": "782-819: .gamecult-project-groups, .gamecult-project-group and its h2, ul, li + li rules."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 55,
+      "note": "1494-1532: .gamecult-link-grid, .gamecult-link-card and its strong/span; 1534-1549: the tour/Pitch rules hiding h2/h3:has(+ .gamecult-link-grid) and the grid (no grid exists)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 12,
+      "note": "1620-1631: the duplicate .gamecult-vn-source clip rule outside the tour/Pitch block; the copy inside the block (1607-1617) stays."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 125,
+      "note": "1801-1925: .gamecult-vn-source grid, .gamecult-vn-source-card (+h2, p, p + p, img), .gamecult-vn-doc-tree-card, .gamecult-doc-tree-* rules, if the live-DOM check finds no cloned class; otherwise only the card declarations at 1811-1813 go (see first)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 160,
+      "note": "1931-1935 .gamecult-composite-page; 1942-2074 composite jump, sections, section, divider, shell (+has-media), media (+figure rules), copy, header (+h2, children), body and the @container rule; 2464-2484 the mobile composite rules (header, body, shell, divider, header align). 1937-1940 (.gamecult-composite-overview > h2, > ul) stays."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 46,
+      "note": "2185-2224 .gamecult-flow and .gamecult-flow-step (+span, h3, p); 2458-2460 and 2506-2508 the two media-query flow rules."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 211,
+      "note": "2515-2725: the whole .portfolio-dossier-page block and the .portfolio-dossier-* / .portfolio-term / .portfolio-signal rules that follow it, including the @media (max-width: 720px) table rules. No content file carries portfolio-dossier-page; scripts/render-public-infrastructure-dossier.py renders a PDF with reportlab and reads no CSS."
+    }
+  ],
+  "keeps_moves": [
+    ".gamecult-composite-overview > h2, > ul { display: none } (1937-1940): live on /tour.",
+    "The tour/Pitch block (1551-1618) including its .gamecult-vn-source clip rule; the Sai player overrides (1633-1799): untouched. Those are Pitch/tour surfaces the site tints on Sai's player, not site cards; see the map.",
+    ".gamecult-media-card, .gamecult-embed-frame, .gamecult-repo-fact, .toc/.backlinks, overview sidebar, blog index, outtake, dossier rules: untouched here; each has its own cut.",
+    "GameCultCompositeContent.tsx: untouched (follow-up)."
+  ],
+  "adds": [],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 782, "end_line": 819 },
+      "change": "project group rules deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1494, "end_line": 1549 },
+      "change": "link grid/card rules and their tour/Pitch hiders deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1620, "end_line": 1631 },
+      "change": "duplicate clip rule deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1801, "end_line": 1925 },
+      "change": "VN source card rules deleted, or flattened if cloned into Sai's overlay."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1931, "end_line": 2074 },
+      "change": "composite rules deleted except the overview hider."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2185, "end_line": 2224 },
+      "change": "flow rules deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2458, "end_line": 2508 },
+      "change": "media-query flow and composite rules deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2515, "end_line": 2725 },
+      "change": "portfolio-dossier block deleted."
+    }
+  ],
+  "authority_map": {
+    "owner": "The content files and components own which classes exist; custom.scss carries a rule only for a class that is emitted. The built site (public/) is the proof of emission.",
+    "inputs": [
+      "grep of GameCult, site/quartz and scripts for each class",
+      "grep of the local build output for each class",
+      "the live DOM of /tour after a DOM card is shown (for the VN source cards)"
+    ],
+    "outputs": [
+      "a custom.scss with no rule for a class that no page emits",
+      "a deviation entry for any class found live, with the rule left in place"
+    ],
+    "derived_state": [
+      "nothing on screen changes; every deleted rule matched no element"
+    ],
+    "forbidden_writers": [
+      "no rule deleted without both greps empty (or, for the VN cards, the DOM check)",
+      "no change to a live rule: .gamecult-composite-overview hider, the Sai overrides, the media card, the embed frame, the pills, the masthead",
+      "no component or content file edited; no engine edit"
+    ],
+    "shared_paths": [
+      "deploy is the same Deploy Quartz workflow; the local build is the same quartz.ps1 build"
+    ],
+    "deletion_line": "This cut is only deletion; the proof greps run first and are quoted in the report."
+  },
+  "verification": {
+    "builds": [
+      "local build before and after: .\\scripts\\quartz\\quartz.ps1 build succeeds; grep -rlE 'gamecult-(project-group|link-card|link-grid|flow|composite-(page|jump|sections|section|divider|shell|media|copy|header|body))|portfolio-dossier|gamecult-doc-tree' public is empty before the deletion",
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "pixel/DOM parity on /, /Projects, /Blog, /Blog/hello-world, /Projects/CultPong, /dossier, /tour, /Pitch, /Thing at 1440 and 375 before and after",
+        "pins": "deleting dead rules changes nothing: for each page, the set of computed (background-image, background-color, border, border-radius, box-shadow) over all elements with a class starting gamecult-, swarm-, integrated- or sai- is identical before and after."
+      },
+      {
+        "name": "/tour plays: the Sai player renders, a DOM card can be shown, and the clipped .gamecult-vn-source is still 1px",
+        "pins": "the VN source rules decided nothing visible; the clip rule inside the tour/Pitch block still applies after the duplicate goes."
+      },
+      {
+        "name": ".gamecult-composite-overview > h2 on /tour is display none",
+        "pins": "the live hider survived the composite deletion."
+      },
+      {
+        "name": "git diff base..head --stat: only site/quartz/styles/custom.scss, net about -640 (or about -520 if the VN rules are flattened instead of deleted)",
+        "pins": "pure subtraction, one file."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "gamecult-(project-group|link-card|link-grid|flow|composite-(page|jump|sections|section|divider|shell|media|copy|header|body))|portfolio-(dossier|term|signal)|gamecult-doc-tree",
+        "scope": "site/quartz/styles/custom.scss after the cut: no match."
+      },
+      {
+        "pattern": "gamecult-composite-overview",
+        "scope": "site/quartz/styles/custom.scss after the cut: exactly one rule (the h2/ul hider)."
+      },
+      {
+        "pattern": "clip-path: inset\\(50%\\)",
+        "scope": "site/quartz/styles/custom.scss after the cut: exactly one match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|GameCult-Quartz|\\.tsx|\\.md",
+        "scope": "git diff base..head --name-only: only custom.scss; no changed line touches a pill or masthead rule."
+      }
+    ],
+    "operator": []
+  },
+  "estimate": {
+    "lines_added": 0,
+    "lines_removed": 640,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": []
+}

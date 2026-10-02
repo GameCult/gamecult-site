@@ -1,0 +1,127 @@
+{
+  "campaign": "site-masthead",
+  "cut": "blog-asides",
+  "revision": 1,
+  "title": "Blog pull quotes flat: .gamecult-outtake becomes a typeset pull quote hanging into the margin with one orange rule, no box, no tilt",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)'. Ruling: operator-no-cards-except-floats. Line numbers from 410485e; re-read by selector.",
+    "Surface: aside.gamecult-outtake on four posts (borrowed-witness-priced-risk, gpt-5-6-sol-wrote-a-50000-word-novella-in-8-hours, love-is-how-the-colossus-wakes, purge-the-heretek-from-our-daemonic-swarm). Rules: 1073-1097 (a 34rem box hanging 14rem into the right margin, tilted 0.35deg, orange border .26, orange left rule .28rem, radius 18px, gradient fill, shadow, italic Ubuntu 300 at 1.08rem), 1099-1106 (a second sky bar as ::before), 1108-1114 (under 1280px: narrower, less hang), 1467-1478 (mobile: full width, no transform, radius 16px, its ::before).",
+    "It is text, not a float, so the card goes. What is kept is the editorial device: the quote hangs into the margin, set larger and italic, marked by one orange rule on its left, like the engine's blockquote (base.scss: border-left 3px var(--secondary)). The tilt only read against a box edge and goes with it; the ::before bar is a second rule inside a card and goes.",
+    "The ritual essays' blockquote and the dossier notes are other left-ruled asides, handled in their own cuts; this cut is the four posts only."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 10,
+      "note": "1073-1097 .gamecult-outtake: transform (1080), border (1081), border-radius (1083), background (1084-1086, 3 lines), box-shadow (1087-1089, 3 lines) deleted. border-left (1082) stays."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "1099-1106 .gamecult-outtake::before deleted whole."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": "1112: the transform in the max-width 1280px variant deleted; width and margin-right stay."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 5,
+      "note": "1467-1478 mobile: transform: none (1471), border-radius (1472) deleted; 1476-1478 the mobile ::before rule deleted whole."
+    }
+  ],
+  "keeps_moves": [
+    ".gamecult-outtake keeps position, box-sizing, width min(34rem, 44vw), max-width, the margin hang (3.1rem -14rem 3.2rem auto), border-left 0.28rem orange, color, font-family, size, style, weight, letter-spacing, line-height; padding becomes 0.2rem 0 0.2rem 1.4rem.",
+    "The 1280px variant keeps width min(32rem, 88%) and margin-right -4rem; mobile keeps max-width 100%, margin 2.2rem 0 2.3rem, font-size 1rem; its padding becomes 0.1rem 0 0.1rem 1.1rem.",
+    "The four posts' markup is unchanged."
+  ],
+  "adds": [
+    "custom.scss .gamecult-outtake padding: 0.2rem 0 0.2rem 1.4rem (replacing 1.35rem 1.65rem 1.45rem 2rem); mobile padding: 0.1rem 0 0.1rem 1.1rem (replacing 1.1rem 1.15rem 1.2rem 1.45rem)."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1073, "end_line": 1114 },
+      "change": "outtake: box, tilt and ::before deleted; padding left-only."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1467, "end_line": 1478 },
+      "change": "mobile outtake: radius, transform none and ::before deleted; padding left-only."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss owns the pull quote's one mark, the orange left rule, and its hang; the post markup owns which paragraph is pulled.",
+    "inputs": [
+      "--secondary (the rule's colour, already a literal orange at .84 in the rule; keep as is)",
+      "the article column's width (the hang is relative to it)"
+    ],
+    "outputs": [
+      "a pull quote on four posts: larger italic text, one orange rule on its left, hanging into the right margin on wide screens, full width on phones"
+    ],
+    "derived_state": [
+      "the quote's position is derived from the margin hang only; no transform remains"
+    ],
+    "forbidden_writers": [
+      "no background, border (other than border-left), border-radius, box-shadow, transform or ::before on .gamecult-outtake at any width",
+      "no change to the posts, the pills, the masthead or the engine"
+    ],
+    "shared_paths": [
+      "the same left-rule treatment as the engine's blockquote and the home evidence note; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The box, the tilt and the ::before bar are deleted before the new padding is written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "/Blog/love-is-how-the-colossus-wakes at 1920, 1280 and 375: the outtake has one orange left rule and no box, tilt or ::before",
+        "pins": ".gamecult-outtake has border-left 0.28rem orange, no other border, background transparent, border-radius 0, box-shadow none, transform none; getComputedStyle(el, '::before').content is 'none'."
+      },
+      {
+        "name": "at 1920 the outtake's right edge is to the right of the article's content box (the hang survives); at 375 it is inside the viewport (scrollWidth == innerWidth)",
+        "pins": "the editorial device kept, no overflow on phones."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss only, net about -22",
+        "pins": "subtraction."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "gamecult-outtake[^{]*\\{[^}]*(transform|box-shadow|border-radius|background|border:)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "gamecult-outtake::before",
+        "scope": "site/quartz/styles/custom.scss: no match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|GameCult-Quartz",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "read the Colossus post on a wide screen and say whether the pull quote still earns its hang without the box"
+    ]
+  },
+  "estimate": {
+    "lines_added": 2,
+    "lines_removed": 24,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": []
+}

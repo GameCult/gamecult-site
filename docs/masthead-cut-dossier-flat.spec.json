@@ -1,0 +1,146 @@
+{
+  "campaign": "site-masthead",
+  "cut": "dossier-flat",
+  "revision": 1,
+  "title": "Dossier pages flat: the integrated-dossier hero, fact cells, notes, table and glossary on /dossier and /stichting become ruled sections and left-ruled asides",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)'. Ruling: operator-no-cards-except-floats. --gamecult-rule exists after home-flat. Line numbers from 410485e; re-read by selector. The portfolio-dossier block (2515-2725) is dead and is deleted in dead-card-css, not here.",
+    "Pages: GameCult/dossier.md and GameCult/stichting.md (cssclasses integrated-dossier-page; scripts/render-integrated-dossier.mjs emits the same classes). Surfaces in the .integrated-dossier-page block and after it: .integrated-dossier-hero (2779-2790: border, radius 8px, gradient fill, shadow, big padding); the shared card rule for .integrated-dossier-hero dl div, .integrated-dossier-note, .integrated-dossier-table, .integrated-dossier-glossary (2824-2831: border, radius, fill); dl div padding (2833-2835); note padding and shadow (2852-2856); .integrated-dossier-lead border-color (2862-2864); the table's own display/overflow rules (2866-2898: the engine's th/tr hairlines already separate rows; no change needed to those); glossary padding (2900-2902).",
+    "Mechanism: the hero is type on the ground closed by a bottom rule; each dl cell is a ruled column (top rule, like the project fact row); a note is a left-ruled aside in the dossier's blue (the lead note in orange), like the engine's blockquote; the table is the engine's table (rows ruled by th/tr); the glossary is a dl whose dt rows carry the top rule.",
+    "The dossier's own tokens (--integrated-panel, --integrated-panel-soft, --integrated-border) lose their last readers in this cut and are deleted; --integrated-blue and --integrated-orange stay."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": "2728-2730: --integrated-panel, --integrated-panel-soft, --integrated-border deleted (no reader after this cut)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 9,
+      "note": "2779-2790 .integrated-dossier-hero: border, border-radius, background (3 lines), box-shadow (3 lines) deleted; margin stays; padding replaced (adds)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "2824-2831: the shared card rule (dl div, note, table, glossary: border, radius, background) deleted whole."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 1,
+      "note": "2855: .integrated-dossier-note box-shadow deleted."
+    }
+  ],
+  "keeps_moves": [
+    "The dossier type rules (2734-2777: Ubuntu 300 body, Montserrat headings, h2 bottom rule in --integrated-border -> becomes var(--gamecult-rule) at 2750), kicker/source, h1, lead paragraph, dl grid (2817-2822), dt/dd type (2837-2850), note strong colour, table display/overflow/tbody/th/td rules (2866-2898), glossary dd + dt spacing: unchanged except the token swap.",
+    "The two markdown files and the render script: unchanged."
+  ],
+  "adds": [
+    "custom.scss .integrated-dossier-hero: padding: 0 0 1.6rem; border-bottom: 1px solid var(--gamecult-rule);",
+    "custom.scss .integrated-dossier-hero dl div: padding: 0.6rem 0 0; border-top: 1px solid var(--gamecult-rule); (replacing padding 0.8rem 0.9rem)",
+    "custom.scss .integrated-dossier-note: padding: 0.1rem 0 0.1rem 1rem; border-left: 2px solid var(--integrated-blue); (replacing padding 1rem 1.1rem and the shadow). .integrated-dossier-lead: border-left-color: var(--integrated-orange); (replacing border-color).",
+    "custom.scss .integrated-dossier-glossary: padding: 0; and .integrated-dossier-glossary dt { padding-top: 0.6rem; border-top: 1px solid var(--gamecult-rule); } with the existing dd + dt margin-top 1rem reduced to 0.6rem.",
+    "custom.scss 2750: article h2 border-bottom colour var(--gamecult-rule) in place of var(--integrated-border)."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2727, "end_line": 2732 },
+      "change": "panel and border tokens deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2747, "end_line": 2753 },
+      "change": "h2 rule colour uses --gamecult-rule."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2779, "end_line": 2790 },
+      "change": "hero: box deleted; bottom rule and padding written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2824, "end_line": 2864 },
+      "change": "shared card rule deleted; dl cell top rule, note left rule, lead colour written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2900, "end_line": 2906 },
+      "change": "glossary: padding 0, dt top rule."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss owns the dossier pages' grouping through --gamecult-rule and the two dossier accents; the markdown (and the render script that emits it) owns the content and section order.",
+    "inputs": [
+      "--gamecult-rule, --integrated-blue, --integrated-orange",
+      "the dossier markup's hero, dl, note, table and glossary"
+    ],
+    "outputs": [
+      "/dossier and /stichting as ruled sections: hero closed by a rule, ruled fact cells, left-ruled notes, the engine's table, a ruled glossary"
+    ],
+    "derived_state": [
+      "every separator on the dossier pages is derived from --gamecult-rule; the dossier's own border and panel tokens are gone"
+    ],
+    "forbidden_writers": [
+      "no background, border-radius or box-shadow on any .integrated-dossier-* element; no border other than border-top on dl div and dt, border-bottom on the hero and h2, border-left on notes, and the engine's th/tr rules",
+      "no change to the markdown, the render script, the pills, the masthead or the engine"
+    ],
+    "shared_paths": [
+      "the same token and left-rule treatment as the rest of the site; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The hero box, the shared card rule, the note shadow and the three tokens are deleted before the rule declarations are written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "/dossier and /stichting at 1440 and 375: no element with a class starting integrated-dossier- has a background-image, a non-transparent background-color, a border-radius or a box-shadow",
+        "pins": "no cards on the dossier pages."
+      },
+      {
+        "name": "the hero's bottom rule, the dl cell and glossary dt top rules, and the notes' left rules are present on /dossier and /stichting",
+        "pins": "hero border-bottom 1px at the token's colour; each dl div and each glossary dt border-top at it; each .integrated-dossier-note border-left 2px rgb(89,183,255), the lead note rgb(255,138,42). The replacements use the shared token and the two accents."
+      },
+      {
+        "name": "the table still scrolls horizontally at 375 (tbody min-width 42rem; .integrated-dossier-table overflow-x auto) and its rows are separated by the engine's tr rule",
+        "pins": "the table's container behaviour is untouched."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss only, net about -15",
+        "pins": "subtraction with rules written in place."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "integrated-(panel|panel-soft|border)",
+        "scope": "site/quartz/styles/custom.scss: no match."
+      },
+      {
+        "pattern": "integrated-dossier[^{]*\\{[^}]*(box-shadow|border-radius|background)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|GameCult-Quartz|\\.md$|\\.mjs$",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "open /dossier and say whether the memo reads as a document rather than a stack of panels"
+    ]
+  },
+  "estimate": {
+    "lines_added": 12,
+    "lines_removed": 24,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": []
+}

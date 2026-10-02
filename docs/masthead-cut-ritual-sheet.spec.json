@@ -1,0 +1,179 @@
+{
+  "campaign": "site-masthead",
+  "cut": "ritual-sheet",
+  "revision": 1,
+  "title": "Ritual essays: the sheet, abstract, method, results and blockquote boxes and the badges become rules and mono labels on the essays' ground; paper, columns, keyline and figures stay (waits on ruling)",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "This spec waits on site-masthead:question:ritual-sheet. It is written for the recommended option flatten-sheet-keep-paper; if the operator rules keep-sheet the cut is withdrawn, if flatten-all the keyline, column rule and h2 top rules go too and the spec is revised. Do not start before the ruling.",
+    "Map: docs/brand-design-language.md '## Ritual Paper' names the three essays (Blog/small-ritual-of-reach, week-of-nonconsensual-access, witness-authoritative-networking) as a deliberate scoped variant: Georgia body, a near-black-violet ground, cobalt and amber accents, mono labels; its token table lists --ritual-paper-sheet and --ritual-paper-panel. Ruling in force: operator-no-cards-except-floats. Line numbers from 410485e inside the body[data-slug] block at 101-625; re-read by selector.",
+    "Surfaces: .ritual-paper-page (198-214: the sheet; border, radius 8px, gradient and line fill, 72px shadow, two inset hairlines; cover padding 216-218; mobile 591-595), ::before badges PREPRINT / WORKING PAPER (220-240: pill, border, 999px radius, fill), article blockquote (360-371: card with left rule, fill, shadow, and a 'quoted protocol' label whose panel background masks the border, 373-385), .ritual-paper-abstract (401-409), .ritual-paper-method-card and .ritual-paper-results-strip (416-424), .ritual-paper-page-number (523-538: pill on a gradient with glow). Not touched: .gamecult-media-card ritual variant (455-474: captioned figures, the ruled exception), article code (352-358: inline, not a box), .katex-display (483-491: tied to question code-blocks), the keyline, the column rule at 544, h2 top rules, the page footer's top rule.",
+    "Mechanism, in the variant's own colours: --ritual-paper-rule replaces the sheet's and boxes' borders as top (and where named, bottom) hairlines; badges and the page number become mono labels in their existing colours; the blockquote keeps its orange left rule only. The essays' ground (119-123) is the paper now, which is why the sheet can go: there is no seam to hide.",
+    "Pills: the PREPRINT badge and page number are mono labels inside the variant, not nav; they are flattened here, not in the pills cut (campaign map B3)."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 16,
+      "note": "198-214 .ritual-paper-page: border, border-radius, background (5 lines), background-size, box-shadow (4 lines) deleted; position and margin stay; padding replaced. 216-218 .ritual-paper-page-cover padding-top deleted whole. 593-594 mobile padding and border-radius: 0 deleted; margin-bottom stays."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 6,
+      "note": "220-240 badges: padding (225), border (227), border-radius (228), background (229) deleted; in the WORKING PAPER variant border-color (238) and background (239) deleted, content and color stay."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 10,
+      "note": "360-371 blockquote: border (364), border-radius (366), background (367-369), box-shadow (370) deleted; border-left stays. 373-385 ::before: position, top, left, padding, background deleted (5 lines); content, color, font, size, tracking, transform stay."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "401-409 abstract: border, border-radius, background (3 lines) deleted. 416-424 method card and results strip: border, border-radius, background (3 lines) deleted."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 9,
+      "note": "523-538 page number: min-width, padding, border, border-radius, background, box-shadow (3 lines) deleted; color becomes var(--ritual-paper-yellow)."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 4,
+      "note": "105-108: --ritual-paper-sheet, --ritual-paper-sheet-2, --ritual-paper-panel, --ritual-paper-panel-2 deleted (no reader after this cut). docs/brand-design-language.md token table (112-125): the sheet and panel rows deleted."
+    }
+  ],
+  "keeps_moves": [
+    "The essays' ground (119-123), grid, hidden left sidebar, right TOC, article width 980px and Georgia type, h1/titleblock, keyline (290-302), h2 top rules (311-317), h3, links, list markers, results-strip internal column rules (441-453), media figures (455-474), katex (483-491, pending code-blocks), page footer top rule (493-502), footnotes, the 1120px two-column rule and column-span list, the 760px single-column rules: unchanged.",
+    "The badges keep position absolute top/right on wide screens and static inline-block on phones (597-601); they are mono labels now.",
+    "The three essays' markup: unchanged."
+  ],
+  "adds": [
+    "custom.scss .ritual-paper-page: padding: 0; margin: 0 0 2.6rem; (the sheet's inset is the column's now).",
+    "custom.scss article blockquote: padding: 0.2rem 0 0.2rem 1.35rem; article blockquote::before: display: block; margin-bottom: 0.4rem; (the label sits above the quote, nothing to mask).",
+    "custom.scss .ritual-paper-abstract: padding: 1rem 0; border-top: 1px solid var(--ritual-paper-rule); border-bottom: 1px solid var(--ritual-paper-rule);",
+    "custom.scss .ritual-paper-method-card: padding: 0.8rem 0 0; border-top: 1px solid rgba(255, 178, 30, 0.42); .ritual-paper-results-strip: border-top and border-bottom 1px solid rgba(255, 178, 30, 0.42); (the amber the boxes already used, now as rules).",
+    "docs/brand-design-language.md '## Ritual Paper': the sentence naming the ground becomes: the essays sit on their own near-black-violet ground with no sheet; sections are separated by cobalt and amber rules; PREPRINT, WORKING PAPER and the page number are mono labels. Token rows for sheet and panel removed."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 104, "end_line": 117 },
+      "change": "sheet and panel tokens deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 198, "end_line": 240 },
+      "change": "sheet box and cover padding deleted; badges become labels."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 360, "end_line": 385 },
+      "change": "blockquote box deleted; label above the quote."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 401, "end_line": 424 },
+      "change": "abstract, method card and results strip: boxes become rules."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 523, "end_line": 538 },
+      "change": "page number becomes a mono label."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 591, "end_line": 595 },
+      "change": "mobile sheet padding and radius deleted."
+    },
+    {
+      "location": { "path": "docs/brand-design-language.md", "line": 97, "end_line": 133 },
+      "change": "Ritual Paper section: no sheet; token rows removed."
+    }
+  ],
+  "authority_map": {
+    "owner": "The ritual block in custom.scss owns the essays' ground and their grouping through --ritual-paper-rule and the amber rule; the brand doc describes it. The essays' markup owns the paper's sections.",
+    "inputs": [
+      "--ritual-paper-rule, --ritual-paper-yellow, the amber literal the boxes already used",
+      "the three essays' section markup"
+    ],
+    "outputs": [
+      "three essays set as a paper on their own ground: ruled abstract, method and results, a left-ruled quoted protocol, mono labels for PREPRINT, WORKING PAPER and the page number, captioned figures as the only cards"
+    ],
+    "derived_state": [
+      "the paper's inset is derived from the column and article width; the sheet's padding is gone",
+      "the badge and page-number marks are derived from colour and the mono face; no box carries them"
+    ],
+    "forbidden_writers": [
+      "no background, border-radius or box-shadow on .ritual-paper-page, the badges, article blockquote, .ritual-paper-abstract, .ritual-paper-method-card, .ritual-paper-results-strip or .ritual-paper-page-number; borders only as the named top/bottom/left rules",
+      "no --ritual-paper-sheet or --ritual-paper-panel token",
+      "no change to the media figure rule, the inline code rule, katex (pending code-blocks), the keyline, the columns, the essays' markup, the pills, the masthead or the engine"
+    ],
+    "shared_paths": [
+      "the same policy as the rest of the site, in the variant's own colours; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The sheet, the boxes, the badge pills and the four tokens are deleted before the rule declarations and label styles are written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "the three essays at 1440 and 375: no box on the sheet, blockquote, abstract, method card, results strip, page number or badges",
+        "pins": ".ritual-paper-page, article blockquote, .ritual-paper-abstract, .ritual-paper-method-card, .ritual-paper-results-strip, .ritual-paper-page-number and the ::before badges have background-image none, background-color transparent, border-radius 0, box-shadow none. No cards in the variant beyond the figures."
+      },
+      {
+        "name": "figure.gamecult-media-card on small-ritual-of-reach keeps border 1px, radius 6px and its fill",
+        "pins": "the ruled exception stands in the variant."
+      },
+      {
+        "name": "at 1440 on witness-authoritative-networking the paper keeps its two columns, column rule, keyline, h2 top rules and the WORKING PAPER label",
+        "pins": "the label sits top-right of each section as before; the paper's identity survives the sheet."
+      },
+      {
+        "name": "at 375 on the three essays: no horizontal overflow; code blocks still scroll inside the column (ritual-phone-width's behaviour)",
+        "pins": "the sheet's removal did not reopen the phone-width finding."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss and the brand doc only; custom.scss net about -40",
+        "pins": "subtraction with rules written in place."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "ritual-paper-(sheet|panel)",
+        "scope": "site/quartz/styles/custom.scss and docs/brand-design-language.md: no match."
+      },
+      {
+        "pattern": "(ritual-paper-page|ritual-paper-abstract|ritual-paper-method-card|ritual-paper-results-strip|ritual-paper-page-number|article blockquote)[^{]*\\{[^}]*(box-shadow|border-radius|background)",
+        "scope": "site/quartz/styles/custom.scss lines 101-625, multiline: no match."
+      },
+      {
+        "pattern": "border-radius: 999px",
+        "scope": "site/quartz/styles/custom.scss lines 101-625: no match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|GameCult-Quartz",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "read witness-authoritative-networking on a wide screen and say whether it still reads as a paper"
+    ]
+  },
+  "estimate": {
+    "lines_added": 14,
+    "lines_removed": 53,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": [
+    "site-masthead:question:ritual-sheet",
+    "site-masthead:question:code-blocks"
+  ]
+}

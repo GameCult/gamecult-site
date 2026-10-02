@@ -1,0 +1,173 @@
+{
+  "campaign": "site-masthead",
+  "cut": "sidebars-lists",
+  "revision": 1,
+  "title": "Sidebars and lists flat: the TOC and backlinks boxes, the overview sidebar's box, the folder listing rows and the Blog index's intro and post cards become ruled sections on the ground",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)'. Ruling: operator-no-cards-except-floats. The token --gamecult-rule exists after home-flat. Line numbers are from 410485e; re-read by selector.",
+    "Surfaces: .toc, .backlinks (1225-1238; left TOC on desktop, right backlinks on standard content pages); .gamecult-overview-sidebar-inner (1257-1272, mobile 1489-1491; the Studio/Praxis/Participate sidebar on /, /Projects and content pages with sidebarGroups); .page-listing .section-li > .section (1364-1380; the engine folder listing on /Docs and tag pages); .gamecult-blog-index-intro and .gamecult-blog-card (827-873; /Blog, emitted by the engine's AutoIndexFolder with classPrefix gamecult-blog, GameCult-Quartz quartz/components/AutoIndexFolder.tsx 193-223).",
+    "The ritual block's .right.sidebar .toc (160-170) undoes the TOC card with border 0, border-radius 0, background transparent, box-shadow none; those four lines are dead after this cut and go with it.",
+    "Mechanism: each box becomes a section with border-top: 1px solid var(--gamecult-rule), no inset, its existing heading as the label. Rows in a list (folder listing, blog posts) each carry the top rule, so the rule is the separator. Hover on a blog post turns its title orange (var(--secondary)) instead of filling the card.",
+    "Pills untouched; masthead untouched; the engine is not edited (the listing and blog markup are the engine's, only the site's rules change)."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 4,
+      "note": "160-170 ritual TOC: border: 0; border-radius: 0; background: transparent; box-shadow: none (166-169) deleted; sticky, max-height, padding, overflow stay."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 11,
+      "note": "827-837: the .gamecult-blog-index-intro, .gamecult-blog-card card rule (border, radius, background, shadow) deleted whole; 855-857 .gamecult-blog-card { overflow: clip } deleted; 865-873 .gamecult-blog-card-link:hover fill deleted."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 10,
+      "note": "1225-1238 .toc, .backlinks: border-radius, border, background (4 lines), padding, box-shadow (3 lines) deleted; replaced by the two lines in adds."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 12,
+      "note": "1257-1272 .gamecult-overview-sidebar-inner: padding, border-radius, border, background (5 lines), box-shadow (3 lines) deleted; display, flex-direction, gap stay. 1489-1491 (mobile padding) deleted whole."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "1368-1380 .page-listing .section-li > .section: padding, border-radius, border, background (6 lines) deleted; display, grid-template-columns, gap stay."
+    }
+  ],
+  "keeps_moves": [
+    ".toc h3, .backlinks h3 (1240-1247): the uppercase tracked heading stays as the section's label.",
+    ".gamecult-overview-group (1311-1314) keeps its border-top; its colour becomes var(--gamecult-rule) (was rgba(89,183,255,.08)). .gamecult-overview-group:first-child keeps no rule, because the sidebar's own top rule now sits above it.",
+    ".gamecult-blog-card-head, -meta, -author, -description, .gamecult-blog-index-intro p: unchanged.",
+    "The engine's listPage.scss and AutoIndexFolder.tsx: untouched."
+  ],
+  "adds": [
+    "custom.scss .toc, .backlinks: padding: 0.9rem 0 0; border-top: 1px solid var(--gamecult-rule);",
+    "custom.scss .gamecult-overview-sidebar-inner: padding: 0.9rem 0 0; border-top: 1px solid var(--gamecult-rule); (on phones the sidebar sits under the article; the rule separates it).",
+    "custom.scss .page-listing .section-li > .section: padding: 0.9rem 0; border-top: 1px solid var(--gamecult-rule); and .page-listing .section-li { margin-bottom: 0 } (1364-1366) so rows meet at the rule.",
+    "custom.scss .gamecult-blog-index-intro: padding becomes 0 0 0.4rem (was 1.25rem 1.5rem 1.35rem). .gamecult-blog-card-list gap becomes 0 (851-853). New: .gamecult-blog-card { border-top: 1px solid var(--gamecult-rule); } .gamecult-blog-card-link padding becomes 1.2rem 0 1.3rem (861). New: .gamecult-blog-card-link:hover h2 { color: var(--secondary); } (hover is a colour change, the brand's one accent).",
+    "docs/brand-design-language.md '## Surfaces': one sentence that list rows (blog index, folder listings) and sidebar sections separate by the same top rule, by selector."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 160, "end_line": 170 },
+      "change": "ritual TOC: four card-undo declarations deleted."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 821, "end_line": 873 },
+      "change": "blog index: card rule, clip and hover fill deleted; intro padding, list gap, card top rule, link padding and hover colour written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1225, "end_line": 1238 },
+      "change": "toc/backlinks: box deleted, top rule written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1257, "end_line": 1272 },
+      "change": "overview sidebar: box deleted, top rule written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1311, "end_line": 1314 },
+      "change": "overview group rule uses the token."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1364, "end_line": 1380 },
+      "change": "listing rows: box deleted, top rule written, row margin 0."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 1489, "end_line": 1491 },
+      "change": "mobile sidebar padding deleted."
+    },
+    {
+      "location": { "path": "docs/brand-design-language.md", "line": 96, "end_line": 110 },
+      "change": "Surfaces section: lists and sidebars sentence."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss owns the sidebars' and lists' grouping through --gamecult-rule; the engine owns their markup (TOC, Backlinks, FolderContent, AutoIndexFolder) and GameCultOverviewSidebar.tsx owns the overview markup.",
+    "inputs": [
+      "--gamecult-rule",
+      "the engine's section-li and gamecult-blog-* markup"
+    ],
+    "outputs": [
+      "TOC, backlinks and overview sidebar as ruled sections on the ground",
+      "/Docs listing and /Blog index as ruled rows with orange-title hover"
+    ],
+    "derived_state": [
+      "every separator colour is derived from --gamecult-rule; the sky .08 literal in the overview group is gone",
+      "hover state on a blog post is derived from --secondary; no fill is painted"
+    ],
+    "forbidden_writers": [
+      "no background, border (other than border-top), border-radius or box-shadow on .toc, .backlinks, .gamecult-overview-sidebar-inner, .page-listing .section, .gamecult-blog-card or .gamecult-blog-index-intro",
+      "no hover fill on .gamecult-blog-card-link",
+      "no change to the pills, the masthead, the engine or any content file"
+    ],
+    "shared_paths": [
+      "the same --gamecult-rule token as home-flat; the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The five box rules and the ritual undo are deleted in the first commit, before the top-rule declarations are written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "no box on the toc, backlinks, overview sidebar, listing rows, blog cards and blog intro at 1440 and 375",
+        "pins": "on /, /Projects, /Blog, /Docs, /Projects/CultPong and a ritual essay: .toc, .backlinks, .gamecult-overview-sidebar-inner, .page-listing .section, .gamecult-blog-card, .gamecult-blog-index-intro have computed background-image none, background-color transparent, border-radius 0, box-shadow none; border-top 1px at the token's colour; border-right/bottom/left 0."
+      },
+      {
+        "name": "/Blog: post rows meet at one rule each; hovering a row changes only its h2 colour to rgb(255,138,42)",
+        "pins": "the hover is a colour, not a fill: background-color of .gamecult-blog-card-link stays transparent under :hover (drive with the pane or assert from source if hover cannot be driven)."
+      },
+      {
+        "name": "/Docs: .section-li margin-bottom 0 and each .section has the top rule",
+        "pins": "rows separated by rules, not gaps."
+      },
+      {
+        "name": "a ritual essay at 1440: the right-sidebar TOC still sticky with no box",
+        "pins": "the dead undo's deletion changed nothing."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss and the brand doc only; custom.scss net about -30",
+        "pins": "subtraction with top rules written in place."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "(\\.toc|\\.backlinks|overview-sidebar-inner|section-li > \\.section|gamecult-blog-card|gamecult-blog-index-intro)[^{]*\\{[^}]*(box-shadow|border-radius|background)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match."
+      },
+      {
+        "pattern": "rgba\\(89, 183, 255, 0\\.08\\)",
+        "scope": "site/quartz/styles/custom.scss lines of the overview, toc, backlinks or listing rules: no match."
+      },
+      {
+        "pattern": "gamecult-action|gamecult-repo-link|gamecult-titlebar|GameCult-Quartz",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "open /Blog on a phone and say whether the post list reads as a list"
+    ]
+  },
+  "estimate": {
+    "lines_added": 16,
+    "lines_removed": 45,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats"
+  ],
+  "questions": []
+}

@@ -1,0 +1,126 @@
+{
+  "campaign": "site-masthead",
+  "cut": "project-pages",
+  "revision": 1,
+  "title": "Project pages flat: the four repo-fact tiles become a ruled fact row, and the embed frame's outer card goes so the iframe's own edge is the only one",
+  "repo": "GameCult/gamecult-site",
+  "branch": "main",
+  "base": "410485e",
+  "depends_on": ["home-flat"],
+  "first": [
+    "Map: docs/masthead-campaign.md, section 'Cards: inventory and cuts (map revision 3)'. Ruling: operator-no-cards-except-floats. --gamecult-rule exists after home-flat. Line numbers from 410485e; re-read by selector.",
+    "Surfaces: .gamecult-repo-fact (956-965; nine project pages, four tiles each: Started, Last Public Push, Stack, Status, with a mono-style uppercase label at 967-974); .gamecult-embed-frame (in the shared card selector at 2084 after home-flat, plus 2393-2397; /Projects/CultPong wraps a YouTube iframe, /Blog/cat-and-the-chocolate-factory wraps the interactive fiction applet). The iframe inside (2399-2405) has its own radius 14px and ground: that is the embed's own edge, like the img inside a media card, and stays. The frame around it is a card around a card.",
+    "The repo-link pills (.gamecult-repo-link, 928-947) sit directly above the facts on the same pages; pending under self-masthead-pills-first, not touched.",
+    "Mechanism: the facts grid (949-954, auto-fit minmax(9rem, 1fr)) stays; each fact becomes a ruled column: border-top var(--gamecult-rule), padding-top, no inset. The embed frame keeps its margin and loses its box and padding."
+  ],
+  "deletes": [
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 8,
+      "note": "956-965 .gamecult-repo-fact: padding, border, border-radius, background (5 lines) deleted; replaced by the two lines in adds."
+    },
+    {
+      "path": "site/quartz/styles/custom.scss",
+      "lines": 3,
+      "note": "2084: .gamecult-embed-frame removed from the shared card selector, leaving .gamecult-media-card { ... }. 2393-2397 .gamecult-embed-frame: padding and overflow: hidden deleted; margin stays."
+    }
+  ],
+  "keeps_moves": [
+    ".gamecult-repo-facts grid, .gamecult-repo-fact-label and -value: unchanged.",
+    ".gamecult-embed-frame iframe (2399-2405): width, min-height, border 0, border-radius 14px, background unchanged; mobile min-height (2510-2512) unchanged.",
+    ".gamecult-repo-links and .gamecult-repo-link: untouched (pills, pending).",
+    "figure.gamecult-media-card: the only rule left in the shared card selector; unchanged."
+  ],
+  "adds": [
+    "custom.scss .gamecult-repo-fact: padding: 0.6rem 0 0; border-top: 1px solid var(--gamecult-rule);",
+    "custom.scss .gamecult-embed-frame: margin: 1.2rem 0 1.4rem; (the one declaration left)."
+  ],
+  "file_changes": [
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 956, "end_line": 965 },
+      "change": "repo fact: box deleted, top rule written."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2084, "end_line": 2098 },
+      "change": "shared card selector is .gamecult-media-card only."
+    },
+    {
+      "location": { "path": "site/quartz/styles/custom.scss", "line": 2393, "end_line": 2397 },
+      "change": "embed frame: padding and overflow deleted."
+    }
+  ],
+  "authority_map": {
+    "owner": "custom.scss owns the fact row's grouping through --gamecult-rule; the embed's own edge is owned by the iframe rule; the project markdown owns the facts' content.",
+    "inputs": [
+      "--gamecult-rule",
+      "the project pages' repo-facts and embed-frame markup"
+    ],
+    "outputs": [
+      "a ruled four-column fact row on nine project pages",
+      "one edge around each embed, the iframe's"
+    ],
+    "derived_state": [
+      "the embed's radius is the iframe's; the frame contributes no box",
+      "fact separators derived from --gamecult-rule"
+    ],
+    "forbidden_writers": [
+      "no background, border (other than border-top), border-radius or box-shadow on .gamecult-repo-fact or .gamecult-embed-frame",
+      "no change to .gamecult-repo-link, the masthead, the engine or content"
+    ],
+    "shared_paths": [
+      "the same token and the same Deploy Quartz workflow"
+    ],
+    "deletion_line": "The fact tile box and the embed frame's card and padding are deleted before the top rule is written."
+  },
+  "verification": {
+    "builds": [
+      "Deploy Quartz green on the landing commit: gh run list -R GameCult/gamecult-site -w \"Deploy Quartz\" -L 1"
+    ],
+    "tests": [
+      {
+        "name": "/Projects/CultPong at 1440 and 375: ruled fact row, no box on the embed frame, the iframe keeps its edge",
+        "pins": "each .gamecult-repo-fact has border-top 1px at the token's colour, no other border, no fill, no radius; .gamecult-embed-frame has no box or padding; its iframe keeps radius 14px and its ground. One edge per embed."
+      },
+      {
+        "name": "/Blog/cat-and-the-chocolate-factory: the applet iframe renders at the frame's full width with no box around it",
+        "pins": "same mechanism on the second embed page."
+      },
+      {
+        "name": "figure.gamecult-media-card on / unchanged (border 1px, radius 20px, fill)",
+        "pins": "the selector edit kept the media card."
+      },
+      {
+        "name": "git diff base..head --stat: custom.scss only, net about -9",
+        "pins": "subtraction."
+      }
+    ],
+    "negative": [
+      {
+        "pattern": "(gamecult-repo-fact|gamecult-embed-frame)[^{]*\\{[^}]*(box-shadow|border-radius|background|border:)",
+        "scope": "site/quartz/styles/custom.scss, multiline: no match (the iframe rule's selector contains 'iframe' and is excluded by eye; report it)."
+      },
+      {
+        "pattern": "gamecult-repo-link|gamecult-action|gamecult-titlebar|GameCult-Quartz",
+        "scope": "git diff base..head changed lines and --name-only: no match."
+      }
+    ],
+    "operator": [
+      "open /Projects/CultPong on a phone and say whether the facts and the video read cleanly"
+    ]
+  },
+  "estimate": {
+    "lines_added": 3,
+    "lines_removed": 11,
+    "dependencies_added": [],
+    "dependencies_removed": [],
+    "formats_added": [],
+    "formats_removed": [],
+    "targets_added": [],
+    "targets_removed": []
+  },
+  "rulings": [
+    "site-masthead:ruling:operator-no-cards-except-floats",
+    "site-masthead:ruling:self-masthead-pills-first"
+  ],
+  "questions": []
+}

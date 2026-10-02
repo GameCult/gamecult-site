@@ -1,10 +1,13 @@
-# Masthead campaign: the masthead on the ground, the pills gone
+# Masthead campaign: the masthead on the ground, the pills gone, no cards
 
 Imagination map, revision 2, written 2026-10-02 against `gamecult-site@90c2d94`
 and `GameCult-Quartz@ef43df0`. Revision 1 put three options to the operator;
 the operator dismissed the questions and ruled the nav direction, so this
 revision carries rulings, not forks. The Self admits the campaign, target and
-rulings; this file is the long form the cut specs point at.
+rulings; this file is the long form the cut specs point at. Revision 3
+(2026-10-02, against `410485e`, after `lean-masthead`) is the section
+"Cards: inventory and cuts" at the end: the campaign's scope grew from the
+masthead to every card surface on the site.
 
 ## The operator's words, verbatim
 
@@ -385,3 +388,194 @@ not clipped, capped or scrolled; the `h1` is untouched.
 4. `thing` / `deck-page-edges` and `site-masthead` / `ritual-phone-width`:
    independent of each other and of the other-pills cut; either order. Both
    are based on `87f2942`; they touch disjoint lines of `custom.scss`.
+
+## Cards: inventory and cuts (map revision 3, 2026-10-02, against `410485e`)
+
+Written after `lean-masthead` landed (`site-masthead:cut_report:cut-lean-masthead.h1`,
+`77ecff0..410485e`). Line numbers below are from `custom.scss` at `410485e`;
+every spec says to re-read by selector, since each cut shifts the file.
+
+### The operator's words, verbatim
+
+With a phone screenshot of `/` showing the intro text in a card nested inside
+another card, alongside the nav and icon cut:
+
+> Looks a bit disjointed on mobile.
+
+Asked about the nested cards on the home page:
+
+> I would indeed prefer to get rid of cards, unless they're containing
+> something that floats, like a captioned image
+
+Admitted as `site-masthead:ruling:operator-no-cards-except-floats`. Also in
+force: `operator-no-card-no-pills`, `self-masthead-pills-first` (the
+`.gamecult-repo-link` and `.gamecult-action` pills wait for their own cut), and
+the follow-up `full-width-content` ("the content should do the same, where
+reasonable").
+
+### What the operator saw
+
+On `/` at phone width the DOM is `article` (card: 24px radius, gradient fill,
+sky border, 52px shadow, `1057-1067`) containing `.gamecult-home-hero`
+containing `section.gamecult-hero-panel` (card: 20px radius, same recipe,
+`2084-2113`) containing the intro copy. Beside it, `figure.gamecult-media-card`
+(card) containing `img` (its own 16px radius and border). Three nested boxes
+before the first word, four around the mascot. The masthead above them is
+already on the ground, so the first card edge is the first thing that looks
+like chrome.
+
+### Inventory
+
+A card is any rule that gives a content box its own fill, border, radius or
+shadow. Classes: **flatten** (a layout box with no floating content),
+**keep** (it holds something that floats: a captioned image, a figure, an
+embed's own edge, a floating overlay), **dead** (no element on the built site
+carries the class), **pill** (deferred to the pills cut), **question** (a real
+fork, below), **not a card** (listed because the brief asked).
+
+| # | Selector | Lines | Pages | Class |
+|---|---|---|---|---|
+| 1 | `.page > #quartz-body .center > article` (+ mobile `1462-1465`; undone by ritual `150-154`, Thing `1169-1173`, tour/Pitch `1595-1599`, colossus padding `1206`) | 1057-1067 | every page but Thing, tour, Pitch, the ritual essays | flatten |
+| 2 | `.gamecult-hero-panel` (shared card `2084-2098`, home radial `2100-2109`, paddings `2111`, `2293`, `2486`) | 2084-2113 | `/`, `/Projects` | flatten |
+| 3 | `.gamecult-feature-card` (base card `2084`; studio override already a hairline `2350-2357`) | 2233-2253 | `/` | flatten (collapse: the hairline becomes the base) |
+| 4 | `.gamecult-evidence-note` fill (left rule stays) | 2175-2183, 2324-2332 | `/`, `/Projects` | flatten |
+| 5 | `figure.gamecult-media-card` (+ `img` edge `2384-2391`; ritual variant `455-474`) | 2084, 2375-2391 | `/`, four studio pages, small-ritual-of-reach | **keep** (the operator's example) |
+| 6 | `.gamecult-embed-frame` outer box; the `iframe` inside keeps its 14px edge | 2084, 2393-2405 | CultPong, cat-and-the-chocolate-factory | flatten outer, keep inner |
+| 7 | `.gamecult-repo-fact` tiles | 956-965 | nine project pages | flatten |
+| 8 | `.gamecult-repo-link` | 928-947 | ten project pages | pill (pending) |
+| 9 | `.gamecult-action` | 2148-2173, 2315-2322 | `/`, `/Projects`, Site-Architecture | pill (pending) |
+| 10 | `.gamecult-outtake` pull quote (box, tilt, second bar `::before`) | 1073-1114, 1467-1478 | four blog posts | flatten (keep the hang and one orange rule) |
+| 11 | `.toc, .backlinks` | 1225-1238 (ritual undo `166-169`) | standard content pages | flatten |
+| 12 | `.gamecult-overview-sidebar-inner` | 1257-1272, 1489-1491 | `/`, `/Projects`, pages with `sidebarGroups` | flatten |
+| 13 | `.page-listing .section-li > .section` (engine folder listing) | 1364-1380 | `/Docs`, tag pages | flatten |
+| 14 | `.gamecult-blog-index-intro`, `.gamecult-blog-card` (+ hover fill, engine `AutoIndexFolder`) | 827-873 | `/Blog` | flatten |
+| 15 | `.integrated-dossier-hero`; `dl div`, `-note`, `-table`, `-glossary` | 2779-2906 | `/dossier`, `/stichting` | flatten |
+| 16 | `.ritual-paper-page` sheet, badges, `blockquote`, `-abstract`, `-method-card`, `-results-strip`, `-page-number` | 198-240, 360-424, 523-538 | three ritual essays | **question** `ritual-sheet` |
+| 17 | `.katex-display` (ritual) | 483-491 | ritual essays | question `code-blocks` (same answer) |
+| 18 | engine `pre` (border, 5px radius), inline `code` fill | GameCult-Quartz `base.scss` 445-510 | fifteen pages with fences | **question** `code-blocks` |
+| 19 | engine `.callout` | GameCult-Quartz `callouts.scss` | none (no content uses `> [!`) | not a card on this site; nothing to cut |
+| 20 | tables | engine `th`/`tr` hairlines only | 99 pages | not a card (already the mechanism) |
+| 21 | `footer` | engine `footer.scss`: text at .7 opacity | every page | not a card |
+| 22 | Graph page | `GameCultGraphSpaShell` paints no box; engine `.graph-outer` unused | `/Graph` | not a card |
+| 23 | Sai player on tour/Pitch: `.sai-speaker-stage` (the 100svh page itself, border 0), `.sai-dom-card`, `.sai-speaker-card`, avatar shell | 1633-1799 | `/tour`, `/Pitch` | keep: Sai's player chrome tinted by the site; the DOM cards float over a scene, like the Thing deck's own design |
+| 24 | `.swarm-domain-card > header img`, `.swarm-avatar-fallback` (4.5rem portrait edge) | 2943-2953 | `/Projects` | keep (an image's own edge, like `img` in a media card) |
+| 25 | `.swarm-badge` (bordered label, .4rem radius; `forming` dashed) | 2980-2991 | `/Projects` | pill-shaped: add to the pills cut's scope |
+| 26 | `.gamecult-project-group`, `.gamecult-link-card`/`-grid` (+ tour/Pitch hiders), `.gamecult-flow-step`, the composite shell/header (`compositeSections` is set by no page), `.portfolio-dossier-*` block, `.gamecult-vn-source-card`/`doc-tree` (clipped to 1px on their only pages) | 782-819, 1494-1549, 1801-1925, 1931-2074, 2185-2224, 2458-2508, 2515-2725 | none visible | dead |
+| 27 | engine `.popover` (link previews), search modal | GameCult-Quartz | floating UI | keep (floats) |
+
+Counts: flatten 12 (rows 1-4, 6, 7, 10-15), keep 5 (5, 23, 24, 27, and the
+embed's inner edge), dead 1 group of about 640 lines (26), pill 3 (8, 9, 25),
+question 2 (16/17, 18), not a card 4 (19-22).
+
+### What replaces the card: one mechanism
+
+Whitespace, typographic hierarchy, and **the hairline rule**: `1px solid
+var(--gamecult-rule)` on the top edge of a section or row, named by the mono
+uppercase tracked label the brand doc already calls the signature. Asides
+(evidence note, pull quote, dossier notes, ritual blockquote) keep a left rule
+in the accent, which is the engine's own `blockquote` treatment. Hover is a
+colour change to `--secondary`, never a fill.
+
+The site already does this in three places with two literal colours:
+`.gamecult-studio-page .gamecult-feature-card` (`2353`) and
+`.swarm-domain-card` (`2932`) use `rgba(148,163,184,.22)`;
+`.gamecult-overview-group` (`1313`) uses sky `.08`. `home-flat` names the grey
+as `--gamecult-rule` on `body`, and the later cuts replace both literals. The
+ritual variant uses its own `--ritual-paper-rule` and the amber its boxes
+already carried, so the paper stays in its own colours.
+
+The deleted cards' inner padding is not replaced. Content runs to the column's
+edge, which is what `full-width-content` asks for; the width caps themselves
+(`1680px`, `980px`, `760px`, `68ch`) remain that follow-up's audit.
+
+### Questions
+
+Two real forks. Everything else is a classification, not a choice.
+
+**`ritual-sheet`.** The brand doc names Ritual Paper as a deliberate scoped
+variant with `--ritual-paper-sheet` and `--ritual-paper-panel` tokens. The
+sheet is a layout card holding the whole essay; it already drops its radius
+on phones (`594`). Options:
+
+- `keep-sheet`: the variant is the brand doc's named exception; the sheet,
+  abstract box, method card, results strip, blockquote box and the two badge
+  pills all stay.
+- `flatten-sheet-keep-paper` (**recommended**): the sheet and the boxes
+  become cobalt and amber rules; PREPRINT, WORKING PAPER and the page number
+  become mono labels; the Georgia body, two-column rule, keyline, h2 top
+  rules, footer rule and captioned figures stay. The paper's identity is its
+  type, columns, rules and accents, not its drop shadow, and the essays'
+  ground (`119-123`) is already the near-black-violet the doc names, so there
+  is no seam the sheet hides.
+- `flatten-all`: as above, and the keyline, column rule and h2 rules go too.
+
+Spec `docs/masthead-cut-ritual-sheet.spec.json` is written for the
+recommendation and waits.
+
+**`code-blocks`.** Fenced code (fifteen pages) is framed by the engine: `pre`
+has a 1px `--lightgray` border and 5px radius; inline `code` has a fill. The
+ritual `.katex-display` follows the same answer. Options:
+
+- `keep-engine-frame` (**recommended**): a code block is a scrolling
+  container, not a card; its border marks the scroll region. The rule is the
+  engine's and ships to nine sites; the brand doc's Surfaces section names it
+  as "containing", not "card".
+- `site-unframe`: a site override, `pre { border: 0; border-radius: 0 }` with
+  a left rule or fill only; gamecult-site only.
+- `engine-unframe`: the same in GameCult-Quartz `base.scss`; nine sites on
+  their next deploy.
+
+### Cut order (smallest risk first; all based on `410485e`)
+
+1. `home-flat` (`docs/masthead-cut-home-flat.spec.json`): the article card
+   on every page, the hero panels, feature cards and evidence fills on `/` and
+   `/Projects`; names `--gamecult-rule`; brand doc gains `## Surfaces`. What
+   the operator saw is gone after this one.
+2. `dead-card-css` (`docs/masthead-cut-dead-card-css.spec.json`): about 640
+   lines with no element, each proven absent from the built site first; the
+   VN source cards are checked in the live DOM of `/tour` because Sai clones
+   `[data-sai-dom-source]` nodes into its overlay.
+3. `sidebars-lists` (`docs/masthead-cut-sidebars-lists.spec.json`): TOC,
+   backlinks, overview sidebar, folder listing rows, Blog index.
+4. `project-pages` (`docs/masthead-cut-project-pages.spec.json`): fact tiles,
+   embed frame.
+5. `blog-asides` (`docs/masthead-cut-blog-asides.spec.json`): the pull quote.
+6. `dossier-flat` (`docs/masthead-cut-dossier-flat.spec.json`): `/dossier`,
+   `/stichting`.
+7. `ritual-sheet` (`docs/masthead-cut-ritual-sheet.spec.json`): after the two
+   questions are ruled.
+
+Cuts 3-6 depend only on `home-flat` (the token) and touch disjoint lines;
+any order among them. The pills cut (`self-masthead-pills-first`) is mapped
+separately once the operator has seen `home-flat`; `.swarm-badge` joins its
+scope. Follow-up for the Self, not a cut here: the `compositeSections` branch
+of `GameCultCompositeContent.tsx` is reached by no page after its CSS goes.
+
+### Target r2 proposal
+
+Invariants r1 keeps: `masthead-on-ground`, `nav-text-links`,
+`brand-doc-agrees`, `site-green`. r2 adds:
+
+- `no-cards`: no content box on the site carries its own fill, border, radius
+  or shadow unless it holds something that floats in the flow (a captioned
+  image or figure, an embed's own edge, a floating overlay). Grouping is
+  whitespace, type hierarchy and the hairline rule `--gamecult-rule`; asides
+  carry one left rule; hover is a colour, not a fill.
+- `one-rule-token`: every site-owned hairline separator resolves from
+  `--gamecult-rule` (the ritual variant from `--ritual-paper-rule`); no
+  literal hairline colour survives in `custom.scss`.
+
+`not_in_scope` r2: the pills (`.gamecult-repo-link`, `.gamecult-action`,
+`.swarm-badge`) until their cut; the engine's `pre`/`code` frame until
+`code-blocks` is ruled; the Thing deck's and Sai player's own chrome; the
+width caps (`full-width-content`); `scrollbar-fix-home`.
+
+`canonical_implementations` r2 adds `docs/brand-design-language.md ##
+Surfaces` and the `--gamecult-rule` token on `body` in `custom.scss`.
+
+Rename: recommend **keeping the slug `site-masthead`**. Fifteen admitted
+documents cite it as their key prefix; a rename is a new campaign plus a
+resolution closing this one, and buys only a nicer name. Retitle instead: the
+campaign and target r2 titles become "Site chrome: the masthead on the ground,
+the pills gone, no cards", and this file's heading already reads so. If the
+Self prefers a clean slug, the cuts above are unchanged and move to it.

@@ -849,6 +849,17 @@ article > h6 {
   margin-top: 0;
 }
 
+/* KaTeX does not break inside a formula, so math wider than the column scrolls
+   in its own paragraph or display block instead of widening the page; math that
+   fits shows no scrollbar. */
+article p:has(.katex),
+article .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) transparent;
+}
+
 .page > #quartz-body .center > article .gamecult-outtake {
   position: relative;
   box-sizing: border-box;

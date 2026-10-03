@@ -139,7 +139,7 @@ $$B = \text{boundary expressed}$$
 
 $$R = \text{respect for boundary}$$
 
-$$P = \text{pressure, retaliation, pursuit, or punishment}$$
+$$P = \text{pressure, retaliation,}$$ $$\text{pursuit, or punishment}$$
 
 $$I = \text{institutional usefulness}$$
 

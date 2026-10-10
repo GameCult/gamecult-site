@@ -202,3 +202,33 @@ non-human figures: Aqua and Void sit smaller in frame than the busts.
 - The scale of Aqua and Void needs a framing statement in their character blocks, for example "fills the frame
   as fully as the others".
 - Weksa's dust smudge may need toning down.
+
+# Round 3
+
+Operator direction: "keep the renders that are already fine, no?" Batch A is the set: libby-r2a,
+heimdall-r2a, kiko-r2a, weksa-r2a and eureka-r2a stay as they are. Only the misses are re-rendered, with
+batch A's shared block byte for byte (two heads tall), so the new renders match the kept ones. There are four
+renders and no re-rolls. Files are in `r3/<name>/` in the same layout as round 2, and the 2k originals are in
+`F:\Projects\cast-art-originals\r3\`. `r3/render_r3.py` and `r3/matte_r3.py` hold the prompts and the same
+matte as round 2. `r3/contact-final.png` shows the chosen set of eight at one scale.
+
+- **aqua-r3a**: the character block says he fills the frame like the busts and draws the scales as rows of
+  outlined curved shapes.
+- **void-r3a**: the character block says he fills the frame like the busts.
+- **nibu-r3a**: the same prompt as nibu-r2a, a fresh render. It is the baseline for r3b.
+- **nibu-r3b**: one variable against r3a, the way the clip is described. The geometric description ("a short
+  rectangular plug body with a round pink bead at each end") became a named object ("shaped exactly like a tiny
+  USB cable plug, a rectangular metal-and-pink connector head with a short cable stub").
+
+| Render | Observation | Agent verdict | Operator verdict |
+|---|---|---|---|
+| aqua-r3a | Scales all over the body, clearly outlined. He is larger in frame than aqua-r2a but still smaller than the busts, with the lower part of the frame empty. The mouth came out as a small pointed beak again, despite "no beak". | Partial: scales fixed; the beak is back and the scale is only partly fixed. | |
+| nibu-r3a | Under A's proportions, the clip is a pink rectangular plug with a bead at each end, matching the sheet's connector clip. Calm, arms folded, circuit sleeves, cyan device. | Holds. Chosen for the set. | |
+| nibu-r3b | The clip is a recognisable USB plug with a cable stub, but it is grey and pink and drops the sheet's pink end beads. | Holds on the variable (a recognisable connector), but further from canon than r3a. | |
+| void-r3a | The hood and scarf now fill the frame like the busts, cut at mid-chest. Canon kept: black face, white oval eyes, frayed orange scarf, gloves. | Holds. | |
+
+The set in `contact-final.png` is libby-r2a, heimdall-r2a, kiko-r2a, aqua-r3a, weksa-r2a, nibu-r3a,
+eureka-r2a and void-r3a. No halo shows on any of the round-3 cutouts on a dark or a light checker.
+
+Still open: Aqua's mouth. A negative ("no beak") does not hold. A positive description of the shape may do
+better, for example the icon's wide open smile, or a mouth drawn as a small round "o" with no point.

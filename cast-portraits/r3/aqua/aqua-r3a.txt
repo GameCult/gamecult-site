@@ -1,0 +1,25 @@
+# Aqua r3a
+
+## Hypothesis
+
+Batch A's shared block unchanged; the character block states that Aqua fills the frame as the busts do and draws scales as rows of outlined curved shapes, so he matches the batch in scale and gets his canon scales.
+
+## Variable changed
+
+Against aqua-r2a: character block only. Added the frame-filling statement; scales described as rows of outlined curved scale shapes; 'soft lips' on the mouth. Shared block identical to batch A.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r3/aqua-r3a.png
+- Committed: aqua-r3a.webp (lossless, 1024 px long side) and aqua-r3a-cutout.png (transparent, 1024 px long side)
+- Request id: b25a9f19-7f5d-40a7-8d75-4be317c2bef8
+- Date: 2026-10-10
+- Composition: shared style block (batch A's block, byte-identical to r2a), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Aqua, a cartoon goldfish DJ. He is a fish, so instead of a bust his round body fills the frame as fully as the human busts do: the top of the head a small margin below the top edge, the figure spanning most of the frame width, with the tail fin allowed to touch the frame edge: a round chubby goldfish with a golden-yellow face and an orange body covered all over in clearly outlined overlapping fish scales, drawn as rows of small curved scale shapes on the body; big round blue eyes with white highlights, a small round fish mouth with soft lips, no beak, no bill, no legs and no feet; a little orange crest fin on top of the head; large black over-ear studio headphones with cyan rings on the ear cups. Bright orange pectoral fins, one raised, and a flowing forked orange tail fin. Key colours: orange and cyan.

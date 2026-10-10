@@ -1,0 +1,25 @@
+# Nibu r3b
+
+## Hypothesis
+
+Naming a familiar object (a tiny USB cable plug) instead of describing geometry (a rectangular body with a bead at each end) makes FLUX draw a recognisable connector clip.
+
+## Variable changed
+
+Against nibu-r3a: the clip description only. Geometric description became a named object: 'shaped exactly like a tiny USB cable plug, a rectangular metal-and-pink connector head with a short cable stub, worn sideways in her hair'.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r3/nibu-r3b.png
+- Committed: nibu-r3b.webp (lossless, 1024 px long side) and nibu-r3b-cutout.png (transparent, 1024 px long side)
+- Request id: 9f5d1c36-2347-407d-b45f-e7cc6c319c34
+- Date: 2026-10-10
+- Composition: shared style block (batch A's block, byte-identical to r2a), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Nibu, a quiet, serious worldbuilder girl: very long pale lavender hair with a swept side fringe, a pink hair clip on the left shaped exactly like a tiny USB cable plug, a rectangular metal-and-pink connector head with a short cable stub, worn sideways in her hair; a large pink ribbon bow on the right, half-lidded violet eyes, a calm unsmiling expression, arms folded. Wears a sleeveless lilac blouse with a frilled collar, detached dark purple sleeves with circuit-pattern embroidery, a small cyan ring device on the shoulder, and a long dark purple coat. Key colours: violet and pink with a cyan accent.

@@ -1,0 +1,25 @@
+# Void r3a
+
+## Hypothesis
+
+Batch A's shared block unchanged; the character block states that Void fills the frame as the busts do, so he matches the batch in scale.
+
+## Variable changed
+
+Against void-r2a: character block only. 'a small hooded shadow figure' became 'a hooded shadow figure who fills the frame as fully as the human busts do ...'. Shared block identical to batch A.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r3/void-r3a.png
+- Committed: void-r3a.webp (lossless, 1024 px long side) and void-r3a-cutout.png (transparent, 1024 px long side)
+- Request id: ad1e14d3-789d-4fb5-af39-51cfe6b8e2da
+- Date: 2026-10-10
+- Composition: shared style block (batch A's block, byte-identical to r2a), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Void, a hooded shadow figure who fills the frame as fully as the human busts do: the top of the head a small margin below the top edge, the figure spanning most of the frame width, cut by the bottom edge at mid-chest: a deep indigo-violet robe with a large pointed hood, the face inside the hood completely black with no features except two tall white glowing oval eyes, a thick bright orange scarf wrapped around the neck with frayed ends trailing to one side, dark gloved hands. Key colours: indigo violet and orange.

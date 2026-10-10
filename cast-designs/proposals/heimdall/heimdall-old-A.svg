@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Heimdall (superseded, pre-canon), Direction A: The Horn Bearer</title>
+  <defs>
+    <filter id="sil" x="-5%" y="-5%" width="110%" height="110%">
+      <feFlood flood-color="#000"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+    </filter>
+    <clipPath id="panelClip"><rect x="20" y="20" width="770" height="760" rx="14"/></clipPath>
+    <linearGradient id="prism" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4d6d"/><stop offset=".18" stop-color="#ff4d6d"/>
+      <stop offset=".18" stop-color="#ffb02e"/><stop offset=".34" stop-color="#ffb02e"/>
+      <stop offset=".34" stop-color="#f4e04d"/><stop offset=".5" stop-color="#f4e04d"/>
+      <stop offset=".5" stop-color="#3fd17a"/><stop offset=".66" stop-color="#3fd17a"/>
+      <stop offset=".66" stop-color="#3fc8ff"/><stop offset=".82" stop-color="#3fc8ff"/>
+      <stop offset=".82" stop-color="#9a6bff"/><stop offset="1" stop-color="#9a6bff"/>
+    </linearGradient>
+
+    <!-- ========== HORN (slung behind, his left shoulder up over the head) ========== -->
+    <clipPath id="hornClip"><path d="M245,248 C350,80 360,-170 250,-290 C150,-400 -80,-412 -210,-336 C-262,-306 -300,-262 -320,-212 L-215,-175 C-196,-236 -124,-292 0,-305 C140,-312 240,-232 265,-122 C285,-22 270,120 212,238 Z"/></clipPath>
+    <g id="horn" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M245,248 C350,80 360,-170 250,-290 C150,-400 -80,-412 -210,-336 C-262,-306 -300,-262 -320,-212 L-215,-175 C-196,-236 -124,-292 0,-305 C140,-312 240,-232 265,-122 C285,-22 270,120 212,238 Z" fill="#e9eef8"/>
+      <g clip-path="url(#hornClip)">
+        <path d="M-215,-175 C-196,-236 -124,-292 0,-305 C140,-312 240,-232 265,-122 C285,-22 270,120 212,238" fill="none" stroke="#b8c3da" stroke-width="44"/>
+        <g fill="none">
+          <path d="M210,92 L390,122" stroke="#0d1a4d" stroke-width="24"/><path d="M210,92 L390,122" stroke="#d8a73a" stroke-width="17"/>
+          <path d="M240,-112 L410,-176" stroke="#0d1a4d" stroke-width="24"/><path d="M240,-112 L410,-176" stroke="#d8a73a" stroke-width="17"/>
+          <path d="M38,-430 L48,-280" stroke="#0d1a4d" stroke-width="26"/><path d="M38,-430 L48,-280" stroke="#d8a73a" stroke-width="19"/>
+          <path d="M-262,-372 L-166,-250" stroke="#0d1a4d" stroke-width="32"/><path d="M-262,-372 L-166,-250" stroke="#d8a73a" stroke-width="25"/>
+          <path d="M318,104 L352,110 M330,-140 L362,-152 M42,-392 L43,-366 M-238,-344 L-222,-324" stroke="#f5d27a" stroke-width="5"/>
+        </g>
+        <path d="M-120,-372 C-20,-396 160,-380 250,-280" fill="none" stroke="#ffffff" stroke-width="9"/>
+      </g>
+      <!-- Bifrost: a thin prismatic line inset along the outer arc -->
+      <path clip-path="url(#hornClip)" d="M318,40 C340,-120 320,-210 238,-292 C150,-380 -70,-392 -196,-322" fill="none" stroke="url(#prism)" stroke-width="7"/>
+      <!-- bell mouth -->
+      <path d="M-320,-212 C-326,-160 -236,-140 -215,-175 C-232,-214 -296,-244 -320,-212 Z" fill="#1d2a6a"/>
+      <path d="M-320,-212 C-326,-160 -236,-140 -215,-175" fill="none" stroke="#d8a73a" stroke-width="9"/>
+      <path d="M245,248 C350,80 360,-170 250,-290 C150,-400 -80,-412 -210,-336 C-262,-306 -300,-262 -320,-212 L-215,-175 C-196,-236 -124,-292 0,-305 C140,-312 240,-232 265,-122 C285,-22 270,120 212,238 Z" fill="none" stroke="#0d1a4d" stroke-width="7"/>
+      <path clip-path="url(#hornClip)" d="M352,-20 C362,-150 330,-240 268,-298" fill="none" stroke="#3466ff" stroke-width="12"/>
+    </g>
+
+    <!-- ========== HEAD ========== -->
+    <clipPath id="eyeNearClip"><path d="M-112,52 C-92,30 -45,24 -4,38 C-8,78 -25,100 -55,102 C-85,102 -104,86 -112,52 Z"/></clipPath>
+    <clipPath id="eyeFarClip"><path d="M64,42 C84,28 112,30 132,46 C130,80 118,100 98,101 C78,101 66,84 64,42 Z"/></clipPath>
+    <clipPath id="irisNear"><ellipse cx="-52" cy="68" rx="31" ry="38"/></clipPath>
+    <clipPath id="irisFar"><ellipse cx="100" cy="69" rx="22" ry="36"/></clipPath>
+    <clipPath id="faceClip"><path d="M-150,-10 C-152,60 -132,115 -84,150 C-44,176 30,192 66,186 C104,176 142,132 156,72 C163,40 166,10 160,-20 Z"/></clipPath>
+
+    <g id="head" stroke-linejoin="round" stroke-linecap="round">
+      <!-- back hair mass: short spikes, violet-black -->
+      <path id="hairBack" d="M-150,100 Q-178,78 -214,66 Q-188,44 -184,22 Q-222,4 -250,-34 Q-206,-42 -194,-62 Q-228,-110 -232,-152 Q-190,-138 -164,-142 Q-168,-194 -142,-244 Q-112,-204 -82,-198 Q-62,-244 -18,-274 Q-8,-224 22,-208 Q64,-244 124,-250 Q98,-208 112,-188 Q162,-204 210,-190 Q174,-162 178,-136 Q218,-122 244,-90 Q198,-86 188,-60 Q208,-38 216,-2 Q186,-12 166,4 L170,60 L-150,100 Z" fill="#2b1f3d" stroke="#0d1a4d" stroke-width="7"/>
+      <!-- hair shadow inside the mass behind the face -->
+      <path d="M-150,100 Q-178,78 -214,66 Q-188,44 -184,22 Q-170,40 -150,40 Z" fill="#1b1329"/>
+      <!-- crown highlight band -->
+      <path d="M-150,-120 Q-80,-178 10,-176 Q90,-174 150,-128 Q90,-150 60,-140 L70,-160 L30,-144 Q-30,-160 -80,-140 L-70,-160 L-110,-130 Z" fill="#4a3a68"/>
+
+      <!-- ear (near side) -->
+      <path d="M-146,32 C-184,22 -192,92 -146,102 Z" fill="#5a3a2a" stroke="#0d1a4d" stroke-width="4.5"/>
+      <path d="M-152,48 C-172,48 -172,80 -152,86" fill="none" stroke="#432a1e" stroke-width="3"/>
+      <!-- gold ear cuff -->
+      <path d="M-178,58 L-186,66" stroke="#d8a73a" stroke-width="7"/>
+
+      <!-- face -->
+      <path d="M-150,-10 C-152,60 -132,115 -84,150 C-44,176 30,192 66,186 C104,176 142,132 156,72 C163,40 166,10 160,-20 Z" fill="#5a3a2a"/>
+      <g clip-path="url(#faceClip)">
+        <!-- shadow cast by the bangs, and the far-side cheek shadow -->
+        <path d="M-160,-20 L170,-20 L170,40 Q150,40 140,30 Q120,22 100,30 Q70,18 40,40 Q10,22 -30,22 Q-70,10 -110,40 Q-130,20 -160,30 Z" fill="#432a1e"/>
+        <path d="M150,20 C150,90 120,160 66,190 L180,200 L180,20 Z" fill="#432a1e"/>
+        <!-- cheek highlight -->
+        <ellipse cx="-80" cy="118" rx="22" ry="10" fill="#74503c"/>
+      </g>
+      <path d="M-150,-10 C-152,60 -132,115 -84,150 C-44,176 30,192 66,186 C104,176 142,132 156,72 C163,40 166,10 160,-20" fill="none" stroke="#0d1a4d" stroke-width="5"/>
+      <path d="M154,60 C142,128 108,172 70,184" fill="none" stroke="#3466ff" stroke-width="3"/>
+
+      <!-- near eye: sharp almond, calm half-lid -->
+      <path d="M-112,52 C-92,30 -45,24 -4,38 C-8,78 -25,100 -55,102 C-85,102 -104,86 -112,52 Z" fill="#f4f6ff"/>
+      <g clip-path="url(#eyeNearClip)">
+        <path d="M-120,30 L0,30 L0,52 Q-60,40 -120,56 Z" fill="#c9d0e8"/>
+        <ellipse cx="-52" cy="68" rx="31" ry="38" fill="#d8a73a"/>
+        <g clip-path="url(#irisNear)">
+          <ellipse cx="-52" cy="40" rx="40" ry="26" fill="#8a5a12"/>
+          <ellipse cx="-52" cy="100" rx="24" ry="12" fill="#f5d27a"/>
+        </g>
+        <ellipse cx="-50" cy="70" rx="11" ry="19" fill="#24130a"/>
+        <ellipse cx="-52" cy="68" rx="31" ry="38" fill="none" stroke="#5a3a10" stroke-width="2.5"/>
+        <circle cx="-64" cy="54" r="9" fill="#ffffff"/>
+        <circle cx="-37" cy="86" r="4.5" fill="#ffffff"/>
+      </g>
+      <path d="M-124,48 L-134,38 C-104,16 -46,10 -2,30 L3,40 C-42,24 -94,30 -112,58 Z" fill="#0d1a4d"/>
+      <path d="M-96,96 C-80,103 -62,104 -46,102" fill="none" stroke="#0d1a4d" stroke-width="3"/>
+
+      <!-- far eye -->
+      <path d="M64,42 C84,28 112,30 132,46 C130,80 118,100 98,101 C78,101 66,84 64,42 Z" fill="#f4f6ff"/>
+      <g clip-path="url(#eyeFarClip)">
+        <path d="M60,30 L140,30 L140,52 Q100,40 60,54 Z" fill="#c9d0e8"/>
+        <ellipse cx="100" cy="69" rx="22" ry="36" fill="#d8a73a"/>
+        <g clip-path="url(#irisFar)">
+          <ellipse cx="100" cy="42" rx="30" ry="25" fill="#8a5a12"/>
+          <ellipse cx="100" cy="100" rx="17" ry="11" fill="#f5d27a"/>
+        </g>
+        <ellipse cx="102" cy="71" rx="8" ry="17" fill="#24130a"/>
+        <ellipse cx="100" cy="69" rx="22" ry="36" fill="none" stroke="#5a3a10" stroke-width="2.5"/>
+        <circle cx="92" cy="56" r="7" fill="#ffffff"/>
+        <circle cx="109" cy="85" r="3.5" fill="#ffffff"/>
+      </g>
+      <path d="M58,44 C80,20 118,22 142,40 L144,34 L136,50 C114,34 84,34 64,50 Z" fill="#0d1a4d"/>
+      <path d="M78,96 C90,101 104,101 114,97" fill="none" stroke="#0d1a4d" stroke-width="2.5"/>
+
+      <!-- front bangs: spiky locks over the forehead -->
+      <path d="M166,4 Q174,30 160,50 Q144,14 112,10 Q108,22 96,26 Q82,4 56,2 Q50,26 30,44 Q22,8 -8,0 Q-22,16 -42,24 Q-60,-4 -86,-4 Q-104,16 -126,38 Q-126,6 -140,-2 Q-152,30 -152,64 Q-170,-60 -60,-120 Q60,-150 166,4 Z" fill="#2b1f3d"/>
+      <path d="M166,4 Q174,30 160,50 Q144,14 112,10 Q108,22 96,26 Q82,4 56,2 Q50,26 30,44 Q22,8 -8,0 Q-22,16 -42,24 Q-60,-4 -86,-4 Q-104,16 -126,38 Q-126,6 -140,-2 Q-152,30 -152,64" fill="none" stroke="#0d1a4d" stroke-width="4"/>
+      <path d="M-100,-60 Q-40,-96 30,-90 Q-20,-80 -60,-52 Z M60,-80 Q110,-70 140,-30 Q100,-56 70,-60 Z" fill="#4a3a68"/>
+      <path d="M150,-40 Q166,-10 166,4" fill="none" stroke="#3466ff" stroke-width="3"/>
+
+      <!-- brows, drawn over the bangs -->
+      <path d="M-104,8 C-84,-2 -54,-4 -28,4" fill="none" stroke="#0d1a4d" stroke-width="3.5"/>
+      <path d="M70,8 C92,0 116,2 134,12" fill="none" stroke="#0d1a4d" stroke-width="4"/>
+
+      <!-- nose and mouth: a slight smile with the gold tooth -->
+      <path d="M114,96 C119,102 118,106 110,108" fill="none" stroke="#2a1810" stroke-width="3"/>
+      <path d="M46,138 C60,150 86,152 104,134 C98,154 64,160 46,138 Z" fill="#2a1018"/>
+      <path d="M66,146 L86,145 L84,156 L69,156 Z" fill="#d8a73a" stroke="#0d1a4d" stroke-width="1.5"/>
+      <path d="M46,138 C60,150 86,152 104,134" fill="none" stroke="#0d1a4d" stroke-width="3.2"/>
+      <path d="M98,150 L101,141 L104,150 L113,153 L104,156 L101,165 L98,156 L89,153 Z" fill="#f5d27a"/>
+    </g>
+
+    <!-- ========== SHOULDERS: cobalt cloak, fur ruff, gold clasp ========== -->
+    <g id="neck">
+      <path d="M18,160 L22,250 L104,250 L100,160 Z" fill="#432a1e" stroke="#0d1a4d" stroke-width="4"/>
+    </g>
+    <g id="ruff" stroke-linejoin="round">
+      <path d="M-178,268 Q-190,240 -160,228 Q-150,200 -116,206 Q-100,182 -66,196 Q-44,180 -20,200 Q4,214 30,212 Q60,216 86,206 Q116,190 138,206 Q170,196 184,216 Q216,212 222,240 Q248,252 238,282 Q226,312 196,306 Q178,334 146,320 Q120,344 90,326 Q64,346 38,328 Q8,346 -18,326 Q-46,342 -70,322 Q-100,336 -122,314 Q-156,322 -166,296 Q-196,290 -178,268 Z" fill="#e9eef8" stroke="#0d1a4d" stroke-width="5"/>
+      <path d="M-150,300 Q-120,312 -100,300 M-60,316 Q-30,326 -8,314 M44,322 Q76,332 96,318 M150,314 Q180,312 200,296" fill="none" stroke="#b8c3da" stroke-width="6"/>
+      <path d="M-120,226 Q-90,214 -66,222 M120,222 Q150,212 176,230" fill="none" stroke="#ffffff" stroke-width="5"/>
+    </g>
+    <g id="clasp">
+      <circle cx="44" cy="330" r="24" fill="#d8a73a" stroke="#0d1a4d" stroke-width="4.5"/>
+      <path d="M30,338 A16,16 0 0 1 58,322 A12,12 0 0 0 30,338 Z" fill="#a5761c"/>
+      <circle cx="36" cy="322" r="5" fill="#f5d27a"/>
+    </g>
+
+    <g id="bust" stroke-linejoin="round" stroke-linecap="round">
+      <use xlink:href="#horn"/>
+      <!-- cloak body -->
+      <path d="M-215,420 C-222,320 -178,262 -80,250 L180,250 C262,262 296,330 300,420 Z" fill="#3466ff" stroke="#0d1a4d" stroke-width="7"/>
+      <path d="M150,252 C230,270 262,330 266,420 L300,420 C296,330 262,262 180,250 Z" fill="#2443b8"/>
+      <!-- horn strap across the chest -->
+      <path d="M232,268 L-120,420" stroke="#0d1a4d" stroke-width="30"/>
+      <path d="M232,268 L-120,420" stroke="#1d2a6a" stroke-width="22"/>
+      <path d="M232,268 L-120,420" stroke="#d8a73a" stroke-width="3" stroke-dasharray="10 10"/>
+      <use xlink:href="#neck"/>
+      <use xlink:href="#head"/>
+      <use xlink:href="#ruff"/>
+      <use xlink:href="#clasp"/>
+      <path d="M-200,350 C-196,300 -176,280 -150,268" fill="none" stroke="#7c9bff" stroke-width="5"/>
+    </g>
+
+    <g id="bustPlaced"><g transform="translate(400,398) scale(0.96)"><use xlink:href="#bust"/></g></g>
+
+    <!-- ========== FULL BODY, 2.5 heads ========== -->
+    <g id="fullbody" stroke-linejoin="round" stroke-linecap="round">
+      <use xlink:href="#horn"/>
+      <!-- legs and boots -->
+      <path d="M-40,600 L-48,760 L10,760 L14,600 Z M60,600 L66,760 L124,760 L118,600 Z" fill="#1d2a6a" stroke="#0d1a4d" stroke-width="7"/>
+      <path d="M-70,740 Q-72,700 -46,700 L14,700 Q22,740 18,790 L-76,790 Q-90,770 -70,740 Z M52,740 Q50,700 70,700 L128,700 Q150,740 156,790 L50,790 Q42,770 52,740 Z" fill="#e9eef8" stroke="#0d1a4d" stroke-width="7"/>
+      <path d="M-76,790 L18,790 M50,790 L156,790" stroke="#d8a73a" stroke-width="8"/>
+      <!-- cloak, A-line to the knee -->
+      <path d="M-120,262 L210,262 C260,400 290,520 300,640 Q180,676 50,664 Q-90,676 -190,640 C-178,520 -160,400 -120,262 Z" fill="#3466ff" stroke="#0d1a4d" stroke-width="7"/>
+      <path d="M150,262 C200,400 236,520 250,650 L300,640 C290,520 260,400 210,262 Z" fill="#2443b8"/>
+      <path d="M44,330 L44,664" stroke="#0d1a4d" stroke-width="4"/>
+      <!-- arms -->
+      <path d="M-120,300 Q-176,390 -176,480 Q-150,500 -124,480 Q-118,400 -90,330 Z" fill="#3466ff" stroke="#0d1a4d" stroke-width="6"/>
+      <circle cx="-150" cy="500" r="28" fill="#5a3a2a" stroke="#0d1a4d" stroke-width="5"/>
+      <path d="M190,300 Q250,380 252,470 Q228,492 202,474 Q196,400 166,330 Z" fill="#2443b8" stroke="#0d1a4d" stroke-width="6"/>
+      <circle cx="228" cy="492" r="26" fill="#5a3a2a" stroke="#0d1a4d" stroke-width="5"/>
+      <use xlink:href="#neck"/>
+      <use xlink:href="#head"/>
+      <use xlink:href="#ruff"/>
+      <use xlink:href="#clasp"/>
+    </g>
+  </defs>
+
+  <!-- sheet -->
+  <rect width="1200" height="800" fill="#f3f1ec"/>
+
+  <!-- bust panel -->
+  <g clip-path="url(#panelClip)">
+    <rect x="20" y="20" width="770" height="760" fill="#e6ebf5"/>
+    <path d="M330,20 L640,20 L470,780 L160,780 Z" fill="#d3ddf6"/>
+    <path d="M660,20 L700,20 L530,780 L490,780 Z" fill="#d3ddf6"/>
+    <use xlink:href="#bustPlaced"/>
+  </g>
+  <rect x="20" y="20" width="770" height="760" rx="14" fill="none" stroke="#0d1a4d" stroke-width="3"/>
+
+  <!-- right column -->
+  <g font-family="Segoe UI, Arial, Helvetica, sans-serif" fill="#0d1a4d">
+    <text x="815" y="58" font-size="30" font-weight="700" letter-spacing="3">HEIMDALL</text>
+    <text x="815" y="86" font-size="17" font-weight="600" letter-spacing="1.5">A · THE HORN BEARER</text>
+  </g>
+
+  <g transform="translate(920,250) scale(0.33)"><use xlink:href="#fullbody"/></g>
+  <text x="930" y="530" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#55607a" text-anchor="middle">full body, 2.5 heads</text>
+
+  <!-- silhouette check -->
+  <rect x="1046" y="110" width="140" height="138" fill="#ffffff" stroke="#c6ccda"/>
+  <svg x="1046" y="110" width="140" height="138" viewBox="20 20 770 760"><use xlink:href="#bustPlaced" filter="url(#sil)"/></svg>
+  <rect x="1046" y="262" width="48" height="48" fill="#ffffff" stroke="#c6ccda"/>
+  <svg x="1046" y="262" width="48" height="48" viewBox="20 20 770 760" preserveAspectRatio="xMidYMid meet"><use xlink:href="#bustPlaced" filter="url(#sil)"/></svg>
+  <text x="1102" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#55607a">silhouette</text>
+  <text x="1102" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#55607a">48 px</text>
+
+  <!-- hook and palette -->
+  <g font-family="Segoe UI, Arial, Helvetica, sans-serif">
+    <text x="815" y="575" font-size="13" font-weight="700" fill="#3466ff" letter-spacing="2">HOOK</text>
+    <text x="815" y="597" font-size="15" fill="#0d1a4d">A huge ivory war horn arcs over his head</text>
+    <text x="815" y="617" font-size="15" fill="#0d1a4d">like a crescent moon, a Bifrost line on its rim.</text>
+    <text x="815" y="655" font-size="13" font-weight="700" fill="#3466ff" letter-spacing="2">PALETTE</text>
+    <g font-size="11" fill="#0d1a4d">
+      <rect x="815" y="666" width="52" height="40" fill="#3466ff" stroke="#0d1a4d"/><text x="815" y="722">#3466ff</text><text x="815" y="736">cloak</text>
+      <rect x="878" y="666" width="52" height="40" fill="#0d1a4d" stroke="#0d1a4d"/><text x="878" y="722">#0d1a4d</text><text x="878" y="736">line</text>
+      <rect x="941" y="666" width="52" height="40" fill="#e9eef8" stroke="#0d1a4d"/><text x="941" y="722">#e9eef8</text><text x="941" y="736">horn</text>
+      <rect x="1004" y="666" width="52" height="40" fill="#d8a73a" stroke="#0d1a4d"/><text x="1004" y="722">#d8a73a</text><text x="1004" y="736">gold</text>
+      <rect x="1067" y="666" width="52" height="40" fill="#5a3a2a" stroke="#0d1a4d"/><text x="1067" y="722">#5a3a2a</text><text x="1067" y="736">skin</text>
+      <rect x="1130" y="666" width="52" height="40" fill="#2b1f3d" stroke="#0d1a4d"/><text x="1130" y="722">#2b1f3d</text><text x="1130" y="736">hair</text>
+      <rect x="815" y="748" width="367" height="7" fill="url(#prism)"/>
+      <text x="815" y="772">Bifrost accent: a thin prismatic line, under 10% of the figure</text>
+    </g>
+  </g>
+</svg>

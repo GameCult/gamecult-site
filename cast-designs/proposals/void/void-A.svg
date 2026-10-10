@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+<defs>
+<filter id="glow" x="-80%" y="-40%" width="260%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="docglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="12"/></filter>
+<filter id="glowS" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="glowS2" x="-100%" y="-50%" width="300%" height="200%"><feMorphology operator="dilate" radius="0" result="a"/><feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="black" x="-5%" y="-5%" width="110%" height="110%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/></filter>
+<clipPath id="card"><path d="M70 24 L790 24 L730 776 L10 776 Z"/></clipPath>
+<g id="figure"><g transform="translate(-70 0)"><path d="M0 0 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="tbclip"><path d="M0 0 Z"/></clipPath>
+<g clip-path="url(#tbclip)"><path d="M146 258 C152 318 130 380 150 430 C168 478 210 500 262 520 L262 560 C190 530 140 490 124 430 C108 370 136 320 120 250 Z" fill="#b9520e"/><path d="M96 300 C104 360 96 410 118 460" fill="none" stroke="#b9520e" stroke-width="3.5" stroke-linecap="round"/></g>
+<path d="M100 800 C112 680 160 600 240 580 L600 580 C700 600 744 690 756 800 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="robeclip"><path d="M100 800 C112 680 160 600 240 580 L600 580 C700 600 744 690 756 800 Z"/></clipPath>
+<g clip-path="url(#robeclip)"><path d="M520 540 C640 600 700 690 720 800 L560 800 C580 700 560 620 500 560 Z" fill="#2e1c70"/><path d="M150 800 C160 690 210 600 280 560 C230 620 200 700 196 800 Z" fill="#6c50d0"/><path d="M716 800 C700 700 660 620 600 576" fill="none" stroke="#8e70f2" stroke-width="10"/><g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M330 610 C318 680 300 740 290 800"/><path d="M420 630 C424 700 420 760 418 800"/><path d="M500 620 C520 690 540 750 552 800"/></g></g>
+<g transform="rotate(-3 410 560)"><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z" fill="#4b2fa6"/><clipPath id="hoodclip"><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z"/></clipPath><g clip-path="url(#hoodclip)"><path d="M360 50 C520 100 690 260 690 600 L606 600 C626 420 580 220 360 50 Z" fill="#2e1c70"/><path d="M322 72 C270 120 214 220 196 360 C228 260 270 170 332 84 Z" fill="#6c50d0"/><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560" fill="none" stroke="#8e70f2" stroke-width="12"/></g><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z" fill="none" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/><path d="M334 70 C364 110 396 150 420 186" fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"/><g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M210 470 C214 510 220 540 228 566"/><path d="M630 450 C638 500 640 530 640 566"/></g><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="#2e1c70" stroke="#2e1c70" stroke-width="26" stroke-linejoin="round"/><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="none" stroke="#170c3a" stroke-width="3.5" transform="translate(0 0)" stroke-linejoin="round" style="paint-order:stroke" opacity="0"/><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="#06030d" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/><path d="M420 168 C478 216 576 290 584 400 C590 478 530 526 446 528" fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"/><clipPath id="openclip"><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z"/></clipPath><g clip-path="url(#openclip)"><g fill="#b892ff" filter="url(#glow)" opacity="0.95"><rect x="385.0" y="333.0" width="30.0" height="98.0" rx="15.0"/><rect x="473.5" y="329.0" width="25.0" height="98.0" rx="12.5"/></g><g fill="#f7f4ff"><rect x="385.0" y="333.0" width="30.0" height="98.0" rx="15.0"/><rect x="473.5" y="329.0" width="25.0" height="98.0" rx="12.5"/></g></g></g>
+<path d="M190 528 C320 580 500 584 650 524 C676 560 672 610 640 632 C500 672 320 666 200 622 C172 590 172 556 190 528 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="scclip"><path d="M190 528 C320 580 500 584 650 524 C676 560 672 610 640 632 C500 672 320 666 200 622 C172 590 172 556 190 528 Z"/></clipPath>
+<g clip-path="url(#scclip)"><path d="M180 600 C320 646 500 650 680 590 L680 700 L180 700 Z" fill="#b9520e"/><path d="M560 600 C600 588 640 570 680 540 L680 510 C640 560 600 576 560 588 Z" fill="#b9520e"/><path d="M214 548 C320 590 460 598 560 580" fill="none" stroke="#ffb15c" stroke-width="8" stroke-linecap="round"/></g>
+<g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M290 604 C360 630 450 634 520 620"/><path d="M240 578 C280 596 310 604 340 608"/></g>
+<path d="M590 640 C650 650 700 610 730 560 C748 530 760 490 780 450 L776 506 L806 490 L788 546 L816 556 C780 586 760 640 720 676 C680 708 620 712 580 692 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="tfclip"><path d="M590 640 C650 650 700 610 730 560 C748 530 760 490 780 450 L776 506 L806 490 L788 546 L816 556 C780 586 760 640 720 676 C680 708 620 712 580 692 Z"/></clipPath>
+<g clip-path="url(#tfclip)"><path d="M580 692 C620 712 680 708 720 676 C760 640 780 586 816 556 L830 600 C800 660 760 720 580 740 Z" fill="#b9520e"/><path d="M612 668 C670 670 720 620 752 540" fill="none" stroke="#b9520e" stroke-width="3.5" stroke-linecap="round"/></g></g></g>
+</defs>
+<rect width="1200" height="800" fill="#f2eee8"/>
+<g clip-path="url(#card)">
+<path d="M70 24 L790 24 L730 776 L10 776 Z" fill="#e7e1f1"/>
+<path d="M520 24 L790 24 L730 776 L440 776 Z" fill="#dcd3ee"/>
+<use href="#figure"/>
+</g>
+<path d="M70 24 L790 24 L730 776 L10 776 Z" fill="none" stroke="#4b2fa6" stroke-width="6" stroke-linejoin="miter"/>
+<path d="M10 728 L250 728 L246 776 L10 776 Z" fill="#4b2fa6"/>
+<text x="34" y="762" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="7" fill="#f7f4ff">VOID</text>
+<text x="830" y="60" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#170c3a">VOID / A</text>
+<text x="830" y="86" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#b9520e">CLASSIC HOOD</text>
+<g transform="translate(935 470) scale(1.42)"><path d="M-30 -114 C-60 -126 -84 -150 -118 -156 L-104 -142 L-124 -134 L-102 -126 L-114 -114 C-84 -112 -60 -100 -30 -98 Z" fill="#f2801f" stroke="#170c3a" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="0" cy="4" rx="78" ry="7" fill="#d6cfe4"/>
+<ellipse cx="-20" cy="0" rx="13" ry="7" fill="#2e1c70" stroke="#170c3a" stroke-width="2.5"/>
+<ellipse cx="22" cy="0" rx="13" ry="7" fill="#2e1c70" stroke="#170c3a" stroke-width="2.5"/>
+<path d="M-44 -114 L48 -114 C64 -76 74 -36 82 -2 L68 -10 L58 4 L44 -8 L30 6 L16 -6 L2 6 L-12 -6 L-26 6 L-40 -8 L-54 4 L-68 -10 L-78 -2 C-70 -40 -62 -80 -44 -114 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M20 -100 C40 -70 54 -36 60 0 L44 -8 L34 4 C30 -40 26 -70 14 -100 Z" fill="#2e1c70"/>
+<g fill="none" stroke="#170c3a" stroke-width="1.8" stroke-linecap="round"><path d="M-10 -90 L-20 -10"/><path d="M8 -86 L12 -10"/></g>
+<path d="M-46 -104 C-60 -80 -64 -60 -62 -44 L-46 -46 C-46 -64 -42 -84 -36 -100 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="3"/>
+<path d="M48 -104 C62 -80 66 -60 64 -44 L48 -46 C48 -64 44 -84 38 -100 Z" fill="#2e1c70" stroke="#170c3a" stroke-width="3"/>
+<circle cx="-54" cy="-40" r="7" fill="#221a33" stroke="#170c3a" stroke-width="2"/>
+<circle cx="56" cy="-40" r="7" fill="#221a33" stroke="#170c3a" stroke-width="2"/>
+<path d="M-6 -246 C20 -230 44 -206 54 -176 C62 -152 66 -130 68 -108 L-62 -108 C-62 -140 -50 -180 -30 -210 C-22 -224 -14 -236 -6 -246 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M0 -244 C40 -214 66 -170 64 -110 L50 -110 C54 -170 34 -210 0 -244 Z" fill="#2e1c70"/>
+<path d="M14 -206 C24 -192 46 -176 48 -152 C50 -134 36 -124 16 -124 C-6 -124 -24 -134 -24 -152 C-24 -174 4 -192 14 -206 Z" fill="#06030d" stroke="#2e1c70" stroke-width="5"/>
+<g fill="#f7f4ff" filter="url(#glowS2)"><rect x="-4" y="-172" width="10" height="28" rx="5"/><rect x="20" y="-173" width="8" height="28" rx="4"/></g>
+<path d="M-50 -118 C-20 -104 30 -104 58 -118 C62 -108 60 -98 54 -94 C24 -84 -20 -84 -48 -94 C-54 -102 -54 -110 -50 -118 Z" fill="#f2801f" stroke="#170c3a" stroke-width="3"/>
+<path d="M30 -96 C34 -80 36 -66 34 -52 L44 -60 L50 -50 L52 -64 C48 -76 44 -86 42 -98 Z" fill="#b9520e" stroke="#170c3a" stroke-width="2.5"/></g>
+<text x="830" y="508" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">FULL BODY 2.5 HEADS</text>
+<g filter="url(#black)"><g transform="translate(1032 100) scale(0.2)"><g clip-path="url(#card)"><use href="#figure"/></g></g></g>
+<text x="1040" y="272" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">SILHOUETTE</text>
+<g filter="url(#black)"><g transform="translate(1059.3 294.4) scale(0.0667)"><g clip-path="url(#card)"><use href="#figure"/></g></g></g>
+<text x="1120" y="326" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">48 PX</text>
+<text x="830" y="548" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">HOOK</text>
+<text x="830" y="572" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#170c3a">Two lamp-white eye slits in a hood of</text>
+<text x="830" y="592" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#170c3a">nothing; the orange scarf streams across the</text>
+<text x="830" y="612" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#170c3a">frame.</text>
+<text x="830" y="640" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">PALETTE</text>
+<rect x="830" y="656" width="40" height="40" rx="6" fill="#4b2fa6" stroke="#170c3a" stroke-width="2"/>
+<text x="878" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#4b2fa6</text>
+<text x="878" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">robe, key</text>
+<rect x="950" y="656" width="40" height="40" rx="6" fill="#170c3a" stroke="#170c3a" stroke-width="2"/>
+<text x="998" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#170c3a</text>
+<text x="998" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">line / deep</text>
+<rect x="1070" y="656" width="40" height="40" rx="6" fill="#06030d" stroke="#170c3a" stroke-width="2"/>
+<text x="1118" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#06030d</text>
+<text x="1118" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">void face</text>
+<rect x="830" y="722" width="40" height="40" rx="6" fill="#f7f4ff" stroke="#170c3a" stroke-width="2"/>
+<text x="878" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#f7f4ff</text>
+<text x="878" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">eye light</text>
+<rect x="950" y="722" width="40" height="40" rx="6" fill="#f2801f" stroke="#170c3a" stroke-width="2"/>
+<text x="998" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#f2801f</text>
+<text x="998" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">scarf orange</text>
+<rect x="1070" y="722" width="40" height="40" rx="6" fill="#b892ff" stroke="#170c3a" stroke-width="2"/>
+<text x="1118" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#b892ff</text>
+<text x="1118" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">glow violet</text>
+</svg>

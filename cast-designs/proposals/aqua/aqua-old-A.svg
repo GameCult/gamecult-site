@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Aqua, superseded take A (pre-canon): Goldfish Idol</title>
+  <defs>
+    <!-- solid-black silhouette -->
+    <filter id="sil" x="-10%" y="-10%" width="120%" height="120%">
+      <feComponentTransfer in="SourceAlpha" result="a"><feFuncA type="discrete" tableValues="0 1 1 1 1 1 1 1 1 1"/></feComponentTransfer>
+      <feFlood flood-color="#000"/>
+      <feComposite in2="a" operator="in"/>
+    </filter>
+    <clipPath id="cardClip"><path d="M70,20 H790 L760,780 H40 Z"/></clipPath>
+
+    <!-- anime eye, local frame centred on 0,0, about 100 x 124 -->
+    <path id="eyeShape" d="M-48,-6 C-48,-50 -22,-60 2,-60 C28,-60 50,-46 50,-6 C50,36 28,60 2,60 C-24,60 -48,36 -48,-6 Z"/>
+    <clipPath id="eyeClip"><use href="#eyeShape"/></clipPath>
+    <g id="eye">
+      <use href="#eyeShape" fill="#ffffff"/>
+      <g clip-path="url(#eyeClip)">
+        <path d="M-52,-62 H54 V-14 C34,-44 -30,-44 -52,-12 Z" fill="#c4eef5"/>
+        <ellipse cx="6" cy="8" rx="40" ry="52" fill="#22d3e6"/>
+        <path d="M-40,-62 H52 V4 C34,-30 -22,-34 -40,4 Z" fill="#0f86a0"/>
+        <ellipse cx="8" cy="36" rx="25" ry="13" fill="#a6f4fb"/>
+        <ellipse cx="6" cy="10" rx="17" ry="24" fill="#0b4a55"/>
+        <ellipse cx="6" cy="8" rx="40" ry="52" fill="none" stroke="#0b4a55" stroke-width="4"/>
+      </g>
+      <ellipse cx="-12" cy="-14" rx="13" ry="17" fill="#ffffff"/>
+      <path id="spark" d="M0,-10 C1.2,-2.4 2.4,-1.2 10,0 C2.4,1.2 1.2,2.4 0,10 C-1.2,2.4 -2.4,1.2 -10,0 C-2.4,-1.2 -1.2,-2.4 0,-10 Z" transform="translate(22,28) scale(1.15)" fill="#ffffff"/>
+      <path d="M-58,0 C-60,-50 -22,-71 6,-69 C34,-67 56,-52 61,-20 L72,-28 C69,-16 63,-8 57,-5 C50,-44 30,-58 4,-58 C-24,-58 -46,-40 -48,0 Z" fill="#0b4a55"/>
+      <path d="M-28,55 C-8,64 20,64 34,54" fill="none" stroke="#0b4a55" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- eighth-note glyph -->
+    <g id="note">
+      <ellipse cx="0" cy="0" rx="8" ry="6" transform="rotate(-22)" fill="#ffffff"/>
+      <path d="M6.5,-2 V-30 C14,-27 22,-20 17,-9" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <!-- ===== Aqua A: shapes ===== -->
+    <path id="Abody" d="M392,212 C548,212 658,330 652,478 C646,630 530,732 386,730 C238,728 136,626 138,470 C140,318 238,212 392,212 Z"/>
+    <clipPath id="AbodyClip"><use href="#Abody"/></clipPath>
+    <mask id="AbodyShade"><rect width="1200" height="800" fill="#fff"/><use href="#Abody" transform="translate(-46,-40)" fill="#000"/></mask>
+    <mask id="AbodyRim"><rect width="1200" height="800" fill="#fff"/><use href="#Abody" transform="translate(-13,-3)" fill="#000"/></mask>
+
+    <!-- the fish minus the tail: reused by bust, full body and silhouette -->
+    <g id="AfishCore">
+      <!-- dorsal crest, an idol's ahoge -->
+      <path d="M318,250 C300,180 330,118 392,92 C380,126 396,146 428,126 C424,152 446,166 476,152 C474,190 474,222 470,252 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M392,240 C380,190 386,150 402,118 M430,238 C428,200 434,176 452,160" fill="none" stroke="#c94612" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- body -->
+      <use href="#Abody" fill="#ffb320"/>
+      <g clip-path="url(#AbodyClip)">
+        <!-- belly scales -->
+        <path d="M232,626 q22,20 44,0 q22,20 44,0 M262,664 q22,20 44,0 q22,20 44,0 M300,700 q22,20 44,0" fill="none" stroke="#e08a10" stroke-width="3.5" stroke-linecap="round"/>
+        <!-- orange crown cut like idol bangs -->
+        <path d="M120,190 H680 V330 C640,326 612,306 598,284 C590,322 566,344 534,350 C540,322 532,300 514,286 C500,330 464,354 424,356 C444,330 444,304 432,286 C414,322 374,344 332,348 C346,322 346,302 336,290 C312,320 274,336 236,338 C254,318 258,302 252,288 C222,310 184,326 120,336 Z" fill="#ff6a1f"/>
+        <path d="M200,270 C240,236 300,222 340,226 M470,226 C520,228 560,246 588,270" fill="none" stroke="#ffa067" stroke-width="9" stroke-linecap="round"/>
+        <!-- cel shadow, light from upper left -->
+        <rect width="1200" height="800" fill="#e08a10" mask="url(#AbodyShade)"/>
+        <!-- rim light in key cyan, away from the light -->
+        <rect width="1200" height="800" fill="#22d3e6" mask="url(#AbodyRim)"/>
+      </g>
+      <use href="#Abody" fill="none" stroke="#0b4a55" stroke-width="7"/>
+
+      <!-- gill curve -->
+      <path d="M232,392 C214,440 214,500 236,548" fill="none" stroke="#c97a0c" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- headphones: far cup, band, near cup -->
+      <ellipse cx="664" cy="418" rx="44" ry="80" fill="#1c1c24" stroke="#0b4a55" stroke-width="6"/>
+      <ellipse cx="672" cy="418" rx="24" ry="54" fill="none" stroke="#22d3e6" stroke-width="8"/>
+      <ellipse cx="672" cy="418" rx="9" ry="24" fill="#22d3e6" opacity="0.55"/>
+      <path d="M164,392 C150,200 290,128 398,128 C520,128 668,196 660,372" fill="none" stroke="#0b4a55" stroke-width="44" stroke-linecap="round"/>
+      <path d="M164,392 C150,200 290,128 398,128 C520,128 668,196 660,372" fill="none" stroke="#1c1c24" stroke-width="32" stroke-linecap="round"/>
+      <path d="M196,270 C230,196 300,156 380,150" fill="none" stroke="#454558" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="196" cy="424" rx="58" ry="84" fill="#2c2c38" stroke="#0b4a55" stroke-width="6"/>
+      <ellipse cx="168" cy="424" rx="62" ry="86" fill="#1c1c24" stroke="#0b4a55" stroke-width="7"/>
+      <ellipse cx="168" cy="424" rx="40" ry="60" fill="none" stroke="#22d3e6" stroke-width="10"/>
+      <ellipse cx="168" cy="424" rx="22" ry="36" fill="#22d3e6" opacity="0.4"/>
+      <path d="M134,380 C140,362 152,352 166,350" fill="none" stroke="#454558" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- face: three-quarter toward screen right -->
+      <use href="#eye" transform="translate(366,462) scale(1.06)"/>
+      <use href="#eye" transform="translate(540,456) scale(0.8,0.98)"/>
+      <!-- blush -->
+      <ellipse cx="316" cy="548" rx="34" ry="14" fill="#ff7f8f" opacity="0.6"/>
+      <ellipse cx="588" cy="540" rx="22" ry="12" fill="#ff7f8f" opacity="0.6"/>
+      <path d="M302,544 l-6,10 M318,544 l-6,10 M334,544 l-6,10 M582,537 l-5,9 M596,537 l-5,9" stroke="#e25566" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- open happy mouth -->
+      <path d="M428,566 C444,574 478,574 492,562 C492,598 468,614 456,614 C440,614 426,596 428,566 Z" fill="#8a2234" stroke="#0b4a55" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M438,600 C446,590 470,590 480,598 C472,610 450,612 438,600 Z" fill="#ff7f8f"/>
+
+      <!-- fin-hands: near fin raised to the ear cup (Listening), far fin waving -->
+      <path d="M250,612 C206,612 172,578 168,530 C190,540 212,536 226,520 C236,560 262,590 250,612 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M232,600 C210,590 194,570 188,548 M240,580 C226,568 218,556 214,540" fill="none" stroke="#c94612" stroke-width="3" stroke-linecap="round"/>
+      <path d="M594,628 C644,620 684,582 696,532 C672,548 650,544 634,532 C626,574 606,602 594,628 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M610,612 C640,600 664,576 676,552" fill="none" stroke="#c94612" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- bust tail: double fan, flaring behind -->
+    <g id="AtailBust">
+      <path d="M210,446 C150,404 84,330 52,226 C82,240 108,236 124,214 C138,250 166,262 196,250 C204,320 232,384 262,428 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M208,520 C146,566 90,650 64,770 C94,750 124,752 140,772 C156,744 186,736 210,746 C216,660 238,592 268,548 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M206,432 C160,380 120,320 92,246 M232,420 C210,370 186,320 168,266 M206,542 C160,600 124,670 104,756 M234,552 C210,610 190,670 180,740" fill="none" stroke="#c94612" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+
+    <g id="AbustChar">
+      <use href="#AtailBust"/>
+      <use href="#AfishCore"/>
+    </g>
+
+    <g id="bubble">
+      <circle r="1" fill="#22d3e6" fill-opacity="0.22" stroke="#22d3e6" stroke-width="0.08"/>
+      <path d="M-0.62,-0.2 A0.66,0.66 0 0 1 -0.2,-0.62" fill="none" stroke="#ffffff" stroke-width="0.12" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- sheet -->
+  <rect width="1200" height="800" fill="#eef3f2"/>
+
+  <!-- Persona-style card preview (composited in product, shown here for scale) -->
+  <path d="M70,20 H790 L760,780 H40 Z" fill="#07111a"/>
+  <g clip-path="url(#cardClip)">
+    <path d="M60,640 C200,610 300,660 420,640 C560,616 660,650 800,630 V800 H40 Z" fill="#0b2a33"/>
+    <path d="M600,40 l-180,740 M680,40 l-180,740" stroke="#22d3e6" stroke-opacity="0.07" stroke-width="40"/>
+    <use href="#AbustChar" transform="translate(24,0)"/>
+  </g>
+  <path d="M70,20 H790 L760,780 H40 Z" fill="none" stroke="#22d3e6" stroke-width="5"/>
+  <path d="M84,32 H776" stroke="#22d3e6" stroke-width="2" stroke-opacity="0.5"/>
+
+  <!-- note bubbles rising toward the text box -->
+  <use href="#bubble" transform="translate(712,262) scale(36)"/>
+  <use href="#note" transform="translate(708,276) scale(1.05)"/>
+  <use href="#bubble" transform="translate(760,150) scale(26)"/>
+  <use href="#note" transform="translate(757,161) scale(0.75)"/>
+  <use href="#bubble" transform="translate(690,128) scale(13)"/>
+  <use href="#bubble" transform="translate(726,368) scale(15)"/>
+  <use href="#bubble" transform="translate(806,92) scale(10)"/>
+
+  <!-- nameplate -->
+  <path d="M520,724 H770 L764,768 H512 Z" fill="#22d3e6"/>
+  <text x="534" y="755" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" letter-spacing="8" fill="#07111a">AQUA</text>
+
+  <!-- right column: labels -->
+  <text x="830" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="4" fill="#0b4a55">AQUA · A</text>
+  <text x="830" y="86" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2" fill="#0f86a0">GOLDFISH IDOL (stays a fish)</text>
+  <text font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1c1c24">
+    <tspan x="830" y="118">Hook: the icon's goldfish as an anime idol —</tspan>
+    <tspan x="830" y="137">sparkle eyes, bangs-cut orange crown, fin-hands,</tspan>
+    <tspan x="830" y="156">headphones bigger than ever.</tspan>
+  </text>
+
+  <!-- full body: free-swimming pose, whole double tail -->
+  <g>
+    <ellipse cx="925" cy="500" rx="100" ry="10" fill="#0b4a55" opacity="0.15"/>
+    <g transform="translate(935,335) rotate(-8) scale(0.33) translate(-400,-470)">
+      <path d="M190,440 C120,380 40,320 -40,236 C-20,280 -26,310 -50,330 C-10,350 0,380 -20,410 C40,430 120,460 170,480 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M190,510 C120,560 40,620 -40,720 C-14,700 14,700 30,716 C40,680 60,660 92,662 C110,610 150,560 196,532 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="12" stroke-linejoin="round"/>
+      <path d="M180,450 C120,400 60,350 0,300 M180,500 C120,560 60,620 10,680" fill="none" stroke="#c94612" stroke-width="6" stroke-linecap="round"/>
+      <use href="#AfishCore"/>
+    </g>
+    <text x="925" y="530" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">full body · swimming, tail free</text>
+  </g>
+
+  <!-- silhouette check of the bust -->
+  <rect x="1040" y="250" width="140" height="140" fill="#ffffff" stroke="#b7c9cb"/>
+  <g transform="translate(1048,262) scale(0.165) translate(-60,-90)">
+    <use href="#AbustChar" filter="url(#sil)"/>
+  </g>
+  <text x="1110" y="408" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">bust silhouette</text>
+
+  <!-- palette -->
+  <text x="830" y="612" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0b4a55">PALETTE</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1c1c24" text-anchor="middle">
+    <rect x="830" y="626" width="50" height="50" rx="6" fill="#22d3e6" stroke="#0b4a55" stroke-width="2"/><text x="855" y="694">#22d3e6</text><text x="855" y="708">key cyan</text>
+    <rect x="890" y="626" width="50" height="50" rx="6" fill="#0b4a55" stroke="#0b4a55" stroke-width="2"/><text x="915" y="694">#0b4a55</text><text x="915" y="708">line</text>
+    <rect x="950" y="626" width="50" height="50" rx="6" fill="#ffb320" stroke="#0b4a55" stroke-width="2"/><text x="975" y="694">#ffb320</text><text x="975" y="708">gold</text>
+    <rect x="1010" y="626" width="50" height="50" rx="6" fill="#ff6a1f" stroke="#0b4a55" stroke-width="2"/><text x="1035" y="694">#ff6a1f</text><text x="1035" y="708">fin</text>
+    <rect x="1070" y="626" width="50" height="50" rx="6" fill="#1c1c24" stroke="#0b4a55" stroke-width="2"/><text x="1095" y="694">#1c1c24</text><text x="1095" y="708">phones</text>
+    <rect x="1130" y="626" width="50" height="50" rx="6" fill="#ffffff" stroke="#0b4a55" stroke-width="2"/><text x="1155" y="694">#ffffff</text><text x="1155" y="708">bubble</text>
+  </g>
+  <text x="830" y="748" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">One shadow step per material; cyan rim light on the right.</text>
+</svg>

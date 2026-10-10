@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+<defs>
+<filter id="glow" x="-80%" y="-40%" width="260%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="docglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="12"/></filter>
+<filter id="glowS" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="glowS2" x="-100%" y="-50%" width="300%" height="200%"><feMorphology operator="dilate" radius="0" result="a"/><feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="black" x="-5%" y="-5%" width="110%" height="110%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/></filter>
+<clipPath id="card"><path d="M70 24 L790 24 L730 776 L10 776 Z"/></clipPath>
+<g id="figure"><g transform="translate(0 0)"><path d="M230 590 C180 620 150 680 140 760 L168 744 L172 784 L200 750 L226 776 C222 700 240 650 270 620 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="tbclip"><path d="M230 590 C180 620 150 680 140 760 L168 744 L172 784 L200 750 L226 776 C222 700 240 650 270 620 Z"/></clipPath>
+<g clip-path="url(#tbclip)"><path d="M140 760 C150 680 180 620 230 590 L254 606 C214 650 196 700 190 772 Z" fill="#b9520e"/></g>
+<path d="M100 800 C112 680 160 600 240 580 L600 580 C700 600 744 690 756 800 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="robeclip"><path d="M100 800 C112 680 160 600 240 580 L600 580 C700 600 744 690 756 800 Z"/></clipPath>
+<g clip-path="url(#robeclip)"><path d="M520 540 C640 600 700 690 720 800 L560 800 C580 700 560 620 500 560 Z" fill="#2e1c70"/><path d="M150 800 C160 690 210 600 280 560 C230 620 200 700 196 800 Z" fill="#6c50d0"/><path d="M716 800 C700 700 660 620 600 576" fill="none" stroke="#8e70f2" stroke-width="10"/><g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M330 610 C318 680 300 740 290 800"/><path d="M420 630 C424 700 420 760 418 800"/><path d="M500 620 C520 690 540 750 552 800"/></g></g>
+<g transform="rotate(5 410 560)"><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z" fill="#4b2fa6"/><clipPath id="hoodclip"><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z"/></clipPath><g clip-path="url(#hoodclip)"><path d="M360 50 C520 100 690 260 690 600 L606 600 C626 420 580 220 360 50 Z" fill="#2e1c70"/><path d="M322 72 C270 120 214 220 196 360 C228 260 270 170 332 84 Z" fill="#6c50d0"/><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560" fill="none" stroke="#8e70f2" stroke-width="12"/></g><path d="M330 60 C420 70 560 140 610 280 C650 390 660 480 660 560 C520 580 300 580 160 560 C150 460 160 340 210 240 C250 160 290 100 330 60 Z" fill="none" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/><path d="M334 70 C364 110 396 150 420 186" fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"/><g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M210 470 C214 510 220 540 228 566"/><path d="M630 450 C638 500 640 530 640 566"/></g><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="#2e1c70" stroke="#2e1c70" stroke-width="26" stroke-linejoin="round"/><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="none" stroke="#170c3a" stroke-width="3.5" transform="translate(0 0)" stroke-linejoin="round" style="paint-order:stroke" opacity="0"/><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z" fill="#06030d" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/><path d="M420 168 C478 216 576 290 584 400 C590 478 530 526 446 528" fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"/><clipPath id="openclip"><path d="M420 186 C470 230 560 300 568 400 C574 470 520 512 444 512 C360 512 296 470 294 404 C292 320 370 250 420 186 Z"/></clipPath><g clip-path="url(#openclip)"><g fill="#b892ff" filter="url(#glow)" opacity="0.95"><rect x="385.0" y="330.0" width="30.0" height="92.0" rx="15.0"/><rect x="473.5" y="326.0" width="25.0" height="92.0" rx="12.5"/></g><g fill="#f7f4ff"><rect x="385.0" y="330.0" width="30.0" height="92.0" rx="15.0"/><rect x="473.5" y="326.0" width="25.0" height="92.0" rx="12.5"/></g></g></g>
+<path d="M190 528 C320 580 500 584 650 524 C676 560 672 610 640 632 C500 672 320 666 200 622 C172 590 172 556 190 528 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="scclip"><path d="M190 528 C320 580 500 584 650 524 C676 560 672 610 640 632 C500 672 320 666 200 622 C172 590 172 556 190 528 Z"/></clipPath>
+<g clip-path="url(#scclip)"><path d="M180 600 C320 646 500 650 680 590 L680 700 L180 700 Z" fill="#b9520e"/><path d="M560 600 C600 588 640 570 680 540 L680 510 C640 560 600 576 560 588 Z" fill="#b9520e"/><path d="M214 548 C320 590 460 598 560 580" fill="none" stroke="#ffb15c" stroke-width="8" stroke-linecap="round"/></g>
+<g fill="none" stroke="#170c3a" stroke-width="3.5" stroke-linecap="round"><path d="M290 604 C360 630 450 634 520 620"/><path d="M240 578 C280 596 310 604 340 608"/></g>
+<path d="M566 624 C592 664 616 700 652 730 L664 698 L700 710 L686 678 L712 666 C672 648 642 628 618 608 Z" fill="#f2801f" stroke="#170c3a" stroke-width="7" stroke-linejoin="round"/>
+<clipPath id="tfclip"><path d="M566 624 C592 664 616 700 652 730 L664 698 L700 710 L686 678 L712 666 C672 648 642 628 618 608 Z"/></clipPath>
+<g clip-path="url(#tfclip)"><path d="M596 600 C620 680 640 720 680 790 L720 600 Z" fill="#b9520e"/></g>
+<g transform="rotate(-6 450 520)">
+<rect x="318" y="398" width="262" height="320" rx="16" fill="#b892ff" filter="url(#docglow)" opacity="0.9"/>
+<rect x="326" y="406" width="246" height="304" rx="14" fill="#5a34c4" stroke="#170c3a" stroke-width="7"/>
+<rect x="342" y="422" width="214" height="272" rx="8" fill="#8a62f0" stroke="#d9c8ff" stroke-width="3"/>
+<path d="M342 600 L556 520 L556 694 L342 694 Z" fill="#7a52e4"/>
+<rect x="362" y="442" width="58" height="46" rx="4" fill="#e9defe"/>
+<g stroke="#f3ecff" stroke-width="7" stroke-linecap="round"><path d="M436 452 L534 452"/><path d="M436 476 L510 476"/><path d="M362 516 L534 516"/><path d="M362 542 L520 542"/><path d="M362 568 L534 568"/><path d="M362 594 L490 594"/><path d="M362 620 L534 620"/><path d="M362 646 L470 646"/></g>
+</g>
+<g fill="#b892ff"><circle cx="608" cy="420" r="5"/><circle cx="624" cy="468" r="3"/><circle cx="300" cy="460" r="4"/><circle cx="612" cy="640" r="4"/><circle cx="292" cy="690" r="3"/></g>
+<g transform="translate(326 600) rotate(70) scale(1.15 1.15)"><path d="M-26 -20 C-10 -36 22 -34 34 -18 C44 -4 40 18 26 26 C6 36 -20 30 -30 14 C-38 2 -36 -10 -26 -20 Z" fill="#221a33" stroke="#170c3a" stroke-width="4.5"/><path d="M-18 -18 C-6 -26 10 -26 20 -18" fill="none" stroke="#4a3d66" stroke-width="5" stroke-linecap="round"/><path d="M-4 -30 C0 -12 0 8 -4 28 M14 -30 C18 -12 18 8 14 28" fill="none" stroke="#170c3a" stroke-width="2.5" stroke-linecap="round"/><path d="M30 -8 C46 -14 56 2 44 14 C40 18 34 18 30 14" fill="#221a33" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/></g>
+<g transform="translate(578 586) rotate(-70) scale(-1.15 1.15)"><path d="M-26 -20 C-10 -36 22 -34 34 -18 C44 -4 40 18 26 26 C6 36 -20 30 -30 14 C-38 2 -36 -10 -26 -20 Z" fill="#221a33" stroke="#170c3a" stroke-width="4.5"/><path d="M-18 -18 C-6 -26 10 -26 20 -18" fill="none" stroke="#4a3d66" stroke-width="5" stroke-linecap="round"/><path d="M-4 -30 C0 -12 0 8 -4 28 M14 -30 C18 -12 18 8 14 28" fill="none" stroke="#170c3a" stroke-width="2.5" stroke-linecap="round"/><path d="M30 -8 C46 -14 56 2 44 14 C40 18 34 18 30 14" fill="#221a33" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/></g></g></g>
+</defs>
+<rect width="1200" height="800" fill="#f2eee8"/>
+<g clip-path="url(#card)">
+<path d="M70 24 L790 24 L730 776 L10 776 Z" fill="#e7e1f1"/>
+<path d="M520 24 L790 24 L730 776 L440 776 Z" fill="#dcd3ee"/>
+<use href="#figure"/>
+</g>
+<path d="M70 24 L790 24 L730 776 L10 776 Z" fill="none" stroke="#4b2fa6" stroke-width="6" stroke-linejoin="miter"/>
+<path d="M10 728 L250 728 L246 776 L10 776 Z" fill="#4b2fa6"/>
+<text x="34" y="762" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="7" fill="#f7f4ff">VOID</text>
+<text x="830" y="60" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="6" fill="#170c3a">VOID / B</text>
+<text x="830" y="86" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#b9520e">READING THE RULES</text>
+<g transform="translate(935 470) scale(1.42)"><path d="M-34 -110 C-50 -96 -58 -76 -60 -50 L-50 -56 L-48 -42 L-40 -54 L-30 -46 C-32 -66 -26 -84 -16 -98 Z" fill="#f2801f" stroke="#170c3a" stroke-width="3" stroke-linejoin="round"/>
+<ellipse cx="0" cy="4" rx="78" ry="7" fill="#d6cfe4"/>
+<ellipse cx="-20" cy="0" rx="13" ry="7" fill="#2e1c70" stroke="#170c3a" stroke-width="2.5"/>
+<ellipse cx="22" cy="0" rx="13" ry="7" fill="#2e1c70" stroke="#170c3a" stroke-width="2.5"/>
+<path d="M-44 -114 L48 -114 C64 -76 74 -36 82 -2 L68 -10 L58 4 L44 -8 L30 6 L16 -6 L2 6 L-12 -6 L-26 6 L-40 -8 L-54 4 L-68 -10 L-78 -2 C-70 -40 -62 -80 -44 -114 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M20 -100 C40 -70 54 -36 60 0 L44 -8 L34 4 C30 -40 26 -70 14 -100 Z" fill="#2e1c70"/>
+<g fill="none" stroke="#170c3a" stroke-width="1.8" stroke-linecap="round"><path d="M-10 -90 L-20 -10"/><path d="M8 -86 L12 -10"/></g>
+<path d="M-6 -246 C20 -230 44 -206 54 -176 C62 -152 66 -130 68 -108 L-62 -108 C-62 -140 -50 -180 -30 -210 C-22 -224 -14 -236 -6 -246 Z" fill="#4b2fa6" stroke="#170c3a" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M0 -244 C40 -214 66 -170 64 -110 L50 -110 C54 -170 34 -210 0 -244 Z" fill="#2e1c70"/>
+<path d="M14 -206 C24 -192 46 -176 48 -152 C50 -134 36 -124 16 -124 C-6 -124 -24 -134 -24 -152 C-24 -174 4 -192 14 -206 Z" fill="#06030d" stroke="#2e1c70" stroke-width="5"/>
+<g fill="#f7f4ff" filter="url(#glowS2)"><rect x="-4" y="-172" width="10" height="28" rx="5"/><rect x="20" y="-173" width="8" height="28" rx="4"/></g>
+<path d="M-50 -118 C-20 -104 30 -104 58 -118 C62 -108 60 -98 54 -94 C24 -84 -20 -84 -48 -94 C-54 -102 -54 -110 -50 -118 Z" fill="#f2801f" stroke="#170c3a" stroke-width="3"/>
+<path d="M30 -96 C34 -80 36 -66 34 -52 L44 -60 L50 -50 L52 -64 C48 -76 44 -86 42 -98 Z" fill="#b9520e" stroke="#170c3a" stroke-width="2.5"/>
+<rect x="-6" y="-150" width="44" height="58" rx="5" fill="#b892ff" filter="url(#glowS)"/>
+<rect x="-4" y="-148" width="40" height="54" rx="4" fill="#8a62f0" stroke="#170c3a" stroke-width="2.5"/>
+<g stroke="#f3ecff" stroke-width="2.5" stroke-linecap="round"><path d="M4 -132 L28 -132"/><path d="M4 -122 L24 -122"/><path d="M4 -112 L28 -112"/><path d="M4 -102 L20 -102"/></g>
+<circle cx="-4" cy="-110" r="7" fill="#221a33" stroke="#170c3a" stroke-width="2"/>
+<circle cx="38" cy="-112" r="7" fill="#221a33" stroke="#170c3a" stroke-width="2"/></g>
+<text x="830" y="508" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">FULL BODY 2.5 HEADS</text>
+<g filter="url(#black)"><g transform="translate(1032 100) scale(0.2)"><g clip-path="url(#card)"><use href="#figure"/></g></g></g>
+<text x="1040" y="272" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">SILHOUETTE</text>
+<g filter="url(#black)"><g transform="translate(1059.3 294.4) scale(0.0667)"><g clip-path="url(#card)"><use href="#figure"/></g></g></g>
+<text x="1120" y="326" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">48 PX</text>
+<text x="830" y="548" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">HOOK</text>
+<text x="830" y="572" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#170c3a">The glowing rulebook raised to the void;</text>
+<text x="830" y="592" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#170c3a">only the eyes clear its top edge.</text>
+<text x="830" y="640" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" letter-spacing="2" fill="#5b5470">PALETTE</text>
+<rect x="830" y="656" width="40" height="40" rx="6" fill="#4b2fa6" stroke="#170c3a" stroke-width="2"/>
+<text x="878" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#4b2fa6</text>
+<text x="878" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">robe, key</text>
+<rect x="950" y="656" width="40" height="40" rx="6" fill="#170c3a" stroke="#170c3a" stroke-width="2"/>
+<text x="998" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#170c3a</text>
+<text x="998" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">line / deep</text>
+<rect x="1070" y="656" width="40" height="40" rx="6" fill="#06030d" stroke="#170c3a" stroke-width="2"/>
+<text x="1118" y="672" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#06030d</text>
+<text x="1118" y="689" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">void face</text>
+<rect x="830" y="722" width="40" height="40" rx="6" fill="#f7f4ff" stroke="#170c3a" stroke-width="2"/>
+<text x="878" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#f7f4ff</text>
+<text x="878" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">eye light</text>
+<rect x="950" y="722" width="40" height="40" rx="6" fill="#f2801f" stroke="#170c3a" stroke-width="2"/>
+<text x="998" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#f2801f</text>
+<text x="998" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">scarf orange</text>
+<rect x="1070" y="722" width="40" height="40" rx="6" fill="#b892ff" stroke="#170c3a" stroke-width="2"/>
+<text x="1118" y="738" font-family="Consolas, monospace" font-size="12" fill="#170c3a">#b892ff</text>
+<text x="1118" y="755" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="11" fill="#5b5470">glow violet</text>
+</svg>

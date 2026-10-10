@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Eureka, direction A: The Spark</title>
+  <defs>
+    <filter id="sil" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="-200" y="-200" width="1200" height="980"/></clipPath>
+
+    <!-- eye openings -->
+    <clipPath id="eyeL"><path d="M268 440 C278 410 338 398 378 416 C384 448 378 480 362 496 C332 506 296 504 280 490 C270 474 266 456 268 440 Z"/></clipPath>
+    <clipPath id="eyeR"><path d="M454 432 C472 410 514 404 534 420 C540 450 534 480 522 494 C500 504 472 502 460 490 C452 470 450 450 454 432 Z"/></clipPath>
+
+    <!-- the wrench, local axis along +x, jaw at the far end -->
+    <g id="wrench">
+      <path d="M0 -17 L388 -21 L388 21 L0 17 C-22 17 -22 -17 0 -17 Z" fill="#cfd6dd" stroke="#4a1e05" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M8 6 L380 8 L380 19 L4 15 Z" fill="#8f9aa5"/>
+      <rect x="40" y="-8" width="230" height="16" rx="8" fill="#8f9aa5" stroke="#4a1e05" stroke-width="3"/>
+      <path d="M372 -30 C394 -64 460 -72 492 -46 L478 -14 L440 -14 L440 14 L478 14 L492 46 C460 72 394 64 372 30 Z" fill="#cfd6dd" stroke="#4a1e05" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M380 22 C400 52 452 60 484 40 L478 30 C450 46 404 40 386 14 Z" fill="#8f9aa5"/>
+      <rect x="396" y="-24" width="22" height="48" rx="4" fill="#8f9aa5" stroke="#4a1e05" stroke-width="3"/>
+      <path d="M402 -18 V18 M410 -18 V18" stroke="#4a1e05" stroke-width="2"/>
+      <path d="M384 -34 C404 -56 448 -60 470 -46" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <!-- HEAD: back hair -->
+    <g id="hairBack">
+      <path d="M198 362 C178 232 268 128 396 122 C528 118 618 214 606 348 C602 420 592 480 578 538 L550 506 L542 566 L508 524 L300 526 L266 566 L254 516 L220 548 C204 484 198 424 198 362 Z" fill="#e8642a" stroke="#4a1e05" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M560 300 C590 360 590 450 572 522 L550 506 L542 566 L520 540 C560 470 570 380 560 300 Z" fill="#b8471c"/>
+    </g>
+
+    <!-- HEAD: the spark ahoge -->
+    <g id="spark" transform="translate(410,150) rotate(12) scale(1.2) translate(-410,-150)">
+      <path d="M378 158 C392 120 420 76 440 38 L402 50 C428 4 452 -36 476 -64 C470 -30 462 -2 456 22 L498 12 C478 64 452 112 428 156 Z" fill="#ff8a2a" stroke="#4a1e05" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M412 150 C428 112 446 76 462 46 L448 28 L478 20 C462 60 444 104 428 154 Z" fill="#e8642a"/>
+      <path d="M404 128 L424 80 L410 84 L446 18 L440 50 L456 46 L430 104" fill="none" stroke="#59b7ff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M404 128 L424 80 L410 84 L446 18 L440 50 L456 46 L430 104" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <g stroke="#59b7ff" stroke-width="5" stroke-linecap="round">
+        <path d="M500 -40 L524 -52 M506 -20 L532 -18 M496 -62 L508 -84"/>
+        <path d="M368 40 L344 30 M372 66 L348 72 M384 14 L370 -6"/>
+      </g>
+      <g fill="#59b7ff" stroke="#4a1e05" stroke-width="2.5">
+        <path d="M528 34 L534 46 L546 52 L534 58 L528 70 L522 58 L510 52 L522 46 Z"/>
+        <path d="M336 -14 L340 -4 L350 0 L340 4 L336 14 L332 4 L322 0 L332 -4 Z"/>
+      </g>
+    </g>
+
+    <!-- HEAD: face, features, front hair -->
+    <g id="headFront">
+      <!-- face -->
+      <path d="M212 300 C204 400 238 492 320 548 C364 578 414 596 448 586 C488 572 532 522 556 450 C570 404 574 350 566 300 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="8" stroke-linejoin="round"/>
+      <!-- face shadow: under bangs and the far cheek -->
+      <path d="M216 360 L256 400 L270 340 L322 384 L346 330 L398 392 L424 326 L470 386 L486 330 L540 396 L548 334 L568 380 C570 340 568 320 566 300 L212 300 Z" fill="#f2b089"/>
+      <path d="M560 400 C552 470 520 528 460 566 C500 552 544 510 558 452 Z" fill="#f2b089"/>
+      <!-- rim light, away from the light -->
+      <path d="M561 330 C566 400 548 470 506 530" fill="none" stroke="#ff8a2a" stroke-width="5" stroke-linecap="round"/>
+      <!-- blush -->
+      <ellipse cx="300" cy="514" rx="30" ry="12" fill="#ff8a2a" opacity="0.28"/>
+      <ellipse cx="508" cy="508" rx="22" ry="11" fill="#ff8a2a" opacity="0.28"/>
+      <path d="M286 512 l8 -8 M300 514 l8 -8 M314 514 l8 -8" stroke="#e8642a" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- near eye -->
+      <path d="M268 440 C278 410 338 398 378 416 C384 448 378 480 362 496 C332 506 296 504 280 490 C270 474 266 456 268 440 Z" fill="#ffffff"/>
+      <g clip-path="url(#eyeL)">
+        <path d="M268 410 L390 410 L390 438 C350 424 300 426 268 446 Z" fill="#dfe7f0"/>
+        <ellipse cx="334" cy="456" rx="40" ry="52" fill="#ff8a2a" stroke="#4a1e05" stroke-width="3.5"/>
+        <path d="M294 456 A40 52 0 0 1 374 456 C356 444 312 444 294 456 Z" fill="#b8471c"/>
+        <ellipse cx="336" cy="486" rx="26" ry="14" fill="#ffc27a"/>
+        <ellipse cx="336" cy="458" rx="15" ry="22" fill="#4a1e05"/>
+        <ellipse cx="316" cy="436" rx="13" ry="17" fill="#ffffff"/>
+        <circle cx="352" cy="482" r="6" fill="#ffffff"/>
+      </g>
+      <path d="M260 452 C266 408 336 386 386 410 L402 398 L396 420 L386 426 C340 406 288 416 270 456 Z" fill="#4a1e05"/>
+      <path d="M258 452 L248 444 M262 438 L250 426" stroke="#4a1e05" stroke-width="5" stroke-linecap="round"/>
+      <path d="M292 498 C312 506 340 506 360 496" fill="none" stroke="#4a1e05" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- far eye -->
+      <path d="M454 432 C472 410 514 404 534 420 C540 450 534 480 522 494 C500 504 472 502 460 490 C452 470 450 450 454 432 Z" fill="#ffffff"/>
+      <g clip-path="url(#eyeR)">
+        <path d="M450 404 L545 404 L545 430 C514 414 476 418 450 440 Z" fill="#dfe7f0"/>
+        <ellipse cx="498" cy="456" rx="32" ry="50" fill="#ff8a2a" stroke="#4a1e05" stroke-width="3.5"/>
+        <path d="M466 456 A32 50 0 0 1 530 456 C516 444 480 444 466 456 Z" fill="#b8471c"/>
+        <ellipse cx="500" cy="486" rx="20" ry="13" fill="#ffc27a"/>
+        <ellipse cx="500" cy="458" rx="12" ry="21" fill="#4a1e05"/>
+        <ellipse cx="484" cy="436" rx="10" ry="15" fill="#ffffff"/>
+        <circle cx="512" cy="482" r="5" fill="#ffffff"/>
+      </g>
+      <path d="M448 444 C462 404 520 396 544 418 L558 410 L552 430 C522 408 474 414 456 448 Z" fill="#4a1e05"/>
+      <path d="M470 496 C488 504 506 502 520 494" fill="none" stroke="#4a1e05" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- brows: the near one raised, wry -->
+      <path d="M282 384 C300 362 336 356 362 366" fill="none" stroke="#4a1e05" stroke-width="6" stroke-linecap="round"/>
+      <path d="M466 380 C484 372 508 372 526 382" fill="none" stroke="#4a1e05" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- nose and crooked half-smile -->
+      <path d="M444 498 L438 510 L448 510" fill="none" stroke="#c4561f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M414 536 C432 544 452 542 472 526" fill="none" stroke="#4a1e05" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M468 520 L478 530" stroke="#4a1e05" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- front hair: messy bangs -->
+      <path d="M194 372 C186 238 280 146 402 144 C522 142 614 228 606 362 L592 404 C580 368 566 346 552 330 L542 392 C524 356 504 334 486 322 L470 384 C456 348 442 330 424 320 L398 392 C384 352 364 330 346 322 L322 380 C306 352 288 336 270 334 L262 398 C252 386 242 376 234 368 L226 470 C204 436 194 404 194 372 Z" fill="#e8642a" stroke="#4a1e05" stroke-width="8" stroke-linejoin="round"/>
+      <!-- hair shadow on the far side -->
+      <path d="M506 158 C560 180 600 240 606 330 L592 404 C580 368 566 346 552 330 L542 392 C524 356 504 334 486 322 C520 290 530 220 506 158 Z" fill="#b8471c"/>
+      <!-- inner clump lines -->
+      <path d="M300 220 C290 270 286 310 292 340 M372 190 C360 240 356 290 364 326 M460 190 C474 230 478 280 470 316" fill="none" stroke="#4a1e05" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- one hair highlight, in the key colour -->
+      <path d="M262 236 C290 198 340 178 380 176 L372 196 L356 192 L344 208 C320 210 290 222 262 236 Z" fill="#ff8a2a"/>
+      <path d="M400 174 C420 172 440 174 456 180 L446 194 L432 188 L418 200 L404 190 Z" fill="#ff8a2a"/>
+      <!-- near sideburn lock edge line -->
+      <path d="M236 376 C230 410 230 440 226 470" fill="none" stroke="#4a1e05" stroke-width="3.5"/>
+      <!-- tiny hair clip: a brand-blue spark pin -->
+      <path d="M248 306 L262 292 L258 306 L274 302 L258 322 L262 308 Z" fill="#59b7ff" stroke="#4a1e05" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+
+    <!-- BUST torso -->
+    <g id="torsoA">
+      <!-- neck -->
+      <path d="M362 556 L364 630 C390 646 420 646 446 630 L448 552 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M364 572 C392 596 424 596 448 566 L448 600 C420 618 392 616 364 600 Z" fill="#f2b089"/>
+      <!-- shoulders -->
+      <path d="M364 616 C320 636 246 644 210 680 C190 704 178 740 170 800 L640 800 C634 740 622 706 602 684 C574 654 496 636 448 614 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M560 650 C590 666 612 700 624 800 L560 800 C566 730 572 690 560 650 Z" fill="#f2b089"/>
+      <!-- tank top -->
+      <path d="M186 800 C198 736 226 700 248 670 L292 658 C312 700 354 718 406 718 C458 718 500 698 520 658 L562 668 C580 696 604 740 614 800 Z" fill="#ff8a2a" stroke="#4a1e05" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M520 658 L562 668 C580 696 604 740 614 800 L548 800 C548 730 536 690 520 658 Z" fill="#e8642a"/>
+      <path d="M300 690 C340 724 380 732 430 730" fill="none" stroke="#4a1e05" stroke-width="3"/>
+      <!-- collarbones -->
+      <path d="M318 650 C340 660 360 662 376 658 M436 660 C452 664 474 662 494 652" fill="none" stroke="#c4561f" stroke-width="3" stroke-linecap="round"/>
+      <!-- tank front mark: a small navy bolt -->
+      <path d="M404 744 L420 726 L414 744 L428 740 L410 764 L414 748 Z" fill="#07111a"/>
+      <!-- rim light on the far shoulder -->
+      <path d="M576 664 C600 684 614 716 620 760" fill="none" stroke="#ff8a2a" stroke-width="4"/>
+    </g>
+
+    <!-- the gloved fist on the wrench -->
+    <g id="fistA">
+      <path d="M196 800 C200 760 214 726 236 704 L282 716 C266 744 256 772 254 800 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M262 716 L282 716 C266 744 256 772 254 800 L232 800 C238 770 248 740 262 716 Z" fill="#f2b089"/>
+      <g transform="translate(261,680) rotate(-22)">
+        <rect x="-36" y="44" width="62" height="22" rx="8" fill="#1f3550" stroke="#4a1e05" stroke-width="6"/>
+        <rect x="-34" y="-34" width="58" height="22" rx="11" fill="#1f3550" stroke="#4a1e05" stroke-width="6"/>
+        <rect x="-38" y="-14" width="62" height="22" rx="11" fill="#1f3550" stroke="#4a1e05" stroke-width="6"/>
+        <rect x="-38" y="6" width="62" height="22" rx="11" fill="#1f3550" stroke="#4a1e05" stroke-width="6"/>
+        <rect x="-34" y="26" width="56" height="22" rx="11" fill="#1f3550" stroke="#4a1e05" stroke-width="6"/>
+        <path d="M18 -36 C40 -40 52 -24 46 -8 C42 4 30 6 22 0 Z" fill="#1f3550" stroke="#4a1e05" stroke-width="6" stroke-linejoin="round"/>
+        <path d="M-30 -28 C-30 -10 -32 10 -30 36" fill="none" stroke="#59b7ff" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+      </g>
+    </g>
+
+    <g id="bustA">
+      <use href="#wrench" transform="translate(318,820) rotate(-112)"/>
+      <use href="#hairBack"/>
+      <use href="#spark"/>
+      <use href="#torsoA"/>
+      <use href="#headFront"/>
+      <use href="#fistA"/>
+    </g>
+  </defs>
+
+  <!-- sheet -->
+  <rect width="1200" height="800" fill="#f4efe7"/>
+
+  <!-- dialogue card (context only) -->
+  <polygon points="74,46 786,46 740,780 20,780" fill="#07111a"/>
+  <polygon points="74,46 786,46 740,780 20,780" fill="none" stroke="#ff8a2a" stroke-width="5"/>
+  <path d="M86 58 L120 58 L90 520" fill="none" stroke="#59b7ff" stroke-width="2" opacity="0.5"/>
+
+  <g clip-path="url(#cardClip)">
+    <use href="#bustA" transform="translate(66,94) scale(0.86)"/>
+  </g>
+
+  <!-- nameplate -->
+  <polygon points="484,704 744,704 741,752 478,752" fill="#ff8a2a"/>
+  <text x="510" y="739" font-family="Consolas, 'Courier New', monospace" font-size="30" font-weight="700" letter-spacing="8" fill="#07111a">EUREKA</text>
+
+  <!-- right column -->
+  <text x="812" y="66" font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" letter-spacing="4" fill="#4a1e05">EUREKA / A / THE SPARK</text>
+  <text x="812" y="94" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#4a1e05">Hook: one huge lightning-spark ahoge springs</text>
+  <text x="812" y="113" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#4a1e05">from her crown; a big wrench rides her shoulder.</text>
+
+  <!-- full body chibi, 2.5 heads -->
+  <g id="fullA" transform="translate(0,34)">
+    <!-- wrench behind -->
+    <use href="#wrench" transform="translate(922,432) rotate(-116) scale(0.42)"/>
+    <use href="#hairBack" transform="translate(768,118) scale(0.36)"/>
+    <use href="#spark" transform="translate(768,118) scale(0.36)"/>
+    <!-- back arm (far), hanging -->
+    <path d="M944 352 C960 372 966 400 962 428 C958 440 944 440 942 428 C942 404 938 380 930 364 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="952" cy="432" r="10" fill="#1f3550" stroke="#4a1e05" stroke-width="4"/>
+    <!-- legs: navy jumpsuit -->
+    <path d="M866 424 L940 424 L946 540 L912 542 L906 470 L900 542 L864 540 Z" fill="#1f3550" stroke="#4a1e05" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M920 430 L940 424 L946 540 L926 540 Z" fill="#07111a"/>
+    <!-- boots -->
+    <path d="M860 534 L902 534 L904 566 L848 566 C848 552 852 540 860 534 Z" fill="#4a1e05"/>
+    <path d="M910 534 L948 534 C958 542 962 556 962 566 L908 566 Z" fill="#4a1e05"/>
+    <path d="M852 556 L902 556 M912 556 L960 556" stroke="#ff8a2a" stroke-width="3"/>
+    <!-- tank torso -->
+    <path d="M870 344 C886 334 926 334 940 344 L944 418 L866 418 Z" fill="#ff8a2a" stroke="#4a1e05" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M920 342 C932 340 940 344 940 344 L944 418 L924 418 Z" fill="#e8642a"/>
+    <!-- jumpsuit top tied at the waist -->
+    <path d="M860 412 L948 412 L950 432 L858 432 Z" fill="#1f3550" stroke="#4a1e05" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M880 426 C870 450 862 474 858 494 L874 496 C878 474 884 452 894 430 Z" fill="#1f3550" stroke="#4a1e05" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="888" cy="424" r="9" fill="#1f3550" stroke="#4a1e05" stroke-width="4"/>
+    <!-- neck -->
+    <path d="M892 322 L894 340 L916 340 L918 322 Z" fill="#f2b089" stroke="#4a1e05" stroke-width="3"/>
+    <use href="#headFront" transform="translate(768,118) scale(0.36)"/>
+    <!-- near arm raised to the wrench on the shoulder -->
+    <path d="M870 350 C852 360 846 380 856 392 C866 398 874 386 878 372 Z" fill="#ffd6a8" stroke="#4a1e05" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="858" cy="380" r="11" fill="#1f3550" stroke="#4a1e05" stroke-width="4"/>
+  </g>
+  <text x="856" y="618" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a1e05">full body, 2.5 heads</text>
+
+  <!-- silhouette check -->
+  <rect x="1012" y="140" width="168" height="200" fill="#ffffff" stroke="#d8cfc2"/>
+  <g filter="url(#sil)"><use href="#bustA" transform="translate(1028,160) scale(0.2)"/></g>
+  <text x="1016" y="356" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a1e05">bust silhouette</text>
+  <rect x="1012" y="372" width="64" height="64" fill="#ffffff" stroke="#d8cfc2"/>
+  <g filter="url(#sil)"><use href="#bustA" transform="translate(1022,380) scale(0.06)"/></g>
+  <text x="1086" y="410" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a1e05">at 48 px</text>
+
+  <!-- palette -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#4a1e05">
+    <rect x="812" y="630" width="52" height="52" fill="#ff8a2a" stroke="#4a1e05" stroke-width="2"/><text x="812" y="698">#ff8a2a</text><text x="812" y="712">ember</text>
+    <rect x="874" y="630" width="52" height="52" fill="#e8642a" stroke="#4a1e05" stroke-width="2"/><text x="874" y="698">#e8642a</text><text x="874" y="712">copper</text>
+    <rect x="936" y="630" width="52" height="52" fill="#4a1e05" stroke="#4a1e05" stroke-width="2"/><text x="936" y="698">#4a1e05</text><text x="936" y="712">line</text>
+    <rect x="998" y="630" width="52" height="52" fill="#07111a" stroke="#4a1e05" stroke-width="2"/><text x="998" y="698">#07111a</text><text x="998" y="712">navy</text>
+    <rect x="1060" y="630" width="52" height="52" fill="#ffd6a8" stroke="#4a1e05" stroke-width="2"/><text x="1060" y="698">#ffd6a8</text><text x="1060" y="712">skin</text>
+    <rect x="1122" y="630" width="52" height="52" fill="#59b7ff" stroke="#4a1e05" stroke-width="2"/><text x="1122" y="698">#59b7ff</text><text x="1122" y="712">spark</text>
+  </g>
+  <text x="812" y="740" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a1e05">Shadows are darks of each base; wrench steel #cfd6dd is the one neutral.</text>
+  <text x="812" y="758" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a1e05">Shape: a circle cut by one zigzag. Circle, bolt, bar.</text>
+</svg>

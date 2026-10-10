@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+<!-- Libby, Direction A: The Card Catalogue. Hand-authored proposal sheet. -->
+<defs>
+  <filter id="outline" x="-10%" y="-10%" width="120%" height="120%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="3.2" result="d"/>
+    <feFlood flood-color="#0f3d27"/>
+    <feComposite in2="d" operator="in" result="o"/>
+    <feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="sil" x="-10%" y="-10%" width="120%" height="120%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="3.2" result="d"/>
+    <feColorMatrix in="d" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
+  </filter>
+  <radialGradient id="glow" cx="0.45" cy="0.42" r="0.6">
+    <stop offset="0" stop-color="#14402a"/>
+    <stop offset="1" stop-color="#07111a"/>
+  </radialGradient>
+  <clipPath id="chest"><rect x="-200" y="-100" width="1100" height="890"/></clipPath>
+
+  <!-- ===== back hair: long blunt hime cut ===== -->
+  <g id="backhair" stroke="#0f3d27" stroke-width="3" stroke-linejoin="round">
+    <path d="M150 290 C118 400 112 600 104 790 L522 790 C510 600 498 400 472 290 Z" fill="#2a2340"/>
+    <path d="M440 330 C470 450 482 620 490 790 L522 790 C510 600 498 400 472 290 Z" fill="#1a1530" stroke="none"/>
+    <path d="M478 330 C494 450 506 620 514 785" fill="none" stroke="#2fbf71" stroke-width="4"/>
+  </g>
+
+  <!-- ===== head front: face, features, sidelocks, fringe, glasses, hat ===== -->
+  <g id="headfront" stroke-linejoin="round" stroke-linecap="round">
+    <!-- far sidelock (behind face) -->
+    <path d="M440 318 L482 318 C488 420 494 540 500 640 L446 640 Z" fill="#2a2340" stroke="#0f3d27" stroke-width="3"/>
+    <path d="M488 380 C492 470 496 560 499 636" fill="none" stroke="#2fbf71" stroke-width="4"/>
+    <!-- face -->
+    <path d="M148 320 C143 420 162 502 214 550 C254 580 300 596 338 595 C378 592 420 566 441 520 C453 494 463 470 463 440 C470 400 468 360 456 316 Z" fill="#f3c9a8" stroke="#0f3d27" stroke-width="3"/>
+    <!-- skin shadows: under fringe, far cheek -->
+    <path d="M152 402 L464 394 L464 418 C400 410 300 418 156 434 Z" fill="#e3a98a"/>
+    <path d="M446 405 C460 455 452 515 406 574 C440 548 456 500 448 460 Z" fill="#e3a98a"/>
+    <path d="M444 470 C452 500 446 530 428 556" fill="none" stroke="#2fbf71" stroke-width="3.5"/>
+    <g transform="translate(0 12)">
+    <!-- blush -->
+    <ellipse cx="246" cy="522" rx="26" ry="9" fill="#ee9a92" opacity="0.55"/>
+    <ellipse cx="410" cy="522" rx="17" ry="8" fill="#ee9a92" opacity="0.55"/>
+    <path d="M232 518 l6 -8 M244 520 l6 -8 M256 521 l6 -8" stroke="#d9786e" stroke-width="2" opacity="0.7"/>
+
+    <!-- near eye -->
+    <clipPath id="eyeN"><path d="M212 446 C230 424 282 418 308 436 L305 500 C286 516 244 518 222 506 Z"/></clipPath>
+    <path d="M212 446 C230 424 282 418 308 436 L305 500 C286 516 244 518 222 506 Z" fill="#ffffff"/>
+    <g clip-path="url(#eyeN)">
+      <ellipse cx="264" cy="470" rx="34" ry="46" fill="#2fbf71" stroke="#0f3d27" stroke-width="3"/>
+      <path d="M226 424 L304 424 L304 458 C290 448 240 448 226 458 Z" fill="#0f3d27" opacity="0.85"/>
+      <path d="M238 492 C250 510 280 510 292 492 C282 500 248 500 238 492 Z" fill="#9be8bd"/>
+      <ellipse cx="265" cy="472" rx="13" ry="21" fill="#0f3d27"/>
+    </g>
+    <ellipse cx="250" cy="455" rx="11" ry="14" fill="#fff"/>
+    <circle cx="282" cy="492" r="5" fill="#fff"/>
+    <path d="M206 452 C222 422 280 410 312 434" fill="none" stroke="#0f3d27" stroke-width="7"/>
+    <path d="M208 448 L196 440 L210 442 Z M212 440 L201 428 L216 434 Z" fill="#0f3d27" stroke="#0f3d27" stroke-width="2"/>
+    <path d="M226 508 C250 518 284 516 300 502" fill="none" stroke="#0f3d27" stroke-width="2.5"/>
+
+    <!-- far eye -->
+    <clipPath id="eyeF"><path d="M362 438 C378 422 410 420 428 436 L427 496 C413 509 381 511 367 499 Z"/></clipPath>
+    <path d="M362 438 C378 422 410 420 428 436 L427 496 C413 509 381 511 367 499 Z" fill="#ffffff"/>
+    <g clip-path="url(#eyeF)">
+      <ellipse cx="394" cy="470" rx="26" ry="45" fill="#2fbf71" stroke="#0f3d27" stroke-width="3"/>
+      <path d="M362 424 L430 424 L430 458 C418 448 378 448 362 458 Z" fill="#0f3d27" opacity="0.85"/>
+      <path d="M375 492 C384 508 404 508 413 492 C405 499 383 499 375 492 Z" fill="#9be8bd"/>
+      <ellipse cx="395" cy="472" rx="10" ry="20" fill="#0f3d27"/>
+    </g>
+    <ellipse cx="384" cy="455" rx="8" ry="12" fill="#fff"/>
+    <circle cx="405" cy="491" r="4" fill="#fff"/>
+    <path d="M358 440 C376 418 412 416 432 436" fill="none" stroke="#0f3d27" stroke-width="6.5"/>
+    <path d="M430 434 L441 428 L433 440 Z" fill="#0f3d27" stroke="#0f3d27" stroke-width="2"/>
+    <path d="M370 502 C386 510 410 510 423 500" fill="none" stroke="#0f3d27" stroke-width="2.5"/>
+
+    <!-- nose and mouth: knowing half-smile -->
+    <path d="M352 482 L357 492 L350 494" fill="none" stroke="#c27d62" stroke-width="2.5"/>
+    <path d="M326 527 C338 533 352 532 366 520" fill="none" stroke="#0f3d27" stroke-width="3"/>
+    <path d="M366 520 l5 -3" stroke="#0f3d27" stroke-width="2.5"/>
+
+    <!-- glasses: small square brass frames -->
+    <g fill="none">
+      <path d="M200 440 L150 432" stroke="#0f3d27" stroke-width="6"/>
+      <path d="M200 440 L150 432" stroke="#c8903a" stroke-width="2.5"/>
+      <rect x="200" y="416" width="116" height="96" rx="9" stroke="#0f3d27" stroke-width="7"/>
+      <rect x="200" y="416" width="116" height="96" rx="9" stroke="#c8903a" stroke-width="3"/>
+      <path d="M352 418 L434 416 L434 510 L355 512 Z" stroke="#0f3d27" stroke-width="7"/>
+      <path d="M352 418 L434 416 L434 510 L355 512 Z" stroke="#c8903a" stroke-width="3"/>
+      <path d="M316 448 C328 438 342 438 352 448" stroke="#0f3d27" stroke-width="6"/>
+      <path d="M316 448 C328 438 342 438 352 448" stroke="#c8903a" stroke-width="2.5"/>
+      <path d="M212 498 L246 426 M226 504 L252 448" stroke="#ffffff" stroke-width="5" opacity="0.5"/>
+      <path d="M364 498 L392 426" stroke="#ffffff" stroke-width="5" opacity="0.5"/>
+    </g>
+
+    </g>
+    <!-- near sidelock (in front of face) -->
+    <path d="M136 310 C130 420 132 540 126 642 L202 642 C199 560 192 470 196 390 L178 312 Z" fill="#2a2340" stroke="#0f3d27" stroke-width="3"/>
+    <path d="M178 330 C186 420 190 520 188 640 L202 642 C199 560 192 470 196 390 Z" fill="#1a1530"/>
+    <!-- fringe: blunt, straight -->
+    <path d="M126 340 C124 240 214 188 318 188 C424 188 494 240 490 340 L470 396 L150 404 Z" fill="#2a2340" stroke="#0f3d27" stroke-width="3"/>
+    <path d="M150 404 L470 396 L470 382 L150 390 Z" fill="#1a1530"/>
+    <path d="M236 360 L236 402 M300 356 L300 400 M372 356 L372 398 M430 358 L430 396" stroke="#1a1530" stroke-width="3"/>
+    <!-- squared hair highlight (one highlight tone) -->
+    <path d="M158 346 C230 326 400 322 474 342 L472 356 C400 338 230 340 160 362 Z" fill="#4a4170"/>
+    <path d="M236 330 L236 350 M300 324 L300 344 M372 324 L372 344 M430 330 L430 348" stroke="#2a2340" stroke-width="5"/>
+    <path d="M470 330 L470 386" stroke="#2fbf71" stroke-width="4"/>
+    <!-- brows over the fringe: near level, far raised (specimen) -->
+    <path d="M226 392 C246 384 276 384 296 390" fill="none" stroke="#2a2340" stroke-width="6"/>
+    <path d="M366 380 C380 366 408 364 426 374" fill="none" stroke="#2a2340" stroke-width="6"/>
+
+    <!-- ===== hat: stack of card-catalogue drawers ===== -->
+    <g transform="translate(0 42) rotate(-4 330 270)" stroke="#0f3d27" stroke-width="3">
+      <!-- top and side faces -->
+      <path d="M170 18 L400 18 L445 30 L215 30 Z" fill="#7ddca5"/>
+      <path d="M170 18 L215 30 L215 272 L170 260 Z" fill="#1f8f52"/>
+      <path d="M215 90 L170 78 M215 150 L170 138 M215 210 L170 198" fill="none" stroke-width="2.5"/>
+      <!-- front face -->
+      <rect x="215" y="30" width="230" height="242" fill="#2fbf71"/>
+      <path d="M215 90 L445 90 M215 150 L445 150 M215 210 L445 210 M330 30 L330 272" fill="none"/>
+      <!-- drawer panels, each with label holder and cup pull -->
+      <g id="drawer">
+        <rect x="222" y="37" width="101" height="46" rx="2" fill="#2fbf71" stroke-width="2"/>
+        <path d="M224 79 L321 79" stroke="#1f8f52" stroke-width="5"/>
+        <rect x="252" y="44" width="42" height="15" fill="#c8903a" stroke-width="2"/>
+        <rect x="257" y="47" width="32" height="9" fill="#f6e7c8" stroke="none"/>
+        <path d="M258 64 C258 78 288 78 288 64 Z" fill="#c8903a" stroke-width="2"/>
+      </g>
+      <use href="#drawer" x="115"/>
+      <use href="#drawer" y="60"/>
+      <use href="#drawer" x="115" y="60"/>
+      <use href="#drawer" y="120"/>
+      <use href="#drawer" y="180"/>
+      <use href="#drawer" x="115" y="180"/>
+      <!-- the open drawer: dark slot, cards, pulled-out front -->
+      <rect x="333" y="153" width="109" height="54" fill="#0f3d27"/>
+      <path d="M333 153 L369 163 L369 223 L333 213 Z" fill="#1f8f52"/>
+      <g fill="#f6e7c8" stroke-width="2.5">
+        <path d="M352 168 L372 108 L420 120 L404 178 Z"/>
+        <path d="M374 172 L388 112 L436 118 L428 176 Z"/>
+        <path d="M398 174 L420 116 L466 128 L448 182 Z"/>
+        <path d="M392 120 L430 125 M394 130 L426 134 M424 132 L456 141" stroke="#c8903a" stroke-width="2"/>
+      </g>
+      <path d="M333 153 L442 153 L478 163 L369 163 Z" fill="#7ddca5"/>
+      <rect x="369" y="163" width="109" height="60" fill="#2fbf71"/>
+      <rect x="376" y="170" width="95" height="46" rx="2" fill="#2fbf71" stroke-width="2"/>
+      <path d="M378 212 L469 212" stroke="#1f8f52" stroke-width="5"/>
+      <rect x="403" y="176" width="42" height="15" fill="#c8903a" stroke-width="2"/>
+      <rect x="408" y="179" width="32" height="9" fill="#f6e7c8" stroke="none"/>
+      <path d="M409 196 C409 210 439 210 439 196 Z" fill="#c8903a" stroke-width="2"/>
+      <!-- brass base rail -->
+      <path d="M170 254 L215 266 L445 266 L445 278 L215 278 L170 266 Z" fill="#c8903a"/>
+      <path d="M445 36 L445 262" stroke="#2fbf71" stroke-width="0"/>
+    </g>
+  </g>
+
+  <!-- ===== bust body: cardigan, square collar ===== -->
+  <g id="bustbody" stroke="#0f3d27" stroke-width="3" stroke-linejoin="round">
+    <path d="M298 580 L300 652 L378 652 L374 580 Z" fill="#f3c9a8"/>
+    <path d="M298 584 C326 606 356 606 376 590 L377 628 L299 632 Z" fill="#e3a98a" stroke="none"/>
+    <path d="M110 790 C112 712 150 670 232 652 L300 640 L380 640 L456 652 C528 666 566 710 576 790 Z" fill="#2fbf71"/>
+    <path d="M440 660 C500 676 540 712 548 790 L576 790 C566 710 528 666 456 652 Z" fill="#1f8f52" stroke="none"/>
+    <path d="M300 640 L338 790 L384 640 Z" fill="#f6e7c8"/>
+    <path d="M300 640 L244 652 L258 712 L326 704 Z" fill="#f6e7c8"/>
+    <path d="M384 640 L436 650 L424 708 L352 704 Z" fill="#f6e7c8"/>
+    <path d="M330 704 L340 760 L350 704 Z" fill="#e0cba3" stroke="none"/>
+    <path d="M272 664 L300 662 M402 662 L420 664" stroke="#c8903a" stroke-width="3"/>
+    <path d="M326 704 L338 790 L352 704" fill="none"/>
+    <circle cx="360" cy="730" r="7" fill="#c8903a"/>
+    <circle cx="352" cy="770" r="7" fill="#c8903a"/>
+    <path d="M560 720 C570 750 574 770 576 790" fill="none" stroke="#2fbf71" stroke-width="0"/>
+  </g>
+
+  <!-- ===== raised hand with the index card ===== -->
+  <g id="cardhand" stroke="#0f3d27" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M492 790 C488 720 492 650 500 594 L560 590 C566 650 572 720 580 790 Z" fill="#2fbf71"/>
+    <path d="M540 594 C548 660 556 720 562 790 L580 790 C572 720 566 650 560 590 Z" fill="#1f8f52" stroke="none"/>
+    <path d="M496 594 L562 588 L564 610 L498 616 Z" fill="#f6e7c8"/>
+    <g transform="rotate(-9 575 470)">
+      <rect x="488" y="408" width="182" height="122" rx="4" fill="#f6e7c8" stroke-width="4"/>
+      <path d="M488 436 L670 436" stroke="#d9483b" stroke-width="2.5"/>
+      <path d="M500 452 L656 452 M500 470 L656 470 M500 488 L656 488 M500 506 L600 506" stroke="#e0cba3" stroke-width="1.5"/>
+      <text x="499" y="430" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#0f3d27" stroke="none">LIBBY.cc</text>
+      <text x="501" y="466" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2a2340" stroke="none">id    u64</text>
+      <text x="501" y="484" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2a2340" stroke="none">name  str</text>
+      <text x="501" y="502" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2a2340" stroke="none">tags  [str]</text>
+      <g transform="translate(14 -26) rotate(-14 622 492)">
+        <rect x="586" y="476" width="74" height="30" rx="3" fill="none" stroke="#d9483b" stroke-width="3"/>
+        <text x="594" y="497" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" fill="#d9483b" stroke="none">TYPED</text>
+      </g>
+    </g>
+    <!-- hand: fingers behind card edge, thumb in front -->
+    <path d="M496 566 C494 540 506 528 530 528 C554 528 568 542 568 564 C568 584 556 598 532 598 C510 598 498 586 496 566 Z" fill="#f3c9a8"/>
+    <path d="M552 532 C566 540 568 566 556 584 C548 592 540 594 530 596 C548 580 556 556 552 532 Z" fill="#e3a98a" stroke="none"/>
+    <path d="M508 546 C510 528 524 514 540 512 C550 512 550 524 540 532 C530 540 522 544 520 552 Z" fill="#f3c9a8"/>
+    <path d="M520 568 L548 566 M522 582 L546 580" fill="none" stroke-width="2"/>
+  </g>
+
+  <!-- whole bust, clipped at mid-chest -->
+  <g id="bust" clip-path="url(#chest)">
+    <use href="#backhair"/>
+    <use href="#bustbody"/>
+    <use href="#headfront"/>
+    <use href="#cardhand"/>
+  </g>
+
+  <!-- chibi body (2.5 heads), drawn in chibi space, head scaled 0.36 -->
+  <g id="chibibody" stroke="#0f3d27" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M90 382 L92 424 L104 424 L104 382 Z M128 382 L128 424 L140 424 L142 382 Z" fill="#f3c9a8"/>
+    <path d="M90 400 L104 400 L104 424 L92 424 Z M128 400 L140 400 L140 424 L128 424 Z" fill="#f6e7c8"/>
+    <path d="M84 432 C84 420 108 418 108 428 L108 436 L84 436 Z M124 428 C124 418 148 420 148 432 L148 436 L124 436 Z" fill="#0f3d27"/>
+    <path d="M72 318 L162 318 L178 388 L56 388 Z" fill="#2a2340"/>
+    <path d="M112 318 L130 388 L178 388 L162 318 Z" fill="#1a1530" stroke="none"/>
+    <path d="M78 226 L154 226 C166 256 168 296 164 326 L70 326 C66 296 68 256 78 226 Z" fill="#2fbf71"/>
+    <path d="M100 226 L116 262 L132 226 Z" fill="#f6e7c8"/>
+    <path d="M116 262 L116 326" fill="none"/>
+    <circle cx="122" cy="282" r="3.5" fill="#c8903a"/>
+    <circle cx="122" cy="304" r="3.5" fill="#c8903a"/>
+    <path d="M80 232 C64 256 58 282 62 302 L76 300 C76 282 80 262 90 246 Z" fill="#2fbf71"/>
+    <circle cx="68" cy="308" r="10" fill="#f3c9a8"/>
+    <path d="M150 234 C168 222 180 204 186 186 L172 178 C166 196 156 210 142 220 Z" fill="#2fbf71"/>
+    <g transform="rotate(-10 196 150)">
+      <rect x="160" y="124" width="72" height="50" rx="2" fill="#f6e7c8"/>
+      <path d="M168 140 L224 140 M168 150 L224 150 M168 160 L206 160" stroke="#e0cba3" stroke-width="2"/>
+      <rect x="204" y="152" width="22" height="12" fill="none" stroke="#d9483b" stroke-width="2"/>
+    </g>
+    <circle cx="180" cy="174" r="11" fill="#f3c9a8"/>
+  </g>
+</defs>
+
+<!-- ===== sheet ===== -->
+<rect width="1200" height="800" fill="#efeae0"/>
+
+<!-- portrait card: GameCult ground, parallelogram, edge-lit in key green -->
+<path d="M58 14 L792 14 L752 786 L18 786 Z" fill="url(#glow)"/>
+<path d="M58 14 L792 14 L752 786 L18 786 Z" fill="none" stroke="#2fbf71" stroke-width="4"/>
+
+<g transform="translate(70 4) scale(0.985)">
+  <use href="#bust" filter="url(#outline)"/>
+</g>
+<text x="80" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#2fbf71" letter-spacing="4">BUST · SPECIMEN</text>
+
+<!-- full-body chibi -->
+<text x="820" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#0f3d27" letter-spacing="3">FULL BODY · 2.5 HEADS</text>
+<g transform="translate(830 50)" filter="url(#outline)">
+  <g transform="scale(0.36)"><use href="#backhair"/></g>
+  <use href="#chibibody"/>
+  <path d="M108 206 L108 232 L130 232 L130 206 Z" fill="#f3c9a8" stroke="#0f3d27" stroke-width="2.5"/>
+  <g transform="scale(0.36)"><use href="#headfront"/></g>
+</g>
+
+<!-- silhouettes -->
+<text x="1050" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#0f3d27" letter-spacing="3">SILHOUETTE</text>
+<g transform="translate(1040 52) scale(0.19)"><use href="#bust" filter="url(#sil)"/></g>
+<g transform="translate(1076 222) scale(0.06)"><use href="#bust" filter="url(#sil)"/></g>
+<text x="1050" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#555">48 px</text>
+
+<!-- title, hook, palette -->
+<text x="820" y="540" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#0f3d27">LIBBY · A</text>
+<text x="820" y="570" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#0f3d27" letter-spacing="2">THE CARD CATALOGUE</text>
+<text x="820" y="606" font-family="Segoe UI, Arial, sans-serif" font-size="14.5" fill="#222">
+  <tspan x="820">Hook: a hat of card-catalogue drawers as tall</tspan>
+  <tspan x="820" dy="19">as her face, one drawer pulled open on index cards.</tspan>
+</text>
+<g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#333">
+  <rect x="820" y="660" width="52" height="52" fill="#2fbf71" stroke="#0f3d27" stroke-width="2"/><text x="820" y="728">#2fbf71</text>
+  <rect x="880" y="660" width="52" height="52" fill="#0f3d27" stroke="#0f3d27" stroke-width="2"/><text x="880" y="728">#0f3d27</text>
+  <rect x="940" y="660" width="52" height="52" fill="#f6e7c8" stroke="#0f3d27" stroke-width="2"/><text x="940" y="728">#f6e7c8</text>
+  <rect x="1000" y="660" width="52" height="52" fill="#c8903a" stroke="#0f3d27" stroke-width="2"/><text x="1000" y="728">#c8903a</text>
+  <rect x="1060" y="660" width="52" height="52" fill="#2a2340" stroke="#0f3d27" stroke-width="2"/><text x="1060" y="728">#2a2340</text>
+  <rect x="1120" y="660" width="52" height="52" fill="#f3c9a8" stroke="#0f3d27" stroke-width="2"/><text x="1120" y="728">#f3c9a8</text>
+</g>
+<text x="820" y="760" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#555">key · line · card stock · brass · hair · skin</text>
+</svg>

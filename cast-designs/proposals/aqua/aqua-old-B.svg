@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Aqua, superseded take B (pre-canon): Bowl Helmet</title>
+  <defs>
+    <filter id="sil" x="-10%" y="-10%" width="120%" height="120%">
+      <feComponentTransfer in="SourceAlpha" result="a"><feFuncA type="discrete" tableValues="0 1 1 1 1 1 1 1 1 1"/></feComponentTransfer>
+      <feFlood flood-color="#000"/>
+      <feComposite in2="a" operator="in"/>
+    </filter>
+    <clipPath id="cardClip"><path d="M70,20 H790 L760,780 H40 Z"/></clipPath>
+
+    <!-- anime eye, local frame centred on 0,0 -->
+    <path id="eyeShape" d="M-48,-6 C-48,-50 -22,-60 2,-60 C28,-60 50,-46 50,-6 C50,36 28,60 2,60 C-24,60 -48,36 -48,-6 Z"/>
+    <clipPath id="eyeClip"><use href="#eyeShape"/></clipPath>
+    <g id="eye">
+      <use href="#eyeShape" fill="#ffffff"/>
+      <g clip-path="url(#eyeClip)">
+        <path d="M-52,-62 H54 V-14 C34,-44 -30,-44 -52,-12 Z" fill="#c4eef5"/>
+        <ellipse cx="6" cy="8" rx="40" ry="52" fill="#22d3e6"/>
+        <path d="M-40,-62 H52 V4 C34,-30 -22,-34 -40,4 Z" fill="#0f86a0"/>
+        <ellipse cx="8" cy="36" rx="25" ry="13" fill="#a6f4fb"/>
+        <ellipse cx="6" cy="10" rx="17" ry="24" fill="#0b4a55"/>
+        <ellipse cx="6" cy="8" rx="40" ry="52" fill="none" stroke="#0b4a55" stroke-width="4"/>
+      </g>
+      <ellipse cx="-12" cy="-14" rx="13" ry="17" fill="#ffffff"/>
+      <circle cx="23" cy="30" r="6.5" fill="#ffffff"/>
+      <path d="M-58,0 C-60,-50 -22,-71 6,-69 C34,-67 56,-52 61,-20 L72,-28 C69,-16 63,-8 57,-5 C50,-44 30,-58 4,-58 C-24,-58 -46,-40 -48,0 Z" fill="#0b4a55"/>
+      <path d="M-28,55 C-8,64 20,64 34,54" fill="none" stroke="#0b4a55" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+    <g id="note">
+      <ellipse cx="0" cy="0" rx="8" ry="6" transform="rotate(-22)" fill="#ffffff"/>
+      <path d="M6.5,-2 V-30 C14,-27 22,-20 17,-9" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+    <g id="bubble">
+      <circle r="1" fill="#22d3e6" fill-opacity="0.22" stroke="#22d3e6" stroke-width="0.08"/>
+      <path d="M-0.62,-0.2 A0.66,0.66 0 0 1 -0.2,-0.62" fill="none" stroke="#ffffff" stroke-width="0.12" stroke-linecap="round"/>
+    </g>
+
+    <!-- ===== Aqua B shapes ===== -->
+    <circle id="Bbowl" cx="410" cy="320" r="250"/>
+    <clipPath id="BbowlClip"><use href="#Bbowl"/></clipPath>
+    <path id="Bface" d="M262,300 C258,412 332,500 440,504 C502,504 550,466 566,410 C576,374 578,336 574,300 Z"/>
+    <clipPath id="BfaceClip"><use href="#Bface"/></clipPath>
+    <mask id="BfaceShade"><rect width="1200" height="800" fill="#fff"/><use href="#Bface" transform="translate(-30,-14)" fill="#000"/></mask>
+    <path id="Bbangs" d="M248,340 C244,236 310,174 412,174 C514,174 584,236 584,336 Q560,310 548,282 Q540,318 520,348 Q510,312 492,290 Q478,328 450,352 Q448,312 430,292 Q414,330 382,348 Q384,310 368,294 Q348,326 316,342 Q324,312 312,296 Q290,320 248,340 Z"/>
+    <clipPath id="BbangsClip"><use href="#Bbangs"/></clipPath>
+    <path id="BtailL" d="M292,556 C236,536 176,500 76,462 C92,500 104,542 146,586 C102,628 90,664 84,708 C168,670 236,628 300,600 Z"/>
+    <path id="BtailR" d="M530,556 C582,536 634,504 722,470 C710,504 698,542 662,586 C698,624 708,660 714,700 C644,664 586,628 524,600 Z"/>
+    <clipPath id="BtailLClip"><use href="#BtailL"/></clipPath>
+    <clipPath id="BtailRClip"><use href="#BtailR"/></clipPath>
+
+    <!-- twin tails, cut like goldfish fan tails, orange at the tips -->
+    <g id="Btails">
+      <use href="#BtailL" fill="#ffb320"/>
+      <g clip-path="url(#BtailLClip)">
+        <path d="M40,400 H160 C140,500 140,660 166,760 H40 Z" fill="#ff6a1f"/>
+        <path d="M270,566 C210,540 150,510 104,486 M262,584 C220,584 180,584 150,586 M270,598 C210,626 150,660 104,690" fill="none" stroke="#e08a10" stroke-width="3.5" stroke-linecap="round"/>
+      </g>
+      <use href="#BtailL" fill="none" stroke="#0b4a55" stroke-width="7" stroke-linejoin="round"/>
+      <use href="#BtailR" fill="#ffb320"/>
+      <g clip-path="url(#BtailRClip)">
+        <path d="M780,400 H660 C676,500 676,660 652,760 H780 Z" fill="#ff6a1f"/>
+        <path d="M552,566 C610,540 660,514 700,492 M560,584 C596,584 630,584 660,586 M552,598 C610,626 660,656 698,684" fill="none" stroke="#e08a10" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M722,470 C710,504 698,542 662,586 C698,624 708,660 714,700" fill="none" stroke="#22d3e6" stroke-width="7"/>
+      </g>
+      <use href="#BtailR" fill="none" stroke="#0b4a55" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+
+    <!-- head in the bowl, headphones clamped outside, collar -->
+    <g id="Bhead">
+      <!-- water behind her -->
+      <use href="#Bbowl" fill="#22d3e6" fill-opacity="0.3"/>
+      <g clip-path="url(#BbowlClip)">
+        <path d="M150,124 C220,104 280,142 350,122 C420,102 480,140 550,120 C600,106 640,124 680,118 V60 H150 Z" fill="#e8fbfd" fill-opacity="0.35"/>
+        <path d="M150,124 C220,104 280,142 350,122 C420,102 480,140 550,120 C600,106 640,124 680,118" fill="none" stroke="#a6f4fb" stroke-width="4"/>
+      </g>
+      <!-- hair, back mass, floating a little in the water -->
+      <path d="M232,340 C222,226 300,150 410,150 C522,150 596,226 590,342 C588,420 570,482 546,524 L282,524 C254,476 236,410 232,340 Z" fill="#ffb320" stroke="#0b4a55" stroke-width="5"/>
+      <path d="M560,300 C578,360 576,430 552,500 L520,500 C540,440 546,370 534,300 Z" fill="#e08a10"/>
+      <path d="M392,152 C384,110 398,84 432,70 C426,92 438,104 458,100 C446,120 430,136 418,154 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="4" stroke-linejoin="round"/>
+      <!-- neck -->
+      <path d="M392,480 H474 V566 H392 Z" fill="#e9b9a0"/>
+      <!-- face -->
+      <use href="#Bface" fill="#f6d9c4"/>
+      <g clip-path="url(#BfaceClip)">
+        <rect width="1200" height="800" fill="#e9b9a0" mask="url(#BfaceShade)"/>
+        <use href="#Bbangs" transform="translate(10,20)" fill="#e9b9a0"/>
+      </g>
+      <use href="#Bface" fill="none" stroke="#0b4a55" stroke-width="5"/>
+      <!-- eyes, brows, nose, mouth, blush -->
+      <use href="#eye" transform="translate(366,396) scale(0.9)"/>
+      <use href="#eye" transform="translate(502,390) scale(0.72,0.86)"/>
+      <path d="M447,428 l5,7" stroke="#c98a76" stroke-width="3" stroke-linecap="round"/>
+      <path d="M436,454 C450,464 478,462 490,450 C490,478 472,492 462,492 C448,492 436,478 436,454 Z" fill="#8a2234" stroke="#0b4a55" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M446,482 C452,474 472,474 480,480 C474,490 454,492 446,482 Z" fill="#ff7f8f"/>
+      <ellipse cx="318" cy="452" rx="30" ry="12" fill="#ff7f8f" opacity="0.6"/>
+      <ellipse cx="540" cy="446" rx="20" ry="10" fill="#ff7f8f" opacity="0.6"/>
+      <!-- bangs and sidelocks -->
+      <use href="#Bbangs" fill="#ffb320"/>
+      <g clip-path="url(#BbangsClip)">
+        <path d="M300,232 C340,206 380,198 410,198 M450,198 C490,202 524,216 546,236" fill="none" stroke="#ffd66b" stroke-width="10" stroke-linecap="round"/>
+        <path d="M560,250 C590,280 600,320 590,360 L620,360 L620,240 Z" fill="#e08a10"/>
+        <path d="M412,182 C398,232 382,272 368,294 M412,182 C432,226 444,262 450,300 M412,182 C462,214 496,252 516,300 M412,182 C356,212 326,254 312,296" fill="none" stroke="#e08a10" stroke-width="3.5" stroke-linecap="round"/>
+      </g>
+      <use href="#Bbangs" fill="none" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M250,316 C236,380 240,446 262,508 C268,478 282,456 298,446 C286,404 282,360 288,326 Z" fill="#ffb320" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M578,316 C592,370 590,424 574,476 C568,452 558,436 546,428 C556,394 560,358 556,328 Z" fill="#e08a10" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <!-- bubbles inside the bowl -->
+      <use href="#bubble" transform="translate(600,230) scale(14)"/>
+      <use href="#bubble" transform="translate(620,180) scale(9)"/>
+      <use href="#bubble" transform="translate(588,148) scale(6)"/>
+      <use href="#bubble" transform="translate(220,440) scale(8)"/>
+      <!-- the glass -->
+      <use href="#Bbowl" fill="none" stroke="#0b4a55" stroke-width="10"/>
+      <use href="#Bbowl" fill="none" stroke="#7fe9f5" stroke-width="3.5"/>
+      <path d="M202,262 C214,186 266,126 334,100" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" opacity="0.9"/>
+      <circle cx="356" cy="92" r="6" fill="#ffffff" opacity="0.9"/>
+      <path d="M626,420 C604,476 566,520 516,548" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+      <!-- headphones clamped on the outside of the bowl -->
+      <path d="M156,300 C140,96 296,36 412,36 C540,36 684,100 668,300" fill="none" stroke="#0b4a55" stroke-width="42" stroke-linecap="round"/>
+      <path d="M156,300 C140,96 296,36 412,36 C540,36 684,100 668,300" fill="none" stroke="#1c1c24" stroke-width="30" stroke-linecap="round"/>
+      <path d="M190,170 C226,104 300,66 384,58" fill="none" stroke="#454558" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="682" cy="326" rx="40" ry="74" fill="#1c1c24" stroke="#0b4a55" stroke-width="6"/>
+      <ellipse cx="690" cy="326" rx="22" ry="50" fill="none" stroke="#22d3e6" stroke-width="8"/>
+      <ellipse cx="174" cy="330" rx="56" ry="82" fill="#2c2c38" stroke="#0b4a55" stroke-width="6"/>
+      <ellipse cx="146" cy="330" rx="60" ry="84" fill="#1c1c24" stroke="#0b4a55" stroke-width="7"/>
+      <ellipse cx="146" cy="330" rx="38" ry="58" fill="none" stroke="#22d3e6" stroke-width="10"/>
+      <ellipse cx="146" cy="330" rx="20" ry="34" fill="#22d3e6" opacity="0.4"/>
+      <path d="M112,288 C118,270 130,260 144,258" fill="none" stroke="#454558" stroke-width="6" stroke-linecap="round"/>
+      <!-- collar ring the bowl seats into -->
+      <ellipse cx="412" cy="566" rx="150" ry="34" fill="#1c1c24" stroke="#0b4a55" stroke-width="6"/>
+      <path d="M276,566 C320,590 500,592 548,566" fill="none" stroke="#22d3e6" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <g id="Bbody">
+      <path d="M262,800 C262,700 290,630 340,600 L486,600 C536,630 562,700 562,800 Z" fill="#f4fbfc" stroke="#0b4a55" stroke-width="7"/>
+      <path d="M512,626 C540,668 552,730 554,796 H526 C524,730 516,680 496,640 Z" fill="#bfe3ea"/>
+      <path d="M360,602 L414,692 L468,602 Z" fill="#22d3e6" stroke="#0b4a55" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M340,600 C316,620 296,660 292,704 L392,664 L358,600 Z" fill="#22d3e6" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M486,600 C510,620 530,660 534,704 L436,664 L470,600 Z" fill="#0f86a0" stroke="#0b4a55" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M308,654 L370,630 M518,652 L462,628" stroke="#f4fbfc" stroke-width="4" stroke-linecap="round"/>
+      <path d="M414,676 C390,656 362,660 366,684 C370,704 396,700 414,688 C432,700 458,704 462,684 C466,660 438,656 414,676 Z" fill="#ff6a1f" stroke="#0b4a55" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+
+    <!-- round synth pad, pebble keys -->
+    <g id="Bpad">
+      <circle cx="430" cy="720" r="80" fill="#1c1c24" stroke="#0b4a55" stroke-width="7"/>
+      <circle cx="430" cy="720" r="64" fill="none" stroke="#22d3e6" stroke-width="5"/>
+      <ellipse cx="400" cy="694" rx="15" ry="11" fill="#22d3e6"/>
+      <ellipse cx="438" cy="682" rx="15" ry="11" fill="#ffb320"/>
+      <ellipse cx="470" cy="702" rx="15" ry="11" fill="#ff6a1f"/>
+      <ellipse cx="398" cy="730" rx="15" ry="11" fill="#ff6a1f"/>
+      <ellipse cx="458" cy="740" rx="15" ry="11" fill="#22d3e6"/>
+      <circle cx="428" cy="716" r="9" fill="#e8fbfd"/>
+      <path d="M346,736 C330,716 336,690 358,688 C374,688 380,704 376,722 C372,740 358,748 346,736 Z" fill="#f6d9c4" stroke="#0b4a55" stroke-width="5"/>
+      <path d="M512,708 C530,690 528,664 506,662 C490,662 484,678 488,696 C492,712 502,718 512,708 Z" fill="#f6d9c4" stroke="#0b4a55" stroke-width="5"/>
+    </g>
+
+    <g id="BbustChar">
+      <use href="#Btails"/>
+      <use href="#Bbody"/>
+      <use href="#Bhead"/>
+      <use href="#Bpad"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#eef3f2"/>
+
+  <path d="M70,20 H790 L760,780 H40 Z" fill="#07111a"/>
+  <g clip-path="url(#cardClip)">
+    <path d="M600,40 l-180,740 M680,40 l-180,740" stroke="#22d3e6" stroke-opacity="0.07" stroke-width="40"/>
+    <use href="#BbustChar" transform="translate(10,14)"/>
+  </g>
+  <path d="M70,20 H790 L760,780 H40 Z" fill="none" stroke="#22d3e6" stroke-width="5"/>
+
+  <use href="#bubble" transform="translate(746,200) scale(30)"/>
+  <use href="#note" transform="translate(743,212) scale(0.9)"/>
+  <use href="#bubble" transform="translate(770,110) scale(16)"/>
+  <use href="#bubble" transform="translate(724,280) scale(10)"/>
+
+  <path d="M520,724 H770 L764,768 H512 Z" fill="#22d3e6"/>
+  <text x="534" y="755" font-family="Consolas, 'Courier New', monospace" font-size="24" font-weight="700" letter-spacing="8" fill="#07111a">AQUA</text>
+
+  <text x="830" y="58" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="4" fill="#0b4a55">AQUA · B</text>
+  <text x="830" y="86" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2" fill="#0f86a0">BOWL HELMET</text>
+  <text font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#1c1c24">
+    <tspan x="830" y="118">Hook: she wears her tank — a round fishbowl</tspan>
+    <tspan x="830" y="137">helmet, headphones clamped outside the glass,</tspan>
+    <tspan x="830" y="156">gold twin tails cut like goldfish fan tails.</tspan>
+  </text>
+
+  <!-- full body, about 2.3 heads -->
+  <g>
+    <ellipse cx="925" cy="520" rx="70" ry="9" fill="#0b4a55" opacity="0.15"/>
+    <g transform="translate(925,262) scale(0.26) translate(-412,-320)">
+      <use href="#Btails"/>
+    </g>
+    <path d="M892,348 C872,360 866,400 868,436 H982 C984,400 978,360 958,348 Z" fill="#f4fbfc" stroke="#0b4a55" stroke-width="4"/>
+    <path d="M908,350 L925,378 L942,350 Z" fill="#22d3e6" stroke="#0b4a55" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M868,432 H982 L988,456 H862 Z" fill="#22d3e6" stroke="#0b4a55" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M898,456 h20 v40 h-20 Z M934,456 h20 v40 h-20 Z" fill="#f6d9c4" stroke="#0b4a55" stroke-width="3.5"/>
+    <ellipse cx="906" cy="504" rx="18" ry="11" fill="#ff6a1f" stroke="#0b4a55" stroke-width="3.5"/>
+    <ellipse cx="946" cy="504" rx="18" ry="11" fill="#ff6a1f" stroke="#0b4a55" stroke-width="3.5"/>
+    <g transform="translate(925,262) scale(0.26) translate(-412,-320)">
+      <use href="#Bhead"/>
+    </g>
+    <circle cx="926" cy="404" r="24" fill="#1c1c24" stroke="#0b4a55" stroke-width="3.5"/>
+    <circle cx="926" cy="404" r="18" fill="none" stroke="#22d3e6" stroke-width="2.5"/>
+    <circle cx="918" cy="396" r="4" fill="#ffb320"/><circle cx="932" cy="394" r="4" fill="#ff6a1f"/><circle cx="934" cy="410" r="4" fill="#22d3e6"/>
+    <circle cx="900" cy="410" r="9" fill="#f6d9c4" stroke="#0b4a55" stroke-width="3"/>
+    <circle cx="952" cy="398" r="9" fill="#f6d9c4" stroke="#0b4a55" stroke-width="3"/>
+    <text x="925" y="545" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">full body · 2.3 heads</text>
+  </g>
+
+  <rect x="1040" y="250" width="140" height="140" fill="#ffffff" stroke="#b7c9cb"/>
+  <g transform="translate(1048,262) scale(0.165) translate(-60,-40)">
+    <use href="#BbustChar" filter="url(#sil)"/>
+  </g>
+  <text x="1110" y="408" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">bust silhouette</text>
+
+  <text x="830" y="612" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0b4a55">PALETTE</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1c1c24" text-anchor="middle">
+    <rect x="830" y="626" width="50" height="50" rx="6" fill="#22d3e6" stroke="#0b4a55" stroke-width="2"/><text x="855" y="694">#22d3e6</text><text x="855" y="708">water</text>
+    <rect x="890" y="626" width="50" height="50" rx="6" fill="#0b4a55" stroke="#0b4a55" stroke-width="2"/><text x="915" y="694">#0b4a55</text><text x="915" y="708">line</text>
+    <rect x="950" y="626" width="50" height="50" rx="6" fill="#ffb320" stroke="#0b4a55" stroke-width="2"/><text x="975" y="694">#ffb320</text><text x="975" y="708">hair</text>
+    <rect x="1010" y="626" width="50" height="50" rx="6" fill="#ff6a1f" stroke="#0b4a55" stroke-width="2"/><text x="1035" y="694">#ff6a1f</text><text x="1035" y="708">fin tip</text>
+    <rect x="1070" y="626" width="50" height="50" rx="6" fill="#1c1c24" stroke="#0b4a55" stroke-width="2"/><text x="1095" y="694">#1c1c24</text><text x="1095" y="708">phones</text>
+    <rect x="1130" y="626" width="50" height="50" rx="6" fill="#f6d9c4" stroke="#0b4a55" stroke-width="2"/><text x="1155" y="694">#f6d9c4</text><text x="1155" y="708">skin</text>
+  </g>
+  <text x="830" y="748" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4a6a70">Jacket white is the sheet neutral, not a seventh hue.</text>
+</svg>

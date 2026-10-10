@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="1200" height="800">
+  <title>Nibu, direction B: Glitch Twin</title>
+  <defs>
+    <!-- canon Nibu: lavender hair, swoop over one eye, pink bow + circuit clip, violet coat, glitch.
+         palette: key #9a6bff, line #2a1452, hair #b9aef5 (shadow #8576dc, light #e4ddff),
+         coat #4a2d8f (shadow #33206a), ribbon pink #f08cc0 (shadow #c4609a), cyan #7af0ff, skin #f0d3dd (shadow #d6a8bd) -->
+    <filter id="holo" x="-20%" y="-20%" width="140%" height="140%">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0.35 0.45 0.15 0 0.05  0.25 0.50 0.25 0 0  0.10 0.30 0.40 0 0.30  0 0 0 0.85 0" result="tint"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="fat"/>
+      <feComposite in="fat" in2="SourceAlpha" operator="out" result="ring"/>
+      <feFlood flood-color="#7af0ff"/>
+      <feComposite in2="ring" operator="in" result="edge"/>
+      <feMerge><feMergeNode in="tint"/><feMergeNode in="edge"/></feMerge>
+    </filter>
+    <filter id="black" x="-10%" y="-10%" width="120%" height="120%">
+      <feFlood flood-color="#000"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+    </filter>
+    <pattern id="scan" width="10" height="7" patternUnits="userSpaceOnUse">
+      <rect width="10" height="5" fill="#fff"/>
+    </pattern>
+    <mask id="scanMask" maskUnits="userSpaceOnUse" x="-600" y="-600" width="2400" height="2400">
+      <rect x="-600" y="-600" width="2400" height="2400" fill="url(#scan)"/>
+    </mask>
+    <clipPath id="eyeBand"><rect x="206" y="366" width="128" height="56"/></clipPath>
+    <clipPath id="mouthBand"><rect x="150" y="428" width="140" height="16"/></clipPath>
+
+    <!-- ===== BUST, local space 640 x 770, faces screen right ===== -->
+    <path id="faceP" d="M192,285 C186,370 214,446 300,498 C326,514 356,516 378,502 C432,468 468,410 472,298 Z"/>
+    <clipPath id="faceClip"><use xlink:href="#faceP"/></clipPath>
+    <!-- crown and wispy bangs -->
+    <path id="crownP" d="M126,320 C110,160 212,56 336,56 C470,56 560,160 544,320 C534,314 520,304 510,292
+      L504,338 Q486,300 462,280 Q458,316 452,352 Q430,300 400,272 Q396,322 390,362 Q366,300 330,272
+      Q326,322 318,358 Q298,302 266,280 Q262,312 256,342 Q236,306 206,290 C178,300 152,312 126,320 Z"/>
+
+    <g id="hairBack">
+      <path d="M332,52 C474,50 566,154 558,300 C556,372 600,430 586,512 C574,584 624,640 604,706 C596,734 606,754 614,850 L452,850 C470,700 462,620 446,566 L244,566 C226,640 214,710 210,850 L56,850 C76,720 52,670 72,612 C92,552 58,494 92,430 C112,392 120,350 122,300 C124,150 196,54 332,52 Z" fill="#8576dc" stroke="#2a1452" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M96,470 C80,530 104,580 84,640 M586,540 C574,600 610,650 592,710" fill="none" stroke="#2a1452" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- ribbon bow on her far side -->
+      <path d="M548,272 L586,370 L566,360 L558,384 L530,284 Z M556,270 L620,346 L598,344 L600,368 L540,282 Z" fill="#c4609a" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M540,262 C566,186 640,184 628,238 C622,268 578,276 540,262 Z" fill="#f08cc0" stroke="#2a1452" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M540,262 C600,250 630,300 610,322 C590,340 556,300 540,262 Z" fill="#f08cc0" stroke="#2a1452" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M566,232 C584,214 606,214 612,232 M566,286 C588,296 600,306 604,316" fill="none" stroke="#c4609a" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="542" cy="264" rx="17" ry="21" fill="#f08cc0" stroke="#2a1452" stroke-width="5"/>
+    </g>
+
+    <g id="bodyC">
+      <path d="M300,466 L298,580 L394,580 L392,466 Z" fill="#f0d3dd" stroke="#2a1452" stroke-width="5"/>
+      <path d="M298,488 C330,526 370,520 394,486 L394,556 L298,556 Z" fill="#d6a8bd"/>
+      <!-- coat -->
+      <path d="M96,850 C104,660 176,600 280,582 L412,578 C512,598 572,662 584,850 Z" fill="#4a2d8f" stroke="#2a1452" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M430,588 C510,612 562,668 574,850 L494,850 C486,700 464,640 420,604 Z" fill="#33206a"/>
+      <path d="M546,640 C566,680 576,720 580,850" fill="none" stroke="#9a6bff" stroke-width="6" stroke-linecap="round"/>
+      <!-- blouse panel -->
+      <path d="M282,582 L410,578 L384,850 L308,850 Z" fill="#e4ddff" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M318,650 L376,648 L370,730 L322,730 Z" fill="#7af0ff" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M330,668 L362,668 M330,684 L352,684 M330,700 L364,700 M330,714 L346,714" stroke="#2a1452" stroke-width="3" stroke-linecap="round"/>
+      <!-- circuit-glyph trim on the coat front edges -->
+      <path d="M282,584 L270,640 L284,660 L272,720 L276,850 M410,580 L420,636 L406,656 L414,720 L410,850" fill="none" stroke="#f08cc0" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="270" cy="640" r="6" fill="#f08cc0" stroke="#2a1452" stroke-width="2.5"/>
+      <circle cx="406" cy="656" r="6" fill="#f08cc0" stroke="#2a1452" stroke-width="2.5"/>
+      <!-- standing collar and throat frill -->
+      <path d="M262,520 L240,612 L298,590 Z" fill="#4a2d8f" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M426,512 L462,604 L396,588 Z" fill="#33206a" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M292,548 Q304,566 318,552 Q330,572 346,556 Q360,574 374,554 Q388,568 400,546 L404,590 Q350,606 288,592 Z" fill="#f4f0ff" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="346" cy="604" r="11" fill="#9a6bff" stroke="#2a1452" stroke-width="4"/>
+      <circle cx="342" cy="600" r="3.5" fill="#fff"/>
+      <!-- shoulder port ring -->
+      <circle cx="458" cy="616" r="18" fill="#1a1726" stroke="#2a1452" stroke-width="4"/>
+      <circle cx="458" cy="616" r="11" fill="none" stroke="#7af0ff" stroke-width="5"/>
+    </g>
+
+    <g id="headFront">
+      <use xlink:href="#faceP" fill="#f0d3dd" stroke="#2a1452" stroke-width="6"/>
+      <g clip-path="url(#faceClip)">
+        <use xlink:href="#crownP" transform="translate(6,16)" fill="#d6a8bd"/>
+        <path d="M440,330 C452,400 430,460 380,500 L480,520 L500,300 Z" fill="#d6a8bd"/>
+      </g>
+      <path d="M452,360 C448,420 424,466 384,494" fill="none" stroke="#9a6bff" stroke-width="5" stroke-linecap="round"/>
+      <!-- front locks: near one falls over the shoulder, far one frames the jaw -->
+      <path d="M540,300 C546,380 520,440 500,500 C486,548 512,600 498,660 C492,700 500,740 496,850 L452,850 C462,730 446,690 458,640 C470,580 444,540 460,480 C474,420 470,360 462,312 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M128,300 C112,380 146,440 166,500 C186,560 142,620 166,690 C176,720 166,750 158,850 L244,850 C252,720 232,680 244,636 C256,590 226,540 222,480 C216,420 214,360 220,314 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M220,330 C214,400 222,470 238,520 C246,560 230,600 236,640 C222,600 216,560 210,520 C196,460 196,390 206,330 Z" fill="#8576dc"/>
+      <path d="M150,520 C168,560 160,600 154,640" fill="none" stroke="#2a1452" stroke-width="3.5" stroke-linecap="round"/>
+      <use xlink:href="#crownP" fill="#b9aef5" stroke="#2a1452" stroke-width="8" stroke-linejoin="round"/>
+      <!-- one highlight band -->
+      <path d="M262,128 C296,110 336,104 380,108 L370,128 L398,110 L404,128 L430,114 L436,128 C410,118 340,112 262,128 Z" fill="#e4ddff"/>
+      <path d="M170,236 C176,200 194,172 218,152 L214,176 L232,150 C206,176 186,206 170,236 Z" fill="#e4ddff"/>
+      <path d="M512,240 C516,200 506,170 488,146" fill="none" stroke="#9a6bff" stroke-width="5" stroke-linecap="round"/>
+      <!-- circuit hair clip -->
+      <g transform="rotate(-24 372 134)">
+        <rect x="336" y="126" width="72" height="16" rx="5" fill="#f08cc0" stroke="#2a1452" stroke-width="4"/>
+        <rect x="356" y="116" width="32" height="36" rx="4" fill="#f4f0ff" stroke="#2a1452" stroke-width="4"/>
+        <path d="M364,124 L364,134 L372,134 L372,144 M380,122 L380,140" fill="none" stroke="#9a6bff" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="334" cy="134" r="11" fill="#f08cc0" stroke="#2a1452" stroke-width="4"/>
+        <circle cx="410" cy="134" r="11" fill="#f08cc0" stroke="#2a1452" stroke-width="4"/>
+        <circle cx="330" cy="130" r="3.5" fill="#fff"/><circle cx="406" cy="130" r="3.5" fill="#fff"/>
+      </g>
+    </g>
+
+    <g id="swoop">
+      <path d="M336,112 C268,146 230,224 242,300 C252,356 236,410 192,428 C156,440 120,420 104,382 C136,398 164,390 176,358 C188,322 182,262 202,204 C222,156 276,124 336,112 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M240,300 C252,352 238,400 192,426 C214,400 222,366 214,322 C206,272 214,212 246,160 C228,210 226,262 240,300 Z" fill="#8576dc"/>
+      <path d="M206,196 C216,160 240,132 274,116" fill="none" stroke="#e4ddff" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <!-- eyes: same construction for every expression -->
+    <clipPath id="wN"><path d="M226,374 C236,350 300,346 320,370 C324,402 312,434 274,438 C240,434 222,406 226,374 Z"/></clipPath>
+    <clipPath id="wF"><path d="M372,370 C380,350 426,348 440,368 C444,400 434,430 406,434 C382,430 368,404 372,370 Z"/></clipPath>
+    <clipPath id="iN"><ellipse cx="278" cy="400" rx="34" ry="44"/></clipPath>
+    <clipPath id="iF"><ellipse cx="409" cy="397" rx="25" ry="41"/></clipPath>
+
+    <g id="exprCalm">
+      <path d="M240,338 Q272,328 306,334" fill="none" stroke="#2a1452" stroke-width="5" stroke-linecap="round"/>
+      <path d="M380,332 Q406,326 432,330" fill="none" stroke="#2a1452" stroke-width="5" stroke-linecap="round"/>
+      <path d="M226,374 C236,350 300,346 320,370 C324,402 312,434 274,438 C240,434 222,406 226,374 Z" fill="#fbf9ff"/>
+      <g clip-path="url(#wN)"><g clip-path="url(#iN)">
+        <rect x="200" y="340" width="140" height="120" fill="#9a6bff"/>
+        <ellipse cx="278" cy="372" rx="42" ry="28" fill="#4b2a99"/>
+        <ellipse cx="282" cy="438" rx="28" ry="14" fill="#e0b6ff"/>
+        <ellipse cx="280" cy="404" rx="13" ry="19" fill="#2a1452"/>
+      </g>
+        <ellipse cx="278" cy="400" rx="34" ry="44" fill="none" stroke="#2a1452" stroke-width="3"/>
+        <ellipse cx="292" cy="386" rx="10" ry="12" fill="#fff"/>
+        <circle cx="266" cy="420" r="5" fill="#fff"/>
+      </g>
+      <!-- half-lidded: heavy upper lid -->
+      <path d="M218,394 C226,354 300,346 330,370 L340,366 L330,384 C306,370 252,368 228,398 Z" fill="#2a1452"/>
+      <path d="M250,438 Q276,446 302,434" fill="none" stroke="#2a1452" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M372,370 C380,350 426,348 440,368 C444,400 434,430 406,434 C382,430 368,404 372,370 Z" fill="#fbf9ff"/>
+      <g clip-path="url(#wF)"><g clip-path="url(#iF)">
+        <rect x="360" y="340" width="100" height="120" fill="#9a6bff"/>
+        <ellipse cx="409" cy="370" rx="32" ry="27" fill="#4b2a99"/>
+        <ellipse cx="411" cy="434" rx="21" ry="12" fill="#e0b6ff"/>
+        <ellipse cx="411" cy="401" rx="10" ry="18" fill="#2a1452"/>
+      </g>
+        <ellipse cx="409" cy="397" rx="25" ry="41" fill="none" stroke="#2a1452" stroke-width="3"/>
+        <ellipse cx="420" cy="384" rx="8" ry="10" fill="#fff"/>
+        <circle cx="400" cy="416" r="4" fill="#fff"/>
+      </g>
+      <path d="M366,390 C374,352 430,344 448,364 L458,360 L448,380 C430,366 386,366 372,394 Z" fill="#2a1452"/>
+      <path d="M386,432 Q408,440 428,430" fill="none" stroke="#2a1452" stroke-width="3" stroke-linecap="round"/>
+      <path d="M356,442 Q364,450 356,455" fill="none" stroke="#2a1452" stroke-width="3" stroke-linecap="round"/>
+      <!-- level, unbothered mouth -->
+      <path d="M336,474 Q352,478 368,472" fill="none" stroke="#2a1452" stroke-width="4" stroke-linecap="round"/>
+      <path d="M244,456 l-9,11 M258,456 l-9,11 M424,450 l-7,9" stroke="#e08aa8" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g id="exprHostile">
+      <path d="M222,318 L314,350" stroke="#2a1452" stroke-width="11" stroke-linecap="round"/>
+      <path d="M372,350 L446,318" stroke="#2a1452" stroke-width="10" stroke-linecap="round"/>
+      <path d="M230,388 C250,374 300,372 318,386 C318,408 304,426 274,428 C246,426 230,408 230,388 Z" fill="#fff"/>
+      <ellipse cx="282" cy="402" rx="20" ry="24" fill="#9a6bff"/>
+      <ellipse cx="283" cy="404" rx="5" ry="12" fill="#2a1452"/>
+      <path d="M220,388 L328,374 L332,394 L226,398 Z" fill="#2a1452"/>
+      <path d="M376,386 C392,374 428,372 438,384 C438,406 428,424 406,426 C386,424 376,408 376,386 Z" fill="#fff"/>
+      <ellipse cx="408" cy="402" rx="16" ry="22" fill="#9a6bff"/>
+      <ellipse cx="409" cy="404" rx="4" ry="11" fill="#2a1452"/>
+      <path d="M368,374 L448,384 L446,398 L372,394 Z" fill="#2a1452"/>
+      <path d="M312,458 L394,452 C386,496 334,502 312,458 Z" fill="#2a1452"/>
+      <path d="M316,460 L390,455 L388,466 L378,478 L372,467 L328,470 L322,480 Z" fill="#fff"/>
+    </g>
+
+    <g id="ghostCore" transform="translate(-200,-104) rotate(-8 336 400)">
+      <use xlink:href="#hairBack"/><use xlink:href="#bodyC"/><use xlink:href="#headFront"/><use xlink:href="#exprHostile" transform="translate(336,410) scale(1.12) translate(-336,-410)"/><use xlink:href="#swoop"/>
+    </g>
+
+    <g id="bust">
+      <g filter="url(#holo)" mask="url(#scanMask)"><use xlink:href="#ghostCore"/></g>
+      <use xlink:href="#hairBack"/>
+      <use xlink:href="#bodyC"/>
+      <use xlink:href="#headFront"/>
+      <use xlink:href="#exprCalm" transform="translate(336,410) scale(1.12) translate(-336,-410)"/>
+      <use xlink:href="#swoop"/>
+      <!-- the twin bleeds through: one scanline slice of her near eye belongs to the other timeline -->
+      <g id="slice" clip-path="url(#eyeBand)"><g transform="translate(-18,0)">
+        <use xlink:href="#headFront"/>
+        <use xlink:href="#exprHostile" transform="translate(336,410) scale(1.12) translate(-336,-410)"/>
+        <use xlink:href="#swoop"/>
+      </g></g>
+      <g clip-path="url(#eyeBand)"><rect x="200" y="360" width="140" height="70" fill="#9a6bff" opacity="0.30" mask="url(#scanMask)"/></g>
+      <rect x="206" y="366" width="128" height="56" fill="none" stroke="#7af0ff" stroke-width="3"/>
+      <path d="M334,380 L352,380 M190,404 L206,404" stroke="#7af0ff" stroke-width="3"/>
+      <g filter="url(#holo)" mask="url(#scanMask)" clip-path="url(#mouthBand)"><use xlink:href="#headFront" transform="translate(30,0)"/></g>
+      <g fill="#7af0ff"><rect x="-10" y="300" width="26" height="8"/><rect x="40" y="520" width="40" height="6"/><rect x="590" y="430" width="22" height="7"/><rect x="606" y="190" width="14" height="6" fill="#f08cc0"/><rect x="-40" y="610" width="18" height="6" fill="#9a6bff"/></g>
+    </g>
+    <g id="bustSil">
+      <use xlink:href="#ghostCore"/>
+      <use xlink:href="#hairBack"/><use xlink:href="#bodyC"/><use xlink:href="#headFront"/><use xlink:href="#swoop"/>
+    </g>
+
+    <!-- ===== FULL BODY, drawn separately (2.3 heads), origin at feet centre ===== -->
+    <g id="fbCore">
+      <path d="M-90,200 C-98,120 -44,78 6,78 C64,78 108,120 98,200 C100,260 122,300 112,360 L70,350 L-60,350 L-108,366 C-120,300 -94,260 -90,200 Z" fill="#8576dc" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <!-- bow -->
+      <path d="M86,152 C96,118 128,118 124,142 C122,156 104,158 86,152 Z M86,152 C112,150 126,172 116,180 C104,188 92,170 86,152 Z" fill="#f08cc0" stroke="#2a1452" stroke-width="3.5" stroke-linejoin="round"/>
+      <!-- legs, thigh-highs, shoes -->
+      <path d="M-24,380 L-22,432 M18,380 L20,432" stroke="#2a1452" stroke-width="22" stroke-linecap="round"/>
+      <path d="M-24,380 L-22,432 M18,380 L20,432" stroke="#33206a" stroke-width="14" stroke-linecap="round"/>
+      <path d="M-40,428 L-10,426 L-8,454 L-46,456 C-50,442 -46,432 -40,428 Z M8,426 L36,428 C44,436 46,446 42,456 L6,454 Z" fill="#4a2d8f" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <!-- coat with flared tails -->
+      <path d="M-34,256 L36,256 L56,330 L84,398 L52,388 L30,400 L-30,400 L-56,388 L-86,398 L-56,330 Z" fill="#4a2d8f" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-22,258 L24,258 L30,350 L-26,350 Z" fill="#e4ddff" stroke="#2a1452" stroke-width="3.5"/>
+      <path d="M-30,348 L32,348 L38,372 Q30,364 22,374 Q14,364 6,374 Q-2,364 -10,374 Q-18,364 -26,374 Q-32,366 -36,372 Z" fill="#f4f0ff" stroke="#2a1452" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-36,264 L-44,330 L-34,350 M38,264 L46,330 L36,350" fill="none" stroke="#f08cc0" stroke-width="3.5"/>
+      <!-- detached sleeves, arms crossed loosely -->
+      <path d="M-34,272 L-58,330" stroke="#2a1452" stroke-width="26" stroke-linecap="round"/>
+      <path d="M-34,272 L-58,330" stroke="#4a2d8f" stroke-width="18" stroke-linecap="round"/>
+      <path d="M36,272 L60,330" stroke="#2a1452" stroke-width="26" stroke-linecap="round"/>
+      <path d="M36,272 L60,330" stroke="#4a2d8f" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="-60" cy="338" r="9" fill="#1a1726" stroke="#2a1452" stroke-width="3"/>
+      <circle cx="62" cy="338" r="9" fill="#1a1726" stroke="#2a1452" stroke-width="3"/>
+      <circle cx="36" cy="270" r="6" fill="none" stroke="#7af0ff" stroke-width="3"/>
+      <!-- head -->
+      <path d="M-62,158 C-64,212 -24,246 8,250 C44,248 74,212 74,158 Z" fill="#f0d3dd" stroke="#2a1452" stroke-width="4"/>
+      <path d="M-92,180 C-100,240 -80,300 -66,360 L-40,356 C-50,300 -56,240 -54,184 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M100,180 C104,240 92,300 98,350 L74,346 C70,300 70,240 66,184 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-92,184 C-104,110 -44,76 6,76 C66,76 110,112 100,184 L90,176 L86,198 Q76,178 66,168 L60,204 Q50,180 38,166 L30,206 Q18,180 6,166 L-4,206 Q-16,180 -28,168 L-34,198 Q-46,182 -60,176 C-70,180 -82,182 -92,184 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M8,92 C-24,110 -42,150 -34,186 C-30,206 -40,222 -58,224 C-72,224 -82,214 -86,200 C-72,208 -60,202 -58,188 C-56,160 -54,130 -30,108 C-18,98 -4,92 8,92 Z" fill="#b9aef5" stroke="#2a1452" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-40,110 C-20,96 4,90 30,90 L26,100 L42,90 C14,94 -16,100 -40,110 Z" fill="#e4ddff"/>
+      <g transform="rotate(-24 20 96)"><rect x="4" y="90" width="34" height="9" rx="3" fill="#f08cc0" stroke="#2a1452" stroke-width="2.5"/><circle cx="4" cy="94" r="6" fill="#f08cc0" stroke="#2a1452" stroke-width="2.5"/><circle cx="38" cy="94" r="6" fill="#f08cc0" stroke="#2a1452" stroke-width="2.5"/></g>
+      <ellipse cx="-22" cy="214" rx="13" ry="17" fill="#9a6bff" stroke="#2a1452" stroke-width="3"/>
+      <ellipse cx="-20" cy="217" rx="5" ry="8" fill="#2a1452"/><circle cx="-15" cy="208" r="4" fill="#fff"/>
+      <path d="M-40,212 C-34,196 -8,192 -2,204 L4,200 L-2,212 C-12,204 -28,204 -40,212 Z" fill="#2a1452"/>
+      <ellipse cx="36" cy="212" rx="10" ry="16" fill="#9a6bff" stroke="#2a1452" stroke-width="3"/>
+      <ellipse cx="37" cy="215" rx="4" ry="7" fill="#2a1452"/><circle cx="41" cy="206" r="3" fill="#fff"/>
+      <path d="M24,208 C30,196 48,192 54,202 L58,198 L54,210 C44,202 32,202 24,208 Z" fill="#2a1452"/>
+      <path d="M10,236 L22,234" fill="none" stroke="#2a1452" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <g id="fbHostile">
+      <path d="M-40,196 L-2,206 M24,206 L56,196" stroke="#2a1452" stroke-width="5" stroke-linecap="round"/>
+      <path d="M6,232 L28,230 C24,244 10,244 6,232 Z" fill="#2a1452"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#eceaf2"/>
+
+  <!-- dialogue card (composited frame, shown for context) -->
+  <clipPath id="cardClip"><polygon points="72,18 784,18 744,782 30,782"/></clipPath>
+  <polygon points="72,18 784,18 744,782 30,782" fill="#07111a"/>
+  <g clip-path="url(#cardClip)">
+    <path d="M400,18 L784,18 L770,300 Z" fill="#9a6bff" opacity="0.10"/>
+    <use xlink:href="#bust" transform="translate(178,24) scale(0.93)"/>
+  </g>
+  <polygon points="72,18 784,18 744,782 30,782" fill="none" stroke="#9a6bff" stroke-width="4"/>
+  <polygon points="84,28 330,28 324,98 78,98" fill="#07111a" stroke="#9a6bff" stroke-width="2"/>
+  <g font-family="Consolas, 'Courier New', monospace" fill="#f2f0ff">
+    <text x="92" y="60" font-size="30" letter-spacing="9" font-weight="700" fill="#9a6bff">NIBU</text>
+    <text x="92" y="86" font-size="14" letter-spacing="5">B / GLITCH TWIN</text>
+  </g>
+
+  <g font-family="'Segoe UI', Arial, sans-serif" fill="#2a1452">
+    <text x="808" y="40" font-size="13" letter-spacing="2" font-weight="700">FULL BODY  /  2.3 HEADS</text>
+    <g transform="translate(1000,470) scale(0.98) translate(0,-460)">
+      <g filter="url(#holo)" mask="url(#scanMask)" transform="translate(-70,-10)"><use xlink:href="#fbCore"/><use xlink:href="#fbHostile"/></g>
+      <use xlink:href="#fbCore"/>
+    </g>
+    <line x1="820" y1="474" x2="1170" y2="474" stroke="#c9c3ea" stroke-width="2"/>
+
+    <text x="808" y="508" font-size="13" letter-spacing="2" font-weight="700">SILHOUETTE</text>
+    <rect x="800" y="518" width="160" height="160" fill="#fff" stroke="#c9c3ea" stroke-width="2"/>
+    <use xlink:href="#bustSil" transform="translate(846,540) scale(0.175)" filter="url(#black)"/>
+
+    <text x="984" y="508" font-size="13" letter-spacing="2" font-weight="700">PALETTE</text>
+    <g font-size="11" font-family="Consolas, monospace">
+      <rect x="984" y="518" width="56" height="40" fill="#9a6bff"/><text x="1046" y="542">#9a6bff key</text>
+      <rect x="984" y="562" width="56" height="20" fill="#b9aef5"/><text x="1046" y="576">#b9aef5 hair</text>
+      <rect x="984" y="586" width="56" height="20" fill="#4a2d8f"/><text x="1046" y="600">#4a2d8f coat</text>
+      <rect x="984" y="610" width="56" height="20" fill="#2a1452"/><text x="1046" y="624">#2a1452 line</text>
+      <rect x="984" y="634" width="56" height="20" fill="#f08cc0"/><text x="1046" y="648">#f08cc0 ribbon</text>
+      <rect x="984" y="658" width="56" height="20" fill="#7af0ff"/><text x="1046" y="672">#7af0ff glitch</text>
+    </g>
+
+    <text x="808" y="718" font-size="13" letter-spacing="2" font-weight="700">HOOK</text>
+    <text x="808" y="740" font-size="15">Her glitch has a face: a scanline twin from a</text>
+    <text x="808" y="760" font-size="15">failed timeline sits behind her, already angry</text>
+    <text x="808" y="780" font-size="15">about something that has not happened yet.</text>
+  </g>
+</svg>

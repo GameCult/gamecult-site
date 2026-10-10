@@ -129,10 +129,11 @@ function legs(ch, pose) {
   let s = '';
   const extra = ch.extraLegs ? ch.extraLegs : 0;
   // Sleipnir-style extra legs: drawn behind, darker, peeking out between and beside.
+  const EXTRA = [[-19, -27], [19, 27], [-25, -38], [25, 38]]; // [hipX, footX], drawn behind
   for (let i = 0; i < extra; i++) {
-    const x = [-17, 17, -3, 3][i] ?? 0;
-    const foot = [x * 1.25, 150];
-    s += limb(`M${x} 124 L${P(foot)}`, shade(ch.legs, -0.25), 7);
+    const [hx, fx] = EXTRA[i];
+    const foot = [fx, 149 - (i > 1 ? 3 : 0)];
+    s += limb(`M${hx} 120 L${P(foot)}`, shade(ch.legs, -0.25), 7);
     s += inked(`<ellipse cx="${n(foot[0])}" cy="${foot[1] + 1}" rx="6.5" ry="4.5" fill="${shade(ch.shoes, -0.2)}"/>`);
   }
   for (const side of ['L', 'R']) {
@@ -423,7 +424,7 @@ export const ACC = {
   crystals: (c) => ({ front: `<path d="M-30 22 L-34 -4 L-18 14 Z M-12 12 L-8 -16 L2 10 Z M8 10 L20 -10 L22 14 Z M24 18 L40 4 L36 26 Z" fill="${c}"/><path d="M-9 8 L-8 -8 M18 6 L20 -4" stroke="#ffffff" stroke-width="2" opacity=".8"/>` }),
   beard: (c) => ({ mid: `<path d="M-38 62 Q-40 96 -16 108 Q0 118 16 108 Q40 96 38 62 Q30 84 14 82 Q0 88 -14 82 Q-30 84 -38 62 Z" fill="${c}"/>` }),
   goatee: (c) => ({ mid: `<path d="M-18 82 Q0 90 18 82 Q16 100 0 110 Q-16 100 -18 82 Z" fill="${c}"/>` }),
-  longNose: (c) => ({ front: `<path d="M-4 60 Q2 56 7 62 Q20 72 23 80 Q20 85 15 82 Q3 74 -4 66 Z" fill="${c}"/>` }),
+  longNose: (c) => ({ front: `<path d="M-4 61 Q2 56 7 61 Q15 67 17 73 Q15 77 11 75 Q2 70 -4 66 Z" fill="${c}"/>` }),
   tokin: (c) => ({ front: `<path d="M-6 16 L-4 2 Q2 -4 8 2 L10 16 Z" fill="${c}"/><path d="M-12 18 Q2 12 16 18" fill="none" stroke="${INK}" stroke-width="3"/>` }),
   ridges: (c) => ({ mid: `<path d="M-6 20 Q0 15 6 20 L5 42 Q0 46 -5 42 Z M-24 26 Q-18 22 -14 28 L-16 44 Q-21 44 -23 40 Z M24 26 Q18 22 14 28 L16 44 Q21 44 23 40 Z" fill="${c}"/>` }),
   forehead: (c) => ({ front: `<circle cx="0" cy="38" r="4.5" fill="${c}"/>` }),
@@ -463,7 +464,7 @@ export const PROPS = {
   cards: (c) => `<g transform="rotate(-14)"><rect x="-14" y="-22" width="15" height="21" rx="2" fill="${c}"/><path d="M-10 -15 q3 -4 6 0 q-3 5 -6 9" fill="none" stroke-width="2"/></g><g transform="rotate(10)"><rect x="-2" y="-24" width="15" height="21" rx="2" fill="${c}"/><path d="M2 -17 h7 M5 -17 v9" fill="none" stroke-width="2"/></g>`,
   keys: (c) => `<circle cx="0" cy="-10" r="8" fill="none" stroke="${INK}" stroke-width="7"/><circle cx="0" cy="-10" r="8" fill="none" stroke="${c}" stroke-width="3"/><circle cx="-6" cy="-20" r="5" fill="${c}"/><rect x="-7.5" y="-22" width="3" height="3" fill="${INK}" stroke="none"/><path d="M8 -6 L18 4 L15 7 M14 0 L11 3" fill="none" stroke-width="6" stroke="${INK}"/><path d="M8 -6 L18 4 L15 7 M14 0 L11 3" fill="none" stroke-width="2.6" stroke="${c}"/>`,
   hammer: (c, h) => `<path d="M0 6 L0 -18" stroke="${INK}" stroke-width="8"/><path d="M0 6 L0 -18" stroke="${h}" stroke-width="4"/><rect x="-13" y="-28" width="26" height="13" rx="3" fill="${c}"/><path d="M-9 -24 L-9 -19" stroke="${shade(c, 0.5)}" stroke-width="2"/>`,
-  horn: (c, band) => `<path d="M-6 4 Q-14 -18 6 -28 L14 -20 Q-2 -12 4 4 Z" fill="${c}"/><path d="M2 -26 L14 -20" stroke-width="5"/><path d="M-9 -6 Q-4 -9 1 -7" fill="none" stroke="${band}" stroke-width="3"/>`,
+  horn: (c, band) => `<path d="M-2 6 Q-14 -10 0 -26 L18 -16 Q2 -8 4 6 Z" fill="${c}"/><ellipse cx="9" cy="-21" rx="10.5" ry="5.5" transform="rotate(30 9 -21)" fill="${shade(c, -0.2)}"/><ellipse cx="9" cy="-21" rx="6" ry="2.6" transform="rotate(30 9 -21)" fill="${INK}"/><path d="M-6 -4 Q0 -8 5 -4" fill="none" stroke="${band}" stroke-width="3.4"/><path d="M-6 -4 Q0 -8 5 -4" fill="none" stroke-width="0"/>`,
   fan: (c) => `<path d="M0 4 L0 -6" stroke="${INK}" stroke-width="6"/><path d="M0 -4 Q-20 -14 -16 -30 Q0 -36 16 -30 Q20 -14 0 -4 Z" fill="${c}"/><path d="M0 -6 L-8 -28 M0 -6 L0 -32 M0 -6 L8 -28" stroke="${shade(c, -0.3)}" stroke-width="1.6"/>`,
   brush: (c) => `<path d="M0 6 L0 -16" stroke="${INK}" stroke-width="8"/><path d="M0 6 L0 -16" stroke="${c}" stroke-width="4"/><path d="M-5 -16 L5 -16 Q6 -26 0 -34 Q-6 -26 -5 -16 Z" fill="#1a1a1a"/><circle cx="12" cy="-28" r="3" fill="#1a1a1a" stroke="none"/><circle cx="16" cy="-20" r="2" fill="#1a1a1a" stroke="none"/>`,
   quill: (c) => `<path d="M-2 6 Q-2 -14 14 -32 Q12 -14 0 4 Z" fill="${c}"/><path d="M-2 6 L8 -18" stroke="${INK}" stroke-width="1.6"/><circle cx="-4" cy="9" r="2.4" fill="#3a2a6b" stroke="none"/>`,

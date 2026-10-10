@@ -1,0 +1,25 @@
+# Eureka r2a
+
+## Hypothesis
+
+Consistency: one shared style block, byte-identical across all eight prompts, states the proportions as an explicit head count (two heads tall) instead of the bare word chibi that failed in round 1, and fixes framing, line, shading, palette rule and a flat chroma-key green ground for a deterministic cutout. Per-character text describes only the character.
+
+## Variable changed
+
+Batch A baseline: shared style block with ratio two heads tall, then the character block.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r2/eureka-r2a.png
+- Committed: eureka-r2a.webp (lossless, 1024 px long side) and eureka-r2a-cutout.png (transparent, 1024 px long side)
+- Request id: 8210c514-182d-4cc7-959b-2b786d18160c
+- Date: 2026-10-10
+- Composition: shared style block (byte-identical within the batch), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Eureka, a neon-noir bug hunter: a young woman with messy shoulder-length black hair with one bright orange streak in the fringe, sharp focused blue-grey eyes, a slight knowing smile. She wears a dark charcoal trenchcoat with the hood up, framing her face, and a high collar; the hood's edge and the coat's seams are piped with ember-orange lines, over tactical gear: chest straps, buckles and pouches. Fingerless gloves; she holds a slim orange metal probe. Key colour: ember orange.

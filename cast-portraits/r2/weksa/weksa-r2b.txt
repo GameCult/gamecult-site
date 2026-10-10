@@ -1,0 +1,25 @@
+# Weksa r2b
+
+## Hypothesis
+
+Same as r2a with one variable changed: the figure is three heads tall instead of two, testing whether a milder, more achievable ratio is followed more uniformly across the cast.
+
+## Variable changed
+
+Ratio only: 'two heads tall' became 'three heads tall' in the shared block, against the same character's r2a. Character block identical.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r2/weksa-r2b.png
+- Committed: weksa-r2b.webp (lossless, 1024 px long side) and weksa-r2b-cutout.png (transparent, 1024 px long side)
+- Request id: 40eb9b88-269f-44d4-b0da-72fa719ae5ac
+- Date: 2026-10-10
+- Composition: shared style block (byte-identical within the batch), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is three heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Weksa, a tomboyish young woman, an adventurous field archaeologist in the Indiana Jones mould: warm brown skin, a confident lopsided grin, a smudge of dust on one cheek, messy dark brown shoulder-length hair tied partly up in a topknot with turquoise and amber beads and small feathers, large round gold-rimmed glasses, warm amber-brown eyes, dangling turquoise earrings. She wears a cream linen robe with teal embroidered trim, its sleeves rolled up to the elbows, over a weathered brown leather vest, with beaded necklaces and wooden bead bracelets and a leather strap across her chest; a battered brown leather backpack stuffed with rolled scrolls and a small carved idol shows behind one shoulder. She holds up a small paper card with a hand-drawn glyph between two fingers. No hat. Key colours: teal and amber on earthy browns.

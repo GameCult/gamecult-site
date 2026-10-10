@@ -97,3 +97,108 @@ r1a.
 - The flat navy ground renders lighter than `#07111a`. A pale ground traces better for dark-clad
   characters. Choosing the ground per character, or one shared choice, is a ruling for the operator.
 - Negative style instructions ("no outlines") are weak against the word "anime".
+
+# Round 2
+
+Operator verdict on round 1 (ruling `site-masthead:ruling:cast-portrait-canon-r1`): "Hood up, blue-grey
+eyes, push Libby further from Nibu, Weksa is a girl (if tomboyish, she's kind of an indiana jones type after
+all). No backgrounds. See if you can get a consistent batch now." The hood and the eyes are Eureka's.
+
+Files are in `r2/<name>/`: `<name>-r2a|b.webp` (lossless, 1024 px), `<name>-r2a|b-cutout.png` (transparent,
+1024 px) and `<name>-r2a|b.txt` (hypothesis, variable, render record, exact prompt). The 2k originals stay out
+of git in `F:\Projects\cast-art-originals\r2\`. `r2/contact-r2-A.png` and `r2/contact-r2-B.png` show each
+batch's eight cutouts at one scale on mid-grey.
+
+## Canon changes in round 2
+
+- **Eureka**: hood up, framing her face, piped in ember orange; blue-grey eyes; black hair with one orange streak.
+- **Libby, pushed away from Nibu** using levers from her own sheet and none of Nibu's. Changed: her hair is a
+  deeper, warmer dusky violet-lavender (Nibu stays pale lavender), gathered into one loose, fat wavy braid over
+  her right shoulder with the diamond-pattern bow at the top of the braid. The braid replaces the sheet's loose
+  fall of hair and gives her a different silhouette from Nibu's long straight curtain. Emphasised: black and gold
+  as her palette (gold embroidery, gold-set brooch, gold earrings, gold-cornered book) against Nibu's lilac,
+  pink and cyan; round glasses; an open, happy smile against Nibu's half-lidded calm; a book hugged to her
+  chest against Nibu's folded arms. Nibu is unchanged apart from her clip.
+- **Weksa** is a tomboyish young woman, a field archaeologist of the Indiana Jones type: a confident lopsided
+  grin, dust on one cheek, robe sleeves rolled to the elbows, a weathered leather vest and a chest strap. Her
+  sheet's canon is kept: gold round glasses, beaded and feathered topknot, cream robe with teal trim, scroll
+  backpack with a carved idol, glyph card. She has no hat, so the topknot stays visible.
+- **Nibu**: the clip is described as a small data-connector plug, a rectangular body with a pink bead at each end.
+- **Aqua**: overlapping scales are drawn on the body, with a round fish mouth and no beak, legs or feet. Aqua's
+  canon is a whole fish, so his prompt asks for the whole body instead of a bust.
+
+## Shared style block and ground
+
+Every prompt is one shared style block, byte-identical within a batch, then a blank line, then a block that
+describes only the character. The style block fixes:
+
+- the framing: a bust cut at mid-chest by the bottom edge, three-quarter view turned right, head centred, 4:5 at 2k
+- the proportions, as a head count
+- the line: one bold dark outline of even weight, thinner inner lines
+- the shading: flat cel, one base tone and one shadow tone per material, light from the upper left
+- the palette rule: five or six flat colours from the character's key colours
+- the ground
+
+Round 1's rim light is dropped. It took only where the outline turned the key colour, and a coloured rim at
+the matte edge makes the key less clean.
+
+The ground is one flat chroma-key green, because green is the only hue no character uses. FLUX cannot emit
+transparency, so `matte_r2.py` (Pillow only, no models) keys the ground out deterministically:
+
+- Greenness is G - max(R, B).
+- Alpha ramps from opaque at a greenness of 40 to clear at 110, so ground enclosed between an arm and the body
+  is keyed too.
+- G is clamped to max(R, B) only in a thin band at the edge (despill).
+- The alpha edge gets a 0.8 px feather.
+
+All 16 grounds came out flat: corner standard deviation was 1 to 3 per channel, with one corner of void-r2a at 7.
+The strength of the green varied between renders. After the key, no pixel above half opacity is still strongly
+green, and no halo shows on a dark or a light checker. FLUX drew a thin light sticker border outside the dark
+outline on several figures (Kiko, Nibu, Eureka). The border is part of the drawing, not left over from the key,
+and it stays in the cutout.
+
+## Hypotheses
+
+- **r2a (batch A)**: a byte-identical shared block that states the proportions as a head count ("two heads
+  tall") instead of the bare word "chibi" gives a consistent chibi batch. A flat green ground gives clean,
+  deterministic cutouts.
+- **r2b (batch B)**: identical to r2a except for "three heads tall", to test whether a milder ratio is followed
+  more evenly. Each render changes one variable against the same character's r2a.
+
+## Results
+
+| Render | Observation | Agent verdict | Operator verdict |
+|---|---|---|---|
+| libby-r2a | Deep violet braid over the shoulder, bone clip, diamond bow, round glasses, gold earrings, black and gold robe, book. Clearly chibi. | Holds. She reads apart from Nibu. | |
+| libby-r2b | The same design, with a slightly smaller head. The braid and the black and gold palette carry the separation. | Holds. | |
+| heimdall-r2a | Chibi, curly hair with gold highlights, black and blue coat with gold filigree, gold key. | Holds. | |
+| heimdall-r2b | Older and longer-faced, closer to round 1's standard proportions. The hair is less curly. | Weaker: the ratio pulls him toward generic. | |
+| kiko-r2a | Mask, bells, tassels, fang grin, wave, magenta and teal kimono, pink-tipped tail. | Holds. | |
+| kiko-r2b | Almost the same as r2a. | Holds. | |
+| aqua-r2a | Round goldfish with headphones, crest fin and a small fish mouth, no beak. The body is smooth, with no scales. He is smaller in frame than the busts. | Partial: the species is fixed, the scales are missing. | |
+| aqua-r2b | Clearly drawn scales, fish mouth, forked tail, headphones with cyan rings. | Holds. Closest to canon so far. | |
+| weksa-r2a | Reads as a young woman: topknot, gold glasses, teal trim, scroll backpack, chest strap, glyph card. The grin is soft, not lopsided. | Holds. | |
+| weksa-r2b | A tomboyish young woman with a grimy field look, an idol in the backpack and a glyph card. The dust smudge reads as heavy grime on her cheek. | Holds. The grime may be too much. | |
+| nibu-r2a | Calm, arms folded, pale lavender hair, cyan device. The clip is a plain pin and the bow is small. | Partial: the clip is still not the connector. | |
+| nibu-r2b | The clip is a rectangular plug with a bead at each end, the first time it reads as the connector. Her body is longer and more adult. | Holds on canon. Less chibi. | |
+| eureka-r2a | Hood up and piped in orange, black hair with an orange streak, blue-grey eyes, chest rig, probe. | Holds. | |
+| eureka-r2b | The same design, slightly less chibi. | Holds. | |
+| void-r2a | Pointed hood, black face with white oval eyes, frayed orange scarf, gloves. | Holds. | |
+| void-r2b | The same design, smaller in frame. | Holds. | |
+
+## Consistency
+
+Both batches are far more uniform than round 1: one line weight, one shading model, one crop and one turn
+across all eight characters. Batch A is the more consistent one. "Two heads tall" put the human busts on one
+chibi scale. "Three heads tall" let Heimdall and Nibu drift back toward round 1's ordinary anime proportions,
+while Kiko and Libby stayed chibi. The wording of the ratio decides how consistent the batch is: a milder ratio
+leaves FLUX room to fall back on each character's default proportions. Batch B's gains (Nibu's connector clip,
+Aqua's scales) are per-render chance, not an effect of the ratio. Neither batch matched the scale of the
+non-human figures: Aqua and Void sit smaller in frame than the busts.
+
+## Open for round 3
+
+- Getting batch A's style block together with Nibu's connector clip and Aqua's scales from batch B needs a re-render.
+- The scale of Aqua and Void needs a framing statement in their character blocks, for example "fills the frame
+  as fully as the others".
+- Weksa's dust smudge may need toning down.

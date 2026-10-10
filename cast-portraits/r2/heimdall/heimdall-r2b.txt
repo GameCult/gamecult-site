@@ -1,0 +1,25 @@
+# Heimdall r2b
+
+## Hypothesis
+
+Same as r2a with one variable changed: the figure is three heads tall instead of two, testing whether a milder, more achievable ratio is followed more uniformly across the cast.
+
+## Variable changed
+
+Ratio only: 'two heads tall' became 'three heads tall' in the shared block, against the same character's r2a. Character block identical.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r2/heimdall-r2b.png
+- Committed: heimdall-r2b.webp (lossless, 1024 px long side) and heimdall-r2b-cutout.png (transparent, 1024 px long side)
+- Request id: c458a271-89ca-4961-aac9-b3b2bde445a7
+- Date: 2026-10-10
+- Composition: shared style block (byte-identical within the batch), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is three heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Heimdall, a stern young gatekeeper: dark brown skin, a mop of messy dark brown curly hair with golden highlights, glowing golden amber eyes, a serious frown, one small gold earring. He wears a high-collared black coat with royal blue lapels and a royal blue cape trimmed in gold filigree, small blue gems on the shoulder armour, and a gold key-shaped clasp at the throat. He holds an ornate golden key raised beside his shoulder. Key colours: gold and cobalt blue.

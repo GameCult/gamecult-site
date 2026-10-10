@@ -122,5 +122,17 @@ with its `.md` prompt twin, and `cast-designs/renders/<character>/results.md`.
 
 Round 1 renders one direction per character, chosen for the strongest
 above-the-shoulder hook, to test the style block itself across the cast before
-spending renders on alternatives. See the end of each character file for its
-candidate and the reason.
+spending renders on alternatives. Each character file ends with its reason.
+
+| Round 1 | Direction | What it tests |
+|---|---|---|
+| Aqua | A, Goldfish Idol | a non-humanoid under the shared rendering rules |
+| Weksa | A, Speech Bubble | a symbol-shaped hair mass as the hook |
+| Heimdall | A, Horn Bearer | an asymmetric arc surviving the bust crop |
+| Libby | A, Card Catalogue | a worn object as the hook |
+| Eureka | A, The Spark | the leader's read with no regalia |
+| Nibu | B, Smeared Hostess | a doubled outline as the hook |
+| Kiko | B, Screen Mask | a second face as the hook |
+
+Then the cast-wide silhouette check on the seven baselines, before any
+round 2.

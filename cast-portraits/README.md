@@ -232,3 +232,27 @@ eureka-r2a and void-r3a. No halo shows on any of the round-3 cutouts on a dark o
 
 Still open: Aqua's mouth. A negative ("no beak") does not hold. A positive description of the shape may do
 better, for example the icon's wide open smile, or a mouth drawn as a small round "o" with no point.
+
+# Round 4
+
+This round is one render, Aqua only (aqua-r4a), with batch A's shared block byte for byte. It changes two
+variables against aqua-r3a, because r3a missed on both:
+
+1. **Mouth**: described positively, as the icon and the sheet draw it: "a wide, soft, open happy smile on a
+   rounded puffy snout, full rounded lips with rounded corners, showing a dark mouth and a pink tongue". All the
+   negatives ("no beak, no bill, no legs and no feet") are dropped.
+2. **Frame**: a crop stated the way the busts are cropped: his body fills the frame down to the bottom edge,
+   with the lower belly cut off as the busts are cut at mid-chest.
+
+The scales sentence is the same as in r3a. Files are in `r4/aqua/`, and the 2k original is in
+`F:\Projects\cast-art-originals\r4\`. `r4/render_r4.py` and `r4/matte_r4.py` hold the prompt and the matte,
+which is the same as in round 2.
+
+| Render | Observation | Agent verdict | Operator verdict |
+|---|---|---|---|
+| aqua-r4a | The mouth is the icon's: a wide open smile with rounded corners and a pink tongue on a rounded snout, with no point and no beak. The scales, crest fin, cyan-ringed headphones and forked tail are kept. He is larger in frame than r3a, but the whole round body is still shown: it stops about 12% above the bottom edge instead of running off it like the busts. No halo on either checker. | Mouth holds. Frame is partial: closer to the busts' scale, but not cropped. | |
+
+aqua-r4a holds canon better than aqua-r3a, so it replaces r3a in `r3/contact-final.png`. The set is
+libby-r2a, heimdall-r2a, kiko-r2a, aqua-r4a, weksa-r2a, nibu-r3a, eureka-r2a and void-r3a. FLUX still prefers
+to show a fish whole. Matching the busts' crop exactly would need a stronger framing lever, for example a
+tighter shot described as a close-up of his face and upper body.

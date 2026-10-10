@@ -1,0 +1,25 @@
+# Aqua r4a
+
+## Hypothesis
+
+aqua-r3a missed two things, so two variables change at once. Describing the mouth positively, as the icon and sheet draw it (a wide soft open smile on a rounded snout, showing a tongue), avoids the pointed beak that the 'no beak' negative kept producing. A crop stated like the busts' (body fills the frame to the bottom edge) puts Aqua at the same scale as the rest of the set. Scales line kept from r3a; batch A's shared block unchanged.
+
+## Variable changed
+
+Against aqua-r3a, character block only: (1) mouth: 'a small round fish mouth with soft lips, no beak, no bill, no legs and no feet' became 'a wide, soft, open happy smile on a rounded puffy snout, full rounded lips with rounded corners, showing a dark mouth and a pink tongue' (all negatives dropped); (2) frame: the frame-filling sentence became a crop that fills the frame down to the bottom edge, the lower belly cut off like the busts' mid-chest crop. Scales sentence identical to r3a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/r4/aqua-r4a.png
+- Committed: aqua-r4a.webp (lossless, 1024 px long side) and aqua-r4a-cutout.png (transparent, 1024 px long side)
+- Request id: c05304de-da43-4cd3-8955-f581c031d0fc
+- Date: 2026-10-10
+- Composition: shared style block (batch A's block, byte-identical to r2a), blank line, character block
+
+## Prompt
+
+Character portrait for a game cast lineup: a bust, head and shoulders cropped at mid-chest by the bottom edge of the frame, the character in three-quarter view turned toward the right side of the frame, the head centred horizontally with its top a small margin below the top edge, the same crop and scale for every character. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+Aqua, a cartoon goldfish DJ. He is a fish, so his crop works like the busts: his round body fills the frame down to the bottom edge, the lower belly cut off by the bottom edge the way the busts are cut at mid-chest, the top of his crest fin a small margin below the top edge, his head and body spanning most of the frame width, the tail fin allowed to run off the side edge: a round chubby goldfish with a golden-yellow face and an orange body covered all over in clearly outlined overlapping fish scales, drawn as rows of small curved scale shapes on the body; big round blue eyes with white highlights; a wide, soft, open happy smile on a rounded puffy snout, full rounded lips with rounded corners, showing a dark mouth and a pink tongue; a little orange crest fin on top of the head; large black over-ear studio headphones with cyan rings on the ear cups. Bright orange pectoral fins, one raised, and a flowing forked orange tail fin. Key colours: orange and cyan.

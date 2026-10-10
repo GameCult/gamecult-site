@@ -1,0 +1,22 @@
+# Weksa r1b
+
+## Hypothesis
+
+A short blunt prompt gives FLUX room to compose and may read cleaner than the long specified one, at the cost of canon detail.
+
+## Variable changed
+
+Prompt length only: the long style plus character blocks became a two-sentence prompt with the same core features, against weksa-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: bc83967c-179f-40ba-ab1a-97cb77403f99
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Flat cel-shaded chibi anime bust portrait, bold outlines, plain dark navy background. Weksa: brown skin, messy dark topknot with turquoise beads and feathers, round gold glasses, cream robe with teal trim, scroll-stuffed backpack, eager smile.

@@ -1,0 +1,24 @@
+# Aqua r1b
+
+## Hypothesis
+
+Aqua's canon icon is glossy; glossy gradient shading will be truer to the icon but worse for vectorising than flat cel.
+
+## Variable changed
+
+Shading only: flat two-tone cel became glossy gradient shading, against aqua-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: 32e3f15e-e4c9-439c-ae40-1d9fc9db2322
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, soft glossy shading with smooth gradients and bright specular highlights like a polished app icon, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No texture, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Aqua, a cartoon goldfish DJ: a round chubby goldfish with a golden-yellow face and orange body, big round blue eyes with white highlights, a small open happy mouth, a little orange crest fin on top of the head, wearing large black over-ear studio headphones with glowing cyan rings on the ear cups. Bright orange fins and a flowing orange tail. The fish's head and upper body fill the frame, one fin raised. A few small cyan bubbles. Key colours: orange and cyan.

@@ -1,0 +1,24 @@
+# Void r1b
+
+## Hypothesis
+
+Square framing suits a wide hood-and-scarf silhouette better than 4:5 and tests the square-versus-4:5 framing choice.
+
+## Variable changed
+
+Aspect ratio only: 4:5 became 1:1, against void-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 1:1, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 2048x2048, source format PNG, saved as PNG
+- Request id: 4f1021fa-8917-4339-99a5-701abede11f3
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Void, a small hooded shadow figure: a deep indigo-violet robe with a large pointed hood, the face inside the hood completely black with no features except two tall white glowing oval eyes, a thick bright orange scarf wrapped around the neck with frayed ends trailing to one side, dark gloved hands. Key colours: indigo violet and orange.

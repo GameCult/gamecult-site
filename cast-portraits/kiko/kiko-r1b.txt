@@ -1,0 +1,24 @@
+# Kiko r1b
+
+## Hypothesis
+
+Lineless flat-shape rendering will vectorise more cleanly than outlined art while keeping Kiko readable through colour blocks.
+
+## Variable changed
+
+Line only: bold outlines became no outlines (flat colour shapes), against kiko-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: 784e839e-1662-4fc6-ba1f-2e1fc9852547
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: no outlines and no line art at all, every form defined only by flat colour shapes meeting edge to edge, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Kiko, an excitable fox-girl streamer: messy white shoulder-length hair, tall white fox ears with pink insides, a white kitsune fox mask with red and magenta markings worn pushed up on top of her head, black hair ornaments with gold bells and magenta tassels, bright cyan eyes, a wide open-mouthed grin with one small fang, one hand raised in a wave. She wears a black kimono-style jacket with magenta and teal trim and a gold bell at the collar. A fluffy white fox tail with pink tips curls up behind one shoulder. Key colours: magenta and cyan.

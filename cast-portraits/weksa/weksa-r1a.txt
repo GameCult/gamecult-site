@@ -1,0 +1,24 @@
+# Weksa r1a
+
+## Hypothesis
+
+Shared style baseline: a chibi bust (head and shoulders, three-quarter view facing right, 4:5) in flat two-tone cel shading with bold outlines on a flat dark navy ground will give a vector-traceable take on the pixel-art canon, carrying its silhouette, palette and hooks.
+
+## Variable changed
+
+Baseline: shared style block plus the canon character block.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: 337dbab5-7910-4769-bb61-4704503bbb96
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Weksa, a cheerful wandering field anthropologist: warm brown skin, messy dark brown shoulder-length hair tied partly up in a topknot with turquoise and amber beads and small feathers, large round gold-rimmed glasses, warm amber-brown eyes, dangling turquoise earrings, an eager open smile. Wears a cream linen robe with teal embroidered trim over a brown vest, beaded necklaces and wooden bead bracelets, a brown leather backpack stuffed with rolled scrolls showing behind one shoulder. Holds up a small paper card with a hand-drawn glyph. Key colours: teal and amber on earthy browns.

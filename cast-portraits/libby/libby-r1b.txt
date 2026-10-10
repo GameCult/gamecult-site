@@ -1,0 +1,24 @@
+# Libby r1b
+
+## Hypothesis
+
+A black-robed character on a dark ground loses her silhouette; a pale ground will separate the robe edge and make tracing easier.
+
+## Variable changed
+
+Ground only: flat dark navy became flat pale warm off-white, against libby-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: 47c38113-18cb-4e8a-930c-130d3f699b97
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid pale warm off-white background with nothing else in it, so the silhouette reads strongly.
+
+Libby, a cheerful young librarian-witch: long wavy lavender hair falling past her shoulders with a swept side fringe, a white crossed-bone hair clip on the left side of her head, a dark purple ribbon bow with a mauve diamond pattern tied in her hair on the right, round thin black-framed glasses, large grey-violet eyes, small gold drop earrings, pale skin, smiling with her mouth open. She wears a high-collared black scholar's robe embroidered with dusky mauve diamond and rune patterns and a small violet gem brooch at the collar. She holds an old brown leather book with a faint violet glow at the bottom edge of the frame. Key colour: soft violet.

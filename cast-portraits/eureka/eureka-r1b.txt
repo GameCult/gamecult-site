@@ -1,0 +1,24 @@
+# Eureka r1b
+
+## Hypothesis
+
+The hood up frames the face into a stronger, more recognisable neon-noir silhouette than hood down (the canon mascot shows it down).
+
+## Variable changed
+
+Hood only: hood down became hood up framing the face, against eureka-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: e7279e4b-4fe1-481e-8e9e-9ab01f7795dd
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Eureka, a neon-noir bug hunter: a young woman with messy shoulder-length black hair with one bright orange streak, sharp focused blue-grey eyes, a slight knowing smile. She wears a dark charcoal hooded trenchcoat with the hood up, framing her face, and the collar up, its seams and edges piped with glowing ember-orange lines, over tactical gear: chest straps, buckles and pouches. Fingerless gloves; she holds a slim orange metal probe. Key colour: ember orange.

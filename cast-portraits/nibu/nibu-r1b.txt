@@ -1,0 +1,24 @@
+# Nibu r1b
+
+## Hypothesis
+
+A straight front view suits Nibu's still, arms-folded canon pose and makes a stronger symmetrical silhouette than three-quarter.
+
+## Variable changed
+
+View only: three-quarter facing right became straight-on front, against nibu-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: 1f7e033d-f0c4-46b0-b604-8dfc51875929
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, straight-on front view with the character facing the viewer directly, symmetrical framing, eye line in the upper third, clear margin around the head. Chibi proportions: a large head, small shoulders. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Nibu, a quiet, serious worldbuilder girl: very long pale lavender hair with a swept side fringe, a small pink hair clip on the left, a large pink ribbon bow on the right, half-lidded violet eyes, a calm unsmiling expression, arms folded. Wears a sleeveless lilac blouse with a frilled collar, detached dark purple sleeves with circuit-pattern embroidery, a small glowing cyan ring device on the shoulder, and a long dark purple coat. Key colours: violet and pink with a cyan accent.

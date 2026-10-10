@@ -1,0 +1,24 @@
+# Heimdall r1b
+
+## Hypothesis
+
+Chibi proportions are what make the take read as the canon; standard anime proportions will read as a different, generic character.
+
+## Variable changed
+
+Proportions only: chibi became standard anime proportions, against heimdall-r1a.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:5, resolution 2k, safety_tolerance default, grounding default; no seed field; rendered from scratch with no reference image or edit
+- Output: 1824x2288, source format PNG, saved as PNG
+- Request id: ddc56b81-968c-4497-aae7-7907fcf93857
+- Date: 2026-10-10
+- Composition: shared style block, blank line, character block (r1b of weksa is one short prompt)
+
+## Prompt
+
+Character bust portrait for a game dialogue box: head and shoulders, cropped at mid-chest, three-quarter view with the character turned toward the right side of the frame, eye line in the upper third, clear margin around the head. Standard anime proportions: a natural adult-teen head size with full-width shoulders, not chibi. Clean 2D anime illustration made to be traced into vector art: a bold dark outline around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, a thin rim light in the character's key colour on the side away from the light, light from the upper left. No gradients, no texture, no painterly blending, no pixel art, no 3D rendering. A limited palette of five or six flat colours. Large expressive anime eyes with two white highlights. Plain flat solid dark navy blue-black background with nothing else in it, so the silhouette reads strongly.
+
+Heimdall, a stern young gatekeeper: dark brown skin, a mop of messy dark brown curly hair with golden highlights, glowing golden amber eyes, a serious frown, one small gold earring. He wears a high-collared black coat with royal blue lapels and a royal blue cape trimmed in gold filigree, small glowing blue gems on the shoulder armour, and a gold key-shaped clasp at the throat. He holds an ornate golden key raised beside his shoulder. Key colours: gold and cobalt blue.

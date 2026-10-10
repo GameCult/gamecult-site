@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">GameCult portfolio value orbit map</title>
-  <desc id="desc">A radial orbit graphic placing Bifrost, Eve, CultMesh, and Sai at the center with portfolio projects orbiting by value layer.</desc>
+  <desc id="desc">A radial orbit graphic placing Bifrost, Thing, CultMesh, and Sai at the center with portfolio projects orbiting by value layer.</desc>
   <defs>
     <radialGradient id="bg" cx="50%" cy="50%" r="70%">
       <stop offset="0" stop-color="#10243a"/>
@@ -35,7 +35,7 @@
   <line class="line" x1="800" y1="450" x2="510" y2="310"/>
   <g transform="translate(650 116)">
     <rect class="chip" width="300" height="95" rx="18"/>
-    <text x="150" y="39" text-anchor="middle" class="label" font-size="25">EVE</text>
+    <text x="150" y="39" text-anchor="middle" class="label" font-size="25">THING</text>
     <text x="150" y="67" text-anchor="middle" class="small" font-size="17">surface web renderer</text>
   </g>
   <g transform="translate(1035 270)">

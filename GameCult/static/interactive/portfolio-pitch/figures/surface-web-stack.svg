@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Eve surface web stack</title>
-  <desc id="desc">A layered SVG diagram of Eve streaming CultUI semantics to web, desktop, mobile, games, and overlays.</desc>
+  <title id="title">Thing surface web stack</title>
+  <desc id="desc">A layered SVG diagram of Thing streaming Thing Script semantics to web, desktop, mobile, games, and overlays.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06111f"/>
@@ -23,8 +23,8 @@
     </marker>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
-  <text x="800" y="58" text-anchor="middle" class="label" font-size="42">EVE: THE SURFACE WEB STACK</text>
-  <text x="800" y="92" text-anchor="middle" class="small" font-size="20">multi-backend streaming DOM with CultUI semantics, not another dashboard silo</text>
+  <text x="800" y="58" text-anchor="middle" class="label" font-size="42">THING: THE SURFACE WEB STACK</text>
+  <text x="800" y="92" text-anchor="middle" class="small" font-size="20">multi-backend streaming DOM with Thing Script semantics, not another dashboard silo</text>
   <g transform="translate(198 155)">
     <rect class="layer" width="1204" height="105" rx="24"/>
     <text x="602" y="45" text-anchor="middle" class="label" font-size="28">CULTMESH STATE</text>
@@ -33,13 +33,13 @@
   <path class="flow" d="M800 260 L800 318"/>
   <g transform="translate(270 318)">
     <rect class="layer" width="1060" height="118" rx="24" filter="url(#glow)"/>
-    <text x="530" y="50" text-anchor="middle" class="label" font-size="32">CULTUI SEMANTIC DOM</text>
+    <text x="530" y="50" text-anchor="middle" class="label" font-size="32">THING SCRIPT SEMANTIC DOM</text>
     <text x="530" y="83" text-anchor="middle" class="small" font-size="19">buttons know commands, cards know provenance, panels know project authority</text>
   </g>
   <path class="flow" d="M800 436 L800 500"/>
   <g transform="translate(332 500)">
     <rect x="0" y="0" width="936" height="100" rx="24" fill="#ff8a2a" stroke="#edf6ff" stroke-width="3"/>
-    <text x="468" y="42" text-anchor="middle" class="dark" font-size="31">EVE STREAMING TRANSPORT</text>
+    <text x="468" y="42" text-anchor="middle" class="dark" font-size="31">THING STREAMING TRANSPORT</text>
     <text x="468" y="72" text-anchor="middle" class="dark" font-size="18">incremental UI surfaces, command intents, replayable state</text>
   </g>
   <g transform="translate(92 682)">

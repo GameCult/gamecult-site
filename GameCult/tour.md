@@ -24,7 +24,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
 
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Project Atlas</h2>
-    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Eve connect their Bodies, and which jurisdictions still need a public face.</p>
+    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Thing connect their Bodies, and which jurisdictions still need a public face.</p>
     <p><a href="/Projects/">Visit the project atlas</a> | <a href="/Docs/Architecture-and-Evidence">Inspect the architecture and evidence</a></p>
   </div>
 
@@ -56,7 +56,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
 
   <div id="gamecult-vn-norn-future" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Norn Wants</h2>
-    <p>Live Bifrost work frontiers, Epiphany evidence maps, Eve operational surfaces, Ghostlight consequence graphs, and direct graph rooms for every repo in the swarm.</p>
+    <p>Live Bifrost work frontiers, Epiphany evidence maps, Thing operational surfaces, Ghostlight consequence graphs, and direct graph rooms for every repo in the swarm.</p>
   </div>
 
   <div id="gamecult-vn-sai-embed" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -85,14 +85,14 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   </div>
 
   <div id="gamecult-vn-eve-surface-pipeline" class="gamecult-vn-source-card" data-sai-dom-source="true">
-    <h2>Eve Pipeline</h2>
-    <p>Provider-owned state becomes a CultUI semantic tree; Eve projects it into local renderers; user action becomes command intent; the provider accepts or refuses and publishes updated truth.</p>
-    <p><a href="https://github.com/GameCult/Eve">Eve repo</a></p>
+    <h2>Thing Pipeline</h2>
+    <p>Provider-owned state becomes a Thing Script semantic tree; Thing projects it into local renderers; user action becomes command intent; the provider accepts or refuses and publishes updated truth.</p>
+    <p><a href="https://github.com/GameCult/Thing">Thing repo</a></p>
   </div>
 
   <div id="gamecult-vn-eve-cultui" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Not Remote DOM</h2>
-    <p>CultUI surfaces carry stable widget IDs, typed bindings, command routes, layout intent, permissions, health, and provenance. Arbitrary DOM soup does not get to be infrastructure.</p>
+    <p>Thing Script surfaces carry stable widget IDs, typed bindings, command routes, layout intent, permissions, health, and provenance. Arbitrary DOM soup does not get to be infrastructure.</p>
   </div>
 
   <div id="gamecult-vn-eve-backends" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -102,7 +102,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
 
   <div id="gamecult-vn-eve-commands" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Command Trial</h2>
-    <p>Eve owns projection, hit-testing, and command intent. Providers own truth and command acceptance. That split is the spine.</p>
+    <p>Thing owns projection, hit-testing, and command intent. Providers own truth and command acceptance. That split is the spine.</p>
   </div>
 
   <div id="gamecult-vn-eve-canvas" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -294,13 +294,13 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-moonshot" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
     <h2>Moonshot Trajectory</h2>
     <img src="/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg" alt="GameCult moonshot trajectory graphic" />
-    <p>Bifrost, Eve, CultMesh, and Sai form the launch path from worker-owned production into the cooperative surface web.</p>
+    <p>Bifrost, Thing, CultMesh, and Sai form the launch path from worker-owned production into the cooperative surface web.</p>
   </div>
 
   <div id="gamecult-vn-surface-stack" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
-    <h2>Eve Surface Web Stack</h2>
-    <img src="/static/interactive/portfolio-pitch/figures/surface-web-stack.svg" alt="Eve surface web stack graphic" />
-    <p>Eve streams CultUI semantics across web, desktop, mobile, game UI, and creator overlays without splitting truth into dashboard islands.</p>
+    <h2>Thing Surface Web Stack</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/surface-web-stack.svg" alt="Thing surface web stack graphic" />
+    <p>Thing streams Thing Script semantics across web, desktop, mobile, game UI, and creator overlays without splitting truth into dashboard islands.</p>
   </div>
 
   <div id="gamecult-vn-patronage-furnace" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">

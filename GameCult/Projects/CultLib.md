@@ -36,15 +36,15 @@ server responsibility in every runtime. Service adoption remains uneven.
   subscriptions, and relationships built on that vocabulary.
 - **Runtime ports** implement the portion their consumers require. A port does
   not inherit every authority or performance claim from the C# anchor.
-- **Eve** consumes provider-owned CultMesh surfaces and lowers them for humans
-  and agents. CultLib carries the state; Eve does not become its owner.
+- **Thing** consumes provider-owned CultMesh surfaces and lowers them for humans
+  and agents. CultLib carries the state; Thing does not become its owner.
 
 ## Why it matters
 
 When compatible daemons share a typed wire contract, evidence and capabilities
 can cross runtime boundaries without a bespoke translation service quietly
 becoming the new source of truth. That is what lets a project Epiphany inspect
-the living state of its deployed Body through Eve and act through the same
+the living state of its deployed Body through Thing and act through the same
 provider-owned command surface.
 
 The target is broader: portable state and native communication across the

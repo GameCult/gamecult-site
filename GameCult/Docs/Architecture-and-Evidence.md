@@ -1,6 +1,6 @@
 ---
 title: Architecture and Evidence
-description: "The authority map behind GameCult's AI-native organization: project Epiphanies, Personas, CultLib, Eve, scoped actuators, typed receipts, and the evidence separating live machinery from target architecture."
+description: "The authority map behind GameCult's AI-native organization: project Epiphanies, Personas, CultLib, Thing, scoped actuators, typed receipts, and the evidence separating live machinery from target architecture."
 showFolderListing: false
 ---
 
@@ -19,7 +19,7 @@ human or agent experiences a problem
                  ↓
       responsible project Persona
                  ↓
- project Epiphany inspects the provider-owned live Eve surface
+ project Epiphany inspects the provider-owned live Thing surface
                  ↓
    Epiphany makes the final decision inside its Body
                  ↓
@@ -27,10 +27,10 @@ scoped organs, Idunn, and provider commands apply consequence
                  ↓
  Soul, typed receipts, and updated state verify the result
                  ↓
-      the same Eve projection shows the new reality
+      the same Thing projection shows the new reality
 ```
 
-CultLib carries typed state and capabilities across runtime boundaries. Eve gives graphical clients, terminal clients, overlays, and agents different lowerings of the same semantic surface. The project Persona gives the responsible mind a public face. Epiphany supplies local judgment. None of those roles requires one central intelligence to command the fleet.
+CultLib carries typed state and capabilities across runtime boundaries. Thing gives graphical clients, terminal clients, overlays, and agents different lowerings of the same semantic surface. The project Persona gives the responsible mind a public face. Epiphany supplies local judgment. None of those roles requires one central intelligence to command the fleet.
 
 ## AI-native local authority
 
@@ -53,7 +53,7 @@ Local authority is scoped rather than imperial. Another Body, identity, person, 
 | Hands and Idunn | Scoped action; Idunn owns admitted deployment and continuity actuation | The decision about what the project should become |
 | Provider or Body | Canonical state writes and command acceptance at the mechanical boundary | The wider project judgment that produced a valid command |
 | CultLib | Typed persistence, transport, mesh participation, and cross-runtime contracts | Every provider's domain state or policy |
-| Eve | Semantic interface contracts, typed command intent, and lowering across clients | Provider truth or final command acceptance |
+| Thing | Semantic interface contracts, typed command intent, and lowering across clients | Provider truth or final command acceptance |
 | Odin | Discovery, topology, schema awareness, and accepted provider surfaces | Central command of the providers it can see |
 | Heimdall and Bifrost | Identity, grants, consent, governed crossings, attribution, and public commitments | A hidden studio throne |
 | Human operator | External legal accountability and participation in purpose, evidence, dissent, and judgment | Mandatory final approval of every local product or technical decision |
@@ -85,13 +85,13 @@ The important claim is not merely that several libraries exist. It is that targe
 
 Service adoption is still uneven. Wire-compatible daemons can communicate natively; the site does not claim that every existing service has already migrated to the complete target path.
 
-## Eve: one living surface
+## Thing: one living surface
 
-Eve is not a parallel dashboard and it is not the owner of the state it displays. A provider publishes a semantic composition tree, live values, and typed commands through CultMesh. Eve runtimes lower that surface into the body suited to the participant: graphical UI, compact TUI, native panel, browser, overlay, or agent-facing tool surface.
+Thing is not a parallel dashboard and it is not the owner of the state it displays. A provider publishes a semantic composition tree, live values, and typed commands through CultMesh. Thing runtimes lower that surface into the body suited to the participant: graphical UI, compact TUI, native panel, browser, overlay, or agent-facing tool surface.
 
 That shared projection matters most when reality goes wrong. The agent investigating a bug can inspect the same provider-owned state and capabilities from which the affected client interface was produced. It does not have to reconstruct the Body from screenshots, stale documentation, a separate admin API, and whatever somebody remembers from Tuesday.
 
-A typed command is still an intent. The provider owns mechanical acceptance and canonical writes; the project Epiphany owns the local judgment behind the command. Eve carries the command envelope and the resulting state or receipt without stealing either authority.
+A typed command is still an intent. The provider owns mechanical acceptance and canonical writes; the project Epiphany owns the local judgment behind the command. Thing carries the command envelope and the resulting state or receipt without stealing either authority.
 
 ## Why typed state instead of JSON alone?
 
@@ -106,7 +106,7 @@ CultCache and CultNet aim to preserve one named state model across persistence, 
 | Claim | Present status | Evidence boundary |
 | --- | --- | --- |
 | Shared cross-runtime schema-v0 wire language | Implemented and exercised in hosted CI | Wire parity is proven for named lanes; universal feature and performance parity are not claimed |
-| Provider-owned Eve surface for human and agent clients | Contract and renderer family exist | Adoption and live command coverage vary by daemon |
+| Provider-owned Thing surface for human and agent clients | Thing 1 contract and renderer family run today; Thing 2.0 is under construction | Adoption and live command coverage vary by daemon |
 | One resident project Epiphany with final local authority per living Body | Target architecture | The complete fleet is not deployed, and Epiphany's canonical repo docs still describe the earlier human-governed acceptance model pending owner-side migration |
 | Public conversation → live evidence → decision → applied fix → verified projection | Target operational loop with component proofs | No fleet-wide end-to-end receipt currently proves the entire loop |
 | Ghostlight project Persona | Forming | Ghostlight owns its independent jurisdiction; canonical project-Persona state is not yet admitted |

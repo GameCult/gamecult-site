@@ -99,7 +99,7 @@ Agents in this model are not wrappers around language models. They are bounded p
 | --- | --- | --- |
 | **CultCache** | Typed, versioned persistent documents with explicit schema identity and portable storage | Implemented across several runtimes; external interoperability validation still limited |
 | **CultNet / CultMesh** | Exchange, discovery, authority, and shared semantic state across local or federated systems | Active architecture and implementation; not yet a public standard |
-| **Eve / CultUI** | One semantic interface description lowered into browser, native, Unity, terminal, overlay, or future clients | Working multi-runtime family with conformance work; accessibility baseline incomplete |
+| **Thing / Thing Script** | One semantic interface description lowered into browser, native, Unity, terminal, overlay, or future clients | Thing 1 is a working multi-runtime family with conformance work; accessibility baseline incomplete; Thing 2.0 is under construction |
 | **Epiphany** | Persistent cognition and work control: maps, evidence, bounded roles, verification, and recovery | Active research harness; external evaluation needed |
 | **Heimdall** | Identity, grants, consent, capability claims, credential custody, and revocation | Implemented service foundation; institutional security review needed |
 | **Bifrost** | Governed work, discussion, decisions, receipts, contribution records, and public crossings | Working alpha foundation; legal and governance model remains proposed |
@@ -135,7 +135,7 @@ The projects exist to pressure one another:
 - **Aquarium and Fensalir** require cognition and complex state to become observable in a native spatial interface.
 - **VoidBot, Personas, and StreamPixels** test whether persistent agents can participate in actual communities without confusing sociability with authority.
 - **Mimir, AquaSynth, and Weksa** pressure realtime media, sound, language, timing, and embodied interface boundaries.
-- **Bifrost, Heimdall, Odin, Huginn, and the Eve runtimes** pressure governance, identity, inspection, discovery, portability, and operations.
+- **Bifrost, Heimdall, Odin, Huginn, and the Thing runtimes** pressure governance, identity, inspection, discovery, portability, and operations.
 - **Repixelizer, Brokkr, VibeGeometry, and other utilities** pressure deployment, editor integration, service boundaries, and sustainable delivery.
 
 This resembles Blender's use of open movie productions to place production-level demands on the tool. It does not mean GameCult has Blender's maturity, adoption, or governance. It means products are used as integration tests whose outputs can improve the common infrastructure.
@@ -220,7 +220,7 @@ Select one public-interest workflow where decisions, evidence, responsibilities,
 
 ### Pilot B: one semantic surface, several interfaces
 
-Publish one small public-service surface through Eve and lower it into at least a browser and a compact terminal or native client. Include keyboard operation, screen-reader inspection, command receipts, and a documented third-party implementation route.
+Publish one small public-service surface through Thing and lower it into at least a browser and a compact terminal or native client. Include keyboard operation, screen-reader inspection, command receipts, and a documented third-party implementation route.
 
 **Test:** does the interface remain semantically equivalent without making one renderer the owner of truth?
 

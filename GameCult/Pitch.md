@@ -24,7 +24,7 @@ cssclasses:
 
   <div id="gamecult-vn-projects" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Project Atlas</h2>
-    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Eve connect their Bodies, and which jurisdictions still need a public face.</p>
+    <p>The Persona-first atlas shows which project mind owns each part of the repo swarm, how CultLib and Thing connect their Bodies, and which jurisdictions still need a public face.</p>
     <p><a href="/Projects/">Visit the project atlas</a> | <a href="/Docs/Architecture-and-Evidence">Inspect the architecture and evidence</a></p>
   </div>
 
@@ -81,13 +81,13 @@ cssclasses:
   <div id="gamecult-vn-moonshot" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
     <h2>Moonshot Trajectory</h2>
     <img src="/static/interactive/portfolio-pitch/figures/moonshot-trajectory.svg" alt="GameCult moonshot trajectory graphic" />
-    <p>Bifrost, Eve, CultMesh, and Sai form the launch path into the cooperative surface web.</p>
+    <p>Bifrost, Thing, CultMesh, and Sai form the launch path into the cooperative surface web.</p>
   </div>
 
   <div id="gamecult-vn-surface-stack" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">
-    <h2>Eve Surface Web Stack</h2>
-    <img src="/static/interactive/portfolio-pitch/figures/surface-web-stack.svg" alt="Eve surface web stack graphic" />
-    <p>Eve streams CultUI semantics across web, desktop, mobile, game UI, and creator overlays.</p>
+    <h2>Thing Surface Web Stack</h2>
+    <img src="/static/interactive/portfolio-pitch/figures/surface-web-stack.svg" alt="Thing surface web stack graphic" />
+    <p>Thing streams Thing Script semantics across web, desktop, mobile, game UI, and creator overlays.</p>
   </div>
 
   <div id="gamecult-vn-patronage-furnace" class="gamecult-vn-source-card gamecult-vn-graphic-card" data-sai-dom-source="true">

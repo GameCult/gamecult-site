@@ -20,7 +20,7 @@ governance into an occult spreadsheet ritual.
 
 - [Architecture and Evidence](/Docs/Architecture-and-Evidence)
 - [Bifrost](/Docs/Bifrost)
-- [The Eve MultiVerse And The Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture)
+- [The Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture)
 
 ## Studio Context
 

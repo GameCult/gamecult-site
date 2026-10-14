@@ -1,0 +1,118 @@
+# Round 1 request log (key-free). Order: first libby-r1b attempt, its retry, the 15-job run, kiko-r1b retry, the serial run of the rest, then checks.
+
+## probe.log
+libby-r1b: timeout id 936bb7bb-48f3-4770-836e-8e02e19892ea
+DONE
+
+## probe2.log
+libby-r1b: submitted id a4b50eab-abda-4021-8f08-8aa81c894a05 poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+libby-r1b: status Reasoning at 0s
+libby-r1b: status Generating at 18s
+libby-r1b: status Ready at 30s
+libby-r1b: Ready (2368, 1776) id a4b50eab-abda-4021-8f08-8aa81c894a05
+DONE
+
+## run.log
+kiko-r1a: submitted id 2414b18b-bda2-4f88-bcad-f060fa52965a poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+heimdall-r1a: submitted id a051f0ca-f250-4aa8-a47f-c5195dbe94bc poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+libby-r1a: submitted id b12cd042-63fc-4e99-85af-a239f60ec937 poll host api.us8.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+kiko-r1b: submitted id 419a1e26-f247-4a31-b61c-6265457a22d4 poll host api.us6.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+heimdall-r1a: status Reasoning at 0s
+kiko-r1a: status Reasoning at 0s
+libby-r1a: status Reasoning at 0s
+kiko-r1b: status Reasoning at 0s
+libby-r1a: status Generating at 18s
+kiko-r1b: poll error HTTPError 500
+kiko-r1a: status Generating at 24s
+kiko-r1a: status Ready at 30s
+heimdall-r1a: status Generating at 30s
+libby-r1a: status Ready at 30s
+libby-r1a: Ready (2368, 1776) id b12cd042-63fc-4e99-85af-a239f60ec937
+libby-r1b: exists, skipped
+weksa-r1b: submitted id 044ad25e-87c2-4c79-9c84-28b355501f78 poll host api.us6.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+heimdall-r1a: status Ready at 36s
+nibu-r1a: submitted id dfd3ec40-64d3-4f2a-8dc1-e22bb7392d96 poll host api.us2.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+heimdall-r1a: Ready (2368, 1776) id a051f0ca-f250-4aa8-a47f-c5195dbe94bc
+heimdall-r1b: submit HTTP 429 b'{"detail":"Credit balance low: active tasks are capped at 1 per organization. Please top up to restore full throughput."}'
+kiko-r1a: Ready (2368, 1776) id 2414b18b-bda2-4f88-bcad-f060fa52965a
+nibu-r1b: submitted id fb227513-5308-40dd-8fe9-56a474ef2155 poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+weksa-r1b: status Reasoning at 0s
+nibu-r1a: status Reasoning at 0s
+nibu-r1b: status Reasoning at 0s
+weksa-r1b: poll error HTTPError 500
+nibu-r1a: status Generating at 18s
+nibu-r1b: status Generating at 18s
+nibu-r1b: status Ready at 30s
+eureka-r1a: submitted id cffa8610-5235-4df0-bb0c-91d37e5146f2 poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+nibu-r1a: status Ready at 36s
+eureka-r1a: status Reasoning at 0s
+eureka-r1b: submitted id 63328793-f3e5-4dab-9e98-cefb2d5e1f9a poll host api.us2.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+eureka-r1b: status Reasoning at 0s
+eureka-r1a: status Generating at 18s
+eureka-r1b: status Generating at 18s
+eureka-r1a: status Ready at 30s
+void-r1b: submitted id 83206362-d1b5-4e1d-ac42-123edea8dadb poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+void-r1b: status Reasoning at 0s
+void-r1b: status Generating at 12s
+eureka-r1b: status Ready at 54s
+void-r1b: status Ready at 24s
+
+## retry-kiko-r1b.log
+kiko-r1b: submitted id 15e7b364-1771-4136-9532-c5b012524609 poll host api.us7.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+kiko-r1b: status Reasoning at 0s
+kiko-r1b: status Generating at 18s
+kiko-r1b: status Ready at 30s
+kiko-r1b: Ready (2368, 1776) id 15e7b364-1771-4136-9532-c5b012524609
+DONE
+
+## run2.log
+heimdall-r1b: submitted id 68ecec4c-3301-458d-8ae2-b7171ae8fbb0 poll host api.isr.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+heimdall-r1b: status Reasoning at 0s
+heimdall-r1b: status Generating at 12s
+heimdall-r1b: status Ready at 30s
+heimdall-r1b: Ready (2368, 1776) id 68ecec4c-3301-458d-8ae2-b7171ae8fbb0
+aqua-r1a: submitted id 5036c049-cac8-48df-9cc6-bc01805b4d26 poll host api.us7.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+aqua-r1a: status Reasoning at 0s
+aqua-r1a: status Generating at 18s
+aqua-r1a: status Ready at 30s
+aqua-r1a: Ready (2368, 1776) id 5036c049-cac8-48df-9cc6-bc01805b4d26
+aqua-r1b: submitted id 8dc4c2ff-0245-41de-9991-8055a309c852 poll host api.us6.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+aqua-r1b: status Reasoning at 0s
+aqua-r1b: status Generating at 18s
+aqua-r1b: status Ready at 60s
+aqua-r1b: Ready (2368, 1776) id 8dc4c2ff-0245-41de-9991-8055a309c852
+weksa-r1a: submitted id 96f45121-c6c8-4a54-b6c7-15a98978722d poll host api.us2.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+weksa-r1a: status Reasoning at 0s
+weksa-r1a: status Generating at 24s
+weksa-r1a: status Ready at 42s
+weksa-r1a: Ready (2368, 1776) id 96f45121-c6c8-4a54-b6c7-15a98978722d
+void-r1a: submitted id 30a333e2-db14-4610-b749-26dadbe5d187 poll host api.us6.bfl.ai {'cost': 10.0, 'input_mp': None, 'output_mp': None}
+void-r1a: status Reasoning at 0s
+void-r1a: server-side error (HTTP 500) id 30a333e2-db14-4610-b749-26dadbe5d187
+DONE
+
+## check.log
+not rendered, no record: weksa-r1b
+not rendered, no record: void-r1a
+prompts: 14 records match the script; shared style+sheet part identical across all; r1b == r1a + clause where both exist
+core cell text identical for 7 characters, void adapted: True
+aqua-r1a: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [2.3, 2.1]
+aqua-r1b: CELL COUNT FAIL, 16 cutouts (4x4 sheet drawn), declared 12; residual green px 0
+eureka-r1a: 12 cutouts, order ok, mode cols divider lines, rows divider lines, residual green px 0, sheet corner std [1.8, 1.8]
+eureka-r1b: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [1.8, 2.0]
+heimdall-r1a: 12 cutouts, order ok, mode cols divider lines, rows divider lines, residual green px 0, sheet corner std [2.1, 2.0]
+heimdall-r1b: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [2.5, 2.1]
+kiko-r1a: 12 cutouts, order ok, mode cols runs 5, rows gutters; cols fell back to the nominal grid, residual green px 0, sheet corner std [2.4, 2.6]
+kiko-r1b: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [2.0, 2.2]
+libby-r1a: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [2.1, 1.7]
+libby-r1b: 12 cutouts, order ok, mode cols divider lines, rows divider lines, residual green px 0, sheet corner std [2.0, 1.9]
+nibu-r1a: 12 cutouts, order ok, mode cols gutters, rows gutters, residual green px 0, sheet corner std [2.9, 2.4]
+nibu-r1b: 12 cutouts, order ok, mode cols runs 5, rows gutters; cols fell back to the nominal grid, residual green px 0, sheet corner std [2.6, 2.1]
+void-r1a: not rendered, no sheet
+void-r1b: CELL COUNT FAIL, 16 cutouts (4x4 sheet drawn), declared 12; residual green px 0
+weksa-r1a: 12 cutouts, order ok, mode cols divider lines, rows divider lines, residual green px 0, sheet corner std [1.9, 1.9]
+weksa-r1b: not rendered, no sheet
+committed-tree files over 2 MB: none
+files containing the key value: none
+cell-count failures: ['aqua-r1b', 'void-r1b']
+ALL OK except the cell-count failures above

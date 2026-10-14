@@ -1,0 +1,32 @@
+# Void r1b
+
+## Hypothesis
+
+Adding the canon bust as a reference image holds canon details the prompt alone drifts on, without pulling every cell into the bust's pose.
+
+## Variable changed
+
+Against the same character's r1a: the canon bust cutout on its chroma green is passed as `images` and cited as image 1 by one clause prepended to the prompt. Nothing else differs.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:3, resolution 2k, safety_tolerance default, grounding default; no seed field
+- Reference: canon bust r3/void/void-r3a-cutout.png composited on its chroma green, base64 in `images`, cited as image 1; reference ground rgb(33, 255, 30)
+- Output: 2368x1776, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/poses-r1/void/void-r1b.png
+- Cost: about $0.10 per request (reported by API: {'cost': 10.0, 'input_mp': None, 'output_mp': None})
+- Request id: 83206362-d1b5-4e1d-ac42-123edea8dadb
+- Date: 2026-10-14
+- Cell order: neutral, happy, amused, thinking, concerned, annoyed, surprised, determined, welcome, document, point, unimpressed
+
+## Prompt
+
+Image 1 is the character's canon bust. The character must look exactly like the character in image 1 (same design, colours, proportions and line style) in every cell.
+
+Character expression sheet for a game cast lineup: a sheet of twelve cells, each cell a bust, head and shoulders cropped at mid-chest by the bottom edge of the cell, the character in three-quarter view turned toward the right side of the cell, the head centred horizontally in the cell with its top a small margin below the top edge of the cell, the same crop and scale in every cell. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+The sheet is a grid of four columns by three rows, twelve cells of the same character in reading order, left to right and top to bottom, separated by generous empty padding of the same flat green, with no frames, no borders, no divider lines, no labels and no text. Every cell shows the same character with the same design, colours and proportions; the cell description sets that cell's expression and pose, and the character description below gives the design.
+
+Void, a hooded shadow figure who fills the frame as fully as the human busts do: the top of the head a small margin below the top edge, the figure spanning most of the frame width, cut by the bottom edge at mid-chest: a deep indigo-violet robe with a large pointed hood, the face inside the hood completely black with no features except two tall white glowing oval eyes, a thick bright orange scarf wrapped around the neck with frayed ends trailing to one side, dark gloved hands. Key colours: indigo violet and orange.
+
+Cell 1 (neutral): a calm neutral look, the two tall white oval eyes at rest. Cell 2 (happy): happy, the white eyes curved into bright upturned crescents. Cell 3 (amused): amused, one white eye narrower than the other, the hood tilted slightly. Cell 4 (thinking): thoughtful, the white eyes looking up and aside, one gloved hand raised to the hood. Cell 5 (concerned): concerned, the white eyes tilted inward and upward, the hood drooping slightly. Cell 6 (annoyed): annoyed, the white eyes flat half-closed slits. Cell 7 (surprised): surprised, the white eyes wide round circles, the hood rising. Cell 8 (determined): determined, the white eyes narrowed and angled inward, the hood set forward. Cell 9 (welcome): arms opened wide in welcome. Cell 10 (document): holding up a sheet of paper, a document. Cell 11 (point): pointing one gloved finger forward. Cell 12 (unimpressed): unimpressed, the eyes flat narrow slits, the head tilted.

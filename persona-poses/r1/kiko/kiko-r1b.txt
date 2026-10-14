@@ -1,0 +1,32 @@
+# Kiko r1b
+
+## Hypothesis
+
+Adding the canon bust as a reference image holds canon details the prompt alone drifts on, without pulling every cell into the bust's pose.
+
+## Variable changed
+
+Against the same character's r1a: the canon bust cutout on its chroma green is passed as `images` and cited as image 1 by one clause prepended to the prompt. Nothing else differs.
+
+## Render record
+
+- Model: FLUX 3 Image, `POST https://api.bfl.ai/v1/flux-3-image`
+- Parameters: aspect_ratio 4:3, resolution 2k, safety_tolerance default, grounding default; no seed field
+- Reference: canon bust r2/kiko/kiko-r2a-cutout.png composited on its chroma green, base64 in `images`, cited as image 1; reference ground rgb(17, 255, 11)
+- Output: 2368x1776, source format PNG; 2k original kept out of git at F:/Projects/cast-art-originals/poses-r1/kiko/kiko-r1b.png
+- Cost: about $0.10 per request (reported by API: {'cost': 10.0, 'input_mp': None, 'output_mp': None})
+- Request id: 15e7b364-1771-4136-9532-c5b012524609
+- Date: 2026-10-14
+- Cell order: neutral, happy, amused, thinking, concerned, annoyed, surprised, determined, tinker, confetti, sprint, debug
+
+## Prompt
+
+Image 1 is the character's canon bust. The character must look exactly like the character in image 1 (same design, colours, proportions and line style) in every cell.
+
+Character expression sheet for a game cast lineup: a sheet of twelve cells, each cell a bust, head and shoulders cropped at mid-chest by the bottom edge of the cell, the character in three-quarter view turned toward the right side of the cell, the head centred horizontally in the cell with its top a small margin below the top edge of the cell, the same crop and scale in every cell. Super-deformed chibi proportions: the character is two heads tall in total, so the head is very large compared with the small shoulders and narrow torso. Clean 2D anime illustration drawn to be traced into vector art: one bold dark outline of even weight around the whole silhouette, thinner inner lines, flat cel shading with exactly one base tone and one shadow tone per material, light from the upper left. No gradients, no texture, no painterly blending, no glow halos, no pixel art, no 3D rendering. A limited palette of five or six flat colours taken from the character's key colours. Large expressive anime eyes with two white highlights. The background is one perfectly flat, uniform, solid bright chroma-key green from edge to edge: no gradient, no vignette, no floor, no cast shadow, no particles, no props or scenery behind the figure.
+
+The sheet is a grid of four columns by three rows, twelve cells of the same character in reading order, left to right and top to bottom, separated by generous empty padding of the same flat green, with no frames, no borders, no divider lines, no labels and no text. Every cell shows the same character with the same design, colours and proportions; the cell description sets that cell's expression and pose, and the character description below gives the design.
+
+Kiko, an excitable fox-girl streamer: messy white shoulder-length hair, tall white fox ears with pink insides, a white kitsune fox mask with red and magenta markings worn pushed up on top of her head, black hair ornaments with gold bells and magenta tassels, bright cyan eyes, a wide open-mouthed grin with one small fang, one hand raised in a wave. She wears a black kimono-style jacket with magenta and teal trim and a gold bell at the collar. A fluffy white fox tail with pink tips curls up behind one shoulder. Key colours: magenta and cyan.
+
+Cell 1 (neutral): a calm neutral expression, mouth closed, looking ahead. Cell 2 (happy): a broad happy smile with bright eyes. Cell 3 (amused): an amused smirk with one eyebrow raised, a stifled laugh. Cell 4 (thinking): a thoughtful expression, eyes looking up and aside, one hand raised to the chin. Cell 5 (concerned): a concerned expression, brows drawn together and tilted up, a small worried frown. Cell 6 (annoyed): an annoyed expression, flat half-lidded eyes, a pursed frown. Cell 7 (surprised): a surprised expression, wide eyes, mouth open in an O. Cell 8 (determined): a determined expression, narrowed eyes, a firm set mouth, a small nod. Cell 9 (tinker): tinkering with a small gadget, tongue out in concentration. Cell 10 (confetti): throwing confetti into the air, cheering. Cell 11 (sprint): leaning forward as if sprinting, hair and tail streaming backward. Cell 12 (debug): squinting through a magnifying lens at a tiny bug held between two fingers.

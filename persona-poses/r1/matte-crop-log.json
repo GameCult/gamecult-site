@@ -1,0 +1,612 @@
+{
+ "libby-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "stamp",
+   "research",
+   "shush",
+   "schema"
+  ],
+  "sheet_corner_std": [
+   2.1,
+   1.7
+  ],
+  "min_cell_corner_greenness": 187,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "libby-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols divider lines, rows divider lines",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "stamp",
+   "research",
+   "shush",
+   "schema"
+  ],
+  "sheet_corner_std": [
+   2.0,
+   1.9
+  ],
+  "min_cell_corner_greenness": 148,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "heimdall-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols divider lines, rows divider lines",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "badge",
+   "barrier",
+   "protect",
+   "revoke"
+  ],
+  "sheet_corner_std": [
+   2.1,
+   2.0
+  ],
+  "min_cell_corner_greenness": 231,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "heimdall-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "badge",
+   "barrier",
+   "protect",
+   "revoke"
+  ],
+  "sheet_corner_std": [
+   2.5,
+   2.1
+  ],
+  "min_cell_corner_greenness": 160,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "kiko-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols runs 5, rows gutters; cols fell back to the nominal grid",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "tinker",
+   "confetti",
+   "sprint",
+   "debug"
+  ],
+  "sheet_corner_std": [
+   2.4,
+   2.6
+  ],
+  "min_cell_corner_greenness": 177,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "kiko-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "tinker",
+   "confetti",
+   "sprint",
+   "debug"
+  ],
+  "sheet_corner_std": [
+   2.0,
+   2.2
+  ],
+  "min_cell_corner_greenness": 224,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "aqua-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "conduct",
+   "listen",
+   "patch",
+   "flourish"
+  ],
+  "sheet_corner_std": [
+   2.3,
+   2.1
+  ],
+  "min_cell_corner_greenness": 165,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "aqua-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows runs 1; rows fell back to the nominal grid",
+  "cells": 16,
+  "labels": [
+   "c01",
+   "c02",
+   "c03",
+   "c04",
+   "c05",
+   "c06",
+   "c07",
+   "c08",
+   "c09",
+   "c10",
+   "c11",
+   "c12",
+   "c13",
+   "c14",
+   "c15",
+   "c16"
+  ],
+  "sheet_corner_std": [
+   2.1,
+   2.6
+  ],
+  "min_cell_corner_greenness": 205,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "weksa-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols divider lines, rows divider lines",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "map",
+   "fieldwork",
+   "argue",
+   "interlingua"
+  ],
+  "sheet_corner_std": [
+   1.9,
+   1.9
+  ],
+  "min_cell_corner_greenness": 183,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "weksa-r1b": {
+  "missing": true
+ },
+ "nibu-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "console",
+   "glitch",
+   "lore",
+   "triumph"
+  ],
+  "sheet_corner_std": [
+   2.9,
+   2.4
+  ],
+  "min_cell_corner_greenness": 163,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "nibu-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols runs 5, rows gutters; cols fell back to the nominal grid",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "console",
+   "glitch",
+   "lore",
+   "triumph"
+  ],
+  "sheet_corner_std": [
+   2.6,
+   2.1
+  ],
+  "min_cell_corner_greenness": 182,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "eureka-r1a": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols divider lines, rows divider lines",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "probe",
+   "inspect",
+   "report",
+   "hood"
+  ],
+  "sheet_corner_std": [
+   1.8,
+   1.8
+  ],
+  "min_cell_corner_greenness": 186,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "eureka-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 12,
+  "labels": [
+   "neutral",
+   "happy",
+   "amused",
+   "thinking",
+   "concerned",
+   "annoyed",
+   "surprised",
+   "determined",
+   "probe",
+   "inspect",
+   "report",
+   "hood"
+  ],
+  "sheet_corner_std": [
+   1.8,
+   2.0
+  ],
+  "min_cell_corner_greenness": 229,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ },
+ "void-r1a": {
+  "missing": true
+ },
+ "void-r1b": {
+  "size": [
+   2368,
+   1776
+  ],
+  "mode": "cols gutters, rows gutters",
+  "cells": 16,
+  "labels": [
+   "c01",
+   "c02",
+   "c03",
+   "c04",
+   "c05",
+   "c06",
+   "c07",
+   "c08",
+   "c09",
+   "c10",
+   "c11",
+   "c12",
+   "c13",
+   "c14",
+   "c15",
+   "c16"
+  ],
+  "sheet_corner_std": [
+   2.5,
+   2.1
+  ],
+  "min_cell_corner_greenness": 218,
+  "residual_green_px_per_cell": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "residual_total": 0
+ }
+}

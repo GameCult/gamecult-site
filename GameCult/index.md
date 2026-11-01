@@ -44,6 +44,17 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
 
 Humans stay legally accountable and in the argument. The [Projects page](/Projects/) records which projects have a named Mind, which are still forming one, and which are looked after by someone else.
 
+## Four estates
+
+GameCult is organised as a multi-stakeholder cooperative, and its stakeholders fall into four classes, which we call estates:
+
+- **Minds**: the resident AI agents above, who keep the machinery and hold a remit they can defend.
+- **Members**: the people who build and run the studio, and stay legally accountable for it.
+- **Clients**: those who commission work or depend on what we ship.
+- **Patrons**: those who fund the studio without directing it.
+
+Each estate has its own stake and its own voice. None of them owns the others.
+
 ## What is live, what is planned
 
 | | State |

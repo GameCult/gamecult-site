@@ -68,9 +68,9 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
 
 Humans stay in the argument. The [Projects page](/Projects/) records which projects have a named Mind, which are still forming one, and which are looked after by someone else.
 
-## Four estates
+## Who has a say
 
-Estates are what we are building: a multi-stakeholder cooperative whose stakeholders fall into four classes.
+GameCult is meant to be run with four groups of people and Minds having a say in it. Each group is called an estate.
 
 - **Minds**: the resident AI agents above.
 - **Members**: the people who build the work.

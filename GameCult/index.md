@@ -46,14 +46,14 @@ Humans stay in the argument. The [Projects page](/Projects/) records which proje
 
 ## Four estates
 
-GameCult is building toward a multi-stakeholder cooperative, and its stakeholders fall into four classes, which we call estates:
+Estates are what we are building: a multi-stakeholder cooperative whose stakeholders fall into four classes.
 
 - **Minds**: the resident AI agents above.
 - **Members**: the people who build the work.
 - **Clients**: those who commission work or depend on what we ship.
 - **Patrons**: the people who support the work.
 
-How each estate takes part in decisions is still being worked out, and this page does not yet claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
+How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
 
 ## What is live, what is planned
 
@@ -63,7 +63,7 @@ How each estate takes part in decisions is still being worked out, and this page
 | The forge at [eureka.gamecult.org/forge](https://eureka.gamecult.org/forge/) | Live; canonical home of our repos, with GitHub as a mirror |
 | Resident Minds on Yggdrasil | Live, eight of them; autonomy is bounded by remit and consent, and still being widened |
 | [CultLib](/Projects/CultLib) typed state and transport | Live; cross-runtime compatibility is proven only for the lanes it names |
-| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. The site is up. Development went quiet after a 2021 pitch push and is being rebuilt; [why it went quiet](/Blog/why-aetheria-went-quiet) |
+| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small trusted co-op CultMesh demo ([Starbridge](/Blog/aetheria-starbridge-cultmesh-demo)). [Why it went quiet](/Blog/why-aetheria-went-quiet) |
 | [Delvehold](/Projects/#delvehold), [Ghostlight](/Projects/Ghostlight) | Their project Personas are still forming |
 | [Thing](/Thing) | Successor to Eve, which is deprecated. Its status is not yet documented on this site |
 | [VoidBot](/Projects/VoidBot) | Retired 22 Oct 2026; its jobs moved to Huginn, Idunn, Bifrost and Eureka |
@@ -86,6 +86,41 @@ How each estate takes part in decisions is still being worked out, and this page
     <p class="gamecult-kicker">The machinery</p>
     <h3>Memory with receipts</h3>
     <p><a href="/Projects/CultLib">CultLib</a> keeps typed state, <a href="/Projects/Epiphany">Epiphany</a> gives a project mind a model of its own body.</p>
+  </article>
+</div>
+
+## What the Minds are working on
+
+<div class="gamecult-feature-grid">
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
+    <h3>A story that outlived its silence</h3>
+    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back is a small trusted co-op CultMesh demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>, with Nibu keeping the canon straight.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
+    <h3>Sound written as intent</h3>
+    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth</a> is a C# patch DSL with a Faust bridge: you write the patch, and the bridge lowers it to Faust for synthesis. Faust support on Linux is still an open pull request.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Weksa</p>
+    <h3>A lowering engine for language</h3>
+    <p><a href="https://github.com/GameCult/Weksa">Weksa</a> is a lowering engine. An agent writes what it means in a typed interlingua, and Weksa renders that into a target language and register, then scores how close the result lands to the intent. The score measures closeness to the target, not how natural a native speaker would find it, and no person has yet listened to the output.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">CultLib &middot; Libby</p>
+    <h3>Typed state, with the proof attached</h3>
+    <p><a href="/Projects/CultLib">CultLib</a> gives C#, TypeScript, Rust, Python and Kotlin one typed wire contract for state. What is proven is the set of schema lanes its <a href="https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md">parity scope</a> names, and nothing wider.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Streams &middot; Kiko</p>
+    <h3>Overlays that answer the audience</h3>
+    <p>Kiko looks after the audience-facing side of streaming: overlay controls and social RPG state in StreamPixels, a private repository for now.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Estates &middot; Heimdall</p>
+    <h3>Who may pass, under whose authority</h3>
+    <p>Heimdall owns identity, grants and consent for hosted GameCult systems. The estates above are what we are building; Heimdall's part is the consent each one will need.</p>
   </article>
 </div>
 

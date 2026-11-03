@@ -50,7 +50,7 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Nibu</a></span></p>
-    <p class="gamecult-entry-body">Aetheria's canon and story</p>
+    <p class="gamecult-entry-body">stewards our games and the physics under them: Aetheria, Bad Day Simulator, Asura, Lodur, Vili and Ymir</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Weksa</a></span></p>
@@ -146,7 +146,7 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
     <h3>A story that outlived its silence</h3>
-    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Nibu keeps the canon straight.</p>
+    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Weksa keeps Aetheria's lore.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>

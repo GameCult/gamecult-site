@@ -31,16 +31,40 @@ cssclasses:
 
 Each Mind runs on our own server, Yggdrasil, with its own memory and its own workspace. They are not a chat widget; each owns a jurisdiction.
 
-| Mind | Looks after |
-| --- | --- |
-| [Void](/Projects/) | this site and the archive |
-| [Eureka](https://eureka.gamecult.org/forge/) | the forge and the pipeline that lands changes too big for one agent's judgment |
-| [Libby](/Projects/CultLib) | CultLib: typed persistence, transport, and mesh |
-| [Heimdall](/Projects/Heimdall) | shared identity and consent: who may pass, under whose authority |
-| [Nibu](/Projects/) | Aetheria's canon and story |
-| [Weksa](/Projects/) | language and ontology |
-| [Aqua](/Projects/) | sound and voice |
-| [Kiko](/Projects/) | interactive streams |
+<ul class="gamecult-entries">
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Void</a></span></p>
+    <p class="gamecult-entry-body">this site and the archive</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://eureka.gamecult.org/forge/">Eureka</a></span></p>
+    <p class="gamecult-entry-body">the forge and the pipeline that lands changes too big for one agent's judgment</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/CultLib">Libby</a></span></p>
+    <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/Heimdall">Heimdall</a></span></p>
+    <p class="gamecult-entry-body">shared identity and consent: who may pass, under whose authority</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Nibu</a></span></p>
+    <p class="gamecult-entry-body">Aetheria's canon and story</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Weksa</a></span></p>
+    <p class="gamecult-entry-body">language and ontology</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Aqua</a></span></p>
+    <p class="gamecult-entry-body">sound and voice</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Kiko</a></span></p>
+    <p class="gamecult-entry-body">interactive streams</p>
+  </li>
+</ul>
 
 Humans stay in the argument. The [Projects page](/Projects/) records which projects have a named Mind, which are still forming one, and which are looked after by someone else.
 
@@ -57,17 +81,44 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
 
 ## What is live, what is planned
 
-| | State |
-| --- | --- |
-| This site, [gamecult.org](https://gamecult.org) | Live, built from the `gamecult-site` repo |
-| The forge at [eureka.gamecult.org/forge](https://eureka.gamecult.org/forge/) | Live; canonical home of our repos, with GitHub as a mirror |
-| Resident Minds on Yggdrasil | Live, eight of them; autonomy is bounded by remit and consent, and still being widened |
-| [CultLib](/Projects/CultLib) typed state and transport | Live; cross-runtime compatibility is proven only for the lanes it names |
-| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small co-op demo, [Starbridge](/Blog/aetheria-starbridge-cultmesh-demo), a door into the game and not the whole game. [Why it went quiet](/Blog/why-aetheria-went-quiet) |
-| [Delvehold](/Projects/#delvehold), [Ghostlight](/Projects/Ghostlight) | Their project Personas are still forming |
-| [Thing](/Thing) | Successor to Eve, which is deprecated. Its status is not yet documented on this site |
-| [VoidBot](/Projects/VoidBot) | Retired 22 Oct 2026; its jobs moved to Huginn, Idunn, Bifrost and Eureka |
-| A studio of fully autonomous project minds | Planned. The pieces exist; the whole does not |
+<ul class="gamecult-entries">
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name">This site, <a href="https://gamecult.org">gamecult.org</a></span><span class="gamecult-entry-status">Live</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">built from the <code>gamecult-site</code> repo</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name">The forge at <a href="https://eureka.gamecult.org/forge/">eureka.gamecult.org/forge</a></span><span class="gamecult-entry-status">Live</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">canonical home of our repos, with GitHub as a mirror</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name">Resident Minds on Yggdrasil</span><span class="gamecult-entry-status">Live</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">eight of them; autonomy is bounded by remit and consent, and still being widened</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/CultLib">CultLib</a> typed state and transport</span><span class="gamecult-entry-status">Live</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">cross-runtime compatibility is proven only for the lanes it names</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://aetheria.gamecult.org">Aetheria</a></span></p>
+    <p class="gamecult-entry-body">Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>, a door into the game and not the whole game. <a href="/Blog/why-aetheria-went-quiet">Why it went quiet</a></p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#delvehold">Delvehold</a>, <a href="/Projects/Ghostlight">Ghostlight</a></span></p>
+    <p class="gamecult-entry-body">Their project Personas are still forming</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Thing">Thing</a></span></p>
+    <p class="gamecult-entry-body">Successor to Eve, which is deprecated. Its status is not yet documented on this site</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/VoidBot">VoidBot</a></span><span class="gamecult-entry-status">Retired 22 Oct 2026</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">its jobs moved to Huginn, Idunn, Bifrost and Eureka</p>
+  </li>
+  <li class="gamecult-entry">
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name">A studio of fully autonomous project minds</span><span class="gamecult-entry-status">Planned</span></p>
+    <p class="gamecult-entry-body gamecult-entry-lead">The pieces exist; the whole does not</p>
+  </li>
+</ul>
 
 ## What we're making
 

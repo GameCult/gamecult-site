@@ -2022,3 +2022,56 @@ article.integrated-dossier-page {
 @media (max-width: 800px) {
   .swarm-directory { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Stacked entries: name and status on one line, description full width beneath.
+   Ruled rows, no fill, border box or pill, per the Surfaces law. */
+.gamecult-entries {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gamecult-entry {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--gamecult-rule);
+}
+
+.gamecult-entry p {
+  margin: 0;
+}
+
+.gamecult-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem 1rem;
+}
+
+.gamecult-entry-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.gamecult-entry-status {
+  flex: none;
+  color: rgba(255, 138, 42, 0.96);
+  font-family: var(--titleFont);
+  font-size: 0.76rem;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.gamecult-entry-body {
+  margin-top: 0.25rem;
+  color: rgba(183, 199, 217, 0.88);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.gamecult-entry-lead::first-letter {
+  text-transform: uppercase;
+}

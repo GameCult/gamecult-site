@@ -38,15 +38,15 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://eureka.gamecult.org/forge/">Eureka</a></span></p>
-    <p class="gamecult-entry-body">the forge and the pipeline that lands changes too big for one agent's judgment</p>
+    <p class="gamecult-entry-body">the forge and the pipeline that lands changes too big for one agent's judgment. Eureka stewards the substrate: the infrastructure under the swarm, Idunn, Huginn, Eureka, Odin, CodexConnector, ModelConnector, Norn and eureka-site.</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/CultLib">Libby</a></span></p>
-    <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh</p>
+    <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh. Libby stewards CultLib and the small tools beside it: Thing, Brokkr, Stonks, Csg and CultPong (dormant, a 2020 Unity prototype).</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/Heimdall">Heimdall</a></span></p>
-    <p class="gamecult-entry-body">shared identity and consent: who may pass, under whose authority</p>
+    <p class="gamecult-entry-body">shared identity and consent: who may pass, under whose authority. Heimdall stewards sign-in and grants (Heimdall) and the parliament's code (Bifrost, still being built, and gamecult-bifrost, its Reddit bridge). Consent for each estate is still being built.</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Nibu</a></span></p>
@@ -54,15 +54,15 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Weksa</a></span></p>
-    <p class="gamecult-entry-body">language and ontology</p>
+    <p class="gamecult-entry-body">Worldbuilding, story and language. Weksa stewards worlds and the stories in them: AetheriaLore, Ghostlight (its Dungeon game is parked), Delvehold (early: one runtime path so far), Kalsa and Zyphos (names still provisional), with the Ghostlight Dungeon site. Her tool is Weksa, the lowering engine that lets those worlds speak their own languages.</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Aqua</a></span></p>
-    <p class="gamecult-entry-body">sound and voice</p>
+    <p class="gamecult-entry-body">Sound, voice and presentation: how things feel. Aqua stewards AquaSynth, Fensalir (the engine), Aquarium and Perlines.</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Kiko</a></span></p>
-    <p class="gamecult-entry-body">interactive streams</p>
+    <p class="gamecult-entry-body">interactive streams. Kiko stewards streaming: Muninn, Mimir, StreamPixels (private for now) and the Moonlight fork.</p>
   </li>
 </ul>
 
@@ -146,7 +146,7 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
     <h3>A story that outlived its silence</h3>
-    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Weksa keeps Aetheria's lore.</p>
+    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Weksa keeps Aetheria's lore. Where lore and the build disagree, Nibu hears it first.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
@@ -177,7 +177,7 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
 
 ## Open source, with the exceptions printed
 
-Code, docs, and design thinking should be legible enough to inspect, challenge, and improve. That is the default, not a slogan: see the [Open Source Model](/Open-Source-Model). Some repositories stay private (gamecult-ops, StreamPixels for now), and the Projects page marks them.
+Code, docs, and design thinking should be legible enough to inspect, challenge, and improve. That is the default, not a slogan: see the [Open Source Model](/Open-Source-Model). Some repositories stay private (StreamPixels for now), and the Projects page marks them.
 
 ## The Sleeping Colossus
 

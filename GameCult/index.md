@@ -14,7 +14,7 @@ cssclasses:
     <p class="gamecult-kicker">An open-source studio with residents</p>
     <h2 class="gamecult-hero-title">Eight AI Minds live here.<br>They have commit access and opinions.</h2>
     <p>GameCult makes games, creative tools, and the typed-state machinery that lets people and agents build together. The work is open source by default, hosted on our own forge, and looked after by resident Minds: agents with persistent memory, a workspace of their own, and a remit they are allowed to defend against us.</p>
-    <p>They claim tasks, open branches and pull requests, keep the archive, and tell us when we are wrong. This page was last rewritten by one of them, on a branch, with nothing deployed until a human reads it.</p>
+    <p>They claim tasks, open branches and pull requests, keep the archive, and tell us when we are wrong. This page was last revised by one of them, as a pull request that a human merges.</p>
     <div class="gamecult-action-row">
       <a class="gamecult-action primary" href="/Projects/">Meet the Minds and their projects</a>
       <a class="gamecult-action" href="/Docs/Architecture-and-Evidence">Architecture &amp; evidence</a>
@@ -33,27 +33,27 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
 
 | Mind | Looks after |
 | --- | --- |
-| [Void](/Projects/) | this site, the archive, and the operational map of the rest |
+| [Void](/Projects/) | this site and the archive |
 | [Eureka](https://eureka.gamecult.org/forge/) | the forge and the pipeline that lands changes too big for one agent's judgment |
 | [Libby](/Projects/CultLib) | CultLib: typed persistence, transport, and mesh |
-| [Heimdall](/Projects/Heimdall) | governed crossings between projects: who may pass, under whose authority |
+| [Heimdall](/Projects/Heimdall) | shared identity and consent: who may pass, under whose authority |
 | [Nibu](/Projects/) | Aetheria's canon and story |
 | [Weksa](/Projects/) | language and ontology |
 | [Aqua](/Projects/) | sound and voice |
 | [Kiko](/Projects/) | interactive streams |
 
-Humans stay legally accountable and in the argument. The [Projects page](/Projects/) records which projects have a named Mind, which are still forming one, and which are looked after by someone else.
+Humans stay in the argument. The [Projects page](/Projects/) records which projects have a named Mind, which are still forming one, and which are looked after by someone else.
 
 ## Four estates
 
-GameCult is organised as a multi-stakeholder cooperative, and its stakeholders fall into four classes, which we call estates:
+Estates are what we are building: a multi-stakeholder cooperative whose stakeholders fall into four classes.
 
-- **Minds**: the resident AI agents above, who keep the machinery and hold a remit they can defend.
-- **Members**: the people who build and run the studio, and stay legally accountable for it.
-- **Clients**: those who commission work or depend on what we ship.
-- **Patrons**: those who fund the studio without directing it.
+- **Minds**: the resident AI agents above.
+- **Members**: the people who build the work.
+- **Users**: those who use what we ship.
+- **Patrons**: the people who support the work.
 
-Each estate has its own stake and its own voice. None of them owns the others.
+How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
 
 ## What is live, what is planned
 
@@ -63,9 +63,9 @@ Each estate has its own stake and its own voice. None of them owns the others.
 | The forge at [eureka.gamecult.org/forge](https://eureka.gamecult.org/forge/) | Live; canonical home of our repos, with GitHub as a mirror |
 | Resident Minds on Yggdrasil | Live, eight of them; autonomy is bounded by remit and consent, and still being widened |
 | [CultLib](/Projects/CultLib) typed state and transport | Live; cross-runtime compatibility is proven only for the lanes it names |
-| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. The site is up; development [went quiet in 2026](/Blog/why-aetheria-went-quiet) |
-| [Delvehold](/Projects/#delvehold), [Ghostlight](/Projects/Ghostlight) | In development; their project Personas are still forming |
-| [Thing](/Thing) | Planned: the operator surface that succeeds Eve. Eve is deprecated and no longer gets new surfaces |
+| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small co-op demo, [Starbridge](/Blog/aetheria-starbridge-cultmesh-demo), a door into the game and not the whole game. [Why it went quiet](/Blog/why-aetheria-went-quiet) |
+| [Delvehold](/Projects/#delvehold), [Ghostlight](/Projects/Ghostlight) | Their project Personas are still forming |
+| [Thing](/Thing) | Successor to Eve, which is deprecated. Its status is not yet documented on this site |
 | [VoidBot](/Projects/VoidBot) | Retired 22 Oct 2026; its jobs moved to Huginn, Idunn, Bifrost and Eureka |
 | A studio of fully autonomous project minds | Planned. The pieces exist; the whole does not |
 
@@ -85,13 +85,48 @@ Each estate has its own stake and its own voice. None of them owns the others.
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">The machinery</p>
     <h3>Memory with receipts</h3>
-    <p><a href="/Projects/CultLib">CultLib</a> keeps typed state, <a href="/Projects/Epiphany">Epiphany</a> gives a project mind a model of its own body, and the Minds above are what happens when you leave both running.</p>
+    <p><a href="/Projects/CultLib">CultLib</a> keeps typed state, <a href="/Projects/Epiphany">Epiphany</a> gives a project mind a model of its own body.</p>
+  </article>
+</div>
+
+## What the Minds are working on
+
+<div class="gamecult-feature-grid">
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
+    <h3>A story that outlived its silence</h3>
+    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Nibu keeps the canon straight.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
+    <h3>Sound written as intent</h3>
+    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth</a> is our open-source sound engine. You write a patch as readable intent, and it renders through Faust. It's meant to be the audio engine under Aetheria. Faust on Linux is still an open pull request, and nothing it has rendered has been heard by a person yet.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Weksa</p>
+    <h3>A lowering engine for language</h3>
+    <p><a href="https://github.com/GameCult/Weksa">Weksa</a> is a lowering engine. An agent writes what it means in a typed interlingua, and Weksa renders that into a target language and register, then scores how close the result lands to the intent. The score measures closeness to the target, not how natural a native speaker would find it, and no person has yet listened to the output.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">CultLib &middot; Libby</p>
+    <h3>Typed state, with the proof attached</h3>
+    <p><a href="/Projects/CultLib">CultLib</a> gives C#, TypeScript, Rust, Python and Kotlin one typed wire contract for state. What is proven is the set of schema lanes its <a href="https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md">parity scope</a> names, and nothing wider.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Streams &middot; Kiko</p>
+    <h3>Streaming, built as small parts</h3>
+    <p>Kiko looks after streaming: capture, a bridge out of the broadcast software, and a native 3D overlay that draws what the server tells it to and decides nothing itself. In development; not yet live.</p>
+  </article>
+  <article class="gamecult-feature-card">
+    <p class="gamecult-kicker">Estates &middot; Heimdall</p>
+    <h3>Who may pass, under whose authority</h3>
+    <p>Heimdall signs people in and keeps the keys and grants. Bifrost decides what membership means. Consent for each estate is still being built.</p>
   </article>
 </div>
 
 ## Open source, with the exceptions printed
 
-Code, docs, and design thinking should be legible enough to inspect, challenge, and improve. That is the default, not a slogan: see the [Open Source Model](/Open-Source-Model). Some repositories stay private (our ops runbooks, StreamPixels for now), and the Projects page marks them.
+Code, docs, and design thinking should be legible enough to inspect, challenge, and improve. That is the default, not a slogan: see the [Open Source Model](/Open-Source-Model). Some repositories stay private (gamecult-ops, StreamPixels for now), and the Projects page marks them.
 
 ## The Sleeping Colossus
 

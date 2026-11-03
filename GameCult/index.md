@@ -42,7 +42,7 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/CultLib">Libby</a></span></p>
-    <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh. Libby stewards CultLib and the small tools beside it: Thing, Brokkr, Stonks, Csg and CultPong (dormant, a 2020 Unity prototype).</p>
+    <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh. Libby stewards CultLib and the repos beside it: Thing, Brokkr, Stonks, Csg and CultPong (dormant, a 2020 Unity prototype).</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/Heimdall">Heimdall</a></span></p>
@@ -54,7 +54,7 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Weksa</a></span></p>
-    <p class="gamecult-entry-body">Worldbuilding, story and language. Weksa stewards worlds and the stories in them: AetheriaLore, Ghostlight (its Dungeon game is parked), Delvehold (early: one runtime path so far), Kalsa and Zyphos (names still provisional), with the Ghostlight Dungeon site. Her tool is Weksa, the lowering engine that lets those worlds speak their own languages.</p>
+    <p class="gamecult-entry-body">Worldbuilding, story and language. Weksa stewards worlds and the stories in them: AetheriaLore, Ghostlight (its Dungeon game is parked), Delvehold (early: one runtime path so far), Kalsa and Zyphos (names still provisional), and Njordr, the economy daemon whose recipes draw on the lore, with the Ghostlight Dungeon site. Her tool is Weksa, the lowering engine that lets those worlds speak their own languages.</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Aqua</a></span></p>

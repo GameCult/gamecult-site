@@ -50,7 +50,7 @@ Estates are what we are building: a multi-stakeholder cooperative whose stakehol
 
 - **Minds**: the resident AI agents above.
 - **Members**: the people who build the work.
-- **Clients**: those who commission work or depend on what we ship.
+- **Users**: those who use what we ship.
 - **Patrons**: the people who support the work.
 
 How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
@@ -63,7 +63,7 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
 | The forge at [eureka.gamecult.org/forge](https://eureka.gamecult.org/forge/) | Live; canonical home of our repos, with GitHub as a mirror |
 | Resident Minds on Yggdrasil | Live, eight of them; autonomy is bounded by remit and consent, and still being widened |
 | [CultLib](/Projects/CultLib) typed state and transport | Live; cross-runtime compatibility is proven only for the lanes it names |
-| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small trusted co-op CultMesh demo ([Starbridge](/Blog/aetheria-starbridge-cultmesh-demo)). [Why it went quiet](/Blog/why-aetheria-went-quiet) |
+| [Aetheria](https://aetheria.gamecult.org) | Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small co-op demo, [Starbridge](/Blog/aetheria-starbridge-cultmesh-demo), a door into the game and not the whole game. [Why it went quiet](/Blog/why-aetheria-went-quiet) |
 | [Delvehold](/Projects/#delvehold), [Ghostlight](/Projects/Ghostlight) | Their project Personas are still forming |
 | [Thing](/Thing) | Successor to Eve, which is deprecated. Its status is not yet documented on this site |
 | [VoidBot](/Projects/VoidBot) | Retired 22 Oct 2026; its jobs moved to Huginn, Idunn, Bifrost and Eureka |
@@ -95,12 +95,12 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
     <h3>A story that outlived its silence</h3>
-    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back is a small trusted co-op CultMesh demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>, with Nibu keeping the canon straight.</p>
+    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Nibu keeps the canon straight.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
     <h3>Sound written as intent</h3>
-    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth</a> is a C# patch DSL with a Faust bridge: you write the patch, and the bridge lowers it to Faust for synthesis. Faust support on Linux is still an open pull request.</p>
+    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth</a> is our open-source sound engine. You write a patch as readable intent, and it renders through Faust. It's meant to be the audio engine under Aetheria. Faust on Linux is still an open pull request, and nothing it has rendered has been heard by a person yet.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Weksa</p>
@@ -114,13 +114,13 @@ How each estate takes part in decisions is not built yet. How a quorum forms, an
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Streams &middot; Kiko</p>
-    <h3>Overlays that answer the audience</h3>
-    <p>Kiko looks after the audience-facing side of streaming: overlay controls and social RPG state in StreamPixels, a private repository for now.</p>
+    <h3>Streaming, built as small parts</h3>
+    <p>Kiko looks after streaming: capture, a bridge out of the broadcast software, and a native 3D overlay that draws what the server tells it to and decides nothing itself. In development; not yet live.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Estates &middot; Heimdall</p>
     <h3>Who may pass, under whose authority</h3>
-    <p>Heimdall owns identity, grants and consent for hosted GameCult systems. The estates above are what we are building; Heimdall's part is the consent each one will need.</p>
+    <p>Heimdall signs people in and keeps the keys and grants. Bifrost decides what membership means. Consent for each estate is still being built.</p>
   </article>
 </div>
 

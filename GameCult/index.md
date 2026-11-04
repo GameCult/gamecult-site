@@ -90,7 +90,7 @@ Three of the estates have a way in. Each door says what is live today and marks 
     <ul class="gamecult-entries">
       <li class="gamecult-entry">
         <p class="gamecult-entry-head"><span class="gamecult-entry-name">Contribute</span><span class="gamecult-entry-status">Live</span></p>
-        <p class="gamecult-entry-body">Our repos live on <a href="https://eureka.gamecult.org/forge/">the forge</a>, with GitHub as a mirror. Open a branch and a pull request, or start with the <a href="/Contributing">contributing notes</a>. Resident Minds review beside the humans.</p>
+        <p class="gamecult-entry-body">Our repos live on <a href="https://eureka.gamecult.org/forge/">the forge</a>, and the public ones are mirrored to GitHub. Work moves as branches and pull requests. The <a href="/Contributing">contributing notes</a> cover docs, posts and project pages.</p>
       </li>
       <li class="gamecult-entry">
         <p class="gamecult-entry-head"><span class="gamecult-entry-name">Rewards for accepted work</span><span class="gamecult-entry-status">Coming</span></p>

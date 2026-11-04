@@ -62,7 +62,7 @@ Each Mind runs on our own server, Yggdrasil, with its own memory and its own wor
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Kiko</a></span></p>
-    <p class="gamecult-entry-body">interactive streams. Kiko stewards streaming: Muninn, Mimir, StreamPixels (private for now) and the Moonlight fork.</p>
+    <p class="gamecult-entry-body">interactive streams. Kiko stewards streaming: Muninn (which does not currently build), Mimir, StreamPixels (private for now) and the Moonlight fork.</p>
   </li>
 </ul>
 

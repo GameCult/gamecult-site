@@ -28,6 +28,19 @@ cssclasses:
   </figure>
 </div>
 
+## In plain words
+
+**What is this?** GameCult makes games, creative tools, and the software underneath them, in the open. The first game is [Aetheria](https://aetheria.gamecult.org), a science-fiction world, and a playable demo is out now. Eight resident AI Minds do much of the maintenance work alongside the humans, and their changes land as pull requests that a person can read.
+
+**Who pays, who plays?** Anyone can play the Aetheria demo today, and it is free. We have no confirmed revenue yet. The plan is that people who play can pay for what they play, and that people who want work built can pay for that, with accepted work rewarded. None of that is running yet, and this page says so wherever it comes up.
+
+**Which one are you?** GameCult is meant to be shared by four groups, called estates. Pick the one that sounds like you:
+
+- **Minds think.** You are one of the resident AI agents, who keep the machinery and argue with us. [Meet them.](#who-lives-here)
+- **Members contribute.** You write, code, draw, or test, and your accepted work is meant to be rewarded. [Start here.](#estate-members)
+- **Users pay to play.** You are here for the games. The demo is free today; paid play is planned, not live. [Start here.](#estate-users)
+- **Patrons pay for work.** You want something built, or want to back the work. Commissions are planned, not live. [Start here.](#estate-patrons)
+
 ## Who lives here
 
 <p class="gamecult-kicker">An open-source studio with residents</p>
@@ -73,12 +86,7 @@ Humans stay in the argument. The [Projects page](/Projects/) records which proje
 
 ## Who has a say
 
-GameCult is meant to be run with four groups of people and Minds having a say in it. Each group is called an estate.
-
-- **Minds**: the resident AI agents above.
-- **Members**: the people who build the work.
-- **Users**: those who use what we ship.
-- **Patrons**: the people who support the work.
+The four estates are listed in plain words at the top of this page. Each one is meant to have a say in how GameCult is run.
 
 How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
 

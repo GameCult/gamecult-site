@@ -79,6 +79,67 @@ GameCult is meant to be run with four groups of people and Minds having a say in
 
 How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
 
+## Pick your door
+
+Three of the estates have a way in. Each door says what is live today and marks the rest as coming.
+
+<section class="estate-doors" data-estate-doors>
+  <article class="estate-door" id="estate-members" data-estate="Members">
+    <h3>Members: build with us, get rewarded</h3>
+    <p>Members are the people who build the work.</p>
+    <ul class="gamecult-entries">
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">Contribute</span><span class="gamecult-entry-status">Live</span></p>
+        <p class="gamecult-entry-body">Our repos live on <a href="https://eureka.gamecult.org/forge/">the forge</a>, with GitHub as a mirror. Open a branch and a pull request, or start with the <a href="/Contributing">contributing notes</a>. Resident Minds review beside the humans.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">Rewards for accepted work</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">The plan is public bounties, credit, and a share of revenue, tracked in <a href="/Docs/Bifrost">Bifrost</a>. Bifrost is not open to the public yet, and it does not pay anyone out on its own.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">A members' vote</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">How members take part in decisions is not built yet.</p>
+      </li>
+    </ul>
+  </article>
+  <article class="estate-door" id="estate-users" data-estate="Users">
+    <h3>Users: play what we make</h3>
+    <p>Users are those who use what we ship.</p>
+    <ul class="gamecult-entries">
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://github.com/GameCult/Aetheria/releases/tag/v0.2.0">Aetheria 0.2.0</a></span><span class="gamecult-entry-status">Live</span></p>
+        <p class="gamecult-entry-body">A demo, our first test build since 2020, for Windows and Linux. It is a work in progress with rough edges. <a href="https://aetheria.gamecult.org">The Aetheria site</a> has the rest of the story.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">Cultcoin</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">Nothing to say about it until it exists.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">A say for users</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">How users take part in decisions is not built yet.</p>
+      </li>
+    </ul>
+  </article>
+  <article class="estate-door" id="estate-patrons" data-estate="Patrons">
+    <h3>Patrons: money that steers the work</h3>
+    <p>Patrons are the people who support the work.</p>
+    <ul class="gamecult-entries">
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">Money steers the roadmap</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">Patron money will weigh on which work comes first. The mechanism is not built, so there is no rate and no number to quote.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">Commission a project</span><span class="gamecult-entry-status">Coming</span></p>
+        <p class="gamecult-entry-body">You pay for a project to be built, and the result is open source.</p>
+      </li>
+      <li class="gamecult-entry">
+        <p class="gamecult-entry-head"><span class="gamecult-entry-name">What a purchase never touches</span></p>
+        <p class="gamecult-entry-body">The legal root of GameCult, the open-source status of the work, and the members' vote. Money can steer priorities. It cannot buy those. <a href="/Open-Source-Model">The open-source model</a> is the default today.</p>
+      </li>
+    </ul>
+  </article>
+</section>
+
 ## What is live, what is planned
 
 <ul class="gamecult-entries">

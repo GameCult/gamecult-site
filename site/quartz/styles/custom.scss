@@ -2075,3 +2075,44 @@ article.integrated-dossier-page {
 .gamecult-entry-lead::first-letter {
   text-transform: uppercase;
 }
+
+/* Estate doors: one pitch at a time when scripts run; all three stacked when not. */
+.estate-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.estate-tab {
+  flex: 1 1 8rem;
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--gamecult-rule);
+  border-radius: 0;
+  background: transparent;
+  color: var(--dark);
+  font-family: var(--titleFont);
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.estate-tab[aria-selected="true"] {
+  border-color: rgba(255, 138, 42, 0.96);
+  color: rgba(255, 138, 42, 0.96);
+}
+
+.estate-tab:focus-visible {
+  outline: 2px solid rgba(255, 138, 42, 0.96);
+  outline-offset: 2px;
+}
+
+.estate-door[hidden] {
+  display: none;
+}
+
+.estate-door h3 {
+  margin-top: 1.4rem;
+}

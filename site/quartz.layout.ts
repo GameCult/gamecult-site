@@ -3,6 +3,7 @@ import * as Component from "./quartz/components"
 import GameCultMasthead from "./quartz/components/GameCultMasthead"
 import GameCultArticleMeta from "./quartz/components/GameCultArticleMeta"
 import GameCultThemeLock from "./quartz/components/GameCultThemeLock"
+import GameCultEstateDoors from "./quartz/components/GameCultEstateDoors"
 
 const isGraphPage = (page: any) => page.fileData.slug === "Graph"
 const isThingPage = (page: any) => page.fileData.slug === "Thing"
@@ -15,7 +16,7 @@ const isBlogArticle = (page: any) =>
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [GameCultThemeLock(), GameCultMasthead()],
-  afterBody: [],
+  afterBody: [GameCultEstateDoors()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/GameCult",

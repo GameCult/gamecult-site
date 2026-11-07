@@ -1,0 +1,43 @@
+name: PR Build Check
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site repository
+        uses: actions/checkout@v4
+
+      - name: Checkout shared Quartz engine
+        uses: actions/checkout@v4
+        with:
+          repository: GameCult/GameCult-Quartz
+          path: GameCult-Quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: GameCult-Quartz/package-lock.json
+
+      - name: Install shared engine dependencies
+        working-directory: GameCult-Quartz
+        run: npm ci
+
+      - name: Build site through shared Quartz
+        run: >
+          node GameCult-Quartz/scripts/build-site.mjs build
+          --siteRoot "$GITHUB_WORKSPACE"
+          --contentDir GameCult
+          --overlayDir site
+          --outputDir quartz-site/public

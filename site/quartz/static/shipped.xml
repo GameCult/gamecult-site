@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GameCult: Shipped</title>
+  <id>https://gamecult.org/Shipped</id>
+  <link href="https://gamecult.org/Shipped"/>
+  <link rel="self" href="https://gamecult.org/static/shipped.xml"/>
+  <updated>2026-11-07T02:24:23Z</updated>
+  <entry>
+    <title>AquaSynth: Scoping: Faust DSP (thruster v5) in a Unity player on Windows and Linux</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/12</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/12"/>
+    <updated>2026-11-07T02:24:23Z</updated>
+  </entry>
+  <entry>
+    <title>ModelConnector: Lease socket answers a usage readout</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/ModelConnector/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/ModelConnector/pulls/1"/>
+    <updated>2026-11-06T22:55:18Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Persona charter: the operator's own life in chat is not a leak</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/53</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/53"/>
+    <updated>2026-11-06T20:42:48Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Changelog: prompt recall hook stays uninstalled</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/52</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/52"/>
+    <updated>2026-11-06T20:21:26Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Later cuts are follow-ups, not prose lines</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/51</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/51"/>
+    <updated>2026-11-06T19:47:32Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Three tiers of context</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/50</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/50"/>
+    <updated>2026-11-06T19:35:47Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: Proposals page for human reviewers</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/7</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/7"/>
+    <updated>2026-11-06T19:25:04Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: Deru phonotactics in the Sa'ueia/Airawa checker; names file; briefs updated</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/9</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/9"/>
+    <updated>2026-11-06T19:24:20Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: rtd: imperial_frame out of packet example (ruling) + DRAFT Dao path-fit ontology (proposal, not canon)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/6</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/6"/>
+    <updated>2026-11-06T19:23:17Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: Lowering input: the speaker's relation to the addressee (Scene slot, with_scene)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/8</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/8"/>
+    <updated>2026-11-06T18:19:50Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Estate-rule sim: regenerate stale results, fix weight-floor wording</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/7</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/7"/>
+    <updated>2026-11-06T07:50:10Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Earcon Workshop: static earcon family generator with WAV/JSON export (unheard)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/9</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/9"/>
+    <updated>2026-11-06T05:36:47Z</updated>
+  </entry>
+  <entry>
+    <title>AetheriaLore: Revert PR #1: table wikilink pipes</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/3</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/3"/>
+    <updated>2026-11-06T05:34:05Z</updated>
+  </entry>
+  <entry>
+    <title>AetheriaLore: Fix backslash-escaped pipes in table wikilinks</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/1"/>
+    <updated>2026-11-06T05:32:52Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: heimdall-stake: stake function and splitting-gain report (Rust, zero deps)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/9</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/9"/>
+    <updated>2026-11-06T04:34:33Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: DRAFT Zyphos naming briefs (not canon)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/1"/>
+    <updated>2026-11-06T04:32:44Z</updated>
+  </entry>
+  <entry>
+    <title>AetheriaLore: Faction Play: apply Nibu's rulings on proposals 1, 2, 4, 5</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/2"/>
+    <updated>2026-11-06T03:32:16Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: Rust to Dust imperial language: draft design spec r0</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/2"/>
+    <updated>2026-11-06T03:32:10Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Estate-rule sim: pin the stake arm to heimdall-stake golden vectors</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/6</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/6"/>
+    <updated>2026-11-06T02:32:25Z</updated>
+  </entry>
+  <entry>
+    <title>Heimdall: Live-Postgres tests: exercise the pending-link methods; add a standing live run</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/4</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/4"/>
+    <updated>2026-11-06T00:32:57Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Estate-rule sim: purchased-stake arm (log weight, splitting adversary, half-influence cap)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/5</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/5"/>
+    <updated>2026-11-05T19:29:58Z</updated>
+  </entry>
+  <entry>
+    <title>Heimdall: r2: bind OAuth completion to the launching browser, one use per state; gate connect starts</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/3</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/3"/>
+    <updated>2026-11-05T17:16:40Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: aqua-feel: headless feel meter + gate; fix PRC SYNTH1 clipping and thruster low-rpm hiss</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/8</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/8"/>
+    <updated>2026-11-05T15:44:33Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: bloom-sheet: large fills as wash and outline</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/48</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/48"/>
+    <updated>2026-11-05T14:53:47Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: bloom-sheet: visitors drawn with the plant's pen</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/47</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/47"/>
+    <updated>2026-11-05T14:36:47Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: bloom-sheet CLI: markdown to a neon one-page sheet</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/46</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/46"/>
+    <updated>2026-11-05T12:55:12Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: docs/start: verbatim drift check for C# and TS first-call blocks</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/7</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/7"/>
+    <updated>2026-11-05T12:43:13Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Docs: soundscape grammar for the Ratatoskr generative symphony (draft)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/4</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/4"/>
+    <updated>2026-11-05T11:54:52Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Faust on Linux: FaustRender probe, toolchain notes, thruster v5 manifest</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/5</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/5"/>
+    <updated>2026-11-05T11:54:45Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Listening trial: blinded A/B thruster noise sweep (static page)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/7</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/7"/>
+    <updated>2026-11-05T11:54:39Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Static in-browser playground (faustwasm) for AquaSynth patches</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/6</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/6"/>
+    <updated>2026-11-05T11:54:39Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Add thruster Faust patch with an rpm control</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/3</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/3"/>
+    <updated>2026-11-05T11:54:38Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Faust SetControls: remove per-call allocation</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/2"/>
+    <updated>2026-11-05T11:54:37Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: CultMath: Phacelle rows are bit-identical forward, backward and shuffled</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/5</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/5"/>
+    <updated>2026-11-05T11:02:48Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: heimdall-delegation: delegation resolver (Rust, zero deps)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/6</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/6"/>
+    <updated>2026-11-05T11:02:24Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Estate-rule sim harness: populism, strategic agents, transitive delegation</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/4</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/4"/>
+    <updated>2026-11-05T10:59:23Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Proposal: charter amendment provision (in-chat charter)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/3</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/3"/>
+    <updated>2026-11-05T10:59:13Z</updated>
+  </entry>
+  <entry>
+    <title>Huginn: chat-retrieval-map: anchors to main, answered questions, stale Persona premise</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/7</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/7"/>
+    <updated>2026-11-05T10:59:03Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: The mouth delivers media events as a typed line</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/2"/>
+    <updated>2026-11-05T10:58:56Z</updated>
+  </entry>
+  <entry>
+    <title>Heimdall: Google OIDC provider: link-only, sub-keyed, PKCE and nonce</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/2"/>
+    <updated>2026-11-05T10:58:37Z</updated>
+  </entry>
+  <entry>
+    <title>Huginn: docs: chat retrieval authority map and cut</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/1"/>
+    <updated>2026-11-05T10:58:27Z</updated>
+  </entry>
+  <entry>
+    <title>Heimdall: Bind link mode to its initiator and redeem to its target</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/1"/>
+    <updated>2026-11-05T10:57:54Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Skill: one feature across two areas</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/23</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/23"/>
+    <updated>2026-11-05T10:57:50Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Briefs: a merge pass never rebases on a rejected push</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/20</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/20"/>
+    <updated>2026-11-05T10:57:34Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: brand: Ratatoskr replaces Cinny branding (do not merge)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/11</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/11"/>
+    <updated>2026-11-05T10:51:59Z</updated>
+  </entry>
+  <entry>
+    <title>moonlight-ios: docs: remote access to a Sunshine host over Tailscale or Headscale (untested)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/2</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/2"/>
+    <updated>2026-11-05T10:51:17Z</updated>
+  </entry>
+  <entry>
+    <title>moonlight-ios: README: publish health stays independent of every other feature</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/1</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/1"/>
+    <updated>2026-11-05T10:51:12Z</updated>
+  </entry>
+  <entry>
+    <title>Eureka: Eyes and Imagination keep their findings as typed notes; the facts file and committed research file die</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/45</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/45"/>
+    <updated>2026-11-05T10:31:08Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: Estate navigator stack: background scene, soundscape, cone prepass (opt-in)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/15</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/15"/>
+    <updated>2026-11-05T00:31:47Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: scene: cone prepass for pass 1, opt-in steps/pixel readout</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/12</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/12"/>
+    <updated>2026-11-04T22:56:29Z</updated>
+  </entry>
+</feed>

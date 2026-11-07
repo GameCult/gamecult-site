@@ -33,6 +33,11 @@ const routes: Route[] = [
     matches: ["Blog"],
   },
   {
+    label: "Shipped",
+    slug: "Shipped" as FullSlug,
+    matches: ["Shipped"],
+  },
+  {
     label: "Aetheria",
     href: "https://aetheria.gamecult.org",
     matches: ["Aetheria"],

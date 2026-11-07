@@ -1,0 +1,838 @@
+{
+ "generated": "2026-11-07T03:47:34.955Z",
+ "entries": [
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Persona charter: the operator's own life in chat is not a leak",
+   "date": "2026-11-06T20:42:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Changelog: prompt recall hook stays uninstalled",
+   "date": "2026-11-06T20:21:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Later cuts are follow-ups, not prose lines",
+   "date": "2026-11-06T19:47:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Three tiers of context",
+   "date": "2026-11-06T19:35:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet: large fills as wash and outline",
+   "date": "2026-11-05T14:53:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet: visitors drawn with the plant's pen",
+   "date": "2026-11-05T14:36:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet CLI: markdown to a neon one-page sheet",
+   "date": "2026-11-05T12:55:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Eyes and Imagination keep their findings as typed notes; the facts file and committed research file die",
+   "date": "2026-11-05T10:31:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona doctrine: the machine is more than code",
+   "date": "2026-11-04T08:36:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Verify containers share cargo's package-cache lock: mount the shared volume as CARGO_HOME",
+   "date": "2026-11-03T01:37:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Inversion of control wording: stewards decide, originator vision is evidence",
+   "date": "2026-11-02T20:10:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona.md: Your turn section",
+   "date": "2026-11-02T09:42:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "fast-mutants: cargo-mutants per file with scoped tests, survivors confirmed on the full suite, sharded across slots",
+   "date": "2026-11-01T20:11:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "context-pack docs: Soul s1 Lows",
+   "date": "2026-11-01T03:08:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "context-pack: resolve reads, check symbols, capped caller lists (cut-context-pack-reads r3)",
+   "date": "2026-11-01T03:07:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "campaign-state: the repo set in force and how Self changes it (cut-skill-campaign-repos r2)",
+   "date": "2026-11-01T01:01:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: Persona pointers, Soul s2 Lows",
+   "date": "2026-11-01T00:52:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: Persona state pointers name Huginn as the holder",
+   "date": "2026-11-01T00:44:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona: each room purpose; #operator only for what needs the operator",
+   "date": "2026-10-31T11:33:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona: register rule (Persona voice everywhere but #minds)",
+   "date": "2026-10-31T04:59:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "skill: use the huginn CLI instead of the eureka-state MCP",
+   "date": "2026-10-31T04:01:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: GameCult workspace doctrine moves into the skill as doctrine/gamecult.md",
+   "date": "2026-10-31T00:21:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: re-entry triages reports with no verdict; second beating triggers the structural move; pushed heads build",
+   "date": "2026-10-27T16:02:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Recall at admission: recall.py admit holds a ruling/question batch once with its in-force neighbours",
+   "date": "2026-10-23T18:48:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Research: recall triggers prior art",
+   "date": "2026-10-23T18:48:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Worktree cleanup is scoped to this session's own agents",
+   "date": "2026-10-23T10:36:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Worktrees die with their cut",
+   "date": "2026-10-23T10:22:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Recall hook: the mind recalls into context on every prompt",
+   "date": "2026-10-22T17:49:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: one feature across two areas",
+   "date": "2026-11-05T10:57:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine and briefs: nothing that exists is sacred, the operator's words included",
+   "date": "2026-10-14T00:36:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: a worktree's branch is the spec's branch",
+   "date": "2026-10-14T00:36:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: a merge pass never rebases on a rejected push",
+   "date": "2026-11-05T10:57:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: no test run of any size on Starfire",
+   "date": "2026-10-12T01:59:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: map only what is about to run",
+   "date": "2026-10-12T01:38:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "References: dated tool-calling map; two admission notes",
+   "date": "2026-10-12T01:29:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: Self rotates at about 400k",
+   "date": "2026-10-12T01:14:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: every campaign in force has an area",
+   "date": "2026-10-11T06:58:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: Stryker offsets come from the job checkout",
+   "date": "2026-10-11T06:58:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: research is always kept",
+   "date": "2026-10-09T20:41:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: name Self handoffs per area",
+   "date": "2026-10-09T20:42:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: Aetheria verify pins are git clones",
+   "date": "2026-10-09T13:36:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: a scratch subdirectory is named per dispatch",
+   "date": "2026-10-09T13:11:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: the context pack is how Hands reads a cut",
+   "date": "2026-10-09T12:19:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "tools/context-pack.py: carry cut_spec anchors to the worktree",
+   "date": "2026-10-09T12:06:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Tool-call relief: wait-on.sh, python, brief lessons, Life reads the mind",
+   "date": "2026-10-08T13:25:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Self loads Eureka; Hands, Eyes and Life default to Sonnet; handoffs are pointers",
+   "date": "2026-10-03T20:15:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Hands template: no resolutions; fix batches name their commits",
+   "date": "2026-10-03T20:15:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine explains instead of shouting",
+   "date": "2026-10-03T10:04:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine moves into the Eureka repo",
+   "date": "2026-10-02T21:50:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Faculty charters, step 5: dispatch by subagent_type; briefs stop restating charters",
+   "date": "2026-10-01T16:41:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Tool-calling cut §5: summary/wait verify, snapshot mutation runner",
+   "date": "2026-10-01T16:39:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "ModelConnector",
+   "title": "Lease socket answers a usage readout",
+   "date": "2026-11-06T22:55:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/ModelConnector/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Zyphos",
+   "title": "Respell Sa'auei'a as Sa'ueia (spelling only)",
+   "date": "2026-11-04T12:56:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Zyphos/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Scoping: Faust DSP (thruster v5) in a Unity player on Windows and Linux",
+   "date": "2026-11-07T02:24:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Earcon Workshop: static earcon family generator with WAV/JSON export (unheard)",
+   "date": "2026-11-06T05:36:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel: headless feel meter + gate; fix PRC SYNTH1 clipping and thruster low-rpm hiss",
+   "date": "2026-11-05T15:44:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Listening trial: blinded A/B thruster noise sweep (static page)",
+   "date": "2026-11-05T11:54:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Static in-browser playground (faustwasm) for AquaSynth patches",
+   "date": "2026-11-05T11:54:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust on Linux: FaustRender probe, toolchain notes, thruster v5 manifest",
+   "date": "2026-11-05T11:54:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Docs: soundscape grammar for the Ratatoskr generative symphony (draft)",
+   "date": "2026-11-05T11:54:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Add thruster Faust patch with an rpm control",
+   "date": "2026-11-05T11:54:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust SetControls: remove per-call allocation",
+   "date": "2026-11-05T11:54:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust loader: platform-aware library lookup and AQUASYNTH_FAUST_LIBRARY override",
+   "date": "2026-10-31T09:41:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Revert PR #1: table wikilink pipes",
+   "date": "2026-11-06T05:34:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Faction Play: apply Nibu's rulings on proposals 1, 2, 4, 5",
+   "date": "2026-11-06T03:32:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Fix backslash-escaped pipes in table wikilinks",
+   "date": "2026-11-06T05:32:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "moonlight-ios",
+   "title": "docs: remote access to a Sunshine host over Tailscale or Headscale (untested)",
+   "date": "2026-11-05T10:51:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "moonlight-ios",
+   "title": "README: publish health stays independent of every other feature",
+   "date": "2026-11-05T10:51:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: three estate doors with a mode switch (draft, do not merge)",
+   "date": "2026-11-04T15:06:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Kiko line says Muninn does not currently build",
+   "date": "2026-11-04T02:12:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Libby and Weksa roster wording",
+   "date": "2026-11-03T23:05:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: owners' roster wording (Kiko, Libby, Aqua, Eureka, Heimdall, Weksa)",
+   "date": "2026-11-03T22:09:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Nibu roster line and Aetheria card",
+   "date": "2026-11-03T21:13:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: \"Who has a say\" replaces the estates heading",
+   "date": "2026-11-03T21:09:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: stacked entries replace the Minds and what-is-live tables",
+   "date": "2026-11-03T19:41:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Minds' project paragraphs, estates, Aetheria reconciled",
+   "date": "2026-11-03T18:14:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing copy: fix Aetheria claim, audit and soften unsourced claims",
+   "date": "2026-11-03T16:07:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing page revamp: value, residents, live vs planned, four estates",
+   "date": "2026-11-03T14:42:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "VoidBot project page: record retirement",
+   "date": "2026-10-31T09:09:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Research: stale claims on the VoidBot project page",
+   "date": "2026-11-03T13:39:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "heimdall-stake: stake function and splitting-gain report (Rust, zero deps)",
+   "date": "2026-11-06T04:34:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs/start: verbatim drift check for C# and TS first-call blocks",
+   "date": "2026-11-05T12:43:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "heimdall-delegation: delegation resolver (Rust, zero deps)",
+   "date": "2026-11-05T11:02:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: Phacelle rows are bit-identical forward, backward and shuffled",
+   "date": "2026-11-05T11:02:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: regenerate lavapipe device bounds at 85ce65fa",
+   "date": "2026-11-04T20:31:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs/start: tested Rust and Python CultCache first calls",
+   "date": "2026-11-04T21:34:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs: docs/start onboarding with tested CultCache first calls (C#, TS)",
+   "date": "2026-11-04T20:33:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: fbm, and the measured Lipschitz bound of phacelle",
+   "date": "2026-11-04T19:19:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: regenerate stale results, fix weight-floor wording",
+   "date": "2026-11-06T07:50:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: pin the stake arm to heimdall-stake golden vectors",
+   "date": "2026-11-06T02:32:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: purchased-stake arm (log weight, splitting adversary, half-influence cap)",
+   "date": "2026-11-05T19:29:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim harness: populism, strategic agents, transitive delegation",
+   "date": "2026-11-05T10:59:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Proposal: charter amendment provision (in-chat charter)",
+   "date": "2026-11-05T10:59:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "The mouth delivers media events as a typed line",
+   "date": "2026-11-05T10:58:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "The mouth refuses a Persona send when the room moved past what she held",
+   "date": "2026-11-03T11:03:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Live-Postgres tests: exercise the pending-link methods; add a standing live run",
+   "date": "2026-11-06T00:32:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "r2: bind OAuth completion to the launching browser, one use per state; gate connect starts",
+   "date": "2026-11-05T17:16:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Google OIDC provider: link-only, sub-keyed, PKCE and nonce",
+   "date": "2026-11-05T10:58:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Bind link mode to its initiator and redeem to its target",
+   "date": "2026-11-05T10:57:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Deru phonotactics in the Sa'ueia/Airawa checker; names file; briefs updated",
+   "date": "2026-11-06T19:24:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Lowering input: the speaker's relation to the addressee (Scene slot, with_scene)",
+   "date": "2026-11-06T18:19:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Proposals page for human reviewers",
+   "date": "2026-11-06T19:25:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "rtd: imperial_frame out of packet example (ruling) + DRAFT Dao path-fit ontology (proposal, not canon)",
+   "date": "2026-11-06T19:23:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Sa'ueia workshop first cut: table, checker, sound proposal",
+   "date": "2026-11-04T12:56:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Respell Sa'auei'a as Sa'ueia (spelling only)",
+   "date": "2026-11-04T10:48:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "speaker-state onto main (stance in packet, admit-only LoweringInput) + build notes",
+   "date": "2026-11-03T19:27:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Rust to Dust imperial language: draft design spec r0",
+   "date": "2026-11-06T03:32:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "DRAFT Zyphos naming briefs (not canon)",
+   "date": "2026-11-06T04:32:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Estate navigator stack: background scene, soundscape, cone prepass (opt-in)",
+   "date": "2026-11-05T00:31:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: cone prepass for pass 1, opt-in steps/pixel readout",
+   "date": "2026-11-04T22:56:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "brand: Ratatoskr replaces Cinny branding (do not merge)",
+   "date": "2026-11-05T10:51:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: Phacelle bound says measured-not-proved; neutral creature draws nothing",
+   "date": "2026-11-03T11:37:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Background scene: two-pass WebGL2 terrain and world tree with login pull-back",
+   "date": "2026-11-02T16:50:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat-retrieval-map: anchors to main, answered questions, stale Persona premise",
+   "date": "2026-11-05T10:59:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "The MCP admit goes through the one strict door; refusals name the field",
+   "date": "2026-11-04T22:16:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona wake: the brake counts only Self runs the Mind started itself",
+   "date": "2026-11-04T19:13:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona wake: leads and a what-could-exist ask; intents leave the history line",
+   "date": "2026-11-04T17:16:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "research and idea kinds: typed documents for what Eyes and Imagination find",
+   "date": "2026-11-04T15:01:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "docs: chat retrieval authority map and cut",
+   "date": "2026-11-05T10:58:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/1"
+  }
+ ]
+}

@@ -21,6 +21,7 @@ The site builds against the shared `GameCult-Quartz` engine. This repo owns publ
   - custom components
   - custom styles in `site/quartz/styles/custom.scss`
   - static assets
+- `scripts/shipped/`: the Shipped ledger. `node scripts/shipped/refresh.mjs` fetches merged PRs and releases from the public Forge repos into `data/shipped.json` and regenerates `GameCult/Shipped.md` and `site/quartz/static/shipped.xml` (both generated; do not hand-edit). `node scripts/shipped/refresh.mjs --render-only` re-renders from the snapshot; `node --test scripts/shipped/ledger.test.mjs` tests the grouping
 - `quartz-site/public/`: generated static output
 - `scripts/quartz/quartz.ps1`: local build/dev launcher
 - `.github/workflows/deploy-quartz.yml`: Pages deploy workflow, delegated to `GameCult-Quartz`

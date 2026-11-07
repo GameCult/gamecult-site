@@ -78,7 +78,7 @@ The current state of the market is therefore not solved by adding more prompts. 
 ### What is different about GameCult?
 
 
-GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a <strong>Persona</strong>, a public/social agent identity. VoidBot reads Discord and repo context. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
+GameCult appears to be building an organization where agents are not just assistants but part of the operating structure. Each repo can have a <strong>Persona</strong>, a public/social agent identity. VoidBot read Discord and repo context until it retired on 22 Oct 2026. Epiphany externalizes typed project memory. CultMesh supplies distributed typed state. Bifrost turns requests, discussion, work, reviews, receipts, and rewards into governed records.
 
 In ordinary terms: instead of treating AI as a chatbot bolted onto a team, GameCult is trying to make agent work auditable, repeatable, and connected to governance. The mythology around the Colossus is unusual and should not lead investor materials. The underlying engineering goal is legible: preserve context, assign authority, verify work, and record who did what.
 
@@ -125,9 +125,9 @@ The failure mode of current agents is not that they cannot write code. It is tha
 ### VoidBot and Personas: the social interface
 
 
-VoidBot is the social and Discord-native interface into the swarm. It can answer from archived Discord history, indexed GameCult repos, and Aetheria lore, and then hand deeper work off to Codex. It supports real Discord replies, semantic retrieval, source/lore indexing, interaction memory, and Codex handoff flows.<sup><a href="https://github.com/GameCult/VoidBot/blob/main/README.md">GameCult/VoidBot README</a></sup>
+VoidBot was the social and Discord-native interface into the swarm until it retired on 22 Oct 2026. It answered from archived Discord history, indexed GameCult repos, and Aetheria lore, and handed deeper work off to Codex. Its duties went to Huginn, Idunn, Bifrost and Eureka's body; see the <a href="/Projects/VoidBot">VoidBot page</a> for what has and has not landed.<sup><a href="https://github.com/GameCult/VoidBot/blob/main/README.md">GameCult/VoidBot README</a></sup>
 
-This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. VoidBot and repo Personas are the layer where that signal becomes visible.
+This matters because work does not originate only in tickets. It originates in chat, argument, taste, frustration, social trust, and repeated community pressure. Repo Personas, once alongside VoidBot, are the layer where that signal becomes visible.
 
 
 ### CultMesh: typed distributed state
@@ -432,7 +432,7 @@ Human or agent identifies work $\to$ Bifrost records scope/priority $\to$ Epipha
 ### Phase 1: Bifrost-first private alpha
 
 
-Within 90-120 days, Bifrost should be the canonical surface for governed external swarm tasks. Discord may mirror. VoidBot may observe. Epiphany may execute. But Bifrost owns topics, work items, dispatch packets, receipts, credit, and reward pressure.
+Within 90-120 days, Bifrost should be the canonical surface for governed external swarm tasks. Discord may mirror. Epiphany may execute. But Bifrost owns topics, work items, dispatch packets, receipts, credit, and reward pressure.
 
 Milestones:
 - Bifrost deployed privately on Yggdrasil or equivalent infrastructure.
@@ -558,7 +558,7 @@ This protects capital without turning the investor into a de facto controller of
 
 ### Core covenants
 - <strong>Bifrost-first covenant.</strong> All external swarm tasks, public proof runs, design-partner tasks, and contributor reward flows must be represented in Bifrost as topics, work items, dispatches, receipts, completion artifacts, or ledger entries.
-- <strong>No shadow governance.</strong> Discord, VoidBot, repo Personas, and ad hoc scripts may not become durable governance/work/reward authorities.
+- <strong>No shadow governance.</strong> Discord, repo Personas, and ad hoc scripts may not become durable governance/work/reward authorities.
 - <strong>Compute accountability.</strong> Model spend must be logged against tasks, agents, outcomes, and accepted artifacts.
 - <strong>Contributor-output measurement.</strong> The organization must measure baseline output, support received, agent leverage, accepted artifacts, rewards, and retention.
 - <strong>Safety gates.</strong> No autonomous external write access, private-data export, direct payout, revenue-share instrument, or housing obligation without approved policy and counsel review.
@@ -630,7 +630,7 @@ Release after:
 - Live Epiphany demo on a fresh repo.
 - Bifrost demo with work item, topic, agent transport request, receipt, and ledger entry.
 - CultMesh demo or status report for Verses and typed document sync.
-- VoidBot/Discord swarm demo.
+- Discord swarm demo (VoidBot, since retired).
 - Compute spend, task output, and accepted artifact metrics.
 - Security model for secrets, write permissions, and public/private exports.
 

@@ -107,7 +107,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
 
   <div id="gamecult-vn-eve-canvas" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Native Proof</h2>
-    <p>EveCanvas is the current native shell: UIKit lifecycle and crisp text, OpenGL ES pixels, CADisplayLink frames, CoreMotion telemetry, and no premature claim that telemetry is authority.</p>
+    <p>EveCanvas was the native proof for Eve, now deprecated and succeeded by Thing: UIKit lifecycle and crisp text, OpenGL ES pixels, CADisplayLink frames, CoreMotion telemetry, and no premature claim that telemetry is authority. No native shell is promised here for Thing yet.</p>
   </div>
 
   <div id="gamecult-vn-docs" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -150,28 +150,28 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
 
   <div id="gamecult-vn-voidbot" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>VoidBot</h2>
-    <p>VoidBot makes project memory askable: archived Discord history, indexed repos, lore lookup, semantic search, and Codex handoff when chat stops being a sane workspace.</p>
+    <p>VoidBot made project memory askable from chat. It retired on 22 Oct 2026; Huginn, Idunn, Bifrost and Eureka's body took its duties, and what has not landed yet is not currently provided.</p>
     <p><a href="/Projects/VoidBot">Project page</a> | <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
   </div>
 
   <div id="gamecult-vn-voidbot-retrieval" class="gamecult-vn-source-card" data-sai-dom-source="true">
-    <h2>Retrieval Body</h2>
-    <p>VoidBot searches archived Discord history, indexed source trees, Aetheria lore, and local vector stores, then hands deeper work to Codex when chat stops being the right tool.</p>
+    <h2>Retrieval Body (retired)</h2>
+    <p>VoidBot's retrieval searched archived Discord history, indexed source trees, Aetheria lore and local vector stores. Semantic retrieval now belongs to Huginn; its prose index is planned, not live.</p>
   </div>
 
   <div id="gamecult-vn-voidbot-pipe" class="gamecult-vn-source-card" data-sai-dom-source="true">
-    <h2>Bot / Worker Split</h2>
-    <p>The Discord gateway and permissions stay in the bot lane; heavier jobs and MCP tools live in the worker lane. Transport is not truth.</p>
+    <h2>Bot / Worker Split (retired)</h2>
+    <p>VoidBot kept the Discord gateway and permissions in the bot lane and heavier jobs and MCP tools in the worker lane. The lanes are gone with the bot; the lesson stays: transport is not truth.</p>
   </div>
 
   <div id="gamecult-vn-voidbot-memory" class="gamecult-vn-source-card" data-sai-dom-source="true">
-    <h2>Social Memory</h2>
-    <p>Interaction memory, audit events, self-state projection, speech receipts, and candidate interventions let the bot remember without pretending a read is a verdict.</p>
+    <h2>Social Memory (retired)</h2>
+    <p>VoidBot's interaction memory, audit events and speech receipts let it remember without pretending a read is a verdict. Persona state now lives in Huginn.</p>
   </div>
 
   <div id="gamecult-vn-voidbot-personas" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Repo Personas</h2>
-    <p>Repo Personas grow from indexed bodies and webhook speech. A project should greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.</p>
+    <p>Repo Personas began as VoidBot's indexed bodies and webhook speech. A project should greet you, explain itself, and point at evidence without pretending the avatar is the source of truth.</p>
   </div>
 
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">

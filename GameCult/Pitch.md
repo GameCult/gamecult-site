@@ -50,8 +50,8 @@ cssclasses:
 
   <div id="gamecult-vn-voidbot" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>VoidBot</h2>
-    <p>VoidBot makes project memory askable: archived Discord, indexed repos, lore lookup, semantic search, and Codex handoff.</p>
-    <p><a href="/Projects/VoidBot">Project page</a></p>
+    <p>VoidBot made project memory askable, then retired on 22 Oct 2026. Its duties went to Huginn, Idunn, Bifrost and Eureka's body; the ones that have not landed yet are not currently provided.</p>
+    <p><a href="/Projects/VoidBot">Where the work went</a></p>
   </div>
 
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">

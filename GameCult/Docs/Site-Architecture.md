@@ -50,7 +50,7 @@ publish through the existing `main` GitHub Pages workflow.
 ## Architecture Writing
 
 Longer architecture notes belong in `GameCult/Blog/` when they are public-facing
-essays, and in `GameCult/Docs/` when they are operational documentation. Current
-daemon architecture doctrine is published as [The Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture),
+essays, and in `GameCult/Docs/` when they are operational documentation. Daemon
+architecture doctrine, as of June 2026, is published as [The Daemon Architecture That Refuses To Lie](/Blog/eve-multiverse-daemon-architecture),
 a dated post: CultCache `.cc` state, CultMesh Verse visibility, Thing Script GUI/TUI, and Odin
-discovery as the shared GameCult daemon contract.
+discovery as the shared GameCult daemon contract. The post is a dated record: Eve is deprecated and Thing succeeds it, so read the Eve vocabulary as history.

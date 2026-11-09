@@ -133,7 +133,7 @@ The projects exist to pressure one another:
 - **Aetheria** forces semantic state and world infrastructure to confront a real game rather than a tidy demonstration.
 - **Ghostlight and future Story Forge work** test whether characters can preserve goals, memory, relationships, and perspective across long-form narrative pressure.
 - **Aquarium and Fensalir** require cognition and complex state to become observable in a native spatial interface.
-- **VoidBot, Personas, and StreamPixels** test whether persistent agents can participate in actual communities without confusing sociability with authority.
+- **Personas and StreamPixels** (and VoidBot, until it retired) test whether persistent agents can participate in actual communities without confusing sociability with authority.
 - **Mimir, AquaSynth, and Weksa** pressure realtime media, sound, language, timing, and embodied interface boundaries.
 - **Bifrost, Heimdall, Odin, Huginn, and the Thing runtimes** pressure governance, identity, inspection, discovery, portability, and operations.
 - **Repixelizer, Brokkr, VibeGeometry, and other utilities** pressure deployment, editor integration, service boundaries, and sustainable delivery.

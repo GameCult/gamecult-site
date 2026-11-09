@@ -16,11 +16,14 @@ jobs:
     steps:
       - name: Checkout site repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Checkout shared Quartz engine
         uses: actions/checkout@v4
         with:
           repository: GameCult/GameCult-Quartz
+          ref: main
           path: GameCult-Quartz
 
       - name: Setup Node

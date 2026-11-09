@@ -313,7 +313,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   .ritual-paper-results-strip span {
     padding: 0.85rem 0.65rem;
     color: rgba(232, 237, 244, 0.88);
-    border-right: 1px solid rgba(255, 178, 30, 0.2);
+    border-right: 1px solid var(--gamecult-rule);
     font-family: "IBM Plex Mono", Consolas, monospace;
     font-size: 0.76rem;
     line-height: 1.45;
@@ -369,7 +369,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
     gap: 1rem;
     margin: 2rem 0 0;
     padding-top: 0.95rem;
-    border-top: 1px solid rgba(174, 189, 210, 0.2);
+    border-top: 1px solid var(--gamecult-rule);
     column-span: all;
   }
 
@@ -405,7 +405,7 @@ body[data-slug="Blog/witness-authoritative-networking"] {
     .ritual-paper-page {
       column-count: 2;
       column-gap: 2.6rem;
-      column-rule: 1px solid rgba(49, 88, 255, 0.2);
+      column-rule: 1px solid var(--gamecult-rule);
     }
 
     .ritual-paper-page::before,

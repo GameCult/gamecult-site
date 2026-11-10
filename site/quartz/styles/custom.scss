@@ -30,8 +30,11 @@ body {
   --gamecult-rule: rgba(148, 163, 184, 0.22);
   /* The ground's radial intensity; 1 on the home page. */
   --gamecult-wash: 0.5;
-  /* The site's one column; .page's max-width; the masthead, article and footer share its edges. */
-  --gamecult-column: 72rem;
+  /* The site's one column; .page's max-width; the masthead, article and footer share its edges.
+     The page fills the screen up to 1920px; only wider monitors get side margins. */
+  --gamecult-column: 120rem;
+  /* The reading measure: the longest line of running prose, wherever the column ends. */
+  --gamecult-measure: 76ch;
 }
 
 body[data-slug="index"] {
@@ -848,6 +851,13 @@ article > h6 {
   margin-top: 0;
 }
 
+/* Running prose keeps a readable line wherever it sits: tables, media, code, math and the page's own blocks take the
+   column's width, but the paragraphs, captions and definitions inside them do not. */
+article :is(p, figcaption, dd, .integrated-dossier-note, .integrated-dossier-lead),
+article > :is(ul, ol, blockquote, dl):not(.gamecult-entries) {
+  max-width: var(--gamecult-measure);
+}
+
 /* KaTeX does not break inside a formula, so math wider than the column scrolls
    in its own block (paragraph, list item, heading, table cell, display block)
    instead of widening the page; math that fits shows no scrollbar. */
@@ -1536,7 +1546,7 @@ body[data-slug="Pitch"] .gamecult-compound-vn .sai-speaker-stage.has-dom-cards {
 }
 
 .gamecult-studio-page > p {
-  max-width: 76ch;
+  max-width: var(--gamecult-measure);
   margin: 1rem 0;
   color: var(--gamecult-studio-copy);
   font-size: 1.06rem;

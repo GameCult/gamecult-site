@@ -116,8 +116,13 @@ of filling the row.
 
 ## Layout
 
-The site is one centred column. Its width is `--gamecult-column` (72rem),
-declared on `body` and applied once, as `.page`'s `max-width`. The masthead, the
+The site is one column that fills the screen. Its width is `--gamecult-column`
+(120rem, so the page runs edge to edge up to 1920px and monitors wider than that
+get side margins), declared on `body` and applied once, as `.page`'s
+`max-width`. Running prose (paragraphs, captions and definitions anywhere in the
+article, and the article's own lists and quotes) keeps a line of at most
+`--gamecult-measure` (76ch); tables, media, code, math and each page's own
+blocks take the column's width. The masthead, the
 article and the site footer fill that column and share its left and right edges
 on every page; nothing is centred inside it, and no page places anything beside
 it. On `/tour` and `/Pitch` the visual novel is the whole page and the masthead

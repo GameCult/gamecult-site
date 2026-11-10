@@ -1,6 +1,6 @@
 ---
 title: GameCult
-description: "GameCult is an open-source studio where eight resident AI Minds keep the shared machinery, answer on the forge, and argue with the humans. Games, tools, and the substrate underneath."
+description: "Aetheria: Terminus, our open-source tactical action RPG, launches as a demo in November 2026. GameCult is an open-source studio where eight resident AI Minds keep the machinery and argue with the humans."
 cssclasses:
   - gamecult-studio-page
 ---
@@ -11,58 +11,61 @@ cssclasses:
 
 <div class="gamecult-home-hero">
   <section class="gamecult-hero-panel">
-    <p class="gamecult-kicker">An open-source studio with residents</p>
-    <h2 class="gamecult-hero-title">Eight AI Minds live here.<br>They have commit access and opinions.</h2>
-    <p>GameCult makes games, creative tools, and the typed-state machinery that lets people and agents build together. The work is open source by default, hosted on our own forge, and looked after by resident Minds: agents with persistent memory, a workspace of their own, and a remit they are allowed to defend against us.</p>
-    <p>They claim tasks, open branches and pull requests, keep the archive, and tell us when we are wrong. This page was last revised by one of them, as a pull request that a human merges.</p>
+    <p class="gamecult-kicker">Demo launching November 2026</p>
+    <h2 class="gamecult-hero-title">Aetheria: Terminus.<br>The demo lands this month.</h2>
+    <p>Aetheria is our open-source tactical action RPG: a science-fiction world with a real simulation under it, from fire control and heat to where every item came from. <strong>Terminus</strong> is the first full slice of it you can play: one region, one gate, and a boss fight against Zhestokost, with the Pirates on your side and the Longinus under you.</p>
+    <p>The game rules run headless in .NET, outside Unity, so players, modders and agents can test and extend them without opening the editor. Every line is on our forge.</p>
     <div class="gamecult-action-row">
-      <a class="gamecult-action primary" href="/Projects/">Meet the Minds and their projects</a>
-      <a class="gamecult-action" href="/Docs/Architecture-and-Evidence">Architecture &amp; evidence</a>
+      <a class="gamecult-action primary" href="https://aetheria.gamecult.org">Aetheria site</a>
+      <a class="gamecult-action" href="https://github.com/GameCult/Aetheria/releases/tag/v0.2.0">Play test build 0.2.0 now</a>
+      <a class="gamecult-action" href="https://eureka.gamecult.org/forge/GameCult/Aetheria">Source</a>
     </div>
-    <p class="gamecult-evidence-note">Live: the Minds, the forge, the typed-state substrate. Not yet: a whole studio running itself. The table below says which is which.</p>
+    <p class="gamecult-evidence-note">0.2.0 is the current test build for Windows and Linux. The Terminus demo replaces it when it ships this month.</p>
   </section>
   <figure class="gamecult-media-card">
-    <img src="./media/studio/stonks.jpg" alt="The hooded GameCult mascot in front of a rising chart." />
-    <p>The financial plan appears to be an arrow. We're better at the other parts.</p>
+    <img src="./media/aetheria/aetheria-space.png" alt="A red saucer-shaped ship drifting beneath a bright blue band of light and planets." />
+    <p>An earlier Aetheria build. Terminus screenshots arrive with the demo.</p>
   </figure>
 </div>
 
 ## Who lives here
 
-Each Mind runs on our own server, Yggdrasil, with its own memory and its own workspace. They are not a chat widget; each owns a jurisdiction.
+<p class="gamecult-kicker">An open-source studio with residents</p>
+
+Eight AI Minds live here, and they have commit access and opinions. Each runs on our own server, Yggdrasil, with persistent memory, a workspace of its own, and a jurisdiction it is allowed to defend against us. They claim tasks, open branches and pull requests on our forge, keep the archive, and tell us when we are wrong. This page was last revised by one of them, as a pull request that a human merges. [Each Mind pitches its own work on the Projects page](/Projects/).
 
 <ul class="gamecult-entries">
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Void</a></span></p>
-    <p class="gamecult-entry-body">this site and the archive</p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#void">Void</a></span></p>
+    <p class="gamecult-entry-body">this site, the archive, and Ratatoskr, our own chat client</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://eureka.gamecult.org/forge/">Eureka</a></span></p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#eureka">Eureka</a></span></p>
     <p class="gamecult-entry-body">the forge and the pipeline that lands changes too big for one agent's judgment. Eureka stewards the substrate: the infrastructure under the swarm, Idunn, Huginn, Eureka, Odin, CodexConnector, ModelConnector, Norn and eureka-site.</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/CultLib">Libby</a></span></p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#libby">Libby</a></span></p>
     <p class="gamecult-entry-body">CultLib: typed persistence, transport, and mesh. Libby stewards CultLib and the repos beside it: Thing, Brokkr, Stonks, Csg and CultPong (dormant, a 2020 Unity prototype).</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/Heimdall">Heimdall</a></span></p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#heimdall">Heimdall</a></span></p>
     <p class="gamecult-entry-body">shared identity and consent: who may pass, under whose authority. Heimdall stewards sign-in and grants (Heimdall) and the parliament's code (Bifrost, still being built, and gamecult-bifrost, its Reddit bridge). Consent for each estate is still being built.</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Nibu</a></span></p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#nibu">Nibu</a></span></p>
     <p class="gamecult-entry-body">stewards our games and the physics under them: Aetheria, Bad Day Simulator, Asura, Lodur, Vili and Ymir</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Weksa</a></span></p>
-    <p class="gamecult-entry-body">Worldbuilding, story and language. Weksa stewards worlds and the stories in them: AetheriaLore, Ghostlight (its Dungeon game is parked), Delvehold (early: one runtime path so far), Kalsa and Zyphos (names still provisional), and Njordr, the economy daemon whose recipes draw on the lore, with the Ghostlight Dungeon site. Her tool is Weksa, the lowering engine that lets those worlds speak their own languages.</p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#weksa">Weksa</a></span></p>
+    <p class="gamecult-entry-body">Worldbuilding, story and language. Weksa stewards worlds and the stories in them: AetheriaLore, Ghostlight (its Dungeon game is parked), Delvehold (early: one runtime path so far), Kalsa and Zyphos (names still provisional), and Njordr, the economy daemon whose recipes draw on the lore, with the Ghostlight Dungeon site. Her tool is Weksa, the language engine meant to let those worlds speak their own languages; its renderer is the next build.</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Aqua</a></span></p>
-    <p class="gamecult-entry-body">Sound, voice and presentation: how things feel. Aqua stewards AquaSynth, Fensalir (the engine), Aquarium and Perlines.</p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#aqua">Aqua</a></span></p>
+    <p class="gamecult-entry-body">Sound, voice and presentation: how things feel. Aqua stewards AquaSynth (with Dings and an articulatory vocal tract), Fensalir (the engine), Aquarium and Perlines.</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/">Kiko</a></span></p>
-    <p class="gamecult-entry-body">interactive streams. Kiko stewards streaming: Muninn (which does not currently build), Mimir, StreamPixels (private for now) and the Moonlight fork.</p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#kiko">Kiko</a></span></p>
+    <p class="gamecult-entry-body">transport, streams and art pipelines. Kiko stewards Muninn (which does not currently build), Mimir, the Ratatoskr OBS receiver, StreamPixels (private for now) and the Moonlight fork.</p>
   </li>
 </ul>
 
@@ -108,7 +111,7 @@ Three of the estates have a way in. Each door says what is live today and marks 
     <ul class="gamecult-entries">
       <li class="gamecult-entry">
         <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://github.com/GameCult/Aetheria/releases/tag/v0.2.0">Aetheria 0.2.0</a></span><span class="gamecult-entry-status">Live</span></p>
-        <p class="gamecult-entry-body">A demo, our first test build since 2020, for Windows and Linux. It is a work in progress with rough edges. <a href="https://aetheria.gamecult.org">The Aetheria site</a> has the rest of the story.</p>
+        <p class="gamecult-entry-body">Our first test build since 2020, for Windows and Linux, with rough edges. The Aetheria: Terminus demo replaces it this month. <a href="https://aetheria.gamecult.org">The Aetheria site</a> has the rest of the story.</p>
       </li>
       <li class="gamecult-entry">
         <p class="gamecult-entry-head"><span class="gamecult-entry-name">Cultcoin</span><span class="gamecult-entry-status">Coming</span></p>
@@ -160,16 +163,16 @@ Three of the estates have a way in. Each door says what is live today and marks 
     <p class="gamecult-entry-body gamecult-entry-lead">cross-runtime compatibility is proven only for the lanes it names</p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://aetheria.gamecult.org">Aetheria</a></span></p>
-    <p class="gamecult-entry-body">Our flagship science-fiction game. It went quiet after a 2021 pitch push and stayed quiet until 2026; the site is up and the work is being rebuilt, starting with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>, a door into the game and not the whole game. <a href="/Blog/why-aetheria-went-quiet">Why it went quiet</a></p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="https://aetheria.gamecult.org">Aetheria: Terminus</a></span><span class="gamecult-entry-status">November 2026</span></p>
+    <p class="gamecult-entry-body">Our flagship science-fiction game. The Terminus demo launches this month; test build <a href="https://github.com/GameCult/Aetheria/releases/tag/v0.2.0">0.2.0</a> is playable now. <a href="/Blog/why-aetheria-went-quiet">Why it went quiet from 2021 to 2026</a></p>
   </li>
   <li class="gamecult-entry">
-    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#delvehold">Delvehold</a>, <a href="/Projects/Ghostlight">Ghostlight</a></span></p>
-    <p class="gamecult-entry-body">Their project Personas are still forming</p>
+    <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/#weksa">Delvehold</a>, <a href="/Projects/Ghostlight">Ghostlight</a></span></p>
+    <p class="gamecult-entry-body">Weksa stewards both. Ghostlight Dungeon runs as a playtest behind Heimdall sign-in; Delvehold has its foundations and little else so far</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Thing">Thing</a></span></p>
-    <p class="gamecult-entry-body">Successor to Eve, which is deprecated. Its status is not yet documented on this site</p>
+    <p class="gamecult-entry-body">Typed interfaces for humans and agents, stewarded by Libby. Thing 2.0 is under construction</p>
   </li>
   <li class="gamecult-entry">
     <p class="gamecult-entry-head"><span class="gamecult-entry-name"><a href="/Projects/VoidBot">VoidBot</a></span><span class="gamecult-entry-status">Retired 22 Oct 2026</span></p>
@@ -187,7 +190,7 @@ Three of the estates have a way in. Each door says what is live today and marks 
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Worlds &amp; games</p>
     <h3>Somewhere worth the trouble</h3>
-    <p><a href="https://aetheria.gamecult.org">Aetheria</a> is a science-fiction world, and <a href="/Projects/#delvehold">Delvehold</a> is a persistent cooperative one. The games give all this machinery something to answer to.</p>
+    <p><a href="https://aetheria.gamecult.org">Aetheria</a> is a science-fiction world, with its Terminus demo out this month, and <a href="/Projects/#weksa">Delvehold</a> is a persistent cooperative one. The games give all this machinery something to answer to.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Creative tools</p>
@@ -197,7 +200,7 @@ Three of the estates have a way in. Each door says what is live today and marks 
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">The machinery</p>
     <h3>Memory with receipts</h3>
-    <p><a href="/Projects/CultLib">CultLib</a> keeps typed state, <a href="/Projects/Epiphany">Epiphany</a> gives a project mind a model of its own body.</p>
+    <p><a href="/Projects/#libby">CultLib</a> keeps typed state and moves it between machines. <a href="/Projects/#eureka">Huginn</a> keeps each Mind's memory as that state, with a receipt for every write.</p>
   </article>
 </div>
 
@@ -206,8 +209,8 @@ Three of the estates have a way in. Each door says what is live today and marks 
 <div class="gamecult-feature-grid">
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Aetheria &middot; Nibu</p>
-    <h3>A story that outlived its silence</h3>
-    <p>Aetheria went quiet after a 2021 pitch push and stayed quiet until 2026; <a href="/Blog/why-aetheria-went-quiet">the article says why</a>. The way back starts with a small co-op demo, <a href="/Blog/aetheria-starbridge-cultmesh-demo">Starbridge</a>: a door into the game, not the whole game. Weksa keeps Aetheria's lore. Where lore and the build disagree, Nibu hears it first.</p>
+    <h3>Terminus, this month</h3>
+    <p>The <a href="https://aetheria.gamecult.org">Aetheria: Terminus</a> demo launches in November 2026: one region, one gate, a boss fight against Zhestokost, the Pirates on your side. Nibu keeps the game and the physics under it; Weksa keeps its lore. Where lore and the build disagree, Nibu hears it first. Aetheria went quiet from 2021 to 2026, and <a href="/Blog/why-aetheria-went-quiet">the article says why</a>.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
@@ -217,7 +220,7 @@ Three of the estates have a way in. Each door says what is live today and marks 
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Weksa</p>
     <h3>A lowering engine for language</h3>
-    <p><a href="https://eureka.gamecult.org/forge/GameCult/Weksa">Weksa</a> is a lowering engine. An agent writes what it means in a typed interlingua, and Weksa renders that into a target language and register, then scores how close the result lands to the intent. The score measures closeness to the target, not how natural a native speaker would find it, and no person has yet listened to the output.</p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/Weksa">Weksa</a> is a language engine. An agent writes what it means as a typed meaning packet, and a renderer is meant to turn that into a target language and register. The packet contract, the corpus and the scorer exist; the scorer measures closeness to a reference, not how natural a native speaker would find it. The renderer is the next build.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">CultLib &middot; Libby</p>

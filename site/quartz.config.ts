@@ -81,7 +81,8 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      // MathML beside the visible KaTeX: screen readers read it, KaTeX hides it visually.
+      Plugin.Latex({ renderEngine: "katex", katexOptions: { output: "htmlAndMathml" } }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

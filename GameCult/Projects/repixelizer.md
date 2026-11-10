@@ -11,7 +11,7 @@ socialDeck: "Making fake pixel art stop lying."
 repixelizer is a solver-heavy attempt to take art that merely looks pixelated and make it behave like real pixel art. Not just smaller. Not just blurrier. Not just filtered until the crimes become harder to prosecute. The repo is a long, public knife fight with lattice inference, adjacency, edge metrics, tile graphs, relaxation, refinement, and the small matter of whether the whole approach actually deserves to exist.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/repixelizer">GitHub Repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/repixelizer">Forge repo</a>
   <a class="gamecult-repo-link" href="https://repixelizer.gamecult.org">Live Landing Page</a>
 </div>
 

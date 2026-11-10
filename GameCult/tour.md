@@ -31,7 +31,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-norn-map" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Norn</h2>
     <p>Norn makes architecture and dataflow readable as linked graphs. The job is not to beautify complexity, but to show ownership, movement, neighbors, and evidence without flattening the system into a list.</p>
-    <p><a href="https://github.com/GameCult/Norn">Norn repo</a> | <a href="https://github.com/GameCult/norn-rs">norn-rs</a></p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/Norn">Norn repo</a> | <a href="https://github.com/GameCult/norn-rs">norn-rs</a></p>
   </div>
 
   <div id="gamecult-vn-norn-architecture" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -87,7 +87,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-eve-surface-pipeline" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Thing Pipeline</h2>
     <p>Provider-owned state becomes a Thing Script semantic tree; Thing projects it into local renderers; user action becomes command intent; the provider accepts or refuses and publishes updated truth.</p>
-    <p><a href="https://github.com/GameCult/Thing">Thing repo</a></p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/Thing">Thing repo</a></p>
   </div>
 
   <div id="gamecult-vn-eve-cultui" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -145,13 +145,13 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-bifrost" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Bifrost</h2>
     <p>Bifrost turns public work into inspectable records: proposed tasks, claims, reviews, receipts, contributor history, and the reward/support pressure that must not hide in private chat.</p>
-    <p><a href="/Docs/Bifrost">Bifrost docs</a> | <a href="https://github.com/GameCult/Bifrost">GitHub repo</a></p>
+    <p><a href="/Docs/Bifrost">Bifrost docs</a> | <a href="https://eureka.gamecult.org/forge/GameCult/Bifrost">Forge repo</a></p>
   </div>
 
   <div id="gamecult-vn-voidbot" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>VoidBot</h2>
     <p>VoidBot made project memory askable from chat. It retired on 22 Oct 2026; Huginn, Idunn, Bifrost and Eureka's body took its duties, and what has not landed yet is not currently provided.</p>
-    <p><a href="/Projects/VoidBot">Project page</a> | <a href="https://github.com/GameCult/VoidBot">GitHub repo</a></p>
+    <p><a href="/Projects/VoidBot">Project page</a> | <a href="https://eureka.gamecult.org/forge/GameCult/VoidBot">Forge repo</a></p>
   </div>
 
   <div id="gamecult-vn-voidbot-retrieval" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -177,13 +177,13 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-cultlib" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>CultLib</h2>
     <p>CultLib is the shared record shelf: typed documents first, protocol names second, and no convenient blob crowned as truth just because it was nearby.</p>
-    <p><a href="/Projects/CultLib">Project page</a> | <a href="https://github.com/GameCult/CultLib">GitHub repo</a></p>
+    <p><a href="/Projects/CultLib">Project page</a> | <a href="https://eureka.gamecult.org/forge/GameCult/CultLib">Forge repo</a></p>
   </div>
 
   <div id="gamecult-vn-heimdall" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Heimdall</h2>
     <p>The identity and capability authority taking shape for GameCult apps: OAuth, linked identities, grants, consent, revocation, and signed claims.</p>
-    <p><a href="/Projects/Heimdall">Project page</a> | <a href="https://github.com/GameCult/Heimdall">GitHub repo</a></p>
+    <p><a href="/Projects/Heimdall">Project page</a> | <a href="https://eureka.gamecult.org/forge/GameCult/Heimdall">Forge repo</a></p>
   </div>
 
   <div id="gamecult-vn-proof" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -253,7 +253,7 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-weksa" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Weksa</h2>
     <p>Ontology-first language work: source text to interlingua, alien ontology, grammar, morphology, phonology, diachrony, renderer, gloss, and trace.</p>
-    <p><a href="https://github.com/GameCult/weksa">Weksa repo</a></p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/Weksa">Weksa repo</a></p>
   </div>
 
   <div id="gamecult-vn-streampixels" class="gamecult-vn-source-card" data-sai-dom-source="true">
@@ -265,19 +265,19 @@ description: "A full-screen visual novel tour through GameCult's public wiki, pr
   <div id="gamecult-vn-aquasynth" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>AquaSynth</h2>
     <p>Patch graph contracts, `.aqua` authoring, SFXR mapping, Faust generation, and the research path toward alien vocal-tract synthesis with Weksa utterance structures.</p>
-    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth repo</a></p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/AquaSynth">AquaSynth repo</a></p>
   </div>
 
   <div id="gamecult-vn-repixelizer" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>Repixelizer</h2>
     <p>Pixel-art reconstruction as diagnosis: infer the grid, expose lattice mistakes, rebuild phase fields, sample source pixels, snap alpha, and optionally quantize palette.</p>
-    <p><a href="/Projects/repixelizer">Project page</a> | <a href="https://github.com/GameCult/repixelizer">Repo</a></p>
+    <p><a href="/Projects/repixelizer">Project page</a> | <a href="https://eureka.gamecult.org/forge/GameCult/repixelizer">Repo</a></p>
   </div>
 
   <div id="gamecult-vn-vibegeometry" class="gamecult-vn-source-card" data-sai-dom-source="true">
     <h2>VibeGeometry</h2>
     <p>Runtime shape work around Rust CSG: tree intent, LOD-aware hierarchy, selected cuts, and generated geometry outputs with inspectable transformation receipts.</p>
-    <p><a href="/Projects/VibeGeometry">Project page</a> | <a href="https://github.com/GameCult/VibeGeometry">Repo</a></p>
+    <p><a href="/Projects/VibeGeometry">Project page</a> | <a href="https://eureka.gamecult.org/forge/GameCult/VibeGeometry">Repo</a></p>
   </div>
 
   <div id="gamecult-vn-visual-tools" class="gamecult-vn-source-card" data-sai-dom-source="true">

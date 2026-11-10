@@ -75,13 +75,13 @@ The important claim is not merely that several libraries exist. It is that targe
 
 **Scope:** This is wire parity. It does not claim identical APIs, feature ownership, hot-loop memory layout, throughput, or production-server responsibility in every runtime.
 
-**Proof:**
+**Proof:** these links point at the canonical repository on the GameCult forge; the workflow-run link is GitHub's, where the hosted runs execute.
 
-- [Runtime parity scope](https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md)
-- [CultNet interoperability harness](https://github.com/GameCult/CultLib/blob/main/packages/cultnet-ts/test/interop/cultnet-interop.test.ts)
-- [Hosted interoperability workflow](https://github.com/GameCult/CultLib/blob/main/.github/workflows/cultnet-interop.yml)
+- [Runtime parity scope](https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/docs/runtime-parity-scope.md)
+- [CultNet interoperability harness](https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/packages/cultnet-ts/test/interop/cultnet-interop.test.ts)
+- [Hosted interoperability workflow](https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/.github/workflows/cultnet-interop.yml)
 - [Current workflow runs](https://github.com/GameCult/CultLib/actions/workflows/cultnet-interop.yml)
-- [Transport parity map](https://github.com/GameCult/CultLib/blob/main/docs/cultnet-transport-parity.md)
+- [Transport parity map](https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/docs/cultnet-transport-parity.md)
 
 Service adoption is still uneven. Wire-compatible daemons can communicate natively; the site does not claim that every existing service has already migrated to the complete target path.
 

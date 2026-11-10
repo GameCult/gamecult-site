@@ -9,8 +9,8 @@ socialDeck: "Retired 22 Oct 2026; organs moved to Huginn, Idunn, Bifrost and Eur
 VoidBot was GameCult's first assistant runtime: a TypeScript service that answered out of indexed repos and lore, kept interaction memory, ran semantic search, and handed deeper work to heavier tooling. It started as a Discord-facing bot. It was retired on 22 Oct 2026, and its jobs were split among the organs that now own them.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/VoidBot">GitHub Repo (archived history)</a>
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/Huginn">Huginn</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/VoidBot">Forge repo (archived history)</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/Huginn">Huginn</a>
   <a class="gamecult-repo-link" href="/Projects/CultLib">CultLib</a>
 </div>
 

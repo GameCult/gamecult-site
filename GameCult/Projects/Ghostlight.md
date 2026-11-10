@@ -11,7 +11,7 @@ socialDeck: "Social AI agents with less flattery and more psychology."
 Ghostlight is the studio's social-AI experiment: agents designed to model perspective, local context, interpersonal stance, and scene logic instead of defaulting to the usual praise-addicted chatbot goo. The repo sits somewhere between runtime experiment, story-lab toolchain, and character-simulation doctrine.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/Ghostlight">GitHub Repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/Ghostlight">Forge repo</a>
   <a class="gamecult-repo-link" href="/Projects/CultLib">CultLib</a>
   <a class="gamecult-repo-link" href="/Projects/VoidBot">VoidBot</a>
 </div>

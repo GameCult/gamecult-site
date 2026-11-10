@@ -21,8 +21,8 @@ APIs, feature ownership, performance, hot-loop memory layout, or production
 server responsibility in every runtime. Service adoption remains uneven.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/CultLib">GitHub Repo</a>
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md">Runtime Parity Scope</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/CultLib">Forge repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/docs/runtime-parity-scope.md">Runtime Parity Scope</a>
   <a class="gamecult-repo-link" href="https://github.com/GameCult/CultLib/actions/workflows/cultnet-interop.yml">Interop Runs</a>
   <a class="gamecult-repo-link" href="/Docs/Architecture-and-Evidence#cultlib-the-cross-runtime-glue">Architecture and Evidence</a>
 </div>

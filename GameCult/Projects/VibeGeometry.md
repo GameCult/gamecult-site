@@ -11,7 +11,7 @@ socialDeck: "Geometry nodes, render evidence, less procedural spaghetti."
 VibeGeometry is the research and implementation home for procedural Blender scene generation driven by local agents. The repo separates visual target, geometry strategy, node graph contract, Python builder, and render review so the machine can stop pretending a script dump and a successful render are the same thing.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/VibeGeometry">GitHub Repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/VibeGeometry">Forge repo</a>
 </div>
 
 <div class="gamecult-repo-facts">

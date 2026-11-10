@@ -11,7 +11,7 @@ socialDeck: "Shared auth so every app stops relearning OAuth."
 Heimdall is the shared auth authority taking shape for GameCult-hosted experiments. It centralizes provider OAuth, linked identities, grants, entitlements, token sealing, and signed claim issuance so every new app does not have to rebuild Discord/Patreon/GitHub/Twitch login glue from scratch and then act shocked when the result grows mold.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/Heimdall">GitHub Repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/Heimdall">Forge repo</a>
   <a class="gamecult-repo-link" href="/Projects/repixelizer">repixelizer</a>
 </div>
 

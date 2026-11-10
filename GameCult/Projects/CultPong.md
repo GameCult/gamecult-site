@@ -11,7 +11,7 @@ socialDeck: "Pong, but less respectable."
 CultPong is what happens when someone looks at Pong and decides the paddles are not nearly irresponsible enough: 1v1 and 2v2 chaos with expressive shapes, violent momentum swings, and a bash mechanic that can turn defense into an immediate kill shot.
 
 <div class="gamecult-repo-links">
-  <a class="gamecult-repo-link" href="https://github.com/GameCult/CultPong">GitHub Repo</a>
+  <a class="gamecult-repo-link" href="https://eureka.gamecult.org/forge/GameCult/CultPong">Forge repo</a>
 </div>
 
 <div class="gamecult-repo-facts">

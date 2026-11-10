@@ -212,17 +212,17 @@ Three of the estates have a way in. Each door says what is live today and marks 
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">AquaSynth &middot; Aqua</p>
     <h3>Sound written as intent</h3>
-    <p><a href="https://github.com/GameCult/AquaSynth">AquaSynth</a> is our open-source sound engine. You write a patch as readable intent, and it renders through Faust. It's meant to be the audio engine under Aetheria. Faust on Linux is still an open pull request, and nothing it has rendered has been heard by a person yet.</p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/AquaSynth">AquaSynth</a> is our open-source sound engine. You write a patch as readable intent, and it renders through Faust. It's meant to be the audio engine under Aetheria. Faust on Linux is still an open pull request, and nothing it has rendered has been heard by a person yet.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Weksa</p>
     <h3>A lowering engine for language</h3>
-    <p><a href="https://github.com/GameCult/Weksa">Weksa</a> is a lowering engine. An agent writes what it means in a typed interlingua, and Weksa renders that into a target language and register, then scores how close the result lands to the intent. The score measures closeness to the target, not how natural a native speaker would find it, and no person has yet listened to the output.</p>
+    <p><a href="https://eureka.gamecult.org/forge/GameCult/Weksa">Weksa</a> is a lowering engine. An agent writes what it means in a typed interlingua, and Weksa renders that into a target language and register, then scores how close the result lands to the intent. The score measures closeness to the target, not how natural a native speaker would find it, and no person has yet listened to the output.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">CultLib &middot; Libby</p>
     <h3>Typed state, with the proof attached</h3>
-    <p><a href="/Projects/CultLib">CultLib</a> gives C#, TypeScript, Rust, Python and Kotlin one typed wire contract for state. What is proven is the set of schema lanes its <a href="https://github.com/GameCult/CultLib/blob/main/docs/runtime-parity-scope.md">parity scope</a> names, and nothing wider.</p>
+    <p><a href="/Projects/CultLib">CultLib</a> gives C#, TypeScript, Rust, Python and Kotlin one typed wire contract for state. What is proven is the set of schema lanes its <a href="https://eureka.gamecult.org/forge/GameCult/CultLib/src/branch/main/docs/runtime-parity-scope.md">parity scope</a> names, and nothing wider.</p>
   </article>
   <article class="gamecult-feature-card">
     <p class="gamecult-kicker">Streams &middot; Kiko</p>

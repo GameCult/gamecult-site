@@ -851,8 +851,10 @@ article > h6 {
   margin-top: 0;
 }
 
-/* Tables, media, code, math and the page's own blocks run the column's width; running prose keeps a readable line. */
-article > :is(p, ul, ol, blockquote, dl, .integrated-dossier-note, .integrated-dossier-lead) {
+/* Running prose keeps a readable line wherever it sits: tables, media, code, math and the page's own blocks take the
+   column's width, but the paragraphs, captions and definitions inside them do not. */
+article :is(p, figcaption, dd, .integrated-dossier-note, .integrated-dossier-lead),
+article > :is(ul, ol, blockquote, dl):not(.gamecult-entries) {
   max-width: var(--gamecult-measure);
 }
 

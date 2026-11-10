@@ -355,7 +355,6 @@ body[data-slug="Blog/witness-authoritative-networking"] {
   .katex-display {
     margin: 1.15rem 0;
     padding: 0.8rem 1rem;
-    overflow-x: auto;
     border: 1px solid rgba(96, 119, 255, 0.38);
     border-radius: 6px;
     background:
@@ -850,9 +849,9 @@ article > h6 {
 }
 
 /* KaTeX does not break inside a formula, so math wider than the column scrolls
-   in its own paragraph or display block instead of widening the page; math that
-   fits shows no scrollbar. */
-article p:has(.katex),
+   in its own block (paragraph, list item, heading, table cell, display block)
+   instead of widening the page; math that fits shows no scrollbar. */
+article :is(p, li, h1, h2, h3, h4, h5, h6, th, td):has(.katex),
 article .katex-display {
   overflow-x: auto;
   overflow-y: hidden;

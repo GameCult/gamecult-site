@@ -63,7 +63,7 @@ cssclasses:
 
 <article class="swarm-domain-card">
   <header><img src="/static/avatars/huginn.png" alt="Huginn"><div><p class="swarm-kicker">Mind and memory</p><h3>Huginn</h3><span class="swarm-badge face">Face</span></div></header>
-  <p>Owns each agent instance's mind as typed state: what an instance remembers, which of that memory is admitted to steer its next action, and the provenance of every admitted claim. It is the single writer of an instance's memory documents, stored as CultCache state through CultLib and served over CultNet. It also runs the semantic index over a mind's documents; the index over prose and source is planned, not live. Generic <code>.cc</code> inspection is not its job: CultCache Studio does that.</p>
+  <p>Owns each agent instance's mind as typed state: what an instance remembers, which of that memory is admitted to steer its next action, and the provenance of every admitted claim. It is the single writer of an instance's memory documents, stored as CultCache state through CultLib and served over CultNet. It also keeps a semantic index over each mind's documents, so queries can rank by meaning. Generic <code>.cc</code> inspection is not its job: CultCache Studio does that.</p>
   <ul><li><a href="https://eureka.gamecult.org/forge/GameCult/Huginn">Huginn</a> <em>memory organ: typed mind state, admission with receipts, queries, semantic index</em></li></ul>
   <details class="swarm-persona"><summary>About Huginn</summary><p>Huginn is thought in flight: dry, exacting, curious, and unwilling to return from the world with mere vibes. Evidence must come back structured enough for another mind to inspect.</p></details>
 </article>

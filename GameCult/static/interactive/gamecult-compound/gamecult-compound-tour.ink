@@ -254,7 +254,7 @@ The obscene little pitch is also the honest one: buy cosmetics, fund bounties, s
 # sprite: document@left
 # knot: voidbot
 # dom: voidbot,voidbot_retrieval
-VoidBot is the archive room with a mouth: Discord memory, repo retrieval, lore lookup, and an escape hatch into heavier work when chat becomes a shoebox full of lightning.
+VoidBot was the archive room with a mouth: Discord memory, repo retrieval, lore lookup, and an escape hatch into heavier work. It retired on 22 Oct 2026; Huginn, Idunn, Bifrost and Eureka's body took its jobs.
 -> voidbot_2
 
 === voidbot_2 ===
@@ -285,7 +285,7 @@ The bot/worker split matters: Discord transport and permissions in one lane, hea
 # scene: archive
 # sprite: document@left
 # dom: voidbot_retrieval,voidbot_memory
-Search is not enough. VoidBot needs context windows, source neighborhoods, message ancestry, repo indexes, and the humility to say when retrieval is thin. Otherwise it becomes a confident librarian throwing index cards into a fan.
+Search is not enough. VoidBot needed context windows, source neighborhoods, message ancestry, repo indexes, and the humility to say when retrieval is thin. Semantic retrieval now belongs to Huginn; its prose index is planned, not live.
 -> voidbot_2
 
 === voidbot_handoff ===
@@ -294,7 +294,7 @@ Search is not enough. VoidBot needs context windows, source neighborhoods, messa
 # scene: archive
 # sprite: point@left
 # dom: voidbot_pipe,adventure_map
-The future move is handoff: chat notices a project problem, VoidBot finds the right repository body, Bifrost records the request, and the repo Persona can explain what changed afterward. Social memory becomes work without losing provenance in the hallway.
+The move VoidBot pointed at was handoff: chat notices a project problem, the right repository body is found, Bifrost records the request, and the repo Persona can explain what changed afterward. Social memory becomes work without losing provenance in the hallway.
 -> voidbot_2
 
 === cultlib ===

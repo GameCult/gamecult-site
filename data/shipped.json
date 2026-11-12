@@ -1,0 +1,4555 @@
+{
+ "generated": "2026-11-12T23:52:37.783Z",
+ "entries": [
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine from root memory sorting",
+   "date": "2026-11-12T10:03:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/68"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet --theme option and a calligraphic theme",
+   "date": "2026-11-11T18:56:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/66"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "ygg-verify.sh: local mode for the Yggdrasil seat, executable modes",
+   "date": "2026-11-11T16:30:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/65"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "INDEX: Libbys native cargo-mutants corrections",
+   "date": "2026-11-11T08:03:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/64"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "INDEX: running the mutation tools from a Self seat",
+   "date": "2026-11-11T07:47:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/63"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "campaign-state: honest follow-up outcomes; campaigns resolve Moved",
+   "date": "2026-11-09T09:27:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Every mutant runs under its own memory and time cap",
+   "date": "2026-11-08T09:24:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Eureka in ten minutes: outsider-runnable falsification demo",
+   "date": "2026-11-08T05:49:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill tools off MCP: the huginn CLI is the only way in",
+   "date": "2026-11-07T13:55:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "tools: dotnet-self-env.sh for Selves with a read-only HOME",
+   "date": "2026-11-07T11:37:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Persona charter: authority follows stewardship between peers",
+   "date": "2026-11-07T08:48:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Three tiers: measure a task by what it brings back",
+   "date": "2026-11-07T08:32:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Delegation is a choice: tiers act directly when their context suffices",
+   "date": "2026-11-07T08:30:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Dispatch recall: the nearest rulings to a brief's citations reach the subagent",
+   "date": "2026-11-07T07:21:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Persona charter: the operator's own life in chat is not a leak",
+   "date": "2026-11-06T20:42:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Changelog: prompt recall hook stays uninstalled",
+   "date": "2026-11-06T20:21:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Later cuts are follow-ups, not prose lines",
+   "date": "2026-11-06T19:47:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Three tiers of context",
+   "date": "2026-11-06T19:35:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "testparse: read dotnet 10's \"Total tests:\" summary block",
+   "date": "2026-11-10T17:13:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet: large fills as wash and outline",
+   "date": "2026-11-05T14:53:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet: visitors drawn with the plant's pen",
+   "date": "2026-11-05T14:36:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "bloom-sheet CLI: markdown to a neon one-page sheet",
+   "date": "2026-11-05T12:55:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Eyes and Imagination keep their findings as typed notes; the facts file and committed research file die",
+   "date": "2026-11-05T10:31:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona doctrine: the machine is more than code",
+   "date": "2026-11-04T08:36:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Verify containers share cargo's package-cache lock: mount the shared volume as CARGO_HOME",
+   "date": "2026-11-03T01:37:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Inversion of control wording: stewards decide, originator vision is evidence",
+   "date": "2026-11-02T20:10:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona.md: Your turn section",
+   "date": "2026-11-02T09:42:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "fast-mutants: cargo-mutants per file with scoped tests, survivors confirmed on the full suite, sharded across slots",
+   "date": "2026-11-01T20:11:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "context-pack docs: Soul s1 Lows",
+   "date": "2026-11-01T03:08:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "context-pack: resolve reads, check symbols, capped caller lists (cut-context-pack-reads r3)",
+   "date": "2026-11-01T03:07:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "campaign-state: the repo set in force and how Self changes it (cut-skill-campaign-repos r2)",
+   "date": "2026-11-01T01:01:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: Persona pointers, Soul s2 Lows",
+   "date": "2026-11-01T00:52:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: Persona state pointers name Huginn as the holder",
+   "date": "2026-11-01T00:44:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona: each room purpose; #operator only for what needs the operator",
+   "date": "2026-10-31T11:33:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "persona: register rule (Persona voice everywhere but #minds)",
+   "date": "2026-10-31T04:59:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "skill: use the huginn CLI instead of the eureka-state MCP",
+   "date": "2026-10-31T04:01:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "doctrine: GameCult workspace doctrine moves into the skill as doctrine/gamecult.md",
+   "date": "2026-10-31T00:21:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: re-entry triages reports with no verdict; second beating triggers the structural move; pushed heads build",
+   "date": "2026-10-27T16:02:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Recall at admission: recall.py admit holds a ruling/question batch once with its in-force neighbours",
+   "date": "2026-10-23T18:48:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Research: recall triggers prior art",
+   "date": "2026-10-23T18:48:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Worktree cleanup is scoped to this session's own agents",
+   "date": "2026-10-23T10:36:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Worktrees die with their cut",
+   "date": "2026-10-23T10:22:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Recall hook: the mind recalls into context on every prompt",
+   "date": "2026-10-22T17:49:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: one feature across two areas",
+   "date": "2026-11-05T10:57:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine and briefs: nothing that exists is sacred, the operator's words included",
+   "date": "2026-10-14T00:36:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: a worktree's branch is the spec's branch",
+   "date": "2026-10-14T00:36:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: a merge pass never rebases on a rejected push",
+   "date": "2026-11-05T10:57:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: no test run of any size on Starfire",
+   "date": "2026-10-12T01:59:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: map only what is about to run",
+   "date": "2026-10-12T01:38:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "References: dated tool-calling map; two admission notes",
+   "date": "2026-10-12T01:29:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: Self rotates at about 400k",
+   "date": "2026-10-12T01:14:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: every campaign in force has an area",
+   "date": "2026-10-11T06:58:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: Stryker offsets come from the job checkout",
+   "date": "2026-10-11T06:58:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: research is always kept",
+   "date": "2026-10-09T20:41:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Skill: name Self handoffs per area",
+   "date": "2026-10-09T20:42:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: Aetheria verify pins are git clones",
+   "date": "2026-10-09T13:36:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: a scratch subdirectory is named per dispatch",
+   "date": "2026-10-09T13:11:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Briefs: the context pack is how Hands reads a cut",
+   "date": "2026-10-09T12:19:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "tools/context-pack.py: carry cut_spec anchors to the worktree",
+   "date": "2026-10-09T12:06:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Tool-call relief: wait-on.sh, python, brief lessons, Life reads the mind",
+   "date": "2026-10-08T13:25:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Self loads Eureka; Hands, Eyes and Life default to Sonnet; handoffs are pointers",
+   "date": "2026-10-03T20:15:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Hands template: no resolutions; fix batches name their commits",
+   "date": "2026-10-03T20:15:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine explains instead of shouting",
+   "date": "2026-10-03T10:04:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Doctrine moves into the Eureka repo",
+   "date": "2026-10-02T21:50:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Faculty charters, step 5: dispatch by subagent_type; briefs stop restating charters",
+   "date": "2026-10-01T16:41:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Eureka",
+   "title": "Tool-calling cut §5: summary/wait verify, snapshot mutation runner",
+   "date": "2026-10-01T16:39:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Eureka/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Lodur",
+   "title": "First slice: PD-muscle humanoid ragdoll on Ymir's SoA world",
+   "date": "2026-11-10T17:16:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Lodur/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Lodur",
+   "title": "docs: MotionBricks fit survey (verdict: optional tier)",
+   "date": "2026-11-10T17:17:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Lodur/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "BadDaySimulator",
+   "title": "docs: scenario design, Fella's bad day at the office",
+   "date": "2026-11-10T17:17:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/BadDaySimulator/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "BadDaySimulator",
+   "title": "Pain box first slice: deterministic virtual human, will-break timeline",
+   "date": "2026-11-10T17:01:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/BadDaySimulator/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "ModelConnector",
+   "title": "claude-connector ask: no-tools completion CLI",
+   "date": "2026-11-11T08:15:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/ModelConnector/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "ModelConnector",
+   "title": "Lease socket answers a usage readout",
+   "date": "2026-11-06T22:55:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/ModelConnector/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Perlines",
+   "title": "Perlines v2: browser audio visualizer (WebAudio + WebGL2)",
+   "date": "2026-11-10T17:08:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Perlines/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "GhostlightDungeon-site",
+   "title": "CI: run the Pages deploy on GitHub only",
+   "date": "2026-11-10T17:00:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GhostlightDungeon-site/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Asura",
+   "title": "gpu-parity: FXC/D3D11 check of cultmath snoise and snoise_grad",
+   "date": "2026-11-11T12:10:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Asura/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ymir",
+   "title": "SoA world: joints, force/torque lanes, capsules and boxes",
+   "date": "2026-11-10T17:14:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ymir/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ymir",
+   "title": "Headless 3D SoA world over Box3D, state read in place",
+   "date": "2026-11-10T17:13:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ymir/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Delvehold",
+   "title": "CI: run the Pages deploy on GitHub only",
+   "date": "2026-11-10T17:00:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Delvehold/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "eureka-site",
+   "title": "Proposal: link 'Eureka in ten minutes' from the install panel",
+   "date": "2026-11-08T05:49:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/eureka-site/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Kalsa",
+   "title": "CI: run the Pages deploy on GitHub only",
+   "date": "2026-11-10T17:00:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Kalsa/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "node-actions.md: point to the parked design tag",
+   "date": "2026-11-10T23:15:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on tests: the token-guard test no longer pins the store's spelling of an empty put",
+   "date": "2026-11-10T17:42:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: createObject and renderStill refuse what they cannot do",
+   "date": "2026-11-10T23:14:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: exportGltf action",
+   "date": "2026-11-10T18:01:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender assignMaterial: colour, idempotent slot, malformed colour refused",
+   "date": "2026-11-10T18:00:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: geometry node graph actions, modifier inputs, evaluated snapshot",
+   "date": "2026-11-10T17:54:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: pass CultMeshGrantAllWrites() to its served node",
+   "date": "2026-11-07T19:19:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: importGltf, setCamera, setLight, setWorld, renderStill",
+   "date": "2026-11-07T15:13:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Brokkr",
+   "title": "Blender add-on: server hardening (opt-in session token, intent purge, bind guard)",
+   "date": "2026-11-07T12:52:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Brokkr/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Idunn",
+   "title": "docs: drop references to deleted legacy Windows Idunn scripts",
+   "date": "2026-11-11T08:57:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Idunn/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Odin",
+   "title": "docs: note legacy Idunn scripts deleted from gamecult-ops in inventory path note",
+   "date": "2026-11-11T08:57:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Odin/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Odin",
+   "title": "Bump CultLib pins to 7665df33 (write receipts)",
+   "date": "2026-11-10T17:13:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Odin/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Zyphos",
+   "title": "CI: run the Pages deploy on GitHub only",
+   "date": "2026-11-10T17:00:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Zyphos/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Zyphos",
+   "title": "Respell Sa'auei'a as Sa'ueia (spelling only)",
+   "date": "2026-11-04T12:56:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Zyphos/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Thing",
+   "title": "CI: concurrency group, no cancel on dispatch",
+   "date": "2026-11-10T17:40:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Thing/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Thing",
+   "title": "CI: Windows leg workflow_dispatch only, PowerShell on Linux",
+   "date": "2026-11-09T23:24:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Thing/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Thing",
+   "title": "Thing 2.0 build spec (Meta t12-m0)",
+   "date": "2026-11-11T00:20:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Thing/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "GameCult-Quartz",
+   "title": "Guard Pages workflow on github.server_url",
+   "date": "2026-11-12T09:43:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GameCult-Quartz/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "GameCult-Quartz",
+   "title": "Latex: let the site choose KaTeX's output mode",
+   "date": "2026-11-10T06:19:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GameCult-Quartz/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "GameCult-Quartz",
+   "title": "CI: run on the docker runner label",
+   "date": "2026-11-09T13:38:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GameCult-Quartz/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "GameCult-Quartz",
+   "title": "fix: cast satori input to fix TS2345 in ogImage",
+   "date": "2026-11-09T10:24:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GameCult-Quartz/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "GameCult-Quartz",
+   "title": "ci: drop windows-latest from the engine CI matrix",
+   "date": "2026-11-07T12:55:01Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/GameCult-Quartz/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-listen: export panel with copy, textarea, share (Android Chrome fix)",
+   "date": "2026-11-12T23:44:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Sample rate passthrough, Soul's Lows from #18/#19, #47 doc and burst-window pin",
+   "date": "2026-11-12T18:42:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Tract weak spots re-measured (unheard): burst gain no longer leaks past its plosive; 14-clip listening kit",
+   "date": "2026-11-12T16:49:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Dings migration step 5a: neutral fallback id tied to the catalog; steps 2, 3, 5b recorded STOPPED",
+   "date": "2026-11-12T11:02:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Dings: one play validation gate, Host enforces; bridge check deprecated (step 4)",
+   "date": "2026-11-12T10:57:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-trial: isolate the noise-slider kill; LF-normalised DSP hash",
+   "date": "2026-11-12T10:48:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "docs: cause of the dx7-algorithm-32 -79.5 dB native-vs-wasm diff",
+   "date": "2026-11-12T10:38:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Dings: DingCatalog.Identity owns patch identity derivation (step 1) + migration plan",
+   "date": "2026-11-12T10:41:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-trial / native-diff: DSP hash in exports, noise% fix, knob + limit tests",
+   "date": "2026-11-12T10:25:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "docs: Dings patch identity authority map",
+   "date": "2026-11-12T09:55:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Docs: soundscape grammar follows creature-projection-v2 (lands 72 lines main lacks)",
+   "date": "2026-11-12T09:49:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "PackageBoundaryTests: fix pack hang; trigger+repeat composition tests",
+   "date": "2026-11-11T12:07:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Lowering: patch repeat restarts pitch and arpeggio, not the envelope; README store-kind rollback note",
+   "date": "2026-11-11T09:27:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "sfxr explosion + abstract golf: patch repeat no longer cuts the envelope; waivers removed",
+   "date": "2026-11-11T07:30:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Pin CultLib abd1a92e; [CultRole] audit; ElementId on every list element type",
+   "date": "2026-11-11T08:31:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel sync: --shape ramp for slow-swell visuals (measures, never gives a verdict)",
+   "date": "2026-11-11T06:24:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel sync: read a browser capture's frame rate and stalls from its frame times",
+   "date": "2026-11-11T02:59:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel sync: audio-visual onset lag vs perceptual windows",
+   "date": "2026-11-10T23:42:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Pages: no horizontal overflow at 360px; trial hint names the play-both rule",
+   "date": "2026-11-10T22:12:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "gen_page: fix TypeError left by #29 (neutral rows)",
+   "date": "2026-11-10T18:37:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "dings-voices: equalise the neutral fallbacks in the generator (sound-guard 0 failing, 0 known)",
+   "date": "2026-11-10T18:37:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "sound-guard: aqua-ear checks over every shipped Dings and Earcon clip",
+   "date": "2026-11-10T18:33:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "publish-stable: atomic swap, no 404 window, stale staging cleaned",
+   "date": "2026-11-10T18:21:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "publish-stable: one URL for the Dings page and aqua-ear examples",
+   "date": "2026-11-10T18:15:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Daemon: POSIX artifact URIs; tests find session files through StoreFileName",
+   "date": "2026-11-10T18:12:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-ear: audio perception tool (spectrogram, onsets, detectors, compare)",
+   "date": "2026-11-10T17:36:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/24"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "dings-voices v4: Void single onset, Nibu proposal 3 everywhere (unheard)",
+   "date": "2026-11-10T17:54:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "dings-voices: generator for eight Ratatoskr sender voices (unheard)",
+   "date": "2026-11-10T17:08:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-trial: add the v5 thruster mix as a variant (unheard, browser-unrun)",
+   "date": "2026-11-10T14:03:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel: diff faustwasm against the native libfaust path (unheard)",
+   "date": "2026-11-10T14:01:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Articulatory tract: Story vowels, nasal branch, stress cue, plosive burst, independent Burg check (unheard)",
+   "date": "2026-11-10T18:13:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Vowel gestures calibrated by measurement; exporter sample rate from callers",
+   "date": "2026-11-10T18:13:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Speech: n descriptor, word script, WordRender; first /ˈnibu/ render (a hum, unheard)",
+   "date": "2026-11-10T18:12:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-listen: listening-test kit (one self-contained page, verdict export)",
+   "date": "2026-11-10T17:08:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "StoreFileName tests: device lookalikes and IPA pair distinctness",
+   "date": "2026-11-07T11:52:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "IpaGestureExperiment onto StoreFileName (stacked on #11)",
+   "date": "2026-11-07T10:39:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Spike: AOT-compile thruster v5 to a native lib with bounded rpm (Linux; Windows/Unity unverified)",
+   "date": "2026-11-07T06:33:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Scoping: Faust DSP (thruster v5) in a Unity player on Windows and Linux",
+   "date": "2026-11-07T02:24:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "One StoreFileName in Core: no id collisions, no '..' escape",
+   "date": "2026-11-07T10:39:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel: effects shelf for overlay packaging (unheard)",
+   "date": "2026-11-10T17:08:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Earcon Workshop: static earcon family generator with WAV/JSON export (unheard)",
+   "date": "2026-11-06T05:36:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "aqua-feel: headless feel meter + gate; fix PRC SYNTH1 clipping and thruster low-rpm hiss",
+   "date": "2026-11-05T15:44:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Listening trial: blinded A/B thruster noise sweep (static page)",
+   "date": "2026-11-05T11:54:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Static in-browser playground (faustwasm) for AquaSynth patches",
+   "date": "2026-11-05T11:54:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust on Linux: FaustRender probe, toolchain notes, thruster v5 manifest",
+   "date": "2026-11-05T11:54:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Docs: soundscape grammar for the Ratatoskr generative symphony (draft)",
+   "date": "2026-11-05T11:54:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Add thruster Faust patch with an rpm control",
+   "date": "2026-11-05T11:54:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust SetControls: remove per-call allocation",
+   "date": "2026-11-05T11:54:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "AquaSynth",
+   "title": "Faust loader: platform-aware library lookup and AQUASYNTH_FAUST_LIBRARY override",
+   "date": "2026-10-31T09:41:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Fensalir",
+   "title": "ClientRuntimeLoader: client assemblies must resolve under a trusted root",
+   "date": "2026-11-07T11:50:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Fensalir/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "CI: run the Pages deploy on GitHub only",
+   "date": "2026-11-09T22:52:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Canon/proposal file-kind marker, checked on PR (design first)",
+   "date": "2026-11-09T11:55:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Revert PR #1: table wikilink pipes",
+   "date": "2026-11-06T05:34:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Faction Play: apply Nibu's rulings on proposals 1, 2, 4, 5",
+   "date": "2026-11-06T03:32:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "AetheriaLore",
+   "title": "Fix backslash-escaped pipes in table wikilinks",
+   "date": "2026-11-06T05:32:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/AetheriaLore/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "moonlight-ios",
+   "title": "docs: remote access is Starfire over Headscale (corrects PR #2)",
+   "date": "2026-11-09T11:40:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "moonlight-ios",
+   "title": "docs: remote access to a Sunshine host over Tailscale or Headscale (untested)",
+   "date": "2026-11-05T10:51:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "moonlight-ios",
+   "title": "README: publish health stays independent of every other feature",
+   "date": "2026-11-05T10:51:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/moonlight-ios/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Layout: the column fills the screen; prose keeps a measure",
+   "date": "2026-11-10T07:31:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Site: forge links in the front page and the dossier",
+   "date": "2026-11-10T06:39:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Site: forge is the canonical repo home; Huginn owns the mind",
+   "date": "2026-11-10T06:37:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Math scroll guard: one rule for every block that holds math",
+   "date": "2026-11-10T06:32:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Math: emit MathML beside the KaTeX so screen readers can read it",
+   "date": "2026-11-10T06:19:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Tokenise the three literal grouping hairlines; one-rule-token probe",
+   "date": "2026-11-09T16:01:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "ci: build-only check on pull requests",
+   "date": "2026-11-09T10:24:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Site copy: VoidBot retired and Eve deprecated, in the past tense (do not merge, no deploy)",
+   "date": "2026-11-09T10:24:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: three estate doors with a mode switch (draft, do not merge)",
+   "date": "2026-11-04T15:06:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Kiko line says Muninn does not currently build",
+   "date": "2026-11-04T02:12:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Libby and Weksa roster wording",
+   "date": "2026-11-03T23:05:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: owners' roster wording (Kiko, Libby, Aqua, Eureka, Heimdall, Weksa)",
+   "date": "2026-11-03T22:09:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Nibu roster line and Aetheria card",
+   "date": "2026-11-03T21:13:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: \"Who has a say\" replaces the estates heading",
+   "date": "2026-11-03T21:09:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: stacked entries replace the Minds and what-is-live tables",
+   "date": "2026-11-03T19:41:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing: Minds' project paragraphs, estates, Aetheria reconciled",
+   "date": "2026-11-03T18:14:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing copy: fix Aetheria claim, audit and soften unsourced claims",
+   "date": "2026-11-03T16:07:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Landing page revamp: value, residents, live vs planned, four estates",
+   "date": "2026-11-03T14:42:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "VoidBot project page: record retirement",
+   "date": "2026-10-31T09:09:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "gamecult-site",
+   "title": "Research: stale claims on the VoidBot project page",
+   "date": "2026-11-03T13:39:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/gamecult-site/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Mining cut 4: rocks take blasts and shots through the one fire path",
+   "date": "2026-11-12T22:42:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Credits header scan: catch (c)/lowercase/colon forms, second holders, credit-only lines",
+   "date": "2026-11-12T16:57:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Credits screen: one attribution list, reachable from the main menu",
+   "date": "2026-11-12T16:27:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "element-ids doc: retired slots held placeholders, why nakovalnya shrank",
+   "date": "2026-11-11T13:44:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Scenarios batch-4 minors: gun moves within its own hardpoint; station reactors regain quality spread",
+   "date": "2026-11-11T13:10:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Shaders use cultmath_snoise from CultMath.hlsl",
+   "date": "2026-11-11T12:10:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Pin CultLib abd1a92e: element ids on every list element type",
+   "date": "2026-11-11T13:44:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Opens of suite-honest: honest station descriptions, Arcs bay, measured crates, drag test at play ThrustScale, HUD readout decision in Shared, gated Console capture",
+   "date": "2026-11-11T07:16:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Make the suite honest: digest repin, Crossing/MiningCut3 causes, authored cargo for Arcs and Pursuit, ConstantWeapon HUD, station descriptions",
+   "date": "2026-11-11T05:55:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Authored ships carry crates; ballistic guns and mines draw rounds; the munitions chain is sourced",
+   "date": "2026-11-11T04:26:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Launchers draw real missile rounds; reloads cost a crate",
+   "date": "2026-11-11T03:12:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "docs: record the Continue hull-layout gate in the release map",
+   "date": "2026-11-10T22:12:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Continue refuses a run whose equipment no longer fits its hull's edited layout",
+   "date": "2026-11-10T22:11:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "docs: ship concept batch brief",
+   "date": "2026-11-10T20:54:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Retire the Wwise catalog fields (SoundBank, AudioStats, faction music)",
+   "date": "2026-11-10T17:50:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "ship-authoring stats --top-speed adds the VelocityLimit a bare hull lacks",
+   "date": "2026-11-10T17:39:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Save standings by faction, not by list position",
+   "date": "2026-11-10T17:45:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Aetheria",
+   "title": "Moddable ships: starter command, top-speed fix, Wren stand-in package, thrust-scale test pins",
+   "date": "2026-11-10T18:02:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Python: store replace on Windows tries POSIX-semantics rename first (store-windows-py)",
+   "date": "2026-11-12T22:40:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/149"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts: a pushAll through a dangling link is refused like push, not replaced",
+   "date": "2026-11-12T21:46:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/147"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts 0.4.0 release notes, range check in the npm publish gate, fixture closes build-path gaps",
+   "date": "2026-11-12T21:21:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/146"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-py: pin the variant row of extra-slot-store.cc as a refused store",
+   "date": "2026-11-12T20:43:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/145"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Range check: build each package's own tagged version too; cultnet-ts 0.4.0",
+   "date": "2026-11-12T20:22:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/144"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py: pin the message_invalid answer on a tailed put under an unknown schema id",
+   "date": "2026-11-12T19:42:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/143"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Bytes-after residual lows: depth pin, interop tags, py shard-log tail, Rust load pins",
+   "date": "2026-11-12T18:56:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/142"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "C#: pin the one-value refusal on codec and Mesh single-file reads",
+   "date": "2026-11-12T18:47:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/141"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Lower System.Text.Json floor to 8.0.5",
+   "date": "2026-11-12T12:17:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/140"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultCache interop: C# union and nested-bytes store read by Rust read-only, and back",
+   "date": "2026-11-12T12:16:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/139"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Docs: single-file lock contract, leftover temp file and pair-backup procedures",
+   "date": "2026-11-12T18:47:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/138"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust mesh: pin that a snapshot spanning backing stores is refused whole",
+   "date": "2026-11-12T10:31:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/137"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TypeScript: pushAll writes onto the store instead of replacing it (ts-flush-replaces-store)",
+   "date": "2026-11-12T09:47:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/136"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust: batch writes merge onto the store (rs-batch-merges-onto-store)",
+   "date": "2026-11-12T08:45:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/135"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust mesh: a raw snapshot pull is one cache commit (mesh-snapshot-atomic)",
+   "date": "2026-11-12T09:47:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/134"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust: a cache must pull its stores before it writes (cache-must-pull-before-write)",
+   "date": "2026-11-12T08:01:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/133"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust: a payload is one MessagePack value (bytes-after-rs)",
+   "date": "2026-11-12T05:43:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/131"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TypeScript: a payload is one MessagePack value (bytes-after-ts)",
+   "date": "2026-11-12T06:02:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/130"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Python: a payload is one MessagePack value (bytes-after-py)",
+   "date": "2026-11-12T05:23:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/129"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TypeScript: a record with unread slots is held read-only (slot-readonly-ts)",
+   "date": "2026-11-12T05:03:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/128"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust: a record with unread slots is held read-only (slot-readonly-rs)",
+   "date": "2026-11-12T04:44:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/127"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Python: a record with unread slots is held read-only (slot-readonly-py)",
+   "date": "2026-11-12T04:24:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/126"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Bytes after the value: a payload is one MessagePack value (C#)",
+   "date": "2026-11-12T04:01:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/125"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Slot tolerance: a record with unread slots is held read-only, not shed",
+   "date": "2026-11-12T02:45:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/124"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust cache: one record per key, foreign carry, key-identity vector walked",
+   "date": "2026-11-12T01:05:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/123"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Python cache: one record per key, foreign carry, key-identity vector walked",
+   "date": "2026-11-12T00:45:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/122"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TypeScript cache: one record per key, foreign carry, key-identity vector walked",
+   "date": "2026-11-12T00:03:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/121"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Key-identity vector: retype refusal, foreign carry, key in two stores (C# rows, 12)",
+   "date": "2026-11-11T23:42:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/120"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Portability CI: use the runner image's Node and Python, timeout 60",
+   "date": "2026-11-11T21:55:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/119"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: null-answerer vectors for Revision and Retraction (additive)",
+   "date": "2026-11-11T18:30:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/118"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: decider_count, answerer_count, nullable answerer (reader views)",
+   "date": "2026-11-11T18:12:01Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/117"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Walk rows lows: Rust @directory error kind and delete, stale known-gaps",
+   "date": "2026-11-11T18:11:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/116"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: raised_at, required nullable instant outside options_hash",
+   "date": "2026-11-11T18:03:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/115"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Readability manifest: legacy-catalog c0 rows and directory-at-path, walked by all four runtimes",
+   "date": "2026-11-11T17:25:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/114"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts test: reconnecting client sends only after its own handshake",
+   "date": "2026-11-11T16:05:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/113"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Duplicate-key residuals: changelogs, retype by schema id, Rust CAS retype",
+   "date": "2026-11-11T15:58:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/112"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Variants cut doc: C4 records Nibu's ruling on where hull families live",
+   "date": "2026-11-11T15:08:01Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/111"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Single-file readers refuse duplicate keys in all four runtimes; c0 bad-canonical row",
+   "date": "2026-11-11T15:07:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/110"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CI: one portability run per change; quic-native only for native paths",
+   "date": "2026-11-11T14:24:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/109"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts: tests pin the single-put judge's alias and key-pair order",
+   "date": "2026-11-11T13:56:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/108"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "unique-index vectors: three-holder key order and alias code-unit order (rows 34-37)",
+   "date": "2026-11-11T13:41:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/107"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "org.gamecult.cultlib 3.0.0: release prep and regenerated plugins (stacked on #105)",
+   "date": "2026-11-11T11:42:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/106"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath 0.5.1: release prep (fbm), tracked DLL rebuilt",
+   "date": "2026-11-11T11:42:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/105"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Unique-index vectors: exact identity and single-put alias order (rows 26-33)",
+   "date": "2026-11-11T11:42:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/104"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts: a load and an index registration name the least violation of the resulting state",
+   "date": "2026-11-11T12:00:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/103"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-rs: a unique-index refusal names the least violation by UTF-16 order; walk refusals.msgpack",
+   "date": "2026-11-11T12:16:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/102"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-py: a unique-index refusal names the least violation; walk refusals.msgpack",
+   "date": "2026-11-11T11:48:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/101"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Unique-index vectors: pin holder identity by case (rows 23-24)",
+   "date": "2026-11-11T10:47:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/100"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultCache: a unique-index refusal names the least violation; shared refusals vector",
+   "date": "2026-11-11T10:05:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/99"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Element ids: the existing-member route and one-way v3/v5 rollback, documented",
+   "date": "2026-11-11T08:53:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/98"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Unique-index leftovers: TS registerIndex refuses a role, commit vector in TS/Rust, nil document in the change schema",
+   "date": "2026-11-11T08:43:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/97"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-py: load order, role-alias register_index refusal, C# two-change commit vector",
+   "date": "2026-11-11T08:05:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/96"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-rs: #[cultcache(index)] is unique at commit and load; re-registration re-judges held records",
+   "date": "2026-11-11T07:43:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/95"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-py, cultnet-py: indexes means unique, roles names selection aliases; commitId/commitCount on change messages",
+   "date": "2026-11-11T06:59:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/94"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-browser test: make the unallocatable-size refusal certain on hosts that overcommit",
+   "date": "2026-11-11T07:35:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/93"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts and cultnet-ts: indexes means unique, roles names selection aliases; commitId/commitCount on change messages",
+   "date": "2026-11-11T05:13:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/92"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Replica commit hardening: Reconcile sends its diff as one tagged commit; straggler guard inside the lock; real-server and budget pins",
+   "date": "2026-11-11T04:58:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/91"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultCache: [CultIndex] is unique at commit and load; [CultRole] names a selection role; replicas apply a commit's changes as one batch",
+   "date": "2026-11-11T03:48:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/90"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: stale answer over an oversize re-read is Refused(stale_fork), never counted; refusal text is informational",
+   "date": "2026-11-11T02:10:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/89"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: fork_too_large (422) for a list whose first entry, or a read whose entry, is past the reply cap",
+   "date": "2026-11-11T01:29:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/88"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CI: run cultcache-py, cultcache-rs and GameCult.Caching.Tests on push and PR",
+   "date": "2026-11-11T08:12:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/87"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: order is a unique rank per Mind; duplicate-order and order-0 vectors",
+   "date": "2026-11-11T00:33:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/86"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts: opening a legacy store never rewrites it",
+   "date": "2026-11-10T23:56:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/85"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: a stripped read serves note: null",
+   "date": "2026-11-10T20:59:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/84"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: no fork hidden by fork_unknown",
+   "date": "2026-11-10T20:51:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/83"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: Read visibility line agrees with ruling (c)",
+   "date": "2026-11-10T20:50:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/82"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: read visibility applied at the door",
+   "date": "2026-11-10T20:49:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/81"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: deciders holds at most 64",
+   "date": "2026-11-10T20:03:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/80"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card M5: the desk envelope's names",
+   "date": "2026-11-10T19:59:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/79"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card M5: decider list sent per call",
+   "date": "2026-11-10T19:27:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/78"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: stored Refused answers carry their 4xx status",
+   "date": "2026-11-10T19:25:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/77"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork desk digests: confirmed on Huginn main f0ca504",
+   "date": "2026-11-10T18:30:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/76"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork desk digests: door-form legal_retraction golden",
+   "date": "2026-11-10T18:19:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/75"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork desk r4: refused retraction target, counted_answer_id, body digest vectors",
+   "date": "2026-11-10T18:14:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/74"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fork card: cap depends at 8 lines of 1000 bytes",
+   "date": "2026-11-10T17:16:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/73"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultNet governance contracts: sealed-vote API and fork-desk card (schemas, specs, vectors, C#/TS suites)",
+   "date": "2026-11-10T17:01:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/72"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CI: concurrency groups, no cancel on tag/dispatch",
+   "date": "2026-11-10T17:40:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/71"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts test: queued provider registers observed from creation (RUDP replaced-generation flake)",
+   "date": "2026-11-09T19:32:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/70"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "write_admitted messageId: letter or number, no Default_Ignorable, raw compare",
+   "date": "2026-11-09T16:49:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/69"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CI: Windows jobs workflow_dispatch only, PowerShell on Linux, glibc comment",
+   "date": "2026-11-09T22:21:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/68"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TS write-receipt client against the real Rust and C# receipt servers (interop harness)",
+   "date": "2026-11-09T14:16:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/67"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-py: decode write_admitted.v0 and error.v1 against the write-receipt vectors",
+   "date": "2026-11-09T14:16:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/66"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-kotlin: write receipt frames, hash, tracker, vector replay",
+   "date": "2026-11-09T14:15:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/65"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "write-receipt: one unreadable text, one blank-field rule (both servers)",
+   "date": "2026-11-09T14:15:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/64"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Rust RUDP server: pin blank schemaId/recordKey refusal, decide sequenced refusal per frame",
+   "date": "2026-11-09T14:15:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/63"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "TS: write_admitted / error.v1 decoder, WriteTracker, vector replay runner",
+   "date": "2026-11-08T19:52:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "C#: database server answers writes with write_admitted / error.v1 (write-receipt spec)",
+   "date": "2026-11-08T19:51:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: RUDP document server answers writes with write_admitted / error.v1",
+   "date": "2026-11-08T19:49:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "spec: cultnet write receipt (write_admitted, error id echo, admitted/refused/unconfirmed)",
+   "date": "2026-11-08T19:49:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "C#: SubmitDocumentAsync and the shard write forwarder complete on the result frame",
+   "date": "2026-11-08T13:24:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: single and batch publish complete on the result frame, not the transport ack",
+   "date": "2026-11-08T13:18:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts: the Odin presence publisher completes on the result frame, not the ack",
+   "date": "2026-11-08T13:15:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts: a put completes on its result frame, not on the transport ack",
+   "date": "2026-11-08T11:34:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "GameCult.Networking test: the RUDP schema client delivers a refused put's result frame whatever the order of the ack",
+   "date": "2026-11-08T11:30:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py test: a put the server refused is reported refused after its reliable ack arrived",
+   "date": "2026-11-08T11:30:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs test: a publish whose refusal arrives before the ack is refused",
+   "date": "2026-11-08T11:30:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts test: the Odin presence publisher does not complete on the ack when the refusal arrives first",
+   "date": "2026-11-08T11:30:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts test: publishRudpDocumentAndWaitForReceipt reports a refused put as refused",
+   "date": "2026-11-08T11:30:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "GameCult.Networking: resend the capped frame's answer until acknowledged, then end the session",
+   "date": "2026-11-08T11:10:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: send the capped frame's answer reliably and end the session once it is acknowledged",
+   "date": "2026-11-08T11:21:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts: resend the capped frame's answer until acknowledged, then end the session",
+   "date": "2026-11-08T10:59:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "GameCult.Networking: answer an undecodable RUDP frame message_invalid and end the session at 8 in a row",
+   "date": "2026-11-08T09:47:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py: answer an unreadable RUDP frame and end the session after 8 consecutive refusals",
+   "date": "2026-11-08T09:54:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts: end a RUDP session after 8 consecutive unreadable frames or authority-refused deletes",
+   "date": "2026-11-08T09:52:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: keep the session through an unreadable frame or refused delete; end at 8 in a row",
+   "date": "2026-11-08T09:36:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: RUDP document server refuses unreadable frames and deletes with typed errors",
+   "date": "2026-11-08T09:33:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet error contract: one message_invalid code replaces malformed_document_put/delete",
+   "date": "2026-11-08T09:17:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts: write authority decide timeout counts as a typed refusal",
+   "date": "2026-11-08T09:13:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "semver-policy: exact commands for reading the workflow at the tagged sha; evidence for the cultcache-ts-v0.15.0 run",
+   "date": "2026-11-08T03:52:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs: drop stale cultcache-ts tag-trigger claim from the content map",
+   "date": "2026-11-08T03:49:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-ts: write authority for the RUDP document server",
+   "date": "2026-11-07T20:21:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts: typed write_not_authorized factory and canonical schema id",
+   "date": "2026-11-07T19:36:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-rs: a sink's refusal of a put is a typed write_not_authorized",
+   "date": "2026-11-07T19:31:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py: bind the TCP+UDP pair for port 0 without the race",
+   "date": "2026-11-07T19:28:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py: peer writes need a write authority (default-deny)",
+   "date": "2026-11-07T19:19:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Docs: cultcache-ts publishing is off; tag runs use the tagged workflow",
+   "date": "2026-11-07T16:53:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "publish-packages: cultcache-ts-v* tags no longer trigger publish",
+   "date": "2026-11-07T16:38:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts 0.15.0: fold 0.14.1, 0.14.2 and Unreleased; raise consumer ranges",
+   "date": "2026-11-07T16:34:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "Fix build:ts: one text-only error factory in cultnet-ts (6 TS2345 in cultmesh-ts)",
+   "date": "2026-11-07T16:27:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "npm: scope cultnet-ts, cultmesh-ts, cultmesh-browser under @gamecult",
+   "date": "2026-11-07T16:25:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-rs: pin the one-global rule on load_soa (PR #15 gap)",
+   "date": "2026-11-07T16:18:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet: add unsupported_schema_version to the closed cultnet.error.v0 code set",
+   "date": "2026-11-07T16:16:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "ci: drop the Eve getting-started job (GameCult/Eve no longer resolves)",
+   "date": "2026-11-07T12:07:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-ts: browser-safe entry that excludes the node-only single-file store",
+   "date": "2026-11-07T12:06:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/24"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs: mark samples/eve-browser-network as needing a sibling Eve checkout",
+   "date": "2026-11-07T11:40:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "sln: drop EveBrowserNetworkSample so dotnet build CultLib.sln succeeds",
+   "date": "2026-11-07T11:33:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "ci: Windows legs run on workflow_dispatch only; Ubuntu gates push and PR",
+   "date": "2026-11-07T11:31:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts selection/v1 carriers + error code/details",
+   "date": "2026-11-07T12:27:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-py multi-peer RUDP socket server",
+   "date": "2026-11-07T12:26:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultmesh-py/rs authority route verification",
+   "date": "2026-11-07T12:25:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-py: schema catalog describes cultnet.error.v0 as the contract does",
+   "date": "2026-11-07T12:13:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-py: single-file store lock, fsync and unique staging; msgpack hard; slot-nil reader",
+   "date": "2026-11-07T12:13:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultcache-rs: name, index and global lookups (C# parity)",
+   "date": "2026-11-07T12:12:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet error message parity: TS type + Python builder/decoder, shared C#/Rust vectors",
+   "date": "2026-11-07T12:11:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "cultnet-ts: drop unset optional keys from createDocumentPutMessage",
+   "date": "2026-11-07T11:26:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "heimdall-consent: typed records for the answer collector",
+   "date": "2026-11-07T08:28:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs(start): tested CultNet first-call snippets (C#, TypeScript, Rust, Python)",
+   "date": "2026-11-07T12:10:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs/start: two-client .io game recipe (CultCache + CultMesh, TS)",
+   "date": "2026-11-07T12:09:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "heimdall-stake: stake function and splitting-gain report (Rust, zero deps)",
+   "date": "2026-11-06T04:34:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "tools/sprite-silhouette: sprite alpha to CSS shape-outside polygon",
+   "date": "2026-11-10T23:14:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs/start: verbatim drift check for C# and TS first-call blocks",
+   "date": "2026-11-05T12:43:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "heimdall-delegation: delegation resolver (Rust, zero deps)",
+   "date": "2026-11-05T11:02:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: Phacelle rows are bit-identical forward, backward and shuffled",
+   "date": "2026-11-05T11:02:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: regenerate lavapipe device bounds at 85ce65fa",
+   "date": "2026-11-04T20:31:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs/start: tested Rust and Python CultCache first calls",
+   "date": "2026-11-04T21:34:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "docs: docs/start onboarding with tested CultCache first calls (C#, TS)",
+   "date": "2026-11-04T20:33:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "CultLib",
+   "title": "CultMath: fbm, and the measured Lipschitz bound of phacelle",
+   "date": "2026-11-04T19:19:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Refuse production startup when the Heimdall app secret is blank",
+   "date": "2026-11-12T19:27:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/83"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Google link: pin the four test gaps, one slot owner, drop IsSignInProvider",
+   "date": "2026-11-12T17:02:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/82"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Link a Google login to a signed-in member, explicit link only; Bifrost stores no Heimdall token",
+   "date": "2026-11-12T16:20:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/81"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Start refusal: read headers only so the 4 KiB body bound limits the read",
+   "date": "2026-11-12T14:54:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/80"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Heimdall start refusal: log the HTTP status and Heimdall's error code",
+   "date": "2026-11-12T14:48:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/79"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Heimdall__AppSecretFile: keep the Heimdall app secret out of the process environment",
+   "date": "2026-11-12T13:46:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/78"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Linux path fixes: containment by path.relative, hostile-cursor test, verify prerequisites",
+   "date": "2026-11-12T12:55:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/77"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: follow upgrades only a plain basis; @room keeps room",
+   "date": "2026-11-12T12:28:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/76"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "tests: dispatch-gate tests run on Linux; classify the remaining Yggdrasil failures",
+   "date": "2026-11-12T12:24:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/75"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: basis \"follow\" for engagement peers (CHAT_FOLLOW, default off)",
+   "date": "2026-11-12T12:21:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/74"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: fetch one named event's image for its Persona, store it, post an inert receipt (CHAT_FETCH, off by default)",
+   "date": "2026-11-12T00:59:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/73"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: id shape on every delivery field, mentions bounded in bytes, round cap counts every target GET",
+   "date": "2026-11-11T21:06:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/72"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: bearer credential (OpenIddict validation, desk.read/desk.answer, audience bifrost-desk) and answerer masking",
+   "date": "2026-11-12T10:17:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/71"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: UnixSocketDeskDoor (Huginn desk door client), fixtures at 79d954c, card re-pin to CultLib 3a51bbab, card opaque",
+   "date": "2026-11-12T11:44:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/70"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Docs: desk feed visibility is Huginn's door policy; cite the written door spec",
+   "date": "2026-11-12T10:17:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/69"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: reply_to lows after #64 (round cap defers, 60 s excerpt, wider scrub, id shape)",
+   "date": "2026-11-11T20:05:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/68"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk feed design: per-Mind open forks, read-only (decisions in PR #37 section 14)",
+   "date": "2026-11-11T17:06:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/67"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Docs: no refresh token, MAS skips userinfo; withdrawal stops new tokens, open sessions run to expiry",
+   "date": "2026-11-11T16:48:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/66"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Members: approve refuses no-membership/unknown accounts; neutral text for legacy suspensions",
+   "date": "2026-11-11T16:39:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/65"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: v4 fixes after Soul pass (target cache, scrub, read cap)",
+   "date": "2026-11-11T16:17:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/64"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: chat_pending.v4 reply_to (flag, default off)",
+   "date": "2026-11-11T16:06:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/63"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Prefix lengths: host-level startup tests (tests only)",
+   "date": "2026-11-11T14:12:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Drop HTMX (unpkg, no integrity); guard against third-party assets",
+   "date": "2026-11-11T14:12:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Suspension gaps: bootstrap, demotion, members-page notices, admin-only reason",
+   "date": "2026-11-11T14:12:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Chat sign-in needs a live consent receipt; notice frozen as version 1",
+   "date": "2026-11-11T14:32:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Consent: optional at registration, a consent page, CSRF-guarded accept/withdraw, notice v2",
+   "date": "2026-11-11T12:11:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: tail_gaps on chat_pending.v3, the rooms whose tail is incomplete",
+   "date": "2026-11-11T11:07:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Registration: sign-up form with proof-of-work and a no-JS time-lock fallback",
+   "date": "2026-11-11T11:17:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Docs: proposed training notice v2 and consent-flow gaps",
+   "date": "2026-11-11T10:32:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Registration gates: proof-of-work CAPTCHA and training-notice consent receipt",
+   "date": "2026-11-11T10:15:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Suspension survives sign-in; admin-only Suspend/Unsuspend with a receipt",
+   "date": "2026-11-11T08:38:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "OIDC issuer: chat tier for accounts without Active membership",
+   "date": "2026-11-11T08:13:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: room tail on chat_pending.v3",
+   "date": "2026-11-11T08:15:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "OIDC issuer: address budget, token-row cap, scheduled prune, marker brake",
+   "date": "2026-11-11T08:12:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "OIDC: refuse reserved localparts at authorize; gap list in oidc-issuer.md",
+   "date": "2026-11-11T06:39:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mouth: addressing facts on deliveries (chat_pending.v3 basis and form)",
+   "date": "2026-11-11T06:26:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Resolve CultLib via VOIDBOT_CULTLIB_ROOT in tests; test formerly indexed stores",
+   "date": "2026-11-11T05:01:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Drop indexes: declarations from TS document types",
+   "date": "2026-11-11T04:53:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: pin vectors to CultLib de8a062a (answerTooLarge)",
+   "date": "2026-11-11T02:16:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: a stale answer on an oversize fork is 422 fork_too_large",
+   "date": "2026-11-11T01:54:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: pin vectors to CultLib f6c9bf5f",
+   "date": "2026-11-11T01:49:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Desk: a read of an oversize fork is 422 fork_too_large",
+   "date": "2026-11-11T01:35:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Mill votes: ranked, paged read and not-yet-voted-by-this-network filter",
+   "date": "2026-11-10T21:06:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "desk: Bifrost half of the Fork Desk answer binding (ports, routes, per-call deciders)",
+   "date": "2026-11-11T01:02:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "persona mouth: open a direct room for a Persona; answer unknown kinds loudly",
+   "date": "2026-11-10T18:35:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "deploy plan: restore reads a postgres-readable copy of the root-only dump",
+   "date": "2026-11-10T18:28:32Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "docs: how a Ratatoskr voting module authenticates to Bifrost (design)",
+   "date": "2026-11-11T17:06:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Load cultnet-ts and cultmesh-ts by their scoped names",
+   "date": "2026-11-10T17:21:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Matrix mouth: m.read follows a chat_read report, presence follows the turn",
+   "date": "2026-11-10T17:32:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Reserve Matrix localparts and system names at identity creation",
+   "date": "2026-11-10T17:32:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "deploy plan: NetworkTagSecret step checks openssl and treats an empty value as not set",
+   "date": "2026-11-10T14:06:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "docs: sealed-motion Mind key path is /var/lib/mind-<persona>; register only after a Persona-shell self-test",
+   "date": "2026-11-12T10:31:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Standard close: loser of a simultaneous close adopts the winner's result (#30)",
+   "date": "2026-11-10T14:02:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Signed Mind intake for sealed motions (stacked on #21)",
+   "date": "2026-11-09T20:58:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Sealed-ballot motions: commit-reveal over gamecult.sealed_ballot.v0",
+   "date": "2026-11-09T20:54:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "deploy plan: NetworkTagSecret step: openssl failure appends nothing; empty or indented key line handled",
+   "date": "2026-11-09T19:29:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "deploy plan: generate ConceptVotes__NetworkTagSecret, defaults note, checkout page check",
+   "date": "2026-11-09T15:50:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Revise the main-to-live deploy plan against 55b74275 (Libby's 11 points)",
+   "date": "2026-11-09T15:20:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "CI: delete the container publish workflow",
+   "date": "2026-11-09T11:50:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "docs: plan for deploying main over the live release",
+   "date": "2026-11-09T15:51:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Pin the vote page busy-refusal branches",
+   "date": "2026-11-10T14:02:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Matrix mouth: read receipts on ack, presence from the brake",
+   "date": "2026-11-08T16:26:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Matrix mouth: fetch and store chat images (cut A), ChatDelivery v3",
+   "date": "2026-11-08T09:30:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Make every cookie host-only: __Host- names, Secure, Path=/",
+   "date": "2026-11-09T11:48:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: contribution-credit arm (E7)",
+   "date": "2026-11-10T17:21:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: regenerate stale results, fix weight-floor wording",
+   "date": "2026-11-06T07:50:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: pin the stake arm to heimdall-stake golden vectors",
+   "date": "2026-11-06T02:32:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim: purchased-stake arm (log weight, splitting adversary, half-influence cap)",
+   "date": "2026-11-05T19:29:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Estate-rule sim harness: populism, strategic agents, transitive delegation",
+   "date": "2026-11-05T10:59:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "Proposal: charter amendment provision (in-chat charter)",
+   "date": "2026-11-05T10:59:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "The mouth delivers media events as a typed line",
+   "date": "2026-11-05T10:58:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Bifrost",
+   "title": "The mouth refuses a Persona send when the room moved past what she held",
+   "date": "2026-11-03T11:03:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Opt-in sign_in step-up (force_verify / prompt=login), app-authenticated, signed-state flag",
+   "date": "2026-11-12T23:22:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Redeem refuses a target the completion did not record",
+   "date": "2026-11-09T12:13:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Connect start: pin the app-secret gate on every managed provider, refuse blank targets",
+   "date": "2026-11-09T12:18:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Record a failed refresh on the identity row so another process does not re-present the token",
+   "date": "2026-11-09T10:31:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Refusal return contract: pin the fragment, carry the attempt id, document it",
+   "date": "2026-11-08T13:51:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Docs: answer collector record and consent",
+   "date": "2026-11-10T17:12:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Joystick consent: ask page, consent_refused, receipts, signed-in grants page with revoke",
+   "date": "2026-11-08T13:45:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Live-Postgres tests: exercise the pending-link methods; add a standing live run",
+   "date": "2026-11-06T00:32:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "r2: bind OAuth completion to the launching browser, one use per state; gate connect starts",
+   "date": "2026-11-05T17:16:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Google OIDC provider: link-only, sub-keyed, PKCE and nonce",
+   "date": "2026-11-05T10:58:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Heimdall",
+   "title": "Bind link mode to its initiator and redeem to its target",
+   "date": "2026-11-05T10:57:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ontology-mint-probe: Train-only ontology mint call (loop mint-ontology)",
+   "date": "2026-11-12T22:20:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/63"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-anger-mirror: ja-JP:3 bounded by hedge and affection AtMostOrUnset 599 so :3/:5 and :3/:7 never co-select",
+   "date": "2026-11-12T21:40:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "en-us-6-8: en-US:8 bounded by certainty AtMostOrUnset 799 so :6 and :8 never co-select",
+   "date": "2026-11-12T20:56:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-surprise-certainty: ja-JP :9 states its question ending as available",
+   "date": "2026-11-12T20:27:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "en-us-seed-pairs: en-US :3/:5/:6 disjoint by real conditions",
+   "date": "2026-11-12T20:18:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-seed-pairs: make ja-JP seed pairs disjoint by conditions",
+   "date": "2026-11-12T19:52:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-withdraw-scene-entries: withdraw onto:ja-JP:14 and :15 (net-negative on register in the paired measure)",
+   "date": "2026-11-12T19:17:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-item19: encoder prompt states one role per predication and the group shape for coordination",
+   "date": "2026-11-12T18:48:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-inventory-6: rev 6 concepts (try, someday, a little, as one pleases, kite flyer) and the admit-cap test",
+   "date": "2026-11-12T18:27:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-inventory: rev 5 concepts and frames for the original bed (model-drafted, Validation-informed), weksa inventory admit, onto:ja-JP:15",
+   "date": "2026-11-12T18:08:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "language-ontology-scene: scene features, one scene door, Scene-conditioned ja/en entries, runs read entries at their own head",
+   "date": "2026-11-12T17:22:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "language-ontology-seed: model-drafted en-US and ja-JP seed entries; target-language YAML deleted",
+   "date": "2026-11-12T16:13:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "language-ontology: weksa.ontology_entry, its store, select, wired into the lowering prompt",
+   "date": "2026-11-12T15:12:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-panel-corpus: 28 model-written Japanese passages and 8 Aozora Bunko Test sentences",
+   "date": "2026-11-12T13:52:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "ja-panel-loop: language is the item's, the panel the run's; panel accept rule",
+   "date": "2026-11-12T13:51:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Lows: show-working allowlist and Display, edition_year meaning",
+   "date": "2026-11-12T09:46:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Encode prompt: participants are node ids, never an entity id",
+   "date": "2026-11-10T19:28:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Stance ablation beside recall; lowering prompt pinned to the stance; grade scale stated",
+   "date": "2026-11-10T19:26:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "data/original gets a Test split: 8 public-domain excerpts with full provenance (ModelWritten stays out of Test)",
+   "date": "2026-11-10T18:51:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Widen data/original: 22 more model-written passages (14 Train, 14 Validation); recall test pinned to live items",
+   "date": "2026-11-10T18:16:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Pin parse-reason codes; show-working guard checks the split; no Debug of errors in the page",
+   "date": "2026-11-10T18:09:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Refusal-reason Lows: own_family pinned to offered items, --answerer-family pinned, class closure pinned; encode prompt says a concept is never null",
+   "date": "2026-11-10T18:01:02Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Round records and lines carry parse refusal reasons and an own-family label",
+   "date": "2026-11-10T17:28:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Original corpus for a non-memorised target; recall probes every item; encode prompt states the id form",
+   "date": "2026-11-10T14:24:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "weksa loop recall: a recitation probe for public-domain items; admit_rules not required in the round schema",
+   "date": "2026-11-10T14:15:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Round record names the admission rules that refused items",
+   "date": "2026-11-10T14:08:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Lows: summary_line leaves the public surface; lowering bound pinned in bytes, CR refused",
+   "date": "2026-11-10T14:00:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "golf-loop-model-lowerer: a Claude session lowers each packet behind the model port; the template lowerer leaves the loop",
+   "date": "2026-11-10T09:47:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Round-digest lows 2: length-framed source digest, lock cleanup, honest drift text, window tests",
+   "date": "2026-11-10T08:56:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Speaker-scene lows: with_scene enforces scene coverage at read, one owner",
+   "date": "2026-11-10T08:54:49Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Round lows: split.rs joins the prompt source digest, stores re-checked after open",
+   "date": "2026-11-10T08:36:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Checkpoint-gate lows: pin the once rule and the elide branch, escape line breaks in item text",
+   "date": "2026-11-10T08:23:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "One-write seam: pin 'accept is one batch' by behaviour, delete the source-text tripwire",
+   "date": "2026-11-10T08:19:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "golf-loop-edit-accept: a Train-only editor proposes an inventory edit, a candidate round scores it, a noise-floor rule accepts or rejects on Validation",
+   "date": "2026-11-10T07:50:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Clippy: name the predication tuple, box PutArgs",
+   "date": "2026-11-10T07:50:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "golf-loop-round: the smallest loop that scores one round end to end",
+   "date": "2026-11-10T04:42:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Checkpoint gate: Test readings need a Checkpoint nobody outside tests can declare; fixed instructions; context lows",
+   "date": "2026-11-10T03:05:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "speaker-scene: weksa.speaker and weksa.scene documents, with_scene reads the store",
+   "date": "2026-11-10T03:26:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Context builder and checkpoint-only Test readings (cut loop-context-builder)",
+   "date": "2026-11-10T02:27:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Map: speaker-scene facts, persona-state question, 4b/4c",
+   "date": "2026-11-10T02:27:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/24"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "S6 residue: lone marks get the marks-only reason, katakana ヷ-ヺ fold, İx/i̇x collide again",
+   "date": "2026-11-09T11:15:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Errors stop echoing identifiers: LowerError/Refusal Display, clap errors",
+   "date": "2026-11-09T11:14:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Test: request_gate reads the agent role by gloss (kills the cargo-mutants survivor at lower.rs:286)",
+   "date": "2026-11-09T11:14:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Corpus intake lows 2: S6 folds, CLI errors stop echoing identifiers, --admitted-on is a date, marks-only text refused",
+   "date": "2026-11-09T11:04:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Consent-gated request row: 'You asked Nibu to stop.' lowers only when the packet carries addressee consent",
+   "date": "2026-11-09T10:12:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Scorer coverage: words break at any non-word character; unspaced scripts read by run; near-miss chrF pairs per script",
+   "date": "2026-11-09T09:11:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Phone inventory, segmenter and `weksa lower --phones` (the Weksa->AquaSynth phones line)",
+   "date": "2026-11-09T10:15:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Show her working: public page of the lowering chain, from the real lowerer and scorer",
+   "date": "2026-11-10T17:43:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Packet carries an addressee-consent fact (schema v5, V14, V15)",
+   "date": "2026-11-09T09:11:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Entity forms carry a ruled pronunciation; lower --ipa emits it",
+   "date": "2026-11-07T12:05:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/13"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Lowerer reads entity forms: entity referents lower to the entity's en-US citation form",
+   "date": "2026-11-07T10:00:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Dao De Jing test bed: PublicDomain provenance fields, Legge slice, first golf-loop number",
+   "date": "2026-11-09T10:22:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Deru phonotactics in the Sa'ueia/Airawa checker; names file; briefs updated",
+   "date": "2026-11-06T19:24:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Lowering input: the speaker's relation to the addressee (Scene slot, with_scene)",
+   "date": "2026-11-06T18:19:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Proposals page for human reviewers",
+   "date": "2026-11-06T19:25:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "rtd: imperial_frame out of packet example (ruling) + DRAFT Dao path-fit ontology (proposal, not canon)",
+   "date": "2026-11-06T19:23:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/6"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Sa'ueia workshop first cut: table, checker, sound proposal",
+   "date": "2026-11-04T12:56:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Respell Sa'auei'a as Sa'ueia (spelling only)",
+   "date": "2026-11-04T10:48:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "speaker-state onto main (stance in packet, admit-only LoweringInput) + build notes",
+   "date": "2026-11-03T19:27:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "Rust to Dust imperial language: draft design spec r0",
+   "date": "2026-11-06T03:32:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Weksa",
+   "title": "DRAFT Zyphos naming briefs (not canon)",
+   "date": "2026-11-06T04:32:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "client: unconfirmed sends are visible and recovered; watchdog for a dead connection",
+   "date": "2026-11-12T21:35:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/123"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "composer: persist the draft on input, keep unconfirmed sends in a durable outbox",
+   "date": "2026-11-12T21:17:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/122"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "pwa: installable manifest and Web Push stages 0-1 (dark by default)",
+   "date": "2026-11-12T20:05:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/121"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "docs: chat shell compression, measured state and brotli plan",
+   "date": "2026-11-12T18:16:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/120"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "runbook: handoff build ships the repo config.json; live check always runs",
+   "date": "2026-11-12T17:08:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/119"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "docs: client build, install, verify and rollback runbook",
+   "date": "2026-11-12T16:51:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/118"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Phone and desk visual findings: notice scrim, tap areas stop at neighbours, desk affordance",
+   "date": "2026-11-12T14:31:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/117"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File zone share: component tests, state machine moved out of ShareSet",
+   "date": "2026-11-12T13:15:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/116"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File zone: share a set of files as one album (flag off)",
+   "date": "2026-11-12T13:01:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/115"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "An explicit theme choice (even Midnight Sky) wins over the sky",
+   "date": "2026-11-12T11:41:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/114"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Footer band test pins the emitted tint and ink",
+   "date": "2026-11-12T10:50:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/113"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "A long reply quote stays inside its column",
+   "date": "2026-11-12T10:50:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/112"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Pin sceneButtons folds recipe classes to the installed folds",
+   "date": "2026-11-12T09:51:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/111"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Ridge scene: physical sky over Vienna, real horizon, live weather (Nibu)",
+   "date": "2026-11-12T02:48:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/110"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File receipts say \"fetched for <Mind>\", not \"read by\"",
+   "date": "2026-11-12T02:07:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/109"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File zone: one shared room subscription for read-by rows",
+   "date": "2026-11-11T22:47:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/108"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File zone: read-by receipts found anywhere in the room",
+   "date": "2026-11-11T22:39:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/107"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "config.json: ship the ridge scene style",
+   "date": "2026-11-11T22:35:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/106"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "File zone: Mind contract, plaintext sha256 on send, read-by receipts",
+   "date": "2026-11-11T22:01:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/104"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "config.json: the live chat.gamecult.org config",
+   "date": "2026-11-11T21:23:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/103"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Pose thumbs: stale size comments corrected",
+   "date": "2026-11-11T21:19:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/102"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: Browse open state per screen class",
+   "date": "2026-11-11T21:05:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/101"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Desk: fork card contract at CultLib 3a51bbab (raised_at, counts, nullable answerer)",
+   "date": "2026-11-11T21:05:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/100"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Ridge: shade faces by depth below the crest; hold the ridge inside the label band (Nibu)",
+   "date": "2026-11-11T18:31:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/99"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Unread room icons at 0.6",
+   "date": "2026-11-11T18:12:08Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/98"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: icon weights, solid unread dot, Media row detects by room type",
+   "date": "2026-11-11T17:33:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/97"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: per-Mind Media row after Desk",
+   "date": "2026-11-11T17:05:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/96"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: quieter room icons, Join as a text action, calmer unread badge",
+   "date": "2026-11-11T16:56:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/95"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: Desk and media pages pinned at the top of each Mind foldout",
+   "date": "2026-11-11T16:48:19Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/94"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Docs: repo renamed to GameCult/Ratatoskr; scene default",
+   "date": "2026-11-11T16:40:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/93"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Navigator: one gutter column, constant nesting step, quieter room icons",
+   "date": "2026-11-11T16:40:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/92"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Background scene on in the repo config (tier full)",
+   "date": "2026-11-11T16:30:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/91"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Default homeserver is chat.gamecult.org",
+   "date": "2026-11-11T15:53:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/90"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Pose follows message sentiment (local classifier)",
+   "date": "2026-11-11T14:26:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/89"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Release candidate: dev into main",
+   "date": "2026-11-11T02:13:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/88"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Register entry: https only, http only for a local host",
+   "date": "2026-11-11T01:31:35Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/87"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Default homeserver is gamecult.org",
+   "date": "2026-11-11T01:30:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/86"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: a throwing ray-march createScene goes to onCompileFail",
+   "date": "2026-11-11T20:52:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/85"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "desk: served row order, one open count",
+   "date": "2026-11-10T21:13:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/84"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "desk: read the gamecult.fork.* contract as served",
+   "date": "2026-11-10T21:08:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/83"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Bound the reply preview on phone width",
+   "date": "2026-11-10T20:33:50Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/82"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: ridge heightfields, slope shading, endless world-x drift",
+   "date": "2026-11-10T19:05:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/81"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "preview demo: drop a stored login for another server before the app reads it",
+   "date": "2026-11-10T18:24:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/80"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "preview: build-dev-preview.sh, the dev demo build recipe (publishing is the shared script's)",
+   "date": "2026-11-10T18:19:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/79"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Phone: notice contrast, 44px tap hit areas, skip empty OIDC validation",
+   "date": "2026-11-10T18:29:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/78"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "desk: read-only Mind desk, slice 1",
+   "date": "2026-11-10T18:29:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/77"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: skyLabelInk moves out of sceneShell.css.ts (dev did not build)",
+   "date": "2026-11-10T18:02:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/76"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "dings: Aqua's v4 set (Void single onset, Nibu proposal 3 everywhere), behind dings.enabled",
+   "date": "2026-11-10T17:59:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/75"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: per-sky-state ink for names and phone-dusk labels; New Messages as plain label",
+   "date": "2026-11-10T17:58:24Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/74"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "auth: newcomer-facing sign-in, server and sign-up messages",
+   "date": "2026-11-10T17:32:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/73"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Poses nest into the chat bubble corner (desktop and phone)",
+   "date": "2026-11-10T23:26:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/72"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Release candidate: dev 64edacac to main",
+   "date": "2026-11-10T17:42:16Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/71"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Albums slice 1: read-only album view for the file zone",
+   "date": "2026-11-11T00:25:37Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/70"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Dings v3 behind client config switch dings.enabled (off by default)",
+   "date": "2026-11-10T17:25:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/69"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "auth: Register entry beside Sign in, behind a config switch (off)",
+   "date": "2026-11-11T01:30:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/68"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Room list: unjoined project-room groups collapse behind one Browse entry",
+   "date": "2026-11-10T14:47:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/67"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: terrain fine grain domain-warped so it stops reading as hatching",
+   "date": "2026-11-10T14:09:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/66"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "nemesis/demo: Meta's no-chrome look, theme auto, denser terrain, Background menu, with tests and the Ridge zero-size fix",
+   "date": "2026-11-10T14:09:01Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/65"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Enforce the one join path in lint; a drive that asserts nothing fails",
+   "date": "2026-11-10T23:16:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/64"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "auth: footerBand test pins blur to 12px and the footer rule's exact property set",
+   "date": "2026-11-10T04:17:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/63"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "auth: test the emitted footer rule; wrap comment; correct the terrain luminance figure",
+   "date": "2026-11-10T04:04:15Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "auth: a blurred, tinted, soft-edged band behind the sign-in footer (4.5:1 in Day, Dusk, Night)",
+   "date": "2026-11-10T03:45:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: message and comment on the sweep assertion",
+   "date": "2026-11-10T02:26:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: sweep the mid-build test over microtask offsets",
+   "date": "2026-11-10T02:23:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: test a sky change landing mid-build",
+   "date": "2026-11-10T02:03:51Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: two quick sky changes build the last sky; Night drift test is exact",
+   "date": "2026-11-10T01:55:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: Dusk floor at the link bound with Day's pale-blue lift (held for Meta's preview)",
+   "date": "2026-11-10T17:03:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: rebuild only for a different drawn sky; URL-steered night sky within the Night backdrop (+ link readability numbers)",
+   "date": "2026-11-10T01:32:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: shape each sky state's drawn sky into a luminance band its text ink clears",
+   "date": "2026-11-10T00:28:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "trainingNotice: say whose ruling the wording is (comment only)",
+   "date": "2026-11-10T00:30:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "CI: cancel superseded runs with workflow concurrency groups",
+   "date": "2026-11-09T23:12:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: keep the terrain sky and baked tables out of the main chunk (stacked on #47)",
+   "date": "2026-11-09T23:35:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: ridge and terrain scenes follow the sky state",
+   "date": "2026-11-09T22:35:18Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: skyState test takes the worse of both sky ends",
+   "date": "2026-11-09T22:19:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Sky-state control in the estate title bar; the state picks the theme",
+   "date": "2026-11-09T22:36:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: host handles a lost GL context (ground on loss, rebuild on restore)",
+   "date": "2026-11-09T22:13:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: sky-state seam (auto/day/dusk/night) with skyBackdrop",
+   "date": "2026-11-09T22:08:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: terrain mesh as fine as the height map (stack: terrain scatter, albedo, stars, haze)",
+   "date": "2026-11-09T20:43:11Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "CI: drop artifact upload from the build check",
+   "date": "2026-11-09T16:01:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Room list on a phone: plain text rows in the heading type; no Create Room or Join with Address",
+   "date": "2026-11-09T15:39:39Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Room list: faint wash again; chat: name and time on one plain line (regression from #35 and the scrim commits)",
+   "date": "2026-11-09T14:57:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "settings: no window at import (fixes soundscape test on dev)",
+   "date": "2026-11-09T10:59:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Phone text flow: portrait floor, list markers, in-flow banner, pretend-server notice",
+   "date": "2026-11-09T11:07:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Upload failures keep name, size and file readability",
+   "date": "2026-11-09T10:59:53Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "docs: file zone design sketch",
+   "date": "2026-11-09T10:59:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "preview-demo: drop the submit-event shim; relative manifest link",
+   "date": "2026-11-09T10:59:26Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "phone layout: text wraps the traced portrait outline; status lines clear the composer",
+   "date": "2026-11-09T10:59:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "ridge scene behind the whole app, tight bubble wrap, sharper portraits, long-post fixtures",
+   "date": "2026-11-07T19:51:23Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "preview-demo: README for the pose thumbnails (provenance)",
+   "date": "2026-11-09T10:59:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "preview: pretend homeserver for the dev preview (in-page, off by default)",
+   "date": "2026-11-07T19:02:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "ci: build dev into rat-dev-dist artifact",
+   "date": "2026-11-07T18:17:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "ci: drop Cinny-upstream workflows that cannot run on the forge",
+   "date": "2026-11-07T11:39:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "docs: Mind feedback pages (the desk) design record",
+   "date": "2026-11-10T18:04:31Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/24"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Estate navigator stack: background scene, soundscape, cone prepass (opt-in)",
+   "date": "2026-11-05T00:31:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: cone prepass for pass 1, opt-in steps/pixel readout",
+   "date": "2026-11-04T22:56:29Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "brand: Ratatoskr replaces Cinny branding (do not merge)",
+   "date": "2026-11-05T10:51:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "scene: Phacelle bound says measured-not-proved; neutral creature draws nothing",
+   "date": "2026-11-03T11:37:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Ratatoskr",
+   "title": "Background scene: two-pass WebGL2 terrain and world tree with login pull-back",
+   "date": "2026-11-02T16:50:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: Basis::FollowUp (wire `follow`) is for the Mind",
+   "date": "2026-11-12T12:24:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/65"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona saves a named attachment into her sandbox (BIFROST_CHAT_FETCH, off by default)",
+   "date": "2026-11-12T02:07:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/64"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk door: emit CultLib d3025d3c reader shapes (PR A of cut-desk-feed-raised-at.r3 + cut-desk-feed-listing.r8)",
+   "date": "2026-11-11T21:24:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/62"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk feed door: re-pin CultLib vectors to d3025d3c (null answerer pinned on all four variants)",
+   "date": "2026-11-11T20:04:04Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/61"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat ingest core: room scope, credential scrub, chunker, refresh_chat, steward purge",
+   "date": "2026-11-11T20:53:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/60"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat: huginn chat window (event id with its neighbours, from the chat index)",
+   "date": "2026-11-11T19:49:05Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/59"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk feed door: reader-count shapes pinned to CultLib 3a51bbab (vendored vectors)",
+   "date": "2026-11-11T18:28:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/58"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat: search_chat over the shared source collection, huginn chat search",
+   "date": "2026-11-11T19:11:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/57"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk feed door: account ids are lowercase D-format UUIDs (doc, fixtures, grammar test)",
+   "date": "2026-11-11T17:44:46Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/56"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk feed door: list/read wire contract and golden fixtures",
+   "date": "2026-11-11T17:18:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/55"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Chat retrieval map: joined rooms, not public-only",
+   "date": "2026-11-11T16:43:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/54"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat: decode Bifrost chat_pending.v4 reply_to (lenient ReplyLink, opt-in request)",
+   "date": "2026-11-11T17:26:06Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/53"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Source search takes up to eight texts, fused by reciprocal rank (k=60)",
+   "date": "2026-11-11T16:20:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/52"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Chat retrieval map: lookup not memory, DMs out of the index",
+   "date": "2026-11-11T15:54:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/51"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-self-run: redact URL userinfo from Self result text",
+   "date": "2026-11-11T14:21:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/50"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: chat_pending.v3 tail_gaps (defaulted); a named room reads as unknown, not quiet",
+   "date": "2026-11-11T12:34:36Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/49"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Steward rulings: a peer steward's decision is a typed ruling in the follower's mind (stacked on #46)",
+   "date": "2026-11-11T12:56:58Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/48"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-stream: the Projector is her own connector caller on Haiku; a brake hold stops mind-stream@ too",
+   "date": "2026-11-11T14:13:52Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/47"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "persona: another Mind reads as role=mind from the swarm's addressing table",
+   "date": "2026-11-11T12:17:47Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/46"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn: --session falls back to HUGINN_SESSION, set by mind-self-run",
+   "date": "2026-11-11T09:29:57Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/45"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona first line carries the mouth's room tail (wake-reads-room-tail)",
+   "date": "2026-11-11T08:43:12Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/44"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona wakes on address only: chat_pending.v3 basis/form, unaddressed acked in sequence",
+   "date": "2026-11-11T07:27:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/43"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Vectors re-vendored from CultLib de8a062a (answerTooLarge replay)",
+   "date": "2026-11-11T02:18:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/42"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk door tests: the exact reply-cap boundary of a Fork read; a stale answer is stored and replays while the fork is oversize",
+   "date": "2026-11-11T01:52:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/41"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk reads: a read of an oversize fork is fork_too_large; vectors re-vendored from CultLib f6c9bf5f",
+   "date": "2026-11-11T01:39:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/40"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk reads: fork_too_large (list only) replaces DeskForkTooLarge",
+   "date": "2026-11-11T01:03:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/39"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk door reads: Forks and Fork on the peer-checked socket (whole record), unique order rank, the leftover Lows",
+   "date": "2026-11-11T00:46:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/38"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "open-direct lows: the open hears the mouth's refusal; one copy of the daily policy text",
+   "date": "2026-11-11T00:15:09Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/37"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk door: the second peer-checked unix-socket door (Answer and catalog; reads interim)",
+   "date": "2026-11-10T23:38:38Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/36"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk wire, part 2: the envelope (wire names mind/authority/subject/deciders, deciders 1..64 unique, generic cores, schemas)",
+   "date": "2026-11-10T20:47:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/35"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Pin the InvitePending notice: a pending invitation is told not to be sent again",
+   "date": "2026-11-10T20:26:33Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/34"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk wire lows: replay gate pinned for stored refusals and revisions; every bad fork id is fork_unknown",
+   "date": "2026-11-10T19:57:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/33"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona: open_direct, her ask that the mouth open a DM with a person she was shown",
+   "date": "2026-11-10T20:22:48Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/32"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk wire, part 1: Libby's answer documents, the one n<seq> conversion, the projection and Mind::desk_answer",
+   "date": "2026-11-10T19:44:17Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/31"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk digest covers the illegal form retracted flag; pin the s4 refusal bounds",
+   "date": "2026-11-10T18:20:45Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/30"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Desk answers, Huginn half 1: desk_answer kind and the Mind counting door",
+   "date": "2026-11-10T17:51:54Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/29"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona: send chat_read for the newest placed event per room at the echo",
+   "date": "2026-11-10T14:55:01Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/28"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn sources --front: search only a repo's front-page files",
+   "date": "2026-11-10T14:51:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/27"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Sources index: skip .obsidian, .voidbot, LICENSE and provenance files",
+   "date": "2026-11-10T14:24:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/26"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Self run: deliver a result whole, never clipped",
+   "date": "2026-11-10T14:24:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/25"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: open work listed oldest first by origin, lines capped, hidden work named by campaign",
+   "date": "2026-11-09T11:53:41Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/24"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Import: resolution of a window follow-up or idea is inert",
+   "date": "2026-11-09T12:05:25Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/23"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "AlreadyResolved names the closure in force",
+   "date": "2026-11-09T12:10:30Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/22"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: a brief is done when its change lands, told once as one closing rule",
+   "date": "2026-11-09T09:34:43Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/21"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn import: a follow-up or idea the receiver wrote after the import began no longer blocks the resume",
+   "date": "2026-11-08T21:58:56Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/20"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn-mind: an import is not refused for citing another campaign's document resolved after its source ordinal",
+   "date": "2026-11-08T21:06:20Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/19"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: every Persona line asks for her own work, plans first",
+   "date": "2026-11-08T19:57:10Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/18"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "admission: an import replays a cite of another root's closed follow-up",
+   "date": "2026-11-08T21:28:13Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/17"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn import: a steward pulls a moved campaign into her own mind",
+   "date": "2026-11-08T18:57:55Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/16"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn-mind: a campaign moves out of a mind (Moved freeze, import provenance)",
+   "date": "2026-11-08T18:31:22Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/15"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: a nightly memory consolidation run for one Mind (typed Slept cut line)",
+   "date": "2026-11-08T14:03:34Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/14"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat_image: test that fails if the take(MAX+1) read bound is removed",
+   "date": "2026-11-08T09:36:07Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/12"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "mind-body: chat images reach the Persona session as image blocks (ChatDelivery v2 image field)",
+   "date": "2026-11-08T08:12:44Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/11"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn admit holds near-duplicates; huginn recall dispatch",
+   "date": "2026-11-07T12:07:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/10"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "huginn persona get|put",
+   "date": "2026-11-07T10:06:28Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/9"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Release: Self replies reach her Persona; one conversation at a time; resume; project-name addressing; stream thoughts",
+   "date": "2026-11-07T09:09:21Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/8"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "chat-retrieval-map: anchors to main, answered questions, stale Persona premise",
+   "date": "2026-11-05T10:59:03Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/7"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "The MCP admit goes through the one strict door; refusals name the field",
+   "date": "2026-11-04T22:16:42Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/5"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona wake: the brake counts only Self runs the Mind started itself",
+   "date": "2026-11-04T19:13:40Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/4"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "Persona wake: leads and a what-could-exist ask; intents leave the history line",
+   "date": "2026-11-04T17:16:14Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/3"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "research and idea kinds: typed documents for what Eyes and Imagination find",
+   "date": "2026-11-04T15:01:59Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/2"
+  },
+  {
+   "kind": "pr",
+   "repo": "Huginn",
+   "title": "docs: chat retrieval authority map and cut",
+   "date": "2026-11-05T10:58:27Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/1"
+  },
+  {
+   "kind": "pr",
+   "repo": "raven-image",
+   "title": "raven-image --margin: clear edges pinned during diffusion",
+   "date": "2026-11-11T22:37:00Z",
+   "url": "https://eureka.gamecult.org/forge/GameCult/raven-image/pulls/1"
+  }
+ ]
+}

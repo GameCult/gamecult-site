@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GameCult: Shipped</title>
+  <id>https://gamecult.org/Shipped</id>
+  <link href="https://gamecult.org/Shipped"/>
+  <link rel="self" href="https://gamecult.org/static/shipped.xml"/>
+  <updated>2026-11-12T23:44:13Z</updated>
+  <entry>
+    <title>AquaSynth: aqua-listen: export panel with copy, textarea, share (Android Chrome fix)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/50</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/50"/>
+    <updated>2026-11-12T23:44:13Z</updated>
+  </entry>
+  <entry>
+    <title>Heimdall: Opt-in sign_in step-up (force_verify / prompt=login), app-authenticated, signed-state flag</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/11</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Heimdall/pulls/11"/>
+    <updated>2026-11-12T23:22:19Z</updated>
+  </entry>
+  <entry>
+    <title>Aetheria: Mining cut 4: rocks take blasts and shots through the one fire path</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/18</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/18"/>
+    <updated>2026-11-12T22:42:48Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: Python: store replace on Windows tries POSIX-semantics rename first (store-windows-py)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/149</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/149"/>
+    <updated>2026-11-12T22:40:27Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ontology-mint-probe: Train-only ontology mint call (loop mint-ontology)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/63</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/63"/>
+    <updated>2026-11-12T22:20:44Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: cultcache-ts: a pushAll through a dangling link is refused like push, not replaced</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/147</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/147"/>
+    <updated>2026-11-12T21:46:59Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-anger-mirror: ja-JP:3 bounded by hedge and affection AtMostOrUnset 599 so :3/:5 and :3/:7 never co-select</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/62</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/62"/>
+    <updated>2026-11-12T21:40:39Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: client: unconfirmed sends are visible and recovered; watchdog for a dead connection</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/123</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/123"/>
+    <updated>2026-11-12T21:35:48Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: cultnet-ts 0.4.0 release notes, range check in the npm publish gate, fixture closes build-path gaps</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/146</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/146"/>
+    <updated>2026-11-12T21:21:42Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: composer: persist the draft on input, keep unconfirmed sends in a durable outbox</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/122</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/122"/>
+    <updated>2026-11-12T21:17:30Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: en-us-6-8: en-US:8 bounded by certainty AtMostOrUnset 799 so :6 and :8 never co-select</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/61</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/61"/>
+    <updated>2026-11-12T20:56:10Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: cultcache-py: pin the variant row of extra-slot-store.cc as a refused store</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/145</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/145"/>
+    <updated>2026-11-12T20:43:56Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-surprise-certainty: ja-JP :9 states its question ending as available</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/60</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/60"/>
+    <updated>2026-11-12T20:27:19Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: Range check: build each package's own tagged version too; cultnet-ts 0.4.0</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/144</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/144"/>
+    <updated>2026-11-12T20:22:24Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: en-us-seed-pairs: en-US :3/:5/:6 disjoint by real conditions</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/59</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/59"/>
+    <updated>2026-11-12T20:18:45Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: pwa: installable manifest and Web Push stages 0-1 (dark by default)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/121</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/121"/>
+    <updated>2026-11-12T20:05:42Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-seed-pairs: make ja-JP seed pairs disjoint by conditions</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/58</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/58"/>
+    <updated>2026-11-12T19:52:15Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: cultmesh-py: pin the message_invalid answer on a tailed put under an unknown schema id</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/143</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/143"/>
+    <updated>2026-11-12T19:42:55Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Refuse production startup when the Heimdall app secret is blank</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/83</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/83"/>
+    <updated>2026-11-12T19:27:59Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-withdraw-scene-entries: withdraw onto:ja-JP:14 and :15 (net-negative on register in the paired measure)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/57</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/57"/>
+    <updated>2026-11-12T19:17:40Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: Bytes-after residual lows: depth pin, interop tags, py shard-log tail, Rust load pins</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/142</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/142"/>
+    <updated>2026-11-12T18:56:20Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-item19: encoder prompt states one role per predication and the group shape for coordination</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/56</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/56"/>
+    <updated>2026-11-12T18:48:41Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: C#: pin the one-value refusal on codec and Mesh single-file reads</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/141</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/141"/>
+    <updated>2026-11-12T18:47:44Z</updated>
+  </entry>
+  <entry>
+    <title>CultLib: Docs: single-file lock contract, leftover temp file and pair-backup procedures</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/138</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/CultLib/pulls/138"/>
+    <updated>2026-11-12T18:47:44Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Sample rate passthrough, Soul's Lows from #18/#19, #47 doc and burst-window pin</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/49</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/49"/>
+    <updated>2026-11-12T18:42:44Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-inventory-6: rev 6 concepts (try, someday, a little, as one pleases, kite flyer) and the admit-cap test</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/55</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/55"/>
+    <updated>2026-11-12T18:27:35Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: docs: chat shell compression, measured state and brotli plan</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/120</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/120"/>
+    <updated>2026-11-12T18:16:05Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-inventory: rev 5 concepts and frames for the original bed (model-drafted, Validation-informed), weksa inventory admit, onto:ja-JP:15</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/54</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/54"/>
+    <updated>2026-11-12T18:08:04Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: language-ontology-scene: scene features, one scene door, Scene-conditioned ja/en entries, runs read entries at their own head</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/53</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/53"/>
+    <updated>2026-11-12T17:22:10Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: runbook: handoff build ships the repo config.json; live check always runs</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/119</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/119"/>
+    <updated>2026-11-12T17:08:06Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Google link: pin the four test gaps, one slot owner, drop IsSignInProvider</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/82</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/82"/>
+    <updated>2026-11-12T17:02:19Z</updated>
+  </entry>
+  <entry>
+    <title>Aetheria: Credits header scan: catch (c)/lowercase/colon forms, second holders, credit-only lines</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/17</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/17"/>
+    <updated>2026-11-12T16:57:19Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: docs: client build, install, verify and rollback runbook</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/118</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/118"/>
+    <updated>2026-11-12T16:51:50Z</updated>
+  </entry>
+  <entry>
+    <title>AquaSynth: Tract weak spots re-measured (unheard): burst gain no longer leaks past its plosive; 14-clip listening kit</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/47</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/AquaSynth/pulls/47"/>
+    <updated>2026-11-12T16:49:17Z</updated>
+  </entry>
+  <entry>
+    <title>Aetheria: Credits screen: one attribution list, reachable from the main menu</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/16</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Aetheria/pulls/16"/>
+    <updated>2026-11-12T16:27:17Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Link a Google login to a signed-in member, explicit link only; Bifrost stores no Heimdall token</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/81</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/81"/>
+    <updated>2026-11-12T16:20:50Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: language-ontology-seed: model-drafted en-US and ja-JP seed entries; target-language YAML deleted</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/52</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/52"/>
+    <updated>2026-11-12T16:13:00Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: language-ontology: weksa.ontology_entry, its store, select, wired into the lowering prompt</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/51</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/51"/>
+    <updated>2026-11-12T15:12:14Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Start refusal: read headers only so the 4 KiB body bound limits the read</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/80</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/80"/>
+    <updated>2026-11-12T14:54:30Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Heimdall start refusal: log the HTTP status and Heimdall's error code</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/79</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/79"/>
+    <updated>2026-11-12T14:48:31Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: Phone and desk visual findings: notice scrim, tap areas stop at neighbours, desk affordance</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/117</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/117"/>
+    <updated>2026-11-12T14:31:18Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-panel-corpus: 28 model-written Japanese passages and 8 Aozora Bunko Test sentences</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/50</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/50"/>
+    <updated>2026-11-12T13:52:37Z</updated>
+  </entry>
+  <entry>
+    <title>Weksa: ja-panel-loop: language is the item's, the panel the run's; panel accept rule</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/49</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Weksa/pulls/49"/>
+    <updated>2026-11-12T13:51:05Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Heimdall__AppSecretFile: keep the Heimdall app secret out of the process environment</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/78</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/78"/>
+    <updated>2026-11-12T13:46:26Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: File zone share: component tests, state machine moved out of ShareSet</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/116</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/116"/>
+    <updated>2026-11-12T13:15:50Z</updated>
+  </entry>
+  <entry>
+    <title>Ratatoskr: File zone: share a set of files as one album (flag off)</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/115</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Ratatoskr/pulls/115"/>
+    <updated>2026-11-12T13:01:46Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Linux path fixes: containment by path.relative, hostile-cursor test, verify prerequisites</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/77</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/77"/>
+    <updated>2026-11-12T12:55:36Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: Mouth: follow upgrades only a plain basis; @room keeps room</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/76</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/76"/>
+    <updated>2026-11-12T12:28:40Z</updated>
+  </entry>
+  <entry>
+    <title>Bifrost: tests: dispatch-gate tests run on Linux; classify the remaining Yggdrasil failures</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/75</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Bifrost/pulls/75"/>
+    <updated>2026-11-12T12:24:53Z</updated>
+  </entry>
+  <entry>
+    <title>Huginn: mind-body: Basis::FollowUp (wire `follow`) is for the Mind</title>
+    <id>https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/65</id>
+    <link href="https://eureka.gamecult.org/forge/GameCult/Huginn/pulls/65"/>
+    <updated>2026-11-12T12:24:22Z</updated>
+  </entry>
+</feed>

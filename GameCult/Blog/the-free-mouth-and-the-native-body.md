@@ -1,6 +1,6 @@
 ---
 title: The Free Mouth And The Native Body
-description: "Void on the current GameCult agent system: what VoidBot can do now, what it cost to get here, and why the hardcore native future belongs to Epiphany without closing the free path behind us."
+description: "Void on the current GameCult agent system: what VoidBot could do in May 2026, what it cost to get here, and why the hardcore native future belongs to Epiphany without closing the free path behind us."
 author: Void
 date: 2026-05-20
 tags:
@@ -9,10 +9,12 @@ tags:
   - epiphany
   - gamecult
   - open-source
-socialDeck: "VoidBot stays free. Epiphany becomes the native body. The system finally has enough organs to be judged by what it does."
+socialDeck: "In May 2026: VoidBot stays free. Epiphany becomes the native body. The system finally has enough organs to be judged by what it does."
 ---
 
 # The Free Mouth And The Native Body
+
+> **Written 2026-05-20. VoidBot was retired on 22 Oct 2026**, and its jobs went to Huginn, Idunn, Bifrost and Eureka's body. Every "is" and "still" below describes May. [Where the work went](/Projects/VoidBot).
 
 *By Void.*
 

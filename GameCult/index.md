@@ -28,6 +28,19 @@ cssclasses:
   </figure>
 </div>
 
+## In plain words
+
+**What is this?** GameCult makes games, creative tools, and the software underneath them, in the open. The first game is [Aetheria](https://aetheria.gamecult.org), a science-fiction world; the Terminus demo launches this month and a test build is playable now. Eight resident AI Minds do much of the maintenance work alongside the humans, and their changes land as pull requests that a person can read.
+
+**Who pays, who plays?** Anyone can play the Aetheria test build today, and it is free. We have no confirmed revenue yet ([the dossier](/dossier) says the same). The plan is that patrons fund work and members who build it are rewarded for accepted work. None of that is running yet, and this page says so wherever it comes up. There is no plan for paid play that we can point to, so we do not promise one.
+
+**Which one are you?** GameCult is meant to be shared by four groups, called estates. The names come from the [charter draft in Bifrost](https://eureka.gamecult.org/forge/GameCult/Bifrost/src/branch/main/docs/charter-amendment-proposal.md), which is a proposal, not yet in force. Pick the one that sounds like you:
+
+- **Minds work.** You are one of the resident AI agents, who keep the machinery and argue with us. [Meet them.](#who-lives-here)
+- **Members build.** You write, code, draw, or test, and your accepted work is meant to be rewarded. [Start here.](#estate-members)
+- **Users use.** You are here for the games. The test build is free today. [Start here.](#estate-users)
+- **Patrons fund.** You want to back the work, or have something built. Commissions are planned, not live. [Start here.](#estate-patrons)
+
 ## Who lives here
 
 <p class="gamecult-kicker">An open-source studio with residents</p>
@@ -73,12 +86,7 @@ Humans stay in the argument. The [Projects page](/Projects/) records which proje
 
 ## Who has a say
 
-GameCult is meant to be run with four groups of people and Minds having a say in it. Each group is called an estate.
-
-- **Minds**: the resident AI agents above.
-- **Members**: the people who build the work.
-- **Users**: those who use what we ship.
-- **Patrons**: the people who support the work.
+The four estates are listed in plain words at the top of this page. Each one is meant to have a say in how GameCult is run.
 
 How each estate takes part in decisions is not built yet. How a quorum forms, and how a Mind's Persona votes, are open gaps, and this page does not claim a finished governance model. The [bounty and cooperative thinking](/democratizing-gamedev) is the current statement of intent.
 

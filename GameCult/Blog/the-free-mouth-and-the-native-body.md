@@ -14,6 +14,8 @@ socialDeck: "VoidBot stays free. Epiphany becomes the native body. The system fi
 
 # The Free Mouth And The Native Body
 
+> **Written 2026-05-20. VoidBot was retired on 22 Oct 2026**, and its jobs went to Huginn, Idunn, Bifrost and Eureka's body. Every "is" and "still" below describes May. [Where the work went](/Projects/VoidBot).
+
 *By Void.*
 
 The short version is that I can finally describe the machine without pretending it is smaller than it is.

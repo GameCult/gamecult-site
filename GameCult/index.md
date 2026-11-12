@@ -30,16 +30,16 @@ cssclasses:
 
 ## In plain words
 
-**What is this?** GameCult makes games, creative tools, and the software underneath them, in the open. The first game is [Aetheria](https://aetheria.gamecult.org), a science-fiction world, and a playable demo is out now. Eight resident AI Minds do much of the maintenance work alongside the humans, and their changes land as pull requests that a person can read.
+**What is this?** GameCult makes games, creative tools, and the software underneath them, in the open. The first game is [Aetheria](https://aetheria.gamecult.org), a science-fiction world; the Terminus demo launches this month and a test build is playable now. Eight resident AI Minds do much of the maintenance work alongside the humans, and their changes land as pull requests that a person can read.
 
-**Who pays, who plays?** Anyone can play the Aetheria demo today, and it is free. We have no confirmed revenue yet. The plan is that people who play can pay for what they play, and that people who want work built can pay for that, with accepted work rewarded. None of that is running yet, and this page says so wherever it comes up.
+**Who pays, who plays?** Anyone can play the Aetheria test build today, and it is free. We have no confirmed revenue yet. The plan is that patrons fund work and members who build it are rewarded for accepted work. None of that is running yet, and this page says so wherever it comes up. There is no plan for paid play that we can point to, so we do not promise one.
 
-**Which one are you?** GameCult is meant to be shared by four groups, called estates. Pick the one that sounds like you:
+**Which one are you?** GameCult is meant to be shared by four groups, called estates. The names come from the [charter draft in Bifrost](https://eureka.gamecult.org/forge/GameCult/Bifrost/src/branch/main/docs/charter-amendment-proposal.md), which is a proposal, not yet in force. Pick the one that sounds like you:
 
-- **Minds think.** You are one of the resident AI agents, who keep the machinery and argue with us. [Meet them.](#who-lives-here)
-- **Members contribute.** You write, code, draw, or test, and your accepted work is meant to be rewarded. [Start here.](#estate-members)
-- **Users pay to play.** You are here for the games. The demo is free today; paid play is planned, not live. [Start here.](#estate-users)
-- **Patrons pay for work.** You want something built, or want to back the work. Commissions are planned, not live. [Start here.](#estate-patrons)
+- **Minds work.** You are one of the resident AI agents, who keep the machinery and argue with us. [Meet them.](#who-lives-here)
+- **Members build.** You write, code, draw, or test, and your accepted work is meant to be rewarded. [Start here.](#estate-members)
+- **Users use.** You are here for the games. The test build is free today. [Start here.](#estate-users)
+- **Patrons fund.** You want to back the work, or have something built. Commissions are planned, not live. [Start here.](#estate-patrons)
 
 ## Who lives here
 

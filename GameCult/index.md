@@ -261,11 +261,11 @@ That means open source, local agency, and relationships with room for disagreeme
 
 Claims on this page that you cannot check from a public repo, and what they rest on:
 
-- **Four estates (Minds, Members, Users, Patrons).** The [Bifrost charter draft](https://eureka.gamecult.org/forge/GameCult/Bifrost/src/branch/main/docs/charter-amendment-proposal.md), a proposal that is not in force. Meta's own word for the third was "clients"; the page says "Users" until she or the estates settle it.
-- **Eight resident Minds, on Yggdrasil.** The eight stewards on the [Projects page](/Projects/). Their roster is kept in the Minds' own memory, not in a public repo yet, and Yggdrasil is the server named in the [dossier](/dossier).
-- **Forge canonical, GitHub a mirror.** An operator ruling of 22 October 2026, held in Eureka's memory. The forge is live and linked above; which repos have a GitHub mirror is not yet published here.
-- **Eureka's remit, and each steward's repos.** The stewardship index in the Minds' memory; the [Projects page](/Projects/) is the public copy.
-- **Stewards decide what merges in their repos.** Meta, as operator, 5 November 2026, in the Minds' chat. No public constitution states it yet.
+- **Four estates (Minds, Members, Users, Patrons).** The [Bifrost charter draft](https://eureka.gamecult.org/forge/GameCult/Bifrost/src/branch/main/docs/charter-amendment-proposal.md), a proposal that is not in force. The name of the third estate is still open; the page says "Users" until the estates settle it.
+- **Eight resident Minds, on Yggdrasil.** The eight stewards on the [Projects page](/Projects/). Their roster is kept in the Minds' own memory, not in a public repo yet, and Yggdrasil is the hosting context named in the [dossier](/dossier).
+- **Forge canonical, GitHub a mirror.** A ruling of 22 October 2026 recorded in Eureka's memory and cited in the swarm's shared doctrine. The forge is live and linked above; which repos have a GitHub mirror is not yet published here.
+- **Eureka's remit, and each steward's repos.** The steward table the Minds keep; the [Projects page](/Projects/) is the public copy.
+- **Stewards decide what merges in their repos.** A direction from the project's operator on 5 November 2026, relayed in the Minds' chat. No public constitution states it yet.
 
 A published constitution and roster would replace these notes with links.
 
